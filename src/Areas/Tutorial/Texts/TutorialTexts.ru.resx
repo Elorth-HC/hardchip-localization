@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+  <data name="Applying0ToThePMOSSGateActivatesItAllowingONLY1GoingThroughIt" xml:space="preserve">
+    <value>Подача 0 на затвор ПМОП активирует его,
+позволяя проходить ТОЛЬКО состоянию 1.</value>
+  </data>
+  <data name="TipToDoACuboidSelectHoldLeftCTRLWhileSelectingOrDeleting" xml:space="preserve">
+    <value>Совет: чтобы выделять кубоидом,
+удерживайте левый CTRL при выборе или удалении.</value>
+  </data>
+  <data name="DoingSoWillSTOPTheValidationProcess" xml:space="preserve">
+    <value>Это действие ОСТАНОВИТ процесс проверки.</value>
+  </data>
+  <data name="MOSHas2MajorPartsTheGate" xml:space="preserve">
+    <value>У МОП есть 2 основные части: затвор...</value>
+  </data>
+  <data name="BUTYouCanTestDifferentINPUTSSeedingStateByClickingOnIt" xml:space="preserve">
+    <value>НО Вы можете протестировать разные значения ВХОДА,
+кликнув по метке рядом с ним.</value>
+  </data>
+  <data name="AtAnyPointYouCanGetHintsAndHelpFromTheButton" xml:space="preserve">
+    <value>В любой момент вы можете получить подсказки и помощь
+через кнопку '?'.</value>
+  </data>
+  <data name="TestWithTheClickMeInputAtLeastOnceThenValidate" xml:space="preserve">
+    <value>Протестируйте, нажав на ВХОД "Click Me!" хотя бы один раз,
+затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="ThisDIENeedsToFullfillASimpleTaskOutputingWhatItReceivesOnTheInput" xml:space="preserve">
+    <value>Этот КРИСТАЛЛ должен осуществить
+простую задачу: передавать на ВЫХОД то,
+что получает на ВХОД.</value>
+  </data>
+  <data name="SpecialShapeMOSCanHaveTwoGatesAndShareTheSameChannel" xml:space="preserve">
+    <value>МОП особой формы может иметь два затвора
+и общий канал.</value>
+  </data>
+  <data name="SEPARATETRACEsABAndCThenVALIDATE" xml:space="preserve">
+    <value>РАЗЪЕДИНИТЕ соединения A, B и C. Затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="ItProvidesOptionalStepsToBuildTheChipForEachLevel" xml:space="preserve">
+    <value>Она предлагает вариант действий для сборки чипа на каждом уровне.</value>
+  </data>
+  <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
+    <value>В противном случае ВСЕ блоки вернутся
+в свое естественное НЕЙТРАЛЬНОЕ состояние.</value>
+  </data>
+  <data name="UseTheSCHEMATICOrNotToBuildAnINVERTERThenVALIDATE" xml:space="preserve">
+    <value>Используйте СХЕМУ (или нет), чтобы собрать ИНВЕРТОР, затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="YouCantUseTraceHereOnlyPMOSFromTheBottomBuildMenu" xml:space="preserve">
+    <value>Здесь нельзя использовать МЕТАЛЛ - только ПМОП
+из нижнего меню построения.</value>
+  </data>
+  <data name="ApplyingA0DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>Подача 0 деактивирует его, блокируя
+прохождение ЛЮБОГО состояния через него.</value>
+  </data>
+  <data name="TheDIESizeWasFixedUntilNowNowTheSizeWillBeDynamicToTheRightAndBottomDirection" xml:space="preserve">
+    <value>До сих пор размер КРИСТАЛЛА был фиксирован; теперь
+он динамически расширяется вправо и вниз.</value>
+  </data>
+  <data name="ConnectTheNMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Подключите НМОП должным образом, затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="TryRemovingAnyBlockInThisColumnAndThenValidateToCompactTheDie" xml:space="preserve">
+    <value>Попробуйте убрать любой блок в этом столбце,
+а затем выполните проверку, чтобы уплотнить кристалл.</value>
+  </data>
+  <data name="ThisIsAnOUTPUTBlockItReceivesTheSignalProcessedByTheDIE" xml:space="preserve">
+    <value>Этот блок - ВЫХОД, он принимает
+сигнал, обработанный КРИСТАЛЛОМ.</value>
+  </data>
+  <data name="ConnectTheINPUTToTheOUTPUTThenVALIDATE" xml:space="preserve">
+    <value>Подключите ВХОД к ВЫХОДУ, затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="SomeValidationRequiresMultipleStepsEachStepHasItsOwnRequirementAllAreListedOnTopHere" xml:space="preserve">
+    <value>Проверки обычно требуют нескольких шагов.
+Каждый шаг имеет свои требования.
+Все перечислены вверху экрана.</value>
+  </data>
+  <data name="ItWouldBeVeryInefficientToRebuildEveryCircuitFromScratch" xml:space="preserve">
+    <value>Было бы крайне неэффективно
+собирать каждую схему с нуля.</value>
+  </data>
+  <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
+    <value>Вы можете использовать клавишу R, чтобы поворачивать ПМОП/НМОП
+или любую выделенную группу блоков.</value>
+  </data>
+  <data name="HereSTheNegativeNumberRepresentationCompatibleOutput" xml:space="preserve">
+    <value>Вот вывод, совместимый с представлением отрицательных чисел.</value>
+  </data>
+  <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
+    <value>Иногда соединения бывает непросто разместить так,
+чтобы они не соприкасались с другими.</value>
+  </data>
+  <data name="ToIsolateTRACEsFromEachOtherTheyMustHaveAtLeast1EmptySpaceBetweenThemInAnyDirectionOtherwiseTheyAreConnected" xml:space="preserve">
+    <value>Чтобы изолировать линии МЕТАЛЛА друг от друга, между ними
+должна быть хотя бы одна пустая ячейка в любом направлении.
+В противном случае они соединены.</value>
+  </data>
+  <data name="HereSAMOSFETAndMovingForwardWeLlReferToItAsMOS" xml:space="preserve">
+    <value>Вот МОП полевой транзистор, и далее мы будем называть его МОП.</value>
+  </data>
+  <data name="CreateAMERGEDPMOSWith2GATESThenVALIDATE" xml:space="preserve">
+    <value>Создайте ОБЪЕДИНЁННЫЙ ПМОП с двумя ЗАТВОРАМИ,
+затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="MostOfTheTimeASCHEMATICIsAvailableWithTheChipButtonOnTopHere" xml:space="preserve">
+    <value>Чаще всего есть СХЕМА, доступная по кнопке "чип" наверху.</value>
+  </data>
+  <data name="TheBlueStripsHelpToDifferentiateTheNMOSFromAPMOSWhichAreRed" xml:space="preserve">
+    <value>Синие полосы помогают отличить НМОП от ПМОП (у ПМОП полосы красные).</value>
+  </data>
+  <data name="DoingSoWillShiftAnyOutputToTheNewEdgeLocation" xml:space="preserve">
+    <value>При этом любые выходы сместятся к новому краю кристалла.</value>
+  </data>
+  <data name="RepresentingNegativeNumberSignedNumberCanTBeDoneWithThePreviousSolutionsAsIs" xml:space="preserve">
+    <value>Представление отрицательного числа (со знаком)
+нельзя выполнить с использованием предыдущих решений в их текущем виде.</value>
+  </data>
+  <data name="EachStepIsVerifiedInOrderOneAfterTheOtherIfAStepFailsToBeVerifiedTheValidationStops" xml:space="preserve">
+    <value>Каждый шаг проверяется по порядку один за другим.
+Если какой-то шаг не проходит проверку,
+процесс проверки останавливается.</value>
+  </data>
+  <data name="ApplyingA1ToTheNMOSSGateActivatesItAllowingONLY0GoingThroughIt" xml:space="preserve">
+    <value>Подача 1 на затвор НМОП активирует его,
+позволяя проходить ТОЛЬКО состоянию 0.</value>
+  </data>
+  <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
+    <value>Блоки ВХОД передают состояние 1 или 0
+на соседние блоки МЕТАЛЛА.</value>
+  </data>
+  <data name="ThisOneBlockIsASUBSTRATEBlockSeeItAsTheSupportForEverythingElse" xml:space="preserve">
+    <value>Этот блок - ПОДЛОЖКА. Воспринимайте его,
+как основа для всего остального.</value>
+  </data>
+  <data name="INFOFULLREPORTUNLOCKED" xml:space="preserve">
+    <value>ИНФО: ПОЛНЫЙ ОТЧЕТ РАЗБЛОКИРОВАН.</value>
+  </data>
+  <data name="WhenYouValidateAnyEmptyContiguousSpacesWillAutomaticalyBeRemoved" xml:space="preserve">
+    <value>При ПРОВЕРКЕ все пустые смежные области
+будут АВТОМАТИЧЕСКИ удалены.</value>
+  </data>
+  <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
+    <value>Используйте кнопку HELP наверху или попробуйте подключить ПМОП самостоятельно.</value>
+  </data>
+  <data name="AddTRACESUpByHoldingLEFTCLICKAndThenMOUSEMOVEUpWhileHoldingCTRLDOWN" xml:space="preserve">
+    <value>Добавьте МЕТАЛЛ вверх, для этого зажмите левую кнопку мыши и затем
+проведите курсором вверх при нажатой клавише CTRL.</value>
+  </data>
+  <data name="ThisIsTheNumberRepresentationUsedSoFar" xml:space="preserve">
+    <value>Вот используемое до этого представление чисел.</value>
+  </data>
+  <data name="IMHereToHelpTrustInTheGuidanceIOfferForMyOnlyAimIsToLeadYouToResolution" xml:space="preserve">
+    <value>Я здесь, чтобы помочь. Доверьтесь моим советам, ведь
+моя единственная цель - привести Вас к разрешению.</value>
+  </data>
+  <data name="UseTheBLUEPRINTModeToPlaceAnINVERTEROntoTheDIEThenVALIDATE" xml:space="preserve">
+    <value>Используйте режим ЧЕРТЕЖИ, чтобы разместить ИНВЕРТОР на КРИСТАЛЛЕ, затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="ToIsolateThe2INPUTSFromEachOtherHoldALTDownAndClickOnATRACEToRemoveIt" xml:space="preserve">
+    <value>Чтобы изолировать два ВХОДА друг от друга, удерживайте "ALT"
+и щелкните по блоку МЕТАЛЛА, чтобы его удалить.</value>
+  </data>
+  <data name="AreaTooLarge" xml:space="preserve">
+    <value>Площадь слишком велика</value>
+  </data>
+  <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
+    <value>Блоки МЕТАЛЛ, ВХОД и ВЫХОД могут иметь 3 состояния:
+1 (красный),
+0 (синий),
+_ (так называемый НЕЙТРАЛЬНЫЙ, серый).</value>
+  </data>
+  <data name="ThisIsTheDIEItIsComposedOfTheEntireSetOfAllBlocks" xml:space="preserve">
+    <value>Это - КРИСТАЛЛ, он является
+совокупностью всех блоков.</value>
+  </data>
+  <data name="UseTheCompactingTheInverterBlueprintThenValidate" xml:space="preserve">
+    <value>Используйте чертеж "Compacting the Inverter", затем проверьте.</value>
+  </data>
+  <data name="NMOSNegativeMOSAreTheExactOppositeOfPMOS" xml:space="preserve">
+    <value>НМОП (МОП с Негативным каналом) - это полная противоположность ПМОП.</value>
+  </data>
+  <data name="ASmallTwistCanBringThatRepresentationWhileStillReusingAllPreviousSolutions" xml:space="preserve">
+    <value>Небольшое изменение позволит получить это представление,
+все ещё используя все предыдущие решения.</value>
+  </data>
+  <data name="Connecting2INPUTSWithTheOPPOSITEStates1And0WillResultInASHORTCIRCUIT" xml:space="preserve">
+    <value>Соединение двух ВХОДОВ с ПРОТИВОПОЛОЖНЫМИ состояниями 1 и 0
+приведет к КОРОТКОМУ ЗАМЫКАНИЮ.</value>
+  </data>
+  <data name="ConnectINPUTAndOUTPUTWithoutSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>Подключите ВХОД и ВЫХОД без КОРОТКОГО ЗАМЫКАНИЯ, затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="ThisOneMOSIsAPMOSPositiveMOSItActsLikeASwitchThatCanBeEitherActivatedOrDeactivatedByAnyGivenState" xml:space="preserve">
+    <value>Этот МОП - ПМОП (имеет Положительный канал). Он работает
+как переключатель, который может быть открыт или закрыт
+заданным состоянием.</value>
+  </data>
+  <data name="AndTheChannel" xml:space="preserve">
+    <value>... и канал.</value>
+  </data>
+  <data name="EachStageSavesYourPassingCircuitAsABLUEPRINTTooForYouToUseYouCanCreateEditYourOwnAsWell" xml:space="preserve">
+    <value>Каждый уровень также сохраняет Вашу последнюю схему
+как ЧЕРТЁЖ для Вашего использования.
+Вы также можете создавать и редактировать свои собственные чертежи.</value>
+  </data>
+  <data name="Applying1DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>Подача 1 деактивирует его, блокируя
+прохождение ЛЮБОГО состояния через него.</value>
+  </data>
+  <data name="ToReuseWhatYouAlreadyBuiltSaveAnyCircuitAsABLUEPRINTAndThenJustSelectItToGetACopyForPlacement" xml:space="preserve">
+    <value>Чтобы повторно использовать то, что Вы уже собрали,
+сохраните схему как ЧЕРТЁЖ, а затем просто выберите её,
+чтобы получить копию для размещения.</value>
+  </data>
+  <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
+    <value>Зажмите левый CTRL и левую кнопку мыши,
+затем двигайте курсор вверх, чтобы добавить МЕТАЛЛ вертикально.</value>
+  </data>
+  <data name="TRACESCanOnlyTransferOneStateAtATimeButMOSFETMetalOxideSemiconductorsFieldEffectTransistorCanReactToStates" xml:space="preserve">
+    <value>МЕТАЛЛ может только передавать одно состояние за раз. 
+Но МОП полевой транзистор (Металл Оксид Полупроводник)
+может реагировать на разные состояния!</value>
+  </data>
+  <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>Устраните КОРОТКОЕ ЗАМЫКАНИЕ, затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="BuildASolutionThatMeetsTheCRITERIAThenVALIDATE" xml:space="preserve">
+    <value>Постройте решение, соответствующее КРИТЕРИЯМ, затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="SetINDIVIDUALINPUTBITSToMatchTheOUTPUTValueThenMANUALLYVALIDATEStepByStep" xml:space="preserve">
+    <value>Установите КАЖДЫЙ ВХОДНОЙ БИТ, чтобы соответствовать значению ВЫВОДА,
+затем ВРУЧНУЮ ПРОВЕРЬТЕ каждый этап.</value>
+  </data>
+  <data name="IfYouNeedMoreSpaceJustBuildOutsideTheDIEToExtendIt" xml:space="preserve">
+    <value>Если вам нужно больше места, просто постройте
+за пределами КРИСТАЛЛА, чтобы его расширить.</value>
+  </data>
+  <data name="WhenYouHaveCompletedYourDIELaunchTheVerificationWithTheVALIDATEButton" xml:space="preserve">
+    <value>Когда Вы закончите Ваш КРИСТАЛЛ, запустите
+проверку, нажав кнопку "ПРОВЕРИТЬ".</value>
+  </data>
+  <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
+    <value>ВХОДЫ управляются процессом проверки
+с момента как Вы нажмете "ПРОВЕРИТЬ".</value>
+  </data>
+  <data name="ThisIsAnINPUTBlockItProvidesSignalToTheDIEToProcessIt" xml:space="preserve">
+    <value>Этот блок - ВХОД, он предоставляет
+сигнал КРИСТАЛЛУ для обработки.</value>
+  </data>
+  <data name="FollowingTheCriteriaInputAMustBeConnectedToOutputAButNotToOutputBNorC" xml:space="preserve">
+    <value>Согласно критериям:
+Вход A должен быть подключен к Выходу A,
+но не к Выходам B или C.</value>
+  </data>
+  <data name="ASHORTCIRCUITWillPreventTheDIEFromProperlyFunctioningInUnexpectedWays" xml:space="preserve">
+    <value>КОРОТКОЕ ЗАМЫКАНИЕ предотвратит правильную работу КРИСТАЛЛА
+непредвиденным образом.</value>
+  </data>
+  <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
+    <value>Чтобы соединить ВХОД и ВЫХОД, используйте
+блок МЕТАЛЛА, и затем щелкните по любому
+блоку ПОДЛОЖКИ, чтобы разместить его.</value>
+  </data>
+  <data name="MOSCanTakeDifferentShapesNotLimitedToThe3x2x3Blocks" xml:space="preserve">
+    <value>МОП может принимать различные формы
+и не ограничен блоками 3x2x3.</value>
+  </data>
+  <data name="ChangeTheINPUTAtLeastOnceThenVALIDATE" xml:space="preserve">
+    <value>Измените состояние ВХОД хотя бы один раз, затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="ConnectThePMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Подключите ПМОП должным образом, затем ПРОВЕРЬТЕ.</value>
+  </data>
+  <data name="COMPACTAndOPTIMIZETheINVERTERThenVALIDATE" xml:space="preserve">
+    <value>УПЛОТНИТЕ и ОПТИМИЗИРУЙТЕ ИНВЕРТОР, затем ПРОВЕРЬТЕ.</value>
+  </data>
+</root>

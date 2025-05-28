@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- 
+		Microsoft ResX Schema
+		Version 1.3
+		(Struktur und Kommentare unverändert)
+  -->
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+
+    <!-- resheader unverändert -->
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <!-- ==================== DATA ==================== -->
+
+    <data name="FirstScreenEver" xml:space="preserve">
+    <value>r93ERROR_CODE: 0x00FAB4 Allgemeiner Fehler. Nicht spezifizierter Fehler aufgetreten.
+r90
+r93ERROR_CODE: 0x03FAA3 E/A-Fehler. Gerät reagiert nicht.
+r90
+r93ERROR_CODE: 0x04FAB9 Netzwerk-Timeout. Verbindung getrennt.
+r90
+r93ERROR_CODE: 0x02FAC2 Speicherüberlauf. Prozess unerwartet beendet.
+r90
+r93ERROR_CODE: 0x00FFB4 Spannungsspitze. Schäden an elektronischen Komponenten wahrscheinlich. Stromverteilungssysteme im Sicherheitsmodus.
+r90
+r90ERROR_CODE: ?x?????? hallo
+r90
+r93ERROR_CODE: 0x01FAB1 Kritischer Fehler. Systemneustart erforderlich.</value>
+  </data>
+
+    <data name="StatusBroken" xml:space="preserve">
+    <value>g90Diagnose wird ausgeführt...              
+g90
+g91Autonomer Generator v156.5.9870
+g93 Strukturelle Integrität: [OK]
+g92 Steuersysteme: [OK]
+g90
+r90 Aktueller Status: NICHT ANSPRECHBAR
+g90 Aktuelle Leistungsabgabe: 0.1%%
+g90
+w90Letzte Logeinträge:
+r92 ERROR_CODE: 0x00FFB4 Spannungsspitze. Schäden an elektronischen Komponenten wahrscheinlich. Stromverteilungssysteme im Sicherheitsmodus.
+r92 ERROR_CODE: 0x01FAB1 Kritischer Fehler. Systemneustart erforderlich.
+g90
+y39Sofortiges Handeln erforderlich: Starte neu.</value>
+  </data>
+
+    <data name="RebootFix" xml:space="preserve">
+    <value>y90Erzwinge Neustart...
+g90
+g92Stoppe alle Generator-Subsysteme...
+g93Aktiviere Notabschaltung der Stromversorgung...
+g94Eindämmungsfelder stabilisieren sich... [OK]
+g92Kraftstoffzufuhrventile verriegelt... [OK]
+g92Thermoregulierungssysteme leiten Abkühlphase ein... [OK]
+g90Trenne vom Hauptstromnetz... [OK]
+g90Speichere letzte bekannte Konfiguration... [OK]
+g90
+g97Alle Subsysteme angehalten. Generatorstatus [OFFLINE].
+g90
+g90
+g90=========================================================================
+g90Autonomer Generator v156.5.9870
+g90=========================================================================
+g90
+g96Kernsystemprüfung...
+g90Alle Systeme [OK]
+g90
+g92Starte Hochlaufsequenz...
+g93Fahre Steuersysteme hoch... [OK]
+r94Stelle Verbindung zum Stromnetz her... [FEHLER]
+g92Kalibriere Energieeindämmungsfelder... [OK]
+g93Aktiviere Thermoregulationssysteme... [OK]
+g92Öffne Kraftstoffzufuhrventile... [OK]
+g99Starte Stromverteilungssysteme... [OK]
+g99Bewerte Leistungsniveau... [OK]
+g91Synchronisiere mit externen Steuerschnittstellen... [OK]
+g90
+g90Neustartsequenz abgeschlossen. Generatorstatus: BETRIEBSBEREIT.</value>
+  </data>
+
+    <data name="InitialScreenFixed" xml:space="preserve">
+    <value>g90=========================================================================
+g90Autonomer Generator v156.5.9870
+g90=========================================================================
+g90
+g90Kernsystemprüfung...
+g90Alle Systeme [OK]
+g90
+g90Starte Hochlaufsequenz...
+g90Fahre Steuersysteme hoch... [OK]
+r90Stelle Verbindung zum Stromnetz her... [FEHLER]
+g90Kalibriere Energieeindämmungsfelder... [OK]
+g90Aktiviere Thermoregulationssysteme... [OK]
+g90Öffne Kraftstoffzufuhrventile... [OK]
+g90Starte Stromverteilungssysteme... [OK]
+g90Bewerte Leistungsniveau... [OK]
+g90Synchronisiere mit externen Steuerschnittstellen... [OK]
+g90
+g90Neustartsequenz abgeschlossen. Generatorstatus: BETRIEBSBEREIT.</value>
+  </data>
+
+    <data name="StatusFixed" xml:space="preserve">
+    <value>g90Generatorstatus: BETRIEBSBEREIT.</value>
+  </data>
+
+    <data name="StatusFixedForever" xml:space="preserve">
+    <value>g90
+g90Generatorstatus: BETRIEBSBEREIT.</value>
+  </data>
+</root>

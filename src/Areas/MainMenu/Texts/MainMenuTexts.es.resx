@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <data name="BonusStages" xml:space="preserve">
+    <value>Fases extra</value>
+  </data>
+    <data name="FinishTheByteAdderChipToUnlock" xml:space="preserve">
+    <value>Termina el chip Sumador de Byte para desbloquear.</value>
+  </data>
+    <data name="ComingSoon" xml:space="preserve">
+    <value>Próximamente.</value>
+  </data>
+    <data name="ReachTheALUChipMapToUnlock" xml:space="preserve">
+    <value>Llega al mapa del chip ALU para desbloquear.</value>
+  </data>
+    <data name="FinishTheInverterChipMapToUnlock" xml:space="preserve">
+    <value>Termina el mapa del chip Inversor para desbloquear.</value>
+  </data>
+    <data name="LinksBugsCommentsOrFeedback" xml:space="preserve">
+    <value>Enlaces: ¿errores, comentarios o sugerencias?</value>
+  </data>
+    <data name="CommentsSuggestionsBugReportOnHardChipSDiscord" xml:space="preserve">
+    <value>¡Comentarios/Sugerencias/Informe de errores en el Discord de Hard Chip!</value>
+  </data>
+    <data name="ShareYourCreationOnTwitterWithHardchipgameOrHardchipgame" xml:space="preserve">
+    <value>¡Comparte tu creación en Twitter con #hardchipgame o @hardchipgame!</value>
+  </data>
+    <data name="PostYourCreationOnHardChipSSubreddit" xml:space="preserve">
+    <value>¡Publica tu creación en el subreddit de Hard Chip!</value>
+  </data>
+    <data name="JoinHardChipSSteamCommunity" xml:space="preserve">
+    <value>¡Únete a la comunidad de Hard Chip en Steam!</value>
+  </data>
+    <data name="MusicMEGAS" xml:space="preserve">
+    <value>Música: MEGAS </value>
+  </data>
+    <data name="QuickUpdates" xml:space="preserve">
+    <value>Actualizaciones rápidas</value>
+  </data>
+    <data name="AllPatchNotes" xml:space="preserve">
+    <value>Todas las notas de parche</value>
+  </data>
+    <data name="AllTheUpdatesOnSteam" xml:space="preserve">
+    <value>¡Todas las actualizaciones en Steam!</value>
+  </data>
+    <data name="WishlistHardChipOnSteam" xml:space="preserve">
+    <value>¡Añade Hard Chip a tu lista de deseados en Steam!</value>
+  </data>
+    <data name="UnavailableInTheDemo" xml:space="preserve">
+    <value>No disponible en la demo.</value>
+  </data>
+</root>

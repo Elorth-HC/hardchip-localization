@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Completion" xml:space="preserve">
+    <value>completion </value>
+    <comment>Completion phrase in the chip map, on top right of the title</comment>
+  </data>
+  <data name="UnlockNextSection" xml:space="preserve">
+    <value>Unlock next section</value>
+  </data>
+  <data name="ChipReady" xml:space="preserve">
+    <value>Chip ready!</value>
+  </data>
+  <data name="Fabricate" xml:space="preserve">
+    <value>Fabricate</value>
+  </data>
+  <data name="IncompleteChip" xml:space="preserve">
+    <value>Incomplete chip</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status: {0}
+Grade: {1}</value>
+    <comment>Status: Completed/NotStarted/etc</comment>
+  </data>
+  <data name="Subtraction" xml:space="preserve">
+    <value>Subtraction</value>
+  </data>
+  <data name="LogicGates" xml:space="preserve">
+    <value>Logic gates</value>
+  </data>
+  <data name="Additions" xml:space="preserve">
+    <value>Addition</value>
+  </data>
+  <data name="BonusStages" xml:space="preserve">
+    <value>Bonus Stages</value>
+  </data>
+  <data name="LogicGates3" xml:space="preserve">
+    <value>Logic gates 3</value>
+  </data>
+  <data name="Counters" xml:space="preserve">
+    <value>Counters</value>
+  </data>
+  <data name="Decoders" xml:space="preserve">
+    <value>Decoders</value>
+  </data>
+  <data name="Multiplexers" xml:space="preserve">
+    <value>Multiplexers</value>
+  </data>
+  <data name="Transceivers" xml:space="preserve">
+    <value>Transceivers</value>
+  </data>
+  <data name="Adders" xml:space="preserve">
+    <value>Adders</value>
+  </data>
+  <data name="Multipliers" xml:space="preserve">
+    <value>Multipliers</value>
+  </data>
+  <data name="Uncategorized" xml:space="preserve">
+    <value>Uncategorized</value>
+  </data>
+  <data name="Traces" xml:space="preserve">
+    <value>Traces</value>
+  </data>
+  <data name="Transistors" xml:space="preserve">
+    <value>Transistors</value>
+  </data>
+  <data name="InverterNOT" xml:space="preserve">
+    <value>Inverter (NOT)</value>
+  </data>
+  <data name="InverterChip" xml:space="preserve">
+    <value>Inverter Chip</value>
+  </data>
+  <data name="BypassChip" xml:space="preserve">
+    <value>Bypass Chip</value>
+  </data>
+  <data name="ByteRegisterChip" xml:space="preserve">
+    <value>Byte Register Chip</value>
+  </data>
+  <data name="MemoryBit" xml:space="preserve">
+    <value>Memory Cells</value>
+  </data>
+</root>

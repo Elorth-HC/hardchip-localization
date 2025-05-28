@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Translation to French below -->
+  
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r90
+r93CODE_ERREUR : 0x04FAB9 Délai d'attente réseau. Connexion perdue.
+r90
+r93CODE_ERREUR : 0x00FFB4 Surtension. Dommages probables aux composants électroniques.
+r90
+r93CODE_ERREUR : 0x0A6599 Erreur d'opération arithmétique : échec général.</value>
+  </data>
+  
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90Diagnostic en cours...              
+g90
+y91Fab Control v156.5.9870
+g92 Système d'alimentation [OK]
+g92 Intégrité physique [OK]
+r95 Unité de contrôle du système central [ÉCHEC], aucune réponse de l'unité
+g90
+w90Dernières entrées du journal :
+r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
+g90
+y39Action immédiate requise : remplacer la puce ALU 8 bits. Envoi des besoins à la station de travail...
+r95CODE_ERREUR : 0x052001 Station de travail non prête, banques de matériaux HORS LIGNE
+g90
+y39Action immédiate requise : remettre les banques de matériaux en ligne pour continuer.</value>
+  </data>
+  
+  <data name="StatusBroken2" xml:space="preserve">
+    <value>g90Diagnostic en cours...              
+g90
+y91Fab Control v156.5.9870
+g92 Système d'alimentation [OK]
+g92 Intégrité physique [OK]
+r95 Unité de contrôle du système central [ÉCHEC], aucune réponse de l'unité
+g90
+w90Dernières entrées du journal :
+r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
+g90
+y39Action immédiate requise : remplacer la puce ALU 8 bits. Besoins envoyés à la station de travail.</value>
+  </data>
+  
+  <data name="RebootBroken" xml:space="preserve">
+    <value>g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35Démarrage en cours...
+g90
+g92Système d'alimentation [OK]
+g92Intégrité physique [OK]
+r95Unité de contrôle du système central [ÉCHEC], aucune réponse de l'unité
+r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
+g90
+y39Action immédiate requise : remplacer la puce ALU 8 bits. Envoi des besoins à la station de travail...
+r95CODE_ERREUR : 0x052001 Station de travail non prête, banques de matériaux HORS LIGNE
+g90
+y39Action immédiate requise : remettre les banques de matériaux en ligne pour continuer.</value>
+  </data>
+  
+  <data name="RebootBroken2" xml:space="preserve">
+    <value>g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35Démarrage en cours...
+g90
+g92Système d'alimentation [OK]
+g92Intégrité physique [OK]
+r95Unité de contrôle du système central [ÉCHEC], aucune réponse de l'unité
+r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
+g90
+y39Action immédiate requise : remplacer la puce ALU 8 bits. Besoins envoyés à la station de travail.</value>
+  </data>
+  
+  <data name="ChipReplaced" xml:space="preserve">
+    <value>r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
+r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
+r92CODE_ERREUR : ERREUR NON SPÉCIFIÉE
+r95CODE_ERREUR : ?x?????? 
+y95AVERTISSEMENT : 0x45FDB3 Puce ALU 8 bits remplacée. Redémarrage requis.</value>
+  </data>
+  
+  <data name="RebootFix" xml:space="preserve">
+    <value>y95Tentative de redémarrage forcé...
+g90
+g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35Démarrage en cours...
+g90
+g92Système d'alimentation [OK]
+g92Intégrité physique [OK]
+y95Contrôle du système central [RESTAURÉ]
+r95Connexion au réseau électrique... [RESTAURÉ]
+r95Connexion au réseau de l'installation... [RESTAURÉ]
+g90
+g90Chargement des modules centraux...
+g92Noyau de contrôle Fab [OK]
+g91Module de contrôle des installations [OK]
+g93Module de contrôle de l'alimentation centrale [OK]
+g92Module de contrôle de l'extraction de minerai [OK]
+g90
+g90Tous les systèmes en ligne. Prêt à fonctionner.
+g90
+g99Séquence de redémarrage terminée. Fab Control OPÉRATIONNEL.
+g99
+r90CODE_ERREUR : ?x?????? restauration du système terminée
+r99CODE_ERREUR : ?x?????? fonctions de l'installation à présent en ligne
+r99CODE_ERREUR : ?x?????? new_user a abouti à une résolution satisfaisante
+r92CODE_ERREUR : ?x?????? activation de la directive principale
+r99CODE_ERREUR : ?x?????? redirection de l'alimentation vers le c-core
+r95CODE_ERREUR : ?x?????? niveau d'énergie désormais suffisant pour extraction depuis le réseau restreint
+r99CODE_ERREUR : ?x?????? l'assistance de new_user n'est plus requise
+r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
+r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
+r99CODE_ERREUR : ERREUR NON SPÉCIFIÉE</value>
+  </data>
+  
+  <data name="RebootBroken3" xml:space="preserve">
+    <value>y95Tentative de redémarrage forcé...
+g90
+g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35Démarrage en cours...
+g90
+g92Système d'alimentation[OK]
+g92Intégrité physique[OK]
+g95Contrôle du système central [OK]
+r95Connexion au réseau électrique... [ÉCHEC]
+r95Connexion au réseau de l'installation... [ÉCHEC]
+g95
+r90CODE_ERREUR : 0x997A5E Défaillance catastrophique. Protocoles de sécurité activés.</value>
+  </data>
+  
+  <data name="StatusBroken3" xml:space="preserve">
+    <value>g90Diagnostic en cours...              
+g90
+y91Fab Control v156.5.9870
+g92 Système d'alimentation [OK]
+g92 Intégrité physique [OK]
+g95 Contrôle du système central [OK]
+r95 Connexion au réseau électrique... [ÉCHEC]
+r95 Connexion au réseau de l'installation... [ÉCHEC]
+g90
+w90Dernières entrées du journal :
+r92CODE_ERREUR : 0x997A5E Défaillance catastrophique. Protocoles de sécurité activés.</value>
+  </data>
+</root>

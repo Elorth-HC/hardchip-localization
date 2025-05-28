@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RebootFix" xml:space="preserve">
+    <value>y95Попытка принудительной перезагрузки...
+g90
+g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35Загрузка...
+g90
+g92Энергосистема [OK]
+g92Физическая целостность [OK]
+y95Управление ядром системы [ВОССТАНОВЛЕНО]
+r95Установка соединения с энергосистемой... [ВОССТАНОВЛЕНО]
+r95Соединение с сетью комплекса... [ВОССТАНОВЛЕНО]
+g90
+g90Загрузка основных модулей...
+g92Ядро Fab control [OK]
+g91Модуль управления комплексом [OK]
+g93Модуль центрального управления энергией [OK]
+g92Модуль управления добычей руды [OK]
+g90
+g90Все системы в сети. Готово к работе.
+g90
+g99Процесс перезагрузки завершен. Fab Control РАБОТОСПОСОБЕН.
+g99
+r90КОД_ОШИБКИ: ?x?????? восстановление системы завершено
+r99КОД_ОШИБКИ: ?x?????? функции комплекса теперь в сети
+r99КОД_ОШИБКИ: ?x?????? new_user привел(а) к удовлетворительному результату
+r92КОД_ОШИБКИ: ?x?????? инициируется основная директива
+r99КОД_ОШИБКИ: ?x?????? перенаправление энергии на c-core
+r95КОД_ОШИБКИ: ?x?????? уровень энергии теперь достаточен для извлечения из ограниченной сети
+r99КОД_ОШИБКИ: ?x?????? помощь new_user больше не требуется
+r90КОД_ОШИБКИ: НЕУКАЗАННАЯ ОШИБКА
+r90КОД_ОШИБКИ: НЕУКАЗАННАЯ ОШИБКА
+r99КОД_ОШИБКИ: НЕУКАЗАННАЯ ОШИБКА</value>
+  </data>
+  <data name="RebootBroken3" xml:space="preserve">
+    <value>y95Попытка принудительной перезагрузки...
+g90
+g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35Загрузка...
+g90
+g92Энергосистема[OK]
+g92Физическая целостность[OK]
+g95Управление ядром системы [OK]
+r95Установка соединения с энергосистемой... [ОТКАЗ]
+r95Соединение с сетью комплекса... [ОТКАЗ]
+g95
+r90КОД_ОШИБКИ: 0x997A5E Критический сбой. Активированы протоколы безопасности.</value>
+  </data>
+  <data name="RebootBroken2" xml:space="preserve">
+    <value>g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35Загрузка...
+g90
+g92Энергосистема [OK]
+g92Физическая целостность [OK]
+r95Блок управления ядром ОТКАЗ, устройство не отвечает
+r92КОД_ОШИБКИ: 0xEFDFB4 Поврежден 8-битный чип ALU
+g90
+y39Требуются немедленные действия: замените 8-битный чип ALU. Требования отправлены на рабочую станцию.</value>
+  </data>
+  <data name="StatusBroken2" xml:space="preserve">
+    <value>g90Запуск диагностики...              
+g90
+y91Fab Control v156.5.9870
+g92 Энергосистема [OK]
+g92 Физическая целостность [OK]
+r95 Блок управления ядром ОТКАЗ, устройство не отвечает
+g90
+w90Последние записи журнала:
+r92КОД_ОШИБКИ: 0xEFDFB4 Поврежден 8-битный чип ALU
+g90
+y39Требуются немедленные действия: замените 8-битный чип ALU. Требования отправлены на рабочую станцию.</value>
+  </data>
+  <data name="StatusBroken3" xml:space="preserve">
+    <value>g90Запуск диагностики...              
+g90
+y91Fab Control v156.5.9870
+g92 Энергосистема [OK]
+g92 Физическая целостность [OK]
+g95 Управление ядром системы [OK]
+r95 Установка соединения с энергосистемой... [ОТКАЗ]
+r95 Соединение с сетью комплекса... [ОТКАЗ]
+g90
+w90Последние записи журнала:
+r92КОД_ОШИБКИ: 0x997A5E Критический сбой. Активированы протоколы безопасности.</value>
+  </data>
+  <data name="RebootBroken" xml:space="preserve">
+    <value>g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35Загрузка...
+g90
+g92Энергосистема [OK]
+g92Физическая целостность [OK]
+r95Блок управления ядром ОТКАЗ, устройство не отвечает
+r92КОД_ОШИБКИ: 0xEFDFB4 Поврежден 8-битный чип ALU
+g90
+y39Требуются немедленные действия: замените 8-битный чип ALU. Отправка требований на рабочую станцию...
+r95КОД_ОШИБКИ: 0x052001 Рабочая станция не готова, блоки материалов ОТКЛЮЧЕНЫ
+g90
+y39Требуются немедленные действия: подключите блоки материалов к сети, чтобы продолжить.</value>
+  </data>
+  <data name="ChipReplaced" xml:space="preserve">
+    <value>r90КОД_ОШИБКИ: НЕУКАЗАННАЯ ОШИБКА
+r90КОД_ОШИБКИ: НЕУКАЗАННАЯ ОШИБКА
+r92КОД_ОШИБКИ: НЕУКАЗАННАЯ ОШИБКА
+r95КОД_ОШИБКИ: ?x?????? 
+y95ПРЕДУПРЕЖДЕНИЕ: 0x45FDB3 8-битный чип ALU заменен. Необходима перезагрузка.</value>
+  </data>
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90Запуск диагностики...              
+g90
+y91Fab Control v156.5.9870
+g92 Энергосистема [OK]
+g92 Физическая целостность [OK]
+r95 Блок управления ядром ОТКАЗ, устройство не отвечает
+g90
+w90Последние записи журнала:
+r92КОД_ОШИБКИ: 0xEFDFB4 Поврежден 8-битный чип ALU
+g90
+y39Требуются немедленные действия: замените 8-битный чип ALU. Отправка требований на рабочую станцию...
+r95КОД_ОШИБКИ: 0x052001 Рабочая станция не готова, блоки материалов ОТКЛЮЧЕНЫ
+g90
+y39Требуются немедленные действия: подключите блоки материалов к сети, чтобы продолжить.</value>
+  </data>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r90
+r93КОД_ОШИБКИ: 0x04FAB9 Превышено время ожидания сети. Соединение потеряно.
+r90
+r93КОД_ОШИБКИ: 0x00FFB4 Перепад напряжения. Вероянто повреждение электронных компонентов.
+r90
+r93КОД_ОШИБКИ: 0x0A6599 Ошибка арифметической операции: общий сбой.</value>
+  </data>
+</root>

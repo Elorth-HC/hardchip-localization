@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UndoRedoStackSize" xml:space="preserve">
+    <value>Undo/Redo stack size</value>
+  </data>
+  <data name="CanBeIncreasedToAllowMoreUndosButWillConsumeMoreMemory" xml:space="preserve">
+    <value>Can be increased to allow more undos, but will consume more memory.</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Reset settings</value>
+  </data>
+  <data name="ResetAllSettings" xml:space="preserve">
+    <value>Reset all settings?</value>
+  </data>
+  <data name="AllSettingsWillBeResetToDefaultRestartingTheGameCouldBeNecessaryToFullyApply" xml:space="preserve">
+    <value>All settings will be reset to default. Restarting the game could be necessary to fully apply.</value>
+  </data>
+  <data name="Campaign" xml:space="preserve">
+    <value>Campaign</value>
+  </data>
+  <data name="ResetCampaignOnly" xml:space="preserve">
+    <value>Reset campaign only</value>
+  </data>
+  <data name="ResetCampaignProgression" xml:space="preserve">
+    <value>Reset campaign progression?</value>
+  </data>
+  <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
+    <value>This will reset your campaign progression, but WON'T remove solved solutions.</value>
+  </data>
+  <data name="AreYouSureYouWantToResetYourCampaignProgressionNSolvedSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>Are you sure you want to reset your campaign progression?
+Solved solutions won't be removed.</value>
+  </data>
+  <data name="HardReset" xml:space="preserve">
+    <value>Hard reset</value>
+  </data>
+  <data name="ResetEverything" xml:space="preserve">
+    <value>Reset everything</value>
+  </data>
+  <data name="ResetEVERYTHINGUppercase" xml:space="preserve">
+    <value>Reset EVERYTHING?</value>
+  </data>
+  <data name="ThisWillResetEVERYSettingsSolutionsAndCampaignProgression" xml:space="preserve">
+    <value>This will reset EVERY settings, solutions and campaign progression.</value>
+  </data>
+  <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
+    <value>Are you sure you want to reset EVERY solutions and campaign progression?
+
+THIS DELETE EVERYTHING, BE SURE WHAT YOU ARE DOING!</value>
+  </data>
+  <data name="MusicAndAmbianceLicencesAllowMonetizedContent" xml:space="preserve">
+    <value>*Music and ambiance licences allow monetized content.</value>
+  </data>
+  <data name="MasterVolume" xml:space="preserve">
+    <value>Master volume</value>
+  </data>
+  <data name="GameplayVolume" xml:space="preserve">
+    <value>Gameplay</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
+    <value>Charts are calculated with the latest solutions from
+around the world and your scores update charts.</value>
+  </data>
+  <data name="ChartsAreCalculatedFromAFixedAndLocalSnapshotNofTheLatestSolutionsFromAroundTheWorldYourNscoresDonTUpdateCharts" xml:space="preserve">
+    <value>Charts are calculated from a fixed and local snapshot
+of the latest solutions from around the world. Your
+scores don't update charts.</value>
+  </data>
+  <data name="RayPrecision" xml:space="preserve">
+    <value>Ray precision</value>
+  </data>
+  <data name="UseCubicWhenNothingElseWorksWillRenderCubesInsteadOfComplexShapesFastButUgly" xml:space="preserve">
+    <value>Use Cubic when nothing else works. Will render cubes instead of complex shapes, fast but ugly.</value>
+  </data>
+  <data name="RayPrecisionIsTheNumberOfStepsEachRayPerformNHigherValuesWillIncreaseQualityButWillDecreasePerformance" xml:space="preserve">
+    <value>Ray precision is the number of steps each ray perform.
+Higher values will increase quality, but will decrease performance.</value>
+  </data>
+  <data name="LikelyPerformanceCost1030Percent" xml:space="preserve">
+    <value>Likely performance cost: 10-30 percent.</value>
+  </data>
+  <data name="ChromaticAberration" xml:space="preserve">
+    <value>Chromatic Aberration</value>
+  </data>
+  <data name="NoPerformanceCostButMayCauseDiscomfortToSomeUsers" xml:space="preserve">
+    <value>No performance cost, but may cause discomfort to some users.</value>
+  </data>
+  <data name="UITextScale" xml:space="preserve">
+    <value>UI Text Scale</value>
+  </data>
+  <data name="Benchmark" xml:space="preserve">
+    <value>Benchmark</value>
+  </data>
+  <data name="ApplySettings" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="WonTBeAppliedIfVSyncIsEnabled" xml:space="preserve">
+    <value>Won't be applied if VSync is enabled.</value>
+  </data>
+  <data name="FPSLimit" xml:space="preserve">
+    <value>FPS limit</value>
+  </data>
+  <data name="RestartToApplyChanges" xml:space="preserve">
+    <value>Restart to apply changes</value>
+  </data>
+  <data name="EditorRenderScale" xml:space="preserve">
+    <value>Editor Render Scale</value>
+  </data>
+  <data name="LowerValuesWillIncreasePerformanceButWillDecreaseQualityNHigherValuesWillStronglyDecreasePerformanceButWillIncreaseQuality" xml:space="preserve">
+    <value>Lower values will increase performance, but will decrease quality.
+Higher values will strongly decrease performance, but will increase quality.</value>
+  </data>
+  <data name="FieldOfViewUsedDuringFirstPersonPhasesNoPerformanceCost" xml:space="preserve">
+    <value>Field of view used during first-person phases. No performance cost.</value>
+  </data>
+  <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
+    <value>Field of view used during editor phases. No performance cost.</value>
+  </data>
+  <data name="RenderMethod" xml:space="preserve">
+    <value>Render Method</value>
+  </data>
+  <data name="MouseWheelSensitivity" xml:space="preserve">
+    <value>Mouse Wheel Sensitivity</value>
+  </data>
+  <data name="FlipVerticalMouseMovementDuringFPSPhases" xml:space="preserve">
+    <value>Flip vertical mouse movement during FPS phases.</value>
+  </data>
+  <data name="MouseEdgeScrolling" xml:space="preserve">
+    <value>Mouse Edge Scrolling</value>
+  </data>
+  <data name="DoubleClickToEdit" xml:space="preserve">
+    <value>Edit mode on double-right click</value>
+  </data>
+  <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
+    <value>If enabled, double right mouse click will switch to edit mode.
+Metal block will be automatically selected.</value>
+  </data>
+  <data name="WorldFOV" xml:space="preserve">
+    <value>World FOV</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Windowed" xml:space="preserve">
+    <value>Windowed</value>
+  </data>
+  <data name="Borderless" xml:space="preserve">
+    <value>Borderless</value>
+  </data>
+  <data name="AutoDetect" xml:space="preserve">
+    <value>Auto-detect</value>
+  </data>
+  <data name="UnlimitedOrVSync" xml:space="preserve">
+    <value>Unlimited (or VSync)</value>
+  </data>
+  <data name="RayMarching" xml:space="preserve">
+    <value>Ray Marching</value>
+  </data>
+  <data name="Cubic" xml:space="preserve">
+    <value>Cubic</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+    <comment>Describe what a key binding does</comment>
+  </data>
+  <data name="DarkBackground" xml:space="preserve">
+    <value>Dark background</value>
+  </data>
+  <data name="ReduceVisualStrainOnTheEditorSBackgroundForSensitivityToBrightness" xml:space="preserve">
+    <value>May reduce visual strain from the editor's background for some users.</value>
+  </data>
+  <data name="FPSInvertYAxis" xml:space="preserve">
+    <value>Invert Y axis during first-person phases</value>
+  </data>
+  <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
+    <value>Move the camera around when the mouse is on the edge of the screen.</value>
+  </data>
+  <data name="MouseHorizontalScrolling" xml:space="preserve">
+    <value>Mouse horizontal scrolling</value>
+  </data>
+  <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
+    <value>Rotate the camera on mouse horizontal scroll.</value>
+  </data>
+  <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
+    <value>This allows your Steam username to appear on the leaderboards,
+replacing the current autogenerated name.
+
+By enabling this, you consent to Hard Chip using your Steam
+username for leaderboard display purposes.</value>
+  </data>
+  <data name="SteamName" xml:space="preserve">
+    <value>Steam name:</value>
+  </data>
+  <data name="UseSteamName" xml:space="preserve">
+    <value>Use Steam Name</value>
+  </data>
+  <data name="UseHCName" xml:space="preserve">
+    <value>Use HC Name</value>
+  </data>
+  <data name="LeaderboardID" xml:space="preserve">
+    <value>Leaderboard ID:</value>
+  </data>
+</root>

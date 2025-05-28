@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReceivedInverter" xml:space="preserve">
+    <value>g90Получены спецификации для чипа INVERTER.
+g90Готов к запуску процесса производства.</value>
+  </data>
+  <data name="FabricateMore" xml:space="preserve">
+    <value>g90Процесс производства завершен.</value>
+  </data>
+  <data name="StatusStep2Shorted" xml:space="preserve">
+    <value>
+g92Хранилище Материалов 1 [РАБОТАЕТ]
+g92Хранилище Материалов 2 [РАБОТАЕТ]
+g90Статус фабрикатора: РАБОТАЕТ</value>
+  </data>
+  <data name="ReceivedALU" xml:space="preserve">
+    <value>g90Получены спецификации для чипа ALU.
+g90Готов к запуску процесса производства.</value>
+  </data>
+  <data name="StatusStep0Shorted" xml:space="preserve">
+    <value>
+r95Хранилище Материалов 1 [ОТКЛЮЧЕНО]
+r95Хранилище Материалов 2 [ОТКЛЮЧЕНО]
+g90Статус фабрикатора: ЧАСТИЧНО РАБОТАЕТ</value>
+  </data>
+  <data name="StatusStep1Shorted" xml:space="preserve">
+    <value>
+g92Хранилище Материалов 1 [РАБОТАЕТ]
+r95Хранилище Материалов 2 [ОТКЛЮЧЕНО]
+g90Статус фабрикатора: ЧАСТИЧНО РАБОТАЕТ</value>
+  </data>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>g90=========================================================================
+g90Автономный Фабрикатор v546.1.7430
+g90=========================================================================
+g90
+g96Загрузка...
+g90
+g92Энергосистема [OK]
+g92Физическая целостность [OK]
+g92Основные системы [OK]
+g92Внешние интерфейсы управления... [OK]
+r95Хранилище Материалов 1 [ОТКЛЮЧЕНО]
+r95Хранилище Материалов 2 [ОТКЛЮЧЕНО]
+g90
+y95ПРЕДУПРЕЖДЕНИЕ: Хранилища Материалов недоступны. Имеющиеся материалы доступны только для ограниченных операций.
+g90
+g39Процесс загрузки завершен. Статус фабрикатора: ЧАСТИЧНО РАБОТАЕТ
+g90
+g90Получены спецификации для чипа BYPASS.
+g90Готов к запуску процесса производства.</value>
+  </data>
+  <data name="ReceivedAdder" xml:space="preserve">
+    <value>g90Получены спецификации для чипа 8BIT ADDER.
+g90Готов к запуску процесса производства.</value>
+  </data>
+  <data name="StatusStep2" xml:space="preserve">
+    <value>g90Запуск диагностики...              
+g90
+g91Автономный Фабрикатор v546.1.7430
+g92 Энергосистема [OK]
+g92 Физическая целостность [OK]
+g92 Основные системы [OK]
+g92 Хранилище Материалов 1 [РАБОТАЕТ]
+g95 Хранилище Материалов 2 [РАБОТАЕТ]
+g90
+g39Статус фабрикатора: РАБОТАЕТ</value>
+  </data>
+  <data name="StatusStep1" xml:space="preserve">
+    <value>g90Запуск диагностики...              
+g90
+g91Автономный Фабрикатор v546.1.7430
+g92 Энергосистема [OK]
+g92 Физическая целостность [OK]
+g92 Основные системы [OK]
+g92 Хранилище Материалов 1 [РАБОТАЕТ]
+r95 Хранилище Материалов 2 [ОТКЛЮЧЕНО]
+g90
+y95ПРЕДУПРЕЖДЕНИЕ: Хранилище Материалов 2 недоступно. Доступны только ограниченные операции.
+g90
+g39Статус фабрикатора: ЧАСТИЧНО РАБОТАЕТ</value>
+  </data>
+  <data name="StatusStep0" xml:space="preserve">
+    <value>g90Запуск диагностики...              
+g90
+g91Автономный Фабрикатор v546.1.7430
+g92 Энергосистема [OK]
+g92 Физическая целостность [OK]
+g92 Основные системы [OK]
+r95 Хранилище Материалов 1 [ОТКЛЮЧЕНО]
+r95 Хранилище Материалов 2 [ОТКЛЮЧЕНО]
+g90
+y95ПРЕДУПРЕЖДЕНИЕ: Хранилища Материалов недоступны. Имеющиеся материалы доступны только для ограниченных операций.
+g90
+g39Статус фабрикатора: ЧАСТИЧНО РАБОТАЕТ</value>
+  </data>
+  <data name="LookAtChip" xml:space="preserve">
+    <value>g99
+r90КОД_ОШИБКИ: ?x?????? посмотрите на поверхность стола фабрикатора</value>
+  </data>
+  <data name="GenericFabricateLog" xml:space="preserve">
+    <value>g90Запуск процесса производства чипа [CHIPNAME]...
+g90
+g90Загрузка спецификаций из базы данных... [OK]
+g90Проверка дизайна и соответствия требованиям... [OK]
+g90Подготовка кремниевой пластины... [OK]
+g94Нанесение фоторезиста... [OK]
+g90
+g90Начало процесса литографии для базового слоя...
+g92УФ-облучение завершено... [OK]
+g93Проявка фоторезиста... [OK]
+g93Высокотемпературный отжиг... [OK]
+g90
+g90Финальная литография для верхнего металлического слоя...
+g91УФ-облучение и проявка... [OK]
+g92Финальная травка и очистка... [OK]
+g90
+g90Сборка микросхемы...
+g92Установка контактных выводов... [OK]
+g93Инкапсуляция и отверждение... [OK]
+g90Упаковка и маркировка... [OK]
+g90
+g92Процесс производства завершен.
+g90
+g90Чип [CHIPNAME] готов.
+g90Журнал производства сохранен. Номер партии: 2224A[BATCHID]X.</value>
+  </data>
+</root>

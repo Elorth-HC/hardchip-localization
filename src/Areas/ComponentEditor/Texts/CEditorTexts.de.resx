@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Schematics" xml:space="preserve">
+    <value>Schaltpläne</value>
+  </data>
+  <data name="OpenSchematic" xml:space="preserve">
+    <value>Schaltplan öffnen</value>
+  </data>
+  <data name="EnterNewNameForThisBlueprint" xml:space="preserve">
+    <value>Neuen Namen für diese Blaupause eingeben:</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisBlueprint" xml:space="preserve">
+    <value>Möchten Sie diese Blaupause wirklich löschen?</value>
+  </data>
+  <data name="RenameBlueprint" xml:space="preserve">
+    <value>Blaupause umbenennen:</value>
+  </data>
+  <data name="DeleteBlueprint" xml:space="preserve">
+    <value>Blaupause löschen:</value>
+  </data>
+  <data name="Probes" xml:space="preserve">
+    <value>Sonden</value>
+  </data>
+  <data name="PickBitsPositionsOneAtATimeRightClickToCancel" xml:space="preserve">
+    <value>Wähle Bit-Positionen nacheinander aus. Rechtsklick zum Abbrechen.</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Bezeichnung</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="ClickToSelectPosition" xml:space="preserve">
+    <value>Klicken, um Position auszuwählen</value>
+  </data>
+  <data name="ClickToResetPosition" xml:space="preserve">
+    <value>Klicken, um Position zurückzusetzen</value>
+  </data>
+  <data name="RelocateInput" xml:space="preserve">
+    <value>Eingabe verlegen</value>
+  </data>
+  <data name="AndLinkWordForTruthTable" xml:space="preserve">
+    <value>und</value>
+  </data>
+  <data name="ButLinkWordForTruthTable" xml:space="preserve">
+    <value>aber</value>
+  </data>
+  <data name="RelocateOutput" xml:space="preserve">
+    <value>Ausgabe verlegen</value>
+  </data>
+  <data name="StickToScreen" xml:space="preserve">
+    <value>Am Bildschirm fixieren</value>
+  </data>
+  <data name="NeutralAllowed" xml:space="preserve">
+    <value>Neutral erlaubt</value>
+  </data>
+  <data name="StickToBlock" xml:space="preserve">
+    <value>Am Block fixieren</value>
+  </data>
+  <data name="NeutralNotAllowed" xml:space="preserve">
+    <value>Neutral nicht erlaubt</value>
+  </data>
+  <data name="StopAt1" xml:space="preserve">
+    <value>Bei 1 anhalten</value>
+  </data>
+  <data name="StopAt0" xml:space="preserve">
+    <value>Bei 0 anhalten</value>
+  </data>
+  <data name="StopAt_" xml:space="preserve">
+    <value>Bei _ anhalten</value>
+  </data>
+  <data name="StopAtError" xml:space="preserve">
+    <value>Bei Fehler anhalten</value>
+  </data>
+  <data name="DonTStop" xml:space="preserve">
+    <value>Nicht anhalten</value>
+  </data>
+  <data name="BlueprintSaved" xml:space="preserve">
+    <value>Blaupause gespeichert</value>
+  </data>
+  <data name="SaveAllAsABlueprint" xml:space="preserve">
+    <value>Alles als Blaupause speichern</value>
+  </data>
+  <data name="OpenBlueprintLibrary" xml:space="preserve">
+    <value>Blaupausenbibliothek öffnen</value>
+  </data>
+  <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve">
+    <value>Nur die besten Blaupausen nach Blockanzahl anzeigen</value>
+  </data>
+  <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve">
+    <value>Nur die besten Blaupausen nach Volumen anzeigen</value>
+  </data>
+  <data name="ShowOnlyBestsByTickBlueprints" xml:space="preserve">
+    <value>Nur die besten Blaupausen nach Ticks anzeigen</value>
+  </data>
+  <data name="ShowOnlyBestsByMOSBlueprints" xml:space="preserve">
+    <value>Nur die besten Blaupausen nach MOS anzeigen</value>
+  </data>
+  <data name="SaveSelectionAsBlueprint" xml:space="preserve">
+    <value>Auswahl als Blaupause speichern</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Blöcke</value>
+  </data>
+  <data name="Comparer" xml:space="preserve">
+    <value>Vergleicher</value>
+  </data>
+  <data name="ReuseBestSolution" xml:space="preserve">
+    <value>Beste Lösung wiederverwenden</value>
+  </data>
+  <data name="NowBest" xml:space="preserve">
+    <value>Aktuell - - - - - - - - - - - Beste</value>
+  </data>
+  <data name="Toolbox" xml:space="preserve">
+    <value>Werkzeugkasten</value>
+  </data>
+  <data name="Photomode" xml:space="preserve">
+    <value>Fotomodus</value>
+  </data>
+  <data name="AutoShrinkOnValidate" xml:space="preserve">
+    <value>Automatisches Verkleinern bei Validierung</value>
+  </data>
+  <data name="TurnOnOffTheAutoShrinkOfTheDieWhenValidatingTheNlevelTheDieWillBeShrinkedToTheSmallestSizeNpossibleToFitTheBlocks" xml:space="preserve">
+    <value>Schaltet das automatische Verkleinern des Chips beim Validieren des
+Levels ein oder aus. Der Chip wird auf die kleinstmögliche Größe
+verkleinert, um die Blöcke aufzunehmen.</value>
+  </data>
+  <data name="EditDieSize" xml:space="preserve">
+    <value>Chipgröße bearbeiten</value>
+  </data>
+  <data name="EditManuallyTheDieSizeShrinkingTheDieWillRemoveNtheBlocksOutsideTheNewDieSize" xml:space="preserve">
+    <value>Bearbeite die Chipgröße manuell. Das Verkleinern des Chips entfernt
+alle Blöcke außerhalb der neuen Chipgröße.</value>
+  </data>
+  <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
+    <value>Exportiere eine Leveldatei in die Zwischenablage. Kann in den Datei-Explorer,
+Discord und alle Programme, die eingefügte Dateien unterstützen, eingefügt werden.</value>
+  </data>
+  <data name="ExportToClipboard" xml:space="preserve">
+    <value>In Zwischenablage exportieren</value>
+  </data>
+  <data name="ImportFromClipboard" xml:space="preserve">
+    <value>Aus Zwischenablage importieren</value>
+  </data>
+  <data name="TryToReadALevelFromTheClipboardSupportsWtCtNWtbAndCtbFilesSupportsDirectFilesAndURLOfFiles" xml:space="preserve">
+    <value>Versuche, ein Level aus der Zwischenablage zu lesen. Unterstützt .wt, .ct,
+.wtb und .ctb-Dateien. Unterstützt Direktdateien und Datei-URLs.</value>
+  </data>
+  <data name="ShowChangeIndicators" xml:space="preserve">
+    <value>Änderungsindikatoren anzeigen</value>
+  </data>
+  <data name="ShowIndicatorsOnTheBlocksThatHaveBeenChangedSinceNtheLastSimulationUpdateIndicatorsAreRemovedWhenNafterAFewSecondsOrWhenTheSimulationIsStepped" xml:space="preserve">
+    <value>Zeige Indikatoren auf den Blöcken, die seit dem letzten Simulationsupdate geändert wurden.
+Die Indikatoren werden nach einigen Sekunden oder beim Schritt in der Simulation entfernt.</value>
+  </data>
+  <data name="TracesGroupsColors" xml:space="preserve">
+    <value>Farben der Leitungsgruppen</value>
+  </data>
+  <data name="ColorAllInterconnectedTracesWithTheSameColorAndNpartiallyHideTracesAlwaysConnectedToUpDownTerminals" xml:space="preserve">
+    <value>Färbt alle verbundenen Leitungen in derselben Farbe und
+blendet Leitungen aus, die immer mit 0/1-Block verbunden sind.</value>
+  </data>
+  <data name="AutoClockStop" xml:space="preserve">
+    <value>Automatischer Taktstopp</value>
+  </data>
+  <data name="RemoveNextClockSwitchStopStopSimulationWhenClockSwitchesItsSignal" xml:space="preserve">
+    <value>Beendet die Simulation, wenn der Takt sein Signal wechselt.</value>
+  </data>
+  <data name="CameraDramaticCameraMoves" xml:space="preserve">
+    <value>Dramatische Kamerabewegungen</value>
+  </data>
+  <data name="CameraRotateLeft" xml:space="preserve">
+    <value>Nach links drehen</value>
+  </data>
+  <data name="CameraForward" xml:space="preserve">
+    <value>Vorwärts</value>
+  </data>
+  <data name="CameraRotateRightE" xml:space="preserve">
+    <value>Nach rechts drehen</value>
+  </data>
+  <data name="CameraCycleUIElements" xml:space="preserve">
+    <value>UI ausblenden ({0})</value>
+  </data>
+  <data name="CameraStrafeLeft" xml:space="preserve">
+    <value>Nach links strafen</value>
+  </data>
+  <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
+    <value>Editor-Kamera/Freie Kamera (SHIFT/STRG/WASD/Linksklick)</value>
+  </data>
+  <data name="EditorCamFreeCam" xml:space="preserve">
+    <value>Editor-Kamera/Freie Kamera</value>
+  </data>
+  <data name="CameraStrafeRight" xml:space="preserve">
+    <value>Nach rechts strafen</value>
+  </data>
+  <data name="CenterCamera" xml:space="preserve">
+    <value>Kamera zentrieren</value>
+  </data>
+  <data name="CameraZoomIn" xml:space="preserve">
+    <value>Heranzoomen</value>
+  </data>
+  <data name="CameraBackward" xml:space="preserve">
+    <value>Rückwärts</value>
+  </data>
+  <data name="CameraZoomOut" xml:space="preserve">
+    <value>Rauszoomen</value>
+  </data>
+  <data name="DieOperations" xml:space="preserve">
+    <value>Chip-Operationen</value>
+  </data>
+  <data name="Shrink5BlocksFromTheBack" xml:space="preserve">
+    <value>5 Blöcke von hinten verkleinern</value>
+  </data>
+  <data name="Shrink1BlockFromTheBack" xml:space="preserve">
+    <value>1 Block von hinten verkleinern</value>
+  </data>
+  <data name="Shrink5BlocksFromTheRight" xml:space="preserve">
+    <value>5 Blöcke von rechts verkleinern</value>
+  </data>
+  <data name="Shrink5BlocksFromTheTop" xml:space="preserve">
+    <value>5 Blöcke von oben verkleinern</value>
+  </data>
+  <data name="Shrink1BlockFromTheLeft" xml:space="preserve">
+    <value>1 Block von links verkleinern</value>
+  </data>
+  <data name="SwitchToExtendMode" xml:space="preserve">
+    <value>In den Erweiterungsmodus wechseln</value>
+  </data>
+  <data name="Shrink1BlockFromTheRight" xml:space="preserve">
+    <value>1 Block von rechts verkleinern</value>
+  </data>
+  <data name="Shrink1BlockFromTheTop" xml:space="preserve">
+    <value>1 Block von oben verkleinern</value>
+  </data>
+  <data name="Shrink5BlocksFromTheLeft" xml:space="preserve">
+    <value>5 Blöcke von links verkleinern</value>
+  </data>
+  <data name="Shrink1BlockFromTheFront" xml:space="preserve">
+    <value>1 Block von vorne verkleinern</value>
+  </data>
+  <data name="Shrink5BlocksFromTheFront" xml:space="preserve">
+    <value>5 Blöcke von vorne verkleinern</value>
+  </data>
+  <data name="ShrinkTheDieToFitTheMinimumSize" xml:space="preserve">
+    <value>Chip auf minimale Größe verkleinern</value>
+  </data>
+  <data name="Extend5BlocksFromTheBack" xml:space="preserve">
+    <value>5 Blöcke hinten erweitern</value>
+  </data>
+  <data name="Extend1BlockFromTheBack" xml:space="preserve">
+    <value>1 Block hinten erweitern</value>
+  </data>
+  <data name="Extend5BlocksFromTheRight" xml:space="preserve">
+    <value>5 Blöcke nach rechts erweitern</value>
+  </data>
+  <data name="Extend5BlocksFromTheTop" xml:space="preserve">
+    <value>5 Blöcke nach oben erweitern</value>
+  </data>
+  <data name="Extend1BlockFromTheLeft" xml:space="preserve">
+    <value>1 Block nach links erweitern</value>
+  </data>
+  <data name="SwitchToShrinkMode" xml:space="preserve">
+    <value>In den Verkleinerungsmodus wechseln</value>
+  </data>
+  <data name="Extend1BlockFromTheRight" xml:space="preserve">
+    <value>1 Block nach rechts erweitern</value>
+  </data>
+  <data name="Extend1BlockFromTheTop" xml:space="preserve">
+    <value>1 Block nach oben erweitern</value>
+  </data>
+  <data name="Extend5BlocksFromTheLeft" xml:space="preserve">
+    <value>5 Blöcke nach links erweitern</value>
+  </data>
+  <data name="Extend1BlockFromTheFront" xml:space="preserve">
+    <value>1 Block nach vorne erweitern</value>
+  </data>
+  <data name="Extend5BlocksFromTheFront" xml:space="preserve">
+    <value>5 Blöcke nach vorne erweitern</value>
+  </data>
+  <data name="CopyCtrlC" xml:space="preserve">
+    <value>Kopieren (Strg+C)</value>
+  </data>
+  <data name="CutCtrlX" xml:space="preserve">
+    <value>Ausschneiden (Strg+X)</value>
+  </data>
+  <data name="PasteCtrlV" xml:space="preserve">
+    <value>Einfügen (Strg+V)</value>
+  </data>
+  <data name="DeleteDel" xml:space="preserve">
+    <value>Löschen (Entf)</value>
+  </data>
+  <data name="RemoveProbes" xml:space="preserve">
+    <value>Sonden entfernen</value>
+  </data>
+  <data name="NoName" xml:space="preserve">
+    <value>Kein Name</value>
+  </data>
+  <data name="SlotSelection" xml:space="preserve">
+    <value>Slot-Auswahl</value>
+  </data>
+  <data name="UndoCtrlZ" xml:space="preserve">
+    <value>Rückgängig (Strg+Z)</value>
+  </data>
+  <data name="RedoCtrlY" xml:space="preserve">
+    <value>Wiederholen (Strg+Y)</value>
+  </data>
+  <data name="RestartLevel" xml:space="preserve">
+    <value>Level neu starten</value>
+  </data>
+  <data name="Modes" xml:space="preserve">
+    <value>Modi</value>
+  </data>
+  <data name="Probe" xml:space="preserve">
+    <value>Sonde</value>
+  </data>
+  <data name="SaveAsABlueprint" xml:space="preserve">
+    <value>Als Blaupause speichern</value>
+  </data>
+  <data name="CreatingANewBlueprint" xml:space="preserve">
+    <value>Erstelle eine neue Blaupause:</value>
+  </data>
+  <data name="NewComponent" xml:space="preserve">
+    <value>NeueKomponente</value>
+  </data>
+  <data name="CameraPedestalDown" xml:space="preserve">
+    <value>Sockel absenken</value>
+  </data>
+  <data name="CameraPedestalUp" xml:space="preserve">
+    <value>Sockel anheben</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>Foto aufnehmen</value>
+  </data>
+  <data name="HideUIForASplitSecondTakeAScreenshotNputInTheClipboardAndSteamScreenshotFolder" xml:space="preserve">
+    <value>Blende die Benutzeroberfläche für einen kurzen Moment aus, mache einen Screenshot,
+und lege ihn in die Zwischenablage sowie den Steam-Screenshot-Ordner ab.</value>
+  </data>
+  <data name="ReportShape" xml:space="preserve">
+    <value>Form melden</value>
+  </data>
+  <data name="ReportBackground" xml:space="preserve">
+    <value>Hintergrund melden</value>
+  </data>
+  <data name="ReportText" xml:space="preserve">
+    <value>Text melden</value>
+  </data>
+  <data name="ExitPhotoMode" xml:space="preserve">
+    <value>Fotomodus verlassen</value>
+  </data>
+  <data name="SimulationSpeed" xml:space="preserve">
+    <value>Simulationsgeschwindigkeit </value>
+  </data>
+  <data name="ClockFrequency" xml:space="preserve">
+    <value>Taktfrequenz </value>
+  </data>
+  <data name="_ShouldBeRightNowIs" xml:space="preserve">
+    <value>{0} sollte {1} {2} sein, aber aktuell ist es {3}</value>
+  </data>
+  <data name="Now" xml:space="preserve">
+    <value>, jetzt=</value>
+  </data>
+  <data name="SimulationTicksAt" xml:space="preserve">
+    <value>Ticks {0} bei {1}</value>
+  </data>
+  <data name="SimulationClockAt" xml:space="preserve">
+    <value> Takt {0} ({1})</value>
+  </data>
+  <data name="BlocksShouldBe" xml:space="preserve">
+    <value>Blöcke sollten </value>
+  </data>
+  <data name="AtPosition" xml:space="preserve">
+    <value> an Position </value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Ausstehend... </value>
+  </data>
+  <data name="Validating" xml:space="preserve">
+    <value>Validiere... </value>
+  </data>
+  <data name="TruthTable" xml:space="preserve">
+    <value>Wahrheitstabelle</value>
+  </data>
+  <data name="InputNamed" xml:space="preserve">
+    <value>Eingabe benannt </value>
+  </data>
+  <data name="OutputToMatchNamed" xml:space="preserve">
+    <value>Ausgabe soll übereinstimmen mit </value>
+  </data>
+  <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>Anfängliche Hochfahrphase, zählt nicht zum Tick-Score.</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Beliebig</value>
+  </data>
+  <data name="AnyLowercase" xml:space="preserve">
+    <value>beliebig</value>
+  </data>
+  <data name="ButtonLabelUnresponsive" xml:space="preserve">
+    <value> Keine Antwort </value>
+  </data>
+  <data name="ButtonLabelMissedGoal" xml:space="preserve">
+    <value> Ziel verfehlt  </value>
+  </data>
+  <data name="ButtonLabelChecked" xml:space="preserve">
+    <value>   Überprüft!   </value>
+  </data>
+  <data name="ButtonLabelValidating" xml:space="preserve">
+    <value> Validiere... </value>
+  </data>
+  <data name="ButtonLabelValidate" xml:space="preserve">
+    <value>   Validieren   </value>
+  </data>
+  <data name="ButtonLabelStepByStep" xml:space="preserve">
+    <value> Schritt für Schritt </value>
+  </data>
+  <data name="ButtonLabelModified" xml:space="preserve">
+    <value>   Geändert   </value>
+  </data>
+  <data name="ResetValidation" xml:space="preserve">
+    <value>Validierung zurücksetzen</value>
+  </data>
+  <data name="EditModeSummary" xml:space="preserve">
+    <value>Bearbeiten (Oben:{0}/Löschen:{1}/Auswählen:{2})</value>
+  </data>
+  <data name="DieOperationsModeSummary" xml:space="preserve">
+    <value>Chip erweitern/verkleinern</value>
+  </data>
+  <data name="ProbeModeSummary" xml:space="preserve">
+    <value>Sonden</value>
+  </data>
+  <data name="BluePrintModeSummary" xml:space="preserve">
+    <value>Blaupausen ({0}/{1}: Blaupause umdrehen)</value>
+  </data>
+  <data name="SelectPinModeSummary" xml:space="preserve">
+    <value>Pin-Auswahl ({0}/{1}:Abstände vergrößern/verkleinern)</value>
+  </data>
+  <data name="DebugModeSummary" xml:space="preserve">
+    <value>Werkzeuge</value>
+  </data>
+  <data name="ComparerModeSummary" xml:space="preserve">
+    <value>Vergleicher</value>
+  </data>
+</root>

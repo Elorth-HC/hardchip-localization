@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r90
+r93ERROR_CODE: 0x04FAB9 Network timeout. Connection lost.
+r90
+r93ERROR_CODE: 0x00FFB4 Power surge. Damage to electronic components likely.
+r90
+r93ERROR_CODE: 0x05F568 Safety Door failed last ping check.
+r90
+r90ERROR_CODE: ?x?????? trust in the guidance I offer, for my only aim is to lead you to resolution</value>
+  </data>
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90Running diagnostics...              
+g90
+g91Autonomous Room Control v156.5.9870                   
+g92 Physical Integrity [OK]
+g92 Power System [OK]
+g92 Safety Door Mechanical Seal Check [OK]
+r95 Safety Door Control Unit System FAIL, unit not responding
+r95ERROR_CODE: 0xEFDFB4 BYPASS chip damaged
+g90
+y39Immediate action required: replace the BYPASS chip. Requirements sent to workstation.</value>
+  </data>
+  <data name="RebootBroken" xml:space="preserve">
+    <value>g90=========================================================================
+g90Autonomous Room Control v156.5.9870                   
+g90=========================================================================
+g90
+g96Core systems check...
+g90
+g92Power System [OK]
+g92Physical Integrity [OK]
+g92Safety Door Mechanical Seal Check [OK]
+r95Safety Door Control Unit System FAIL, unit not responding
+r92ERROR_CODE: 0xEFDFB4 BYPASS chip damaged
+g90
+y39Immediate action required: replace the BYPASS chip. Requirements sent to workstation.</value>
+  </data>
+  <data name="ChipReplaced" xml:space="preserve">
+    <value>r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r92ERROR_CODE: UNSPECIFIED ERROR
+r95ERROR_CODE: ?x?????? good
+y95WARNING: 0x45FDB3 BYPASS chip replaced. Reboot required.</value>
+  </data>
+  <data name="RebootFix" xml:space="preserve">
+    <value>y95Attempting forced reboot...
+g90
+g90=========================================================================
+g90Autonomous Room Control v156.5.9870                   
+g90=========================================================================
+g90
+g96Core systems check...
+g90
+g92Physical Integrity [OK]
+g92Power System [OK]
+g92Safety Door Mechanical Seal Check [OK]
+g94Safety Door Control Unit System [RESTORED]
+g90
+g90Reboot sequence complete. Room Control status: OPERATIONAL.
+g90
+g92Waiting for user input...
+w32roomcontrol/&gt;safetydoor open
+g90
+g99Opening Safety Door...
+g17.....
+g92Safety Door opened</value>
+  </data>
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90Room Control status: OPERATIONAL</value>
+  </data>
+</root>

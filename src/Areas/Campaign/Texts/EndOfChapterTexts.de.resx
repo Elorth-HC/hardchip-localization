@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- 
+		Microsoft ResX Schema
+		(version & schema comments laissés inchangés)
+  -->
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+
+    <!-- resheader unchanged -->
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <!-- translated strings -->
+    <data name="ChapterOneChecked" xml:space="preserve">
+    <value>Kapitel Eins erledigt!
+</value>
+  </data>
+
+    <data name="YouVeCompletedTheFirstChapterOfHardChipThe8bitALU" xml:space="preserve">
+    <value>Du hast das erste Kapitel von Hard Chip abgeschlossen: -Die 8-Bit-ALU- !
+
+</value>
+  </data>
+
+    <data name="Chapter2IsInTheMakingThatDoesnTMeanThereNothingToDoYouCanRevisitYourDesignsToImproveGradesAtTheWorkstation" xml:space="preserve">
+    <value>Kapitel 2 ist in Arbeit. Das heißt aber nicht, dass es nichts zu tun gibt. Du kannst deine Entwürfe überarbeiten, um an der Workstation bessere Bewertungen zu erzielen.
+
+</value>
+  </data>
+
+    <data name="OrYouCanCreateEntirelyNewCircuitsThanksToTheBonusStageFromTheMainMenu" xml:space="preserve">
+    <value>Oder du kannst dank der Bonus-Stage im Hauptmenü völlig neue Schaltungen erstellen!
+
+</value>
+  </data>
+
+    <data name="PressAnyKeyToAcknowledge" xml:space="preserve">
+    <value>Drück eine beliebige Taste, um fortzufahren ...
+
+</value>
+  </data>
+</root>

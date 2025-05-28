@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResetEVERYTHINGUppercase" xml:space="preserve">
+    <value>Сбросить ВСЁ?</value>
+  </data>
+  <data name="FieldOfViewUsedDuringFirstPersonPhasesNoPerformanceCost" xml:space="preserve">
+    <value>Угол обзора во время игры от первого лица. Не влияет на производительность.</value>
+  </data>
+  <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
+    <value>Если включено, используйте двойной щелчок правой кнопкой мыши для перехода в режим редактирования.
+Блок МЕТАЛЛА будет автоматически выбран.</value>
+  </data>
+  <data name="FPSLimit" xml:space="preserve">
+    <value>Ограничение частоты кадров</value>
+  </data>
+  <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
+    <value>Поворачивать камеру используя горизонтальную прокрутку колёсиком мыши.</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Угол обзора в редакторе</value>
+  </data>
+  <data name="ResetEverything" xml:space="preserve">
+    <value>Сбросить всё</value>
+  </data>
+  <data name="HardReset" xml:space="preserve">
+    <value>Полный сброс</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="AreYouSureYouWantToResetYourCampaignProgressionNSolvedSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>Вы уверены, что хотите сбросить прогресс Вашей кампании?
+Решённые уровни не будут удалены.</value>
+  </data>
+  <data name="MasterVolume" xml:space="preserve">
+    <value>Общaя громкость звука</value>
+  </data>
+  <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
+    <value>Диаграммы рассчитываются на основе самых последних решений со
+всего мира, оценки Ваших решений обновляют диаграммы.</value>
+  </data>
+  <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
+    <value>Вы уверены, что хотите сбросить ВСЕ решения и прогресс кампании?
+
+ЭТО УДАЛИТ ВСЁ! БУДЬТЕ УВЕРЕНЫ В ТОМ, ЧТО ВЫ ДЕЛАЕТЕ!</value>
+  </data>
+  <data name="Borderless" xml:space="preserve">
+    <value>Оконный (без рамки)</value>
+  </data>
+  <data name="LikelyPerformanceCost1030Percent" xml:space="preserve">
+    <value>Вероятное понижение производительности: 10-30 процентов.</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="MouseHorizontalScrolling" xml:space="preserve">
+    <value>Горизонтальная прокрутка мышью</value>
+  </data>
+  <data name="AllSettingsWillBeResetToDefaultRestartingTheGameCouldBeNecessaryToFullyApply" xml:space="preserve">
+    <value>Все настройки будут сброшены до значений по умолчанию. Чтобы настройки полностью применились, может потребоваться перезапуск игры.</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
+    <value>Это сбросит прогресс Вашей кампании, но не удалит решённые уровни.</value>
+  </data>
+  <data name="Campaign" xml:space="preserve">
+    <value>Кампания</value>
+  </data>
+  <data name="UseCubicWhenNothingElseWorksWillRenderCubesInsteadOfComplexShapesFastButUgly" xml:space="preserve">
+    <value>Используйте 'Кубичский', если больше ничего не работает. Будет рисовать кубики вместо сложных форм. Быстро, но некрасиво.</value>
+  </data>
+  <data name="GameplayVolume" xml:space="preserve">
+    <value>Громкость эффектов</value>
+  </data>
+  <data name="EditorRenderScale" xml:space="preserve">
+    <value>Разрешение в редакторе</value>
+  </data>
+  <data name="FPSInvertYAxis" xml:space="preserve">
+    <value>Инвертировать ось Y в режиме от первого лица.</value>
+  </data>
+  <data name="LowerValuesWillIncreasePerformanceButWillDecreaseQualityNHigherValuesWillStronglyDecreasePerformanceButWillIncreaseQuality" xml:space="preserve">
+    <value>Более низкие значения увеличат производительность, но снизят качество.
+Более высокие значения сильно снизят производительность, но повысят качество.</value>
+  </data>
+  <data name="ChartsAreCalculatedFromAFixedAndLocalSnapshotNofTheLatestSolutionsFromAroundTheWorldYourNscoresDonTUpdateCharts" xml:space="preserve">
+    <value>Диаграммы рассчитываются на основе локальной
+фиксированной копии оценок решений со всего мира.
+Оценки Ваших решений не обновляют диаграммы.</value>
+  </data>
+  <data name="RayPrecision" xml:space="preserve">
+    <value>Точность лучей</value>
+  </data>
+  <data name="DoubleClickToEdit" xml:space="preserve">
+    <value>Режим редактирования по двойному щелчку ПКМ</value>
+  </data>
+  <data name="UndoRedoStackSize" xml:space="preserve">
+    <value>Размер стека истории действий</value>
+  </data>
+  <data name="ResetCampaignProgression" xml:space="preserve">
+    <value>Сбросить прогресс кампании?</value>
+  </data>
+  <data name="Benchmark" xml:space="preserve">
+    <value>Тест производительности</value>
+  </data>
+  <data name="RayMarching" xml:space="preserve">
+    <value>Трассировка лучей</value>
+  </data>
+  <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
+    <value>Перемещать камеру, когда мышь находится на краю экрана.</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Сбросить настройки</value>
+  </data>
+  <data name="AutoDetect" xml:space="preserve">
+    <value>Авто-определение</value>
+  </data>
+  <data name="UnlimitedOrVSync" xml:space="preserve">
+    <value>Не ограничено (или Вертикальная синхронизация)</value>
+  </data>
+  <data name="Cubic" xml:space="preserve">
+    <value>Кубичский</value>
+  </data>
+  <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
+    <value>Угол обзора в редакторе. Не влияет на производительность.</value>
+  </data>
+  <data name="Windowed" xml:space="preserve">
+    <value>Оконный</value>
+  </data>
+  <data name="ApplySettings" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="ResetAllSettings" xml:space="preserve">
+    <value>Сбросить все настройки?</value>
+  </data>
+  <data name="MouseWheelSensitivity" xml:space="preserve">
+    <value>Чувствительность колёсика мыши</value>
+  </data>
+  <data name="RenderMethod" xml:space="preserve">
+    <value>Метод отрисовки</value>
+  </data>
+  <data name="ThisWillResetEVERYSettingsSolutionsAndCampaignProgression" xml:space="preserve">
+    <value>Это сбросит ВСЕ настройки, решения, и прогресс кампании.</value>
+  </data>
+  <data name="NoPerformanceCostButMayCauseDiscomfortToSomeUsers" xml:space="preserve">
+    <value>Не влияет на производительность, но может вызвать дискомфорт у некоторых пользователей.</value>
+  </data>
+  <data name="ReduceVisualStrainOnTheEditorSBackgroundForSensitivityToBrightness" xml:space="preserve">
+    <value>Может уменьшить зрительный дискомфорт от фона редактора у некоторых пользователей.</value>
+  </data>
+  <data name="MusicAndAmbianceLicencesAllowMonetizedContent" xml:space="preserve">
+    <value>*Лицензии на музыку и фоновые треки разрешают коммерческое использование.</value>
+  </data>
+  <data name="DarkBackground" xml:space="preserve">
+    <value>Тёмный фон</value>
+  </data>
+  <data name="ChromaticAberration" xml:space="preserve">
+    <value>Хроматическая аберрация</value>
+  </data>
+  <data name="CanBeIncreasedToAllowMoreUndosButWillConsumeMoreMemory" xml:space="preserve">
+    <value>Может быть увеличен, чтобы можно было отменять большее количество раз, но будет задействовать больше памяти.</value>
+  </data>
+  <data name="WonTBeAppliedIfVSyncIsEnabled" xml:space="preserve">
+    <value>Не будет применено, если включена вертикальная синхронизация.</value>
+  </data>
+  <data name="MouseEdgeScrolling" xml:space="preserve">
+    <value>Перемещение по краю экрана</value>
+  </data>
+  <data name="UITextScale" xml:space="preserve">
+    <value>Размер текста интерфейса</value>
+  </data>
+  <data name="WorldFOV" xml:space="preserve">
+    <value>Угол обзора в мире</value>
+  </data>
+  <data name="FlipVerticalMouseMovementDuringFPSPhases" xml:space="preserve">
+    <value>Инвертировать движение мыши по вертикали во время игры от первого лица.</value>
+  </data>
+  <data name="RayPrecisionIsTheNumberOfStepsEachRayPerformNHigherValuesWillIncreaseQualityButWillDecreasePerformance" xml:space="preserve">
+    <value>Точность лучей - это количество шагов, которые выполняет каждый луч.
+Более высокие значения увеличат качество, но снизят производительность.</value>
+  </data>
+  <data name="ResetCampaignOnly" xml:space="preserve">
+    <value>Сбросить только кампанию</value>
+  </data>
+  <data name="RestartToApplyChanges" xml:space="preserve">
+    <value>Перезапустить, чтобы применить изменения</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+</root>

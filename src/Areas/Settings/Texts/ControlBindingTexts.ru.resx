@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ToggleCamMovements" xml:space="preserve">
+    <value>Включить покачивания камеры</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Редактор</value>
+  </data>
+  <data name="NextSlot" xml:space="preserve">
+    <value>Следующий слот</value>
+  </data>
+  <data name="CloseInInOutputBits" xml:space="preserve">
+    <value>Сблизить биты входа/выхода</value>
+  </data>
+  <data name="RotateViewRight" xml:space="preserve">
+    <value>Повернуть вправо</value>
+  </data>
+  <data name="StartPause" xml:space="preserve">
+    <value>Продолжить/Приостановить</value>
+  </data>
+  <data name="CanTUse0" xml:space="preserve">
+    <value>Нельзя использовать {0}</value>
+  </data>
+  <data name="SlowerSimulation" xml:space="preserve">
+    <value>Замедлить</value>
+  </data>
+  <data name="HideUI" xml:space="preserve">
+    <value>Скрыть интерфейс</value>
+  </data>
+  <data name="MoveAround" xml:space="preserve">
+    <value>Перемещение</value>
+  </data>
+  <data name="SettingKeyInput" xml:space="preserve">
+    <value>Нажмите клавишу...</value>
+  </data>
+  <data name="ResetBindings" xml:space="preserve">
+    <value>Восстановить значения по умолчанию</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="SpaceOutInOutputBits" xml:space="preserve">
+    <value>Разнести биты входа/выхода</value>
+  </data>
+  <data name="RotateViewLeft" xml:space="preserve">
+    <value>Повернуть влево</value>
+  </data>
+  <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
+    <value>Постоянно нажатые клавиши проигнорированы: </value>
+  </data>
+  <data name="SwitchModes" xml:space="preserve">
+    <value>Переключить режим</value>
+  </data>
+  <data name="PreviousSlot" xml:space="preserve">
+    <value>Предыдущий слот</value>
+  </data>
+  <data name="PedestalViewDown" xml:space="preserve">
+    <value>Опустить камеру</value>
+  </data>
+  <data name="Interact" xml:space="preserve">
+    <value>Взаимодействовать</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>Симуляция</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="Slot1" xml:space="preserve">
+    <value>Слот 1</value>
+  </data>
+  <data name="Slot0" xml:space="preserve">
+    <value>Слот 0</value>
+  </data>
+  <data name="Slot3" xml:space="preserve">
+    <value>Слот 3</value>
+  </data>
+  <data name="Slot2" xml:space="preserve">
+    <value>Слот 2</value>
+  </data>
+  <data name="Slot4" xml:space="preserve">
+    <value>Слот 4</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Выделить всё</value>
+  </data>
+  <data name="PedestalViewUp" xml:space="preserve">
+    <value>Поднять камеру</value>
+  </data>
+  <data name="FasterSimulation" xml:space="preserve">
+    <value>Ускорить</value>
+  </data>
+  <data name="CenterCamera" xml:space="preserve">
+    <value>Отцентровать камеру</value>
+  </data>
+  <data name="_0AlreadyUsed" xml:space="preserve">
+    <value>{0} уже используется</value>
+  </data>
+  <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
+    <value>Нажмите клавишу, чтобы задать.
+Кликните, чтобы очистить.</value>
+  </data>
+  <data name="SelectMode" xml:space="preserve">
+    <value>Выбрать режим</value>
+  </data>
+  <data name="BuildUpward" xml:space="preserve">
+    <value>Строить вверх</value>
+  </data>
+  <data name="RunValidation" xml:space="preserve">
+    <value>Начать проверку</value>
+  </data>
+  <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
+    <value>Обнаружены постоянно нажатые клавиши или клавиши игнорируемые игрой.
+Это может происхрдить из-за специфической расскладки клавиатуры (например, IME Японский).</value>
+  </data>
+  <data name="LookAround" xml:space="preserve">
+    <value>Поворот камеры</value>
+  </data>
+  <data name="RotatePart" xml:space="preserve">
+    <value>Повернуть деталь</value>
+  </data>
+  <data name="FlipPartZAxis" xml:space="preserve">
+    <value>Отобразить по оси Z</value>
+  </data>
+  <data name="FlipPartXAxis" xml:space="preserve">
+    <value>Отобразить по оси X</value>
+  </data>
+  <data name="SwitchFreeCam" xml:space="preserve">
+    <value>Cвободная камера</value>
+  </data>
+  <data name="SelectSegment" xml:space="preserve">
+    <value>Выделить сегмент</value>
+  </data>
+  <data name="DeleteBlock" xml:space="preserve">
+    <value>Удалить блок</value>
+  </data>
+  <data name="CameraControls" xml:space="preserve">
+    <value>Камера</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Шаг</value>
+  </data>
+</root>

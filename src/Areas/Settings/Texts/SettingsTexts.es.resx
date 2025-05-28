@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2000/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"/>
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <!-- ======================= AJUSTES Y OPCIONES ======================= -->
+    <data name="UndoRedoStackSize" xml:space="preserve">
+    <value>Tamaño de pila Deshacer/Rehacer</value>
+  </data>
+    <data name="CanBeIncreasedToAllowMoreUndosButWillConsumeMoreMemory" xml:space="preserve">
+    <value>Se puede aumentar para permitir más deshacer, pero consumirá más memoria.</value>
+  </data>
+    <data name="ResetSettings" xml:space="preserve">
+    <value>Restablecer ajustes</value>
+  </data>
+    <data name="ResetAllSettings" xml:space="preserve">
+    <value>¿Restablecer todos los ajustes?</value>
+  </data>
+    <data name="AllSettingsWillBeResetToDefaultRestartingTheGameCouldBeNecessaryToFullyApply" xml:space="preserve">
+    <value>Todos los ajustes se restablecerán a los valores predeterminados. Puede ser necesario reiniciar el juego para aplicarlos completamente.</value>
+  </data>
+
+    <!-- Campaña -->
+    <data name="Campaign" xml:space="preserve">
+    <value>Campaña</value>
+  </data>
+    <data name="ResetCampaignOnly" xml:space="preserve">
+    <value>Restablecer solo la campaña</value>
+  </data>
+    <data name="ResetCampaignProgression" xml:space="preserve">
+    <value>¿Restablecer la progresión de la campaña?</value>
+  </data>
+    <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
+    <value>Esto restablecerá tu progresión en la campaña, pero NO eliminará las soluciones completadas.</value>
+  </data>
+    <data name="AreYouSureYouWantToResetYourCampaignProgressionNSolvedSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>¿Seguro que deseas restablecer tu progresión en la campaña?
+Las soluciones completadas no se eliminarán.</value>
+  </data>
+
+    <!-- Restablecimiento completo -->
+    <data name="HardReset" xml:space="preserve">
+    <value>Restablecimiento total</value>
+  </data>
+    <data name="ResetEverything" xml:space="preserve">
+    <value>Restablecer todo</value>
+  </data>
+    <data name="ResetEVERYTHINGUppercase" xml:space="preserve">
+    <value>¿Restablecer TODO?</value>
+  </data>
+    <data name="ThisWillResetEVERYSettingsSolutionsAndCampaignProgression" xml:space="preserve">
+    <value>Esto restablecerá TODOS los ajustes, soluciones y la progresión de la campaña.</value>
+  </data>
+    <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
+    <value>¿Seguro que deseas restablecer TODAS las soluciones y la progresión de la campaña?
+¡ESTO BORRARÁ TODO, ASEGÚRATE DE LO QUE HACES!</value>
+  </data>
+
+    <!-- Audio -->
+    <data name="MusicAndAmbianceLicencesAllowMonetizedContent" xml:space="preserve">
+    <value>*Las licencias de música y ambientación permiten contenido monetizado.</value>
+  </data>
+    <data name="MasterVolume" xml:space="preserve">
+    <value>Volumen maestro</value>
+  </data>
+    <data name="GameplayVolume" xml:space="preserve">
+    <value>Jugabilidad</value>
+  </data>
+
+    <!-- Conectividad -->
+    <data name="Mode" xml:space="preserve">
+    <value>Modo</value>
+  </data>
+    <data name="Editor" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+    <data name="Online" xml:space="preserve">
+    <value>En línea</value>
+  </data>
+    <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
+    <value>Las tablas se calculan con las últimas soluciones de todo el mundo y tus puntuaciones actualizan las tablas.</value>
+  </data>
+    <data name="ChartsAreCalculatedFromAFixedAndLocalSnapshotNofTheLatestSolutionsFromAroundTheWorldYourNscoresDonTUpdateCharts" xml:space="preserve">
+    <value>Las tablas se calculan a partir de una instantánea local fija de las últimas soluciones globales. Tus puntuaciones no actualizan las tablas.</value>
+  </data>
+
+    <!-- Renderizado -->
+    <data name="RayPrecision" xml:space="preserve">
+    <value>Precisión de rayo</value>
+  </data>
+    <data name="UseCubicWhenNothingElseWorksWillRenderCubesInsteadOfComplexShapesFastButUgly" xml:space="preserve">
+    <value>Usa «Cúbico» cuando nada más funcione. Representará cubos en lugar de formas complejas: rápido pero feo.</value>
+  </data>
+    <data name="RayPrecisionIsTheNumberOfStepsEachRayPerformNHigherValuesWillIncreaseQualityButWillDecreasePerformance" xml:space="preserve">
+    <value>La precisión de rayo es el número de pasos que realiza cada rayo.
+Valores más altos aumentan la calidad, pero reducen el rendimiento.</value>
+  </data>
+    <data name="LikelyPerformanceCost1030Percent" xml:space="preserve">
+    <value>Coste de rendimiento aproximado: 10-30 %.</value>
+  </data>
+    <data name="ChromaticAberration" xml:space="preserve">
+    <value>Aberración cromática</value>
+  </data>
+    <data name="NoPerformanceCostButMayCauseDiscomfortToSomeUsers" xml:space="preserve">
+    <value>Sin coste de rendimiento, pero puede causar molestias a algunos usuarios.</value>
+  </data>
+    <data name="UITextScale" xml:space="preserve">
+    <value>Escala de texto de la IU</value>
+  </data>
+    <data name="Benchmark" xml:space="preserve">
+    <value>Benchmark</value>
+  </data>
+    <data name="ApplySettings" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+    <data name="WonTBeAppliedIfVSyncIsEnabled" xml:space="preserve">
+    <value>No se aplicará si VSync está activado.</value>
+  </data>
+    <data name="FPSLimit" xml:space="preserve">
+    <value>Límite de FPS</value>
+  </data>
+    <data name="RestartToApplyChanges" xml:space="preserve">
+    <value>Reinicia para aplicar los cambios</value>
+  </data>
+    <data name="EditorRenderScale" xml:space="preserve">
+    <value>Escala de renderizado del editor</value>
+  </data>
+    <data name="LowerValuesWillIncreasePerformanceButWillDecreaseQualityNHigherValuesWillStronglyDecreasePerformanceButWillIncreaseQuality" xml:space="preserve">
+    <value>Valores bajos mejoran el rendimiento pero reducen la calidad.
+Valores altos reducen mucho el rendimiento pero aumentan la calidad.</value>
+  </data>
+
+    <!-- FOV -->
+    <data name="FieldOfViewUsedDuringFirstPersonPhasesNoPerformanceCost" xml:space="preserve">
+    <value>Campo de visión usado en fases en primera persona. Sin coste de rendimiento.</value>
+  </data>
+    <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
+    <value>Campo de visión usado en el editor. Sin coste de rendimiento.</value>
+  </data>
+
+    <!-- Otros ajustes -->
+    <data name="RenderMethod" xml:space="preserve">
+    <value>Método de renderizado</value>
+  </data>
+    <data name="MouseWheelSensitivity" xml:space="preserve">
+    <value>Sensibilidad rueda del ratón</value>
+  </data>
+    <data name="FlipVerticalMouseMovementDuringFPSPhases" xml:space="preserve">
+    <value>Invertir movimiento vertical del ratón en fases FPS.</value>
+  </data>
+    <data name="MouseEdgeScrolling" xml:space="preserve">
+    <value>Desplazamiento en borde</value>
+  </data>
+    <data name="DoubleClickToEdit" xml:space="preserve">
+    <value>Modo edición con doble clic derecho</value>
+  </data>
+    <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
+    <value>Si está habilitado, un doble clic derecho cambiará al modo edición.
+El bloque metálico se seleccionará automáticamente.</value>
+  </data>
+    <data name="WorldFOV" xml:space="preserve">
+    <value>FOV del mundo</value>
+  </data>
+    <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+
+    <!-- Resolución/Ventana -->
+    <data name="Windowed" xml:space="preserve">
+    <value>Ventana</value>
+  </data>
+    <data name="Borderless" xml:space="preserve">
+    <value>Sin bordes</value>
+  </data>
+    <data name="AutoDetect" xml:space="preserve">
+    <value>Detección automática</value>
+  </data>
+    <data name="UnlimitedOrVSync" xml:space="preserve">
+    <value>Ilimitado (o VSync)</value>
+  </data>
+
+    <!-- Métodos de render -->
+    <data name="RayMarching" xml:space="preserve">
+    <value>Ray Marching</value>
+  </data>
+    <data name="Cubic" xml:space="preserve">
+    <value>Cúbico</value>
+  </data>
+
+    <!-- Para lista de atajos -->
+    <data name="Action" xml:space="preserve">
+    <value>Acción</value>
+    <comment>Describe what a key binding does</comment>
+  </data>
+
+    <!-- Accesibilidad -->
+    <data name="DarkBackground" xml:space="preserve">
+    <value>Fondo oscuro</value>
+  </data>
+    <data name="ReduceVisualStrainOnTheEditorSBackgroundForSensitivityToBrightness" xml:space="preserve">
+    <value>Puede reducir la fatiga visual del fondo del editor para usuarios sensibles al brillo.</value>
+  </data>
+
+    <!-- Ratón -->
+    <data name="FPSInvertYAxis" xml:space="preserve">
+    <value>Invertir eje Y en fases FPS</value>
+  </data>
+    <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
+    <value>Mueve la cámara cuando el cursor está en el borde de la pantalla.</value>
+  </data>
+    <data name="MouseHorizontalScrolling" xml:space="preserve">
+    <value>Desplazamiento horizontal del ratón</value>
+  </data>
+    <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
+    <value>Rota la cámara al desplazar horizontalmente la rueda del ratón.</value>
+  </data>
+</root>

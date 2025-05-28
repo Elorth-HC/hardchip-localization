@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+      <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+      <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+      <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExportSuccessMessage" xml:space="preserve">
+    <value>Экспортирование успешно завершено.
+Новый HCDrive уже в буфере обмена! Теперь Вы
+можете поделиться им, вставив его в проводник
+или любое другое приложение, поддерживающее
+вставку изображений.</value>
+  </data>
+  <data name="BlueprintToExportMessage" xml:space="preserve">
+    <value>Чертёж готов к экспортированию:
+
+- Название: {0}
+- Описание: {1}
+
+Нажмите ЭКСПОРТИРОВАТЬ, чтобы создать
+HCDrive с чертежом.</value>
+  </data>
+  <data name="ChipToExportMessage" xml:space="preserve">
+    <value>Чип готов к экспортированию:
+
+- Название: {0}
+- Описание: {1}
+
+Нажмите ЭКСПОРТИРОВАТЬ, чтобы создать
+HCDrive с чипом.</value>
+  </data>
+  <data name="InstallSuccessMessage" xml:space="preserve">
+    <value>Установка успешно завершена.
+
+Содержимое HCDrive установлено!</value>
+  </data>
+  <data name="StageToExportMessage" xml:space="preserve">
+    <value>Пользовательский уровень
+готов к экспортированию:
+
+- Название: {0}
+- Описание: {1}
+
+Нажмите ЭКСПОРТИРОВАТЬ, чтобы создать
+HCDrive с уровнем.</value>
+  </data>
+  <data name="BlueprintToImportMessage" xml:space="preserve">
+    <value>HCDrive вставлен. Найден чертёж:
+
+- Название: {0}
+- Описание: {1}
+
+Нажмите УСТАНОВИТЬ, чтобы завершить
+установку чертежа.</value>
+  </data>
+  <data name="LoadHCDriveFailedMessage" xml:space="preserve">
+    <value>HCDrive не обнаружен!
+
+Убедитесь, что файл HCDrive находится
+в буфере обмена, и нажмите кнопку ЗАГРУЗИТЬ.</value>
+  </data>
+  <data name="InstallFailedMessage" xml:space="preserve">
+    <value>Установка не удалась.
+
+Содержимое HCDrive может быть повреждено
+или несовместимо.</value>
+  </data>
+  <data name="StageToImportMessage" xml:space="preserve">
+    <value>HCDrive вставлен. Найден
+пользовательский уровень:
+
+- Название: {0}
+- Описание: {1}
+
+Нажмите УСТАНОВИТЬ, чтобы завершить
+установку уровня.</value>
+  </data>
+  <data name="NoHCDriveMessage" xml:space="preserve">
+    <value>Нет вставленного HCDrive!
+
+HCDrive - это сжатые файлы, содержащие
+чипы, уровни и чертежи. Предназначены
+для удобного обмена.
+
+Убедитесь, что файл HCDrive или ссылка
+на него находится в буфере обмена,
+и нажмите ЗАГРУЗИТЬ.</value>
+  </data>
+  <data name="ChipToImportMessage" xml:space="preserve">
+    <value>HCDrive вставлен. Найден чип:
+
+- Название: {0}
+- Описание: {1}
+
+Нажмите УСТАНОВИТЬ, чтобы завершить
+установку чипа.</value>
+  </data>
+</root>

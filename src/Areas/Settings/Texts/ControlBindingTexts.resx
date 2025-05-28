@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Interact" xml:space="preserve">
+    <value>Interact</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Misc</value>
+    <comment>Category header for keybinding</comment>
+  </data>
+  <data name="SwitchModes" xml:space="preserve">
+    <value>Switch Modes</value>
+  </data>
+  <data name="HideUI" xml:space="preserve">
+    <value>Hide UI</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Editor</value>
+    <comment>Header category for keybinding</comment>
+  </data>
+  <data name="SelectMode" xml:space="preserve">
+    <value>Select Mode</value>
+  </data>
+  <data name="DeleteBlock" xml:space="preserve">
+    <value>Delete Block</value>
+  </data>
+  <data name="FlipPartXAxis" xml:space="preserve">
+    <value>Flip Part X Axis</value>
+  </data>
+  <data name="FlipPartZAxis" xml:space="preserve">
+    <value>Flip Part Z Axis</value>
+  </data>
+  <data name="RotatePart" xml:space="preserve">
+    <value>Rotate Part</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="SelectSegment" xml:space="preserve">
+    <value>Select Segment</value>
+  </data>
+  <data name="NextSlot" xml:space="preserve">
+    <value>Next Slot</value>
+  </data>
+  <data name="PreviousSlot" xml:space="preserve">
+    <value>Previous Slot</value>
+  </data>
+  <data name="Slot0" xml:space="preserve">
+    <value>Slot 0</value>
+  </data>
+  <data name="Slot1" xml:space="preserve">
+    <value>Slot 1</value>
+  </data>
+  <data name="Slot2" xml:space="preserve">
+    <value>Slot 2</value>
+  </data>
+  <data name="Slot3" xml:space="preserve">
+    <value>Slot 3</value>
+  </data>
+  <data name="Slot4" xml:space="preserve">
+    <value>Slot 4</value>
+  </data>
+  <data name="SpaceOutInOutputBits" xml:space="preserve">
+    <value>Space out In/Output bits</value>
+  </data>
+  <data name="CloseInInOutputBits" xml:space="preserve">
+    <value>Close in In/Output bits</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>Simulation</value>
+  </data>
+  <data name="RunValidation" xml:space="preserve">
+    <value>Run Validation</value>
+  </data>
+  <data name="StartPause" xml:space="preserve">
+    <value>Start Pause</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="FasterSimulation" xml:space="preserve">
+    <value>Faster Simulation</value>
+  </data>
+  <data name="SlowerSimulation" xml:space="preserve">
+    <value>Slower Simulation</value>
+  </data>
+  <data name="CameraControls" xml:space="preserve">
+    <value>Camera Controls</value>
+  </data>
+  <data name="MoveAround" xml:space="preserve">
+    <value>Move Around</value>
+  </data>
+  <data name="LookAround" xml:space="preserve">
+    <value>Look Around</value>
+  </data>
+  <data name="RotateViewLeft" xml:space="preserve">
+    <value>Rotate View Left</value>
+  </data>
+  <data name="RotateViewRight" xml:space="preserve">
+    <value>Rotate View Right</value>
+  </data>
+  <data name="CenterCamera" xml:space="preserve">
+    <value>Center Camera</value>
+  </data>
+  <data name="PedestalViewUp" xml:space="preserve">
+    <value>Pedestal View Up</value>
+  </data>
+  <data name="PedestalViewDown" xml:space="preserve">
+    <value>Pedestal View Down</value>
+  </data>
+  <data name="SwitchFreeCam" xml:space="preserve">
+    <value>Switch Free Cam</value>
+  </data>
+  <data name="ToggleCamMovements" xml:space="preserve">
+    <value>Toggle Cam Movements</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="BuildUpward" xml:space="preserve">
+    <value>Build upward</value>
+  </data>
+  <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
+    <value>Press a key to set.
+Left click to clear.</value>
+  </data>
+  <data name="SettingKeyInput" xml:space="preserve">
+    <value>Setting key input...</value>
+  </data>
+  <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
+    <value>Permanently pressed keys ignored: </value>
+  </data>
+  <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
+    <value>Detected keys permanently pressed and ignored by Hard Chip.
+This can be due to specific keyboard input layouts using modifier
+keys (Ex:IME Japanese input).</value>
+  </data>
+  <data name="ResetBindings" xml:space="preserve">
+    <value>Reset Bindings</value>
+  </data>
+  <data name="CanTUse0" xml:space="preserve">
+    <value>Can't use {0}</value>
+  </data>
+  <data name="_0AlreadyUsed" xml:space="preserve">
+    <value>{0} already used</value>
+  </data>
+</root>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StatusBroken1" xml:space="preserve">
+    <value>g90Running diagnostics...
+g90
+g91Autonomous Material Bank v12.0.4575
+g92 Power System [OK]
+g92 Physical Integrity [OK]
+r95 Core System Control Unit [FAIL], unit not responding
+r95ERROR_CODE: 0xEFDFB4 INVERTER chip damaged
+g90
+y39Immediate action required: replace the INVERTER chip. Requirements sent to workstation.</value>
+  </data>
+  <data name="FirstScreenEver1" xml:space="preserve">
+    <value>r90
+r93ERROR_CODE: 0x04FAB9 Network timeout. Connection lost.
+r90
+r93ERROR_CODE: 0x00FFB4 Power surge. Damage to electronic components likely.
+r90
+r93ERROR_CODE: 0x0CAF89 Output management failure detected. Not invertible.</value>
+  </data>
+  <data name="ChipReplaced1" xml:space="preserve">
+    <value>r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r92ERROR_CODE: UNSPECIFIED ERROR
+r95ERROR_CODE: ?x?????? continue
+y95WARNING: 0x45FDB3 INVERTER chip replaced. Reboot required.</value>
+  </data>
+  <data name="RebootFix1" xml:space="preserve">
+    <value>y95Attempting forced reboot...
+g90
+g90=========================================================================
+g90Autonomous Material Bank v12.0.4575                 
+g90=========================================================================
+g90
+g96Core systems check...
+g90
+g92 Power System [OK]
+g92 Physical Integrity [OK]
+y95 Core System Control Unit [RESTORED]
+g92 Materials Inventory [OK]
+g92 Connection to Fabricator [OK]
+g90
+g90Reboot sequence complete. Material Bank status: OPERATIONAL.</value>
+  </data>
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90Material Bank status: OPERATIONAL.</value>
+  </data>
+  <data name="FirstScreenEver2" xml:space="preserve">
+    <value>r90
+r93ERROR_CODE: 0x04FAB9 Network timeout. Connection lost.
+r90
+r93ERROR_CODE: 0x00FFB4 Power surge. Damage to electronic components likely.
+r90
+r93ERROR_CODE: 0x0CAF25 Output management failure detected. Invalid infinite inventory.</value>
+  </data>
+  <data name="StatusBroken2" xml:space="preserve">
+    <value>g90Running diagnostics...
+g90
+g91Autonomous Material Bank v12.0.4575
+g92 Power System [OK]
+g92 Physical Integrity [OK]
+g92 Core System Control Unit [OK]
+r95 Materials Inventory [FAIL], impossible counts detected.
+r95ERROR_CODE: 0xEFDFB4 8BIT ADDER chip damaged
+g90
+y39Immediate action required: replace the 8BIT ADDER chip. Requirements sent to workstation.</value>
+  </data>
+  <data name="ChipReplaced2" xml:space="preserve">
+    <value>r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r92ERROR_CODE: UNSPECIFIED ERROR
+r95ERROR_CODE: ?x?????? continue
+y95WARNING: 0x45FDB3 8BIT ADDER chip replaced. Reboot required.</value>
+  </data>
+  <data name="RebootFix2" xml:space="preserve">
+    <value>y95Attempting forced reboot...
+g90
+g90=========================================================================
+g90Autonomous Material Bank v12.0.4575                 
+g90=========================================================================
+g90
+g96Core systems check...
+g90
+g92 Power System [OK]
+g92 Physical Integrity [OK]
+y95 Core System Control Unit [OK]
+g92 Materials Inventory [RESTORED]
+g92 Connection to Fabricator [OK]
+g90
+g90Reboot sequence complete. Material Bank status: OPERATIONAL.</value>
+  </data>
+</root>

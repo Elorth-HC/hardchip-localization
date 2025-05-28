@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"/>
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <!-- ======================= KEYBINDINGS & CONTROLS ======================= -->
+    <data name="Interact" xml:space="preserve">
+    <value>Interactuar</value>
+  </data>
+
+    <!-- Categories -->
+    <data name="Misc" xml:space="preserve">
+    <value>Varios</value>
+    <comment>Category header for keybinding</comment>
+  </data>
+    <data name="Editor" xml:space="preserve">
+    <value>Editor</value>
+    <comment>Header category for keybinding</comment>
+  </data>
+    <data name="Simulation" xml:space="preserve">
+    <value>Simulación</value>
+  </data>
+    <data name="CameraControls" xml:space="preserve">
+    <value>Controles de cámara</value>
+  </data>
+
+    <!-- Misc -->
+    <data name="SwitchModes" xml:space="preserve">
+    <value>Cambiar modos</value>
+  </data>
+    <data name="HideUI" xml:space="preserve">
+    <value>Ocultar UI</value>
+  </data>
+
+    <!-- Editor actions -->
+    <data name="SelectMode" xml:space="preserve">
+    <value>Modo selección</value>
+  </data>
+    <data name="DeleteBlock" xml:space="preserve">
+    <value>Eliminar bloque</value>
+  </data>
+    <data name="FlipPartXAxis" xml:space="preserve">
+    <value>Voltear pieza eje X</value>
+  </data>
+    <data name="FlipPartZAxis" xml:space="preserve">
+    <value>Voltear pieza eje Z</value>
+  </data>
+    <data name="RotatePart" xml:space="preserve">
+    <value>Rotar pieza</value>
+  </data>
+    <data name="Undo" xml:space="preserve">
+    <value>Deshacer</value>
+  </data>
+    <data name="Redo" xml:space="preserve">
+    <value>Rehacer</value>
+  </data>
+    <data name="SelectAll" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+    <data name="Copy" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+    <data name="Cut" xml:space="preserve">
+    <value>Cortar</value>
+  </data>
+    <data name="Paste" xml:space="preserve">
+    <value>Pegar</value>
+  </data>
+    <data name="SelectSegment" xml:space="preserve">
+    <value>Seleccionar segmento</value>
+  </data>
+
+    <!-- Slots -->
+    <data name="NextSlot" xml:space="preserve">
+    <value>Siguiente ranura</value>
+  </data>
+    <data name="PreviousSlot" xml:space="preserve">
+    <value>Ranura anterior</value>
+  </data>
+    <data name="Slot0" xml:space="preserve">
+    <value>Ranura 0</value>
+  </data>
+    <data name="Slot1" xml:space="preserve">
+    <value>Ranura 1</value>
+  </data>
+    <data name="Slot2" xml:space="preserve">
+    <value>Ranura 2</value>
+  </data>
+    <data name="Slot3" xml:space="preserve">
+    <value>Ranura 3</value>
+  </data>
+    <data name="Slot4" xml:space="preserve">
+    <value>Ranura 4</value>
+  </data>
+
+    <!-- Pin spacing -->
+    <data name="SpaceOutInOutputBits" xml:space="preserve">
+    <value>Separar bits de E/S</value>
+  </data>
+    <data name="CloseInInOutputBits" xml:space="preserve">
+    <value>Acercar bits de E/S</value>
+  </data>
+
+    <!-- Simulation -->
+    <data name="RunValidation" xml:space="preserve">
+    <value>Ejecutar validación</value>
+  </data>
+    <data name="StartPause" xml:space="preserve">
+    <value>Iniciar/Pausar</value>
+  </data>
+    <data name="Reset" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+    <data name="Step" xml:space="preserve">
+    <value>Paso</value>
+  </data>
+    <data name="FasterSimulation" xml:space="preserve">
+    <value>Simulación más rápida</value>
+  </data>
+    <data name="SlowerSimulation" xml:space="preserve">
+    <value>Simulación más lenta</value>
+  </data>
+
+    <!-- Camera -->
+    <data name="MoveAround" xml:space="preserve">
+    <value>Moverse</value>
+  </data>
+    <data name="LookAround" xml:space="preserve">
+    <value>Mirar alrededor</value>
+  </data>
+    <data name="RotateViewLeft" xml:space="preserve">
+    <value>Rotar vista izquierda</value>
+  </data>
+    <data name="RotateViewRight" xml:space="preserve">
+    <value>Rotar vista derecha</value>
+  </data>
+    <data name="CenterCamera" xml:space="preserve">
+    <value>Centrar cámara</value>
+  </data>
+    <data name="PedestalViewUp" xml:space="preserve">
+    <value>Vista pedestal arriba</value>
+  </data>
+    <data name="PedestalViewDown" xml:space="preserve">
+    <value>Vista pedestal abajo</value>
+  </data>
+    <data name="SwitchFreeCam" xml:space="preserve">
+    <value>Cambiar cámara libre</value>
+  </data>
+    <data name="ToggleCamMovements" xml:space="preserve">
+    <value>Activar movimientos de cámara</value>
+  </data>
+
+    <!-- Misc helpers -->
+    <data name="Unknown" xml:space="preserve">
+    <value>Desconocido</value>
+  </data>
+    <data name="BuildUpward" xml:space="preserve">
+    <value>Construir hacia arriba</value>
+  </data>
+    <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
+    <value>Pulsa una tecla para asignar.<br/>Clic izquierdo para limpiar.</value>
+  </data>
+    <data name="SettingKeyInput" xml:space="preserve">
+    <value>Asignando entrada de tecla…</value>
+  </data>
+    <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
+    <value>Teclas permanentemente presionadas ignoradas: </value>
+  </data>
+    <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
+    <value>Se detectaron teclas permanentemente presionadas e ignoradas por Hard Chip.
+Esto puede deberse a distribuciones de teclado que usan teclas
+modificadoras específicas (por ejemplo, IME para japonés).</value>
+  </data>
+    <data name="ResetBindings" xml:space="preserve">
+    <value>Restablecer asignaciones</value>
+  </data>
+    <data name="CanTUse0" xml:space="preserve">
+    <value>No se puede usar {0}</value>
+  </data>
+    <data name="_0AlreadyUsed" xml:space="preserve">
+    <value>{0} ya está en uso</value>
+  </data>
+</root>

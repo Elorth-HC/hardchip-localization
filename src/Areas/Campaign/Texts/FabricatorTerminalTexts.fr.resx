@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Translation to French below -->
+  
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>g90=========================================================================
+g90Fabricateur autonome v546.1.7430
+g90=========================================================================
+g90
+g96Démarrage en cours...
+g90
+g92Système d'alimentation [OK]
+g92Intégrité physique [OK]
+g92Systèmes centraux [OK]
+g92Interfaces de contrôle externes... [OK]
+r95Banque de matériaux 1 [HORS LIGNE]
+r95Banque de matériaux 2 [HORS LIGNE]
+g90
+y95AVERTISSEMENT : banques de matériaux indisponibles. Matériaux mis en mémoire tampon disponibles uniquement pour des opérations limitées.
+g90
+g39Séquence de démarrage terminée. État du fabricateur : PARTIELLEMENT OPÉRATIONNEL
+g90
+g90Spécifications de conception reçues pour la puce BYPASS.
+g90Prêt à démarrer le processus de fabrication.</value>
+  </data>
+  
+  <data name="StatusStep0" xml:space="preserve">
+    <value>g90Diagnostic en cours...              
+g90
+g91Fabricateur autonome v546.1.7430
+g92 Système d'alimentation [OK]
+g92 Intégrité physique [OK]
+g92 Systèmes centraux [OK]
+r95 Banque de matériaux 1 [HORS LIGNE]
+r95 Banque de matériaux 2 [HORS LIGNE]
+g90
+y95AVERTISSEMENT : banques de matériaux indisponibles. Matériaux mis en mémoire tampon disponibles uniquement pour des opérations limitées.
+g90
+g39État du fabricateur : PARTIELLEMENT OPÉRATIONNEL</value>
+  </data>
+  
+  <data name="StatusStep1" xml:space="preserve">
+    <value>g90Diagnostic en cours...              
+g90
+g91Fabricateur autonome v546.1.7430
+g92 Système d'alimentation [OK]
+g92 Intégrité physique [OK]
+g92 Systèmes centraux [OK]
+g92 Banque de matériaux 1 [EN LIGNE]
+r95 Banque de matériaux 2 [HORS LIGNE]
+g90
+y95AVERTISSEMENT : Banque de matériaux 2 indisponible. Opérations limitées uniquement.
+g90
+g39État du fabricateur : PARTIELLEMENT OPÉRATIONNEL</value>
+  </data>
+  
+  <data name="StatusStep0Shorted" xml:space="preserve">
+    <value>
+r95Banque de matériaux 1 [HORS LIGNE]
+r95Banque de matériaux 2 [HORS LIGNE]
+g90État du fabricateur : PARTIELLEMENT OPÉRATIONNEL</value>
+  </data>
+  
+  <data name="StatusStep1Shorted" xml:space="preserve">
+    <value>
+g92Banque de matériaux 1 [EN LIGNE]
+r95Banque de matériaux 2 [HORS LIGNE]
+g90État du fabricateur : PARTIELLEMENT OPÉRATIONNEL</value>
+  </data>
+  
+  <data name="StatusStep2Shorted" xml:space="preserve">
+    <value>
+g92Banque de matériaux 1 [EN LIGNE]
+g92Banque de matériaux 2 [EN LIGNE]
+g90État du fabricateur : OPÉRATIONNEL</value>
+  </data>
+  
+  <data name="StatusStep2" xml:space="preserve">
+    <value>g90Diagnostic en cours...              
+g90
+g91Fabricateur autonome v546.1.7430
+g92 Système d'alimentation [OK]
+g92 Intégrité physique [OK]
+g92 Systèmes centraux [OK]
+g92 Banque de matériaux 1 [EN LIGNE]
+g95 Banque de matériaux 2 [EN LIGNE]
+g90
+g39État du fabricateur : OPÉRATIONNEL</value>
+  </data>
+  
+  <data name="FabricateMore" xml:space="preserve">
+    <value>g90Processus de fabrication terminé.</value>
+  </data>
+  
+  <data name="ReceivedInverter" xml:space="preserve">
+    <value>g90Spécifications de conception reçues pour la puce INVERTER.
+g90Prêt à démarrer le processus de fabrication.</value>
+  </data>
+  
+  <data name="ReceivedAdder" xml:space="preserve">
+    <value>g90Spécifications de conception reçues pour la puce ADDER 8 bits.
+g90Prêt à démarrer le processus de fabrication.</value>
+  </data>
+  
+  <data name="ReceivedALU" xml:space="preserve">
+    <value>g90Spécifications de conception reçues pour la puce ALU.
+g90Prêt à démarrer le processus de fabrication.</value>
+  </data>
+  
+  <data name="GenericFabricateLog" xml:space="preserve">
+    <value>g90Initialisation de la séquence de fabrication pour la puce [CHIPNAME]...
+g90
+g90Chargement des spécifications de conception depuis la base de données... [OK]
+g90Vérification de la conception et contrôle de conformité... [OK]
+g90Préparation de la tranche de silicium... [OK]
+g94Application de la couche de photorésine... [OK]
+g90
+g90Démarrage du processus de lithographie pour la couche de base...
+g92Exposition UV terminée... [OK]
+g93Développement de la photorésine... [OK]
+g93Recuit à haute température... [OK]
+g90
+g90Lithographie finale pour la couche métallique supérieure...
+g91Exposition UV et développement... [OK]
+g92Gravure finale et nettoyage... [OK]
+g90
+g90Assemblage de la puce sur le boîtier...
+g92Connexion des fils de la puce... [OK]
+g93Encapsulation et polymérisation... [OK]
+g90Conditionnement et étiquetage... [OK]
+g90
+g92Processus de fabrication terminé.
+g90
+g90La puce [CHIPNAME] est prête.
+g90Journal de fabrication sauvegardé. Numéro de lot : 2224A[BATCHID]X.</value>
+  </data>
+  
+  <data name="LookAtChip" xml:space="preserve">
+    <value>g99
+r90CODE_ERREUR : ?x?????? regarde sur le dessus de la table du fabricateur</value>
+  </data>
+</root>

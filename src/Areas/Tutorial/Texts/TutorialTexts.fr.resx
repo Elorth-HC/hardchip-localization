@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Translation to French below -->
+  <data name="RepresentingNegativeNumberSignedNumberCanTBeDoneWithThePreviousSolutionsAsIs" xml:space="preserve">
+    <value>Représenter un nombre négatif (nombre signé)n'est pas
+réalisable avec les solutions précédentes telles quelles.</value>
+  </data>
+  <data name="ASmallTwistCanBringThatRepresentationWhileStillReusingAllPreviousSolutions" xml:space="preserve">
+    <value>Un léger ajustement peut apporter cette représentation
+tout en réutilisant toutes les solutions précédentes.</value>
+  </data>
+  <data name="ThisIsTheNumberRepresentationUsedSoFar" xml:space="preserve">
+    <value>Voici la représentation numérique utilisée jusqu'à présent.</value>
+  </data>
+  <data name="HereSTheNegativeNumberRepresentationCompatibleOutput" xml:space="preserve">
+    <value>Voici la sortie compatible avec la représentation des nombres négatifs.</value>
+  </data>
+  <data name="SetINDIVIDUALINPUTBITSToMatchTheOUTPUTValueThenMANUALLYVALIDATEStepByStep" xml:space="preserve">
+    <value>Réglez les BITS D'ENTRÉE INDIVIDUELS pour correspondre
+à la valeur de SORTIE, puis VALIDEZ MANUELLEMENT étape par étape</value>
+  </data>
+  <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
+    <value>Certaines connections peuvent être délicates à placer
+sans qu'elles n'en touchent d'autres.</value>
+  </data>
+  <data name="ConnectINPUTAndOUTPUTWithoutSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>Connectez l'ENTRÉE et la SORTIE sans COURT-CIRCUIT,
+puis VALIDEZ.</value>
+  </data>
+  <data name="UseTheCompactingTheInverterBlueprintThenValidate" xml:space="preserve">
+    <value>Utilisez le plan « Compacter l'INVERTER » puis validez.</value>
+  </data>
+  <data name="ItWouldBeVeryInefficientToRebuildEveryCircuitFromScratch" xml:space="preserve">
+    <value>Il serait très inefficace de
+reconstruire chaque circuit à partir de zéro</value>
+  </data>
+  <data name="ToReuseWhatYouAlreadyBuiltSaveAnyCircuitAsABLUEPRINTAndThenJustSelectItToGetACopyForPlacement" xml:space="preserve">
+    <value>Pour réutiliser ce que vous avez déjà construit,
+enregistrez n'importe quel circuit sous forme de BLUEPRINT,
+puis sélectionnez-le simplement pour en obtenir une copie à placer.</value>
+  </data>
+  <data name="EachStageSavesYourPassingCircuitAsABLUEPRINTTooForYouToUseYouCanCreateEditYourOwnAsWell" xml:space="preserve">
+    <value>Chaque niveau enregistre également votre circuit réussi
+sous forme de BLUEPRINT pour que vous puissiez l'utiliser.
+Vous pouvez créer/éditer les vôtres aussi.</value>
+  </data>
+  <data name="UseTheBLUEPRINTModeToPlaceAnINVERTEROntoTheDIEThenVALIDATE" xml:space="preserve">
+    <value>Utilisez le mode BLUEPRINT pour placer un INVERTER sur le DIE,
+puis VALIDEZ.</value>
+  </data>
+  <data name="TheDIESizeWasFixedUntilNowNowTheSizeWillBeDynamicToTheRightAndBottomDirection" xml:space="preserve">
+    <value>La taille du DIE était fixe jusqu'à présent ; à présent, sa taille
+sera dynamique vers la droite et vers le bas.</value>
+  </data>
+  <data name="IfYouNeedMoreSpaceJustBuildOutsideTheDIEToExtendIt" xml:space="preserve">
+    <value>Si vous avez besoin de plus d'espace,
+construisez simplement en dehors du DIE pour l'étendre.</value>
+  </data>
+  <data name="WhenYouValidateAnyEmptyContiguousSpacesWillAutomaticalyBeRemoved" xml:space="preserve">
+    <value>Lorsque vous validez, tout espace contigu vide
+est AUTOMATIQUEMENT supprimé.</value>
+  </data>
+  <data name="DoingSoWillShiftAnyOutputToTheNewEdgeLocation" xml:space="preserve">
+    <value>Cela décalera toute sortie vers la nouvelle position de bordure.</value>
+  </data>
+  <data name="TryRemovingAnyBlockInThisColumnAndThenValidateToCompactTheDie" xml:space="preserve">
+    <value>Essayez de retirer n'importe quel bloc dans cette colonne,
+puis validez pour compacter le DIE.</value>
+  </data>
+  <data name="INFOFULLREPORTUNLOCKED" xml:space="preserve">
+    <value>INFO : RAPPORT COMPLET DÉVERROUILLÉ.</value>
+  </data>
+  <data name="COMPACTAndOPTIMIZETheINVERTERThenVALIDATE" xml:space="preserve">
+    <value>COMPACTEZ et OPTIMISEZ l'INVERTER, puis VALIDEZ.</value>
+  </data>
+  <data name="TipToDoACuboidSelectHoldLeftCTRLWhileSelectingOrDeleting" xml:space="preserve">
+    <value>Astuce : pour effectuer une sélection cuboïde, maintenez la touche CTRL gauche
+enfoncée tout en sélectionnant ou en supprimant.</value>
+  </data>
+  <data name="AreaTooLarge" xml:space="preserve">
+    <value>Zone trop grande</value>
+  </data>
+  <data name="SomeValidationRequiresMultipleStepsEachStepHasItsOwnRequirementAllAreListedOnTopHere" xml:space="preserve">
+    <value>Certaines validations nécessitent plusieurs étapes.
+Chaque étape a ses propres exigences.
+Elles sont toutes listées ci-dessus.</value>
+  </data>
+  <data name="EachStepIsVerifiedInOrderOneAfterTheOtherIfAStepFailsToBeVerifiedTheValidationStops" xml:space="preserve">
+    <value>Chaque étape est vérifiée dans l'ordre, l'une après l'autre.
+Si une étape n'est pas validée,
+le processus de validation s'arrête.</value>
+  </data>
+  <data name="BuildASolutionThatMeetsTheCRITERIAThenVALIDATE" xml:space="preserve">
+    <value>Construisez une solution qui respecte les CRITÈRES, puis VALIDEZ.</value>
+  </data>
+  <data name="IMHereToHelpTrustInTheGuidanceIOfferForMyOnlyAimIsToLeadYouToResolution" xml:space="preserve">
+    <value>Je suis là pour vous aider. Ayez confiance dans les conseils que je vous donne,
+car mon seul objectif est de vous mener à la résolution.</value>
+  </data>
+  <data name="ThisOneBlockIsASUBSTRATEBlockSeeItAsTheSupportForEverythingElse" xml:space="preserve">
+    <value>Ce bloc est un bloc SUBSTRAT ;
+voyez-le comme le support de tout le reste.</value>
+  </data>
+  <data name="ThisIsTheDIEItIsComposedOfTheEntireSetOfAllBlocks" xml:space="preserve">
+    <value>Ceci est le DIE, il est composé
+de l'ensemble de tous les blocs.</value>
+  </data>
+  <data name="ThisIsAnINPUTBlockItProvidesSignalToTheDIEToProcessIt" xml:space="preserve">
+    <value>Voici un bloc INPUT, il fournit
+le signal au DIE pour le traiter.</value>
+  </data>
+  <data name="ThisIsAnOUTPUTBlockItReceivesTheSignalProcessedByTheDIE" xml:space="preserve">
+    <value>Voici un bloc OUTPUT, il reçoit
+le signal traité par le DIE.</value>
+  </data>
+  <data name="ThisDIENeedsToFullfillASimpleTaskOutputingWhatItReceivesOnTheInput" xml:space="preserve">
+    <value>Ce DIE doit accomplir une tâche simple :
+sortir ce qu'il reçoit en entrée.</value>
+  </data>
+  <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
+    <value>Pour connecter l'INPUT et l'OUTPUT, utilisez un bloc METAL,
+puis cliquez sur n'importe quel bloc SUBSTRAT pour le placer.</value>
+  </data>
+  <data name="WhenYouHaveCompletedYourDIELaunchTheVerificationWithTheVALIDATEButton" xml:space="preserve">
+    <value>Lorsque vous avez terminé votre DIE,
+lancez la vérification avec le bouton « VALIDATE ».</value>
+  </data>
+  <data name="AtAnyPointYouCanGetHintsAndHelpFromTheButton" xml:space="preserve">
+    <value>À tout moment, vous pouvez obtenir des indices et de l'aide
+depuis le bouton « ? ».</value>
+  </data>
+  <data name="ConnectTheINPUTToTheOUTPUTThenVALIDATE" xml:space="preserve">
+    <value>Connectez l'INPUT à l'OUTPUT, puis VALIDEZ</value>
+  </data>
+  <data name="TestWithTheClickMeInputAtLeastOnceThenValidate" xml:space="preserve">
+    <value>Testez une fois l'entrée « Click Me! »
+puis VALIDEZ.</value>
+  </data>
+  <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
+    <value>Les blocs METAL, INPUT et OUTPUT peuvent avoir 3 états :
+1 (en rouge),
+0 (en bleu),
+_ (appelé NEUTRE en gris).</value>
+  </data>
+  <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
+    <value>Les blocs INPUT envoient des états 1 ou 0
+aux blocs METAL adjacents.</value>
+  </data>
+  <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
+    <value>Sinon, TOUS les blocs reviendront à
+leur état NEUTRE naturel.</value>
+  </data>
+  <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
+    <value>Les INPUTS sont contrôlés par le processus de validation
+au moment où vous cliquez sur « VALIDATE ».</value>
+  </data>
+  <data name="BUTYouCanTestDifferentINPUTSSeedingStateByClickingOnIt" xml:space="preserve">
+    <value>MAIS vous pouvez tester différents
+états d'INPUTS en cliquant dessus.</value>
+  </data>
+  <data name="DoingSoWillSTOPTheValidationProcess" xml:space="preserve">
+    <value>Faire cela ARRÊTERA le processus de validation.</value>
+  </data>
+  <data name="ChangeTheINPUTAtLeastOnceThenVALIDATE" xml:space="preserve">
+    <value>Changez l'INPUT au moins une fois, puis VALIDEZ.</value>
+  </data>
+  <data name="MOSCanTakeDifferentShapesNotLimitedToThe3x2x3Blocks" xml:space="preserve">
+    <value>Les MOS peuvent prendre différentes formes,
+non limitées aux blocs 3x2x3.</value>
+  </data>
+  <data name="SpecialShapeMOSCanHaveTwoGatesAndShareTheSameChannel" xml:space="preserve">
+    <value>Les MOS à forme spéciale peuvent avoir deux portes
+et partager le même canal.</value>
+  </data>
+  <data name="YouCantUseTraceHereOnlyPMOSFromTheBottomBuildMenu" xml:space="preserve">
+    <value>Vous ne pouvez pas utiliser de bloc METAL ici,
+seuls les PMOS du menu de construction du bas sont autorisés.</value>
+  </data>
+  <data name="CreateAMERGEDPMOSWith2GATESThenVALIDATE" xml:space="preserve">
+    <value>Créez un PMOS FUSIONNÉ avec 2 PORTES puis VALIDEZ</value>
+  </data>
+  <data name="NMOSNegativeMOSAreTheExactOppositeOfPMOS" xml:space="preserve">
+    <value>Les NMOS (MOS négatifs) sont l'exact opposé des PMOS.</value>
+  </data>
+  <data name="TheBlueStripsHelpToDifferentiateTheNMOSFromAPMOSWhichAreRed" xml:space="preserve">
+    <value>Les bandes bleues aident à différencier
+les NMOS d'un PMOS (qui sont rouges).</value>
+  </data>
+  <data name="ApplyingA1ToTheNMOSSGateActivatesItAllowingONLY0GoingThroughIt" xml:space="preserve">
+    <value>Appliquer un 1 à la porte du NMOS l'active,
+en ne laissant passer QUE l'état 0.</value>
+  </data>
+  <data name="ApplyingA0DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>Appliquer un 0 le désactive, bloquant
+TOUT état passant par lui.</value>
+  </data>
+  <data name="ConnectTheNMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Connectez correctement le NMOS puis VALIDEZ</value>
+  </data>
+  <data name="TRACESCanOnlyTransferOneStateAtATimeButMOSFETMetalOxideSemiconductorsFieldEffectTransistorCanReactToStates" xml:space="preserve">
+    <value>Une simple connections METAL ne peux transférer qu'un seul état à la fois.
+Mais les MOSFET (Metal Oxide Semiconductors Field-effect Transistor)
+peuvent réagir aux états!</value>
+  </data>
+  <data name="HereSAMOSFETAndMovingForwardWeLlReferToItAsMOS" xml:space="preserve">
+    <value>Voici un MOSFET, et dorénavant
+nous l'appellerons « MOS ».</value>
+  </data>
+  <data name="MOSHas2MajorPartsTheGate" xml:space="preserve">
+    <value>Le MOS possède 2 parties principales : la porte...</value>
+  </data>
+  <data name="AndTheChannel" xml:space="preserve">
+    <value>... et le canal</value>
+  </data>
+  <data name="ThisOneMOSIsAPMOSPositiveMOSItActsLikeASwitchThatCanBeEitherActivatedOrDeactivatedByAnyGivenState" xml:space="preserve">
+    <value>Ce MOS est un PMOS (MOS positif). Il agit comme un interrupteur
+qui peut être « activé » ou « désactivé » selon n'importe quel état donné.</value>
+  </data>
+  <data name="Applying0ToThePMOSSGateActivatesItAllowingONLY1GoingThroughIt" xml:space="preserve">
+    <value>Appliquer un 0 à la porte du PMOS l'active,
+en ne laissant passer QUE l'état 1.</value>
+  </data>
+  <data name="Applying1DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>Appliquer un 1 le désactive, bloquant
+TOUT état passant par lui.</value>
+  </data>
+  <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
+    <value>Utilisez le bouton HELP en haut ici ou essayez de câbler
+vous-même le PMOS.</value>
+  </data>
+  <data name="ConnectThePMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Connectez correctement le PMOS puis VALIDEZ</value>
+  </data>
+  <data name="MostOfTheTimeASCHEMATICIsAvailableWithTheChipButtonOnTopHere" xml:space="preserve">
+    <value>La plupart du temps, le bouton « Schémas » est disponible en haut ici.</value>
+  </data>
+  <data name="ItProvidesOptionalStepsToBuildTheChipForEachLevel" xml:space="preserve">
+    <value>Il fournit des étapes facultatives pour construire la puce à chaque niveau.</value>
+  </data>
+  <data name="UseTheSCHEMATICOrNotToBuildAnINVERTERThenVALIDATE" xml:space="preserve">
+    <value>Utilisez (ou non) le SCHÉMA pour construire un INVERTER,
+puis VALIDEZ</value>
+  </data>
+  <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
+    <value>Vous pouvez utiliser R pour faire pivoter un PMOS/NMOS
+ou n'importe quelle sélection de blocs.</value>
+  </data>
+  <data name="Connecting2INPUTSWithTheOPPOSITEStates1And0WillResultInASHORTCIRCUIT" xml:space="preserve">
+    <value>Connecter 2 INPUTS ayant des états OPPOSÉS (1 et 0)
+provoquera un COURT-CIRCUIT.</value>
+  </data>
+  <data name="ASHORTCIRCUITWillPreventTheDIEFromProperlyFunctioningInUnexpectedWays" xml:space="preserve">
+    <value>Un COURT-CIRCUIT empêchera le DIE de fonctionner correctement,
+d'une manière imprévisible.</value>
+  </data>
+  <data name="ToIsolateThe2INPUTSFromEachOtherHoldALTDownAndClickOnATRACEToRemoveIt" xml:space="preserve">
+    <value>Pour isoler les 2 INPUTS l'une de l'autre, maintenez la
+touche ALT et cliquez sur un bloc METAL pour le retirer.</value>
+  </data>
+  <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>Corrigez le COURT-CIRCUIT, puis VALIDEZ</value>
+  </data>
+  <data name="ToIsolateTRACEsFromEachOtherTheyMustHaveAtLeast1EmptySpaceBetweenThemInAnyDirectionOtherwiseTheyAreConnected" xml:space="preserve">
+    <value>Pour isoler des voies métallique l'une de l'autre, il
+faut qu'il y ait au moins 1 espace vide entre elles
+dans toutes les directions. Sinon, elles sont connectées.</value>
+  </data>
+  <data name="FollowingTheCriteriaInputAMustBeConnectedToOutputAButNotToOutputBNorC" xml:space="preserve">
+    <value>Selon les critères :
+L'entrée A doit être connectée à la sortie A,
+mais pas à la sortie B ni à C.</value>
+  </data>
+  <data name="AddTRACESUpByHoldingLEFTCLICKAndThenMOUSEMOVEUpWhileHoldingCTRLDOWN" xml:space="preserve">
+    <value>Ajoutez des block METAL vers le haut en maintenant
+le CLIC GAUCHE, puis déplacez la souris vers le haut
+tout en maintenant CTRL enfoncée.</value>
+  </data>
+  <data name="SEPARATETRACEsABAndCThenVALIDATE" xml:space="preserve">
+    <value>SÉPAREZ les connections A, B et C. Puis VALIDEZ.</value>
+  </data>
+  <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
+    <value>CTRL gauche + maintenir le clic gauche,
+puis déplacer vers le haut pour ajouter des traces verticalement.</value>
+  </data>
+</root>

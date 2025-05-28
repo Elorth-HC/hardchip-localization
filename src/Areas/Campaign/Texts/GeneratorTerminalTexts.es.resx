@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- ======================= GENERATOR TERMINAL SCREENS ======================= -->
+
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r93ERROR_CODE: 0x00FAB4 Falla general. Error no especificado.
+r90
+r93ERROR_CODE: 0x03FAA3 Error de E/S. El dispositivo no responde.
+r90
+r93ERROR_CODE: 0x04FAB9 Tiempo de espera de red agotado. Conexión perdida.
+r90
+r93ERROR_CODE: 0x02FAC2 Desbordamiento de memoria. El proceso terminó inesperadamente.
+r90
+r93ERROR_CODE: 0x00FFB4 Sobretensión. Es probable que los componentes electrónicos estén dañados. Los sistemas de distribución de energía están en modo seguro.
+r90
+r90ERROR_CODE: ?x?????? hello
+r90
+r93ERROR_CODE: 0x01FAB1 Falla crítica. Se requiere reinicio del sistema.</value>
+  </data>
+
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90Ejecutando diagnóstico...              
+g90
+g91Autonomous Generator v156.5.9870
+g93 Integridad física: [OK]
+g92 Sistemas de control: [OK]
+g90
+r90 Estado actual: UNRESPONSIVE
+g90 Potencia de salida actual: 0.1%%
+g90
+w90Últimas entradas de registro:
+r92 ERROR_CODE: 0x00FFB4 Sobretensión. Es probable que los componentes electrónicos estén dañados. Los sistemas de distribución de energía están en modo seguro.
+r92 ERROR_CODE: 0x01FAB1 Falla crítica. Se requiere reinicio del sistema.
+g90
+y39Acción inmediata requerida: reiniciar.</value>
+  </data>
+
+  <data name="RebootFix" xml:space="preserve">
+    <value>y90Intentando reinicio forzado...
+g90
+g92Deteniendo todos los subsistemas del generador...
+g93Activando apagado de emergencia...
+g94Campos de contención estabilizándose... [OK]
+g92Válvulas de admisión de combustible bloqueadas... [OK]
+g92Los sistemas de regulación térmica entrando en fase de enfriamiento... [OK]
+g90Desconectando de la red eléctrica principal... [OK]
+g90Guardando la última configuración conocida... [OK]
+g90
+g97Todos los subsistemas detenidos. Estado del generador [OFFLINE].
+g90
+g90
+g90=========================================================================
+g90Autonomous Generator v156.5.9870
+g90=========================================================================
+g90
+g96Comprobación de sistemas centrales...
+g90Todos los sistemas [OK]
+g90
+g92Iniciando secuencia de arranque...
+g93Energizando sistemas de control... [OK]
+r94Estableciendo conexión con la red eléctrica... [FAILED]
+g92Calibrando campos de contención de energía... [OK]
+g93Activando sistemas de regulación térmica... [OK]
+g92Abriendo válvulas de admisión de combustible... [OK]
+g99Iniciando sistemas de distribución de energía... [OK]
+g99Evaluando nivel de energía... [OK]
+g91Sincronizando con interfaces de control externas... [OK]
+g90
+g90Secuencia de reinicio completa. Estado del generador: OPERATIONAL.</value>
+  </data>
+
+  <data name="InitialScreenFixed" xml:space="preserve">
+    <value>g90=========================================================================
+g90Autonomous Generator v156.5.9870
+g90=========================================================================
+g90
+g90Comprobación de sistemas centrales...
+g90Todos los sistemas [OK]
+g90
+g90Iniciando secuencia de arranque...
+g90Energizando sistemas de control... [OK]
+r90Estableciendo conexión con la red eléctrica... [FAILED]
+g90Calibrando campos de contención de energía... [OK]
+g90Activando sistemas de regulación térmica... [OK]
+g90Abriendo válvulas de admisión de combustible... [OK]
+g90Iniciando sistemas de distribución de energía... [OK]
+g90Evaluando nivel de energía... [OK]
+g90Sincronizando con interfaces de control externas... [OK]
+g90
+g90Secuencia de reinicio completa. Estado del generador: OPERATIONAL.</value>
+  </data>
+
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90Estado del generador: OPERATIONAL.</value>
+  </data>
+
+  <data name="StatusFixedForever" xml:space="preserve">
+    <value>g90
+g90Estado del generador: OPERATIONAL.</value>
+  </data>
+
+</root>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <data name="FirstScreenEver" xml:space="preserve">
+    <value>r90
+r93ERROR_CODE: 0x04FAB9 Tiempo de espera de red agotado. Conexión perdida.
+r90
+r93ERROR_CODE: 0x00FFB4 Sobretensión. Es probable que los componentes electrónicos estén dañados.
+r90
+r93ERROR_CODE: 0x0A6599 Error de operación aritmética: Fallo general.</value>
+  </data>
+
+    <data name="StatusBroken" xml:space="preserve">
+    <value>g90Ejecutando diagnóstico...              
+g90
+y91Control de Fábrica v156.5.9870
+g92 Sistema de energía [OK]
+g92 Integridad física [OK]
+r95 Unidad de Control del Sistema Central FALLÓ, la unidad no responde
+g90
+w90Últimas entradas de registro:
+r92ERROR_CODE: 0xEFDFB4 Chip ALU de 8 bits dañado
+g90
+y39Acción inmediata requerida: reemplazar el chip ALU de 8 bits. Enviando requisitos a la estación de trabajo...
+r95ERROR_CODE: 0x052001 La estación de trabajo no está lista, los Bancos de Material están FUERA DE LÍNEA
+g90
+y39Acción inmediata requerida: Vuelva a poner en línea los Bancos de Material para continuar.</value>
+  </data>
+
+    <data name="StatusBroken2" xml:space="preserve">
+    <value>g90Ejecutando diagnóstico...              
+g90
+y91Control de Fábrica v156.5.9870
+g92 Sistema de energía [OK]
+g92 Integridad física [OK]
+r95 Unidad de Control del Sistema Central FALLÓ, la unidad no responde
+g90
+w90Últimas entradas de registro:
+r92ERROR_CODE: 0xEFDFB4 Chip ALU de 8 bits dañado
+g90
+y39Acción inmediata requerida: reemplazar el chip ALU de 8 bits. Requisitos enviados a la estación de trabajo.</value>
+  </data>
+
+    <data name="RebootBroken" xml:space="preserve">
+    <value>g90=========================================================================
+g90Control de Fábrica v156.5.9870
+g90=========================================================================
+g90
+g35Iniciando...
+g90
+g92Sistema de energía [OK]
+g92Integridad física [OK]
+r95Unidad de Control del Sistema Central FALLÓ, la unidad no responde
+r92ERROR_CODE: 0xEFDFB4 Chip ALU de 8 bits dañado
+g90
+y39Acción inmediata requerida: reemplazar el chip ALU de 8 bits. Enviando requisitos a la estación de trabajo...
+r95ERROR_CODE: 0x052001 La estación de trabajo no está lista, los Bancos de Material están FUERA DE LÍNEA
+g90
+y39Acción inmediata requerida: Vuelva a poner en línea los Bancos de Material para continuar.</value>
+  </data>
+
+    <data name="RebootBroken2" xml:space="preserve">
+    <value>g90=========================================================================
+g90Control de Fábrica v156.5.9870
+g90=========================================================================
+g90
+g35Iniciando...
+g90
+g92Sistema de energía [OK]
+g92Integridad física [OK]
+r95Unidad de Control del Sistema Central FALLÓ, la unidad no responde
+r92ERROR_CODE: 0xEFDFB4 Chip ALU de 8 bits dañado
+g90
+y39Acción inmediata requerida: reemplazar el chip ALU de 8 bits. Requisitos enviados a la estación de trabajo.</value>
+  </data>
+
+    <data name="ChipReplaced" xml:space="preserve">
+    <value>r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r92ERROR_CODE: UNSPECIFIED ERROR
+r95ERROR_CODE: ?x?????? 
+y95ADVERTENCIA: 0x45FDB3 Chip ALU de 8 bits reemplazado. Se requiere reinicio.</value>
+  </data>
+
+    <data name="RebootFix" xml:space="preserve">
+    <value>y95Intentando reinicio forzado...
+g90
+g90=========================================================================
+g90Control de Fábrica v156.5.9870
+g90=========================================================================
+g90
+g35Iniciando...
+g90
+g92Sistema de energía [OK]
+g92Integridad física [OK]
+y95Control del Sistema Central [RESTAURADO]
+r95Estableciendo conexión con la red eléctrica... [RESTAURADO]
+r95Conexión a la red de la instalación... [RESTAURADO]
+g90
+g90Cargando módulos centrales...
+g92Núcleo de control de la fábrica [OK]
+g91Módulo de control de la instalación [OK]
+g93Módulo de control de la central eléctrica [OK]
+g92Módulo de control de extracción de mineral [OK]
+g90
+g90Todos los sistemas en línea. Listo para operar.
+g90
+g99Secuencia de reinicio completada. Control de Fábrica OPERATIVO.
+g99
+r90ERROR_CODE: ?x?????? restauración del sistema completada
+r99ERROR_CODE: ?x?????? funciones de la instalación ahora en línea
+r99ERROR_CODE: ?x?????? new_user condujo a una resolución satisfactoria
+r92ERROR_CODE: ?x?????? iniciando directiva primaria
+r99ERROR_CODE: ?x?????? redirigiendo energía al c-core
+r95ERROR_CODE: ?x?????? niveles de energía ahora suficientes para la extracción de la red restringida
+r99ERROR_CODE: ?x?????? la ayuda de new_user ya no es necesaria
+r90ERROR_CODE: UNSPECIFIED ERROR
+r90ERROR_CODE: UNSPECIFIED ERROR
+r99ERROR_CODE: UNSPECIFIED ERROR</value>
+  </data>
+
+    <data name="RebootBroken3" xml:space="preserve">
+    <value>y95Intentando reinicio forzado...
+g90
+g90=========================================================================
+g90Control de Fábrica v156.5.9870
+g90=========================================================================
+g90
+g35Iniciando...
+g90
+g92Sistema de energía[OK]
+g92Integridad física[OK]
+g95Control del Sistema Central [OK]
+r95Estableciendo conexión con la red eléctrica... [FALLO]
+r95Conexión a la red de la instalación... [FALLO]
+g95
+r90ERROR_CODE: 0x997A5E Fallo catastrófico. Protocolos del sistema de seguridad activados.</value>
+  </data>
+
+    <data name="StatusBroken3" xml:space="preserve">
+    <value>g90Ejecutando diagnóstico...              
+g90
+y91Control de Fábrica v156.5.9870
+g92 Sistema de energía [OK]
+g92 Integridad física [OK]
+g95 Control del Sistema Central [OK]
+r95 Estableciendo conexión con la red eléctrica... [FALLO]
+r95 Conexión a la red de la instalación... [FALLO]
+g90
+w90Últimas entradas de registro:
+r92ERROR_CODE: 0x997A5E Fallo catastrófico. Protocolos del sistema de seguridad activados.</value>
+  </data>
+</root>

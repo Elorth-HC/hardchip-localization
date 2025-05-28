@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PerformanceReport" xml:space="preserve">
+    <value>{0} performance report</value>
+    <comment>Composed with the name of the challenge at the beginning</comment>
+  </data>
+  <data name="LastChipChecked" xml:space="preserve">
+    <value>Last chip checked</value>
+  </data>
+  <data name="ChipChecked" xml:space="preserve">
+    <value>Chip checked!</value>
+  </data>
+  <data name="FunctionalSatisfactoryStreamlined" xml:space="preserve">
+    <value>Functional -&gt; Satisfactory -&gt; Streamlined</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>   Blocks:</value>
+    <comment>Space important</comment>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>   Volume:</value>
+    <comment>Space important</comment>
+  </data>
+  <data name="BlocksUsedTheFewerTheBetterNComplexSatisfactoryEfficient" xml:space="preserve">
+    <value>Blocks used. The fewer the better.
+Complex -&gt; Satisfactory -&gt; Efficient</value>
+  </data>
+  <data name="VolumeUsedTheSmallerTheBetterNLargeSatisfactoryCompact" xml:space="preserve">
+    <value>Volume used. The smaller the better.
+Large -&gt; Satisfactory -&gt; Compact</value>
+  </data>
+  <data name="Ticks" xml:space="preserve">
+    <value>   Ticks:</value>
+  </data>
+  <data name="MOS" xml:space="preserve">
+    <value>   MOS:</value>
+    <comment>Space important</comment>
+  </data>
+  <data name="TicksUsedTheFewerTheBetterNSlowSatisfactoryFast" xml:space="preserve">
+    <value>Ticks used. The fewer the better.
+Slow -&gt; Satisfactory -&gt; Fast</value>
+  </data>
+  <data name="MOSUsedTheFewerTheBetterNHighSatisfactoryReduced" xml:space="preserve">
+    <value>MOS used. The fewer the better.
+High -&gt; Satisfactory -&gt; Reduced</value>
+  </data>
+  <data name="DataUnavailable" xml:space="preserve">
+    <value>Data unavailable</value>
+  </data>
+  <data name="VolumeReport" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="TicksReport" xml:space="preserve">
+    <value>Ticks</value>
+  </data>
+  <data name="MOSReport" xml:space="preserve">
+    <value>MOS</value>
+  </data>
+  <data name="PhotoMode" xml:space="preserve">
+    <value>Photo mode</value>
+  </data>
+  <data name="ExportBlueprintToANewHCDriveFileIntoTheClipboard" xml:space="preserve">
+    <value>Export Blueprint to a new HCDrive file into the clipboard</value>
+  </data>
+  <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
+    <value>Best Block solution, click to compare</value>
+  </data>
+  <data name="BestBlockSolution" xml:space="preserve">
+    <value> (best Block solution)</value>
+  </data>
+  <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
+    <value>Best Volume solution, click to compare</value>
+  </data>
+  <data name="BestVolumeSolution" xml:space="preserve">
+    <value> (best Volume solution)</value>
+  </data>
+  <data name="BestTickSolutionClickToCompare" xml:space="preserve">
+    <value>Best Tick solution, click to compare</value>
+  </data>
+  <data name="BestTickSolution" xml:space="preserve">
+    <value> (best Tick solution)</value>
+  </data>
+  <data name="BestMosSolutionClickToCompare" xml:space="preserve">
+    <value>Best Mos solution, click to compare</value>
+  </data>
+  <data name="BestMosSolution" xml:space="preserve">
+    <value> (best Mos solution)</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="SaveBlueprint" xml:space="preserve">
+    <value>Save Blueprint</value>
+  </data>
+  <data name="Grade01" xml:space="preserve">
+    <value>Grade{0}:</value>
+  </data>
+  <data name="Functional" xml:space="preserve">
+    <value>Functional</value>
+  </data>
+  <data name="Satisfactory" xml:space="preserve">
+    <value>Satisfactory</value>
+  </data>
+  <data name="Streamlined" xml:space="preserve">
+    <value>Streamlined</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="Masterpiece" xml:space="preserve">
+    <value>Masterpiece</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Complex" xml:space="preserve">
+    <value>Complex</value>
+  </data>
+  <data name="Efficient" xml:space="preserve">
+    <value>Efficient</value>
+  </data>
+  <data name="EfficientP" xml:space="preserve">
+    <value>Efficient+</value>
+  </data>
+  <data name="EfficientPP" xml:space="preserve">
+    <value>Efficient++</value>
+  </data>
+  <data name="Large" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="Compact" xml:space="preserve">
+    <value>Compact</value>
+  </data>
+  <data name="CompactP" xml:space="preserve">
+    <value>Compact+</value>
+  </data>
+  <data name="CompactPP" xml:space="preserve">
+    <value>Compact++</value>
+  </data>
+  <data name="Slow" xml:space="preserve">
+    <value>Slow</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="FastP" xml:space="preserve">
+    <value>Fast+</value>
+  </data>
+  <data name="FastPP" xml:space="preserve">
+    <value>Fast++</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="Reduced" xml:space="preserve">
+    <value>Reduced</value>
+  </data>
+  <data name="ReducedP" xml:space="preserve">
+    <value>Reduced+</value>
+  </data>
+  <data name="ReducedPP" xml:space="preserve">
+    <value>Reduced++</value>
+  </data>
+  <data name="CompletedSuccessfully" xml:space="preserve">
+    <value> completed successfully.</value>
+  </data>
+</root>

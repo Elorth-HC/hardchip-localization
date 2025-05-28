@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- 
+		Microsoft ResX Schema
+		Version 1.3  (Struktur unverändert)
+  -->
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+
+    <!-- resheader unverändert -->
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <!-- ==================== DATA ==================== -->
+
+    <data name="PerformanceReport" xml:space="preserve">
+    <value>{0}-Leistungsbericht</value>
+    <comment>Composed with the name of the challenge at the beginning</comment>
+  </data>
+
+    <data name="LastChipChecked" xml:space="preserve">
+    <value>Letzter Chip geprüft</value>
+  </data>
+
+    <data name="ChipChecked" xml:space="preserve">
+    <value>Chip geprüft!</value>
+  </data>
+
+    <data name="FunctionalSatisfactoryStreamlined" xml:space="preserve">
+    <value>Funktional -&gt; Zufriedenstellend -&gt; Optimiert</value>
+  </data>
+
+    <data name="Blocks" xml:space="preserve">
+    <value>   Blöcke:</value>
+    <comment>Space important</comment>
+  </data>
+
+    <data name="Volume" xml:space="preserve">
+    <value>   Volumen:</value>
+    <comment>Space important</comment>
+  </data>
+
+    <data name="BlocksUsedTheFewerTheBetterNComplexSatisfactoryEfficient" xml:space="preserve">
+    <value>Verwendete Blöcke. Je weniger, desto besser.
+Komplex -&gt; Zufriedenstellend -&gt; Effizient</value>
+  </data>
+
+    <data name="VolumeUsedTheSmallerTheBetterNLargeSatisfactoryCompact" xml:space="preserve">
+    <value>Genutztes Volumen. Je kleiner, desto besser.
+Groß -&gt; Zufriedenstellend -&gt; Kompakt</value>
+  </data>
+
+    <data name="Ticks" xml:space="preserve">
+    <value>   Ticks:</value>
+  </data>
+
+    <data name="MOS" xml:space="preserve">
+    <value>   MOS:</value>
+    <comment>Space important</comment>
+  </data>
+
+    <data name="TicksUsedTheFewerTheBetterNSlowSatisfactoryFast" xml:space="preserve">
+    <value>Verwendete Ticks. Je weniger, desto besser.
+Langsam -&gt; Zufriedenstellend -&gt; Schnell</value>
+  </data>
+
+    <data name="MOSUsedTheFewerTheBetterNHighSatisfactoryReduced" xml:space="preserve">
+    <value>Verwendete MOS. Je weniger, desto besser.
+Hoch -&gt; Zufriedenstellend -&gt; Reduziert</value>
+  </data>
+
+    <data name="DataUnavailable" xml:space="preserve">
+    <value>Daten nicht verfügbar</value>
+  </data>
+
+    <data name="VolumeReport" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+
+    <data name="TicksReport" xml:space="preserve">
+    <value>Ticks</value>
+  </data>
+
+    <data name="MOSReport" xml:space="preserve">
+    <value>MOS</value>
+  </data>
+
+    <data name="PhotoMode" xml:space="preserve">
+    <value>Fotomodus</value>
+  </data>
+
+    <data name="ExportBlueprintToANewHCDriveFileIntoTheClipboard" xml:space="preserve">
+    <value>Blaupause als neue HCDrive-Datei in die Zwischenablage exportieren</value>
+  </data>
+
+    <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
+    <value>Klicke, um die beste Block-Lösung zu vergleichen</value>
+  </data>
+
+    <data name="BestBlockSolution" xml:space="preserve">
+    <value> (beste Block-Lösung)</value>
+  </data>
+
+    <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
+    <value>Klicke, um die beste Volumen-Lösung zu vergleichen</value>
+  </data>
+
+    <data name="BestVolumeSolution" xml:space="preserve">
+    <value> (beste Volumen-Lösung)</value>
+  </data>
+
+    <data name="BestTickSolutionClickToCompare" xml:space="preserve">
+    <value>Klicke, um die beste Tick-Lösung zu vergleichen</value>
+  </data>
+
+    <data name="BestTickSolution" xml:space="preserve">
+    <value> (beste Tick-Lösung)</value>
+  </data>
+
+    <data name="BestMosSolutionClickToCompare" xml:space="preserve">
+    <value>Klicke, um die beste MOS-Lösung zu vergleichen</value>
+  </data>
+
+    <data name="BestMosSolution" xml:space="preserve">
+    <value> (beste MOS-Lösung)</value>
+  </data>
+
+    <data name="Modify" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+
+    <data name="SaveBlueprint" xml:space="preserve">
+    <value>Blaupause speichern</value>
+  </data>
+
+    <data name="Grade01" xml:space="preserve">
+    <value>Bewertung{0}:</value>
+  </data>
+
+    <data name="Functional" xml:space="preserve">
+    <value>Funktional</value>
+  </data>
+
+    <data name="Satisfactory" xml:space="preserve">
+    <value>Zufriedenstellend</value>
+  </data>
+
+    <data name="Streamlined" xml:space="preserve">
+    <value>Optimiert</value>
+  </data>
+
+    <data name="Advanced" xml:space="preserve">
+    <value>Fortgeschritten</value>
+  </data>
+
+    <data name="Masterpiece" xml:space="preserve">
+    <value>Meisterwerk</value>
+  </data>
+
+    <data name="None" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+
+    <data name="Complex" xml:space="preserve">
+    <value>Komplex</value>
+  </data>
+
+    <data name="Efficient" xml:space="preserve">
+    <value>Effizient</value>
+  </data>
+
+    <data name="EfficientP" xml:space="preserve">
+    <value>Effizient+</value>
+  </data>
+
+    <data name="EfficientPP" xml:space="preserve">
+    <value>Effizient++</value>
+  </data>
+
+    <data name="Large" xml:space="preserve">
+    <value>Groß</value>
+  </data>
+
+    <data name="Compact" xml:space="preserve">
+    <value>Kompakt</value>
+  </data>
+
+    <data name="CompactP" xml:space="preserve">
+    <value>Kompakt+</value>
+  </data>
+
+    <data name="CompactPP" xml:space="preserve">
+    <value>Kompakt++</value>
+  </data>
+
+    <data name="Slow" xml:space="preserve">
+    <value>Langsam</value>
+  </data>
+
+    <data name="Fast" xml:space="preserve">
+    <value>Schnell</value>
+  </data>
+
+    <data name="FastP" xml:space="preserve">
+    <value>Schnell+</value>
+  </data>
+
+    <data name="FastPP" xml:space="preserve">
+    <value>Schnell++</value>
+  </data>
+
+    <data name="High" xml:space="preserve">
+    <value>Hoch</value>
+  </data>
+
+    <data name="Reduced" xml:space="preserve">
+    <value>Reduziert</value>
+  </data>
+
+    <data name="ReducedP" xml:space="preserve">
+    <value>Reduziert+</value>
+  </data>
+
+    <data name="ReducedPP" xml:space="preserve">
+    <value>Reduziert++</value>
+  </data>
+
+    <data name="CompletedSuccessfully" xml:space="preserve">
+    <value> erfolgreich abgeschlossen.</value>
+  </data>
+
+</root>

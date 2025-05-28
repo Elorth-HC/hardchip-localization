@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- (headers unchanged for brevity) -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Traductions françaises -->
+  <data name="WelcomeToHardChip" xml:space="preserve">
+    <value>Bienvenue dans Hard Chip !
+</value>
+  </data>
+  <data name="ThisGameIsInActiveDevelopmentAndStillEvolving" xml:space="preserve">
+    <value>Ce jeu est en développement actif et ne cesse d'évoluer!
+
+</value>
+  </data>
+  <data name="TheFirstChapterAndSeveralBonusStagesAreReady" xml:space="preserve">
+    <value>Le premier chapitre et plusieurs niveaux bonus sont prêts à être joués, mais sachez que de nouveaux contenus, fonctionnalités et améliorations sont encore en préparation. Votre expérience pourra évoluer au fil des mises à jour. Merci pour votre patience et vos retours!
+
+</value>
+  </data>
+  <data name="PleaseDropByHCSDiscordServerOrSteamForumsAndLetMeKnowYourThoughtsWishesAndSuggestionsNN" xml:space="preserve">
+    <value>N'hésitez pas à passer sur le serveur Discord de HC ou les forums Steam pour partager vos avis, souhaits et suggestions.
+
+</value>
+  </data>
+  <data name="HaveFunAndEnjoyTheGameNN" xml:space="preserve">
+    <value>Amusez-vous bien et profitez de Hard Chip!
+
+</value>
+  </data>
+  <data name="HCSDeveloperElorth" xml:space="preserve">
+    <value>  Développeur de HC - Elorth</value>
+  </data>
+</root>

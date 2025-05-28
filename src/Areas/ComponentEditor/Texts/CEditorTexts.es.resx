@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"/>
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <data name="Filter" xml:space="preserve"><value>Filtro</value></data>
+    <data name="Schematics" xml:space="preserve"><value>Esquemas</value></data>
+    <data name="OpenSchematic" xml:space="preserve"><value>Abrir esquema</value></data>
+    <data name="EnterNewNameForThisBlueprint" xml:space="preserve"><value>Introduce un nuevo nombre para este plano:</value></data>
+    <data name="AreYouSureYouWantToDeleteThisBlueprint" xml:space="preserve"><value>¿Seguro que deseas eliminar este plano?</value></data>
+    <data name="RenameBlueprint" xml:space="preserve"><value>Renombrar plano:</value></data>
+    <data name="DeleteBlueprint" xml:space="preserve"><value>Eliminar plano:</value></data>
+    <data name="Probes" xml:space="preserve"><value>Sondas</value></data>
+    <data name="PickBitsPositionsOneAtATimeRightClickToCancel" xml:space="preserve"><value>Selecciona posiciones de bits una a la vez. Clic derecho para cancelar.</value></data>
+    <data name="Label" xml:space="preserve"><value>Etiqueta</value></data>
+    <data name="Add" xml:space="preserve"><value>Añadir</value></data>
+    <data name="ClickToSelectPosition" xml:space="preserve"><value>Haz clic para seleccionar posición</value></data>
+    <data name="ClickToResetPosition" xml:space="preserve"><value>Haz clic para restablecer posición</value></data>
+    <data name="RelocateInput" xml:space="preserve"><value>Reubicar entrada</value></data>
+    <data name="AndLinkWordForTruthTable" xml:space="preserve"><value>y</value></data>
+    <data name="ButLinkWordForTruthTable" xml:space="preserve"><value>pero</value></data>
+    <data name="RelocateOutput" xml:space="preserve"><value>Reubicar salida</value></data>
+    <data name="StickToScreen" xml:space="preserve"><value>Fijar a pantalla</value></data>
+    <data name="NeutralAllowed" xml:space="preserve"><value>Neutro permitido</value></data>
+    <data name="StickToBlock" xml:space="preserve"><value>Fijar a bloque</value></data>
+    <data name="NeutralNotAllowed" xml:space="preserve"><value>Neutro no permitido</value></data>
+    <data name="StopAt1" xml:space="preserve"><value>Detener en 1</value></data>
+    <data name="StopAt0" xml:space="preserve"><value>Detener en 0</value></data>
+    <data name="StopAt_" xml:space="preserve"><value>Detener en _</value></data>
+    <data name="StopAtError" xml:space="preserve"><value>Detener en Error</value></data>
+    <data name="DonTStop" xml:space="preserve"><value>No detener</value></data>
+    <data name="BlueprintSaved" xml:space="preserve"><value>Plano guardado</value></data>
+    <data name="SaveAllAsABlueprint" xml:space="preserve"><value>Guardar todo como plano</value></data>
+    <data name="OpenBlueprintLibrary" xml:space="preserve"><value>Abrir biblioteca de planos</value></data>
+    <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve"><value>Mostrar solo los mejores por bloques</value></data>
+    <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve"><value>Mostrar solo los mejores por volumen</value></data>
+    <data name="ShowOnlyBestsByTickBlueprints" xml:space="preserve"><value>Mostrar solo los mejores por ticks</value></data>
+    <data name="ShowOnlyBestsByMOSBlueprints" xml:space="preserve"><value>Mostrar solo los mejores por MOS</value></data>
+    <data name="SaveSelectionAsBlueprint" xml:space="preserve"><value>Guardar selección como plano</value></data>
+    <data name="Blocks" xml:space="preserve"><value>Bloques</value></data>
+    <data name="Comparer" xml:space="preserve"><value>Comparador</value></data>
+    <data name="ReuseBestSolution" xml:space="preserve"><value>Reutilizar mejor solución</value></data>
+    <data name="NowBest" xml:space="preserve"><value>Ahora - - - - - - - - - - - Mejor</value></data>
+    <data name="Toolbox" xml:space="preserve"><value>Caja de herramientas</value></data>
+    <data name="Photomode" xml:space="preserve"><value>Modo foto</value></data>
+    <data name="AutoShrinkOnValidate" xml:space="preserve"><value>Reducción automática al validar</value></data>
+    <data name="TurnOnOffTheAutoShrinkOfTheDieWhenValidatingTheNlevelTheDieWillBeShrinkedToTheSmallestSizeNpossibleToFitTheBlocks" xml:space="preserve"><value>Activar/desactivar la reducción automática de la oblea al validar el
+nivel. La oblea se reducirá al tamaño mínimo
+posible para encajar los bloques.</value></data>
+    <data name="EditDieSize" xml:space="preserve"><value>Editar tamaño de la oblea</value></data>
+    <data name="EditManuallyTheDieSizeShrinkingTheDieWillRemoveNtheBlocksOutsideTheNewDieSize" xml:space="preserve"><value>Editar manualmente el tamaño de la oblea. Reducir la oblea eliminará
+los bloques fuera del nuevo tamaño.</value></data>
+    <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve"><value>Exportar un archivo de nivel al portapapeles. Pegable en el Explorador,
+Discord y cualquier programa compatible con archivos pegados.</value></data>
+    <data name="ExportToClipboard" xml:space="preserve"><value>Exportar al portapapeles</value></data>
+    <data name="ImportFromClipboard" xml:space="preserve"><value>Importar desde portapapeles</value></data>
+    <data name="TryToReadALevelFromTheClipboardSupportsWtCtNWtbAndCtbFilesSupportsDirectFilesAndURLOfFiles" xml:space="preserve"><value>Intentar leer un nivel desde el portapapeles. Compatible con archivos .wt, .ct,
+.wtb y .ctb, así como con archivos directos y URL de archivos.</value></data>
+    <data name="ShowChangeIndicators" xml:space="preserve"><value>Mostrar indicadores de cambios</value></data>
+    <data name="ShowIndicatorsOnTheBlocksThatHaveBeenChangedSinceNtheLastSimulationUpdateIndicatorsAreRemovedWhenNafterAFewSecondsOrWhenTheSimulationIsStepped" xml:space="preserve"><value>Mostrar indicadores en los bloques que hayan cambiado desde
+la última actualización de la simulación. Los indicadores se eliminan
+tras unos segundos o al avanzar la simulación.</value></data>
+    <data name="TracesGroupsColors" xml:space="preserve"><value>Segmentos coloreados</value></data>
+    <data name="ColorAllInterconnectedTracesWithTheSameColorAndNpartiallyHideTracesAlwaysConnectedToUpDownTerminals" xml:space="preserve"><value>Colorea todas las pistas metálicas interconectadas con el mismo color y
+oculta parcialmente las pistas siempre conectadas a bloques constantes 0/1.</value></data>
+    <data name="AutoClockStop" xml:space="preserve"><value>Parada automática del reloj</value></data>
+    <data name="RemoveNextClockSwitchStopStopSimulationWhenClockSwitchesItsSignal" xml:space="preserve"><value>Detener la simulación cuando el reloj cambie su señal.</value></data>
+    <data name="CameraDramaticCameraMoves" xml:space="preserve"><value>Movimientos de cámara dramáticos</value></data>
+    <data name="CameraRotateLeft" xml:space="preserve"><value>Rotar izquierda</value></data>
+    <data name="CameraForward" xml:space="preserve"><value>Avanzar</value></data>
+    <data name="CameraRotateRightE" xml:space="preserve"><value>Rotar derecha</value></data>
+    <data name="CameraCycleUIElements" xml:space="preserve"><value>Ocultar IU ({0})</value></data>
+    <data name="CameraStrafeLeft" xml:space="preserve"><value>Desplazarse izquierda</value></data>
+    <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve"><value>Cámara editor/Cámara libre (SHIFT/CTRL/WASD/CLIC IZQ.)</value></data>
+    <data name="EditorCamFreeCam" xml:space="preserve"><value>Cámara editor/Cámara libre</value></data>
+    <data name="CameraStrafeRight" xml:space="preserve"><value>Desplazarse derecha</value></data>
+    <data name="CenterCamera" xml:space="preserve"><value>Centrar cámara</value></data>
+    <data name="CameraZoomIn" xml:space="preserve"><value>Acercar</value></data>
+    <data name="CameraBackward" xml:space="preserve"><value>Retroceder</value></data>
+    <data name="CameraZoomOut" xml:space="preserve"><value>Alejar</value></data>
+    <data name="DieOperations" xml:space="preserve"><value>Operaciones de oblea</value></data>
+    <data name="Shrink5BlocksFromTheBack" xml:space="preserve"><value>Reducir 5 bloques desde atrás</value></data>
+    <data name="Shrink1BlockFromTheBack" xml:space="preserve"><value>Reducir 1 bloque desde atrás</value></data>
+    <data name="Shrink5BlocksFromTheRight" xml:space="preserve"><value>Reducir 5 bloques desde la derecha</value></data>
+    <data name="Shrink5BlocksFromTheTop" xml:space="preserve"><value>Reducir 5 bloques desde arriba</value></data>
+    <data name="Shrink1BlockFromTheLeft" xml:space="preserve"><value>Reducir 1 bloque desde la izquierda</value></data>
+    <data name="SwitchToExtendMode" xml:space="preserve"><value>Cambiar a modo extender</value></data>
+    <data name="Shrink1BlockFromTheRight" xml:space="preserve"><value>Reducir 1 bloque desde la derecha</value></data>
+    <data name="Shrink1BlockFromTheTop" xml:space="preserve"><value>Reducir 1 bloque desde arriba</value></data>
+    <data name="Shrink5BlocksFromTheLeft" xml:space="preserve"><value>Reducir 5 bloques desde la izquierda</value></data>
+    <data name="Shrink1BlockFromTheFront" xml:space="preserve"><value>Reducir 1 bloque desde el frente</value></data>
+    <data name="Shrink5BlocksFromTheFront" xml:space="preserve"><value>Reducir 5 bloques desde el frente</value></data>
+    <data name="ShrinkTheDieToFitTheMinimumSize" xml:space="preserve"><value>Reducir la oblea al tamaño mínimo</value></data>
+    <data name="Extend5BlocksFromTheBack" xml:space="preserve"><value>Extender 5 bloques hacia atrás</value></data>
+    <data name="Extend1BlockFromTheBack" xml:space="preserve"><value>Extender 1 bloque hacia atrás</value></data>
+    <data name="Extend5BlocksFromTheRight" xml:space="preserve"><value>Extender 5 bloques hacia la derecha</value></data>
+    <data name="Extend5BlocksFromTheTop" xml:space="preserve"><value>Extender 5 bloques hacia arriba</value></data>
+    <data name="Extend1BlockFromTheLeft" xml:space="preserve"><value>Extender 1 bloque desde la izquierda</value></data>
+    <data name="SwitchToShrinkMode" xml:space="preserve"><value>Cambiar a modo reducir</value></data>
+    <data name="Extend1BlockFromTheRight" xml:space="preserve"><value>Extender 1 bloque hacia la derecha</value></data>
+    <data name="Extend1BlockFromTheTop" xml:space="preserve"><value>Extender 1 bloque hacia arriba</value></data>
+    <data name="Extend5BlocksFromTheLeft" xml:space="preserve"><value>Extender 5 bloques desde la izquierda</value></data>
+    <data name="Extend1BlockFromTheFront" xml:space="preserve"><value>Extender 1 bloque hacia el frente</value></data>
+    <data name="Extend5BlocksFromTheFront" xml:space="preserve"><value>Extender 5 bloques hacia el frente</value></data>
+    <data name="CopyCtrlC" xml:space="preserve"><value>Copiar (Ctrl+C)</value></data>
+    <data name="CutCtrlX" xml:space="preserve"><value>Cortar (Ctrl+X)</value></data>
+    <data name="PasteCtrlV" xml:space="preserve"><value>Pegar (Ctrl+V)</value></data>
+    <data name="DeleteDel" xml:space="preserve"><value>Eliminar (Del)</value></data>
+    <data name="RemoveProbes" xml:space="preserve"><value>Quitar sondas</value></data>
+    <data name="NoName" xml:space="preserve"><value>Sin nombre</value></data>
+    <data name="SlotSelection" xml:space="preserve"><value>Selección de ranura</value></data>
+    <data name="UndoCtrlZ" xml:space="preserve"><value>Deshacer (Ctrl+Z)</value></data>
+    <data name="RedoCtrlY" xml:space="preserve"><value>Rehacer (Ctrl+Y)</value></data>
+    <data name="RestartLevel" xml:space="preserve"><value>Reiniciar nivel</value></data>
+    <data name="Modes" xml:space="preserve"><value>Modos</value></data>
+    <data name="Probe" xml:space="preserve"><value>Sonda</value></data>
+    <data name="SaveAsABlueprint" xml:space="preserve"><value>Guardar como plano</value></data>
+    <data name="CreatingANewBlueprint" xml:space="preserve"><value>Creando un nuevo plano:</value></data>
+    <data name="NewComponent" xml:space="preserve"><value>NuevoComponente</value></data>
+    <data name="CameraPedestalDown" xml:space="preserve"><value>Pedestal abajo</value></data>
+    <data name="CameraPedestalUp" xml:space="preserve"><value>Pedestal arriba</value></data>
+    <data name="TakePhoto" xml:space="preserve"><value>Tomar foto</value></data>
+    <data name="HideUIForASplitSecondTakeAScreenshotNputInTheClipboardAndSteamScreenshotFolder" xml:space="preserve"><value>Ocultar la IU por un instante, tomar una captura,
+colocarla en el portapapeles y en la carpeta de capturas de Steam.</value></data>
+    <data name="ReportShape" xml:space="preserve"><value>Forma de puntuaciones</value><comment>Report formating on photomode</comment></data>
+    <data name="ReportBackground" xml:space="preserve"><value>Fondo de puntuaciones</value><comment>Report formating on photomode</comment></data>
+    <data name="ReportText" xml:space="preserve"><value>Texto de puntuaciones</value><comment>Report formating on photomode</comment></data>
+    <data name="ExitPhotoMode" xml:space="preserve"><value>Salir del modo foto</value></data>
+    <data name="SimulationSpeed" xml:space="preserve"><value>Velocidad de simulación </value></data>
+    <data name="ClockFrequency" xml:space="preserve"><value>Frecuencia de reloj </value></data>
+    <data name="_ShouldBeRightNowIs" xml:space="preserve"><value>{0} debería ser {1} {2} ahora es {3}</value></data>
+    <data name="Now" xml:space="preserve"><value>, ahora=</value><comment>truth table indication on the output readout</comment></data>
+    <data name="SimulationTicksAt" xml:space="preserve"><value>Ticks {0} en {1}</value></data>
+    <data name="SimulationClockAt" xml:space="preserve"><value> Reloj {0} ({1})</value></data>
+    <data name="BlocksShouldBe" xml:space="preserve"><value>Los bloques deberían ser </value></data>
+    <data name="AtPosition" xml:space="preserve"><value> en la posición </value></data>
+    <data name="Pending" xml:space="preserve"><value>Pendiente... </value></data>
+    <data name="Validating" xml:space="preserve"><value>Validando... </value></data>
+    <data name="TruthTable" xml:space="preserve"><value>Tabla de verdad</value></data>
+    <data name="InputNamed" xml:space="preserve"><value>Entrada llamada </value></data>
+    <data name="OutputToMatchNamed" xml:space="preserve"><value>Salida a coincidir llamada </value></data>
+    <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve"><value>Fase inicial de encendido, no cuenta para la puntuación de ticks.</value></data>
+    <data name="Any" xml:space="preserve"><value>Cualquiera</value></data>
+    <data name="AnyLowercase" xml:space="preserve"><value>cualquiera</value></data>
+    <data name="ButtonLabelUnresponsive" xml:space="preserve"><value> Sin respuesta </value></data>
+    <data name="ButtonLabelMissedGoal" xml:space="preserve"><value> Objetivo fallido  </value></data>
+    <data name="ButtonLabelChecked" xml:space="preserve"><value>   ¡Comprobado!   </value></data>
+    <data name="ButtonLabelValidating" xml:space="preserve"><value> Validando... </value></data>
+    <data name="ButtonLabelValidate" xml:space="preserve"><value>   Validar   </value><comment>Spaces are important</comment></data>
+    <data name="ButtonLabelStepByStep" xml:space="preserve"><value>   Manual   </value><comment>Spaces are important</comment></data>
+    <data name="ButtonLabelModified" xml:space="preserve"><value>   Modificado   </value><comment>Spaces are important</comment></data>
+    <data name="ResetValidation" xml:space="preserve"><value>Reiniciar validación</value></data>
+    <data name="EditModeSummary" xml:space="preserve"><value>Editar (Subir:{0}/Eliminar{1}/Seleccionar{2})</value></data>
+    <data name="DieOperationsModeSummary" xml:space="preserve"><value>Extender/Reducir oblea</value></data>
+    <data name="ProbeModeSummary" xml:space="preserve"><value>Sondas</value></data>
+    <data name="BluePrintModeSummary" xml:space="preserve"><value>Planos ({0}/{1}:Voltear plano)</value></data>
+    <data name="SelectPinModeSummary" xml:space="preserve"><value>Reubicar pines ({0}/{1}:Aum/Dismin espaciado)</value></data>
+    <data name="DebugModeSummary" xml:space="preserve"><value>Herramientas</value></data>
+    <data name="ComparerModeSummary" xml:space="preserve"><value>Comparador</value></data>
+</root>

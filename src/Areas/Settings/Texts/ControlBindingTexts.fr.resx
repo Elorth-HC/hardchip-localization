@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Translated data entries -->
+  <data name="Interact" xml:space="preserve">
+    <value>Interagir</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Divers</value>
+    <comment>En-tête de catégorie pour la configuration des touches</comment>
+  </data>
+  <data name="SwitchModes" xml:space="preserve">
+    <value>Basculer entre les modes</value>
+  </data>
+  <data name="HideUI" xml:space="preserve">
+    <value>Masquer</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Éditeur</value>
+    <comment>En-tête de catégorie pour la configuration des touches</comment>
+  </data>
+  <data name="SelectMode" xml:space="preserve">
+    <value>Sélectionner le mode</value>
+  </data>
+  <data name="DeleteBlock" xml:space="preserve">
+    <value>Supprimer le bloc</value>
+  </data>
+  <data name="FlipPartXAxis" xml:space="preserve">
+    <value>Inverser la pièce sur l'axe X</value>
+  </data>
+  <data name="FlipPartZAxis" xml:space="preserve">
+    <value>Inverser la pièce sur l'axe Z</value>
+  </data>
+  <data name="RotatePart" xml:space="preserve">
+    <value>Pivoter la pièce</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Rétablir</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Tout sélectionner</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Couper</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Coller</value>
+  </data>
+  <data name="SelectSegment" xml:space="preserve">
+    <value>Sélectionner le segment</value>
+  </data>
+  <data name="NextSlot" xml:space="preserve">
+    <value>Emplacement suivant</value>
+  </data>
+  <data name="PreviousSlot" xml:space="preserve">
+    <value>Emplacement précédent</value>
+  </data>
+  <data name="Slot0" xml:space="preserve">
+    <value>Emplacement 0</value>
+  </data>
+  <data name="Slot1" xml:space="preserve">
+    <value>Emplacement 1</value>
+  </data>
+  <data name="Slot2" xml:space="preserve">
+    <value>Emplacement 2</value>
+  </data>
+  <data name="Slot3" xml:space="preserve">
+    <value>Emplacement 3</value>
+  </data>
+  <data name="Slot4" xml:space="preserve">
+    <value>Emplacement 4</value>
+  </data>
+  <data name="SpaceOutInOutputBits" xml:space="preserve">
+    <value>Écarter les bits d'entrée/sortie</value>
+  </data>
+  <data name="CloseInInOutputBits" xml:space="preserve">
+    <value>Rapprocher les bits d'entrée/sortie</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>Simulation</value>
+  </data>
+  <data name="RunValidation" xml:space="preserve">
+    <value>Lancer la validation</value>
+  </data>
+  <data name="StartPause" xml:space="preserve">
+    <value>Démarrer / Mettre en pause</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Avancer d'un pas</value>
+  </data>
+  <data name="FasterSimulation" xml:space="preserve">
+    <value>Accélérer la simulation</value>
+  </data>
+  <data name="SlowerSimulation" xml:space="preserve">
+    <value>Ralentir la simulation</value>
+  </data>
+  <data name="CameraControls" xml:space="preserve">
+    <value>Contrôles de la caméra</value>
+  </data>
+  <data name="MoveAround" xml:space="preserve">
+    <value>Se déplacer</value>
+  </data>
+  <data name="LookAround" xml:space="preserve">
+    <value>Regarder autour</value>
+  </data>
+  <data name="RotateViewLeft" xml:space="preserve">
+    <value>Pivoter la vue à gauche</value>
+  </data>
+  <data name="RotateViewRight" xml:space="preserve">
+    <value>Pivoter la vue à droite</value>
+  </data>
+  <data name="CenterCamera" xml:space="preserve">
+    <value>Centrer la caméra</value>
+  </data>
+  <data name="PedestalViewUp" xml:space="preserve">
+    <value>Élever la caméra</value>
+  </data>
+  <data name="PedestalViewDown" xml:space="preserve">
+    <value>Abaisser la caméra</value>
+  </data>
+  <data name="SwitchFreeCam" xml:space="preserve">
+    <value>Basculer en caméra libre</value>
+  </data>
+  <data name="ToggleCamMovements" xml:space="preserve">
+    <value>Activer/désactiver les mouvements de la caméra</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Inconnu</value>
+  </data>
+  <data name="BuildUpward" xml:space="preserve">
+    <value>Construire vers le haut</value>
+  </data>
+  <data name="SettingKeyInput" xml:space="preserve">
+    <value>Réglage de l'entrée de la clé ...</value>
+  </data>
+  <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
+    <value>Appuyez sur une touche pour définir.
+Clic gauche pour effacer.</value>
+  </data>
+  <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
+    <value>Touches pressées en permanence ignorées:</value>
+  </data>
+  <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
+    <value>Touches détectées pressées en permanence sont ignorées.
+Cela peut être dû aux dispositions spécifiques des entrées du clavier (Ex: IME Entrée japonaise).</value>
+  </data>
+  <data name="ResetBindings" xml:space="preserve">
+    <value>Tout réinitialiser</value>
+  </data>
+  <data name="CanTUse0" xml:space="preserve">
+    <value>Impossible d'utiliser {0}</value>
+  </data>
+  <data name="_0AlreadyUsed" xml:space="preserve">
+    <value>{0} déjà utilisé</value>
+  </data>
+</root>
