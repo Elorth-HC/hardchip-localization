@@ -153,4 +153,50 @@
   <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
     <value>I grafici sono calcolati con le ultime soluzioni da tutto il mondo e i tuoi punteggi aggiorneranno i grafici.</value>
   </data>
+  <data name="ChromaticAberration" xml:space="preserve">
+    <value>Aberrazione cromatica</value>
+  </data>
+  <data name="Cubic" xml:space="preserve">
+    <value>Cubico</value>
+  </data>
+  <data name="DarkBackground" xml:space="preserve">
+    <value>Sfondo scuro</value>
+  </data>
+  <data name="DoubleClickToEdit" xml:space="preserve">
+    <value>Modalità modifica con doppio clic sul tasto destro</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="EditorRenderScale" xml:space="preserve">
+    <value>Editor scala di renderizzazione</value>
+  </data>
+  <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
+    <value>Campo visivo usato durante le fasi di modifica. Nessun costo sulla performance.</value>
+  </data>
+  <data name="FieldOfViewUsedDuringFirstPersonPhasesNoPerformanceCost" xml:space="preserve">
+    <value>Campo visivo usato durante la fasi in prima persona. Nessun costo sulla performance.</value>
+  </data>
+  <data name="FlipVerticalMouseMovementDuringFPSPhases" xml:space="preserve">
+    <value>Inverti il movimento verticale del mouse durante le fasi FPS.</value>
+  </data>
+  <data name="FPSInvertYAxis" xml:space="preserve">
+    <value>Inverti l'asse Y durante le fase in prima persona</value>
+  </data>
+  <data name="FPSLimit" xml:space="preserve">
+    <value>Limite FPS</value>
+  </data>
+  <data name="GameplayVolume" xml:space="preserve">
+    <value>Gioco</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Generale</value>
+  </data>
+  <data name="HardReset" xml:space="preserve">
+    <value>Reset completo</value>
+  </data>
+  <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
+    <value>Se attivato, fare doppio clic sul tasto destro per passare alla modalità di modifica.
+I blocchi di metallo verranno selezionati automaticamente.</value>
+  </data>
 </root>

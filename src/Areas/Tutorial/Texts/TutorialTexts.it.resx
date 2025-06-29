@@ -139,7 +139,7 @@
     <value>Area troppo grande</value>
   </data>
   <data name="ASHORTCIRCUITWillPreventTheDIEFromProperlyFunctioningInUnexpectedWays" xml:space="preserve">
-    <value>Un CORTOCIRCUITO impedirà al [da sistemare] di funzionare correttamente in modi inaspettati.</value>
+    <value>Un CORTOCIRCUITO impedirà al CIRCUITO di funzionare correttamente in modi inaspettati.</value>
   </data>
   <data name="ASmallTwistCanBringThatRepresentationWhileStillReusingAllPreviousSolutions" xml:space="preserve">
     <value>Un piccolo aggiustamento può portare quella rappresentazione riutilizzando tutte le soluzioni precedenti.</value>
@@ -148,12 +148,69 @@
     <value>In qualsiasi momento puoi ottenere indizi e aiuto dal pulsante '?'.</value>
   </data>
   <data name="BuildASolutionThatMeetsTheCRITERIAThenVALIDATE" xml:space="preserve">
-    <value>Costruisci una soluzione che rispetti i CRITERI, poi VERIFICALA.</value>
+    <value>Costruisci una soluzione che rispetti i CRITERI, poi VERIFICA.</value>
   </data>
   <data name="BUTYouCanTestDifferentINPUTSSeedingStateByClickingOnIt" xml:space="preserve">
     <value>MA puoi provare valori in INPUT diversi cliccando sull'etichetta vicina ad esso.</value>
   </data>
   <data name="ChangeTheINPUTAtLeastOnceThenVALIDATE" xml:space="preserve">
     <value>Cambia l'INPUT almeno una volta, poi VERIFICA.</value>
+  </data>
+  <data name="COMPACTAndOPTIMIZETheINVERTERThenVALIDATE" xml:space="preserve">
+    <value>COMPATTA e OTTIMIZZA l'INVERTITORE, poi VERIFICA.</value>
+  </data>
+  <data name="Connecting2INPUTSWithTheOPPOSITEStates1And0WillResultInASHORTCIRCUIT" xml:space="preserve">
+    <value>Connettendo 2 INPUTS con lo stato OPPOSTO 1 e 0 risulterà in CORTOCIRCUITO.</value>
+  </data>
+  <data name="ConnectINPUTAndOUTPUTWithoutSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>Connetti INPUT e OUTPUT senza CORTOCIRCUITI, poi VERIFICA.</value>
+  </data>
+  <data name="ConnectTheINPUTToTheOUTPUTThenVALIDATE" xml:space="preserve">
+    <value>Connetti INPUT e OUTPUT, poi VERIFICA</value>
+  </data>
+  <data name="ConnectTheNMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Connetti il NMOS correttamente poi VERIFICA</value>
+  </data>
+  <data name="ConnectThePMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Connetti il PMOS correttamente poi VERIFICA</value>
+  </data>
+  <data name="CreateAMERGEDPMOSWith2GATESThenVALIDATE" xml:space="preserve">
+    <value>Crea un POMS UNITO con 2 PORTE poi VERIFICA</value>
+  </data>
+  <data name="DoingSoWillShiftAnyOutputToTheNewEdgeLocation" xml:space="preserve">
+    <value>Fare ciò farà spostare qualsiasi output su una nuova posizione sul bordo.</value>
+  </data>
+  <data name="DoingSoWillSTOPTheValidationProcess" xml:space="preserve">
+    <value>Fare ciò FERMERÀ il processo di validazione.</value>
+  </data>
+  <data name="EachStageSavesYourPassingCircuitAsABLUEPRINTTooForYouToUseYouCanCreateEditYourOwnAsWell" xml:space="preserve">
+    <value>Ogni fase salva anche i circuiti che passano come PROGETTI per poterli riutilizzare. 
+Puoi anche creare/modificare i tuoi.</value>
+  </data>
+  <data name="EachStepIsVerifiedInOrderOneAfterTheOtherIfAStepFailsToBeVerifiedTheValidationStops" xml:space="preserve">
+    <value>Ogni passo è verificato in ordine, uno dopo l'altro.
+Se un passo fallisce la verifica, la validazione si interromperà.</value>
+  </data>
+  <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>Ripara il CORTOCIRCUITO, poi verifica</value>
+  </data>
+  <data name="FollowingTheCriteriaInputAMustBeConnectedToOutputAButNotToOutputBNorC" xml:space="preserve">
+    <value>Seguendo i criteri:
+L'input A deve essere connesso all'output A ma né all'output B né al C.</value>
+  </data>
+  <data name="HereSAMOSFETAndMovingForwardWeLlReferToItAsMOS" xml:space="preserve">
+    <value>Questo è un MOSFET, e d'ora in avanti ci riferiremo ad esso come MOS.</value>
+  </data>
+  <data name="HereSTheNegativeNumberRepresentationCompatibleOutput" xml:space="preserve">
+    <value>Questa è la rappresentazione negativa del numero compatibile con l'output.</value>
+  </data>
+  <data name="IfYouNeedMoreSpaceJustBuildOutsideTheDIEToExtendIt" xml:space="preserve">
+    <value>Se hai bisogno di più spazio, costruisci semplicemente fuori dal CIRCUITO per estenderlo.</value>
+  </data>
+  <data name="IMHereToHelpTrustInTheGuidanceIOfferForMyOnlyAimIsToLeadYouToResolution" xml:space="preserve">
+    <value>Sono qui per aiutarti. Fidati delle istruzioni che ti darò, il mio solo scopo è portarti alla risoluzione.</value>
+  </data>
+  <data name="INFOFULLREPORTUNLOCKED" xml:space="preserve">
+    <value>INFO: RAPPORTO COMPLETO SBLOCCATO.</value>
   </data>
 </root>

@@ -117,22 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="_0ToPlace" xml:space="preserve">
-    <value>{0} per piazzare il {1}</value>
+  <data name="HaveFunAndEnjoyTheGameNN" xml:space="preserve">
+    <value>Divertiti e goditi il gioco!
+
+</value>
   </data>
-  <data name="_0ToTake" xml:space="preserve">
-    <value>{0} per prendere il {1}</value>
-  </data>
-  <data name="_8BITADDERChip" xml:space="preserve">
-    <value>8BIT ADDER chip</value>
-  </data>
-  <data name="_8BITALUChip" xml:space="preserve">
-    <value>8BIT ALU chip</value>
-  </data>
-  <data name="BYPASSChip" xml:space="preserve">
-    <value>Chip BYPASS</value>
-  </data>
-  <data name="InHand" xml:space="preserve">
-    <value>In mano</value>
+  <data name="HCSDeveloperElorth" xml:space="preserve">
+    <value>  Sviluppatore di Hard Chip - Elorth</value>
   </data>
 </root>

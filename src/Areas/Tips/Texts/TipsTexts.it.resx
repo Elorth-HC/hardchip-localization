@@ -117,22 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="_0ToPlace" xml:space="preserve">
-    <value>{0} per piazzare il {1}</value>
+  <data name="CtrlXCVWorkForCutCopyPastSelectAllOperation" xml:space="preserve">
+    <value>Consiglio: usa Ctrl-A per selezionare tutto, Ctrl-X/C/V per tagliare/copiare/incollare.</value>
   </data>
-  <data name="_0ToTake" xml:space="preserve">
-    <value>{0} per prendere il {1}</value>
+  <data name="DevCTAProposeTip" xml:space="preserve">
+    <value>Sviluppatore: puoi usare il Discord di Hard Chip per proporre qualcosa pensi debba esserci!</value>
   </data>
-  <data name="_8BITADDERChip" xml:space="preserve">
-    <value>8BIT ADDER chip</value>
-  </data>
-  <data name="_8BITALUChip" xml:space="preserve">
-    <value>8BIT ALU chip</value>
-  </data>
-  <data name="BYPASSChip" xml:space="preserve">
-    <value>Chip BYPASS</value>
-  </data>
-  <data name="InHand" xml:space="preserve">
-    <value>In mano</value>
+  <data name="HoldMiddleMouseButtonToRotateAround" xml:space="preserve">
+    <value>Consiglio: usa la rotella del mouse per ruotare la fotocamera attorno alla tua soluzione.</value>
   </data>
 </root>

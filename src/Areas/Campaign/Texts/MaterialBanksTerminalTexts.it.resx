@@ -117,22 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="_0ToPlace" xml:space="preserve">
-    <value>{0} per piazzare il {1}</value>
+  <data name="ChipReplaced1" xml:space="preserve">
+    <value>r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r92CODICE_ERRORE: ERRORE NON SPECIFICATO
+r95CODICE_ERRORE: ?x?????? continua
+y95ATTENZIONE: 0x45FDB3 chip INVERTITORE sostituito. Riavvio richiesto.</value>
   </data>
-  <data name="_0ToTake" xml:space="preserve">
-    <value>{0} per prendere il {1}</value>
+  <data name="ChipReplaced2" xml:space="preserve">
+    <value>r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r92CODICE_ERRORE: ERRORE NON SPECIFICATO
+r95CODICE_ERRORE: ?x?????? continua
+y95ATTENZIONE: 0x45FDB3 chip SOMMATORE 8BIT sostituito. Riavvio richiesto.</value>
   </data>
-  <data name="_8BITADDERChip" xml:space="preserve">
-    <value>8BIT ADDER chip</value>
+  <data name="FirstScreenEver1" xml:space="preserve">
+    <value>r90
+r93CODICE_ERRORE: 0x04FAB9 Timeout di rete. Connessione persa.
+r90
+r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile.
+r90
+r93CODICE_ERRORE: 0x0CAF89 Rilevato guasto al gestore output. Non invertibile.</value>
   </data>
-  <data name="_8BITALUChip" xml:space="preserve">
-    <value>8BIT ALU chip</value>
-  </data>
-  <data name="BYPASSChip" xml:space="preserve">
-    <value>Chip BYPASS</value>
-  </data>
-  <data name="InHand" xml:space="preserve">
-    <value>In mano</value>
+  <data name="FirstScreenEver2" xml:space="preserve">
+    <value>r90
+r93CODICE_ERRORE: 0x04FAB9 Timeout di rete. Connessione persa.
+r90
+r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile.
+r90
+r93CODICE_ERRORE: 0x0CAF25 Rilevato guasto al gestore output. Inventario infinito invalido.</value>
   </data>
 </root>

@@ -133,4 +133,24 @@ Premi ESPORTA per creare un progetto HCDrive.</value>
 
 Premi INSTALLA per completare l'installazione del progetto.</value>
   </data>
+  <data name="ChipToExportMessage" xml:space="preserve">
+    <value>Chip pronto per essere esportato:
+
+- Etichetta: {0}
+- Descrizione: {1}
+
+Premi ESPORTA per creare un chip HCDrive.</value>
+  </data>
+  <data name="ChipToImportMessage" xml:space="preserve">
+    <value>HCDrive valido inserito. Chip rilevato:
+
+- Etichetta: {0}
+- Descrizione: {1}
+
+Premi INSTALLA per completare l'installazione del chip.</value>
+  </data>
+  <data name="ExportSuccessMessage" xml:space="preserve">
+    <value>Esportazione avvenuta con successo.
+Un nuovo HCDrive è negli appunti! Ora puoi condividerlo incollandolo su Explorer o qualsiasi altro programma che supporti le immagini.</value>
+  </data>
 </root>

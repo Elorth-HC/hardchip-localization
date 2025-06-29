@@ -154,4 +154,55 @@ Complesso -&gt; Soddisfacente -&gt; Efficiente</value>
   <data name="ChipChecked" xml:space="preserve">
     <value>Chip verificato!</value>
   </data>
+  <data name="Compact" xml:space="preserve">
+    <value>Compatto</value>
+  </data>
+  <data name="CompactP" xml:space="preserve">
+    <value>Compatto+</value>
+  </data>
+  <data name="CompactPP" xml:space="preserve">
+    <value>Compatto++</value>
+  </data>
+  <data name="CompletedSuccessfully" xml:space="preserve">
+    <value> completata con successo.</value>
+  </data>
+  <data name="Complex" xml:space="preserve">
+    <value>Complesso</value>
+  </data>
+  <data name="DataUnavailable" xml:space="preserve">
+    <value>Dati non disponibili</value>
+  </data>
+  <data name="Efficient" xml:space="preserve">
+    <value>Efficiente</value>
+  </data>
+  <data name="EfficientP" xml:space="preserve">
+    <value>Efficiente+</value>
+  </data>
+  <data name="EfficientPP" xml:space="preserve">
+    <value>Efficiente++</value>
+  </data>
+  <data name="ExportBlueprintToANewHCDriveFileIntoTheClipboard" xml:space="preserve">
+    <value>Esporta il progetto su un nuovo file HCDrive negli appunti</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Veloce</value>
+  </data>
+  <data name="FastP" xml:space="preserve">
+    <value>Veloce+</value>
+  </data>
+  <data name="FastPP" xml:space="preserve">
+    <value>Veloce++</value>
+  </data>
+  <data name="Functional" xml:space="preserve">
+    <value>Funzionale</value>
+  </data>
+  <data name="FunctionalSatisfactoryStreamlined" xml:space="preserve">
+    <value>Funzionale -&gt; Soddisfacente -&gt; Ottimizzato</value>
+  </data>
+  <data name="Grade01" xml:space="preserve">
+    <value>Grado{0}:</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>Alto</value>
+  </data>
 </root>

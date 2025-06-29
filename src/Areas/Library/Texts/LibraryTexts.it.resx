@@ -126,4 +126,25 @@
   <data name="ChipName" xml:space="preserve">
     <value>nome del chip</value>
   </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Pulisci</value>
+  </data>
+  <data name="CommunityStageName" xml:space="preserve">
+    <value>nome delle fasi della community</value>
+  </data>
+  <data name="Deterministic" xml:space="preserve">
+    <value>Deterministico</value>
+  </data>
+  <data name="EnterNewNameFor0" xml:space="preserve">
+    <value>Inserisci un nuovo nome per {0}:</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Veloce</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>nome del file</value>
+  </data>
 </root>

@@ -120,4 +120,31 @@
   <data name="Blueprints" xml:space="preserve">
     <value>Progetti</value>
   </data>
+  <data name="Chips" xml:space="preserve">
+    <value>Chips</value>
+  </data>
+  <data name="CommunityStages" xml:space="preserve">
+    <value>Fasi della community</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Connessione...</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="Demos" xml:space="preserve">
+    <value>Demos</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplica</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="HCDrives" xml:space="preserve">
+    <value>HCDrives</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
 </root>

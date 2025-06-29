@@ -117,22 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="_0ToPlace" xml:space="preserve">
-    <value>{0} per piazzare il {1}</value>
-  </data>
-  <data name="_0ToTake" xml:space="preserve">
-    <value>{0} per prendere il {1}</value>
-  </data>
-  <data name="_8BITADDERChip" xml:space="preserve">
-    <value>8BIT ADDER chip</value>
-  </data>
-  <data name="_8BITALUChip" xml:space="preserve">
-    <value>8BIT ALU chip</value>
-  </data>
-  <data name="BYPASSChip" xml:space="preserve">
-    <value>Chip BYPASS</value>
-  </data>
-  <data name="InHand" xml:space="preserve">
-    <value>In mano</value>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r93CODICE_ERRORE: 0x00FAB4 Guasto generale. Si è verificato un errore non specificato.
+r90
+r93CODICE_ERRORE: 0x03FAA3 errore I/O. Il dispositivo non risponde.
+r90
+r93CODICE_ERRORE: 0x04FAB9 Timeout di rete. Connessione persa.
+r90
+r93CODICE_ERRORE: 0x02FAC2 Superata capacità memoria. Processo terminato inaspettatamente.
+r90
+r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile. Sistemi di distribuzione di energia in modalità sicura.
+r90
+r90CODICE_ERRORE: ?x?????? ciao
+r90
+r93CODICE_ERRORE: 0x01FAB1 Guasto critico. Riavvio sistema richiesto.</value>
   </data>
 </root>

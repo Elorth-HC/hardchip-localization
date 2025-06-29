@@ -126,4 +126,16 @@
   <data name="BonusStages" xml:space="preserve">
     <value>Fasi aggiuntive</value>
   </data>
+  <data name="ComingSoon" xml:space="preserve">
+    <value>A breve.</value>
+  </data>
+  <data name="CommentsSuggestionsBugReportOnHardChipSDiscord" xml:space="preserve">
+    <value>Commenti/Consigli/Segnalazione di bug sul canale Discord di Hard Chip!</value>
+  </data>
+  <data name="FinishTheByteAdderChipToUnlock" xml:space="preserve">
+    <value>Finisci il chip sommatore byte per sbloccare.</value>
+  </data>
+  <data name="FinishTheInverterChipMapToUnlock" xml:space="preserve">
+    <value>Finisci il chip invertitore per sbloccare.</value>
+  </data>
 </root>

@@ -117,22 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="_0ToPlace" xml:space="preserve">
-    <value>{0} per piazzare il {1}</value>
+  <data name="FabricateMore" xml:space="preserve">
+    <value>g90Processo di fabbricazione completato.</value>
   </data>
-  <data name="_0ToTake" xml:space="preserve">
-    <value>{0} per prendere il {1}</value>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>g90=========================================================================
+g90Fabbricatore autonomo v546.1.7430
+g90=========================================================================
+g90
+g96Accensione...
+g90
+g92Sistemi di alimentazione [OK]
+g92Integrità fisica [OK]
+g92Sistemi centrali [OK]
+g92Interfaccia di controllo esterna... [OK]
+r95Banca materiali 1 [OFFLINE]
+r95Banca materiali 2 [OFFLINE]
+g90
+y95ATTENZIONE: Banca materiali non disponibile. Materiali di scorta disponibili solo per operazioni limitate.
+g90
+g39Sequenza di accensione completata. Stato fabbricatore: PARZIALMENTE OPERATIVO
+g90
+g90Ricevute specifiche per progetto chip BYPASS .
+g90Pronto per cominciare il processo di fabbricazione.</value>
   </data>
-  <data name="_8BITADDERChip" xml:space="preserve">
-    <value>8BIT ADDER chip</value>
-  </data>
-  <data name="_8BITALUChip" xml:space="preserve">
-    <value>8BIT ALU chip</value>
-  </data>
-  <data name="BYPASSChip" xml:space="preserve">
-    <value>Chip BYPASS</value>
-  </data>
-  <data name="InHand" xml:space="preserve">
-    <value>In mano</value>
+  <data name="GenericFabricateLog" xml:space="preserve">
+    <value>g90Inizzializzazione sequenza di fabbricazione per il chip [CHIPNAME]...
+g90
+g90Caricamento specifiche del progetto dal database... [OK]
+g90Verifica del progetto controllo di conformità... [OK]
+g90Preparazione wafer di silicio... [OK]
+g94Applicazione strato di fotoresistore... [OK]
+g90
+g90Inizio processo di litografia per lo strato di base...
+g92Esposizione UV completata... [OK]
+g93Sviluppo fotoresistore... [OK]
+g93Trattamento ad alta temperatura... [OK]
+g90
+g90Litografia finale per lo strato metallico superiore...
+g91Esposizione UV finale e sviluppo... [OK]
+g92Incisione finale e pulizia... [OK]
+g90
+g90Assemblaggio del chip nella confezione...
+g92Collegamento dei fili ai conduttori del chip... [OK]
+g93Incapsulazione e indurimento... [OK]
+g90Imballaggio ed etichettamento... [OK]
+g90
+g92Processo di fabbricazione completato.
+g90
+g90Il chip [CHIPNAME] è pronto.
+g90Registro di fabbricazione salvato. ID Lotto: 2224A[BATCHID]X.</value>
   </data>
 </root>

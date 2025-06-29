@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Filter" xml:space="preserve">
-    <value>Filtro</value>
+    <value>filtro</value>
   </data>
   <data name="_ShouldBeRightNowIs" xml:space="preserve">
     <value>{0} dovrebbe essere {1}, {2} ora è {3}</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>Aggiungere</value>
+    <value>Aggiungi</value>
   </data>
   <data name="AndLinkWordForTruthTable" xml:space="preserve">
     <value>e</value>
@@ -221,5 +221,114 @@
   </data>
   <data name="CenterCamera" xml:space="preserve">
     <value>Centra fotocamera</value>
+  </data>
+  <data name="ClickToResetPosition" xml:space="preserve">
+    <value>Clicca per resettare la posizione</value>
+  </data>
+  <data name="ClickToSelectPosition" xml:space="preserve">
+    <value>Clicca per selezionare la posizione</value>
+  </data>
+  <data name="ClockFrequency" xml:space="preserve">
+    <value>Frequenza orologio </value>
+  </data>
+  <data name="ColorAllInterconnectedTracesWithTheSameColorAndNpartiallyHideTracesAlwaysConnectedToUpDownTerminals" xml:space="preserve">
+    <value>Colora tutte le tracce di metallo interconnesse con lo stesso colore e nascondi parzialmente le tracce di metallo connesse ad un blocco costante 0/1.</value>
+  </data>
+  <data name="Comparer" xml:space="preserve">
+    <value>Comparatore</value>
+  </data>
+  <data name="ComparerModeSummary" xml:space="preserve">
+    <value>Comparatore</value>
+  </data>
+  <data name="CopyCtrlC" xml:space="preserve">
+    <value>Copia (Ctrl+C)</value>
+  </data>
+  <data name="CreatingANewBlueprint" xml:space="preserve">
+    <value>Crea un nuovo progetto:</value>
+  </data>
+  <data name="CutCtrlX" xml:space="preserve">
+    <value>Taglia (Ctrl+X)</value>
+  </data>
+  <data name="DebugModeSummary" xml:space="preserve">
+    <value>Strumenti</value>
+  </data>
+  <data name="DeleteBlueprint" xml:space="preserve">
+    <value>Cancella progetto:</value>
+  </data>
+  <data name="DeleteDel" xml:space="preserve">
+    <value>Cancella (Del)</value>
+  </data>
+  <data name="DieOperations" xml:space="preserve">
+    <value>Operazioni sul circuito</value>
+  </data>
+  <data name="DieOperationsModeSummary" xml:space="preserve">
+    <value>Estendi/riduci il circuito</value>
+  </data>
+  <data name="DonTStop" xml:space="preserve">
+    <value>Non fermare</value>
+  </data>
+  <data name="EditDieSize" xml:space="preserve">
+    <value>Modifica la dimensione del circuito</value>
+  </data>
+  <data name="EditManuallyTheDieSizeShrinkingTheDieWillRemoveNtheBlocksOutsideTheNewDieSize" xml:space="preserve">
+    <value>Modifica la dimensione del circuito manualmente. 
+Riducendo il circuito rimuoverà i blocchi al di fuori della nuova dimensione del circuito.</value>
+  </data>
+  <data name="EditModeSummary" xml:space="preserve">
+    <value>Modifica (In alto:{0}/Cancella:{1}/Seleziona:{2})</value>
+  </data>
+  <data name="EditorCamFreeCam" xml:space="preserve">
+    <value>Editor fotocamera/fotocamera libera</value>
+  </data>
+  <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
+    <value>Editor fotocamera/fotocamera libera (SHIFT/CTRL/WASD/CLICL TASTO SINISTRO)</value>
+  </data>
+  <data name="EnterNewNameForThisBlueprint" xml:space="preserve">
+    <value>Inserisci un nuovo nome per questo progetto:</value>
+  </data>
+  <data name="ExitPhotoMode" xml:space="preserve">
+    <value>Esci dalla modalità foto</value>
+  </data>
+  <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
+    <value>Esporta il file di un livello negli appunti. Incollalo su File Explorer, Discord, e ogni programma che supporti l'incollaggio di file.</value>
+  </data>
+  <data name="ExportToClipboard" xml:space="preserve">
+    <value>Esporta negli appunti</value>
+  </data>
+  <data name="Extend1BlockFromTheBack" xml:space="preserve">
+    <value>Estendi di 1 blocco indietro</value>
+  </data>
+  <data name="Extend1BlockFromTheFront" xml:space="preserve">
+    <value>Estendi di 1 blocco avanti</value>
+  </data>
+  <data name="Extend1BlockFromTheLeft" xml:space="preserve">
+    <value>Estendi di 1 blocco a sinistra</value>
+  </data>
+  <data name="Extend1BlockFromTheRight" xml:space="preserve">
+    <value>Estendi di 1 blocco a destra</value>
+  </data>
+  <data name="Extend1BlockFromTheTop" xml:space="preserve">
+    <value>Estendi di 1 blocco in alto</value>
+  </data>
+  <data name="Extend5BlocksFromTheBack" xml:space="preserve">
+    <value>Estendi di 5 blocchi indietro</value>
+  </data>
+  <data name="Extend5BlocksFromTheFront" xml:space="preserve">
+    <value>Estendi di 5 blocchi avanti</value>
+  </data>
+  <data name="Extend5BlocksFromTheLeft" xml:space="preserve">
+    <value>Estendi di 5 blocchi a sinistra</value>
+  </data>
+  <data name="Extend5BlocksFromTheRight" xml:space="preserve">
+    <value>Estendi di 5 blocchi a destra</value>
+  </data>
+  <data name="Extend5BlocksFromTheTop" xml:space="preserve">
+    <value>Estendi di 5 blocchi in alto</value>
+  </data>
+  <data name="HideUIForASplitSecondTakeAScreenshotNputInTheClipboardAndSteamScreenshotFolder" xml:space="preserve">
+    <value>Nascondi interfaccia per un istante, cattura un istantanea, la posiziona negli appunti e nella cartella delle istantanee di Steam.</value>
+  </data>
+  <data name="ImportFromClipboard" xml:space="preserve">
+    <value>Importa dagli appunti</value>
   </data>
 </root>

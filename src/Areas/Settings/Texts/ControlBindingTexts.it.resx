@@ -132,4 +132,32 @@
   <data name="CenterCamera" xml:space="preserve">
     <value>Centra fotocamera</value>
   </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Taglia</value>
+  </data>
+  <data name="DeleteBlock" xml:space="preserve">
+    <value>Cancella blocchi</value>
+  </data>
+  <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
+    <value>Tasti premuti permanentemente sono rilevati e ignorati da Hard Chip.
+Questo può essere causato da alcune tastiere specifiche che utilizzano un modificatore di tasti (Es: Input giapponese).</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="FasterSimulation" xml:space="preserve">
+    <value>Velocizza la simulazione</value>
+  </data>
+  <data name="FlipPartXAxis" xml:space="preserve">
+    <value>Inverti parte sull'asse X</value>
+  </data>
+  <data name="FlipPartZAxis" xml:space="preserve">
+    <value>Inverti parte sull'asse Z</value>
+  </data>
+  <data name="HideUI" xml:space="preserve">
+    <value>Nascondi interfaccia</value>
+  </data>
 </root>

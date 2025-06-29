@@ -126,4 +126,14 @@ r92CODICE_ERRORE: ERRORE NON SPECIFICATO
 r95CODICE_ERRORE: ?x?????? ok
 y95ATTENZIONE: 0x45FDB3 chip BYPASS sostituito. Riavvio richiesto.</value>
   </data>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r90
+r93CODICE_ERRORE: 0x04FAB9 Timeout di rete. Connessione persa.
+r90
+r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile.
+r90
+r93CODICE_ERRORE: 0x05F568 La porta di sicurezza ha fallito l'ultima richiesta di controllo.
+r90
+r90CODICE_ERRORE: ?x?????? fidati delle istruzioni che ti darò, il mio solo scopo è portarti alla risoluzione</value>
+  </data>
 </root>

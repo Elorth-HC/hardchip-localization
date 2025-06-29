@@ -135,4 +135,19 @@
   <data name="ChipReady" xml:space="preserve">
     <value>Chip pronto!</value>
   </data>
+  <data name="Completion" xml:space="preserve">
+    <value>completamento </value>
+  </data>
+  <data name="Counters" xml:space="preserve">
+    <value>Contatori</value>
+  </data>
+  <data name="Decoders" xml:space="preserve">
+    <value>Decodificatori</value>
+  </data>
+  <data name="Fabricate" xml:space="preserve">
+    <value>Fabbrica</value>
+  </data>
+  <data name="IncompleteChip" xml:space="preserve">
+    <value>Chip incompleto</value>
+  </data>
 </root>
