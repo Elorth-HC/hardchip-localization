@@ -129,7 +129,7 @@ g96Accensione...
 g90
 g92Sistemi di alimentazione [OK]
 g92Integrità fisica [OK]
-g92Sistemi centrali [OK]
+g92Sistemi primari [OK]
 g92Interfaccia di controllo esterna... [OK]
 r95Banca materiali 1 [OFFLINE]
 r95Banca materiali 2 [OFFLINE]
@@ -167,5 +167,9 @@ g92Processo di fabbricazione completato.
 g90
 g90Il chip [CHIPNAME] è pronto.
 g90Registro di fabbricazione salvato. ID Lotto: 2224A[BATCHID]X.</value>
+  </data>
+  <data name="LookAtChip" xml:space="preserve">
+    <value>g99
+r90CODICE_ERRORE: ?x?????? guarda sopra il tavolo del fabbricatore</value>
   </data>
 </root>

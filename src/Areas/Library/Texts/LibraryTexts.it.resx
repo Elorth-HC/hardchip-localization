@@ -147,4 +147,16 @@
   <data name="FileName" xml:space="preserve">
     <value>nome del file</value>
   </data>
+  <data name="Install" xml:space="preserve">
+    <value>Installa</value>
+  </data>
+  <data name="NewBlueprint" xml:space="preserve">
+    <value>Nuovo progetto</value>
+  </data>
+  <data name="NewChallenge" xml:space="preserve">
+    <value>Nuova sfida</value>
+  </data>
+  <data name="NewChip" xml:space="preserve">
+    <value>Nuovo chip</value>
+  </data>
 </root>

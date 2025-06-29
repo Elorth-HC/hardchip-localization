@@ -135,4 +135,10 @@
   <data name="InHand" xml:space="preserve">
     <value>In mano</value>
   </data>
+  <data name="INVERTERChip" xml:space="preserve">
+    <value>Chip INVERTITORE</value>
+  </data>
+  <data name="Press0ToInteract" xml:space="preserve">
+    <value>Premi {0} per interagire</value>
+  </data>
 </root>

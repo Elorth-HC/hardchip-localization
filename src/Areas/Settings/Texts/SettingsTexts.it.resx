@@ -199,4 +199,54 @@
     <value>Se attivato, fare doppio clic sul tasto destro per passare alla modalità di modifica.
 I blocchi di metallo verranno selezionati automaticamente.</value>
   </data>
+  <data name="LeaderboardID" xml:space="preserve">
+    <value>ID classifica:</value>
+  </data>
+  <data name="LikelyPerformanceCost1030Percent" xml:space="preserve">
+    <value>Costo performance probabile: 10-30 percento.</value>
+  </data>
+  <data name="LowerValuesWillIncreasePerformanceButWillDecreaseQualityNHigherValuesWillStronglyDecreasePerformanceButWillIncreaseQuality" xml:space="preserve">
+    <value>Valori minori aumenteranno la performance, ma diminuiranno la qualità.
+Valori maggiori diminuiranno la performance, ma aumenteranno la qualità.</value>
+  </data>
+  <data name="MasterVolume" xml:space="preserve">
+    <value>Volume principale</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Modalità</value>
+  </data>
+  <data name="MouseEdgeScrolling" xml:space="preserve">
+    <value>Scorrimento mouse sul bordo</value>
+  </data>
+  <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
+    <value>Muovi la fotocamera quando il mouse è vicino al bordo dello schermo.</value>
+  </data>
+  <data name="MouseHorizontalScrolling" xml:space="preserve">
+    <value>Scorrimento mouse orizzontale</value>
+  </data>
+  <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
+    <value>Ruota la fotocamera allo scorrere orizzontale della rotella del mouse.</value>
+  </data>
+  <data name="MouseWheelSensitivity" xml:space="preserve">
+    <value>Sensibilità rotella del mouse</value>
+  </data>
+  <data name="MusicAndAmbianceLicencesAllowMonetizedContent" xml:space="preserve">
+    <value>*Le licenze della musica e dell'ambiente consentono contenuto monetizzato.</value>
+  </data>
+  <data name="NoPerformanceCostButMayCauseDiscomfortToSomeUsers" xml:space="preserve">
+    <value>Nessun costo sulla performance, ma potrebbe causare disconforto ad alcuni utenti.</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="RayMarching" xml:space="preserve">
+    <value>Ray Marching</value>
+  </data>
+  <data name="RayPrecision" xml:space="preserve">
+    <value>Precisione dei raggi</value>
+  </data>
+  <data name="RayPrecisionIsTheNumberOfStepsEachRayPerformNHigherValuesWillIncreaseQualityButWillDecreasePerformance" xml:space="preserve">
+    <value>La precisione dei raggi è il numero di passi che ogni raggio compie.
+Valori più alti aumenteranno la qualità, ma diminuiranno la performance.</value>
+  </data>
 </root>

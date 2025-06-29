@@ -153,4 +153,27 @@ Premi INSTALLA per completare l'installazione del chip.</value>
     <value>Esportazione avvenuta con successo.
 Un nuovo HCDrive è negli appunti! Ora puoi condividerlo incollandolo su Explorer o qualsiasi altro programma che supporti le immagini.</value>
   </data>
+  <data name="InstallFailedMessage" xml:space="preserve">
+    <value>Installazione fallita.
+
+Il contenuto dell'HCDrive potrebbe essere corrotto o incompatibile.</value>
+  </data>
+  <data name="InstallSuccessMessage" xml:space="preserve">
+    <value>Installazione avvenuta con successo. 
+
+Il contenuto dell'HCDrive è stato installato!</value>
+  </data>
+  <data name="LoadHCDriveFailedMessage" xml:space="preserve">
+    <value>Nessun HCDrive valido inserito!
+
+Assicurati che un file HCDrive sia negli appunti e premi il pulsante carica.</value>
+  </data>
+  <data name="NoHCDriveMessage" xml:space="preserve">
+    <value>Nessun HCDrive inserito!
+
+Gli HCDrive sono file compressi che contengono chip, fasi e progetti.
+Creati per essere condivisibili facilmente. 
+
+Assicurati che un file HCDrive o un collegamento ad un file siano negli appunti e premi CARICA.</value>
+  </data>
 </root>

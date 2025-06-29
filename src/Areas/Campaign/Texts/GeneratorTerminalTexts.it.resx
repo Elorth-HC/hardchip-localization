@@ -132,4 +132,24 @@ r90CODICE_ERRORE: ?x?????? ciao
 r90
 r93CODICE_ERRORE: 0x01FAB1 Guasto critico. Riavvio sistema richiesto.</value>
   </data>
+  <data name="InitialScreenFixed" xml:space="preserve">
+    <value>g90=========================================================================
+g90Generatore Autonomo v156.5.9870
+g90=========================================================================
+g90
+g90Core systems check...
+g90All systems [OK]
+g90
+g90Engaging startup sequence...
+g90Powering up control systems... [OK]
+r90Establishing connection to power grid... [FAILED]
+g90Calibrating energy containment fields... [OK]
+g90Activating thermal regulation systems... [OK]
+g90Opening fuel intake valves... [OK]
+g90Starting power distribution systems... [OK]
+g90Assessing power level... [OK]
+g90Synchronizing with external control interfaces... [OK]
+g90
+g90Reboot sequence complete. Generator status: OPERATIONAL.</value>
+  </data>
 </root>

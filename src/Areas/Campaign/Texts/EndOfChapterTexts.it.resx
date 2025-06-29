@@ -126,4 +126,14 @@
     <value>Capitolo 1 completato!
 </value>
   </data>
+  <data name="OrYouCanCreateEntirelyNewCircuitsThanksToTheBonusStageFromTheMainMenu" xml:space="preserve">
+    <value>O puoi creare un intero nuovo circuito grazie alle fasi bonus dal menu principale!
+
+</value>
+  </data>
+  <data name="PressAnyKeyToAcknowledge" xml:space="preserve">
+    <value>Premi un tasto per continuare...
+
+</value>
+  </data>
 </root>

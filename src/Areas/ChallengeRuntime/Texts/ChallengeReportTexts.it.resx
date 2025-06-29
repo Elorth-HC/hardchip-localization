@@ -205,4 +205,35 @@ Complesso -&gt; Soddisfacente -&gt; Efficiente</value>
   <data name="High" xml:space="preserve">
     <value>Alto</value>
   </data>
+  <data name="Large" xml:space="preserve">
+    <value>Grande</value>
+  </data>
+  <data name="LastChipChecked" xml:space="preserve">
+    <value>Ultimo chip verificato</value>
+  </data>
+  <data name="Masterpiece" xml:space="preserve">
+    <value>Capolavoro</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="MOS" xml:space="preserve">
+    <value>   MOS:</value>
+  </data>
+  <data name="MOSReport" xml:space="preserve">
+    <value>MOS</value>
+  </data>
+  <data name="MOSUsedTheFewerTheBetterNHighSatisfactoryReduced" xml:space="preserve">
+    <value>MOS utilizzati. Meno sono, meglio è.
+Alto -&gt; Soddisfacente -&gt; Ridotto</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="PerformanceReport" xml:space="preserve">
+    <value>{0} rapporto performance</value>
+  </data>
+  <data name="PhotoMode" xml:space="preserve">
+    <value>Modalità foto</value>
+  </data>
 </root>

@@ -213,4 +213,34 @@ L'input A deve essere connesso all'output A ma né all'output B né al C.</value
   <data name="INFOFULLREPORTUNLOCKED" xml:space="preserve">
     <value>INFO: RAPPORTO COMPLETO SBLOCCATO.</value>
   </data>
+  <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
+    <value>Il blocco di INPUT invia lo stato 1 o 0 ai blocchi di METALLO adiacenti.</value>
+  </data>
+  <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
+    <value>Gli INPUT sono controllati dal processo di verifica nel momento in cui premi 'VERIFICA'.</value>
+  </data>
+  <data name="ItProvidesOptionalStepsToBuildTheChipForEachLevel" xml:space="preserve">
+    <value>Fornisce step opzionali per costruire il chip ogni livello.</value>
+  </data>
+  <data name="ItWouldBeVeryInefficientToRebuildEveryCircuitFromScratch" xml:space="preserve">
+    <value>Sarebbe veramente inefficiente ricostruire ogni circuito da capo</value>
+  </data>
+  <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
+    <value>CTRL sinistro + tenendo premuto il tasto sinistro, poi muovi verso l'alto per aggiungere METALLO vericalmente.</value>
+  </data>
+  <data name="MOSCanTakeDifferentShapesNotLimitedToThe3x2x3Blocks" xml:space="preserve">
+    <value>I MOS possono assumere diverse forme non limitate a 3x2x3 blocchi.</value>
+  </data>
+  <data name="MOSHas2MajorPartsTheGate" xml:space="preserve">
+    <value>I MOS hanno 2 parti principali: la porta...</value>
+  </data>
+  <data name="MostOfTheTimeASCHEMATICIsAvailableWithTheChipButtonOnTopHere" xml:space="preserve">
+    <value>La maggior parte delle volte uno SCHEMA è disponibile premendo il pulsante del chip qui in alto.</value>
+  </data>
+  <data name="NMOSNegativeMOSAreTheExactOppositeOfPMOS" xml:space="preserve">
+    <value>Gli NOMS (MOS Negativi) sono l'esatto opposto dei PMOS.</value>
+  </data>
+  <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
+    <value>Altrimenti TUTTI i blocchi torneranno al loro naturale stato NEUTRALE.</value>
+  </data>
 </root>

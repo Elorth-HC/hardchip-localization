@@ -160,4 +160,38 @@ Questo può essere causato da alcune tastiere specifiche che utilizzano un modif
   <data name="HideUI" xml:space="preserve">
     <value>Nascondi interfaccia</value>
   </data>
+  <data name="Interact" xml:space="preserve">
+    <value>Interagisci</value>
+  </data>
+  <data name="LookAround" xml:space="preserve">
+    <value>Guardati attorno</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="MoveAround" xml:space="preserve">
+    <value>Muoviti attorno</value>
+  </data>
+  <data name="NextSlot" xml:space="preserve">
+    <value>Slot successivo</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Incolla</value>
+  </data>
+  <data name="PedestalViewDown" xml:space="preserve">
+    <value>Piedistallo vista verso il basso</value>
+  </data>
+  <data name="PedestalViewUp" xml:space="preserve">
+    <value>Piedistallo vista verso l'alto</value>
+  </data>
+  <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
+    <value>Tasti premuti continuamente ingorati: </value>
+  </data>
+  <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
+    <value>Premi un tasto da assegnare. 
+Tasto sinistro del mouse per eliminare.</value>
+  </data>
+  <data name="PreviousSlot" xml:space="preserve">
+    <value>Slot precedente</value>
+  </data>
 </root>

@@ -150,4 +150,25 @@
   <data name="IncompleteChip" xml:space="preserve">
     <value>Chip incompleto</value>
   </data>
+  <data name="InverterChip" xml:space="preserve">
+    <value>Chip invertitore</value>
+  </data>
+  <data name="InverterNOT" xml:space="preserve">
+    <value>Invertitore (NOT)</value>
+  </data>
+  <data name="LogicGates" xml:space="preserve">
+    <value>Porte logiche</value>
+  </data>
+  <data name="LogicGates3" xml:space="preserve">
+    <value>Porte logiche 3</value>
+  </data>
+  <data name="MemoryBit" xml:space="preserve">
+    <value>Celle di memoria</value>
+  </data>
+  <data name="Multiplexers" xml:space="preserve">
+    <value>Multiplexer</value>
+  </data>
+  <data name="Multipliers" xml:space="preserve">
+    <value>Moltiplicatori</value>
+  </data>
 </root>

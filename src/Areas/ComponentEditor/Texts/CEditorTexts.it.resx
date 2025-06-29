@@ -331,4 +331,61 @@ Riducendo il circuito rimuoverà i blocchi al di fuori della nuova dimensione de
   <data name="ImportFromClipboard" xml:space="preserve">
     <value>Importa dagli appunti</value>
   </data>
+  <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>Fase di accensione, non viene contata nel punteggio tick.</value>
+  </data>
+  <data name="InputNamed" xml:space="preserve">
+    <value>Input rinominato </value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Etichetta</value>
+  </data>
+  <data name="Modes" xml:space="preserve">
+    <value>Modalità</value>
+  </data>
+  <data name="NeutralAllowed" xml:space="preserve">
+    <value>Neutro autorizzato</value>
+  </data>
+  <data name="NeutralNotAllowed" xml:space="preserve">
+    <value>Neutro non autorizzato</value>
+  </data>
+  <data name="NewComponent" xml:space="preserve">
+    <value>Nuovo componente</value>
+  </data>
+  <data name="NoName" xml:space="preserve">
+    <value>Senza nome</value>
+  </data>
+  <data name="Now" xml:space="preserve">
+    <value>, now=</value>
+  </data>
+  <data name="NowBest" xml:space="preserve">
+    <value>Ora - - - - - - - - - - - Migliore</value>
+  </data>
+  <data name="OpenBlueprintLibrary" xml:space="preserve">
+    <value>Apri libreria dei progetti</value>
+  </data>
+  <data name="OpenSchematic" xml:space="preserve">
+    <value>Apri schema</value>
+  </data>
+  <data name="PasteCtrlV" xml:space="preserve">
+    <value>Incolla (Ctrl+V)</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>In attesa... </value>
+  </data>
+  <data name="Photomode" xml:space="preserve">
+    <value>Modalità foto</value>
+  </data>
+  <data name="PickBitsPositionsOneAtATimeRightClickToCancel" xml:space="preserve">
+    <value>Scegli la posizione dei bit uno alla volta. Premi il tasto destro per annullare.</value>
+  </data>
+  <data name="Probe" xml:space="preserve">
+    <value>Sonda</value>
+  </data>
+  <data name="ProbeModeSummary" xml:space="preserve">
+    <value>Sonde</value>
+  </data>
+  <data name="Probes" xml:space="preserve">
+    <value>Sonde</value>
+  </data>
 </root>

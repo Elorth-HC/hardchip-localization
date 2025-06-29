@@ -138,4 +138,22 @@
   <data name="FinishTheInverterChipMapToUnlock" xml:space="preserve">
     <value>Finisci il chip invertitore per sbloccare.</value>
   </data>
+  <data name="JoinHardChipSSteamCommunity" xml:space="preserve">
+    <value>Unisciti alla community Steam di Hard Chip!</value>
+  </data>
+  <data name="LinksBugsCommentsOrFeedback" xml:space="preserve">
+    <value>Collegamenti: bug, commenti o opinioni?</value>
+  </data>
+  <data name="MusicMEGAS" xml:space="preserve">
+    <value>Musica: MEGAS </value>
+  </data>
+  <data name="PostYourCreationOnHardChipSSubreddit" xml:space="preserve">
+    <value>Pubblica la tua creazione sul subreddit di Hard Chip!</value>
+  </data>
+  <data name="QuickUpdates" xml:space="preserve">
+    <value>Aggiornamenti rapidi</value>
+  </data>
+  <data name="ReachTheALUChipMapToUnlock" xml:space="preserve">
+    <value>Raggiungi la mappa del chip ALU per sbloccare.</value>
+  </data>
 </root>
