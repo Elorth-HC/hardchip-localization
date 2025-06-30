@@ -249,4 +249,31 @@ Valori maggiori diminuiranno la performance, ma aumenteranno la qualità.</value
     <value>La precisione dei raggi è il numero di passi che ogni raggio compie.
 Valori più alti aumenteranno la qualità, ma diminuiranno la performance.</value>
   </data>
+  <data name="ReduceVisualStrainOnTheEditorSBackgroundForSensitivityToBrightness" xml:space="preserve">
+    <value>Può ridurre lo sforzo visivo derivato dallo sfondo dell'editor per alcuni utenti.</value>
+  </data>
+  <data name="RenderMethod" xml:space="preserve">
+    <value>Metodo di rendering</value>
+  </data>
+  <data name="ResetAllSettings" xml:space="preserve">
+    <value>Ripristinare tutte le impostazioni?</value>
+  </data>
+  <data name="ResetCampaignOnly" xml:space="preserve">
+    <value>Ripristina solo la campagna</value>
+  </data>
+  <data name="ResetCampaignProgression" xml:space="preserve">
+    <value>Ripristinare i progressi nella campagna?</value>
+  </data>
+  <data name="ResetEverything" xml:space="preserve">
+    <value>Ripristina tutto</value>
+  </data>
+  <data name="ResetEVERYTHINGUppercase" xml:space="preserve">
+    <value>Ripristinare TUTTO?</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Ripristina impostazioni</value>
+  </data>
+  <data name="RestartToApplyChanges" xml:space="preserve">
+    <value>Riavvia per applicare i cambiamenti</value>
+  </data>
 </root>

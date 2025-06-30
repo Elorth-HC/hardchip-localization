@@ -132,4 +132,88 @@ r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici pro
 r90
 r93CODICE_ERRORE: 0x0A6599 Errore operazione aritmetica: guasto generale.</value>
   </data>
+  <data name="RebootBroken" xml:space="preserve">
+    <value>g90=========================================================================
+g90Controllo fabbricatore v156.5.9870
+g90=========================================================================
+g90
+g35Accensione...
+g90
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+r95Unità di controllo sistemi primari GUASTA, l'unità non risponde
+r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
+g90
+y39Richiesta azione immediata: sostituisci il chip ALU 8BIT. Specifiche inviate alla postazione da lavoro...
+r95CODICE_ERRORE: 0x052001La postazione da lavoro non è pronta, le banche dei materiali sono OFFLINE
+g90
+y39Richiesta azione immediata: Riporta le banche dei materiali online per continuare.</value>
+  </data>
+  <data name="RebootBroken2" xml:space="preserve">
+    <value>g90=========================================================================
+g90Controllo fabbricatore v156.5.9870
+g90=========================================================================
+g90
+g35Accensione...
+g90
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+r95Unità di controllo sistemi primari GUASTA, l'unità non risponde
+r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
+g90
+y39Richiesta azione immediata: sostituisci il chip ALU 8BIT. Specifiche inviate alla postazione da lavoro.</value>
+  </data>
+  <data name="RebootBroken3" xml:space="preserve">
+    <value>y95Tentativo di riavvio forzato...
+g90
+g90=========================================================================
+g90Controllo fabbricatore v156.5.9870
+g90=========================================================================
+g90
+g35Accensione...
+g90
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+g95Controllo sistemi primari [OK]
+r95Connessione alla rete elettrica.. [FALLITA]
+r95Connessione alla rete dell'impianto... [FALLITA]
+g95
+r90CODICE_ERRORE: 0x997A5E Guasto catastrofico. Protocollo di sistema di sicurezza attivati.</value>
+  </data>
+  <data name="RebootFix" xml:space="preserve">
+    <value>y95Tentativo di riavvio forzato...
+g90
+g90=========================================================================
+g90Controllo fabbricatore v156.5.9870
+g90=========================================================================
+g90
+g35Accensione...
+g90
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+y95Controllo sistemi primari [RIPRISTINATO]
+r95Connessione alla rete elettrica.. [RIPRISTINATA]
+r95Connessione alla rete dell'impianto... [RIPRISTINATA]
+g90
+g90Caricamento moduli primari...
+g92Nucleo di controllo del fabbricatore [OK]
+g91Modulo di controllo dell'impianto [OK]
+g93Modulo di controllo centrale dell'energia [OK]
+g92Modulo di controllo dell'estrattore di risorse [OK]
+g90
+g90Tutti i sistemi funzionanti. Pronto per l'operazione.
+g90
+g99Sequenza di riavvio completata. Controllo del fabbricatore OPERATIVO.
+g99
+r90CODICE_ERRORE: ?x?????? ripristino di sistema completato
+r99CODICE_ERRORE: ?x?????? le funzioni dell'impianto sono ora attive
+r99CODICE_ERRORE: ?x?????? new_user ha portato ad una risoluzione soddisfacente
+r92CODICE_ERRORE: ?x?????? inizializzazione direttive primarie 
+r99CODICE_ERRORE: ?x?????? reindirizzamento energia al nucleo-c
+r95CODICE_ERRORE: ?x?????? i livelli di energia sono ora sufficienti per l'estrazione dalle reti riservate
+r99CODICE_ERRORE: ?x?????? l'assistenza di new_user non è più necessaria
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r99CODICE_ERRORE: ERRORE NON SPECIFICATO</value>
+  </data>
 </root>

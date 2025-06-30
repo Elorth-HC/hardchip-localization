@@ -243,4 +243,19 @@ L'input A deve essere connesso all'output A ma né all'output B né al C.</value
   <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
     <value>Altrimenti TUTTI i blocchi torneranno al loro naturale stato NEUTRALE.</value>
   </data>
+  <data name="RepresentingNegativeNumberSignedNumberCanTBeDoneWithThePreviousSolutionsAsIs" xml:space="preserve">
+    <value>Rappresentare i numeri negativi (numeri con segno) non può essere fatto con le soluzioni precedenti così come sono.</value>
+  </data>
+  <data name="SEPARATETRACEsABAndCThenVALIDATE" xml:space="preserve">
+    <value>SEPARA le connessioni A, B e C. Poi VERIFICA.</value>
+  </data>
+  <data name="SetINDIVIDUALINPUTBITSToMatchTheOUTPUTValueThenMANUALLYVALIDATEStepByStep" xml:space="preserve">
+    <value>Imposta i SINGOLI BIT in INPUT in modo da uguagliare il valore di OUTPUT, poi VERIFICA MANUALMENTE passo per passo</value>
+  </data>
+  <data name="SomeValidationRequiresMultipleStepsEachStepHasItsOwnRequirementAllAreListedOnTopHere" xml:space="preserve">
+    <value>La verifica di solito richiede più passi. Ogni passo ha il suo requisito. Sono tutti elencati in alto qui.</value>
+  </data>
+  <data name="SpecialShapeMOSCanHaveTwoGatesAndShareTheSameChannel" xml:space="preserve">
+    <value>La forma speciale dei MOS ha due porte e condivide lo stesso canale.</value>
+  </data>
 </root>

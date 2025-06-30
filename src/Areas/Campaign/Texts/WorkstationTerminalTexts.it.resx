@@ -149,4 +149,24 @@ g90Invio del progetto al fabbricatore...
 g17.....
 g90Fatto.</value>
   </data>
+  <data name="ReceivedAdderRequirement" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip ADDER 8BIT.
+g90Pronto per iniziare il processo di progettazione.</value>
+  </data>
+  <data name="ReceivedALURequirement" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip ALU.
+g90Pronto per iniziare il processo di progettazione.</value>
+  </data>
+  <data name="ReceivedALURequirementFailed" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip ALU.
+r95CODICE_ERRORE: 0x052001 La postazione di lavoro non è pronta, le banche materiali sono OFFLINE.</value>
+  </data>
+  <data name="ReceivedBypassRequirement" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip BYPASS.
+g90Pronto per iniziare il processo di progettazione.</value>
+  </data>
+  <data name="ReceivedInverterRequirement" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip INVERTITORE.
+g90Pronto per iniziare il processo di progettazione.</value>
+  </data>
 </root>

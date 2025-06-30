@@ -117,79 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BlueprintToExportMessage" xml:space="preserve">
-    <value>Progetto pronto per essere esportato:
-
-- Etichetta: {0}
-- Descrizione: {1}
-
-Premi ESPORTA per creare un progetto HCDrive.</value>
+  <data name="Reference" xml:space="preserve">
+    <value>Riferimento</value>
   </data>
-  <data name="BlueprintToImportMessage" xml:space="preserve">
-    <value>HCDrive valido inserito. Progetto rilevato:
-
-- Etichetta: {0}
-- Descrizione: {1}
-
-Premi INSTALLA per completare l'installazione del progetto.</value>
-  </data>
-  <data name="ChipToExportMessage" xml:space="preserve">
-    <value>Chip pronto per essere esportato:
-
-- Etichetta: {0}
-- Descrizione: {1}
-
-Premi ESPORTA per creare un chip HCDrive.</value>
-  </data>
-  <data name="ChipToImportMessage" xml:space="preserve">
-    <value>HCDrive valido inserito. Chip rilevato:
-
-- Etichetta: {0}
-- Descrizione: {1}
-
-Premi INSTALLA per completare l'installazione del chip.</value>
-  </data>
-  <data name="ExportSuccessMessage" xml:space="preserve">
-    <value>Esportazione avvenuta con successo.
-Un nuovo HCDrive è negli appunti! Ora puoi condividerlo incollandolo su Explorer o qualsiasi altro programma che supporti le immagini.</value>
-  </data>
-  <data name="InstallFailedMessage" xml:space="preserve">
-    <value>Installazione fallita.
-
-Il contenuto dell'HCDrive potrebbe essere corrotto o incompatibile.</value>
-  </data>
-  <data name="InstallSuccessMessage" xml:space="preserve">
-    <value>Installazione avvenuta con successo. 
-
-Il contenuto dell'HCDrive è stato installato!</value>
-  </data>
-  <data name="LoadHCDriveFailedMessage" xml:space="preserve">
-    <value>Nessun HCDrive valido inserito!
-
-Assicurati che un file HCDrive sia negli appunti e premi il pulsante carica.</value>
-  </data>
-  <data name="NoHCDriveMessage" xml:space="preserve">
-    <value>Nessun HCDrive inserito!
-
-Gli HCDrive sono file compressi che contengono chip, fasi e progetti.
-Creati per essere condivisibili facilmente. 
-
-Assicurati che un file HCDrive o un collegamento ad un file siano negli appunti e premi CARICA.</value>
-  </data>
-  <data name="StageToExportMessage" xml:space="preserve">
-    <value>La fase della community è pronto per essere importato:
-
-- Etichetta: {0}
-- Descrizione: {1}
-
-Premi ESPORTA per creare un HCDrive della fase.</value>
-  </data>
-  <data name="StageToImportMessage" xml:space="preserve">
-    <value>HCDrive valido inserito. Fase della community rilevata:
-
-- Etichetta: {0}
-- Descrizione: {1}
-
-Premi esporta per creare un HCDrive della fase.</value>
+  <data name="Resume" xml:space="preserve">
+    <value>Riprendi</value>
   </data>
 </root>

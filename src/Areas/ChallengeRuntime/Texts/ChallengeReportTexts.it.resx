@@ -236,4 +236,22 @@ Alto -&gt; Soddisfacente -&gt; Ridotto</value>
   <data name="PhotoMode" xml:space="preserve">
     <value>Modalità foto</value>
   </data>
+  <data name="Reduced" xml:space="preserve">
+    <value>Ridotto</value>
+  </data>
+  <data name="ReducedP" xml:space="preserve">
+    <value>Ridotto+</value>
+  </data>
+  <data name="ReducedPP" xml:space="preserve">
+    <value>Risotto++</value>
+  </data>
+  <data name="Satisfactory" xml:space="preserve">
+    <value>Soddisfacente</value>
+  </data>
+  <data name="SaveBlueprint" xml:space="preserve">
+    <value>Salva progetto</value>
+  </data>
+  <data name="Slow" xml:space="preserve">
+    <value>Lento</value>
+  </data>
 </root>

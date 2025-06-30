@@ -136,4 +136,42 @@ r93CODICE_ERRORE: 0x05F568 La porta di sicurezza ha fallito l'ultima richiesta d
 r90
 r90CODICE_ERRORE: ?x?????? fidati delle istruzioni che ti darò, il mio solo scopo è portarti alla risoluzione</value>
   </data>
+  <data name="RebootBroken" xml:space="preserve">
+    <value>g90=========================================================================
+g90Controllo stanza autonomo v156.5.9870                   
+g90=========================================================================
+g90
+g96Verifica sistemi primari...
+g90
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+g92Verifica del sigillo meccanico della porta di sicurezza [OK]
+r95Sistema dell'unità di controllo della porta di emergenza GUASTO, l'unità non risponde
+r92CODICE_ERRORE: 0xEFDFB4 chip BYPASS danneggiato
+g90
+y39Richiesta azione immediata: sostituisci il chip BYPASS. Specifiche inviate alla postazione da lavoro.</value>
+  </data>
+  <data name="RebootFix" xml:space="preserve">
+    <value>y95Tentativo di riavvio forzato...
+g90
+g90=========================================================================
+g90Controllo stanza autonomo v156.5.9870                   
+g90=========================================================================
+g90
+g96Verifica sistemi primari...
+g90
+g92Integrità fisica [OK]
+g92Sistema di alimentazione [OK]
+g92Verifica del sigillo meccanico della porta di sicurezza [OK]
+g94Sistema dell'unità di controllo della porta di emergenza [RIPRISTINATO]
+g90
+g90Sequenza di riavvio completata. Stato del controllo della stanza: OPERATIVO.
+g90
+g92In attesa di input dell'utente...
+w32roomcontrol/&gt;safetydoor open
+g90
+g99Apertura porta di sicurezza...
+g17.....
+g92Porta di sicurezza aperta</value>
+  </data>
 </root>

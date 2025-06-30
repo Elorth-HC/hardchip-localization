@@ -156,4 +156,13 @@
   <data name="Minimize" xml:space="preserve">
     <value>Riduci</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rinomina</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Riprova</value>
+  </data>
 </root>

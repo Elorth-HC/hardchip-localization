@@ -172,4 +172,16 @@ g90Registro di fabbricazione salvato. ID Lotto: 2224A[BATCHID]X.</value>
     <value>g99
 r90CODICE_ERRORE: ?x?????? guarda sopra il tavolo del fabbricatore</value>
   </data>
+  <data name="ReceivedAdder" xml:space="preserve">
+    <value>g90Ricevute le specifiche per il progetto del chip ADDER 8BIT.
+g90Pronto per iniziare il processo di fabbricazione.</value>
+  </data>
+  <data name="ReceivedALU" xml:space="preserve">
+    <value>g90Ricevute le specifiche per il progetto del chip ALU.
+g90Pronto per iniziare il processo di fabbricazione.</value>
+  </data>
+  <data name="ReceivedInverter" xml:space="preserve">
+    <value>g90Ricevute le specifiche per il progetto del chip INVERTITORE.
+g90Pronto per iniziare il processo di fabbricazione.</value>
+  </data>
 </root>

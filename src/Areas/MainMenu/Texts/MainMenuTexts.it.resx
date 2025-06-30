@@ -156,4 +156,7 @@
   <data name="ReachTheALUChipMapToUnlock" xml:space="preserve">
     <value>Raggiungi la mappa del chip ALU per sbloccare.</value>
   </data>
+  <data name="ShareYourCreationOnTwitterWithHardchipgameOrHardchipgame" xml:space="preserve">
+    <value>Condividi la tua creazione su Twitter con #hardchipgame o @hardchipgame!</value>
+  </data>
 </root>

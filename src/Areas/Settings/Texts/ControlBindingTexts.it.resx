@@ -194,4 +194,64 @@ Tasto sinistro del mouse per eliminare.</value>
   <data name="PreviousSlot" xml:space="preserve">
     <value>Slot precedente</value>
   </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Ripeti</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Resetta</value>
+  </data>
+  <data name="ResetBindings" xml:space="preserve">
+    <value>Ripristina le associazioni</value>
+  </data>
+  <data name="RotatePart" xml:space="preserve">
+    <value>Ruota la parte</value>
+  </data>
+  <data name="RotateViewLeft" xml:space="preserve">
+    <value>Ruota vista a sinistra</value>
+  </data>
+  <data name="RotateViewRight" xml:space="preserve">
+    <value>Ruota vista a destra</value>
+  </data>
+  <data name="RunValidation" xml:space="preserve">
+    <value>Inizia verifica</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Seleziona tutto</value>
+  </data>
+  <data name="SelectMode" xml:space="preserve">
+    <value>Modalità di modifica</value>
+  </data>
+  <data name="SelectSegment" xml:space="preserve">
+    <value>Seleziona segmento</value>
+  </data>
+  <data name="SettingKeyInput" xml:space="preserve">
+    <value>Assegnando tasto in input...</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>Simulazione</value>
+  </data>
+  <data name="Slot0" xml:space="preserve">
+    <value>Slot 0</value>
+  </data>
+  <data name="Slot1" xml:space="preserve">
+    <value>Slot 1</value>
+  </data>
+  <data name="Slot2" xml:space="preserve">
+    <value>Slot 2</value>
+  </data>
+  <data name="Slot3" xml:space="preserve">
+    <value>Slot 3</value>
+  </data>
+  <data name="Slot4" xml:space="preserve">
+    <value>Slot 4</value>
+  </data>
+  <data name="SlowerSimulation" xml:space="preserve">
+    <value>Rallenta la simulazione</value>
+  </data>
+  <data name="SpaceOutInOutputBits" xml:space="preserve">
+    <value>Separa i bit di input/output</value>
+  </data>
+  <data name="CloseInInOutputBits" xml:space="preserve">
+    <value>Avvicina i bit di input/output</value>
+  </data>
 </root>
