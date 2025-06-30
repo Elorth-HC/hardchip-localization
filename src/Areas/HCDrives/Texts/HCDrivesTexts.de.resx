@@ -1,51 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-    <!--  Microsoft ResX Schema – Struktur unverändert -->
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <xsd:element name="root" msdata:IsDataSet="true">
+  <!--  Microsoft ResX Schema – Struktur unverändert -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
             <xsd:complexType>
-                <xsd:choice maxOccurs="unbounded">
-                    <xsd:element name="data">
-                        <xsd:complexType>
-                            <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
-                            </xsd:sequence>
-                            <xsd:attribute name="name"     type="xsd:string" msdata:Ordinal="1"/>
-                            <xsd:attribute name="type"     type="xsd:string" msdata:Ordinal="3"/>
-                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-                        </xsd:complexType>
-                    </xsd:element>
-                    <xsd:element name="resheader">
-                        <xsd:complexType>
-                            <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                            </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" use="required"/>
-                        </xsd:complexType>
-                    </xsd:element>
-                </xsd:choice>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
             </xsd:complexType>
-        </xsd:element>
-    </xsd:schema>
-
-    <!-- resheader unverändert -->
-    <resheader name="resmimetype">
-        <value>text/microsoft-resx</value>
-    </resheader>
-    <resheader name="version">
-        <value>1.3</value>
-    </resheader>
-    <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-    <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-
-    <!-- =================== DATA =================== -->
-
-    <data name="NoHCDriveMessage" xml:space="preserve">
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <!-- resheader unverändert -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- =================== DATA =================== -->
+  <data name="NoHCDriveMessage" xml:space="preserve">
     <value>Kein HCDrive eingelegt!
 
 HCDrives sind komprimierte Dateien, die Chips,
@@ -55,15 +52,13 @@ leicht teilen lassen.
 Stell sicher, dass eine HCDrive-Datei oder ein Link
 zur Datei in der Zwischenablage ist, und drück LADEN.</value>
   </data>
-
-    <data name="LoadHCDriveFailedMessage" xml:space="preserve">
+  <data name="LoadHCDriveFailedMessage" xml:space="preserve">
     <value>Ungültiges HCDrive eingelegt!
 
 Stell sicher, dass eine HCDrive-Datei in der Zwischenablage liegt
 und drück den Lade-Button.</value>
   </data>
-
-    <data name="StageToExportMessage" xml:space="preserve">
+  <data name="StageToExportMessage" xml:space="preserve">
     <value>Community-Stage bereit zum Exportieren:
 
 - Label: {0}
@@ -71,8 +66,7 @@ und drück den Lade-Button.</value>
 
 Drück EXPORT, um ein Stage-HCDrive zu erstellen.</value>
   </data>
-
-    <data name="ChipToExportMessage" xml:space="preserve">
+  <data name="ChipToExportMessage" xml:space="preserve">
     <value>Chip bereit zum Exportieren:
 
 - Label: {0}
@@ -80,8 +74,7 @@ Drück EXPORT, um ein Stage-HCDrive zu erstellen.</value>
 
 Drück EXPORT, um ein Chip-HCDrive zu erstellen.</value>
   </data>
-
-    <data name="BlueprintToExportMessage" xml:space="preserve">
+  <data name="BlueprintToExportMessage" xml:space="preserve">
     <value>Blaupause bereit zum Exportieren:
 
 - Label: {0}
@@ -89,8 +82,7 @@ Drück EXPORT, um ein Chip-HCDrive zu erstellen.</value>
 
 Drück EXPORT, um ein Blaupausen-HCDrive zu erstellen.</value>
   </data>
-
-    <data name="StageToImportMessage" xml:space="preserve">
+  <data name="StageToImportMessage" xml:space="preserve">
     <value>Gültiges HCDrive eingelegt. Community-Stage erkannt:
 
 - Label: {0}
@@ -99,8 +91,7 @@ Drück EXPORT, um ein Blaupausen-HCDrive zu erstellen.</value>
 Drück INSTALLIEREN, um die Stage
 zu installieren.</value>
   </data>
-
-    <data name="ChipToImportMessage" xml:space="preserve">
+  <data name="ChipToImportMessage" xml:space="preserve">
     <value>Gültiges HCDrive eingelegt. Chip erkannt:
 
 - Label: {0}
@@ -109,8 +100,7 @@ zu installieren.</value>
 Drück INSTALLIEREN, um den Chip
 zu installieren.</value>
   </data>
-
-    <data name="BlueprintToImportMessage" xml:space="preserve">
+  <data name="BlueprintToImportMessage" xml:space="preserve">
     <value>Gültiges HCDrive eingelegt. Blaupause erkannt:
 
 - Label: {0}
@@ -119,22 +109,19 @@ zu installieren.</value>
 Drück INSTALLIEREN, um die Blaupause
 zu installieren.</value>
   </data>
-
-    <data name="ExportSuccessMessage" xml:space="preserve">
+  <data name="ExportSuccessMessage" xml:space="preserve">
     <value>Export erfolgreich.
 Ein neues HCDrive befindet sich in der Zwischenablage! Du kannst
 es jetzt teilen, indem du es in einen Explorer
 oder jede andere Software einfügst, die Bild-
 inhalte unterstützt.</value>
   </data>
-
-    <data name="InstallFailedMessage" xml:space="preserve">
+  <data name="InstallFailedMessage" xml:space="preserve">
     <value>Installation fehlgeschlagen.
 
 Der HCDrive-Inhalt könnte beschädigt oder inkompatibel sein.</value>
   </data>
-
-    <data name="InstallSuccessMessage" xml:space="preserve">
+  <data name="InstallSuccessMessage" xml:space="preserve">
     <value>Installation erfolgreich.
 
 HCDrive-Inhalt wurde installiert!</value>

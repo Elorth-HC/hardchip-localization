@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PerformanceReport" xml:space="preserve">
+    <value>Rapporto prestazioni {0}</value>
+    <comment>Composed with the name of the challenge at the beginning</comment>
+  </data>
+  <data name="LastChipChecked" xml:space="preserve">
+    <value>Ultimo chip verificato</value>
+  </data>
+  <data name="ChipChecked" xml:space="preserve">
+    <value>Chip verificato!</value>
+  </data>
+  <data name="FunctionalSatisfactoryStreamlined" xml:space="preserve">
+    <value>Funzionale -&gt; Soddisfacente -&gt; Ottimizzato</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>   Blocchi:</value>
+    <comment>Space important</comment>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>   Volume:</value>
+    <comment>Space important</comment>
+  </data>
+  <data name="BlocksUsedTheFewerTheBetterNComplexSatisfactoryEfficient" xml:space="preserve">
+    <value>Blocchi utilizzati. Meno ce ne sono, meglio è.
+Complesso -&gt; Soddisfacente -&gt; Efficiente</value>
+  </data>
+  <data name="VolumeUsedTheSmallerTheBetterNLargeSatisfactoryCompact" xml:space="preserve">
+    <value>Volume utilizzato. Più piccolo è, meglio è.
+Grande -&gt; Soddisfacente -&gt; Compatto</value>
+  </data>
+  <data name="Ticks" xml:space="preserve">
+    <value>   Tick:</value>
+  </data>
+  <data name="MOS" xml:space="preserve">
+    <value>   MOS:</value>
+    <comment>Space important</comment>
+  </data>
+  <data name="TicksUsedTheFewerTheBetterNSlowSatisfactoryFast" xml:space="preserve">
+    <value>Tick utilizzati. Meno ce ne sono, meglio è.
+Lento -&gt; Soddisfacente -&gt; Veloce</value>
+  </data>
+  <data name="MOSUsedTheFewerTheBetterNHighSatisfactoryReduced" xml:space="preserve">
+    <value>MOS utilizzati. Meno ce ne sono, meglio è.
+Alto -&gt; Soddisfacente -&gt; Ridotto</value>
+  </data>
+  <data name="DataUnavailable" xml:space="preserve">
+    <value>Dati non disponibili</value>
+  </data>
+  <data name="VolumeReport" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="TicksReport" xml:space="preserve">
+    <value>Tick</value>
+  </data>
+  <data name="MOSReport" xml:space="preserve">
+    <value>MOS</value>
+  </data>
+  <data name="PhotoMode" xml:space="preserve">
+    <value>Modalità foto</value>
+  </data>
+  <data name="ExportBlueprintToANewHCDriveFileIntoTheClipboard" xml:space="preserve">
+    <value>Esporta Progetto in un nuovo file HCDrive negli appunti</value>
+  </data>
+  <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
+    <value>Migliore soluzione Blocchi, clicca per confrontare. Click destro per impostare come corrente.</value>
+  </data>
+  <data name="BestBlockSolution" xml:space="preserve">
+    <value> (migliore soluzione Blocchi)</value>
+  </data>
+  <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
+    <value>Migliore soluzione Volume, clicca per confrontare. Click destro per impostare come corrente.</value>
+  </data>
+  <data name="BestVolumeSolution" xml:space="preserve">
+    <value> (migliore soluzione Volume)</value>
+  </data>
+  <data name="BestTickSolutionClickToCompare" xml:space="preserve">
+    <value>Migliore soluzione Tick, clicca per confrontare. Click destro per impostare come corrente.</value>
+  </data>
+  <data name="BestTickSolution" xml:space="preserve">
+    <value> (migliore soluzione Tick)</value>
+  </data>
+</root>

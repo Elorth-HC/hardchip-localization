@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
 		Microsoft ResX Schema
@@ -97,9 +97,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
   <!-- Translation to French below -->
-  
   <data name="FirstScreenEver" xml:space="preserve">
     <value>g90=========================================================================
 g90Fabricateur autonome v546.1.7430
@@ -121,7 +119,6 @@ g90
 g90Spécifications de conception reçues pour la puce BYPASS.
 g90Prêt à démarrer le processus de fabrication.</value>
   </data>
-  
   <data name="StatusStep0" xml:space="preserve">
     <value>g90Diagnostic en cours...              
 g90
@@ -136,7 +133,6 @@ y95AVERTISSEMENT : banques de matériaux indisponibles. Matériaux mis en mémoi
 g90
 g39État du fabricateur : PARTIELLEMENT OPÉRATIONNEL</value>
   </data>
-  
   <data name="StatusStep1" xml:space="preserve">
     <value>g90Diagnostic en cours...              
 g90
@@ -151,28 +147,24 @@ y95AVERTISSEMENT : Banque de matériaux 2 indisponible. Opérations limitées un
 g90
 g39État du fabricateur : PARTIELLEMENT OPÉRATIONNEL</value>
   </data>
-  
   <data name="StatusStep0Shorted" xml:space="preserve">
     <value>
 r95Banque de matériaux 1 [HORS LIGNE]
 r95Banque de matériaux 2 [HORS LIGNE]
 g90État du fabricateur : PARTIELLEMENT OPÉRATIONNEL</value>
   </data>
-  
   <data name="StatusStep1Shorted" xml:space="preserve">
     <value>
 g92Banque de matériaux 1 [EN LIGNE]
 r95Banque de matériaux 2 [HORS LIGNE]
 g90État du fabricateur : PARTIELLEMENT OPÉRATIONNEL</value>
   </data>
-  
   <data name="StatusStep2Shorted" xml:space="preserve">
     <value>
 g92Banque de matériaux 1 [EN LIGNE]
 g92Banque de matériaux 2 [EN LIGNE]
 g90État du fabricateur : OPÉRATIONNEL</value>
   </data>
-  
   <data name="StatusStep2" xml:space="preserve">
     <value>g90Diagnostic en cours...              
 g90
@@ -185,26 +177,21 @@ g95 Banque de matériaux 2 [EN LIGNE]
 g90
 g39État du fabricateur : OPÉRATIONNEL</value>
   </data>
-  
   <data name="FabricateMore" xml:space="preserve">
     <value>g90Processus de fabrication terminé.</value>
   </data>
-  
   <data name="ReceivedInverter" xml:space="preserve">
     <value>g90Spécifications de conception reçues pour la puce INVERTER.
 g90Prêt à démarrer le processus de fabrication.</value>
   </data>
-  
   <data name="ReceivedAdder" xml:space="preserve">
     <value>g90Spécifications de conception reçues pour la puce ADDER 8 bits.
 g90Prêt à démarrer le processus de fabrication.</value>
   </data>
-  
   <data name="ReceivedALU" xml:space="preserve">
     <value>g90Spécifications de conception reçues pour la puce ALU.
 g90Prêt à démarrer le processus de fabrication.</value>
   </data>
-  
   <data name="GenericFabricateLog" xml:space="preserve">
     <value>g90Initialisation de la séquence de fabrication pour la puce [CHIPNAME]...
 g90
@@ -232,7 +219,6 @@ g90
 g90La puce [CHIPNAME] est prête.
 g90Journal de fabrication sauvegardé. Numéro de lot : 2224A[BATCHID]X.</value>
   </data>
-  
   <data name="LookAtChip" xml:space="preserve">
     <value>g99
 r90CODE_ERREUR : ?x?????? regarde sur le dessus de la table du fabricateur</value>

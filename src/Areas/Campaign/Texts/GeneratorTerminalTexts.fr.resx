@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
 		Microsoft ResX Schema
@@ -97,9 +97,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
   <!-- Translation to French below -->
-  
   <data name="FirstScreenEver" xml:space="preserve">
     <value>r93CODE_ERREUR : 0x00FAB4 Défaillance générale. Erreur non spécifiée.
 r90
@@ -115,7 +113,6 @@ r90CODE_ERREUR : ?x?????? bonjour
 r90
 r93CODE_ERREUR : 0x01FAB1 Défaillance critique. Redémarrage système requis.</value>
   </data>
-  
   <data name="StatusBroken" xml:space="preserve">
     <value>g90Diagnostic en cours...              
 g90
@@ -132,7 +129,6 @@ r92 CODE_ERREUR : 0x01FAB1 Défaillance critique. Redémarrage système requis.
 g90
 y39Action immédiate requise : redémarrer.</value>
   </data>
-  
   <data name="RebootFix" xml:space="preserve">
     <value>y90Tentative de redémarrage forcé...
 g90
@@ -167,7 +163,6 @@ g90
 g90Séquence de redémarrage terminée. État du générateur : OPÉRATIONNEL.
 </value>
   </data>
-  
   <data name="InitialScreenFixed" xml:space="preserve">
     <value>g90=========================================================================
 g90Générateur autonome v156.5.9870
@@ -188,11 +183,9 @@ g90Synchronisation avec les interfaces de contrôle externes... [OK]
 g90
 g90Séquence de redémarrage terminée. État du générateur : OPÉRATIONNEL.</value>
   </data>
-  
   <data name="StatusFixed" xml:space="preserve">
     <value>g90État du générateur : OPÉRATIONNEL.</value>
   </data>
-  
   <data name="StatusFixedForever" xml:space="preserve">
     <value>g90
 g90État du générateur : OPÉRATIONNEL.</value>

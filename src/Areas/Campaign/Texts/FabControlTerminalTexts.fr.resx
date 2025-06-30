@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
 		Microsoft ResX Schema
@@ -97,9 +97,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
   <!-- Translation to French below -->
-  
   <data name="FirstScreenEver" xml:space="preserve">
     <value>r90
 r93CODE_ERREUR : 0x04FAB9 Délai d'attente réseau. Connexion perdue.
@@ -108,7 +106,6 @@ r93CODE_ERREUR : 0x00FFB4 Surtension. Dommages probables aux composants électro
 r90
 r93CODE_ERREUR : 0x0A6599 Erreur d'opération arithmétique : échec général.</value>
   </data>
-  
   <data name="StatusBroken" xml:space="preserve">
     <value>g90Diagnostic en cours...              
 g90
@@ -125,7 +122,6 @@ r95CODE_ERREUR : 0x052001 Station de travail non prête, banques de matériaux H
 g90
 y39Action immédiate requise : remettre les banques de matériaux en ligne pour continuer.</value>
   </data>
-  
   <data name="StatusBroken2" xml:space="preserve">
     <value>g90Diagnostic en cours...              
 g90
@@ -139,7 +135,6 @@ r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
 g90
 y39Action immédiate requise : remplacer la puce ALU 8 bits. Besoins envoyés à la station de travail.</value>
   </data>
-  
   <data name="RebootBroken" xml:space="preserve">
     <value>g90=========================================================================
 g90Fab Control v156.5.9870
@@ -157,7 +152,6 @@ r95CODE_ERREUR : 0x052001 Station de travail non prête, banques de matériaux H
 g90
 y39Action immédiate requise : remettre les banques de matériaux en ligne pour continuer.</value>
   </data>
-  
   <data name="RebootBroken2" xml:space="preserve">
     <value>g90=========================================================================
 g90Fab Control v156.5.9870
@@ -172,7 +166,6 @@ r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
 g90
 y39Action immédiate requise : remplacer la puce ALU 8 bits. Besoins envoyés à la station de travail.</value>
   </data>
-  
   <data name="ChipReplaced" xml:space="preserve">
     <value>r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
@@ -180,7 +173,6 @@ r92CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r95CODE_ERREUR : ?x?????? 
 y95AVERTISSEMENT : 0x45FDB3 Puce ALU 8 bits remplacée. Redémarrage requis.</value>
   </data>
-  
   <data name="RebootFix" xml:space="preserve">
     <value>y95Tentative de redémarrage forcé...
 g90
@@ -217,7 +209,6 @@ r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r99CODE_ERREUR : ERREUR NON SPÉCIFIÉE</value>
   </data>
-  
   <data name="RebootBroken3" xml:space="preserve">
     <value>y95Tentative de redémarrage forcé...
 g90
@@ -235,7 +226,6 @@ r95Connexion au réseau de l'installation... [ÉCHEC]
 g95
 r90CODE_ERREUR : 0x997A5E Défaillance catastrophique. Protocoles de sécurité activés.</value>
   </data>
-  
   <data name="StatusBroken3" xml:space="preserve">
     <value>g90Diagnostic en cours...              
 g90

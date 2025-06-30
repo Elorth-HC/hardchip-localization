@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
 		Microsoft ResX Schema
@@ -97,9 +97,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
   <!-- Translation to French below -->
-  
   <data name="FirstScreenEver" xml:space="preserve">
     <value>r90
 r93CODE_ERREUR : 0x04FAB9 Délai d'attente réseau. Connexion perdue.
@@ -110,7 +108,6 @@ r93CODE_ERREUR : 0x05F568 La porte de sécurité n'a pas répondu lors de la der
 r90
 r90CODE_ERREUR : ?x?????? ayez confiance dans les conseils que je vous donne, car mon seul objectif est de vous mener à la résolution</value>
   </data>
-  
   <data name="StatusBroken" xml:space="preserve">
     <value>g90Diagnostic en cours...              
 g90
@@ -123,7 +120,6 @@ r95CODE_ERREUR : 0xEFDFB4 Puce BYPASS endommagée
 g90
 y39Action immédiate requise : remplacer la puce BYPASS. Besoins envoyés au poste de travail.</value>
   </data>
-  
   <data name="RebootBroken" xml:space="preserve">
     <value>g90=========================================================================
 g90Contrôle autonome de la pièce v156.5.9870
@@ -139,7 +135,6 @@ r92CODE_ERREUR : 0xEFDFB4 Puce BYPASS endommagée
 g90
 y39Action immédiate requise : remplacer la puce BYPASS. Besoins envoyés au poste de travail.</value>
   </data>
-  
   <data name="ChipReplaced" xml:space="preserve">
     <value>r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
@@ -149,7 +144,6 @@ r92CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r95CODE_ERREUR : ?x?????? bien
 y95AVERTISSEMENT : 0x45FDB3 Puce BYPASS remplacée. Redémarrage requis.</value>
   </data>
-  
   <data name="RebootFix" xml:space="preserve">
     <value>y95Tentative de redémarrage forcé...
 g90
@@ -173,7 +167,6 @@ g99Ouverture de la porte de sécurité...
 g17.....
 g92Porte de sécurité ouverte</value>
   </data>
-  
   <data name="StatusFixed" xml:space="preserve">
     <value>g90État du contrôle de la pièce : OPÉRATIONNEL</value>
   </data>

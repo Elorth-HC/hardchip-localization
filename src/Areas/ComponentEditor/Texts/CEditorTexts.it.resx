@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Filter" xml:space="preserve">
+    <value>filtro</value>
+  </data>
+  <data name="Schematics" xml:space="preserve">
+    <value>Schemi</value>
+  </data>
+  <data name="OpenSchematic" xml:space="preserve">
+    <value>Apri schema</value>
+  </data>
+  <data name="EnterNewNameForThisBlueprint" xml:space="preserve">
+    <value>Inserisci nuovo nome per questo progetto:</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisBlueprint" xml:space="preserve">
+    <value>Sei sicuro di voler eliminare questo progetto?</value>
+  </data>
+  <data name="RenameBlueprint" xml:space="preserve">
+    <value>Rinomina progetto:</value>
+  </data>
+  <data name="DeleteBlueprint" xml:space="preserve">
+    <value>Elimina progetto:</value>
+  </data>
+  <data name="Probes" xml:space="preserve">
+    <value>Sonde</value>
+  </data>
+  <data name="PickBitsPositionsOneAtATimeRightClickToCancel" xml:space="preserve">
+    <value>Scegli le posizioni dei bit una alla volta. Click destro per annullare.</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Etichetta</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="ClickToSelectPosition" xml:space="preserve">
+    <value>Clicca per selezionare posizione</value>
+  </data>
+  <data name="ClickToResetPosition" xml:space="preserve">
+    <value>Clicca per reimpostare posizione</value>
+  </data>
+  <data name="RelocateInput" xml:space="preserve">
+    <value>Riposiziona input</value>
+  </data>
+  <data name="AndLinkWordForTruthTable" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="ButLinkWordForTruthTable" xml:space="preserve">
+    <value>ma</value>
+  </data>
+  <data name="RelocateOutput" xml:space="preserve">
+    <value>Riposiziona output</value>
+  </data>
+  <data name="StickToScreen" xml:space="preserve">
+    <value>Attacca allo schermo</value>
+  </data>
+  <data name="NeutralAllowed" xml:space="preserve">
+    <value>Neutrale consentito</value>
+  </data>
+  <data name="StickToBlock" xml:space="preserve">
+    <value>Attacca al blocco</value>
+  </data>
+  <data name="NeutralNotAllowed" xml:space="preserve">
+    <value>Neutrale non consentito</value>
+  </data>
+  <data name="StopAt1" xml:space="preserve">
+    <value>Fermati a 1</value>
+  </data>
+  <data name="StopAt0" xml:space="preserve">
+    <value>Fermati a 0</value>
+  </data>
+  <data name="StopAt_" xml:space="preserve">
+    <value>Fermati a _</value>
+  </data>
+  <data name="StopAtError" xml:space="preserve">
+    <value>Fermati all'Errore</value>
+  </data>
+  <data name="DonTStop" xml:space="preserve">
+    <value>Non fermarti</value>
+  </data>
+  <data name="BlueprintSaved" xml:space="preserve">
+    <value>Progetto Salvato</value>
+  </data>
+  <data name="SaveAllAsABlueprint" xml:space="preserve">
+    <value>Salva tutto come progetto</value>
+  </data>
+  <data name="OpenBlueprintLibrary" xml:space="preserve">
+    <value>Apri libreria progetti</value>
+  </data>
+  <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve">
+    <value>Mostra solo i migliori per blocco progetti</value>
+  </data>
+  <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve">
+    <value>Mostra solo i migliori per volume progetti</value>
+  </data>
+  <data name="ShowOnlyBestsByTickBlueprints" xml:space="preserve">
+    <value>Mostra solo i migliori per tick progetti</value>
+  </data>
+  <data name="ShowOnlyBestsByMOSBlueprints" xml:space="preserve">
+    <value>Mostra solo i migliori per MOS progetti</value>
+  </data>
+  <data name="SaveSelectionAsBlueprint" xml:space="preserve">
+    <value>Salva selezione come progetto</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Blocchi</value>
+  </data>
+  <data name="Comparer" xml:space="preserve">
+    <value>Comparatore</value>
+  </data>
+</root>
