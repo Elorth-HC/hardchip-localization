@@ -1,6 +1,6 @@
 # Contributors
 
-This file recognizes the community members who have helped improve the localization of Hard Chip through translations, reviews, and corrections. This list can be used Hard Chip's credits.
+This file recognizes the community members who have helped improve the localization of Hard Chip through translations, reviews, and corrections. This list can be used in Hard Chip's credits.
 
 ## How to Get Listed
 

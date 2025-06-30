@@ -7,9 +7,11 @@ Welcome to the Hard Chip community localization repository! This repository cont
 1. **Fork** this repository
 2. **Open** the `src` folder with ResX Resource Manager
 3. **Review** translations and make corrections
-4. **Add contributor's name** to the [Contributors file](CONTRIBUTORS.md) (_Optional_)
-4. **Agree** to the [Contributor License Agreement (CLA)](CLA.MD)
-4. **Submit** a pull request with your improvements
+4. **Verify** your translations using the verification script: `scripts\VerifyTranslations.ps1 -LanguageCode [your-language]` (e.g., `scripts\VerifyTranslations.ps1 -LanguageCode de` for German)
+5. **Format** ResX files using the formatting script: `scripts\FormatResxFiles.ps1`
+6. **Add contributor's name** to the [Contributors file](CONTRIBUTORS.md) (_Optional_)
+7. **Agree** to the [Contributor License Agreement (CLA)](CLA.MD)
+8. **Submit** a pull request with your improvements
 
 #### ⚠️ Requirements
 * Do not include any auto-generated Designer files (`.Designer.cs`)
