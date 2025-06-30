@@ -164,6 +164,7 @@ Write-Host "  Total entries: $totalEntries"
 Write-Host "  Translated entries: $translatedEntries"
 Write-Host "  Translation coverage: $([Math]::Round(($translatedEntries / $totalEntries) * 100, 2))%"
 Write-Host "  Issues found: $($issues.Count)"
+Write-Host "  Unique translations: $($terminologyMap.Count)"
 
 if ($issues.Count -gt 0) {
     Write-Host "`nISSUES FOUND:" -ForegroundColor Red
@@ -191,9 +192,21 @@ SUMMARY:
 - Translated entries: $translatedEntries  
 - Translation coverage: $([Math]::Round(($translatedEntries / $totalEntries) * 100, 2))%
 - Issues found: $($issues.Count)
+- Unique translations: $($terminologyMap.Count)
 
 FILES ANALYZED:
 $($languageFiles | ForEach-Object { "- $($_.Name)" } | Out-String)
+
+TERMINOLOGY ANALYSIS:
+Most Frequently Used Translations:
+$(if ($frequentTerms.Count -gt 0) { 
+    ($frequentTerms | ForEach-Object { "- '$_' (used $($terminologyMap[$_].Count) times in: $($terminologyMap[$_] -join ', '))" }) -join "`n"
+} else { "- No frequently repeated terms found" })
+
+Translation Patterns:
+- Single-use translations: $(($terminologyMap.Keys | Where-Object { $terminologyMap[$_].Count -eq 1 }).Count)
+- Multi-use translations: $(($terminologyMap.Keys | Where-Object { $terminologyMap[$_].Count -gt 1 }).Count)
+- Potential abbreviations: $(if ($shortTranslations.Count -gt 0) { $shortTranslations.Count } else { 0 })
 
 "@
 
