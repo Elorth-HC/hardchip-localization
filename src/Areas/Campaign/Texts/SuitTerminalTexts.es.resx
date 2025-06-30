@@ -39,7 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <!-- ======================= LIFE SUIT BOOT SCREEN & HUD STRINGS ======================= -->
   <data name="Text1" xml:space="preserve">
     <value>g90===========================================================================
 g90                   Life Suit v156.5.9870, BOOT SEQUENCE                    
@@ -58,7 +57,6 @@ y39Acción inmediata requerida: se detectaron errores del sistema
 g90
 w83Pulsa cualquier tecla para continuar...</value>
   </data>
-  <!-- ======================= INTERACTION PROMPTS ======================= -->
   <data name="_0ToTake" xml:space="preserve">
     <value>{0} para tomar el {1}</value>
   </data>

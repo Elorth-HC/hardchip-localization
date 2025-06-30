@@ -39,11 +39,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <!-- ======================= KEYBINDINGS & CONTROLS ======================= -->
   <data name="Interact" xml:space="preserve">
     <value>Interactuar</value>
   </data>
-  <!-- Categories -->
   <data name="Misc" xml:space="preserve">
     <value>Varios</value>
     <comment>Category header for keybinding</comment>
@@ -58,14 +56,12 @@
   <data name="CameraControls" xml:space="preserve">
     <value>Controles de cámara</value>
   </data>
-  <!-- Misc -->
   <data name="SwitchModes" xml:space="preserve">
     <value>Cambiar modos</value>
   </data>
   <data name="HideUI" xml:space="preserve">
     <value>Ocultar UI</value>
   </data>
-  <!-- Editor actions -->
   <data name="SelectMode" xml:space="preserve">
     <value>Modo selección</value>
   </data>
@@ -102,7 +98,6 @@
   <data name="SelectSegment" xml:space="preserve">
     <value>Seleccionar segmento</value>
   </data>
-  <!-- Slots -->
   <data name="NextSlot" xml:space="preserve">
     <value>Siguiente ranura</value>
   </data>
@@ -124,14 +119,12 @@
   <data name="Slot4" xml:space="preserve">
     <value>Ranura 4</value>
   </data>
-  <!-- Pin spacing -->
   <data name="SpaceOutInOutputBits" xml:space="preserve">
     <value>Separar bits de E/S</value>
   </data>
   <data name="CloseInInOutputBits" xml:space="preserve">
     <value>Acercar bits de E/S</value>
   </data>
-  <!-- Simulation -->
   <data name="RunValidation" xml:space="preserve">
     <value>Ejecutar validación</value>
   </data>
@@ -150,7 +143,6 @@
   <data name="SlowerSimulation" xml:space="preserve">
     <value>Simulación más lenta</value>
   </data>
-  <!-- Camera -->
   <data name="MoveAround" xml:space="preserve">
     <value>Moverse</value>
   </data>
@@ -178,7 +170,6 @@
   <data name="ToggleCamMovements" xml:space="preserve">
     <value>Activar movimientos de cámara</value>
   </data>
-  <!-- Misc helpers -->
   <data name="Unknown" xml:space="preserve">
     <value>Desconocido</value>
   </data>

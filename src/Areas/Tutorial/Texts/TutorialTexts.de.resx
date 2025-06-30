@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--  Microsoft ResX Schema - Struktur unverändert -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -28,7 +27,6 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-  <!-- resheader unverändert -->
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
   </resheader>
@@ -41,7 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <!-- =================== DATA =================== -->
   <data name="RepresentingNegativeNumberSignedNumberCanTBeDoneWithThePreviousSolutionsAsIs" xml:space="preserve">
     <value>Die Darstellung negativer Zahlen (Vorzeichen)
 ist mit den bisherigen Lösungen so nicht möglich.</value>

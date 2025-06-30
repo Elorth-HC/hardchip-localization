@@ -1,5 +1,5 @@
 # PowerShell script to format all .resx files in the workspace
-# This script will format XML indentation and preserve UTF-8 encoding
+# This script will format XML indentation, preserve UTF-8 encoding, and remove comments
 
 Write-Host "Starting to format all .resx files in the workspace..." -ForegroundColor Green
 
@@ -23,6 +23,12 @@ foreach ($file in $resxFiles) {
         # Load XML content
         [xml]$xml = Get-Content $file.FullName -Encoding UTF8
         
+        # Remove all comment nodes
+        $commentNodes = $xml.SelectNodes("//comment()")
+        foreach ($comment in $commentNodes) {
+            $comment.ParentNode.RemoveChild($comment) | Out-Null
+        }
+        
         # Create XmlWriterSettings for proper formatting
         $writerSettings = New-Object System.Xml.XmlWriterSettings
         $writerSettings.Indent = $true
@@ -36,7 +42,7 @@ foreach ($file in $resxFiles) {
         $xml.Save($writer)
         $writer.Close()
         
-        Write-Host "  Successfully formatted" -ForegroundColor Green
+        Write-Host "  Successfully formatted and comments removed" -ForegroundColor Green
         $successCount++
     }
     catch {

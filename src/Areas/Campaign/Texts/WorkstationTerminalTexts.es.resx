@@ -39,7 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <!-- ======================= WORKSTATION STRINGS ======================= -->
   <data name="ReceivedBypassRequirement" xml:space="preserve">
     <value>g90Requisitos recibidos para el chip BYPASS.
 g90Listo para iniciar el proceso de diseño.</value>

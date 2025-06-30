@@ -39,7 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <!-- ======================= AJUSTES Y OPCIONES ======================= -->
   <data name="UndoRedoStackSize" xml:space="preserve">
     <value>Tamaño de pila Deshacer/Rehacer</value>
   </data>
@@ -55,7 +54,6 @@
   <data name="AllSettingsWillBeResetToDefaultRestartingTheGameCouldBeNecessaryToFullyApply" xml:space="preserve">
     <value>Todos los ajustes se restablecerán a los valores predeterminados. Puede ser necesario reiniciar el juego para aplicarlos completamente.</value>
   </data>
-  <!-- Campaña -->
   <data name="Campaign" xml:space="preserve">
     <value>Campaña</value>
   </data>
@@ -72,7 +70,6 @@
     <value>¿Seguro que deseas restablecer tu progresión en la campaña?
 Las soluciones completadas no se eliminarán.</value>
   </data>
-  <!-- Restablecimiento completo -->
   <data name="HardReset" xml:space="preserve">
     <value>Restablecimiento total</value>
   </data>
@@ -89,7 +86,6 @@ Las soluciones completadas no se eliminarán.</value>
     <value>¿Seguro que deseas restablecer TODAS las soluciones y la progresión de la campaña?
 ¡ESTO BORRARÁ TODO, ASEGÚRATE DE LO QUE HACES!</value>
   </data>
-  <!-- Audio -->
   <data name="MusicAndAmbianceLicencesAllowMonetizedContent" xml:space="preserve">
     <value>*Las licencias de música y ambientación permiten contenido monetizado.</value>
   </data>
@@ -99,7 +95,6 @@ Las soluciones completadas no se eliminarán.</value>
   <data name="GameplayVolume" xml:space="preserve">
     <value>Jugabilidad</value>
   </data>
-  <!-- Conectividad -->
   <data name="Mode" xml:space="preserve">
     <value>Modo</value>
   </data>
@@ -115,7 +110,6 @@ Las soluciones completadas no se eliminarán.</value>
   <data name="ChartsAreCalculatedFromAFixedAndLocalSnapshotNofTheLatestSolutionsFromAroundTheWorldYourNscoresDonTUpdateCharts" xml:space="preserve">
     <value>Las tablas se calculan a partir de una instantánea local fija de las últimas soluciones globales. Tus puntuaciones no actualizan las tablas.</value>
   </data>
-  <!-- Renderizado -->
   <data name="RayPrecision" xml:space="preserve">
     <value>Precisión de rayo</value>
   </data>
@@ -160,14 +154,12 @@ Valores más altos aumentan la calidad, pero reducen el rendimiento.</value>
     <value>Valores bajos mejoran el rendimiento pero reducen la calidad.
 Valores altos reducen mucho el rendimiento pero aumentan la calidad.</value>
   </data>
-  <!-- FOV -->
   <data name="FieldOfViewUsedDuringFirstPersonPhasesNoPerformanceCost" xml:space="preserve">
     <value>Campo de visión usado en fases en primera persona. Sin coste de rendimiento.</value>
   </data>
   <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
     <value>Campo de visión usado en el editor. Sin coste de rendimiento.</value>
   </data>
-  <!-- Otros ajustes -->
   <data name="RenderMethod" xml:space="preserve">
     <value>Método de renderizado</value>
   </data>
@@ -193,7 +185,6 @@ El bloque metálico se seleccionará automáticamente.</value>
   <data name="General" xml:space="preserve">
     <value>General</value>
   </data>
-  <!-- Resolución/Ventana -->
   <data name="Windowed" xml:space="preserve">
     <value>Ventana</value>
   </data>
@@ -206,26 +197,22 @@ El bloque metálico se seleccionará automáticamente.</value>
   <data name="UnlimitedOrVSync" xml:space="preserve">
     <value>Ilimitado (o VSync)</value>
   </data>
-  <!-- Métodos de render -->
   <data name="RayMarching" xml:space="preserve">
     <value>Ray Marching</value>
   </data>
   <data name="Cubic" xml:space="preserve">
     <value>Cúbico</value>
   </data>
-  <!-- Para lista de atajos -->
   <data name="Action" xml:space="preserve">
     <value>Acción</value>
     <comment>Describe what a key binding does</comment>
   </data>
-  <!-- Accesibilidad -->
   <data name="DarkBackground" xml:space="preserve">
     <value>Fondo oscuro</value>
   </data>
   <data name="ReduceVisualStrainOnTheEditorSBackgroundForSensitivityToBrightness" xml:space="preserve">
     <value>Puede reducir la fatiga visual del fondo del editor para usuarios sensibles al brillo.</value>
   </data>
-  <!-- Ratón -->
   <data name="FPSInvertYAxis" xml:space="preserve">
     <value>Invertir eje Y en fases FPS</value>
   </data>
