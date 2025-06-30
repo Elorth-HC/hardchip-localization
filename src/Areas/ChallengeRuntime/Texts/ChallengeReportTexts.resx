@@ -204,6 +204,6 @@ High -&gt; Satisfactory -&gt; Reduced</value>
     <value> completed successfully.</value>
   </data>
   <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
-    <value>Solution out of date, run again validation to update.</value>
+    <value>Solution outdated. Re-run  again validation to update.</value>
   </data>
 </root>
