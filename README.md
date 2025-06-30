@@ -18,6 +18,14 @@ Welcome to the Hard Chip community localization repository! This repository cont
 * Maintain the file structure exactly as provided
 * Do not add or remove any key
 
+#### Guidelines
+Where to draw the line, whether there needs to be a translation or not:
+- Name like "HCDrive" or something that feels like a name, no translation.
+- Technical words that have minimal usage in the current language. Example "MOS", or MOSFET, is an English acronym that is used across all languages.
+- Widely known technical words like "transistor", widely translated in all languages, should be translated as well.
+- Terminal commands are not to be translated. Examples "status", "reboot", and all other command lines.
+- Terminal outputs are to be translated (while still applying other rules like widely known words and such)
+
 ## 📁 File Structure
 
 The localization files in this repository are **ResX** (Resource Exchange) files. These files contain all the text strings used throughout the game in all languages.
