@@ -102,25 +102,25 @@ High -&gt; Satisfactory -&gt; Reduced</value>
     <value>Export Blueprint to a new HCDrive file into the clipboard</value>
   </data>
   <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
-    <value>Best Block solution, click to compare</value>
+    <value>Best Block solution, click to compare. Right click to set to current.</value>
   </data>
   <data name="BestBlockSolution" xml:space="preserve">
     <value> (best Block solution)</value>
   </data>
   <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
-    <value>Best Volume solution, click to compare</value>
+    <value>Best Volume solution, click to compare. Right click to set to current.</value>
   </data>
   <data name="BestVolumeSolution" xml:space="preserve">
     <value> (best Volume solution)</value>
   </data>
   <data name="BestTickSolutionClickToCompare" xml:space="preserve">
-    <value>Best Tick solution, click to compare</value>
+    <value>Best Tick solution, click to compare. Right click to set to current.</value>
   </data>
   <data name="BestTickSolution" xml:space="preserve">
     <value> (best Tick solution)</value>
   </data>
   <data name="BestMosSolutionClickToCompare" xml:space="preserve">
-    <value>Best Mos solution, click to compare</value>
+    <value>Best Mos solution, click to compare. Right click to set to current.</value>
   </data>
   <data name="BestMosSolution" xml:space="preserve">
     <value> (best Mos solution)</value>
@@ -202,5 +202,8 @@ High -&gt; Satisfactory -&gt; Reduced</value>
   </data>
   <data name="CompletedSuccessfully" xml:space="preserve">
     <value> completed successfully.</value>
+  </data>
+  <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
+    <value>Solution out of date, run again validation to update.</value>
   </data>
 </root>

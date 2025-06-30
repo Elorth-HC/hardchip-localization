@@ -161,25 +161,25 @@ Lent -&gt; Satisfaisant -&gt; Rapide</value>
     <value>Exporter le blueprint vers un nouveau fichier HCDrive dans le presse-papiers</value>
   </data>
   <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
-    <value>Meilleure solution de blocs, cliquez pour comparer</value>
+    <value>Meilleure solution de blocs, cliquez pour comparer. Clic droit pour définir à actuelle.</value>
   </data>
   <data name="BestBlockSolution" xml:space="preserve">
     <value> (meilleure solution de blocs)</value>
   </data>
   <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
-    <value>Meilleure solution de volume, cliquez pour comparer</value>
+    <value>Meilleure solution de volume, cliquez pour comparer. Clic droit pour définir à actuelle.</value>
   </data>
   <data name="BestVolumeSolution" xml:space="preserve">
     <value> (meilleure solution de volume)</value>
   </data>
   <data name="BestTickSolutionClickToCompare" xml:space="preserve">
-    <value>Meilleure solution de ticks, cliquez pour comparer</value>
+    <value>Meilleure solution de ticks, cliquez pour comparer. Clic droit pour définir à actuelle.</value>
   </data>
   <data name="BestTickSolution" xml:space="preserve">
     <value> (meilleure solution de ticks)</value>
   </data>
   <data name="BestMosSolutionClickToCompare" xml:space="preserve">
-    <value>Meilleure solution de MOS, cliquez pour comparer</value>
+    <value>Meilleure solution de MOS, cliquez pour comparer. Clic droit pour définir à actuelle.</value>
   </data>
   <data name="BestMosSolution" xml:space="preserve">
     <value> (meilleure solution de MOS)</value>
@@ -261,5 +261,8 @@ Lent -&gt; Satisfaisant -&gt; Rapide</value>
   </data>
   <data name="CompletedSuccessfully" xml:space="preserve">
     <value> complété.</value>
+  </data>
+  <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
+    <value>Solution obsolète, relancez la validation pour mettre à jour.</value>
   </data>
 </root>

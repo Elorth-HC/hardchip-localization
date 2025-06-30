@@ -115,43 +115,28 @@
     <data name="MoveAround" xml:space="preserve"><value>Bewegen</value></data>
 
     <data name="LookAround" xml:space="preserve"><value>Umschauen</value></data>
-
     <data name="RotateViewLeft" xml:space="preserve"><value>Ansicht nach links drehen</value></data>
-
     <data name="RotateViewRight" xml:space="preserve"><value>Ansicht nach rechts drehen</value></data>
-
     <data name="CenterCamera" xml:space="preserve"><value>Kamera zentrieren</value></data>
-
     <data name="PedestalViewUp" xml:space="preserve"><value>Ansicht nach oben verschieben</value></data>
-
     <data name="PedestalViewDown" xml:space="preserve"><value>Ansicht nach unten verschieben</value></data>
-
     <data name="SwitchFreeCam" xml:space="preserve"><value>Free-Cam umschalten</value></data>
-
     <data name="ToggleCamMovements" xml:space="preserve"><value>Kamerabewegungen umschalten</value></data>
-
     <data name="Unknown" xml:space="preserve"><value>Unbekannt</value></data>
-
     <data name="BuildUpward" xml:space="preserve"><value>Nach oben bauen</value></data>
-
     <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>Taste drücken, um festzulegen.
 Linksklick, um zu löschen.</value>
   </data>
-
     <data name="SettingKeyInput" xml:space="preserve"><value>Tasteingabe wird festgelegt...</value></data>
-
     <data name="PermanentlyPressedKeysIgnored" xml:space="preserve"><value>Dauerhaft gedrückte Tasten ignoriert: </value></data>
-
     <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
     <value>Von Hard Chip erkannte dauerhaft gedrückte Tasten werden ignoriert.
 Dies kann durch bestimmte Tastaturlayouts mit Modifikatortasten
 (z. B. IME-japanische Eingabe) verursacht sein.</value>
   </data>
-
     <data name="ResetBindings" xml:space="preserve"><value>Belegungen zurücksetzen</value></data>
-
     <data name="CanTUse0" xml:space="preserve"><value>{0} kann nicht verwendet werden</value></data>
-
     <data name="_0AlreadyUsed" xml:space="preserve"><value>{0} bereits verwendet</value></data>
+    <data name="RightClickToEdit" xml:space="preserve"><value>* Rechtsklick zum Bearbeiten</value></data>
 </root>

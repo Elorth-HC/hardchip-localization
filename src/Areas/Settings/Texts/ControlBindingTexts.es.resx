@@ -213,8 +213,11 @@ modificadoras específicas (por ejemplo, IME para japonés).</value>
   </data>
     <data name="CanTUse0" xml:space="preserve">
     <value>No se puede usar {0}</value>
-  </data>
-    <data name="_0AlreadyUsed" xml:space="preserve">
+  </data>    
+  <data name="_0AlreadyUsed" xml:space="preserve">
     <value>{0} ya está en uso</value>
+  </data>
+    <data name="RightClickToEdit" xml:space="preserve">
+    <value>* Clic derecho para editar</value>
   </data>
 </root>

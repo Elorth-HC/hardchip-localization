@@ -258,4 +258,7 @@ Cela peut être dû aux dispositions spécifiques des entrées du clavier (Ex: I
   <data name="_0AlreadyUsed" xml:space="preserve">
     <value>{0} déjà utilisé</value>
   </data>
+  <data name="RightClickToEdit" xml:space="preserve">
+    <value>* Clic droit pour éditer</value>
+  </data>
 </root>

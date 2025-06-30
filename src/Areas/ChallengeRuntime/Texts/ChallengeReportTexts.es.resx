@@ -121,7 +121,7 @@ Alto -&gt; Satisfactorio -&gt; Reducido</value>
   </data>
 
   <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
-    <value>Mejor solución de Bloques, haz clic para comparar</value>
+    <value>Mejor solución de Bloques, haz clic para comparar. Clic derecho para establecer como actual.</value>
   </data>
 
   <data name="BestBlockSolution" xml:space="preserve">
@@ -129,7 +129,7 @@ Alto -&gt; Satisfactorio -&gt; Reducido</value>
   </data>
 
   <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
-    <value>Mejor solución de Volumen, haz clic para comparar</value>
+    <value>Mejor solución de Volumen, haz clic para comparar. Clic derecho para establecer como actual.</value>
   </data>
 
   <data name="BestVolumeSolution" xml:space="preserve">
@@ -137,7 +137,7 @@ Alto -&gt; Satisfactorio -&gt; Reducido</value>
   </data>
 
   <data name="BestTickSolutionClickToCompare" xml:space="preserve">
-    <value>Mejor solución de Ticks, haz clic para comparar</value>
+    <value>Mejor solución de Ticks, haz clic para comparar. Clic derecho para establecer como actual.</value>
   </data>
 
   <data name="BestTickSolution" xml:space="preserve">
@@ -145,7 +145,7 @@ Alto -&gt; Satisfactorio -&gt; Reducido</value>
   </data>
 
   <data name="BestMosSolutionClickToCompare" xml:space="preserve">
-    <value>Mejor solución de MOS, haz clic para comparar</value>
+    <value>Mejor solución de MOS, haz clic para comparar. Clic derecho para establecer como actual.</value>
   </data>
 
   <data name="BestMosSolution" xml:space="preserve">
@@ -254,5 +254,8 @@ Alto -&gt; Satisfactorio -&gt; Reducido</value>
 
   <data name="CompletedSuccessfully" xml:space="preserve">
     <value> completado con éxito.</value>
+  </data>
+  <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
+    <value>Solución desactualizada, ejecute la validación nuevamente para actualizar.</value>
   </data>
 </root>

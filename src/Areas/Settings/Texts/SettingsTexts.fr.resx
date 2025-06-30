@@ -179,8 +179,8 @@ CETTE ACTION SUPPRIME TOUT, ASSUREZ-VOUS DE CE QUE VOUS FAITES !</value>
   <data name="Mode" xml:space="preserve">
     <value>Mode</value>
   </data>
-  <data name="Editor" xml:space="preserve">
-    <value>Éditeur</value>
+  <data name="FOVEditor" xml:space="preserve">
+    <value>FOV Éditeur</value>
   </data>
   <data name="Online" xml:space="preserve">
     <value>En ligne</value>
@@ -232,7 +232,7 @@ Des valeurs plus élevées amélioreront la qualité, mais réduiront les perfor
     <value>Redémarrer pour appliquer</value>
   </data>
   <data name="EditorRenderScale" xml:space="preserve">
-    <value>Échelle de rendu de l'éditeur</value>
+    <value>Échelle de rendu éditeur</value>
   </data>
   <data name="LowerValuesWillIncreasePerformanceButWillDecreaseQualityNHigherValuesWillStronglyDecreasePerformanceButWillIncreaseQuality" xml:space="preserve">
     <value>Des valeurs plus basses amélioreront les performances, mais réduiront la qualité.
@@ -245,7 +245,7 @@ Des valeurs plus élevées réduiront fortement les performances, mais augmenter
     <value>Champ de vision utilisé pendant les phases d'édition. Aucun impact sur les performances.</value>
   </data>
   <data name="RenderMethod" xml:space="preserve">
-    <value>Méthode de rendu</value>
+    <value>Méthode de rendu éditeur</value>
   </data>
   <data name="MouseWheelSensitivity" xml:space="preserve">
     <value>Sensibilité de la molette de la souris</value>
@@ -309,5 +309,36 @@ Le block Metal sera automatiquement sélectionné.</value>
   </data>
   <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
     <value>Pivote la caméra sur défilement horizontal de la souris.</value>
+  </data>
+  <data name="HideBugReportButton" xml:space="preserve">
+    <value>Masquer le bouton de rapport de bogue</value>
+  </data>
+  <data name="ShowExtendedChipInfo" xml:space="preserve">
+    <value>Afficher les informations étendues de puce</value>
+  </data>
+  <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
+    <value>Afficher le nombre de blocs, le volume, les informations mos et de perte dans la zone d'information en bas à gauche.</value>
+  </data>
+  <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
+    <value>Ceci permet à votre nom d'utilisateur Steam d'apparaître sur les classements,
+remplaçant le nom autogénéré actuel.
+
+En activant ceci, vous consentez à ce que Hard Chip utilise votre
+nom d'utilisateur Steam à des fins d'affichage des classements.</value>
+  </data>
+  <data name="SteamName" xml:space="preserve">
+    <value>Nom Steam :</value>
+  </data>
+  <data name="UseSteamName" xml:space="preserve">
+    <value>Utiliser le nom Steam</value>
+  </data>
+  <data name="UseHCName" xml:space="preserve">
+    <value>Utiliser le nom HC</value>
+  </data>
+  <data name="LeaderboardID" xml:space="preserve">
+    <value>ID du classement :</value>
+  </data>
+  <data name="EditorTheme" xml:space="preserve">
+    <value>Thème éditeur</value>
   </data>
 </root>

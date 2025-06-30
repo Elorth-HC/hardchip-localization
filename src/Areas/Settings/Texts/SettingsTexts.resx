@@ -99,8 +99,8 @@ THIS DELETE EVERYTHING, BE SURE WHAT YOU ARE DOING!</value>
   <data name="Mode" xml:space="preserve">
     <value>Mode</value>
   </data>
-  <data name="Editor" xml:space="preserve">
-    <value>Editor</value>
+  <data name="FOVEditor" xml:space="preserve">
+    <value>Editor FOV</value>
   </data>
   <data name="Online" xml:space="preserve">
     <value>Online</value>
@@ -247,5 +247,17 @@ username for leaderboard display purposes.</value>
   </data>
   <data name="LeaderboardID" xml:space="preserve">
     <value>Leaderboard ID:</value>
+  </data>
+  <data name="HideBugReportButton" xml:space="preserve">
+    <value>Hide Bug Report button</value>
+  </data>
+  <data name="ShowExtendedChipInfo" xml:space="preserve">
+    <value>Show extended chip info</value>
+  </data>
+  <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
+    <value>Show blocks count, volume, mos and loss information in the Info area at the bottom left.</value>
+  </data>
+  <data name="EditorTheme" xml:space="preserve">
+    <value>Editor theme</value>
   </data>
 </root>

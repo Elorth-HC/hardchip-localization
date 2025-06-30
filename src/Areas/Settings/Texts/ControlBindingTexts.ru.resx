@@ -271,8 +271,11 @@
   </data>
   <data name="Redo" xml:space="preserve">
     <value>Повторить</value>
-  </data>
+  </data>  
   <data name="Step" xml:space="preserve">
     <value>Шаг</value>
+  </data>
+  <data name="RightClickToEdit" xml:space="preserve">
+    <value>* Правый клик для редактирования</value>
   </data>
 </root>

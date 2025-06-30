@@ -200,4 +200,7 @@ keys (Ex:IME Japanese input).</value>
   <data name="_0AlreadyUsed" xml:space="preserve">
     <value>{0} already used</value>
   </data>
+  <data name="RightClickToEdit" xml:space="preserve">
+    <value>* Right click to edit</value>
+  </data>
 </root>
