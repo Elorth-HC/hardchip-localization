@@ -15,15 +15,24 @@ if ($LanguageCode -notmatch '^[a-zA-Z]{2}(-[a-zA-Z]{2,4})?$') {
 
 Write-Host "Starting $LanguageCode translation verification..." -ForegroundColor Green
 
-# Get all language-specific .resx files
-$languageFiles = Get-ChildItem -Path $WorkspacePath -Filter "*.$LanguageCode.resx" -Recurse
+# Get all English .resx files (reference files)
+$englishFiles = Get-ChildItem -Path $WorkspacePath -Filter "*.resx" -Recurse | Where-Object { $_.Name -notmatch '\.[a-zA-Z]{2}(-[a-zA-Z]{2,4})?\.resx$' }
 
-if ($languageFiles.Count -eq 0) {
-    Write-Host "No $LanguageCode .resx files found in $WorkspacePath." -ForegroundColor Yellow
+if ($englishFiles.Count -eq 0) {
+    Write-Host "No English .resx files found in $WorkspacePath." -ForegroundColor Yellow
     exit
 }
 
-Write-Host "Found $($languageFiles.Count) $LanguageCode translation files to verify." -ForegroundColor Cyan
+Write-Host "Found $($englishFiles.Count) English reference files:" -ForegroundColor Cyan
+$englishFiles | ForEach-Object { Write-Host "  - $($_.Name)" -ForegroundColor Gray }
+
+# Get all language-specific .resx files
+$languageFiles = Get-ChildItem -Path $WorkspacePath -Filter "*.$LanguageCode.resx" -Recurse
+
+Write-Host "`nFound $($languageFiles.Count) $LanguageCode translation files to verify." -ForegroundColor Cyan
+if ($languageFiles.Count -gt 0) {
+    $languageFiles | ForEach-Object { Write-Host "  - $($_.Name)" -ForegroundColor Gray }
+}
 
 $issues = @()
 $totalEntries = 0
@@ -59,9 +68,39 @@ function Get-EnglishFile {
     return $languageFilePath -replace "\.$LanguageCode\.resx$", '.resx'
 }
 
+# Function to get corresponding language file for an English file
+function Get-LanguageFile {
+    param([string]$englishFilePath)
+    return $englishFilePath -replace '\.resx$', ".$LanguageCode.resx"
+}
+
+Write-Host "`nChecking for missing language files..." -ForegroundColor White
+
+# Check if each English file has a corresponding language file
+$missingLanguageFiles = @()
+foreach ($englishFile in $englishFiles) {
+    $expectedLanguageFile = Get-LanguageFile -englishFilePath $englishFile.FullName
+    if (-not (Test-Path $expectedLanguageFile)) {
+        $expectedFileName = Split-Path $expectedLanguageFile -Leaf
+        $missingLanguageFiles += $expectedFileName
+        $issues += "Missing $LanguageCode translation file: $expectedFileName (for $($englishFile.Name))"
+    }
+}
+
+if ($missingLanguageFiles.Count -gt 0) {
+    Write-Host "Missing $($missingLanguageFiles.Count) $LanguageCode translation files:" -ForegroundColor Yellow
+    $missingLanguageFiles | ForEach-Object { Write-Host "  - $_" -ForegroundColor Yellow }
+} else {
+    Write-Host "All English files have corresponding $LanguageCode translation files." -ForegroundColor Green
+}
+
 Write-Host "`nAnalyzing translation files..." -ForegroundColor White
 
-foreach ($langFile in $languageFiles) {
+# Only analyze existing language files
+if ($languageFiles.Count -eq 0) {
+    Write-Host "No $LanguageCode translation files to analyze." -ForegroundColor Yellow
+} else {
+    foreach ($langFile in $languageFiles) {
     Write-Host "`nChecking: $($langFile.Name)" -ForegroundColor Cyan
     
     $languageEntries = Get-ResxEntries -filePath $langFile.FullName
@@ -104,6 +143,7 @@ foreach ($langFile in $languageFiles) {
         if (-not $englishEntries.ContainsKey($languageKey)) {
             $issues += "Extra key '$languageKey' in $($langFile.Name) not found in English version"
         }
+        }
     }
 }
 
@@ -111,44 +151,46 @@ foreach ($langFile in $languageFiles) {
 Write-Host "`nAnalyzing terminology consistency..." -ForegroundColor White
 
 $terminologyMap = @{}
-foreach ($langFile in $languageFiles) {
-    $entries = Get-ResxEntries -filePath $langFile.FullName
-    foreach ($key in $entries.Keys) {
-        $value = $entries[$key].value
-        if (-not [string]::IsNullOrWhiteSpace($value)) {
-            if (-not $terminologyMap.ContainsKey($value)) {
-                $terminologyMap[$value] = @()
+if ($languageFiles.Count -gt 0) {
+    foreach ($langFile in $languageFiles) {
+        $entries = Get-ResxEntries -filePath $langFile.FullName
+        foreach ($key in $entries.Keys) {
+            $value = $entries[$key].value
+            if (-not [string]::IsNullOrWhiteSpace($value)) {
+                if (-not $terminologyMap.ContainsKey($value)) {
+                    $terminologyMap[$value] = @()
+                }
+                $terminologyMap[$value] += "$($langFile.Name):$key"
             }
-            $terminologyMap[$value] += "$($langFile.Name):$key"
         }
     }
-}
 
-# Look for common English words that might have inconsistent translations
-$commonWords = @("Edit", "Delete", "Remove", "Save", "Cancel", "OK", "Yes", "No", "Settings", "Help")
-foreach ($word in $commonWords) {
-    $translations = @()
-    foreach ($langFile in $languageFiles) {
-        $englishFile = Get-EnglishFile -languageFilePath $langFile.FullName
-        if (Test-Path $englishFile) {
-            $englishEntries = Get-ResxEntries -filePath $englishFile
-            $languageEntries = Get-ResxEntries -filePath $langFile.FullName
-            
-            foreach ($key in $englishEntries.Keys) {
-                if ($englishEntries[$key].value -eq $word -and $languageEntries.ContainsKey($key)) {
-                    $translation = $languageEntries[$key].value
-                    if (-not [string]::IsNullOrWhiteSpace($translation) -and $translation -ne $word) {
-                        $translations += "$translation ($($langFile.Name):$key)"
+    # Look for common English words that might have inconsistent translations
+    $commonWords = @("Edit", "Delete", "Remove", "Save", "Cancel", "OK", "Yes", "No", "Settings", "Help")
+    foreach ($word in $commonWords) {
+        $translations = @()
+        foreach ($langFile in $languageFiles) {
+            $englishFile = Get-EnglishFile -languageFilePath $langFile.FullName
+            if (Test-Path $englishFile) {
+                $englishEntries = Get-ResxEntries -filePath $englishFile
+                $languageEntries = Get-ResxEntries -filePath $langFile.FullName
+                
+                foreach ($key in $englishEntries.Keys) {
+                    if ($englishEntries[$key].value -eq $word -and $languageEntries.ContainsKey($key)) {
+                        $translation = $languageEntries[$key].value
+                        if (-not [string]::IsNullOrWhiteSpace($translation) -and $translation -ne $word) {
+                            $translations += "$translation ($($langFile.Name):$key)"
+                        }
                     }
                 }
             }
         }
-    }
-    
-    if ($translations.Count -gt 1) {
-        $uniqueTranslations = $translations | Sort-Object -Unique
-        if ($uniqueTranslations.Count -gt 1) {
-            $issues += "Inconsistent translations for '$word': $($uniqueTranslations -join ', ')"
+        
+        if ($translations.Count -gt 1) {
+            $uniqueTranslations = $translations | Sort-Object -Unique
+            if ($uniqueTranslations.Count -gt 1) {
+                $issues += "Inconsistent translations for '$word': $($uniqueTranslations -join ', ')"
+            }
         }
     }
 }
@@ -159,10 +201,16 @@ Write-Host "$($LanguageCode.ToUpper()) TRANSLATION VERIFICATION REPORT" -Foregro
 Write-Host "="*60 -ForegroundColor Yellow
 
 Write-Host "`nSUMMARY:" -ForegroundColor Green
-Write-Host "  Files analyzed: $($languageFiles.Count)"
+Write-Host "  English reference files: $($englishFiles.Count)"
+Write-Host "  $LanguageCode translation files found: $($languageFiles.Count)"
+Write-Host "  Missing $LanguageCode translation files: $($missingLanguageFiles.Count)"
 Write-Host "  Total entries: $totalEntries"
 Write-Host "  Translated entries: $translatedEntries"
-Write-Host "  Translation coverage: $([Math]::Round(($translatedEntries / $totalEntries) * 100, 2))%"
+if ($totalEntries -gt 0) {
+    Write-Host "  Translation coverage: $([Math]::Round(($translatedEntries / $totalEntries) * 100, 2))%"
+} else {
+    Write-Host "  Translation coverage: 0%"
+}
 Write-Host "  Issues found: $($issues.Count)"
 Write-Host "  Unique translations: $($terminologyMap.Count)"
 
@@ -187,15 +235,28 @@ Language Code: $LanguageCode
 Workspace: $WorkspacePath
 
 SUMMARY:
-- Files analyzed: $($languageFiles.Count)
+- English reference files: $($englishFiles.Count)
+- $LanguageCode translation files found: $($languageFiles.Count)
+- Missing $LanguageCode translation files: $($missingLanguageFiles.Count)
 - Total entries: $totalEntries
 - Translated entries: $translatedEntries  
-- Translation coverage: $([Math]::Round(($translatedEntries / $totalEntries) * 100, 2))%
+- Translation coverage: $(if ($totalEntries -gt 0) { [Math]::Round(($translatedEntries / $totalEntries) * 100, 2) } else { 0 })%
 - Issues found: $($issues.Count)
 - Unique translations: $($terminologyMap.Count)
 
-FILES ANALYZED:
-$($languageFiles | ForEach-Object { "- $($_.Name)" } | Out-String)
+ENGLISH REFERENCE FILES:
+$($englishFiles | ForEach-Object { "- $($_.Name)" } | Out-String)
+
+$LanguageCode TRANSLATION FILES FOUND:
+$(if ($languageFiles.Count -gt 0) { 
+    ($languageFiles | ForEach-Object { "- $($_.Name)" } | Out-String)
+} else { "- No $LanguageCode translation files found" })
+
+$(if ($missingLanguageFiles.Count -gt 0) {
+    "MISSING $($LanguageCode.ToUpper()) TRANSLATION FILES:`n$(($missingLanguageFiles | ForEach-Object { "- $_" }) -join "`n")`n"
+} else {
+    "All English files have corresponding $LanguageCode translation files.`n"
+})
 
 TERMINOLOGY ANALYSIS:
 Most Frequently Used Translations:
