@@ -1,0 +1,43 @@
+﻿IT TRANSLATION VERIFICATION REPORT
+Generated: 06/30/2025 11:29:50
+Language Code: it
+Workspace: c:\Repos\hardchip-localization
+
+SUMMARY:
+- Files analyzed: 14
+- Total entries: 492
+- Translated entries: 490  
+- Translation coverage: 99.59%
+- Issues found: 2
+- Unique translations: 483
+
+FILES ANALYZED:
+- EndOfChapterTexts.it.resx
+- ChallengeReportTexts.it.resx
+- ChipMapsTexts.it.resx
+- CEditorTexts.it.resx
+- HCDrivesTexts.it.resx
+- LibraryTexts.it.resx
+- EarlyAccessWelcomeTexts.it.resx
+- MainMenuTexts.it.resx
+- PauseMenuTexts.it.resx
+- ControlBindingTexts.it.resx
+- SettingsTexts.it.resx
+- TipsTexts.it.resx
+- TutorialTexts.it.resx
+- CommonHCTexts.it.resx
+
+
+TERMINOLOGY ANALYSIS:
+Most Frequently Used Translations:
+- No frequently repeated terms found
+
+Translation Patterns:
+- Single-use translations: 474
+- Multi-use translations: 9
+- Potential abbreviations: 0
+
+ISSUES FOUND:
+- Possibly untranslated text '   MOS:' for key 'MOS' in ChallengeReportTexts.it.resx
+- Possibly untranslated text '   Volume:' for key 'Volume' in ChallengeReportTexts.it.resx
+

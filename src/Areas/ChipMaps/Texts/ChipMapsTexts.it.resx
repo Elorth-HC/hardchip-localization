@@ -103,7 +103,7 @@ Voto: {1}</value>
     <value>Transistor</value>
   </data>
   <data name="InverterNOT" xml:space="preserve">
-    <value>Inverter (NOT)</value>
+    <value>Invertitore (NOT)</value>
   </data>
   <data name="InverterChip" xml:space="preserve">
     <value>Chip Inverter</value>

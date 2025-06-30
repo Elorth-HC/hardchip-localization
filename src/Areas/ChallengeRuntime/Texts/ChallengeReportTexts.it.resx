@@ -119,4 +119,91 @@ Alto -&gt; Soddisfacente -&gt; Ridotto</value>
   <data name="BestTickSolution" xml:space="preserve">
     <value> (migliore soluzione Tick)</value>
   </data>
+  <data name="BestMosSolutionClickToCompare" xml:space="preserve">
+    <value>Migliore soluzione Mos, clicca per confrontare. Click destro per impostare come corrente.</value>
+  </data>
+  <data name="BestMosSolution" xml:space="preserve">
+    <value> (migliore soluzione Mos)</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="SaveBlueprint" xml:space="preserve">
+    <value>Salva Progetto</value>
+  </data>
+  <data name="Grade01" xml:space="preserve">
+    <value>Grado{0}:</value>
+  </data>
+  <data name="Functional" xml:space="preserve">
+    <value>Funzionale</value>
+  </data>
+  <data name="Satisfactory" xml:space="preserve">
+    <value>Soddisfacente</value>
+  </data>
+  <data name="Streamlined" xml:space="preserve">
+    <value>Ottimizzato</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Avanzato</value>
+  </data>
+  <data name="Masterpiece" xml:space="preserve">
+    <value>Capolavoro</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="Complex" xml:space="preserve">
+    <value>Complesso</value>
+  </data>
+  <data name="Efficient" xml:space="preserve">
+    <value>Efficiente</value>
+  </data>
+  <data name="EfficientP" xml:space="preserve">
+    <value>Efficiente+</value>
+  </data>
+  <data name="EfficientPP" xml:space="preserve">
+    <value>Efficiente++</value>
+  </data>
+  <data name="Large" xml:space="preserve">
+    <value>Grande</value>
+  </data>
+  <data name="Compact" xml:space="preserve">
+    <value>Compatto</value>
+  </data>
+  <data name="CompactP" xml:space="preserve">
+    <value>Compatto+</value>
+  </data>
+  <data name="CompactPP" xml:space="preserve">
+    <value>Compatto++</value>
+  </data>
+  <data name="Slow" xml:space="preserve">
+    <value>Lento</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Veloce</value>
+  </data>
+  <data name="FastP" xml:space="preserve">
+    <value>Veloce+</value>
+  </data>
+  <data name="FastPP" xml:space="preserve">
+    <value>Veloce++</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="Reduced" xml:space="preserve">
+    <value>Ridotto</value>
+  </data>
+  <data name="ReducedP" xml:space="preserve">
+    <value>Ridotto+</value>
+  </data>
+  <data name="ReducedPP" xml:space="preserve">
+    <value>Ridotto++</value>
+  </data>
+  <data name="CompletedSuccessfully" xml:space="preserve">
+    <value> completato con successo.</value>
+  </data>
+  <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
+    <value>Soluzione non aggiornata, esegui nuovamente la validazione per aggiornare.</value>
+  </data>
 </root>

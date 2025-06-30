@@ -202,7 +202,7 @@ Il blocco metallico sarà automaticamente selezionato.</value>
     <value>Illimitato (o VSync)</value>
   </data>
   <data name="RayMarching" xml:space="preserve">
-    <value>Ray Marching</value>
+    <value>Marcia dei Raggi</value>
   </data>
   <data name="Cubic" xml:space="preserve">
     <value>Cubico</value>

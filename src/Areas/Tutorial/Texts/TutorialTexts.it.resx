@@ -99,4 +99,182 @@ sarà AUTOMATICAMENTE rimosso.</value>
   <data name="DoingSoWillShiftAnyOutputToTheNewEdgeLocation" xml:space="preserve">
     <value>Facendo così sposterai qualsiasi output nella nuova posizione del bordo.</value>
   </data>
+  <data name="AddTRACESUpByHoldingLEFTCLICKAndThenMOUSEMOVEUpWhileHoldingCTRLDOWN" xml:space="preserve">
+    <value>Aggiungi blocco METALLO verso l'alto tenendo premuto CLICK SINISTRO e poi
+MOVIMENTO MOUSE verso l'alto mentre tieni premuto CTRL.</value>
+  </data>
+  <data name="AndTheChannel" xml:space="preserve">
+    <value>e il canale</value>
+  </data>
+  <data name="Applying0ToThePMOSSGateActivatesItAllowingONLY1GoingThroughIt" xml:space="preserve">
+    <value>Applicando 0 al gate del PMOS lo attiva permettendo SOLO a 1 di passarci attraverso.</value>
+  </data>
+  <data name="Applying1DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>Applicando 1 lo disattiva bloccando TUTTI gli stati che passano attraverso di esso.</value>
+  </data>
+  <data name="ApplyingA0DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>Applicando uno 0 lo disattiva bloccando TUTTI gli stati che passano attraverso di esso.</value>
+  </data>
+  <data name="ApplyingA1ToTheNMOSSGateActivatesItAllowingONLY0GoingThroughIt" xml:space="preserve">
+    <value>Applicando un 1 al gate del NMOS lo attiva permettendo SOLO a 0 di passarci attraverso.</value>
+  </data>
+  <data name="AreaTooLarge" xml:space="preserve">
+    <value>Area troppo grande</value>
+  </data>
+  <data name="ASHORTCIRCUITWillPreventTheDIEFromProperlyFunctioningInUnexpectedWays" xml:space="preserve">
+    <value>Un CORTOCIRCUITO impedirà al DIE di funzionare correttamente in modi inaspettati.</value>
+  </data>
+  <data name="AtAnyPointYouCanGetHintsAndHelpFromTheButton" xml:space="preserve">
+    <value>In qualsiasi momento puoi ottenere suggerimenti e aiuto dal pulsante</value>
+  </data>
+  <data name="BuildASolutionThatMeetsTheCRITERIAThenVALIDATE" xml:space="preserve">
+    <value>Costruisci una soluzione che soddisfi i CRITERI, poi VALIDA.</value>
+  </data>
+  <data name="BUTYouCanTestDifferentINPUTSSeedingStateByClickingOnIt" xml:space="preserve">
+    <value>MA puoi testare diversi stati INPUT facendo click su di esso.</value>
+  </data>
+  <data name="ChangeTheINPUTAtLeastOnceThenVALIDATE" xml:space="preserve">
+    <value>Cambia l'INPUT almeno una volta, poi VALIDA.</value>
+  </data>
+  <data name="COMPACTAndOPTIMIZETheINVERTERThenVALIDATE" xml:space="preserve">
+    <value>COMPATTA e OTTIMIZZA l'INVERTER, poi VALIDA.</value>
+  </data>
+  <data name="Connecting2INPUTSWithTheOPPOSITEStates1And0WillResultInASHORTCIRCUIT" xml:space="preserve">
+    <value>Collegare 2 INPUT con stati OPPOSTI 1 e 0 risulterà in un CORTOCIRCUITO.</value>
+  </data>
+  <data name="ConnectTheINPUTToTheOUTPUTThenVALIDATE" xml:space="preserve">
+    <value>Collega l'INPUT all'OUTPUT, poi VALIDA.</value>
+  </data>
+  <data name="ConnectTheNMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Collega correttamente il NMOS, poi VALIDA.</value>
+  </data>
+  <data name="ConnectThePMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Collega correttamente il PMOS, poi VALIDA.</value>
+  </data>
+  <data name="CreateAMERGEDPMOSWith2GATESThenVALIDATE" xml:space="preserve">
+    <value>Crea un PMOS UNITO con 2 GATE, poi VALIDA.</value>
+  </data>
+  <data name="DoingSoWillSTOPTheValidationProcess" xml:space="preserve">
+    <value>Facendo così si FERMERÀ il processo di validazione.</value>
+  </data>
+  <data name="EachStepIsVerifiedInOrderOneAfterTheOtherIfAStepFailsToBeVerifiedTheValidationStops" xml:space="preserve">
+    <value>Ogni passo è verificato in ordine uno dopo l'altro. Se un passo fallisce la verifica, la validazione si ferma.</value>
+  </data>
+  <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>Risolvi il CORTOCIRCUITO, poi VALIDA.</value>
+  </data>
+  <data name="FollowingTheCriteriaInputAMustBeConnectedToOutputAButNotToOutputBNorC" xml:space="preserve">
+    <value>Seguendo i criteri:
+L'Input A deve essere collegato all'Output A
+ma non all'Output B né C.</value>
+  </data>
+  <data name="HereSAMOSFETAndMovingForwardWeLlReferToItAsMOS" xml:space="preserve">
+    <value>Ecco un MOSFET. Andando avanti ci riferiremo ad esso come MOS.</value>
+  </data>
+  <data name="IMHereToHelpTrustInTheGuidanceIOfferForMyOnlyAimIsToLeadYouToResolution" xml:space="preserve">
+    <value>Sono qui per aiutare. Fidati della guida che offro, perché il mio unico obiettivo è portarti alla risoluzione.</value>
+  </data>
+  <data name="INFOFULLREPORTUNLOCKED" xml:space="preserve">
+    <value>INFO: RAPPORTO COMPLETO SBLOCCATO</value>
+  </data>
+  <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
+    <value>I blocchi INPUT inviano stati 1 o 0 ai blocchi TRACCIA adiacenti.</value>
+  </data>
+  <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
+    <value>Gli INPUT sono controllati dal processo di validazione nel momento in cui clicchi su VALIDA.</value>
+  </data>
+  <data name="ItProvidesOptionalStepsToBuildTheChipForEachLevel" xml:space="preserve">
+    <value>Fornisce passaggi opzionali per costruire il chip per ogni livello.</value>
+  </data>
+  <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
+    <value>CTRL sinistro + tieni premuto click sinistro,
+poi muovi verso l'alto per aggiungere METALLO verticalmente.</value>
+  </data>
+  <data name="MOSCanTakeDifferentShapesNotLimitedToThe3x2x3Blocks" xml:space="preserve">
+    <value>I MOS possono assumere forme diverse, non limitati ai blocchi 3x2x3.</value>
+  </data>
+  <data name="MOSHas2MajorPartsTheGate" xml:space="preserve">
+    <value>Il MOS ha 2 parti principali: il Gate</value>
+  </data>
+  <data name="MostOfTheTimeASCHEMATICIsAvailableWithTheChipButtonOnTopHere" xml:space="preserve">
+    <value>La maggior parte delle volte è disponibile uno SCHEMA con il pulsante Chip qui sopra.</value>
+  </data>
+  <data name="NMOSNegativeMOSAreTheExactOppositeOfPMOS" xml:space="preserve">
+    <value>I NMOS (MOS Negativi) sono l'esatto opposto dei PMOS.</value>
+  </data>
+  <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
+    <value>Altrimenti TUTTI i blocchi torneranno al loro stato NEUTRALE naturale.</value>
+  </data>
+  <data name="SEPARATETRACEsABAndCThenVALIDATE" xml:space="preserve">
+    <value>SEPARA le connessioni A, B e C. Poi VALIDA.</value>
+  </data>
+  <data name="SomeValidationRequiresMultipleStepsEachStepHasItsOwnRequirementAllAreListedOnTopHere" xml:space="preserve">
+    <value>Alcune validazioni richiedono più passaggi. Ogni passaggio ha i suoi requisiti. Tutti sono elencati qui sopra.</value>
+  </data>
+  <data name="SpecialShapeMOSCanHaveTwoGatesAndShareTheSameChannel" xml:space="preserve">
+    <value>I MOS di forma speciale possono avere due gate e condividere lo stesso canale.</value>
+  </data>
+  <data name="TestWithTheClickMeInputAtLeastOnceThenValidate" xml:space="preserve">
+    <value>Testa con l'input "Click Me" almeno una volta, poi valida.</value>
+  </data>
+  <data name="TheBlueStripsHelpToDifferentiateTheNMOSFromAPMOSWhichAreRed" xml:space="preserve">
+    <value>Le strisce blu aiutano a differenziare l'NMOS da un PMOS che sono rosse.</value>
+  </data>
+  <data name="ThisDIENeedsToFullfillASimpleTaskOutputingWhatItReceivesOnTheInput" xml:space="preserve">
+    <value>Questo DIE deve completare un compito semplice: dare in output quello che riceve nell'input.</value>
+  </data>
+  <data name="ThisIsAnINPUTBlockItProvidesSignalToTheDIEToProcessIt" xml:space="preserve">
+    <value>Questo è un blocco INPUT. Fornisce segnale al DIE per elaborarlo.</value>
+  </data>
+  <data name="ThisIsAnOUTPUTBlockItReceivesTheSignalProcessedByTheDIE" xml:space="preserve">
+    <value>Questo è un blocco OUTPUT. Riceve il segnale elaborato dal DIE.</value>
+  </data>
+  <data name="ThisIsTheDIEItIsComposedOfTheEntireSetOfAllBlocks" xml:space="preserve">
+    <value>Questo è il DIE. È composto dall'intero insieme di tutti i blocchi.</value>
+  </data>
+  <data name="ThisOneBlockIsASUBSTRATEBlockSeeItAsTheSupportForEverythingElse" xml:space="preserve">
+    <value>Questo blocco è un blocco SUBSTRATO. Vedilo come il supporto per tutto il resto.</value>
+  </data>
+  <data name="ThisOneMOSIsAPMOSPositiveMOSItActsLikeASwitchThatCanBeEitherActivatedOrDeactivatedByAnyGivenState" xml:space="preserve">
+    <value>Questo MOS è un PMOS (MOS Positivo). Agisce come un interruttore che può essere attivato o disattivato da qualsiasi stato dato.</value>
+  </data>
+  <data name="TipToDoACuboidSelectHoldLeftCTRLWhileSelectingOrDeleting" xml:space="preserve">
+    <value>Suggerimento: per fare una selezione cuboidale tieni premuto CTRL sinistro mentre selezioni o elimini.</value>
+  </data>
+  <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
+    <value>Per collegare l'INPUT e l'OUTPUT usa un blocco TRACCIA e poi clicca su qualsiasi blocco SUBSTRATO per posizionare una TRACCIA.</value>
+  </data>
+  <data name="ToIsolateThe2INPUTSFromEachOtherHoldALTDownAndClickOnATRACEToRemoveIt" xml:space="preserve">
+    <value>Per isolare i 2 INPUT l'uno dall'altro tieni premuto ALT e clicca su una TRACCIA per rimuoverla.</value>
+  </data>
+  <data name="ToIsolateTRACEsFromEachOtherTheyMustHaveAtLeast1EmptySpaceBetweenThemInAnyDirectionOtherwiseTheyAreConnected" xml:space="preserve">
+    <value>Per isolare le TRACCE l'una dall'altra, devono avere almeno 1 spazio vuoto tra loro in qualsiasi direzione. Altrimenti sono collegate.</value>
+  </data>
+  <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
+    <value>I blocchi TRACCIA, INPUT e OUTPUT possono avere 3 stati:
+1 (in rosso),
+0 (in blu),
+_ (conosciuto come NEUTRALE in grigio).</value>
+  </data>
+  <data name="TRACESCanOnlyTransferOneStateAtATimeButMOSFETMetalOxideSemiconductorsFieldEffectTransistorCanReactToStates" xml:space="preserve">
+    <value>Le TRACCE possono solo trasferire uno stato alla volta, ma i MOSFET (Transistor a Effetto di Campo di Semiconduttori di Ossido Metallico) possono reagire agli stati!</value>
+  </data>
+  <data name="TryRemovingAnyBlockInThisColumnAndThenValidateToCompactTheDie" xml:space="preserve">
+    <value>Prova a rimuovere qualsiasi blocco in questa colonna e poi valida per compattare il die.</value>
+  </data>
+  <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
+    <value>Usa il pulsante AIUTO qui sopra o prova a cablare il PMOS da solo.</value>
+  </data>
+  <data name="UseTheSCHEMATICOrNotToBuildAnINVERTERThenVALIDATE" xml:space="preserve">
+    <value>Usa lo SCHEMA o no per costruire un INVERTER, poi VALIDA.</value>
+  </data>
+  <data name="WhenYouHaveCompletedYourDIELaunchTheVerificationWithTheVALIDATEButton" xml:space="preserve">
+    <value>Quando hai completato il tuo DIE lancia la verifica con il pulsante VALIDA.</value>
+  </data>
+  <data name="YouCantUseTraceHereOnlyPMOSFromTheBottomBuildMenu" xml:space="preserve">
+    <value>Non puoi usare tracce qui, solo PMOS dal menu di costruzione in basso.</value>
+  </data>
+  <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
+    <value>Puoi usare R per ruotare PMOS, NMOS o qualsiasi selezione di blocchi.</value>
+  </data>
 </root>
