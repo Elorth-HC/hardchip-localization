@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AdderDone" xml:space="preserve">
-    <value>g90Progetto del chip 8BIT ADDER: COMPLETATO
+    <value>g90Progetto del chip ADDER 8BIT : COMPLETATO
 g90
 g92Fabbricatore [ATTIVO]
 g90Invio del progetto al fabbricatore...
@@ -126,7 +126,7 @@ g17.....
 g90Fatto.</value>
   </data>
   <data name="ALUDone" xml:space="preserve">
-    <value>g90Progetto del chip 8BIT ALU: COMPLETATO
+    <value>g90Progetto del chip ALU8BIT : COMPLETATO
 g90
 g92Fabbricatore [ATTIVO]
 g90Invio del progetto al fabbricatore...

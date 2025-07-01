@@ -124,10 +124,10 @@
     <value>{0} per prendere il {1}</value>
   </data>
   <data name="_8BITADDERChip" xml:space="preserve">
-    <value>8BIT ADDER chip</value>
+    <value>chip ADDER 8BIT</value>
   </data>
   <data name="_8BITALUChip" xml:space="preserve">
-    <value>8BIT ALU chip</value>
+    <value>chip ALU 8BIT</value>
   </data>
   <data name="BYPASSChip" xml:space="preserve">
     <value>Chip BYPASS</value>
