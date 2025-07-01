@@ -184,4 +184,62 @@ g90Pronto per iniziare il processo di fabbricazione.</value>
     <value>g90Ricevute le specifiche per il progetto del chip INVERTITORE.
 g90Pronto per iniziare il processo di fabbricazione.</value>
   </data>
+  <data name="StatusStep0" xml:space="preserve">
+    <value>g90Avvio diagnostica...              
+g90
+g91Fabbricatore autonomo v546.1.7430
+g92Sistemi di alimentazione [OK]
+g92Integrità fisica [OK]
+g92Sistemi primari [OK]
+r95Banca materiali 1 [OFFLINE]
+r95Banca materiali 2 [OFFLINE]
+g90
+y95ATTENZIONE: Banche materiali non disponibili. Materiali di scorta disponibili solo per operazioni limitate.
+g90
+g39Stato fabbricatore: PARZIALMENTE OPERATIVO</value>
+  </data>
+  <data name="StatusStep0Shorted" xml:space="preserve">
+    <value>
+r95Banca materiali 1 [OFFLINE]
+r95Banca materiali 2 [OFFLINE]
+g90Stato fabbricatore: PARZIALMENTE OPERATIVO</value>
+  </data>
+  <data name="StatusStep1" xml:space="preserve">
+    <value>g90Avvio diagnostica...              
+g90
+g91Fabbricatore autonomo v546.1.7430
+g92Sistemi di alimentazione [OK]
+g92Integrità fisica [OK]
+g92Sistemi primari [OK]
+g92Banca materiali 1 [ONLINE]
+r95Banca materiali 2 [OFFLINE]
+g90
+y95ATTENZIONE: Banca materiali 2 non disponibile. Solo operazioni limitate.
+g90
+g39Stato fabbricatore: PARZIALMENTE OPERATIVO</value>
+  </data>
+  <data name="StatusStep1Shorted" xml:space="preserve">
+    <value>
+g92Banca materiali 1 [ONLINE]
+r95Banca materiali 2 [OFFLINE]
+g90Stato fabbricatore: PARZIALMENTE OPERATIVO</value>
+  </data>
+  <data name="StatusStep2" xml:space="preserve">
+    <value>g90Avvio diagnostica...              
+g90
+g91Fabbricatore autonomo v546.1.7430
+g92Sistemi di alimentazione [OK]
+g92Integrità fisica [OK]
+g92Sistemi primari [OK]
+g92Banca materiali 1 [ONLINE]
+g95Banca materiali 2 [ONLINE]
+g90
+g39Stato fabbricatore: OPERATIVO</value>
+  </data>
+  <data name="StatusStep2Shorted" xml:space="preserve">
+    <value>
+g92Banca materiali 1 [ONLINE]
+g95Banca materiali 2 [ONLINE]
+g39Stato fabbricatore: OPERATIVO</value>
+  </data>
 </root>

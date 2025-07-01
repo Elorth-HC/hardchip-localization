@@ -174,4 +174,7 @@ g99Apertura porta di sicurezza...
 g17.....
 g92Porta di sicurezza aperta</value>
   </data>
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90Stato del controllo stanza: OPERATIVO</value>
+  </data>
 </root>

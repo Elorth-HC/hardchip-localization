@@ -272,4 +272,7 @@ Tasto sinistro del mouse per eliminare.</value>
   <data name="Unknown" xml:space="preserve">
     <value>Sconosciuto</value>
   </data>
+  <data name="StartPause" xml:space="preserve">
+    <value>Riprendi/Pausa</value>
+  </data>
 </root>

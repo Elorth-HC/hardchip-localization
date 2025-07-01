@@ -151,4 +151,7 @@ r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici pro
 r90
 r93CODICE_ERRORE: 0x0CAF25 Rilevato guasto al gestore output. Inventario infinito invalido.</value>
   </data>
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90Stato della banca materiali: OPERATIVO.</value>
+  </data>
 </root>

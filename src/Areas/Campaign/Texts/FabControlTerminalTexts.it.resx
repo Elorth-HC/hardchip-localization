@@ -216,4 +216,17 @@ r90CODICE_ERRORE: ERRORE NON SPECIFICATO
 r90CODICE_ERRORE: ERRORE NON SPECIFICATO
 r99CODICE_ERRORE: ERRORE NON SPECIFICATO</value>
   </data>
+  <data name="StatusBroken3" xml:space="preserve">
+    <value>g90Avvio diagnostica...              
+g90
+y91Controllo fabbricatore v156.5.9870
+g92 Sistemi di alimentazione [OK]
+g92 Integrità fisica [OK]
+g95 Sistemi di controllo primari [OK]
+r95 Connessione alla rete elettrica... [FAIL]
+r95 Connessione alla rete dell'impianto... [FAIL]
+g90
+w90Ultime voci del registro:
+r92CODICE_ERRORE: 0x997A5E Guasto catastrofico. Protocolli del sistema di sicurezza attivati.</value>
+  </data>
 </root>

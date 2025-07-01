@@ -547,4 +547,13 @@ Il circuito verrà ridotto alla dimensione più piccola possibile per includere 
   <data name="Validating" xml:space="preserve">
     <value>Verifica... </value>
   </data>
+  <data name="StickToBlock" xml:space="preserve">
+    <value>Fissa al blocco</value>
+  </data>
+  <data name="StickToScreen" xml:space="preserve">
+    <value>Fissa allo schermo</value>
+  </data>
+  <data name="OutputToMatchNamed" xml:space="preserve">
+    <value>Output al nome corrispondente </value>
+  </data>
 </root>

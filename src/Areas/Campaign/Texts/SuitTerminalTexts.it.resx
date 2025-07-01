@@ -141,4 +141,22 @@
   <data name="Press0ToInteract" xml:space="preserve">
     <value>Premi {0} per interagire</value>
   </data>
+  <data name="Text1" xml:space="preserve">
+    <value>g90===========================================================================
+g90                   Tuta di emergenza v156.5.9870, SEQUENZA DI AVVIO                    
+g92===========================================================================
+g90
+g35Avvio...
+g90
+r99errore: livelli di energia critici
+r99errore: dati corrotti, ripristino impostazioni di fabbrica...  
+g90 
+g30new_user risveglio di emergenza attivato
+g17.....
+g57Segni vitali dell'utente RILEVATI
+g90
+y39Azione richiesta urgentemente: errori di sistema rilevati
+g90
+w83Premi un tasto per continuare...</value>
+  </data>
 </root>

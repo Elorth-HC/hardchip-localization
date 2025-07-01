@@ -186,4 +186,11 @@ g90
 g90Sequenza di riavvio completata. Stato generatore: OPERATIVO.
 </value>
   </data>
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90Stao del generatore: OPERATIVO.</value>
+  </data>
+  <data name="StatusFixedForever" xml:space="preserve">
+    <value>g90
+g90Stato del generatore: OPERATIVO.</value>
+  </data>
 </root>

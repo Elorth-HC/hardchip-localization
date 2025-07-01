@@ -189,4 +189,8 @@
   <data name="UnlockNextSection" xml:space="preserve">
     <value>Sblocca la prossima sezione</value>
   </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stato: {0}
+Grado: {1}</value>
+  </data>
 </root>
