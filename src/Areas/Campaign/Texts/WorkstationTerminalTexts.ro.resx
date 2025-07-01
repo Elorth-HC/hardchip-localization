@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReceivedBypassRequirement" xml:space="preserve">
+    <value>g90Am primit cerințele pentru chip-ul BYPASS.
+g90Gata să încep procesul de proiectare.</value>
+  </data>
+  <data name="StartBypass" xml:space="preserve">
+    <value>g90=========================================================================
+g90Stația de Prototipare Rapidă v0.55.677
+g90=========================================================================
+g90
+g35Se pornește...
+g90
+g92Sistem de Alimentare [OK]
+g92Integritate Fizică [OK]
+y92Fabricator PARȚIAL ONLINE
+r95Baza de Date Chip EȘEC, date corupte
+r99eroare: date corupte, se formatează baza de date... 
+g90
+g90Am primit cerințele pentru Chip-ul BYPASS.
+r99eroare: niciun chip găsit în baza de date!
+g90
+g95Se procesează părțile cerințelor primite pentru chip-ul BYPASS...
+g92   cerințe TRACES
+g92   cerințe INPUT/OUTPUT
+g92   cerințe CROSSING TRACES
+g92Toate părțile cerințelor încărcate
+g90
+y39Mediul stației de lucru configurat pentru ingineria semiconductorilor chip-ului BYPASS.</value>
+  </data>
+  <data name="BypassDone" xml:space="preserve">
+    <value>g90Proiectul chip-ului BYPASS: COMPLETAT
+g90
+g92Se pornește Fabricatorul [OK]
+g90Se trimite proiectul la Fabricator...
+g17.....
+g90Terminat.</value>
+  </data>
+  <data name="ReceivedALURequirementFailed" xml:space="preserve">
+    <value>g90Am primit cerințele pentru chip-ul ALU.
+r95CODUL_ERORII: 0x052001 Stația de lucru nu este gata, Băncile de Materiale sunt OFFLINE.</value>
+  </data>
+  <data name="ReceivedALURequirement" xml:space="preserve">
+    <value>g90Am primit cerințele pentru chip-ul ALU.
+g90Gata să încep procesul de proiectare.</value>
+  </data>
+  <data name="ReceivedInverterRequirement" xml:space="preserve">
+    <value>g90Am primit cerințele pentru chip-ul INVERTER.
+g90Gata să încep procesul de proiectare.</value>
+  </data>
+  <data name="StartInverter" xml:space="preserve">
+    <value>g90=========================================================================
+g90Stația de Prototipare Rapidă v0.55.677
+g90=========================================================================
+g90
+y92Băncile de Materiale Primare [OFFLINE]
+y95Banca de Materiale Secundară [OFFLINE]
+y92Fabricator PARȚIAL ONLINE
+g90
+g90Am primit cerințele pentru Chip-ul INVERTER.
+r99eroare: niciun chip găsit în baza de date!
+g90
+g95Se procesează părțile cerințelor primite pentru chip-ul INVERTER...
+g92   cerințe PMOS
+g92   cerințe NMOS
+g92   cerințe NOT
+g92Toate părțile cerințelor încărcate
+g90
+y39Mediul stației de lucru configurat pentru ingineria semiconductorilor chip-ului INVERTER.</value>
+  </data>
+  <data name="InverterDone" xml:space="preserve">
+    <value>g90Proiectul chip-ului INVERTER: COMPLETAT
+g90
+g92Fabricator [ONLINE]
+g90Se trimite proiectul la Fabricator...
+g17.....
+g90Terminat.</value>
+  </data>
+  <data name="ReceivedAdderRequirement" xml:space="preserve">
+    <value>g90Am primit cerințele pentru chip-ul Adder 8bit.
+g90Gata să încep procesul de proiectare.</value>
+  </data>
+  <data name="StartAdder" xml:space="preserve">
+    <value>g90=========================================================================
+g90Stația de Prototipare Rapidă v0.55.677
+g90=========================================================================
+g90
+g92Băncile de Materiale Primare [ONLINE]
+y95Banca de Materiale Secundară [OFFLINE]
+y92Fabricator PARȚIAL ONLINE
+g90
+g90Am primit cerințele pentru chip-ul 8BIT ADDER.
+r99eroare: niciun chip găsit în baza de date!
+g90
+g95Se procesează părțile cerințelor primite pentru chip-ul 8BIT ADDER...
+g92   cerințe poartă NOT
+g92   cerințe poartă NAND
+g92   cerințe poartă AND
+g92   cerințe poartă OR
+g92   cerințe poartă XOR
+g92   cerințe Bit Full Adder
+g92   cerințe 4bit Adder
+g92   cerințe 8bit Adder
+g92Toate părțile cerințelor încărcate
+g90
+y39Mediul stației de lucru configurat pentru ingineria semiconductorilor chip-ului 8BIT ADDER.</value>
+  </data>
+  <data name="AdderDone" xml:space="preserve">
+    <value>g90Proiectul chip-ului 8BIT ADDER: COMPLETAT
+g90
+g92Fabricator [ONLINE]
+g90Se trimite proiectul la Fabricator...
+g17.....
+g90Terminat.</value>
+  </data>
+  <data name="StartALU" xml:space="preserve">
+    <value>g90=========================================================================
+g90Stația de Prototipare Rapidă v0.55.677
+g90=========================================================================
+g90
+g92Băncile de Materiale Primare [ONLINE]
+g95Banca de Materiale Secundară [ONLINE]
+g92Fabricator ONLINE
+g90
+g90Am primit cerințele pentru chip-ul 8BIT ALU.
+r99eroare: niciun chip găsit în baza de date!
+g90
+g95Se procesează părțile cerințelor primite pentru chip-ul 8BIT ALU...
+g92   cerințe poartă XOR
+g92   cerințe poartă NOR8
+g92   cerințe 8bit Adder
+g92   cerințe Reprezentare Număr cu Semn
+g92   cerințe Inverter+1
+g92   cerințe Subtracter
+g92   cerințe 8bit ALU
+g92Toate părțile cerințelor încărcate
+g90
+y39Mediul stației de lucru configurat pentru ingineria semiconductorilor chip-ului 8BIT ALU.</value>
+  </data>
+  <data name="ALUDone" xml:space="preserve">
+    <value>g90Proiectul chip-ului 8BIT ALU: COMPLETAT
+g90
+g92Fabricator [ONLINE]
+g90Se trimite proiectul la Fabricator...
+g17.....
+g90Terminat.</value>
+  </data>
+</root>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r90
+r93COD_EROARE: 0x04FAB9 Timeout rețea. Conexiune pierdută.
+r90
+r93COD_EROARE: 0x00FFB4 Suprasarcina de energie. Daune la componente electronice probabile.
+r90
+r93COD_EROARE: 0x05F568 Ușa de siguranță a eșuat ultima verificare ping.
+r90
+r90COD_EROARE: ?x?????? ai încredere în îndrumarea pe care o ofer, căci singurul meu scop este să te conduc către rezolvare</value>
+  </data>
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90Rulează diagnosticele...              
+g90
+g91Control Cameră Autonom v156.5.9870                   
+g92 Integritate fizică [OK]
+g92 Sistem de alimentare [OK]
+g92 Verificarea etanșeității mecanice a ușii de siguranță [OK]
+r95 Sistemul unității de control al ușii de siguranță EȘEC, unitatea nu răspunde
+r95COD_EROARE: 0xEFDFB4 chip BYPASS deteriorat
+g90
+y39Acțiune imediată necesară: înlocuiește chip-ul BYPASS. Cerințe trimise la stația de lucru.</value>
+  </data>
+  <data name="RebootBroken" xml:space="preserve">
+    <value>g90=========================================================================
+g90Control Cameră Autonom v156.5.9870                   
+g90=========================================================================
+g90
+g96Verificarea sistemelor centrale...
+g90
+g92Sistem de alimentare [OK]
+g92Integritate fizică [OK]
+g92Verificarea etanșeității mecanice a ușii de siguranță [OK]
+r95Sistemul unității de control al ușii de siguranță EȘEC, unitatea nu răspunde
+r92COD_EROARE: 0xEFDFB4 chip BYPASS deteriorat
+g90
+y39Acțiune imediată necesară: înlocuiește chip-ul BYPASS. Cerințe trimise la stația de lucru.</value>
+  </data>
+  <data name="ChipReplaced" xml:space="preserve">
+    <value>r90COD_EROARE: EROARE NESPECIFICATĂ
+r90COD_EROARE: EROARE NESPECIFICATĂ
+r90COD_EROARE: EROARE NESPECIFICATĂ
+r90COD_EROARE: EROARE NESPECIFICATĂ
+r92COD_EROARE: EROARE NESPECIFICATĂ
+r95COD_EROARE: ?x?????? bun
+y95AVERTISMENT: 0x45FDB3 chip BYPASS înlocuit. Repornire necesară.</value>
+  </data>
+  <data name="RebootFix" xml:space="preserve">
+    <value>y95Se încearcă repornirea forțată...
+g90
+g90=========================================================================
+g90Control Cameră Autonom v156.5.9870                   
+g90=========================================================================
+g90
+g96Verificarea sistemelor centrale...
+g90
+g92Integritate fizică [OK]
+g92Sistem de alimentare [OK]
+g92Verificarea etanșeității mecanice a ușii de siguranță [OK]
+g94Sistemul unității de control al ușii de siguranță [RESTAURAT]
+g90
+g90Secvența de repornire completă. Starea controlului camerei: OPERAȚIONAL.
+g90
+g92Se așteaptă input de la utilizator...
+w32roomcontrol/&gt;safetydoor open
+g90
+g99Se deschide ușa de siguranță...
+g17.....
+g92Ușa de siguranță deschisă</value>
+  </data>
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90Starea controlului camerei: OPERAȚIONAL</value>
+  </data>
+</root>

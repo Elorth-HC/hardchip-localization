@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Filter" xml:space="preserve">
+    <value>filtru</value>
+  </data>
+  <data name="Schematics" xml:space="preserve">
+    <value>Scheme</value>
+  </data>
+  <data name="OpenSchematic" xml:space="preserve">
+    <value>Deschide schema</value>
+  </data>
+  <data name="EnterNewNameForThisBlueprint" xml:space="preserve">
+    <value>Introduceți un nume nou pentru acest plan:</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisBlueprint" xml:space="preserve">
+    <value>Sigur doriți să ștergeți acest plan?</value>
+  </data>
+  <data name="RenameBlueprint" xml:space="preserve">
+    <value>Redenumire plan:</value>
+  </data>
+  <data name="DeleteBlueprint" xml:space="preserve">
+    <value>Ștergere plan:</value>
+  </data>
+  <data name="Probes" xml:space="preserve">
+    <value>Sonde</value>
+  </data>
+  <data name="PickBitsPositionsOneAtATimeRightClickToCancel" xml:space="preserve">
+    <value>Selectați pozițiile biților una câte una. Click dreapta pentru anulare.</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Etichetă</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Adaugă</value>
+  </data>
+  <data name="ClickToSelectPosition" xml:space="preserve">
+    <value>Click pentru a selecta poziția</value>
+  </data>
+  <data name="ClickToResetPosition" xml:space="preserve">
+    <value>Click pentru a reseta poziția</value>
+  </data>
+  <data name="RelocateInput" xml:space="preserve">
+    <value>Mută intrarea</value>
+  </data>
+  <data name="AndLinkWordForTruthTable" xml:space="preserve">
+    <value>și</value>
+  </data>
+  <data name="ButLinkWordForTruthTable" xml:space="preserve">
+    <value>dar</value>
+  </data>
+  <data name="RelocateOutput" xml:space="preserve">
+    <value>Mută ieșirea</value>
+  </data>
+  <data name="StickToScreen" xml:space="preserve">
+    <value>Fixează pe ecran</value>
+  </data>
+  <data name="NeutralAllowed" xml:space="preserve">
+    <value>Neutru permis</value>
+  </data>
+  <data name="StickToBlock" xml:space="preserve">
+    <value>Fixează pe bloc</value>
+  </data>
+  <data name="NeutralNotAllowed" xml:space="preserve">
+    <value>Neutru interzis</value>
+  </data>
+  <data name="StopAt1" xml:space="preserve">
+    <value>Oprește la 1</value>
+  </data>
+  <data name="StopAt0" xml:space="preserve">
+    <value>Oprește la 0</value>
+  </data>
+  <data name="StopAt_" xml:space="preserve">
+    <value>Oprește la _</value>
+  </data>
+  <data name="StopAtError" xml:space="preserve">
+    <value>Oprește la eroare</value>
+  </data>
+  <data name="DonTStop" xml:space="preserve">
+    <value>Nu te opri</value>
+  </data>
+  <data name="BlueprintSaved" xml:space="preserve">
+    <value>Plan salvat</value>
+  </data>
+  <data name="SaveAllAsABlueprint" xml:space="preserve">
+    <value>Salvează totul ca plan</value>
+  </data>
+  <data name="OpenBlueprintLibrary" xml:space="preserve">
+    <value>Deschide biblioteca de planuri</value>
+  </data>
+  <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve">
+    <value>Arată doar cele mai bune planuri după bloc</value>
+  </data>
+  <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve">
+    <value>Arată doar cele mai bune planuri după volum</value>
+  </data>
+  <data name="ShowOnlyBestsByTickBlueprints" xml:space="preserve">
+    <value>Arată doar cele mai bune planuri după tick</value>
+  </data>
+  <data name="ShowOnlyBestsByMOSBlueprints" xml:space="preserve">
+    <value>Arată doar cele mai bune planuri după MOS</value>
+  </data>
+  <data name="SaveSelectionAsBlueprint" xml:space="preserve">
+    <value>Salvează selecția ca plan</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Blocuri</value>
+  </data>
+  <data name="Comparer" xml:space="preserve">
+    <value>Comparator</value>
+  </data>
+  <data name="ReuseBestSolution" xml:space="preserve">
+    <value>Refolosește cea mai bună soluție</value>
+  </data>
+  <data name="NowBest" xml:space="preserve">
+    <value>Acum - - - - - - - - - - - Cel mai bun</value>
+  </data>
+  <data name="Toolbox" xml:space="preserve">
+    <value>Casetă de unelte</value>
+  </data>
+  <data name="Photomode" xml:space="preserve">
+    <value>Mod foto</value>
+  </data>
+  <data name="AutoShrinkOnValidate" xml:space="preserve">
+    <value>Micșorare automată la validare</value>
+  </data>
+  <data name="TurnOnOffTheAutoShrinkOfTheDieWhenValidatingTheNlevelTheDieWillBeShrinkedToTheSmallestSizeNpossibleToFitTheBlocks" xml:space="preserve">
+    <value>Activează/dezactivează micșorarea automată a plăcii la validarea
+nivelului. Placa va fi micșorată la cea mai mică dimensiune
+posibilă pentru a încăpea blocurile.</value>
+  </data>
+  <data name="EditDieSize" xml:space="preserve">
+    <value>Editează dimensiunea plăcii</value>
+  </data>
+  <data name="EditManuallyTheDieSizeShrinkingTheDieWillRemoveNtheBlocksOutsideTheNewDieSize" xml:space="preserve">
+    <value>Editează manual dimensiunea plăcii. Micșorarea plăcii va elimina
+blocurile din afara noii dimensiuni a plăcii.</value>
+  </data>
+  <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
+    <value>Exportă un fișier de nivel în clipboard. Poate fi lipit în File Explorer,
+Discord și orice program care suportă fișiere lipite.</value>
+  </data>
+  <data name="ExportToClipboard" xml:space="preserve">
+    <value>Exportă în clipboard</value>
+  </data>
+  <data name="ImportFromClipboard" xml:space="preserve">
+    <value>Importă din clipboard</value>
+  </data>
+  <data name="TryToReadALevelFromTheClipboardSupportsWtCtNWtbAndCtbFilesSupportsDirectFilesAndURLOfFiles" xml:space="preserve">
+    <value>Încearcă să citească un nivel din clipboard. Suportă fișiere .wt, .ct,
+.wtb și .ctb. Suportă fișiere directe și URL-uri ale fișierelor.</value>
+  </data>
+  <data name="ShowChangeIndicators" xml:space="preserve">
+    <value>Arată indicatorii de schimbare</value>
+  </data>
+  <data name="ShowIndicatorsOnTheBlocksThatHaveBeenChangedSinceNtheLastSimulationUpdateIndicatorsAreRemovedWhenNafterAFewSecondsOrWhenTheSimulationIsStepped" xml:space="preserve">
+    <value>Arată indicatori pe blocurile care au fost modificate de la
+ultima actualizare a simulării. Indicatorii sunt eliminați
+după câteva secunde sau când simularea este avansată.</value>
+  </data>
+  <data name="TracesGroupsColors" xml:space="preserve">
+    <value>Segmente colorate</value>
+  </data>
+  <data name="ColorAllInterconnectedTracesWithTheSameColorAndNpartiallyHideTracesAlwaysConnectedToUpDownTerminals" xml:space="preserve">
+    <value>Colorează toate urmele metalice interconectate cu aceeași culoare și ascunde
+parțial urmele metalice conectate mereu la blocurile constante 0/1.</value>
+  </data>
+  <data name="AutoClockStop" xml:space="preserve">
+    <value>Oprire automată ceas</value>
+  </data>
+  <data name="RemoveNextClockSwitchStopStopSimulationWhenClockSwitchesItsSignal" xml:space="preserve">
+    <value>Oprește simularea când ceasul își schimbă semnalul.</value>
+  </data>
+  <data name="CameraDramaticCameraMoves" xml:space="preserve">
+    <value>Mișcări dramatice de cameră</value>
+  </data>
+  <data name="CameraRotateLeft" xml:space="preserve">
+    <value>Rotește stânga</value>
+  </data>
+  <data name="CameraForward" xml:space="preserve">
+    <value>Înainte</value>
+  </data>
+  <data name="CameraRotateRightE" xml:space="preserve">
+    <value>Rotește dreapta</value>
+  </data>
+  <data name="CameraCycleUIElements" xml:space="preserve">
+    <value>Ascunde UI ({0})</value>
+  </data>
+  <data name="CameraStrafeLeft" xml:space="preserve">
+    <value>Deplasare stânga</value>
+  </data>
+  <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
+    <value>Cameră editor/Cameră liberă (SHIFT/CTRL/WASD/CLICK STÂNGA)</value>
+  </data>
+  <data name="EditorCamFreeCam" xml:space="preserve">
+    <value>Cameră editor/Cameră liberă</value>
+  </data>
+  <data name="CameraStrafeRight" xml:space="preserve">
+    <value>Deplasare dreapta</value>
+  </data>
+  <data name="CenterCamera" xml:space="preserve">
+    <value>Centrează camera</value>
+  </data>
+  <data name="CameraZoomIn" xml:space="preserve">
+    <value>Apropie</value>
+  </data>
+  <data name="CameraBackward" xml:space="preserve">
+    <value>Înapoi</value>
+  </data>
+  <data name="CameraZoomOut" xml:space="preserve">
+    <value>Depărtează</value>
+  </data>
+  <data name="DieOperations" xml:space="preserve">
+    <value>Operațiuni placă</value>
+  </data>
+  <data name="Shrink5BlocksFromTheBack" xml:space="preserve">
+    <value>Micșorează 5 blocuri din spate</value>
+  </data>
+  <data name="Shrink1BlockFromTheBack" xml:space="preserve">
+    <value>Micșorează 1 bloc din spate</value>
+  </data>
+  <data name="Shrink5BlocksFromTheRight" xml:space="preserve">
+    <value>Micșorează 5 blocuri din dreapta</value>
+  </data>
+  <data name="Shrink5BlocksFromTheTop" xml:space="preserve">
+    <value>Micșorează 5 blocuri de sus</value>
+  </data>
+  <data name="Shrink1BlockFromTheLeft" xml:space="preserve">
+    <value>Micșorează 1 bloc din stânga</value>
+  </data>
+  <data name="SwitchToExtendMode" xml:space="preserve">
+    <value>Comută la modul extindere</value>
+  </data>
+  <data name="Shrink1BlockFromTheRight" xml:space="preserve">
+    <value>Micșorează 1 bloc din dreapta</value>
+  </data>
+  <data name="Shrink1BlockFromTheTop" xml:space="preserve">
+    <value>Micșorează 1 bloc de sus</value>
+  </data>
+  <data name="Shrink5BlocksFromTheLeft" xml:space="preserve">
+    <value>Micșorează 5 blocuri din stânga</value>
+  </data>
+  <data name="Shrink1BlockFromTheFront" xml:space="preserve">
+    <value>Micșorează 1 bloc din față</value>
+  </data>
+  <data name="Shrink5BlocksFromTheFront" xml:space="preserve">
+    <value>Micșorează 5 blocuri din față</value>
+  </data>
+  <data name="ShrinkTheDieToFitTheMinimumSize" xml:space="preserve">
+    <value>Micșorează placa la dimensiunea minimă</value>
+  </data>
+  <data name="Extend5BlocksFromTheBack" xml:space="preserve">
+    <value>Extinde 5 blocuri din spate</value>
+  </data>
+  <data name="Extend1BlockFromTheBack" xml:space="preserve">
+    <value>Extinde 1 bloc din spate</value>
+  </data>
+  <data name="Extend5BlocksFromTheRight" xml:space="preserve">
+    <value>Extinde 5 blocuri din dreapta</value>
+  </data>
+  <data name="Extend5BlocksFromTheTop" xml:space="preserve">
+    <value>Extinde 5 blocuri de sus</value>
+  </data>
+  <data name="Extend1BlockFromTheLeft" xml:space="preserve">
+    <value>Extinde 1 bloc din stânga</value>
+  </data>
+  <data name="SwitchToShrinkMode" xml:space="preserve">
+    <value>Comută la modul micșorare</value>
+  </data>
+  <data name="Extend1BlockFromTheRight" xml:space="preserve">
+    <value>Extinde 1 bloc din dreapta</value>
+  </data>
+  <data name="Extend1BlockFromTheTop" xml:space="preserve">
+    <value>Extinde 1 bloc de sus</value>
+  </data>
+  <data name="Extend5BlocksFromTheLeft" xml:space="preserve">
+    <value>Extinde 5 blocuri din stânga</value>
+  </data>
+  <data name="Extend1BlockFromTheFront" xml:space="preserve">
+    <value>Extinde 1 bloc din față</value>
+  </data>
+  <data name="Extend5BlocksFromTheFront" xml:space="preserve">
+    <value>Extinde 5 blocuri din față</value>
+  </data>
+  <data name="CopyCtrlC" xml:space="preserve">
+    <value>Copiază (Ctrl+C)</value>
+  </data>
+  <data name="CutCtrlX" xml:space="preserve">
+    <value>Taie (Ctrl+X)</value>
+  </data>
+  <data name="PasteCtrlV" xml:space="preserve">
+    <value>Lipește (Ctrl+V)</value>
+  </data>
+  <data name="DeleteDel" xml:space="preserve">
+    <value>Șterge (Del)</value>
+  </data>
+  <data name="RemoveProbes" xml:space="preserve">
+    <value>Elimină sondele</value>
+  </data>
+  <data name="NoName" xml:space="preserve">
+    <value>Fără nume</value>
+  </data>
+  <data name="SlotSelection" xml:space="preserve">
+    <value>Selecție slot</value>
+  </data>
+  <data name="UndoCtrlZ" xml:space="preserve">
+    <value>Anulează (Ctrl+Z)</value>
+  </data>
+  <data name="RedoCtrlY" xml:space="preserve">
+    <value>Refă (Ctrl+Y)</value>
+  </data>
+  <data name="RestartLevel" xml:space="preserve">
+    <value>Restart nivel</value>
+  </data>
+  <data name="Modes" xml:space="preserve">
+    <value>Moduri</value>
+  </data>
+  <data name="Probe" xml:space="preserve">
+    <value>Sondă</value>
+  </data>
+  <data name="SaveAsABlueprint" xml:space="preserve">
+    <value>Salvează ca plan</value>
+  </data>
+  <data name="CreatingANewBlueprint" xml:space="preserve">
+    <value>Creare plan nou:</value>
+  </data>
+  <data name="NewComponent" xml:space="preserve">
+    <value>ComponentNou</value>
+  </data>
+  <data name="CameraPedestalDown" xml:space="preserve">
+    <value>Coborâre</value>
+  </data>
+  <data name="CameraPedestalUp" xml:space="preserve">
+    <value>Ridicare</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>Fă fotografia</value>
+  </data>
+  <data name="HideUIForASplitSecondTakeAScreenshotNputInTheClipboardAndSteamScreenshotFolder" xml:space="preserve">
+    <value>Ascunde UI pentru o fracțiune de secundă, fă o captură de ecran,
+pune în clipboard și în dosarul Steam Screenshot.</value>
+  </data>
+  <data name="ReportShape" xml:space="preserve">
+    <value>Forma scorurilor</value>
+    <comment>Report formating on photomode</comment>
+  </data>
+  <data name="ReportBackground" xml:space="preserve">
+    <value>Fondul scorurilor</value>
+    <comment>Report formating on photomode</comment>
+  </data>
+  <data name="ReportText" xml:space="preserve">
+    <value>Textul scorurilor</value>
+    <comment>Report formating on photomode</comment>
+  </data>
+  <data name="ExitPhotoMode" xml:space="preserve">
+    <value>Ieși din modul foto</value>
+  </data>
+  <data name="SimulationSpeed" xml:space="preserve">
+    <value>Viteza simulării </value>
+  </data>
+  <data name="ClockFrequency" xml:space="preserve">
+    <value>Frecvența ceasului </value>
+  </data>
+  <data name="_ShouldBeRightNowIs" xml:space="preserve">
+    <value>{0} ar trebui să fie {1} {2} acum este {3}</value>
+  </data>
+  <data name="Now" xml:space="preserve">
+    <value>, acum=</value>
+    <comment>truth table indication on the output readout</comment>
+  </data>
+  <data name="SimulationTicksAt" xml:space="preserve">
+    <value>Tick-uri {0} la {1}</value>
+  </data>
+  <data name="SimulationClockAt" xml:space="preserve">
+    <value> Ceas {0} ({1})</value>
+  </data>
+  <data name="BlocksShouldBe" xml:space="preserve">
+    <value>Blocurile ar trebui să fie </value>
+  </data>
+  <data name="AtPosition" xml:space="preserve">
+    <value> la poziția </value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>În așteptare... </value>
+  </data>
+  <data name="Validating" xml:space="preserve">
+    <value>Validare... </value>
+  </data>
+  <data name="TruthTable" xml:space="preserve">
+    <value>Tabel de adevăr</value>
+  </data>
+  <data name="InputNamed" xml:space="preserve">
+    <value>Intrarea numită </value>
+  </data>
+  <data name="OutputToMatchNamed" xml:space="preserve">
+    <value>Ieșirea de potrivit numită </value>
+  </data>
+  <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>Faza inițială de pornire nu se consideră pentru scorul de tick.</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Oricare</value>
+  </data>
+  <data name="AnyLowercase" xml:space="preserve">
+    <value>oricare</value>
+  </data>
+  <data name="ButtonLabelUnresponsive" xml:space="preserve">
+    <value> Nereactiv </value>
+  </data>
+  <data name="ButtonLabelMissedGoal" xml:space="preserve">
+    <value> Obiectiv ratat  </value>
+  </data>
+  <data name="ButtonLabelChecked" xml:space="preserve">
+    <value>   Verificat!   </value>
+  </data>
+  <data name="ButtonLabelValidating" xml:space="preserve">
+    <value> Validare... </value>
+  </data>
+  <data name="ButtonLabelValidate" xml:space="preserve">
+    <value>   Validează   </value>
+    <comment>Spaces are important</comment>
+  </data>
+  <data name="ButtonLabelStepByStep" xml:space="preserve">
+    <value>   Manual   </value>
+    <comment>Spaces are important</comment>
+  </data>
+  <data name="ButtonLabelModified" xml:space="preserve">
+    <value>   Modificat   </value>
+    <comment>Spaces are important</comment>
+  </data>
+  <data name="ResetValidation" xml:space="preserve">
+    <value>Resetează validarea</value>
+  </data>
+  <data name="EditModeSummary" xml:space="preserve">
+    <value>Editare (Sus:{0}/Șterge{1}/Selectează{2})</value>
+  </data>
+  <data name="DieOperationsModeSummary" xml:space="preserve">
+    <value>Extinde/Micșorează placa</value>
+  </data>
+  <data name="ProbeModeSummary" xml:space="preserve">
+    <value>Sonde</value>
+  </data>
+  <data name="BluePrintModeSummary" xml:space="preserve">
+    <value>Planuri ({0}/{1}:Întoarce planul)</value>
+  </data>
+  <data name="SelectPinModeSummary" xml:space="preserve">
+    <value>Mută pinii ({0}/{1}:În/Micșorează spațierea)</value>
+  </data>
+  <data name="DebugModeSummary" xml:space="preserve">
+    <value>Unelte</value>
+  </data>
+  <data name="ComparerModeSummary" xml:space="preserve">
+    <value>Comparator</value>
+  </data>
+</root>

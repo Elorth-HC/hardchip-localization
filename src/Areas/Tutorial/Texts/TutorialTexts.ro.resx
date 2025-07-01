@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RepresentingNegativeNumberSignedNumberCanTBeDoneWithThePreviousSolutionsAsIs" xml:space="preserve">
+    <value>Reprezentarea numerelor negative (numere cu semn)
+nu poate fi făcută cu soluțiile anterioare ca atare.</value>
+  </data>
+  <data name="ASmallTwistCanBringThatRepresentationWhileStillReusingAllPreviousSolutions" xml:space="preserve">
+    <value>O mică modificare poate aduce acea reprezentare
+reutilizând în continuare toate soluțiile anterioare.</value>
+  </data>
+  <data name="ThisIsTheNumberRepresentationUsedSoFar" xml:space="preserve">
+    <value>Aceasta este reprezentarea numerelor folosită până acum.</value>
+  </data>
+  <data name="HereSTheNegativeNumberRepresentationCompatibleOutput" xml:space="preserve">
+    <value>Aici este ieșirea compatibilă cu reprezentarea numerelor negative.</value>
+  </data>
+  <data name="SetINDIVIDUALINPUTBITSToMatchTheOUTPUTValueThenMANUALLYVALIDATEStepByStep" xml:space="preserve">
+    <value>Setează BIȚII DE INTRARE INDIVIDUALI pentru a se potrivi cu valoarea de IEȘIRE,
+apoi VALIDEAZĂ MANUAL pas cu pas</value>
+  </data>
+  <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
+    <value>Uneori, conexiunile pot fi dificil de plasat fără
+să se atingă unele de altele.</value>
+  </data>
+  <data name="ConnectINPUTAndOUTPUTWithoutSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>Conectează INTRAREA și IEȘIREA fără SCURTCIRCUIT, apoi VALIDEAZĂ.</value>
+  </data>
+  <data name="UseTheCompactingTheInverterBlueprintThenValidate" xml:space="preserve">
+    <value>Folosește planul 'Compacting the Inverter' apoi validează.</value>
+  </data>
+  <data name="ItWouldBeVeryInefficientToRebuildEveryCircuitFromScratch" xml:space="preserve">
+    <value>Ar fi foarte ineficient să
+reconstruiești fiecare circuit de la zero</value>
+  </data>
+  <data name="ToReuseWhatYouAlreadyBuiltSaveAnyCircuitAsABLUEPRINTAndThenJustSelectItToGetACopyForPlacement" xml:space="preserve">
+    <value>Pentru a reutiliza ceea ce ai construit deja, salvează
+orice circuit ca PLAN și apoi
+doar selectează-l pentru a obține o copie pentru plasare.</value>
+  </data>
+  <data name="EachStageSavesYourPassingCircuitAsABLUEPRINTTooForYouToUseYouCanCreateEditYourOwnAsWell" xml:space="preserve">
+    <value>Fiecare etapă salvează circuitul tău de trecere
+ca PLAN de asemenea pentru ca tu să-l folosești.
+Poți crea/edita și pe ale tale.</value>
+  </data>
+  <data name="UseTheBLUEPRINTModeToPlaceAnINVERTEROntoTheDIEThenVALIDATE" xml:space="preserve">
+    <value>Folosește modul PLAN pentru a plasa un INVERTOR pe PLACĂ, apoi VALIDEAZĂ.</value>
+  </data>
+  <data name="TheDIESizeWasFixedUntilNowNowTheSizeWillBeDynamicToTheRightAndBottomDirection" xml:space="preserve">
+    <value>Dimensiunea PLĂCII era fixă până acum; acum dimensiunea va
+fi dinamică în direcția dreaptă și de jos.</value>
+  </data>
+  <data name="IfYouNeedMoreSpaceJustBuildOutsideTheDIEToExtendIt" xml:space="preserve">
+    <value>Dacă ai nevoie de mai mult spațiu, doar construiește
+în afara PLĂCII pentru a o extinde.</value>
+  </data>
+  <data name="WhenYouValidateAnyEmptyContiguousSpacesWillAutomaticalyBeRemoved" xml:space="preserve">
+    <value>Când validezi, orice spații goale continue
+vor fi AUTOMAT eliminate.</value>
+  </data>
+  <data name="DoingSoWillShiftAnyOutputToTheNewEdgeLocation" xml:space="preserve">
+    <value>Făcând așa va muta orice ieșire la noua locație de margine.</value>
+  </data>
+  <data name="TryRemovingAnyBlockInThisColumnAndThenValidateToCompactTheDie" xml:space="preserve">
+    <value>Încearcă să elimini orice bloc din această coloană
+și apoi validează pentru a compacta placa.</value>
+  </data>
+  <data name="INFOFULLREPORTUNLOCKED" xml:space="preserve">
+    <value>INFO: RAPORT COMPLET DEBLOCAT.</value>
+  </data>
+  <data name="COMPACTAndOPTIMIZETheINVERTERThenVALIDATE" xml:space="preserve">
+    <value>COMPACTEAZĂ și OPTIMIZEAZĂ INVERTORUL, apoi VALIDEAZĂ.</value>
+  </data>
+  <data name="TipToDoACuboidSelectHoldLeftCTRLWhileSelectingOrDeleting" xml:space="preserve">
+    <value>Sfat: Pentru a face o selecție cuboidă, ține apăsat CTRL stânga
+în timp ce selectezi sau ștergi.</value>
+  </data>
+  <data name="AreaTooLarge" xml:space="preserve">
+    <value>Zonă prea mare</value>
+  </data>
+  <data name="SomeValidationRequiresMultipleStepsEachStepHasItsOwnRequirementAllAreListedOnTopHere" xml:space="preserve">
+    <value>Validarea necesită de obicei mai mulți
+pași. Fiecare pas are propria cerință.
+Toate sunt enumerate sus aici.</value>
+  </data>
+  <data name="EachStepIsVerifiedInOrderOneAfterTheOtherIfAStepFailsToBeVerifiedTheValidationStops" xml:space="preserve">
+    <value>Fiecare pas este verificat în ordine, unul după
+celălalt. Dacă un pas eșuează să fie verificat,
+validarea se oprește.</value>
+  </data>
+  <data name="BuildASolutionThatMeetsTheCRITERIAThenVALIDATE" xml:space="preserve">
+    <value>Construiește o soluție care îndeplinește CRITERIILE, apoi VALIDEAZĂ.</value>
+  </data>
+  <data name="IMHereToHelpTrustInTheGuidanceIOfferForMyOnlyAimIsToLeadYouToResolution" xml:space="preserve">
+    <value>Sunt aici să ajut. Ai încredere în îndrumarea pe care o ofer, căci
+singurul meu scop este să te conduc către rezolvare.</value>
+  </data>
+  <data name="ThisOneBlockIsASUBSTRATEBlockSeeItAsTheSupportForEverythingElse" xml:space="preserve">
+    <value>Acest bloc este un bloc SUBSTRAT,
+vezi-l ca suportul pentru tot restul.</value>
+  </data>
+  <data name="ThisIsTheDIEItIsComposedOfTheEntireSetOfAllBlocks" xml:space="preserve">
+    <value>Aceasta este PLACA, este compusă din
+întregul set al tuturor blocurilor.</value>
+  </data>
+  <data name="ThisIsAnINPUTBlockItProvidesSignalToTheDIEToProcessIt" xml:space="preserve">
+    <value>Acesta este un bloc de INTRARE, furnizează
+semnal către PLACĂ pentru a-l procesa.</value>
+  </data>
+  <data name="ThisIsAnOUTPUTBlockItReceivesTheSignalProcessedByTheDIE" xml:space="preserve">
+    <value>Acesta este un bloc de IEȘIRE, primește
+semnalul procesat de PLACĂ.</value>
+  </data>
+  <data name="ThisDIENeedsToFullfillASimpleTaskOutputingWhatItReceivesOnTheInput" xml:space="preserve">
+    <value>Această PLACĂ trebuie să îndeplinească o sarcină simplă:
+să transmită la ieșire ceea ce primește
+la intrare.</value>
+  </data>
+  <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
+    <value>Pentru a conecta INTRAREA și IEȘIREA folosește
+un bloc METAL, și apoi click pe orice
+bloc SUBSTRAT pentru a-l plasa.</value>
+  </data>
+  <data name="WhenYouHaveCompletedYourDIELaunchTheVerificationWithTheVALIDATEButton" xml:space="preserve">
+    <value>Când ai terminat PLACA, lansează
+verificarea cu butonul 'VALIDEAZĂ'.</value>
+  </data>
+  <data name="AtAnyPointYouCanGetHintsAndHelpFromTheButton" xml:space="preserve">
+    <value>În orice moment poți obține indicii și
+ajutor de la butonul '?'.</value>
+  </data>
+  <data name="ConnectTheINPUTToTheOUTPUTThenVALIDATE" xml:space="preserve">
+    <value>Conectează INTRAREA la IEȘIRE, apoi VALIDEAZĂ</value>
+  </data>
+  <data name="TestWithTheClickMeInputAtLeastOnceThenValidate" xml:space="preserve">
+    <value>Testează intrarea 'Click Me!' cel puțin o dată apoi VALIDEAZĂ.</value>
+  </data>
+  <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
+    <value>Blocurile METAL, INTRARE și IEȘIRE pot avea 3 stări:
+1 (în roșu),
+0 (în albastru),
+_ (cunoscut ca NEUTRU în gri).</value>
+  </data>
+  <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
+    <value>Blocurile de INTRARE trimit stările 1 sau 0
+către blocurile METAL adiacente.</value>
+  </data>
+  <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
+    <value>Altfel TOATE blocurile vor reveni la
+starea lor naturală NEUTRĂ.</value>
+  </data>
+  <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
+    <value>INTRĂRILE sunt controlate de procesul de validare
+în momentul când dai click pe 'VALIDEAZĂ'.</value>
+  </data>
+  <data name="BUTYouCanTestDifferentINPUTSSeedingStateByClickingOnIt" xml:space="preserve">
+    <value>DAR poți testa diferite valori ale INTRĂRII
+dând click pe eticheta de lângă ea.</value>
+  </data>
+  <data name="DoingSoWillSTOPTheValidationProcess" xml:space="preserve">
+    <value>Făcând așa va OPRI procesul de validare.</value>
+  </data>
+  <data name="ChangeTheINPUTAtLeastOnceThenVALIDATE" xml:space="preserve">
+    <value>Schimbă INTRAREA cel puțin o dată, apoi VALIDEAZĂ.</value>
+  </data>
+  <data name="MOSCanTakeDifferentShapesNotLimitedToThe3x2x3Blocks" xml:space="preserve">
+    <value>MOS poate lua forme diferite
+nelimitat la blocurile 3x2x3.</value>
+  </data>
+  <data name="SpecialShapeMOSCanHaveTwoGatesAndShareTheSameChannel" xml:space="preserve">
+    <value>MOS cu forme speciale pot avea două porți
+și pot împărți același canal.</value>
+  </data>
+  <data name="YouCantUseTraceHereOnlyPMOSFromTheBottomBuildMenu" xml:space="preserve">
+    <value>Nu poți folosi blocul METAL aici, doar PMOS
+din meniul de construcție de jos.</value>
+  </data>
+  <data name="CreateAMERGEDPMOSWith2GATESThenVALIDATE" xml:space="preserve">
+    <value>Creează un PMOS FUZIONAT cu 2 PORȚI apoi VALIDEAZĂ</value>
+  </data>
+  <data name="NMOSNegativeMOSAreTheExactOppositeOfPMOS" xml:space="preserve">
+    <value>NMOS (MOS Negativ) sunt exact opusul PMOS.</value>
+  </data>
+  <data name="TheBlueStripsHelpToDifferentiateTheNMOSFromAPMOSWhichAreRed" xml:space="preserve">
+    <value>Benzile albastre ajută să diferențiezi
+NMOS de un PMOS (care sunt roșii).</value>
+  </data>
+  <data name="ApplyingA1ToTheNMOSSGateActivatesItAllowingONLY0GoingThroughIt" xml:space="preserve">
+    <value>Aplicarea unui 1 la poarta NMOS îl activează,
+permițând DOAR 0 să treacă prin el.</value>
+  </data>
+  <data name="ApplyingA0DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>Aplicarea unui 0 îl dezactivează, blocând
+TOATE stările care trec prin el.</value>
+  </data>
+  <data name="ConnectTheNMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Conectează NMOS corect apoi VALIDEAZĂ</value>
+  </data>
+  <data name="TRACESCanOnlyTransferOneStateAtATimeButMOSFETMetalOxideSemiconductorsFieldEffectTransistorCanReactToStates" xml:space="preserve">
+    <value>O conexiune METAL simplă poate transfera doar o stare odată.
+Dar MOSFET (Metal Oxide Semiconductors Field-effect Transistor)
+poate reacționa la stări!</value>
+  </data>
+  <data name="HereSAMOSFETAndMovingForwardWeLlReferToItAsMOS" xml:space="preserve">
+    <value>Aici este un MOSFET, și de acum înainte
+ne vom referi la el ca MOS.</value>
+  </data>
+  <data name="MOSHas2MajorPartsTheGate" xml:space="preserve">
+    <value>MOS are 2 părți majore: poarta...</value>
+  </data>
+  <data name="AndTheChannel" xml:space="preserve">
+    <value>... și canalul</value>
+  </data>
+  <data name="ThisOneMOSIsAPMOSPositiveMOSItActsLikeASwitchThatCanBeEitherActivatedOrDeactivatedByAnyGivenState" xml:space="preserve">
+    <value>Acest MOS este un PMOS (MOS-Pozitiv). Acționează ca
+un comutator care poate fi fie 'activat' sau 'dezactivat'
+de orice stare dată.</value>
+  </data>
+  <data name="Applying0ToThePMOSSGateActivatesItAllowingONLY1GoingThroughIt" xml:space="preserve">
+    <value>Aplicarea 0 la poarta PMOS îl activează,
+permițând DOAR 1 să treacă prin el.</value>
+  </data>
+  <data name="Applying1DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>Aplicarea 1 îl dezactivează, blocând
+TOATE stările care trec prin el.</value>
+  </data>
+  <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
+    <value>Folosește butonul AJUTOR de sus aici sau încearcă să conectezi PMOS singur</value>
+  </data>
+  <data name="ConnectThePMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>Conectează PMOS corect apoi VALIDEAZĂ</value>
+  </data>
+  <data name="MostOfTheTimeASCHEMATICIsAvailableWithTheChipButtonOnTopHere" xml:space="preserve">
+    <value>De cele mai multe ori o SCHEMĂ este disponibilă cu butonul Chip de sus aici.</value>
+  </data>
+  <data name="ItProvidesOptionalStepsToBuildTheChipForEachLevel" xml:space="preserve">
+    <value>Furnizează pași opționali pentru construirea chip-ului pentru fiecare nivel.</value>
+  </data>
+  <data name="UseTheSCHEMATICOrNotToBuildAnINVERTERThenVALIDATE" xml:space="preserve">
+    <value>Folosește SCHEMA (sau nu) pentru a construi un INVERTOR, apoi VALIDEAZĂ</value>
+  </data>
+  <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
+    <value>Poți folosi R pentru a roti PMOS/NMOS
+sau orice selecție de blocuri.</value>
+  </data>
+  <data name="Connecting2INPUTSWithTheOPPOSITEStates1And0WillResultInASHORTCIRCUIT" xml:space="preserve">
+    <value>Conectarea a 2 INTRĂRI cu stări OPUSE 1 și 0
+va rezulta într-un SCURTCIRCUIT.</value>
+  </data>
+  <data name="ASHORTCIRCUITWillPreventTheDIEFromProperlyFunctioningInUnexpectedWays" xml:space="preserve">
+    <value>Un SCURTCIRCUIT va împiedica PLACA să funcționeze
+corespunzător în moduri neașteptate.</value>
+  </data>
+  <data name="ToIsolateThe2INPUTSFromEachOtherHoldALTDownAndClickOnATRACEToRemoveIt" xml:space="preserve">
+    <value>Pentru a izola cele 2 INTRĂRI una de cealaltă, ține apăsat 'ALT'
+și click pe un bloc METAL pentru a-l elimina.</value>
+  </data>
+  <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>Repară SCURTCIRCUITUL, apoi VALIDEAZĂ</value>
+  </data>
+  <data name="ToIsolateTRACEsFromEachOtherTheyMustHaveAtLeast1EmptySpaceBetweenThemInAnyDirectionOtherwiseTheyAreConnected" xml:space="preserve">
+    <value>Pentru a izola căile METAL unele de altele, ele trebuie
+să aibă cel puțin 1 spațiu gol între ele în orice direcție.
+Altfel sunt conectate.</value>
+  </data>
+  <data name="FollowingTheCriteriaInputAMustBeConnectedToOutputAButNotToOutputBNorC" xml:space="preserve">
+    <value>Urmând criteriile:
+Intrarea A trebuie conectată la Ieșirea A
+dar nu la Ieșirea B sau C.</value>
+  </data>
+  <data name="AddTRACESUpByHoldingLEFTCLICKAndThenMOUSEMOVEUpWhileHoldingCTRLDOWN" xml:space="preserve">
+    <value>Adaugă blocuri METAL în sus ținând CLICK STÂNGA și apoi
+MIȘCĂ MOUSE-ul sus în timp ce ții CTRL APĂSAT.</value>
+  </data>
+  <data name="SEPARATETRACEsABAndCThenVALIDATE" xml:space="preserve">
+    <value>SEPARĂ conexiunile A, B și C. Apoi VALIDEAZĂ.</value>
+  </data>
+  <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
+    <value>CTRL Stânga + ține Click Stânga apăsat,
+apoi mișcă sus pentru a adăuga METAL vertical.</value>
+  </data>
+</root>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r93ERROR_CODE: 0x00FAB4 Eșec general. A apărut o eroare nespecificată.
+r90
+r93ERROR_CODE: 0x03FAA3 Eroare I/O. Dispozitivul nu răspunde.
+r90
+r93ERROR_CODE: 0x04FAB9 Timeout de rețea. Conexiunea a fost pierdută.
+r90
+r93ERROR_CODE: 0x02FAC2 Depășire de memorie. Procesul s-a terminat în mod neașteptat.
+r90
+r93ERROR_CODE: 0x00FFB4 Supratensiune. Deteriorarea componentelor electronice probabil. Sistemele de distribuție a energiei în modul sigur.
+r90
+r90ERROR_CODE: ?x?????? salut
+r90
+r93ERROR_CODE: 0x01FAB1 Eșec critic. Este necesară repornirea sistemului.</value>
+  </data>
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90Efectuarea diagnosticelor...              
+g90
+g91Generator Autonom v156.5.9870
+g93 Integritate fizică: [OK]
+g92 Sisteme de control: [OK]
+g90
+r90 Stare curentă: NU RĂSPUNDE
+g90 Ieșire de putere curentă: 0.1%%
+g90
+w90Ultimele intrări din jurnal:
+r92 ERROR_CODE: 0x00FFB4 Supratensiune. Deteriorarea componentelor electronice probabil. Sistemele de distribuție a energiei în modul sigur.
+r92 ERROR_CODE: 0x01FAB1 Eșec critic. Este necesară repornirea sistemului.
+g90
+y39Acțiune imediată necesară: repornire.</value>
+  </data>
+  <data name="RebootFix" xml:space="preserve">
+    <value>y90Se încearcă repornirea forțată...
+g90
+g92Oprirea tuturor subsistemelor generatorului...
+g93Activarea întreruperii de urgență a alimentării...
+g94Câmpurile de confinare se stabilizează... [OK]
+g92Supapele de admisie combustibil blocate... [OK]
+g92Sistemele de reglare termică intră în faza de răcire... [OK]
+g90Deconectarea de la rețeaua principală de energie... [OK]
+g90Salvarea ultimei configurații cunoscute... [OK]
+g90
+g97Toate subsistemele oprite. Starea generatorului [OFFLINE].
+g90
+g90
+g90=========================================================================
+g90Generator Autonom v156.5.9870
+g90=========================================================================
+g90
+g96Verificarea sistemelor de bază...
+g90Toate sistemele [OK]
+g90
+g92Activarea secvenței de pornire...
+g93Pornirea sistemelor de control... [OK]
+r94Stabilirea conexiunii la rețeaua de energie... [EȘUAT]
+g92Calibrarea câmpurilor de confinare a energiei... [OK]
+g93Activarea sistemelor de reglare termică... [OK]
+g92Deschiderea supapelor de admisie combustibil... [OK]
+g99Pornirea sistemelor de distribuție a energiei... [OK]
+g99Evaluarea nivelului de putere... [OK]
+g91Sincronizarea cu interfețele de control externe... [OK]
+g90
+g90Secvența de repornire completă. Starea generatorului: OPERAȚIONAL.
+</value>
+  </data>
+  <data name="InitialScreenFixed" xml:space="preserve">
+    <value>g90=========================================================================
+g90Generator Autonom v156.5.9870
+g90=========================================================================
+g90
+g90Verificarea sistemelor de bază...
+g90Toate sistemele [OK]
+g90
+g90Activarea secvenței de pornire...
+g90Pornirea sistemelor de control... [OK]
+r90Stabilirea conexiunii la rețeaua de energie... [EȘUAT]
+g90Calibrarea câmpurilor de confinare a energiei... [OK]
+g90Activarea sistemelor de reglare termică... [OK]
+g90Deschiderea supapelor de admisie combustibil... [OK]
+g90Pornirea sistemelor de distribuție a energiei... [OK]
+g90Evaluarea nivelului de putere... [OK]
+g90Sincronizarea cu interfețele de control externe... [OK]
+g90
+g90Secvența de repornire completă. Starea generatorului: OPERAȚIONAL.</value>
+  </data>
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90Starea generatorului: OPERAȚIONAL.</value>
+  </data>
+  <data name="StatusFixedForever" xml:space="preserve">
+    <value>g90
+g90Starea generatorului: OPERAȚIONAL.</value>
+  </data>
+</root>
