@@ -276,4 +276,44 @@ Valori più alti aumenteranno la qualità, ma diminuiranno la performance.</valu
   <data name="RestartToApplyChanges" xml:space="preserve">
     <value>Riavvia per applicare i cambiamenti</value>
   </data>
+  <data name="SteamName" xml:space="preserve">
+    <value>Nome su Steam:</value>
+  </data>
+  <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
+    <value>Questo permette al tuo nome utente di Steam di apparire sulle classifiche al posto dell'attuale nome autogenerato.
+Attivando questo, consentirai ad Hard Chip di usare il tuo nome utente per la visualizzazione della classifica.</value>
+  </data>
+  <data name="ThisWillResetEVERYSettingsSolutionsAndCampaignProgression" xml:space="preserve">
+    <value>Questo ripristinerà OGNI impostazione, soluzione e progresso nella campagna.</value>
+  </data>
+  <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
+    <value>Questo ripristinerà il tuo progresso nella campagna, ma NON rimuoverà le soluzioni risolte.</value>
+  </data>
+  <data name="UITextScale" xml:space="preserve">
+    <value>Dimensioni testo nell'interfaccia</value>
+  </data>
+  <data name="UndoRedoStackSize" xml:space="preserve">
+    <value>Dimensione stack annulla/ripeti</value>
+  </data>
+  <data name="UnlimitedOrVSync" xml:space="preserve">
+    <value>Illimitato (o VSync)</value>
+  </data>
+  <data name="UseCubicWhenNothingElseWorksWillRenderCubesInsteadOfComplexShapesFastButUgly" xml:space="preserve">
+    <value>Usa cubico quando nient'altro funziona. Mostrerà cubi invece che di forme complesse, veloce ma brutto.</value>
+  </data>
+  <data name="UseHCName" xml:space="preserve">
+    <value>Usa il nome di Hard Chip</value>
+  </data>
+  <data name="UseSteamName" xml:space="preserve">
+    <value>Usa il nome di Steam</value>
+  </data>
+  <data name="Windowed" xml:space="preserve">
+    <value>In finestra</value>
+  </data>
+  <data name="WonTBeAppliedIfVSyncIsEnabled" xml:space="preserve">
+    <value>Non verrà applicato se il VSync è attivo.</value>
+  </data>
+  <data name="WorldFOV" xml:space="preserve">
+    <value>Campo visivo mondo</value>
+  </data>
 </root>

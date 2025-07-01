@@ -171,4 +171,22 @@
   <data name="Multipliers" xml:space="preserve">
     <value>Moltiplicatori</value>
   </data>
+  <data name="Subtraction" xml:space="preserve">
+    <value>Sottrazione</value>
+  </data>
+  <data name="Traces" xml:space="preserve">
+    <value>Tracce</value>
+  </data>
+  <data name="Transceivers" xml:space="preserve">
+    <value>Ricetransmettitore</value>
+  </data>
+  <data name="Transistors" xml:space="preserve">
+    <value>Transistor</value>
+  </data>
+  <data name="Uncategorized" xml:space="preserve">
+    <value>Non classificato</value>
+  </data>
+  <data name="UnlockNextSection" xml:space="preserve">
+    <value>Sblocca la prossima sezione</value>
+  </data>
 </root>

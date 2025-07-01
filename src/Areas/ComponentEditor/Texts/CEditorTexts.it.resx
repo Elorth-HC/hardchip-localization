@@ -503,4 +503,48 @@ Gli indicatori sono rimossi dopo qualche secondo o quando la simulazione è fatt
   <data name="SlotSelection" xml:space="preserve">
     <value>Selezione slot</value>
   </data>
+  <data name="StopAt_" xml:space="preserve">
+    <value>Arresto a _</value>
+  </data>
+  <data name="StopAt0" xml:space="preserve">
+    <value>Arresto a 0</value>
+  </data>
+  <data name="StopAt1" xml:space="preserve">
+    <value>Arresto a 1</value>
+  </data>
+  <data name="StopAtError" xml:space="preserve">
+    <value>Arresto ad un errore</value>
+  </data>
+  <data name="SwitchToExtendMode" xml:space="preserve">
+    <value>Passa alla modalità estesa</value>
+  </data>
+  <data name="SwitchToShrinkMode" xml:space="preserve">
+    <value>Passa alla modalità ridotta</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>Fai una foto</value>
+  </data>
+  <data name="Toolbox" xml:space="preserve">
+    <value>Cassetta degli attrezzi</value>
+  </data>
+  <data name="TracesGroupsColors" xml:space="preserve">
+    <value>Segmenti colorati</value>
+  </data>
+  <data name="TruthTable" xml:space="preserve">
+    <value>Tavola di verità</value>
+  </data>
+  <data name="TryToReadALevelFromTheClipboardSupportsWtCtNWtbAndCtbFilesSupportsDirectFilesAndURLOfFiles" xml:space="preserve">
+    <value>Prova ad aprire un livello dagli appunti. Supporta file .wt, .ct,
+.wtb e .ctb. Supporta file diretti o URL di file.</value>
+  </data>
+  <data name="TurnOnOffTheAutoShrinkOfTheDieWhenValidatingTheNlevelTheDieWillBeShrinkedToTheSmallestSizeNpossibleToFitTheBlocks" xml:space="preserve">
+    <value>Attiva/disattiva la riduzione automatica del circuito quando verifichi il livello.
+Il circuito verrà ridotto alla dimensione più piccola possibile per includere tutti i blocchi.</value>
+  </data>
+  <data name="UndoCtrlZ" xml:space="preserve">
+    <value>Annulla (Ctrl+Z)</value>
+  </data>
+  <data name="Validating" xml:space="preserve">
+    <value>Verifica... </value>
+  </data>
 </root>

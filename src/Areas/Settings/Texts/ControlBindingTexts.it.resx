@@ -254,4 +254,22 @@ Tasto sinistro del mouse per eliminare.</value>
   <data name="CloseInInOutputBits" xml:space="preserve">
     <value>Avvicina i bit di input/output</value>
   </data>
+  <data name="Step" xml:space="preserve">
+    <value>Passo</value>
+  </data>
+  <data name="SwitchFreeCam" xml:space="preserve">
+    <value>Passa alla fotocamera libera</value>
+  </data>
+  <data name="SwitchModes" xml:space="preserve">
+    <value>Cambia modalità</value>
+  </data>
+  <data name="ToggleCamMovements" xml:space="preserve">
+    <value>Abilita/Disabilita movimenti della fotocamera</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
 </root>

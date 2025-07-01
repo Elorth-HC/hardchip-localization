@@ -130,4 +130,18 @@
 
 </value>
   </data>
+  <data name="TheFirstChapterAndSeveralBonusStagesAreReady" xml:space="preserve">
+    <value>Il primo capitolo e molte fasi bonus sono disponibili da giocare, ma ricorda che contenuto addizionale, funzionalità, e miglioramenti sono ancora in sviluppo. La tua esperienza potrebbe cambiare a seguito dell'uscita di un nuovo aggiornamento, la tua pazienza e il tuo supporto sono apprezzati mentre lo sviluppo prosegue!
+
+</value>
+  </data>
+  <data name="ThisGameIsInActiveDevelopmentAndStillEvolving" xml:space="preserve">
+    <value>Questo gioco è in attivo sviluppo e si sta ancora evolvendo!
+
+</value>
+  </data>
+  <data name="WelcomeToHardChip" xml:space="preserve">
+    <value>Benvenuto su Hard Chip!
+</value>
+  </data>
 </root>

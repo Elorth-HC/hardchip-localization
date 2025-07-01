@@ -258,4 +258,90 @@ L'input A deve essere connesso all'output A ma né all'output B né al C.</value
   <data name="SpecialShapeMOSCanHaveTwoGatesAndShareTheSameChannel" xml:space="preserve">
     <value>La forma speciale dei MOS ha due porte e condivide lo stesso canale.</value>
   </data>
+  <data name="TestWithTheClickMeInputAtLeastOnceThenValidate" xml:space="preserve">
+    <value>Prova l'input 'Cliccami!' almeno una volta poi VERIFICA.</value>
+  </data>
+  <data name="TheBlueStripsHelpToDifferentiateTheNMOSFromAPMOSWhichAreRed" xml:space="preserve">
+    <value>Le strisce blu aiutano a distinguere il NMOS dal PMOS (che le ha rosse).</value>
+  </data>
+  <data name="TheDIESizeWasFixedUntilNowNowTheSizeWillBeDynamicToTheRightAndBottomDirection" xml:space="preserve">
+    <value>La dimensione del CIRCUITO era fissa fino ad ora; adesso la dimensione sarà dinamica verso destra verso il basso.</value>
+  </data>
+  <data name="ThisDIENeedsToFullfillASimpleTaskOutputingWhatItReceivesOnTheInput" xml:space="preserve">
+    <value>Questo circuito deve soddisfare questa semplice richiesta: mandare in output ciò che riceve in input.</value>
+  </data>
+  <data name="ThisIsAnINPUTBlockItProvidesSignalToTheDIEToProcessIt" xml:space="preserve">
+    <value>Questo è un blocco di INPUT, fornisce il segnale al circuito per essere processato.</value>
+  </data>
+  <data name="ThisIsAnOUTPUTBlockItReceivesTheSignalProcessedByTheDIE" xml:space="preserve">
+    <value>Questo è un blocco di OUTPUT, riceve il segnale processato dal circuito.</value>
+  </data>
+  <data name="ThisIsTheDIEItIsComposedOfTheEntireSetOfAllBlocks" xml:space="preserve">
+    <value>Questo è il CIRCUITO, è composto dall'insieme di tutti i blocchi.</value>
+  </data>
+  <data name="ThisIsTheNumberRepresentationUsedSoFar" xml:space="preserve">
+    <value>Questa è la rappresentazione dei numeri usata fino ad ora.</value>
+  </data>
+  <data name="ThisOneBlockIsASUBSTRATEBlockSeeItAsTheSupportForEverythingElse" xml:space="preserve">
+    <value>Questo blocco è un blocco SUBSTRATO, vedilo come un supporto per tutto il resto.</value>
+  </data>
+  <data name="ThisOneMOSIsAPMOSPositiveMOSItActsLikeASwitchThatCanBeEitherActivatedOrDeactivatedByAnyGivenState" xml:space="preserve">
+    <value>Questo MOS è un PMOS (MOS Positivo). Funziona come un interruttore che può essere sia 'attivato' che 'disattivato' dato un qualsiasi stato.</value>
+  </data>
+  <data name="TipToDoACuboidSelectHoldLeftCTRLWhileSelectingOrDeleting" xml:space="preserve">
+    <value>Consiglio: Per fare una selezione cubica, tieni premuto CTRL sinistro mentre selezioni o cancelli.</value>
+  </data>
+  <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
+    <value>Per connettere l'INPUT e l'OUTPUT usa un blocco di METALLO, e poi premi su qualsiasi blocco del SUBSTRATO per posizionarlo.</value>
+  </data>
+  <data name="ToIsolateThe2INPUTSFromEachOtherHoldALTDownAndClickOnATRACEToRemoveIt" xml:space="preserve">
+    <value>Per isolare i 2 INPUT l'uno dall'altro, tieni premuto 'ALT' e clicca su un blocco di METALLO per rimuoverlo.</value>
+  </data>
+  <data name="ToIsolateTRACEsFromEachOtherTheyMustHaveAtLeast1EmptySpaceBetweenThemInAnyDirectionOtherwiseTheyAreConnected" xml:space="preserve">
+    <value>Per isolare una tracce di METALLO l'una dall'altra, devono avere almeno 1 spazio vuoto tra di loro in ogni direzione.
+Altrimenti sono connesse.</value>
+  </data>
+  <data name="ToReuseWhatYouAlreadyBuiltSaveAnyCircuitAsABLUEPRINTAndThenJustSelectItToGetACopyForPlacement" xml:space="preserve">
+    <value>Per riutilizzare ciò che hai già costruito, salva un qualsiasi circuito come PROGETTO e poi selezionalo per ottenere una sua copia da piazzare.</value>
+  </data>
+  <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
+    <value>I blocchi di METALLO, INPUT e OUTPUT possono avere 3 stati:
+1 (in rosso),
+0 (in blu),
+_ (noto come NEUTRALE in grigio).</value>
+  </data>
+  <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
+    <value>A volte, può essere complicato piazzare connessioni senza che si tocchino tra loro.</value>
+  </data>
+  <data name="TRACESCanOnlyTransferOneStateAtATimeButMOSFETMetalOxideSemiconductorsFieldEffectTransistorCanReactToStates" xml:space="preserve">
+    <value>Una semplice connessione di METALLO può trasferire solo uno stato.
+Ma i MOSFET (Transistor a Semiconduttori Ossido di Metallo con effetto-campo) possono reagire agli stati!</value>
+  </data>
+  <data name="TryRemovingAnyBlockInThisColumnAndThenValidateToCompactTheDie" xml:space="preserve">
+    <value>Prova a rimuovere un qualsiasi blocco in questa colonna e poi verifica per compattare questo circuito.</value>
+  </data>
+  <data name="UseTheBLUEPRINTModeToPlaceAnINVERTEROntoTheDIEThenVALIDATE" xml:space="preserve">
+    <value>Usa la modalità PROGETTO per piazzare un INVERTITORE sul circuito, poi VERIFICA.</value>
+  </data>
+  <data name="UseTheCompactingTheInverterBlueprintThenValidate" xml:space="preserve">
+    <value>Usa il progetto 'Invertitore compattato' poi verifica.</value>
+  </data>
+  <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
+    <value>Usa il pulsante AIUTO in alto qui o prova a collegare il PMOS da solo</value>
+  </data>
+  <data name="UseTheSCHEMATICOrNotToBuildAnINVERTERThenVALIDATE" xml:space="preserve">
+    <value>Usa lo SCHEMA (o no) per costruire un INVERTITORE, poi VERIFICA</value>
+  </data>
+  <data name="WhenYouHaveCompletedYourDIELaunchTheVerificationWithTheVALIDATEButton" xml:space="preserve">
+    <value>Quando hai completato il tuo CIRCUITO, fai partire la verifica premendo sul pulsante 'VERIFICA'.</value>
+  </data>
+  <data name="WhenYouValidateAnyEmptyContiguousSpacesWillAutomaticalyBeRemoved" xml:space="preserve">
+    <value>Quando verifichi, ogni spazio vuoto adiacente verrà AUTOMATICAMENTE rimosso.</value>
+  </data>
+  <data name="YouCantUseTraceHereOnlyPMOSFromTheBottomBuildMenu" xml:space="preserve">
+    <value>Puoi usare solo blocchi di METALLO qui, solo i PMOS dal menu di costruzione in basso.</value>
+  </data>
+  <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
+    <value>Puoi usare R per ruotare i PMOS/NMOS o qualsiasi altra selezione di blocchi.</value>
+  </data>
 </root>

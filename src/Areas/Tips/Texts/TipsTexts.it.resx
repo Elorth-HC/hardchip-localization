@@ -126,4 +126,7 @@
   <data name="HoldMiddleMouseButtonToRotateAround" xml:space="preserve">
     <value>Consiglio: usa la rotella del mouse per ruotare la fotocamera attorno alla tua soluzione.</value>
   </data>
+  <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
+    <value>Consiglio: puoi entrare in modalità selezione (cursore con un blocco verde) premendo il tasto destro in qualsiasi momento.</value>
+  </data>
 </root>

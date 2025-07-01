@@ -159,4 +159,10 @@
   <data name="ShareYourCreationOnTwitterWithHardchipgameOrHardchipgame" xml:space="preserve">
     <value>Condividi la tua creazione su Twitter con #hardchipgame o @hardchipgame!</value>
   </data>
+  <data name="UnavailableInTheDemo" xml:space="preserve">
+    <value>Non disponibile nella demo.</value>
+  </data>
+  <data name="WishlistHardChipOnSteam" xml:space="preserve">
+    <value>Aggiungi Hard Chip alla lista dei desideri su Steam!</value>
+  </data>
 </root>

@@ -254,4 +254,27 @@ Alto -&gt; Soddisfacente -&gt; Ridotto</value>
   <data name="Slow" xml:space="preserve">
     <value>Lento</value>
   </data>
+  <data name="Streamlined" xml:space="preserve">
+    <value>Ottimizzato</value>
+  </data>
+  <data name="Ticks" xml:space="preserve">
+    <value>   Tick:</value>
+  </data>
+  <data name="TicksReport" xml:space="preserve">
+    <value>Tick</value>
+  </data>
+  <data name="TicksUsedTheFewerTheBetterNSlowSatisfactoryFast" xml:space="preserve">
+    <value>Tick impiegati. Meno sono, meglio è.
+Lento -&gt; Soddisfacente -&gt; Veloce</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>   Volume:</value>
+  </data>
+  <data name="VolumeReport" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="VolumeUsedTheSmallerTheBetterNLargeSatisfactoryCompact" xml:space="preserve">
+    <value>Volume utilizzato. Meno è, meglio è.
+Grande -&gt; Soddisfacente -&gt; Compatto</value>
+  </data>
 </root>
