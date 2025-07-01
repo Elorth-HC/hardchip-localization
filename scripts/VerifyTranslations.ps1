@@ -283,6 +283,3 @@ else {
 
 # $reportContent | Out-File -FilePath $reportPath -Encoding UTF8
 # Write-Host "Detailed report saved to: $reportPath" -ForegroundColor Cyan
-
-Write-Host "`nPress any key to continue..." -ForegroundColor Gray
-$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
