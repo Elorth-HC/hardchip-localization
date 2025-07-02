@@ -57,7 +57,3 @@ Write-Host "Successfully formatted: $successCount files" -ForegroundColor Green
 if ($errorCount -gt 0) {
     Write-Host "Failed to format: $errorCount files" -ForegroundColor Red
 }
-
-Write-Host ""
-Write-Host "Press any key to continue..." -ForegroundColor Gray
-$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")

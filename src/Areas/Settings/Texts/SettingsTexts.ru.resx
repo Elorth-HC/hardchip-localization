@@ -74,9 +74,6 @@
   <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
     <value>Поворачивать камеру используя горизонтальную прокрутку колёсиком мыши.</value>
   </data>
-  <data name="FOVEditor" xml:space="preserve">
-    <value>Угол обзора в редакторе</value>
-  </data>
   <data name="ResetEverything" xml:space="preserve">
     <value>Сбросить всё</value>
   </data>
@@ -90,12 +87,22 @@
     <value>Вы уверены, что хотите сбросить прогресс Вашей кампании?
 Решённые уровни не будут удалены.</value>
   </data>
+  <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
+    <value>Это позволяет Вашему имени пользователя Steam отображаться в таблицах лидеров,
+заменяя текущее автосгенерированное имя.
+
+Включив эту опцию, Вы даёте согласие на то, что Hard Chip будет использовать Ваше
+имя пользователя Steam для отображения в таблицах лидеров.</value>
+  </data>
   <data name="MasterVolume" xml:space="preserve">
     <value>Общaя громкость звука</value>
   </data>
   <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
     <value>Диаграммы рассчитываются на основе самых последних решений со
 всего мира, оценки Ваших решений обновляют диаграммы.</value>
+  </data>
+  <data name="HideBugReportButton" xml:space="preserve">
+    <value>Скрыть кнопку 'сообщить об ошибке'</value>
   </data>
   <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
     <value>Вы уверены, что хотите сбросить ВСЕ решения и прогресс кампании?
@@ -122,6 +129,9 @@
   </data>
   <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
     <value>Это сбросит прогресс Вашей кампании, но не удалит решённые уровни.</value>
+  </data>
+  <data name="EditorTheme" xml:space="preserve">
+    <value>Тема редактора</value>
   </data>
   <data name="Campaign" xml:space="preserve">
     <value>Кампания</value>
@@ -168,11 +178,20 @@
   <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
     <value>Перемещать камеру, когда мышь находится на краю экрана.</value>
   </data>
+  <data name="SteamName" xml:space="preserve">
+    <value>Имя Steam:</value>
+  </data>
   <data name="ResetSettings" xml:space="preserve">
     <value>Сбросить настройки</value>
   </data>
+  <data name="LeaderboardID" xml:space="preserve">
+    <value>ID таблицы лидеров:</value>
+  </data>
   <data name="AutoDetect" xml:space="preserve">
     <value>Авто-определение</value>
+  </data>
+  <data name="UseHCName" xml:space="preserve">
+    <value>Использовать имя HC</value>
   </data>
   <data name="UnlimitedOrVSync" xml:space="preserve">
     <value>Не ограничено (или Вертикальная синхронизация)</value>
@@ -194,6 +213,12 @@
   </data>
   <data name="MouseWheelSensitivity" xml:space="preserve">
     <value>Чувствительность колёсика мыши</value>
+  </data>
+  <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
+    <value>Показывать количество блоков, объём, информацию о МОП и потерях в информационной области внизу слева.</value>
+  </data>
+  <data name="UseSteamName" xml:space="preserve">
+    <value>Использовать имя Steam</value>
   </data>
   <data name="RenderMethod" xml:space="preserve">
     <value>Метод отрисовки</value>
@@ -225,6 +250,9 @@
   <data name="MouseEdgeScrolling" xml:space="preserve">
     <value>Перемещение по краю экрана</value>
   </data>
+  <data name="ShowExtendedChipInfo" xml:space="preserve">
+    <value>Показать расширенную информацию о чипе</value>
+  </data>
   <data name="UITextScale" xml:space="preserve">
     <value>Размер текста интерфейса</value>
   </data>
@@ -246,6 +274,9 @@
   </data>
   <data name="Mode" xml:space="preserve">
     <value>Режим</value>
+  </data>
+  <data name="FOVEditor" xml:space="preserve">
+    <value>Угол обзора в редакторе</value>
   </data>
   <data name="HideBugReportButton" xml:space="preserve">
     <value>Скрыть кнопку отчёта об ошибке</value>

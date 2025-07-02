@@ -84,7 +84,7 @@
     <value>Усовершенствованно</value>
   </data>
   <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
-    <value>Лучшее по объёму решение, нажмите, чтобы сравнить. Правый клик, чтобы установить как текущее.</value>
+    <value>Лучшее по объёму решение, нажмите, чтобы сравнить. Нажмите правой кнопкой мыши, чтобы использовать текущее значение.</value>
   </data>
   <data name="Efficient" xml:space="preserve">
     <value>Эффективно</value>
@@ -110,7 +110,7 @@
     <value>Категория{0}: </value>
   </data>
   <data name="BestTickSolutionClickToCompare" xml:space="preserve">
-    <value>Лучшее по тактам решение, нажмите, чтобы сравнить. Правый клик, чтобы установить как текущее.</value>
+    <value>Лучшее по тактам решение, нажмите, чтобы сравнить. Нажмите правой кнопкой мыши, чтобы использовать текущее значение.</value>
   </data>
   <data name="Compact" xml:space="preserve">
     <value>Компактно</value>
@@ -134,7 +134,7 @@
     <value>{0} - отчет о производительности</value>
   </data>
   <data name="CompletedSuccessfully" xml:space="preserve">
-    <value> completed successfully.</value>
+    <value> выполнено успешно.</value>
   </data>
   <data name="VolumeReport" xml:space="preserve">
     <value>Объём</value>
@@ -167,6 +167,9 @@
   <data name="SaveBlueprint" xml:space="preserve">
     <value>Сохранить чертёж</value>
   </data>
+  <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
+    <value>Решение устарело, запустите проверку заново, чтобы обновить.</value>
+  </data>
   <data name="ReducedP" xml:space="preserve">
     <value>Уменьшено+</value>
   </data>
@@ -189,7 +192,7 @@
     <value>Данные недоступны</value>
   </data>
   <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
-    <value>Лучшее по количеству блоков решение, нажмите, чтобы сравнить. Правый клик, чтобы установить как текущее.</value>
+    <value>Лучшее по количеству блоков решение, нажмите, чтобы сравнить. Нажмите правой кнопкой мыши, чтобы использовать текущее значение.</value>
   </data>
   <data name="LastChipChecked" xml:space="preserve">
     <value>Последний проверенный чип</value>
@@ -204,7 +207,7 @@
     <value>Компактно++</value>
   </data>
   <data name="BestMosSolutionClickToCompare" xml:space="preserve">
-    <value>Лучшее по количеству МОП решение, нажмите, чтобы сравнить. Правый клик, чтобы установить как текущее.</value>
+    <value>Лучшее по количеству МОП решение, нажмите, чтобы сравнить. Нажмите правой кнопкой мыши, чтобы использовать текущее значение.</value>
   </data>
   <data name="Fast" xml:space="preserve">
     <value>Быстро</value>
@@ -217,8 +220,5 @@
   </data>
   <data name="Slow" xml:space="preserve">
     <value>Медленно</value>
-  </data>
-  <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
-    <value>Решение устарело, запустите проверку заново для обновления.</value>
   </data>
 </root>

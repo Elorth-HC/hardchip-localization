@@ -195,6 +195,9 @@
   <data name="SelectSegment" xml:space="preserve">
     <value>Выделить сегмент</value>
   </data>
+  <data name="RightClickToEdit" xml:space="preserve">
+    <value>* Нажмите правой кнопкой мыши, чтобы редактировать</value>
+  </data>
   <data name="DeleteBlock" xml:space="preserve">
     <value>Удалить блок</value>
   </data>
@@ -215,8 +218,5 @@
   </data>
   <data name="Step" xml:space="preserve">
     <value>Шаг</value>
-  </data>
-  <data name="RightClickToEdit" xml:space="preserve">
-    <value>* Правый клик для редактирования</value>
   </data>
 </root>

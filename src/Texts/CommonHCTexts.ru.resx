@@ -67,6 +67,9 @@
   <data name="Delete" xml:space="preserve">
     <value>Удалить</value>
   </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Соединение...</value>
+  </data>
   <data name="Remove" xml:space="preserve">
     <value>Убрать</value>
   </data>
@@ -84,6 +87,9 @@
   </data>
   <data name="HCDrives" xml:space="preserve">
     <value>HCDrive</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Переподключиться</value>
   </data>
   <data name="Maximize" xml:space="preserve">
     <value>Развернуть</value>
