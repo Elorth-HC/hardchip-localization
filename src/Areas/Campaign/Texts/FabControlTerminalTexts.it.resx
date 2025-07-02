@@ -229,4 +229,33 @@ g90
 w90Ultime voci del registro:
 r92CODICE_ERRORE: 0x997A5E Guasto catastrofico. Protocolli del sistema di sicurezza attivati.</value>
   </data>
+  <data name="StatusBroken2" xml:space="preserve">
+    <value>g90Avvio diagnostica...              
+g90
+y91Controllo fabbricatore v156.5.9870
+g92 Sistema di alimentazione [OK]
+g92 Integrità fisica [OK]
+r95 Unità di controllo sistemi primari GUASTA, l'unità non ripsonde
+g90
+w90Ultime voci del registro:
+r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
+g90
+y39Richiesta azione immediata: sostituisci il chip ALU 8BIT. Requisiti inviati alla stazione di lavoro.</value>
+  </data>
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90Avvio diagnostica...              
+g90
+y91Controllo fabbricatore v156.5.9870
+g92 Sistema di alimentazione [OK]
+g92 Integrità fisica [OK]
+r95 Unità di controllo sistemi primari GUASTA, l'unità non ripsonde
+g90
+w90Ultime voci del registro:
+r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
+g90
+y39Richiesta azione immediata: sostituisci il chip ALU 8BIT. Requisiti inviati alla stazione di lavoro...
+r95CODICE_ERRORE: 0x052001 La stazione di lavoro non è pronta, le banche materiali sono OFFLINE
+g90
+y39Richiesta azione immediata: Riporta le banche materiali online per continuare.</value>
+  </data>
 </root>

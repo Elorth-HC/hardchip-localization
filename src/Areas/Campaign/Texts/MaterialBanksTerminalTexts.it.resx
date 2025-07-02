@@ -154,4 +154,61 @@ r93CODICE_ERRORE: 0x0CAF25 Rilevato guasto al gestore output. Inventario infinit
   <data name="StatusFixed" xml:space="preserve">
     <value>g90Stato della banca materiali: OPERATIVO.</value>
   </data>
+  <data name="RebootFix1" xml:space="preserve">
+    <value>y95Tentativo di riavvio forzato...
+g90
+g90=========================================================================
+g90Banca materiali autonoma v12.0.4575                 
+g90=========================================================================
+g90
+g96Verifica sistemi primari...
+g90
+g92 Sistema di alimentazione [OK]
+g92 Integrità fisica [OK]
+y95 Unità di controllo dei sistemi primari [RIPRISTINATA]
+g92 Inventario materiali [OK]
+g92 Connessione al fabbricatore [OK]
+g90
+g90Sequenza di riavvio completata. Stato banca materiali: OPERATIVA.</value>
+  </data>
+  <data name="RebootFix2" xml:space="preserve">
+    <value>y95Tentativo di riavvio forzato...
+g90
+g90=========================================================================
+g90Banca materiali autonoma v12.0.4575                 
+g90=========================================================================
+g90
+g96Verifica sistemi primari...
+g90
+g92 Sistema di alimentazione [OK]
+g92 Integrità fisica [OK]
+y95 Unità di controllo dei sistemi primari [OK]
+g92 Inventario materiali [RIPRISTINATO]
+g92 Connessione al fabbricatore [OK]
+g90
+g90Sequenza di riavvio completata. Stato banca materiali: OPERATIVA.</value>
+  </data>
+  <data name="StatusBroken1" xml:space="preserve">
+    <value>g90Avvio diagnostica...
+g90
+g91Banca materiali autonoma v12.0.4575
+g92 Sistema di alimentazione [OK]
+g92 Integrità fisica [OK]
+r95 Unità di controllo sistemi primari [GUASTA], l'unità non ripsonde
+r95CODICE_ERRORE: 0xEFDFB4 chip INVERTIORE danneggiato
+g90
+y39Richiesta azione immediata: sostituisci il chip INVERTER. Requisiti inviati alla stazione di lavoro.</value>
+  </data>
+  <data name="StatusBroken2" xml:space="preserve">
+    <value>g90Avvio diagnostica...
+g90
+g91Banca materiali autonoma v12.0.4575
+g92 Sistema di alimentazione [OK]
+g92 Integrità fisica [OK]
+g92 Unità di controllo sistemi primari [OK]
+r95 Inventario materiali [GUASTO], conteggi impossibili rilevati.
+r95CODICE_ERRORE: 0xEFDFB4 chip ADDER 8BIT danneggiato
+g90
+y39Richiesta azione immediata: sostituisci il chip ADDER 8BIT. Requisiti inviati alla stazione di lavoro.</value>
+  </data>
 </root>

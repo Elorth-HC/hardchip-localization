@@ -126,7 +126,7 @@ g17.....
 g90Fatto.</value>
   </data>
   <data name="ALUDone" xml:space="preserve">
-    <value>g90Progetto del chip ALU8BIT : COMPLETATO
+    <value>g90Progetto del chip ALU 8BIT: COMPLETATO
 g90
 g92Fabbricatore [ATTIVO]
 g90Invio del progetto al fabbricatore...
@@ -168,5 +168,89 @@ g90Pronto per iniziare il processo di progettazione.</value>
   <data name="ReceivedInverterRequirement" xml:space="preserve">
     <value>g90Ricevute le specifiche del chip INVERTITORE.
 g90Pronto per iniziare il processo di progettazione.</value>
+  </data>
+  <data name="StartAdder" xml:space="preserve">
+    <value>g90=========================================================================
+g90Postazione da lavoro rapida per prototipi v0.55.677
+g90=========================================================================
+g90
+g92Banca materiali primaria [ONLINE]
+y95Banca materiali secondaria [OFFLINE]
+y92Fabbricatore PARZIALMENTE ONLINE
+g90
+g90Ricevuti i requisiti per chip ADDER 8BIT.
+r99errore: errore nessun chip trovato nel database!
+g90
+g95Elaborazione requisiti ricevuti delle parti per il chip ADDER 8BIT...
+g92   requisiti porta logica NOT
+g92   requisiti porta logica NAND
+g92   requisiti porta logica AND
+g92   requisiti porta logica OR
+g92   requisiti porta logica XOR
+g92   requisiti Bit Full Adder
+g92   requisiti 4bit Adder
+g92   requisiti 8bit Adder
+g92Tutte le parti richieste caricate
+g90
+y39Ambiente postazione da lavoro pronto per lo sviluppo con semi-conduttori dell'ADDER 8BIT.</value>
+  </data>
+  <data name="StartALU" xml:space="preserve">
+    <value>g90=========================================================================
+g90Postazione da lavoro rapida per prototipi v0.55.677
+g90=========================================================================
+g90
+g92Banca materiali primaria [ONLINE]
+g95Banca materiali secondaria[ONLINE]
+g92Fabbricatore ONLINE
+g90
+g90Received requirements for 8BIT ALU chip.
+r99error: no chip found in the database!
+g90
+g95Elaborazione requisiti ricevuti delle parti per il chip ALU 8BIT...
+g92   requisiti porta logica XOR
+g92   requisiti porta logica NOR8
+g92   requisiti 8bit Adder
+g92   requisiti rappresentazione numeri con segno
+g92   requisiti invertitore+1
+g92   requisiti sottrattore
+g92   requisiti ALU 8bit 
+g92Tutte le parti richieste caricate
+g90
+y39Ambiente postazione da lavoro pronto per lo sviluppo con semi-conduttori dell'ALU 8BIT.</value>
+  </data>
+  <data name="StartBypass" xml:space="preserve">
+    <value>g90=========================================================================
+g90Postazione da lavoro rapida per prototipi v0.55.677
+g90=========================================================================
+g90
+g35Accensione...
+g90
+g92Sistemi di alimentazione [OK]
+g92Integrità fisica [OK]
+y92Fabbricatore PARZIALMENTE ONLINE
+r95Database dei chip GUASTO, dati corrotti
+r99errore: dati corrotti, formattazione database... 
+g90
+g90Requisiti ricevuti per il chip BYPASS.</value>
+  </data>
+  <data name="StartInverter" xml:space="preserve">
+    <value>g90=========================================================================
+g90Postazione da lavoro rapida per prototipi v0.55.677
+g90=========================================================================
+g90
+y92Banca materiali primaria [OFFLINE]
+y95Banca materiali secondaria [OFFLINE]
+y92Fabbricatore PARZIALMENTE ONLINE
+g90
+g90Ricevuti i requisiti per chip INVERTITORE 8BIT.
+r99errore: errore nessun chip trovato nel database!
+g90
+g95Elaborazione requisiti ricevuti delle parti per il chip INVERTITORE...
+g92   requisiti PMOS
+g92   requisiti NMOS
+g92   requisiti porta logica NOT
+g92Tutte le parti richieste caricate
+g90
+y39Ambiente postazione da lavoro pronto per lo sviluppo con semi-conduttori dell'INVERTITORE.</value>
   </data>
 </root>

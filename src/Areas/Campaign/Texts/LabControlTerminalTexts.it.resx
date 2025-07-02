@@ -177,4 +177,16 @@ g92Porta di sicurezza aperta</value>
   <data name="StatusFixed" xml:space="preserve">
     <value>g90Stato del controllo stanza: OPERATIVO</value>
   </data>
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90Avvio diagnostica...              
+g90
+g91Controllo stanza autonomo v156.5.9870                   
+g92 Integrità fisica [OK]
+g92 Sistema di alimentazione [OK]
+g92Verifica del sigillo meccanico della porta di sicurezza [OK]
+r95Sistema dell'unità di controllo della porta di emergenza GUASTO, l'unità non risponde
+r95CODICE_ERRORE: 0xEFDFB4 chip BYPASS danneggiato
+g90
+y39Richiesta azione immediata: sostituisci il chip BYPASS. Specifiche inviate alla postazione da lavoro.</value>
+  </data>
 </root>

@@ -193,4 +193,20 @@ g90Sequenza di riavvio completata. Stato generatore: OPERATIVO.
     <value>g90
 g90Stato del generatore: OPERATIVO.</value>
   </data>
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90Avvio diagnostica...              
+g90
+g91Generatore autonomo v156.5.9870
+g93 Integrità fisica: [OK]
+g92 Sistemi di controllo: [OK]
+g90
+r90 Stato attuale: NON RISPONDE
+g90 Produzione di energia attuale: 0.1%%
+g90
+w90Ultime voci del registro:
+r92 CODICE_ERRORE: 0x00FFB4 Sbalzo di tensione. Probabile danno ai componenti elettronici. Sistemi di distribuzione dell'energia in modalità sicura.
+r92 CODICE_ERRORE: 0x01FAB1 Guasto cirtico. Richiesto riavvio di sistema.
+g90
+y39Azione immediata richiesta: riavvio.</value>
+  </data>
 </root>
