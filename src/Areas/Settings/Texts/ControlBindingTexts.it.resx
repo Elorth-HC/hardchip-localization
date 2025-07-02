@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="_0AlreadyUsed" xml:space="preserve">
-    <value>{0} è già stato utilizzato</value>
+    <value>{0} è già utilizzato</value>
   </data>
   <data name="BuildUpward" xml:space="preserve">
     <value>Costruisci verso l'alto</value>
   </data>
   <data name="CameraControls" xml:space="preserve">
-    <value>Controlli della fotocamera</value>
+    <value>Controlli visuale</value>
   </data>
   <data name="CanTUse0" xml:space="preserve">
     <value>Non puoi usare {0}</value>
   </data>
   <data name="CenterCamera" xml:space="preserve">
-    <value>Centra fotocamera</value>
+    <value>Centra visuale</value>
   </data>
   <data name="Copy" xml:space="preserve">
     <value>Copia</value>
@@ -142,8 +142,8 @@
     <value>Cancella blocchi</value>
   </data>
   <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
-    <value>Tasti premuti permanentemente sono rilevati e ignorati da Hard Chip.
-Questo può essere causato da alcune tastiere specifiche che utilizzano un modificatore di tasti (Es: Input giapponese).</value>
+    <value>I tasti premuti continuamente sono rilevati e ignorati da Hard Chip.
+Ciò può essere causato da alcune tastiere specifiche che utilizzano un modificatore di tasti (Es: Input giapponese).</value>
   </data>
   <data name="Editor" xml:space="preserve">
     <value>Editor</value>
@@ -164,13 +164,13 @@ Questo può essere causato da alcune tastiere specifiche che utilizzano un modif
     <value>Interagisci</value>
   </data>
   <data name="LookAround" xml:space="preserve">
-    <value>Guardati attorno</value>
+    <value>Ruota visuale</value>
   </data>
   <data name="Misc" xml:space="preserve">
     <value>Altro</value>
   </data>
   <data name="MoveAround" xml:space="preserve">
-    <value>Muoviti attorno</value>
+    <value>Sposta la visuale</value>
   </data>
   <data name="NextSlot" xml:space="preserve">
     <value>Slot successivo</value>
@@ -179,17 +179,17 @@ Questo può essere causato da alcune tastiere specifiche che utilizzano un modif
     <value>Incolla</value>
   </data>
   <data name="PedestalViewDown" xml:space="preserve">
-    <value>Piedistallo vista verso il basso</value>
+    <value>Abbassa la visuale</value>
   </data>
   <data name="PedestalViewUp" xml:space="preserve">
-    <value>Piedistallo vista verso l'alto</value>
+    <value>Alza la visuale</value>
   </data>
   <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
     <value>Tasti premuti continuamente ingorati: </value>
   </data>
   <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>Premi un tasto da assegnare. 
-Tasto sinistro del mouse per eliminare.</value>
+Tasto sinistro del mouse per rimuoverlo.</value>
   </data>
   <data name="PreviousSlot" xml:space="preserve">
     <value>Slot precedente</value>
@@ -201,16 +201,16 @@ Tasto sinistro del mouse per eliminare.</value>
     <value>Resetta</value>
   </data>
   <data name="ResetBindings" xml:space="preserve">
-    <value>Ripristina le associazioni</value>
+    <value>Ripristina controlli</value>
   </data>
   <data name="RotatePart" xml:space="preserve">
     <value>Ruota la parte</value>
   </data>
   <data name="RotateViewLeft" xml:space="preserve">
-    <value>Ruota vista a sinistra</value>
+    <value>Ruota visuale a sinistra</value>
   </data>
   <data name="RotateViewRight" xml:space="preserve">
-    <value>Ruota vista a destra</value>
+    <value>Ruota visuale a destra</value>
   </data>
   <data name="RunValidation" xml:space="preserve">
     <value>Inizia verifica</value>
@@ -219,13 +219,13 @@ Tasto sinistro del mouse per eliminare.</value>
     <value>Seleziona tutto</value>
   </data>
   <data name="SelectMode" xml:space="preserve">
-    <value>Modalità di modifica</value>
+    <value>Modalità modifica</value>
   </data>
   <data name="SelectSegment" xml:space="preserve">
     <value>Seleziona segmento</value>
   </data>
   <data name="SettingKeyInput" xml:space="preserve">
-    <value>Assegnando tasto in input...</value>
+    <value>Assegna un tasto...</value>
   </data>
   <data name="Simulation" xml:space="preserve">
     <value>Simulazione</value>
@@ -255,16 +255,16 @@ Tasto sinistro del mouse per eliminare.</value>
     <value>Avvicina i bit di input/output</value>
   </data>
   <data name="Step" xml:space="preserve">
-    <value>Passo</value>
+    <value>Avanza di un passo</value>
   </data>
   <data name="SwitchFreeCam" xml:space="preserve">
-    <value>Passa alla fotocamera libera</value>
+    <value>Passa alla visuale libera</value>
   </data>
   <data name="SwitchModes" xml:space="preserve">
     <value>Cambia modalità</value>
   </data>
   <data name="ToggleCamMovements" xml:space="preserve">
-    <value>Abilita/Disabilita movimenti della fotocamera</value>
+    <value>Abilita/Disabilita movimenti visuale</value>
   </data>
   <data name="Undo" xml:space="preserve">
     <value>Annulla</value>

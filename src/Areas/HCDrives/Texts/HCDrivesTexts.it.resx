@@ -151,7 +151,7 @@ Premi INSTALLA per completare l'installazione del chip.</value>
   </data>
   <data name="ExportSuccessMessage" xml:space="preserve">
     <value>Esportazione avvenuta con successo.
-Un nuovo HCDrive è negli appunti! Ora puoi condividerlo incollandolo su Explorer o qualsiasi altro programma che supporti le immagini.</value>
+Un nuovo HCDrive è negli appunti! Ora puoi condividerlo incollandolo su Esplora Risorse o qualsiasi altro programma che supporti le immagini.</value>
   </data>
   <data name="InstallFailedMessage" xml:space="preserve">
     <value>Installazione fallita.
@@ -171,8 +171,7 @@ Assicurati che un file HCDrive sia negli appunti e premi il pulsante carica.</va
   <data name="NoHCDriveMessage" xml:space="preserve">
     <value>Nessun HCDrive inserito!
 
-Gli HCDrive sono file compressi che contengono chip, fasi e progetti.
-Creati per essere condivisibili facilmente. 
+Gli HCDrive sono file compressi che contengono chip, fasi e progetti. Creati per essere condivisibili facilmente. 
 
 Assicurati che un file HCDrive o un collegamento ad un file siano negli appunti e premi CARICA.</value>
   </data>
@@ -182,7 +181,7 @@ Assicurati che un file HCDrive o un collegamento ad un file siano negli appunti 
 - Etichetta: {0}
 - Descrizione: {1}
 
-Premi ESPORTA per creare un HCDrive della fase.</value>
+Premi ESPORTA per creare un HCDrive.</value>
   </data>
   <data name="StageToImportMessage" xml:space="preserve">
     <value>HCDrive valido inserito. Fase della community rilevata:
@@ -190,6 +189,6 @@ Premi ESPORTA per creare un HCDrive della fase.</value>
 - Etichetta: {0}
 - Descrizione: {1}
 
-Premi INSTALLA per finalizzare l'installazione della fase.</value>
+Premi INSTALLA per completare l'installazione.</value>
   </data>
 </root>

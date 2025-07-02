@@ -127,22 +127,22 @@
     <value>Fasi aggiuntive</value>
   </data>
   <data name="ComingSoon" xml:space="preserve">
-    <value>A breve.</value>
+    <value>In arrivo a breve.</value>
   </data>
   <data name="CommentsSuggestionsBugReportOnHardChipSDiscord" xml:space="preserve">
     <value>Commenti/Consigli/Segnalazione di bug sul canale Discord di Hard Chip!</value>
   </data>
   <data name="FinishTheByteAdderChipToUnlock" xml:space="preserve">
-    <value>Finisci il chip sommatore byte per sbloccare.</value>
+    <value>Finisci il chip SOMMATORE 8BIT per sbloccare.</value>
   </data>
   <data name="FinishTheInverterChipMapToUnlock" xml:space="preserve">
-    <value>Finisci il chip invertitore per sbloccare.</value>
+    <value>Finisci il chip INVERTITORE per sbloccare.</value>
   </data>
   <data name="JoinHardChipSSteamCommunity" xml:space="preserve">
     <value>Unisciti alla community Steam di Hard Chip!</value>
   </data>
   <data name="LinksBugsCommentsOrFeedback" xml:space="preserve">
-    <value>Collegamenti: bug, commenti o opinioni?</value>
+    <value>Link: bug, commenti o opinioni?</value>
   </data>
   <data name="MusicMEGAS" xml:space="preserve">
     <value>Musica: MEGAS </value>

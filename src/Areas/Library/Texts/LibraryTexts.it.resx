@@ -130,7 +130,7 @@
     <value>Pulisci</value>
   </data>
   <data name="CommunityStageName" xml:space="preserve">
-    <value>nome delle fasi della community</value>
+    <value>nome della fase della community</value>
   </data>
   <data name="Deterministic" xml:space="preserve">
     <value>Deterministico</value>

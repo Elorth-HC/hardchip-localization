@@ -136,7 +136,7 @@
     <value>Chip pronto!</value>
   </data>
   <data name="Completion" xml:space="preserve">
-    <value>completamento </value>
+    <value>Completamento </value>
   </data>
   <data name="Counters" xml:space="preserve">
     <value>Contatori</value>
@@ -145,7 +145,7 @@
     <value>Decodificatori</value>
   </data>
   <data name="Fabricate" xml:space="preserve">
-    <value>Fabbrica</value>
+    <value>Produci</value>
   </data>
   <data name="IncompleteChip" xml:space="preserve">
     <value>Chip incompleto</value>
