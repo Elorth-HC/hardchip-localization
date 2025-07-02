@@ -24,6 +24,9 @@ Contributors who wished to get recognized:
 
 #### 🇷🇺 Russian (ru)
 
+#### 🇮🇹 Italian (it)
+- **ir_trevi** - Full translation
+
 
 ## Recognition Guidelines
 
