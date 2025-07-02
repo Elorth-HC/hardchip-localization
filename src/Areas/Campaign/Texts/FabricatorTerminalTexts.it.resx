@@ -134,11 +134,11 @@ g92Interfaccia di controllo esterna... [OK]
 r95Banca materiali 1 [OFFLINE]
 r95Banca materiali 2 [OFFLINE]
 g90
-y95ATTENZIONE: Banca materiali non disponibile. Materiali di scorta disponibili solo per operazioni limitate.
+y95ATTENZIONE: Banche materiali non disponibili. Materiali di scorta disponibili solo per operazioni limitate.
 g90
 g39Sequenza di accensione completata. Stato fabbricatore: PARZIALMENTE OPERATIVO
 g90
-g90Ricevute specifiche per progetto chip BYPASS .
+g90Ricevute specifiche per il progetto del chip BYPASS .
 g90Pronto per cominciare il processo di fabbricazione.</value>
   </data>
   <data name="GenericFabricateLog" xml:space="preserve">
@@ -173,11 +173,11 @@ g90Registro di fabbricazione salvato. ID Lotto: 2224A[BATCHID]X.</value>
 r90CODICE_ERRORE: ?x?????? guarda sopra il tavolo del fabbricatore</value>
   </data>
   <data name="ReceivedAdder" xml:space="preserve">
-    <value>g90Ricevute le specifiche per il progetto del chip ADDER 8BIT.
+    <value>g90Ricevute le specifiche per il progetto del chip SOMMATORE 8BIT.
 g90Pronto per iniziare il processo di fabbricazione.</value>
   </data>
   <data name="ReceivedALU" xml:space="preserve">
-    <value>g90Ricevute le specifiche per il progetto del chip ALU.
+    <value>g90Ricevute le specifiche per il progetto del chip ALU 8BIT.
 g90Pronto per iniziare il processo di fabbricazione.</value>
   </data>
   <data name="ReceivedInverter" xml:space="preserve">

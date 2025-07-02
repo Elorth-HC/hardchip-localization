@@ -128,7 +128,7 @@ y95ATTENZIONE: 0x45FDB3 chip BYPASS sostituito. Riavvio richiesto.</value>
   </data>
   <data name="FirstScreenEver" xml:space="preserve">
     <value>r90
-r93CODICE_ERRORE: 0x04FAB9 Timeout di rete. Connessione persa.
+r93CODICE_ERRORE: 0x04FAB9 Interruzione di rete. Connessione persa.
 r90
 r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile.
 r90
@@ -181,8 +181,8 @@ g92Porta di sicurezza aperta</value>
     <value>g90Avvio diagnostica...              
 g90
 g91Controllo stanza autonomo v156.5.9870                   
-g92 Integrità fisica [OK]
-g92 Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+g92Sistema di alimentazione [OK]
 g92Verifica del sigillo meccanico della porta di sicurezza [OK]
 r95Sistema dell'unità di controllo della porta di emergenza GUASTO, l'unità non risponde
 r95CODICE_ERRORE: 0xEFDFB4 chip BYPASS danneggiato

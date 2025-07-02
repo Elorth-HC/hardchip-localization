@@ -137,7 +137,7 @@ y95ATTENZIONE: 0x45FDB3 chip SOMMATORE 8BIT sostituito. Riavvio richiesto.</valu
   </data>
   <data name="FirstScreenEver1" xml:space="preserve">
     <value>r90
-r93CODICE_ERRORE: 0x04FAB9 Timeout di rete. Connessione persa.
+r93CODICE_ERRORE: 0x04FAB9 Interruzione di rete. Connessione persa.
 r90
 r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile.
 r90
@@ -145,7 +145,7 @@ r93CODICE_ERRORE: 0x0CAF89 Rilevato guasto al gestore output. Non invertibile.</
   </data>
   <data name="FirstScreenEver2" xml:space="preserve">
     <value>r90
-r93CODICE_ERRORE: 0x04FAB9 Timeout di rete. Connessione persa.
+r93CODICE_ERRORE: 0x04FAB9 Interruzione di rete. Connessione persa.
 r90
 r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile.
 r90
@@ -180,11 +180,11 @@ g90=========================================================================
 g90
 g96Verifica sistemi primari...
 g90
-g92 Sistema di alimentazione [OK]
-g92 Integrità fisica [OK]
-y95 Unità di controllo dei sistemi primari [OK]
-g92 Inventario materiali [RIPRISTINATO]
-g92 Connessione al fabbricatore [OK]
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+y95Unità di controllo dei sistemi primari [OK]
+g92Inventario materiali [RIPRISTINATO]
+g92Connessione al fabbricatore [OK]
 g90
 g90Sequenza di riavvio completata. Stato banca materiali: OPERATIVA.</value>
   </data>
@@ -192,23 +192,23 @@ g90Sequenza di riavvio completata. Stato banca materiali: OPERATIVA.</value>
     <value>g90Avvio diagnostica...
 g90
 g91Banca materiali autonoma v12.0.4575
-g92 Sistema di alimentazione [OK]
-g92 Integrità fisica [OK]
-r95 Unità di controllo sistemi primari [GUASTA], l'unità non ripsonde
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+r95Unità di controllo sistemi primari [GUASTA], l'unità non risponde
 r95CODICE_ERRORE: 0xEFDFB4 chip INVERTIORE danneggiato
 g90
-y39Richiesta azione immediata: sostituisci il chip INVERTER. Requisiti inviati alla stazione di lavoro.</value>
+y39Richiesta azione immediata: sostituisci il chip INVERTIORE. Requisiti inviati alla postazione da lavoro.</value>
   </data>
   <data name="StatusBroken2" xml:space="preserve">
     <value>g90Avvio diagnostica...
 g90
 g91Banca materiali autonoma v12.0.4575
-g92 Sistema di alimentazione [OK]
-g92 Integrità fisica [OK]
-g92 Unità di controllo sistemi primari [OK]
-r95 Inventario materiali [GUASTO], conteggi impossibili rilevati.
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+g92Unità di controllo sistemi primari [OK]
+r95Inventario materiali [GUASTO], conteggi impossibili rilevati.
 r95CODICE_ERRORE: 0xEFDFB4 chip ADDER 8BIT danneggiato
 g90
-y39Richiesta azione immediata: sostituisci il chip ADDER 8BIT. Requisiti inviati alla stazione di lavoro.</value>
+y39Richiesta azione immediata: sostituisci il chip SOMMATORE 8BIT. Requisiti inviati alla postazione da lavoro.</value>
   </data>
 </root>

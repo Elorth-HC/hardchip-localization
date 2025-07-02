@@ -122,7 +122,7 @@
 r90
 r93CODICE_ERRORE: 0x03FAA3 errore I/O. Il dispositivo non risponde.
 r90
-r93CODICE_ERRORE: 0x04FAB9 Timeout di rete. Connessione persa.
+r93CODICE_ERRORE: 0x04FAB9 Interruzione di rete. Connessione persa.
 r90
 r93CODICE_ERRORE: 0x02FAC2 Superata capacità memoria. Processo terminato inaspettatamente.
 r90
@@ -147,7 +147,7 @@ g90Calibrazione campi di contenimento di energia... [OK]
 g90Attivazione dei sistemi di regolazione termica... [OK]
 g90Apertura valvole di afflusso del carburante... [OK]
 g90Accensione sistemi di distribuzione energia... [OK]
-g90Verifica dei livelli di enrgia... [OK]
+g90Verifica dei livelli di energia... [OK]
 g90Sincronizzazione con interfaccia di controllo esterno... [OK]
 g90
 g90Sequenza di riavvio completata. Stato generatore: OPERATIVO.</value>
@@ -180,7 +180,7 @@ g92Calibrazione campi di contenimento di energia... [OK]
 g93Attivazione dei sistemi di regolazione termica... [OK]
 g92Apertura valvole di afflusso del carburante... [OK]
 g99Accensione sistemi di distribuzione energia... [OK]
-g99Verifica dei livelli di enrgia... [OK]
+g99Verifica dei livelli di energia... [OK]
 g91Sincronizzazione con interfaccia di controllo esterno... [OK]
 g90
 g90Sequenza di riavvio completata. Stato generatore: OPERATIVO.
@@ -197,15 +197,15 @@ g90Stato del generatore: OPERATIVO.</value>
     <value>g90Avvio diagnostica...              
 g90
 g91Generatore autonomo v156.5.9870
-g93 Integrità fisica: [OK]
-g92 Sistemi di controllo: [OK]
+g93Integrità fisica: [OK]
+g92Sistemi di controllo: [OK]
 g90
-r90 Stato attuale: NON RISPONDE
-g90 Produzione di energia attuale: 0.1%%
+r90Stato attuale: NON RISPONDE
+g90Produzione di energia attuale: 0.1%%
 g90
 w90Ultime voci del registro:
-r92 CODICE_ERRORE: 0x00FFB4 Sbalzo di tensione. Probabile danno ai componenti elettronici. Sistemi di distribuzione dell'energia in modalità sicura.
-r92 CODICE_ERRORE: 0x01FAB1 Guasto cirtico. Richiesto riavvio di sistema.
+r92CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile. Sistemi di distribuzione dell'energia in modalità sicura.
+r92CODICE_ERRORE: 0x01FAB1 Guasto critico. Richiesto riavvio di sistema.
 g90
 y39Azione immediata richiesta: riavvio.</value>
   </data>
