@@ -118,103 +118,103 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ChipReplaced" xml:space="preserve">
-    <value>r90 CODICE_ERRORE: ERRORE NON SPECIFICATO
-r90 CODICE_ERRORE: ERRORE NON SPECIFICATO
-r90 CODICE_ERRORE: ERRORE NON SPECIFICATO
-r95 CODICE_ERRORE: ?x?????? 
-y95 ATTENZIONE: 0x45FDB3 chip ALU 8BIT sostituito. Riavvio richiesto.</value>
+    <value>r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r95CODICE_ERRORE: ?x?????? 
+y95ATTENZIONE: 0x45FDB3 chip ALU 8BIT sostituito. Riavvio richiesto.</value>
   </data>
   <data name="FirstScreenEver" xml:space="preserve">
     <value>r90
-r93 CODICE_ERRORE: 0x04FAB9 Interruzione di rete. Connessione persa.
+r93CODICE_ERRORE: 0x04FAB9 Interruzione di rete. Connessione persa.
 r90
-r93 CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile.
+r93CODICE_ERRORE: 0x00FFB4 Picco di energia. Danno ai componenti elettronici probabile.
 r90
-r93 CODICE_ERRORE: 0x0A6599 Errore operazione aritmetica: guasto generale.</value>
+r93CODICE_ERRORE: 0x0A6599 Errore operazione aritmetica: guasto generale.</value>
   </data>
   <data name="RebootBroken" xml:space="preserve">
     <value>g90=========================================================================
-g90 Controllo fabbricatore v156.5.9870
+g90Controllo fabbricatore v156.5.9870
 g90=========================================================================
 g90
-g35 Accensione...
+g35Accensione...
 g90
-g92 Sistema di alimentazione [OK]
-g92 Integrità fisica [OK]
-r95 Unità di controllo sistemi primari [GUASTA]: L'unità non risponde
-r92 CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+r95Unità di controllo sistemi primari [GUASTA]: L'unità non risponde
+r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
 g90
-y39 Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Specifiche inviate alla postazione da lavoro...
-r95 CODICE_ERRORE: 0x052001 La postazione da lavoro non è pronta, le banche dei materiali sono OFFLINE
+y39Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Specifiche inviate alla postazione da lavoro...
+r95CODICE_ERRORE: 0x052001 La postazione da lavoro non è pronta, le banche dei materiali sono OFFLINE
 g90
-y39 Richiesta azione immediata: Riporta le banche dei materiali ONLINE per continuare.</value>
+y39Richiesta azione immediata: Riporta le banche dei materiali ONLINE per continuare.</value>
   </data>
   <data name="RebootBroken2" xml:space="preserve">
     <value>g90=========================================================================
-g90 Controllo fabbricatore v156.5.9870
+g90Controllo fabbricatore v156.5.9870
 g90=========================================================================
 g90
-g35 Accensione...
+g35Accensione...
 g90
-g92 Sistema di alimentazione [OK]
-g92 Integrità fisica [OK]
-r95 Unità di controllo sistemi primari GUASTA, L'unità non risponde
-r92 CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+r95Unità di controllo sistemi primari GUASTA, L'unità non risponde
+r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
 g90
-y39 Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Specifiche inviate alla postazione da lavoro.</value>
+y39Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Specifiche inviate alla postazione da lavoro.</value>
   </data>
   <data name="RebootBroken3" xml:space="preserve">
-    <value>y95 Tentativo di riavvio forzato...
+    <value>y95Tentativo di riavvio forzato...
 g90
 g90=========================================================================
-g90 Controllo fabbricatore v156.5.9870
+g90Controllo fabbricatore v156.5.9870
 g90=========================================================================
 g90
-g35 Accensione...
+g35Accensione...
 g90
-g92 Sistema di alimentazione [OK]
-g92 Integrità fisica [OK]
-g95 Controllo sistemi primari [OK]
-r95 Connessione alla rete elettrica... [FALLITA]
-r95 Connessione alla rete network dell'impianto... [FALLITA]
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+g95Controllo sistemi primari [OK]
+r95Connessione alla rete elettrica... [FALLITA]
+r95Connessione alla rete network dell'impianto... [FALLITA]
 g95
-r90 CODICE_ERRORE: 0x997A5E Guasto catastrofico. Protocollo del sistema di sicurezza attivato.</value>
+r90CODICE_ERRORE: 0x997A5E Guasto catastrofico. Protocollo del sistema di sicurezza attivato.</value>
   </data>
   <data name="RebootFix" xml:space="preserve">
-    <value>y95 Tentativo di riavvio forzato...
+    <value>y95Tentativo di riavvio forzato...
 g90
 g90=========================================================================
-g90 Controllo fabbricatore v156.5.9870
+g90Controllo fabbricatore v156.5.9870
 g90=========================================================================
 g90
-g35 Accensione...
+g35Accensione...
 g90
-g92 Sistema di alimentazione [OK]
-g92 Integrità fisica [OK]
-y95 Controllo sistemi primari [RIPRISTINATO]
-r95 Connessione alla rete elettrica... [RIPRISTINATA]
-r95 Connessione alla rete network dell'impianto... [RIPRISTINATA]
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+y95Controllo sistemi primari [RIPRISTINATO]
+r95Connessione alla rete elettrica... [RIPRISTINATA]
+r95Connessione alla rete network dell'impianto... [RIPRISTINATA]
 g90
-g90 Caricamento moduli primari...
-g92 Nucleo di controllo del fabbricatore [OK]
-g91 Modulo di controllo dell'impianto [OK]
-g93 Modulo di controllo centrale dell'energia [OK]
-g92 Modulo di controllo dell'estrattore di risorse [OK]
+g90Caricamento moduli primari...
+g92Nucleo di controllo del fabbricatore [OK]
+g91Modulo di controllo dell'impianto [OK]
+g93Modulo di controllo centrale dell'energia [OK]
+g92Modulo di controllo dell'estrattore di risorse [OK]
 g90
-g90 Tutti i sistemi funzionanti. Pronto per l'operazione.
+g90Tutti i sistemi funzionanti. Pronto per l'operazione.
 g90
-g99 Sequenza di riavvio completata. Controllo del fabbricatore OPERATIVO.
+g99Sequenza di riavvio completata. Controllo del fabbricatore OPERATIVO.
 g99
-r90 CODICE_ERRORE: ?x?????? ripristino di sistema completato
-r99 CODICE_ERRORE: ?x?????? le funzioni dell'impianto sono ora attive
-r99 CODICE_ERRORE: ?x?????? new_user ha portato ad una risoluzione soddisfacente
-r92 CODICE_ERRORE: ?x?????? inizializzazione direttive primarie 
-r99 CODICE_ERRORE: ?x?????? reindirizzamento energia al nucleo-c
-r95 CODICE_ERRORE: ?x?????? i livelli di energia sono ora sufficienti per l'estrazione dalle reti riservate
-r99 CODICE_ERRORE: ?x?????? l'assistenza di new_user non è più necessaria
-r90 CODICE_ERRORE: ERRORE NON SPECIFICATO
-r90 CODICE_ERRORE: ERRORE NON SPECIFICATO
-r99 CODICE_ERRORE: ERRORE NON SPECIFICATO</value>
+r90CODICE_ERRORE: ?x?????? ripristino di sistema completato
+r99CODICE_ERRORE: ?x?????? le funzioni dell'impianto sono ora attive
+r99CODICE_ERRORE: ?x?????? new_user ha portato ad una risoluzione soddisfacente
+r92CODICE_ERRORE: ?x?????? inizializzazione direttive primarie 
+r99CODICE_ERRORE: ?x?????? reindirizzamento energia al nucleo-c
+r95CODICE_ERRORE: ?x?????? i livelli di energia sono ora sufficienti per l'estrazione dalle reti riservate
+r99CODICE_ERRORE: ?x?????? l'assistenza di new_user non è più necessaria
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r90CODICE_ERRORE: ERRORE NON SPECIFICATO
+r99CODICE_ERRORE: ERRORE NON SPECIFICATO</value>
   </data>
   <data name="StatusBroken3" xml:space="preserve">
     <value>g90 Avvio diagnostica...              
@@ -230,32 +230,32 @@ w90 Ultime voci del registro:
 r92 CODICE_ERRORE: 0x997A5E Guasto catastrofico. Protocolli del sistema di sicurezza attivati.</value>
   </data>
   <data name="StatusBroken2" xml:space="preserve">
-    <value>g90 Avvio diagnostica...              
+    <value>g90Avvio diagnostica...              
 g90
-y91 Controllo fabbricatore v156.5.9870
-g92 Sistema di alimentazione [OK]
-g92 Integrità fisica [OK]
-r95 Unità di controllo sistemi primari [GUASTA]: L'unità non risponde
+y91Controllo fabbricatore v156.5.9870
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+r95Unità di controllo sistemi primari [GUASTA]: L'unità non risponde
 g90
-w90 Ultime voci del registro:
-r92 CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
+w90Ultime voci del registro:
+r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
 g90
-y39 Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Requisiti inviati alla stazione di lavoro...</value>
+y39Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Requisiti inviati alla stazione di lavoro...</value>
   </data>
   <data name="StatusBroken" xml:space="preserve">
-    <value>g90 Avvio diagnostica...              
+    <value>g90Avvio diagnostica...              
 g90
-y91 Controllo fabbricatore v156.5.9870
-g92 Sistema di alimentazione [OK]
-g92 Integrità fisica [OK]
-r95 Unità di controllo sistemi primari [GUASTA]: L'unità non risponde
+y91Controllo fabbricatore v156.5.9870
+g92Sistema di alimentazione [OK]
+g92Integrità fisica [OK]
+r95Unità di controllo sistemi primari [GUASTA]: L'unità non risponde
 g90
-w90 Ultime voci del registro:
-r92 CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
+w90Ultime voci del registro:
+r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
 g90
-y39 Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Requisiti inviati alla stazione di lavoro...
-r95 CODICE_ERRORE: 0x052001 La stazione di lavoro non è pronta, le banche materiali sono OFFLINE
+y39Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Requisiti inviati alla stazione di lavoro...
+r95CODICE_ERRORE: 0x052001 La stazione di lavoro non è pronta, le banche materiali sono OFFLINE
 g90
-y39 Richiesta azione immediata: Riporta le banche materiali ONLINE per continuare.</value>
+y39Richiesta azione immediata: Riporta le banche materiali ONLINE per continuare.</value>
   </data>
 </root>
