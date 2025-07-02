@@ -121,16 +121,16 @@
     <value>Azione</value>
   </data>
   <data name="AllSettingsWillBeResetToDefaultRestartingTheGameCouldBeNecessaryToFullyApply" xml:space="preserve">
-    <value>Tutte le impostazione saranno resettate ai valori iniziali. È necessario il riavvio del gioco per applicare tutte le modifiche.</value>
+    <value>Tutte le impostazione saranno ripristinate ai valori iniziali. È necessario il riavvio del gioco per applicare tutte le modifiche.</value>
   </data>
   <data name="ApplySettings" xml:space="preserve">
     <value>Applica</value>
   </data>
   <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
-    <value>Sei sicuro di voler cancellare OGNI soluzione e i progressi della campagna? QUESTO CANCELLERÀ TUTTO, ASSICURATI DI QUELLO CHE STAI FACENDO!</value>
+    <value>Sei sicuro di voler cancellare OGNI soluzione e i progressi nella campagna? QUESTO CANCELLERÀ TUTTO, ASSICURATI DI QUELLO CHE STAI FACENDO!</value>
   </data>
   <data name="AreYouSureYouWantToResetYourCampaignProgressionNSolvedSolutionsWonTBeRemoved" xml:space="preserve">
-    <value>Sei sicuro di voler ripristinare i tuoi progressi della campagna? Le soluzioni non verranno cancellate.</value>
+    <value>Sei sicuro di voler ripristinare i tuoi progressi nella campagna? Le soluzioni non verranno cancellate.</value>
   </data>
   <data name="AutoDetect" xml:space="preserve">
     <value>Rilevazione automatica</value>
@@ -148,7 +148,7 @@
     <value>Può essere incrementato per permettere più annulla, ma consumerà più memoria.</value>
   </data>
   <data name="ChartsAreCalculatedFromAFixedAndLocalSnapshotNofTheLatestSolutionsFromAroundTheWorldYourNscoresDonTUpdateCharts" xml:space="preserve">
-    <value>I grafici sono calcolati sulla base dei dati fissi e in locale delle ultime soluzione da tutto il mondo. I tuoi punteggi non aggiorneranno i grafici.</value>
+    <value>I grafici sono calcolati sulla base dei dati salvati in locale delle ultime soluzione da tutto il mondo. I tuoi punteggi non aggiorneranno i grafici.</value>
   </data>
   <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
     <value>I grafici sono calcolati con le ultime soluzioni da tutto il mondo e i tuoi punteggi aggiorneranno i grafici.</value>
@@ -169,7 +169,7 @@
     <value>Editor</value>
   </data>
   <data name="EditorRenderScale" xml:space="preserve">
-    <value>Editor scala di renderizzazione</value>
+    <value>Scala renderizzazione nell'editor</value>
   </data>
   <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
     <value>Campo visivo usato durante le fasi di modifica. Nessun costo sulla performance.</value>
@@ -196,7 +196,7 @@
     <value>Reset completo</value>
   </data>
   <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
-    <value>Se attivato, fare doppio clic sul tasto destro per passare alla modalità di modifica.
+    <value>Se attivato, fare doppio clic sul tasto destro per passare alla modalità modifica.
 I blocchi di metallo verranno selezionati automaticamente.</value>
   </data>
   <data name="LeaderboardID" xml:space="preserve">
@@ -219,13 +219,13 @@ Valori maggiori diminuiranno la performance, ma aumenteranno la qualità.</value
     <value>Scorrimento mouse sul bordo</value>
   </data>
   <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
-    <value>Muovi la fotocamera quando il mouse è vicino al bordo dello schermo.</value>
+    <value>Muovi la visuale quando il mouse è vicino al bordo dello schermo.</value>
   </data>
   <data name="MouseHorizontalScrolling" xml:space="preserve">
     <value>Scorrimento mouse orizzontale</value>
   </data>
   <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
-    <value>Ruota la fotocamera allo scorrere orizzontale della rotella del mouse.</value>
+    <value>Ruota la visuale allo scorrere orizzontale della rotella del mouse.</value>
   </data>
   <data name="MouseWheelSensitivity" xml:space="preserve">
     <value>Sensibilità rotella del mouse</value>
@@ -234,7 +234,7 @@ Valori maggiori diminuiranno la performance, ma aumenteranno la qualità.</value
     <value>*Le licenze della musica e dell'ambiente consentono contenuto monetizzato.</value>
   </data>
   <data name="NoPerformanceCostButMayCauseDiscomfortToSomeUsers" xml:space="preserve">
-    <value>Nessun costo sulla performance, ma potrebbe causare disconforto ad alcuni utenti.</value>
+    <value>Nessun costo sulla performance, ma potrebbe causare fastidio ad alcuni utenti.</value>
   </data>
   <data name="Online" xml:space="preserve">
     <value>Online</value>
@@ -277,7 +277,7 @@ Valori più alti aumenteranno la qualità, ma diminuiranno la performance.</valu
     <value>Riavvia per applicare i cambiamenti</value>
   </data>
   <data name="SteamName" xml:space="preserve">
-    <value>Nome su Steam:</value>
+    <value>Nome di Steam:</value>
   </data>
   <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
     <value>Questo permette al tuo nome utente di Steam di apparire sulle classifiche al posto dell'attuale nome autogenerato.
@@ -287,19 +287,19 @@ Attivando questo, consentirai ad Hard Chip di usare il tuo nome utente per la vi
     <value>Questo ripristinerà OGNI impostazione, soluzione e progresso nella campagna.</value>
   </data>
   <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
-    <value>Questo ripristinerà il tuo progresso nella campagna, ma NON rimuoverà le soluzioni risolte.</value>
+    <value>Questo ripristinerà i tuoi progressi nella campagna, ma NON rimuoverà le soluzioni risolte.</value>
   </data>
   <data name="UITextScale" xml:space="preserve">
     <value>Dimensioni testo nell'interfaccia</value>
   </data>
   <data name="UndoRedoStackSize" xml:space="preserve">
-    <value>Dimensione stack annulla/ripeti</value>
+    <value>Numero annulla/ripeti in memoria</value>
   </data>
   <data name="UnlimitedOrVSync" xml:space="preserve">
     <value>Illimitato (o VSync)</value>
   </data>
   <data name="UseCubicWhenNothingElseWorksWillRenderCubesInsteadOfComplexShapesFastButUgly" xml:space="preserve">
-    <value>Usa cubico quando nient'altro funziona. Mostrerà cubi invece che di forme complesse, veloce ma brutto.</value>
+    <value>Usa 'cubico' quando nient'altro funziona. Mostrerà cubi invece che di forme complesse, veloce ma brutto.</value>
   </data>
   <data name="UseHCName" xml:space="preserve">
     <value>Usa il nome di Hard Chip</value>

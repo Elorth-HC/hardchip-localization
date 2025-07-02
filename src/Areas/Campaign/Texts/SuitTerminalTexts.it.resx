@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="_0ToPlace" xml:space="preserve">
-    <value>{0} per piazzare il {1}</value>
+    <value>{0} per piazzare {1}</value>
   </data>
   <data name="_0ToTake" xml:space="preserve">
-    <value>{0} per prendere il {1}</value>
+    <value>{0} per prendere {1}</value>
   </data>
   <data name="_8BITADDERChip" xml:space="preserve">
-    <value>chip ADDER 8BIT</value>
+    <value>Chip SOMMATORE 8BIT</value>
   </data>
   <data name="_8BITALUChip" xml:space="preserve">
-    <value>chip ALU 8BIT</value>
+    <value>Chip ALU 8BIT</value>
   </data>
   <data name="BYPASSChip" xml:space="preserve">
     <value>Chip BYPASS</value>
@@ -155,7 +155,7 @@ g30new_user risveglio di emergenza attivato
 g17.....
 g57Segni vitali dell'utente RILEVATI
 g90
-y39Azione richiesta urgentemente: errori di sistema rilevati
+y39Azione immediata richiesta: errori di sistema rilevati
 g90
 w83Premi un tasto per continuare...</value>
   </data>

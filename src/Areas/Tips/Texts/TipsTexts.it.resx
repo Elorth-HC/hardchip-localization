@@ -121,10 +121,10 @@
     <value>Consiglio: usa Ctrl-A per selezionare tutto, Ctrl-X/C/V per tagliare/copiare/incollare.</value>
   </data>
   <data name="DevCTAProposeTip" xml:space="preserve">
-    <value>Sviluppatore: puoi usare il Discord di Hard Chip per proporre qualcosa pensi debba esserci!</value>
+    <value>Sviluppatore: puoi usare il server Discord di Hard Chip per proporre qualcosa che pensi debba essere aggiunto!</value>
   </data>
   <data name="HoldMiddleMouseButtonToRotateAround" xml:space="preserve">
-    <value>Consiglio: usa la rotella del mouse per ruotare la fotocamera attorno alla tua soluzione.</value>
+    <value>Consiglio: usa la rotella del mouse per ruotare la visuale attorno al tuo circuito.</value>
   </data>
   <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
     <value>Consiglio: puoi entrare in modalità selezione (cursore con un blocco verde) premendo il tasto destro in qualsiasi momento.</value>
