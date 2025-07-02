@@ -178,7 +178,7 @@ g92Banca materiali primaria [ONLINE]
 y95Banca materiali secondaria [OFFLINE]
 y92Fabbricatore PARZIALMENTE ONLINE
 g90
-g90Ricevuti i requisiti per chip ADDER 8BIT.
+g90Ricevuti i requisiti per chip SOMMATORE 8BIT.
 r99Errore: errore nessun chip trovato nel database!
 g90
 g95Elaborazione requisiti ricevuti delle parti per il chip SOMMATORE 8BIT...
@@ -209,11 +209,11 @@ g90
 g95Elaborazione requisiti ricevuti delle parti per il chip ALU 8BIT...
 g92   requisiti porta logica XOR
 g92   requisiti porta logica NOR8
-g92   requisiti 8bit Adder
+g92   requisiti SOMMATORE 8BIT
 g92   requisiti rappresentazione numeri con segno
 g92   requisiti invertitore+1
 g92   requisiti sottrattore
-g92   requisiti ALU 8bit 
+g92   requisiti ALU 8BIT
 g92Tutte le parti richieste caricate
 g90
 y39Ambiente postazione da lavoro pronto per lo sviluppo con semi-conduttori dell'ALU 8BIT.</value>

@@ -192,7 +192,7 @@ Puoi anche creare/modificare i tuoi.</value>
 Se un passo fallisce la verifica, la validazione si interromperà.</value>
   </data>
   <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
-    <value>Ripara il CORTOCIRCUITO, poi verifica</value>
+    <value>Ripara il CORTOCIRCUITO, poi VERIFICA</value>
   </data>
   <data name="FollowingTheCriteriaInputAMustBeConnectedToOutputAButNotToOutputBNorC" xml:space="preserve">
     <value>Seguendo i criteri:
@@ -226,7 +226,7 @@ L'input A deve essere connesso all'output A ma né all'output B né al C.</value
     <value>Sarebbe veramente inefficiente ricostruire ogni circuito da capo</value>
   </data>
   <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
-    <value>CTRL sinistro + tenendo premuto il tasto sinistro, poi muovi verso l'alto per aggiungere METALLO vericalmente.</value>
+    <value>CTRL sinistro + tenendo premuto il tasto sinistro, poi muovi verso l'alto per aggiungere METALLO verticalmente.</value>
   </data>
   <data name="MOSCanTakeDifferentShapesNotLimitedToThe3x2x3Blocks" xml:space="preserve">
     <value>I MOS possono assumere diverse forme non limitate a 3x2x3 blocchi.</value>
@@ -324,7 +324,7 @@ Ma i MOSFET (Transistor a Semiconduttori Ossido di Metallo con effetto-campo) po
     <value>Usa la modalità PROGETTO per piazzare un INVERTITORE sul circuito, poi VERIFICA.</value>
   </data>
   <data name="UseTheCompactingTheInverterBlueprintThenValidate" xml:space="preserve">
-    <value>Usa il progetto 'Invertitore compattato' poi verifica.</value>
+    <value>Usa il progetto 'Invertitore compattato', poi VERIFICA.</value>
   </data>
   <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
     <value>Usa il pulsante AIUTO in alto qui o prova a collegare il PMOS da solo</value>
