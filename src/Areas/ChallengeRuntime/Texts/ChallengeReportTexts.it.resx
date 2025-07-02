@@ -164,7 +164,7 @@ Complesso -&gt; Soddisfacente -&gt; Efficiente</value>
     <value>Compatto++</value>
   </data>
   <data name="CompletedSuccessfully" xml:space="preserve">
-    <value> completata con successo.</value>
+    <value> completato con successo.</value>
   </data>
   <data name="Complex" xml:space="preserve">
     <value>Complesso</value>
@@ -231,7 +231,7 @@ Alto -&gt; Soddisfacente -&gt; Ridotto</value>
     <value>Nome</value>
   </data>
   <data name="PerformanceReport" xml:space="preserve">
-    <value>{0} rapporto performance</value>
+    <value>Resoconto performance di {0}</value>
   </data>
   <data name="PhotoMode" xml:space="preserve">
     <value>Modalità foto</value>
@@ -243,7 +243,7 @@ Alto -&gt; Soddisfacente -&gt; Ridotto</value>
     <value>Ridotto+</value>
   </data>
   <data name="ReducedPP" xml:space="preserve">
-    <value>Risotto++</value>
+    <value>Ridotto++</value>
   </data>
   <data name="Satisfactory" xml:space="preserve">
     <value>Soddisfacente</value>
