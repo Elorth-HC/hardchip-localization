@@ -134,11 +134,17 @@ Complesso -&gt; Soddisfacente -&gt; Efficiente</value>
   <data name="FastPP" xml:space="preserve">
     <value>Veloce++</value>
   </data>
+  <data name="FloatingComma" xml:space="preserve">
+    <value>Mobile:</value>
+  </data>
   <data name="Functional" xml:space="preserve">
     <value>Funzionale</value>
   </data>
   <data name="FunctionalSatisfactoryStreamlined" xml:space="preserve">
     <value>Funzionale -&gt; Soddisfacente -&gt; Ottimizzato</value>
+  </data>
+  <data name="Grade" xml:space="preserve">
+    <value>Voto</value>
   </data>
   <data name="Grade01" xml:space="preserve">
     <value>Grado{0}:</value>
@@ -151,6 +157,9 @@ Complesso -&gt; Soddisfacente -&gt; Efficiente</value>
   </data>
   <data name="LastChipChecked" xml:space="preserve">
     <value>Ultimo chip verificato</value>
+  </data>
+  <data name="LossComma" xml:space="preserve">
+    <value>Perdita:</value>
   </data>
   <data name="Masterpiece" xml:space="preserve">
     <value>Capolavoro</value>
@@ -194,6 +203,9 @@ Alto -&gt; Soddisfacente -&gt; Ridotto</value>
   </data>
   <data name="Slow" xml:space="preserve">
     <value>Lento</value>
+  </data>
+  <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
+    <value>Soluzione non aggiornata. Riavvia di nuovo la validazione per aggiornare.</value>
   </data>
   <data name="Streamlined" xml:space="preserve">
     <value>Ottimizzato</value>
