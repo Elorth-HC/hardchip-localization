@@ -178,7 +178,7 @@ Complesso -&gt; Soddisfacente -&gt; Efficiente</value>
 Alto -&gt; Soddisfacente -&gt; Ridotto</value>
   </data>
   <data name="None" xml:space="preserve">
-    <value>Nome</value>
+    <value>Nessuno</value>
   </data>
   <data name="PerformanceReport" xml:space="preserve">
     <value>Resoconto performance di {0}</value>
