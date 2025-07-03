@@ -59,5 +59,6 @@ Currently, Hard Chip supports the following languages:
 - **Spanish** (es)
 - **French** (fr)
 - **Russian** (ru)
+- **Italian** (it)
 
 Thank you for helping make Hard Chip accessible to players worldwide! 🎮

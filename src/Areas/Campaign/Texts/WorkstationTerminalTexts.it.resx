@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdderDone" xml:space="preserve">
+    <value>g90Progetto del chip SOMMATORE 8BIT: COMPLETATO
+g90
+g92Fabbricatore [ATTIVO]
+g90Invio del progetto al fabbricatore...
+g17.....
+g90Fatto.</value>
+  </data>
+  <data name="ALUDone" xml:space="preserve">
+    <value>g90Progetto del chip ALU 8BIT: COMPLETATO
+g90
+g92Fabbricatore [ATTIVO]
+g90Invio del progetto al fabbricatore...
+g17.....
+g90Fatto.</value>
+  </data>
+  <data name="BypassDone" xml:space="preserve">
+    <value>g90Progetto del chip BYPASS: COMPLETATO
+g90
+g92Fabbricatore [ATTIVO]
+g90Invio del progetto al fabbricatore...
+g17.....
+g90Fatto.</value>
+  </data>
+  <data name="InverterDone" xml:space="preserve">
+    <value>g90Progetto chip INVERTITORE: COMPLETATO
+g90
+g92Fabbricatore [ONLINE]
+g90Invio del progetto al fabbricatore...
+g17.....
+g90Fatto.</value>
+  </data>
+  <data name="ReceivedAdderRequirement" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip SOMMATORE 8BIT.
+g90Pronto per iniziare il processo di progettazione.</value>
+  </data>
+  <data name="ReceivedALURequirement" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip ALU.
+g90Pronto per iniziare il processo di progettazione.</value>
+  </data>
+  <data name="ReceivedALURequirementFailed" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip ALU.
+r95CODICE_ERRORE: 0x052001 La postazione di lavoro non è pronta, le banche materiali sono OFFLINE.</value>
+  </data>
+  <data name="ReceivedBypassRequirement" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip BYPASS.
+g90Pronto per iniziare il processo di progettazione.</value>
+  </data>
+  <data name="ReceivedInverterRequirement" xml:space="preserve">
+    <value>g90Ricevute le specifiche del chip INVERTITORE.
+g90Pronto per iniziare il processo di progettazione.</value>
+  </data>
+  <data name="StartAdder" xml:space="preserve">
+    <value>g90=========================================================================
+g90Postazione da lavoro rapida per prototipi v0.55.677
+g90=========================================================================
+g90
+g92Banca materiali primaria [ONLINE]
+y95Banca materiali secondaria [OFFLINE]
+y92Fabbricatore PARZIALMENTE ONLINE
+g90
+g90Ricevuti i requisiti per chip SOMMATORE 8BIT.
+r99Errore: errore nessun chip trovato nel database!
+g90
+g95Elaborazione requisiti ricevuti delle parti per il chip SOMMATORE 8BIT...
+g92   requisiti porta logica NOT
+g92   requisiti porta logica NAND
+g92   requisiti porta logica AND
+g92   requisiti porta logica OR
+g92   requisiti porta logica XOR
+g92   requisiti SOMMATORE COMPLETO BIT
+g92   requisiti SOMMATORE 4BIT
+g92   requisiti SOMMATORE 8BIT
+g92Tutte le parti richieste caricate
+g90
+y39Ambiente postazione da lavoro pronto per lo sviluppo con semi-conduttori del SOMMATORE 8BIT.</value>
+  </data>
+  <data name="StartALU" xml:space="preserve">
+    <value>g90=========================================================================
+g90Postazione da lavoro rapida per prototipi v0.55.677
+g90=========================================================================
+g90
+g92Banca materiali primaria [ONLINE]
+g95Banca materiali secondaria[ONLINE]
+g92Fabbricatore ONLINE
+g90
+g90Ricevuti i requisiti per chip ALU 8BIT.
+r99Errore: errore nessun chip trovato nel database!
+g90
+g95Elaborazione requisiti ricevuti delle parti per il chip ALU 8BIT...
+g92   requisiti porta logica XOR
+g92   requisiti porta logica NOR8
+g92   requisiti SOMMATORE 8BIT
+g92   requisiti rappresentazione numeri con segno
+g92   requisiti invertitore+1
+g92   requisiti sottrattore
+g92   requisiti ALU 8BIT
+g92Tutte le parti richieste caricate
+g90
+y39Ambiente postazione da lavoro pronto per lo sviluppo con semi-conduttori dell'ALU 8BIT.</value>
+  </data>
+  <data name="StartBypass" xml:space="preserve">
+    <value>g90=========================================================================
+g90Postazione da lavoro rapida per prototipi v0.55.677
+g90=========================================================================
+g90
+g35Accensione...
+g90
+g92Sistemi di alimentazione [OK]
+g92Integrità fisica [OK]
+y92Fabbricatore PARZIALMENTE ONLINE
+r95Database dei chip GUASTO, dati corrotti
+r99Errore: dati corrotti, formattazione database... 
+g90
+g90Requisiti ricevuti per il chip BYPASS.</value>
+  </data>
+  <data name="StartInverter" xml:space="preserve">
+    <value>g90=========================================================================
+g90Postazione da lavoro rapida per prototipi v0.55.677
+g90=========================================================================
+g90
+y92Banca materiali primaria [OFFLINE]
+y95Banca materiali secondaria [OFFLINE]
+y92Fabbricatore PARZIALMENTE ONLINE
+g90
+g90Ricevuti i requisiti per chip INVERTITORE 8BIT.
+r99Errore: errore nessun chip trovato nel database!
+g90
+g95Elaborazione requisiti ricevuti delle parti per il chip INVERTITORE...
+g92   requisiti PMOS
+g92   requisiti NMOS
+g92   requisiti porta logica NOT
+g92Tutte le parti richieste caricate
+g90
+y39Ambiente postazione da lavoro pronto per lo sviluppo con semi-conduttori dell'INVERTITORE.</value>
+  </data>
+</root>
