@@ -144,6 +144,9 @@ Tasto sinistro del mouse per rimuoverlo.</value>
   <data name="ResetBindings" xml:space="preserve">
     <value>Ripristina controlli</value>
   </data>
+  <data name="RightClickToEdit" xml:space="preserve">
+    <value>* Tasto destro per modificare</value>
+  </data>
   <data name="RotatePart" xml:space="preserve">
     <value>Ruota la parte</value>
   </data>

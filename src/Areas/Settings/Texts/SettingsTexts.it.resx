@@ -106,11 +106,11 @@
   <data name="DoubleClickToEdit" xml:space="preserve">
     <value>Modalità modifica con doppio clic sul tasto destro</value>
   </data>
-  <data name="Editor" xml:space="preserve">
-    <value>Editor</value>
-  </data>
   <data name="EditorRenderScale" xml:space="preserve">
     <value>Scala renderizzazione nell'editor</value>
+  </data>
+  <data name="EditorTheme" xml:space="preserve">
+    <value>Tema editor</value>
   </data>
   <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
     <value>Campo visivo usato durante le fasi di modifica. Nessun costo sulla performance.</value>
@@ -120,6 +120,9 @@
   </data>
   <data name="FlipVerticalMouseMovementDuringFPSPhases" xml:space="preserve">
     <value>Inverti il movimento verticale del mouse durante le fasi FPS.</value>
+  </data>
+  <data name="FOVEditor" xml:space="preserve">
+    <value>Campo visivo editor</value>
   </data>
   <data name="FPSInvertYAxis" xml:space="preserve">
     <value>Inverti l'asse Y durante le fase in prima persona</value>
@@ -135,6 +138,9 @@
   </data>
   <data name="HardReset" xml:space="preserve">
     <value>Reset completo</value>
+  </data>
+  <data name="HideBugReportButton" xml:space="preserve">
+    <value>Nascondi pulsante segnalazione bug</value>
   </data>
   <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
     <value>Se attivato, fare doppio clic sul tasto destro per passare alla modalità modifica.
@@ -216,6 +222,12 @@ Valori più alti aumenteranno la qualità, ma diminuiranno la performance.</valu
   </data>
   <data name="RestartToApplyChanges" xml:space="preserve">
     <value>Riavvia per applicare i cambiamenti</value>
+  </data>
+  <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
+    <value>Mostra le informazioni di numero blocchi, volume, MOS e perdita nell'area informazioni in basso a sinistra</value>
+  </data>
+  <data name="ShowExtendedChipInfo" xml:space="preserve">
+    <value>Mostra informazioni estese chip</value>
   </data>
   <data name="SteamName" xml:space="preserve">
     <value>Nome di Steam:</value>
