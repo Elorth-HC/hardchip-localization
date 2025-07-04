@@ -65,25 +65,25 @@
     <value> (miglior soluzione in Blocchi)</value>
   </data>
   <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
-    <value>Miglior soluzione in Blocchi, clicca per confrontare</value>
+    <value>Miglior soluzione in Blocchi, clicca per confrontare.</value>
   </data>
   <data name="BestMosSolution" xml:space="preserve">
     <value> (miglior soluzione in MOS)</value>
   </data>
   <data name="BestMosSolutionClickToCompare" xml:space="preserve">
-    <value>Miglior soluzione in MOS, clicca per confrontare</value>
+    <value>Miglior soluzione in MOS, clicca per confrontare.</value>
   </data>
   <data name="BestTickSolution" xml:space="preserve">
     <value> (miglior soluzione in Tick)</value>
   </data>
   <data name="BestTickSolutionClickToCompare" xml:space="preserve">
-    <value>Miglior soluzione in Tick, clicca per confrontare</value>
+    <value>Miglior soluzione in Tick, clicca per confrontare.</value>
   </data>
   <data name="BestVolumeSolution" xml:space="preserve">
     <value> (miglior soluzione in Volume)</value>
   </data>
   <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
-    <value>Miglior soluzione in Volume, clicca per confrontare</value>
+    <value>Miglior soluzione in Volume, clicca per confrontare.</value>
   </data>
   <data name="Blocks" xml:space="preserve">
     <value>   Blocchi:</value>
@@ -144,7 +144,7 @@ Complesso -&gt; Soddisfacente -&gt; Efficiente</value>
     <value>Funzionale -&gt; Soddisfacente -&gt; Ottimizzato</value>
   </data>
   <data name="Grade" xml:space="preserve">
-    <value>Voto</value>
+    <value>Grado</value>
   </data>
   <data name="Grade01" xml:space="preserve">
     <value>Grado{0}:</value>
@@ -205,7 +205,7 @@ Alto -&gt; Soddisfacente -&gt; Ridotto</value>
     <value>Lento</value>
   </data>
   <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
-    <value>Soluzione non aggiornata. Riavvia di nuovo la validazione per aggiornare.</value>
+    <value>Soluzione non aggiornata. Esegui di nuovo la verifica per aggiornarla.</value>
   </data>
   <data name="Streamlined" xml:space="preserve">
     <value>Ottimizzato</value>

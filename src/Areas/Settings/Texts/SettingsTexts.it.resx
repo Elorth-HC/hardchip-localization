@@ -110,7 +110,7 @@
     <value>Scala renderizzazione nell'editor</value>
   </data>
   <data name="EditorTheme" xml:space="preserve">
-    <value>Tema editor</value>
+    <value>Stile editor</value>
   </data>
   <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
     <value>Campo visivo usato durante le fasi di modifica. Nessun costo sulla performance.</value>
@@ -224,7 +224,7 @@ Valori più alti aumenteranno la qualità, ma diminuiranno la performance.</valu
     <value>Riavvia per applicare i cambiamenti</value>
   </data>
   <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
-    <value>Mostra le informazioni di numero blocchi, volume, MOS e perdita nell'area informazioni in basso a sinistra</value>
+    <value>Mostra le informazioni sul numero blocchi, volume, numero di MOS e la perdita nell'area informazioni in basso a sinistra.</value>
   </data>
   <data name="ShowExtendedChipInfo" xml:space="preserve">
     <value>Mostra informazioni estese chip</value>
