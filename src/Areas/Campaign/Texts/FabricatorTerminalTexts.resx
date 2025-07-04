@@ -53,7 +53,7 @@ g92External control interfaces... [OK]
 r95Material Bank 1 [OFFLINE]
 r95Material Bank 2 [OFFLINE]
 g90
-y95WARNING: Material banks unavaible. Buffered materials available for limited operations only.
+y95WARNING: Material banks unavailable. Buffered materials available for limited operations only.
 g90
 g39Boot sequence complete. Fabricator status: PARTIALY OPERATIONAL
 g90
@@ -70,7 +70,7 @@ g92 Core Systems [OK]
 r95 Material Bank 1 [OFFLINE]
 r95 Material Bank 2 [OFFLINE]
 g90
-y95WARNING: Material banks unavaible. Buffered materials available for limited operations only.
+y95WARNING: Material banks unavailable. Buffered materials available for limited operations only.
 g90
 g39Fabricator status: PARTIALY OPERATIONAL</value>
   </data>
@@ -84,7 +84,7 @@ g92 Core Systems [OK]
 g92 Material Bank 1 [ONLINE]
 r95 Material Bank 2 [OFFLINE]
 g90
-y95WARNING: Material Bank 2 unavaible. Limited operations only.
+y95WARNING: Material Bank 2 unavailable. Limited operations only.
 g90
 g39Fabricator status: PARTIALY OPERATIONAL</value>
   </data>
