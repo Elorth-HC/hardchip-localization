@@ -52,7 +52,7 @@ g35Iniciando...
 g90
 g92Power System [OK]
 g92Physical Integrity [OK]
-y92Fabricator PARTIALY ONLINE
+y92Fabricator PARTIALLY ONLINE
 r95Chip Database FAIL, data corrupted
 r99error: datos corruptos, formateando base de datos... 
 g90
@@ -94,7 +94,7 @@ g90=========================================================================
 g90
 y92Primary Material Banks [OFFLINE]
 y95Secondary Material Bank [OFFLINE]
-y92Fabricator PARTIALY ONLINE
+y92Fabricator PARTIALLY ONLINE
 g90
 g90Requisitos recibidos para el chip INVERTER.
 r99error: ¡ningún chip encontrado en la base de datos!
@@ -126,7 +126,7 @@ g90=========================================================================
 g90
 g92Primary Material Banks [ONLINE]
 y95Secondary Material Bank [OFFLINE]
-y92Fabricator PARTIALY ONLINE
+y92Fabricator PARTIALLY ONLINE
 g90
 g90Requisitos recibidos para el chip 8BIT ADDER.
 r99error: ¡ningún chip encontrado en la base de datos!

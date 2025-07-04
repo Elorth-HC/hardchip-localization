@@ -55,7 +55,7 @@ r95Material Bank 2 [OFFLINE]
 g90
 y95WARNING: Material banks unavailable. Buffered materials available for limited operations only.
 g90
-g39Boot sequence complete. Fabricator status: PARTIALY OPERATIONAL
+g39Boot sequence complete. Fabricator status: PARTIALLY OPERATIONAL
 g90
 g90Received design specifications for BYPASS chip.
 g90Ready to start fabrication process.</value>
@@ -72,7 +72,7 @@ r95 Material Bank 2 [OFFLINE]
 g90
 y95WARNING: Material banks unavailable. Buffered materials available for limited operations only.
 g90
-g39Fabricator status: PARTIALY OPERATIONAL</value>
+g39Fabricator status: PARTIALLY OPERATIONAL</value>
   </data>
   <data name="StatusStep1" xml:space="preserve">
     <value>g90Ejecutando diagnóstico...              
@@ -86,19 +86,19 @@ r95 Material Bank 2 [OFFLINE]
 g90
 y95WARNING: Material Bank 2 unavailable. Limited operations only.
 g90
-g39Fabricator status: PARTIALY OPERATIONAL</value>
+g39Fabricator status: PARTIALLY OPERATIONAL</value>
   </data>
   <data name="StatusStep0Shorted" xml:space="preserve">
     <value>
 r95Material Bank 1 [OFFLINE]
 r95Material Bank 2 [OFFLINE]
-g90Fabricator status: PARTIALY OPERATIONAL</value>
+g90Fabricator status: PARTIALLY OPERATIONAL</value>
   </data>
   <data name="StatusStep1Shorted" xml:space="preserve">
     <value>
 g92Material Bank 1 [ONLINE]
 r95Material Bank 2 [OFFLINE]
-g90Fabricator status: PARTIALY OPERATIONAL</value>
+g90Fabricator status: PARTIALLY OPERATIONAL</value>
   </data>
   <data name="StatusStep2Shorted" xml:space="preserve">
     <value>
