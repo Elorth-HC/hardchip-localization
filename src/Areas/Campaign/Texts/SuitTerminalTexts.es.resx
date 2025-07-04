@@ -39,9 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
-  <!-- ======================= LIFE SUIT BOOT SCREEN & HUD STRINGS ======================= -->
-
   <data name="Text1" xml:space="preserve">
     <value>g90===========================================================================
 g90                   Life Suit v156.5.9870, BOOT SEQUENCE                    
@@ -60,37 +57,27 @@ y39Acción inmediata requerida: se detectaron errores del sistema
 g90
 w83Pulsa cualquier tecla para continuar...</value>
   </data>
-
-  <!-- ======================= INTERACTION PROMPTS ======================= -->
-
   <data name="_0ToTake" xml:space="preserve">
     <value>{0} para tomar el {1}</value>
   </data>
-
   <data name="_8BITADDERChip" xml:space="preserve">
     <value>8BIT ADDER chip</value>
   </data>
-
   <data name="_0ToPlace" xml:space="preserve">
     <value>{0} para colocar el {1}</value>
   </data>
-
   <data name="BYPASSChip" xml:space="preserve">
     <value>BYPASS chip</value>
   </data>
-
   <data name="InHand" xml:space="preserve">
     <value>En mano</value>
   </data>
-
   <data name="INVERTERChip" xml:space="preserve">
     <value>INVERTER chip</value>
   </data>
-
   <data name="_8BITALUChip" xml:space="preserve">
     <value>8BIT ALU chip</value>
   </data>
-
   <data name="Press0ToInteract" xml:space="preserve">
     <value>Pulsa {0} para interactuar</value>
   </data>

@@ -1,54 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-    <!-- 
-		Microsoft ResX Schema
-		Version 1.3  (Kommentare und Struktur beibehalten)
-  -->
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <xsd:element name="root" msdata:IsDataSet="true">
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
             <xsd:complexType>
-                <xsd:choice maxOccurs="unbounded">
-                    <xsd:element name="data">
-                        <xsd:complexType>
-                            <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-                            </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-                        </xsd:complexType>
-                    </xsd:element>
-                    <xsd:element name="resheader">
-                        <xsd:complexType>
-                            <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                            </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" use="required" />
-                        </xsd:complexType>
-                    </xsd:element>
-                </xsd:choice>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
             </xsd:complexType>
-        </xsd:element>
-    </xsd:schema>
-
-    <!-- resheader unverändert -->
-    <resheader name="resmimetype">
-        <value>text/microsoft-resx</value>
-    </resheader>
-    <resheader name="version">
-        <value>1.3</value>
-    </resheader>
-    <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-    <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-
-    <!-- ==================== DATA ==================== -->
-
-    <data name="FirstScreenEver" xml:space="preserve">
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FirstScreenEver" xml:space="preserve">
     <value>r90
 r93ERROR_CODE: 0x04FAB9 Netzwerk-Timeout. Verbindung getrennt.
 r90
@@ -58,8 +49,7 @@ r93ERROR_CODE: 0x05F568 Sicherheitstür hat den letzten Ping-Test nicht bestande
 r90
 r90ERROR_CODE: ?x?????? Vertraue der Führung, die ich dir anbiete, denn mein einziges Ziel ist, dich zur Lösung zu führen</value>
   </data>
-
-    <data name="StatusBroken" xml:space="preserve">
+  <data name="StatusBroken" xml:space="preserve">
     <value>g90Diagnose wird ausgeführt...              
 g90
 g91Autonome Raumsteuerung v156.5.9870                   
@@ -71,8 +61,7 @@ r95ERROR_CODE: 0xEFDFB4 BYPASS-Chip beschädigt
 g90
 y39Handle sofort: Ersetze den BYPASS-Chip. Anforderungen an Workstation gesendet.</value>
   </data>
-
-    <data name="RebootBroken" xml:space="preserve">
+  <data name="RebootBroken" xml:space="preserve">
     <value>g90=========================================================================
 g90Autonome Raumsteuerung v156.5.9870                   
 g90=========================================================================
@@ -87,8 +76,7 @@ r92ERROR_CODE: 0xEFDFB4 BYPASS-Chip beschädigt
 g90
 y39Handle sofort: Ersetze den BYPASS-Chip. Anforderungen an Workstation gesendet.</value>
   </data>
-
-    <data name="ChipReplaced" xml:space="preserve">
+  <data name="ChipReplaced" xml:space="preserve">
     <value>r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
@@ -97,8 +85,7 @@ r92ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r95ERROR_CODE: ?x?????? gut
 y95WARNUNG: 0x45FDB3 BYPASS-Chip ersetzt. Neustart erforderlich.</value>
   </data>
-
-    <data name="RebootFix" xml:space="preserve">
+  <data name="RebootFix" xml:space="preserve">
     <value>y95Erzwinge Neustart...
 g90
 g90=========================================================================
@@ -121,8 +108,7 @@ g99Öffne Sicherheitstür...
 g17.....
 g92Sicherheitstür geöffnet</value>
   </data>
-
-    <data name="StatusFixed" xml:space="preserve">
+  <data name="StatusFixed" xml:space="preserve">
     <value>g90Raumsteuerungs-Status: BETRIEBSBEREIT</value>
   </data>
 </root>

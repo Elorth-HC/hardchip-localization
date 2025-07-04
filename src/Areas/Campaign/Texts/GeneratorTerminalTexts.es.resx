@@ -39,9 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
-  <!-- ======================= GENERATOR TERMINAL SCREENS ======================= -->
-
   <data name="FirstScreenEver" xml:space="preserve">
     <value>r93ERROR_CODE: 0x00FAB4 Falla general. Error no especificado.
 r90
@@ -57,7 +54,6 @@ r90ERROR_CODE: ?x?????? hello
 r90
 r93ERROR_CODE: 0x01FAB1 Falla crítica. Se requiere reinicio del sistema.</value>
   </data>
-
   <data name="StatusBroken" xml:space="preserve">
     <value>g90Ejecutando diagnóstico...              
 g90
@@ -74,7 +70,6 @@ r92 ERROR_CODE: 0x01FAB1 Falla crítica. Se requiere reinicio del sistema.
 g90
 y39Acción inmediata requerida: reiniciar.</value>
   </data>
-
   <data name="RebootFix" xml:space="preserve">
     <value>y90Intentando reinicio forzado...
 g90
@@ -108,7 +103,6 @@ g91Sincronizando con interfaces de control externas... [OK]
 g90
 g90Secuencia de reinicio completa. Estado del generador: OPERATIONAL.</value>
   </data>
-
   <data name="InitialScreenFixed" xml:space="preserve">
     <value>g90=========================================================================
 g90Autonomous Generator v156.5.9870
@@ -129,14 +123,11 @@ g90Sincronizando con interfaces de control externas... [OK]
 g90
 g90Secuencia de reinicio completa. Estado del generador: OPERATIONAL.</value>
   </data>
-
   <data name="StatusFixed" xml:space="preserve">
     <value>g90Estado del generador: OPERATIONAL.</value>
   </data>
-
   <data name="StatusFixedForever" xml:space="preserve">
     <value>g90
 g90Estado del generador: OPERATIONAL.</value>
   </data>
-
 </root>

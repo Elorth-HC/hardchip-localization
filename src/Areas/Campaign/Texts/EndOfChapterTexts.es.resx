@@ -39,27 +39,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
   <data name="ChapterOneChecked" xml:space="preserve">
     <value>¡Capítulo Uno completado!
 </value>
   </data>
-
   <data name="YouVeCompletedTheFirstChapterOfHardChipThe8bitALU" xml:space="preserve">
     <value>¡Has completado el primer capítulo de Hard Chip: -La ALU de 8 bits- !
 </value>
   </data>
-
   <data name="Chapter2IsInTheMakingThatDoesnTMeanThereNothingToDoYouCanRevisitYourDesignsToImproveGradesAtTheWorkstation" xml:space="preserve">
     <value>El Capítulo 2 está en desarrollo. Eso no significa que no haya nada que hacer. Puedes volver a tus diseños para mejorar las calificaciones en la estación de trabajo.
 </value>
   </data>
-
   <data name="OrYouCanCreateEntirelyNewCircuitsThanksToTheBonusStageFromTheMainMenu" xml:space="preserve">
     <value>¡O puedes crear circuitos completamente nuevos gracias a la Fase Extra desde el menú principal!
 </value>
   </data>
-
   <data name="PressAnyKeyToAcknowledge" xml:space="preserve">
     <value>Pulsa cualquier tecla para continuar...
 </value>

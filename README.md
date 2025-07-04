@@ -7,14 +7,24 @@ Welcome to the Hard Chip community localization repository! This repository cont
 1. **Fork** this repository
 2. **Open** the `src` folder with ResX Resource Manager
 3. **Review** translations and make corrections
-4. **Add contributor's name** to the [Contributors file](CONTRIBUTORS.md) (_Optional_)
-4. **Agree** to the [Contributor License Agreement (CLA)](CLA.MD)
-4. **Submit** a pull request with your improvements
+4. **Verify** your translations using the verification script: `scripts\VerifyTranslations.ps1 -LanguageCode [your-language]` (e.g., `scripts\VerifyTranslations.ps1 -LanguageCode de` for German)
+5. **Format** ResX files using the formatting script: `scripts\FormatResxFiles.ps1`
+6. **Add contributor's name** to the [Contributors file](CONTRIBUTORS.md) (_Optional_)
+7. **Agree** to the [Contributor License Agreement (CLA)](CLA.MD)
+8. **Submit** a pull request with your improvements
 
 #### ⚠️ Requirements
 * Do not include any auto-generated Designer files (`.Designer.cs`)
 * Maintain the file structure exactly as provided
 * Do not add or remove any key
+
+#### Guidelines
+Where to draw the line, whether there needs to be a translation or not:
+- Name like "HCDrive" or something that feels like a name, no translation.
+- Technical words that have minimal usage in the current language. Example "MOS", or MOSFET, is an English acronym that is used across all languages.
+- Widely known technical words like "transistor", widely translated in all languages, should be translated as well.
+- Terminal commands are not to be translated. Examples "status", "reboot", and all other command lines.
+- Terminal outputs are to be translated (while still applying other rules like widely known words and such)
 
 ## 📁 File Structure
 

@@ -1,59 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- 
-		Microsoft ResX Schema
-		Version 1.3  (Struktur unverändert)
-	-->
-	
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-		<xsd:element name="root" msdata:IsDataSet="true">
-			<xsd:complexType>
-				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="data">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="resheader">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
-						</xsd:complexType>
-					</xsd:element>
-				</xsd:choice>
-			</xsd:complexType>
-		</xsd:element>
-	</xsd:schema>
-
-	<!-- resheader unverändert -->
-	<resheader name="resmimetype">
-		<value>text/microsoft-resx</value>
-	</resheader>
-	<resheader name="version">
-		<value>1.3</value>
-	</resheader>
-	<resheader name="reader">
-		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<resheader name="writer">
-		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-
-  <!-- ==================== DATA ==================== -->
-
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
   <data name="ReceivedBypassRequirement" xml:space="preserve">
     <value>g90Anforderungen für BYPASS-Chip empfangen.
 g90Bereit, den Designprozess zu starten.</value>
   </data>
-
   <data name="StartBypass" xml:space="preserve">
     <value>g90=========================================================================
 g90Rapid Prototyping Workstation v0.55.677
@@ -78,7 +67,6 @@ g92Alle Anforderungsteile hochgeladen
 g90
 y39Workstation-Umgebung für BYPASS-Chip-Halbleiterentwicklung eingerichtet.</value>
   </data>
-
   <data name="BypassDone" xml:space="preserve">
     <value>g90BYPASS-Chip-Design: ABGESCHLOSSEN
 g90
@@ -87,22 +75,18 @@ g90Sende Design an Fabricator...
 g17.....
 g90Erledigt.</value>
   </data>
-
   <data name="ReceivedALURequirementFailed" xml:space="preserve">
     <value>g90Anforderungen für ALU-Chip empfangen.
 r95ERROR_CODE: 0x052001 Workstation nicht bereit, Materialbanken OFFLINE.</value>
   </data>
-
   <data name="ReceivedALURequirement" xml:space="preserve">
     <value>g90Anforderungen für ALU-Chip empfangen.
 g90Bereit, den Designprozess zu starten.</value>
   </data>
-
   <data name="ReceivedInverterRequirement" xml:space="preserve">
     <value>g90Anforderungen für INVERTER-Chip empfangen.
 g90Bereit, den Designprozess zu starten.</value>
   </data>
-
   <data name="StartInverter" xml:space="preserve">
     <value>g90=========================================================================
 g90Rapid Prototyping Workstation v0.55.677
@@ -123,7 +107,6 @@ g92Alle Anforderungsteile hochgeladen
 g90
 y39Workstation-Umgebung für INVERTER-Chip-Halbleiterentwicklung eingerichtet.</value>
   </data>
-
   <data name="InverterDone" xml:space="preserve">
     <value>g90INVERTER-Chip-Design: ABGESCHLOSSEN
 g90
@@ -132,12 +115,10 @@ g90Sende Design an Fabricator...
 g17.....
 g90Erledigt.</value>
   </data>
-
   <data name="ReceivedAdderRequirement" xml:space="preserve">
     <value>g90Anforderungen für 8-BIT-ADDER-Chip empfangen.
 g90Bereit, den Designprozess zu starten.</value>
   </data>
-
   <data name="StartAdder" xml:space="preserve">
     <value>g90=========================================================================
 g90Rapid Prototyping Workstation v0.55.677
@@ -163,7 +144,6 @@ g92Alle Anforderungsteile hochgeladen
 g90
 y39Workstation-Umgebung für 8-BIT-ADDER-Halbleiterentwicklung eingerichtet.</value>
   </data>
-
   <data name="AdderDone" xml:space="preserve">
     <value>g908-BIT-ADDER-Chip-Design: ABGESCHLOSSEN
 g90
@@ -172,7 +152,6 @@ g90Sende Design an Fabricator...
 g17.....
 g90Erledigt.</value>
   </data>
-
   <data name="StartALU" xml:space="preserve">
     <value>g90=========================================================================
 g90Rapid Prototyping Workstation v0.55.677
@@ -197,7 +176,6 @@ g92Alle Anforderungsteile hochgeladen
 g90
 y39Workstation-Umgebung für 8-BIT-ALU-Halbleiterentwicklung eingerichtet.</value>
   </data>
-
   <data name="ALUDone" xml:space="preserve">
     <value>g908-BIT-ALU-Chip-Design: ABGESCHLOSSEN
 g90
@@ -206,5 +184,4 @@ g90Sende Design an Fabricator...
 g17.....
 g90Erledigt.</value>
   </data>
-
 </root>

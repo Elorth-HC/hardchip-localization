@@ -1,64 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -133,9 +74,6 @@
   <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
     <value>Поворачивать камеру используя горизонтальную прокрутку колёсиком мыши.</value>
   </data>
-  <data name="Editor" xml:space="preserve">
-    <value>Угол обзора в редакторе</value>
-  </data>
   <data name="ResetEverything" xml:space="preserve">
     <value>Сбросить всё</value>
   </data>
@@ -149,12 +87,22 @@
     <value>Вы уверены, что хотите сбросить прогресс Вашей кампании?
 Решённые уровни не будут удалены.</value>
   </data>
+  <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
+    <value>Это позволяет Вашему имени пользователя Steam отображаться в таблицах лидеров,
+заменяя текущее автосгенерированное имя.
+
+Включив эту опцию, Вы даёте согласие на то, что Hard Chip будет использовать Ваше
+имя пользователя Steam для отображения в таблицах лидеров.</value>
+  </data>
   <data name="MasterVolume" xml:space="preserve">
     <value>Общaя громкость звука</value>
   </data>
   <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
     <value>Диаграммы рассчитываются на основе самых последних решений со
 всего мира, оценки Ваших решений обновляют диаграммы.</value>
+  </data>
+  <data name="HideBugReportButton" xml:space="preserve">
+    <value>Скрыть кнопку 'сообщить об ошибке'</value>
   </data>
   <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
     <value>Вы уверены, что хотите сбросить ВСЕ решения и прогресс кампании?
@@ -181,6 +129,9 @@
   </data>
   <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
     <value>Это сбросит прогресс Вашей кампании, но не удалит решённые уровни.</value>
+  </data>
+  <data name="EditorTheme" xml:space="preserve">
+    <value>Тема редактора</value>
   </data>
   <data name="Campaign" xml:space="preserve">
     <value>Кампания</value>
@@ -227,11 +178,20 @@
   <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
     <value>Перемещать камеру, когда мышь находится на краю экрана.</value>
   </data>
+  <data name="SteamName" xml:space="preserve">
+    <value>Имя Steam:</value>
+  </data>
   <data name="ResetSettings" xml:space="preserve">
     <value>Сбросить настройки</value>
   </data>
+  <data name="LeaderboardID" xml:space="preserve">
+    <value>ID таблицы лидеров:</value>
+  </data>
   <data name="AutoDetect" xml:space="preserve">
     <value>Авто-определение</value>
+  </data>
+  <data name="UseHCName" xml:space="preserve">
+    <value>Использовать имя HC</value>
   </data>
   <data name="UnlimitedOrVSync" xml:space="preserve">
     <value>Не ограничено (или Вертикальная синхронизация)</value>
@@ -253,6 +213,12 @@
   </data>
   <data name="MouseWheelSensitivity" xml:space="preserve">
     <value>Чувствительность колёсика мыши</value>
+  </data>
+  <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
+    <value>Показывать количество блоков, объём, информацию о МОП и потерях в информационной области внизу слева.</value>
+  </data>
+  <data name="UseSteamName" xml:space="preserve">
+    <value>Использовать имя Steam</value>
   </data>
   <data name="RenderMethod" xml:space="preserve">
     <value>Метод отрисовки</value>
@@ -284,6 +250,9 @@
   <data name="MouseEdgeScrolling" xml:space="preserve">
     <value>Перемещение по краю экрана</value>
   </data>
+  <data name="ShowExtendedChipInfo" xml:space="preserve">
+    <value>Показать расширенную информацию о чипе</value>
+  </data>
   <data name="UITextScale" xml:space="preserve">
     <value>Размер текста интерфейса</value>
   </data>
@@ -305,5 +274,39 @@
   </data>
   <data name="Mode" xml:space="preserve">
     <value>Режим</value>
+  </data>
+  <data name="FOVEditor" xml:space="preserve">
+    <value>Угол обзора в редакторе</value>
+  </data>
+  <data name="HideBugReportButton" xml:space="preserve">
+    <value>Скрыть кнопку отчёта об ошибке</value>
+  </data>
+  <data name="ShowExtendedChipInfo" xml:space="preserve">
+    <value>Показать расширенную информацию о чипе</value>
+  </data>
+  <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
+    <value>Показывать количество блоков, объем, информацию о MOS и потерях в информационной области внизу слева.</value>
+  </data>
+  <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
+    <value>Это позволяет вашему имени пользователя Steam отображаться в таблицах лидеров,
+заменяя текущее автогенерируемое имя.
+
+Включив это, вы соглашаетесь на то, что Hard Chip будет использовать ваше
+имя пользователя Steam для отображения в таблицах лидеров.</value>
+  </data>
+  <data name="SteamName" xml:space="preserve">
+    <value>Имя Steam:</value>
+  </data>
+  <data name="UseSteamName" xml:space="preserve">
+    <value>Использовать имя Steam</value>
+  </data>
+  <data name="UseHCName" xml:space="preserve">
+    <value>Использовать имя HC</value>
+  </data>
+  <data name="LeaderboardID" xml:space="preserve">
+    <value>ID таблицы лидеров:</value>
+  </data>
+  <data name="EditorTheme" xml:space="preserve">
+    <value>Тема редактора</value>
   </data>
 </root>

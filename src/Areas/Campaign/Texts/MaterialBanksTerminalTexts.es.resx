@@ -27,7 +27,6 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
   </resheader>
@@ -40,9 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
-  <!-- ======================= MATERIAL BANK TERMINAL SCREENS ======================= -->
-
   <data name="StatusBroken1" xml:space="preserve">
     <value>g90Ejecutando diagnóstico...
 g90
@@ -54,7 +50,6 @@ r95ERROR_CODE: 0xEFDFB4 INVERTER chip dañado
 g90
 y39Acción inmediata requerida: reemplazar el chip INVERTER. Requisitos enviados a la estación de trabajo.</value>
   </data>
-
   <data name="FirstScreenEver1" xml:space="preserve">
     <value>r90
 r93ERROR_CODE: 0x04FAB9 Tiempo de espera de red agotado. Conexión perdida.
@@ -63,7 +58,6 @@ r93ERROR_CODE: 0x00FFB4 Sobretensión. Es probable que los componentes electrón
 r90
 r93ERROR_CODE: 0x0CAF89 Error de gestión de salida detectado. No invertible.</value>
   </data>
-
   <data name="ChipReplaced1" xml:space="preserve">
     <value>r90ERROR_CODE: UNSPECIFIED ERROR
 r90ERROR_CODE: UNSPECIFIED ERROR
@@ -73,7 +67,6 @@ r92ERROR_CODE: UNSPECIFIED ERROR
 r95ERROR_CODE: ?x?????? continue
 y95ADVERTENCIA: 0x45FDB3 Chip INVERTER reemplazado. Se requiere reinicio.</value>
   </data>
-
   <data name="RebootFix1" xml:space="preserve">
     <value>y95Intentando reinicio forzado...
 g90
@@ -91,11 +84,9 @@ g92 Connection to Fabricator [OK]
 g90
 g90Secuencia de reinicio completa. Estado del Banco de Materiales: OPERATIONAL.</value>
   </data>
-
   <data name="StatusFixed" xml:space="preserve">
     <value>g90Estado del Banco de Materiales: OPERATIONAL.</value>
   </data>
-
   <data name="FirstScreenEver2" xml:space="preserve">
     <value>r90
 r93ERROR_CODE: 0x04FAB9 Tiempo de espera de red agotado. Conexión perdida.
@@ -104,7 +95,6 @@ r93ERROR_CODE: 0x00FFB4 Sobretensión. Es probable que los componentes electrón
 r90
 r93ERROR_CODE: 0x0CAF25 Error de gestión de salida detectado. Inventario infinito inválido.</value>
   </data>
-
   <data name="StatusBroken2" xml:space="preserve">
     <value>g90Ejecutando diagnóstico...
 g90
@@ -117,7 +107,6 @@ r95ERROR_CODE: 0xEFDFB4 8BIT ADDER chip dañado
 g90
 y39Acción inmediata requerida: reemplazar el chip 8BIT ADDER. Requisitos enviados a la estación de trabajo.</value>
   </data>
-
   <data name="ChipReplaced2" xml:space="preserve">
     <value>r90ERROR_CODE: UNSPECIFIED ERROR
 r90ERROR_CODE: UNSPECIFIED ERROR
@@ -127,7 +116,6 @@ r92ERROR_CODE: UNSPECIFIED ERROR
 r95ERROR_CODE: ?x?????? continue
 y95ADVERTENCIA: 0x45FDB3 Chip 8BIT ADDER reemplazado. Se requiere reinicio.</value>
   </data>
-
   <data name="RebootFix2" xml:space="preserve">
     <value>y95Intentando reinicio forzado...
 g90
@@ -145,5 +133,4 @@ g92 Connection to Fabricator [OK]
 g90
 g90Secuencia de reinicio completa. Estado del Banco de Materiales: OPERATIONAL.</value>
   </data>
-
 </root>

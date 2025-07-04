@@ -1,63 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-		Microsoft ResX Schema
-
-		Version 1.3
-
-		The primary goals of this format is to allow a simple XML format 
-		that is mostly human readable. The generation and parsing of the 
-		various data types are done through the TypeConverter classes 
-		associated with the data types.
-
-		Example:
-
-		... ado.net/XML headers & schema ...
-		<resheader name="resmimetype">text/microsoft-resx</resheader>
-		<resheader name="version">1.3</resheader>
-		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-		<data name="Name1">this is my long string</data>
-		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-			[base64 mime encoded serialized .NET Framework object]
-		</data>
-		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-			[base64 mime encoded string representing a byte array form of the .NET Framework object]
-		</data>
-
-		There are any number of "resheader" rows that contain simple 
-		name/value pairs.
-
-		Each data row contains a name, and value. The row also contains a 
-		type or mimetype. Type corresponds to a .NET class that support 
-		text/value conversion through the TypeConverter architecture. 
-		Classes that don't support this are serialized and stored with the 
-		mimetype set.
-
-		The mimetype is used for serialized objects, and tells the 
-		ResXResourceReader how to depersist the object. This is currently not 
-		extensible. For a given mimetype the value must be set accordingly:
-
-		Note - application/x-microsoft.net.object.binary.base64 is the format 
-		that the ResXResourceWriter will generate, however the reader can 
-		read any of the formats listed below.
-
-		mimetype: application/x-microsoft.net.object.binary.base64
-		value   : The object must be serialized with 
-			: System.Serialization.Formatters.Binary.BinaryFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.soap.base64
-		value   : The object must be serialized with 
-			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.bytearray.base64
-		value   : The object must be serialized into a byte array 
-			: using a System.ComponentModel.TypeConverter
-			: and then encoded with base64 encoding.
-	-->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -97,9 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  <!-- Translation to French below -->
-  
   <data name="FirstScreenEver" xml:space="preserve">
     <value>r90
 r93CODE_ERREUR : 0x04FAB9 Délai d'attente réseau. Connexion perdue.
@@ -110,7 +49,6 @@ r93CODE_ERREUR : 0x05F568 La porte de sécurité n'a pas répondu lors de la der
 r90
 r90CODE_ERREUR : ?x?????? ayez confiance dans les conseils que je vous donne, car mon seul objectif est de vous mener à la résolution</value>
   </data>
-  
   <data name="StatusBroken" xml:space="preserve">
     <value>g90Diagnostic en cours...              
 g90
@@ -123,7 +61,6 @@ r95CODE_ERREUR : 0xEFDFB4 Puce BYPASS endommagée
 g90
 y39Action immédiate requise : remplacer la puce BYPASS. Besoins envoyés au poste de travail.</value>
   </data>
-  
   <data name="RebootBroken" xml:space="preserve">
     <value>g90=========================================================================
 g90Contrôle autonome de la pièce v156.5.9870
@@ -139,7 +76,6 @@ r92CODE_ERREUR : 0xEFDFB4 Puce BYPASS endommagée
 g90
 y39Action immédiate requise : remplacer la puce BYPASS. Besoins envoyés au poste de travail.</value>
   </data>
-  
   <data name="ChipReplaced" xml:space="preserve">
     <value>r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
@@ -149,7 +85,6 @@ r92CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r95CODE_ERREUR : ?x?????? bien
 y95AVERTISSEMENT : 0x45FDB3 Puce BYPASS remplacée. Redémarrage requis.</value>
   </data>
-  
   <data name="RebootFix" xml:space="preserve">
     <value>y95Tentative de redémarrage forcé...
 g90
@@ -173,7 +108,6 @@ g99Ouverture de la porte de sécurité...
 g17.....
 g92Porte de sécurité ouverte</value>
   </data>
-  
   <data name="StatusFixed" xml:space="preserve">
     <value>g90État du contrôle de la pièce : OPÉRATIONNEL</value>
   </data>

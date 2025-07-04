@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-		Microsoft ResX Schema
-
-		Version 1.3
-		(comments abrégés, structure identique)
-  -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -33,8 +27,6 @@
       </xsd:complexType>
     </xsd:element>
   </xsd:schema>
-
-  <!-- resheader unverändert -->
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
   </resheader>
@@ -47,9 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
-  <!-- ==================== DATA ==================== -->
-
   <data name="FirstScreenEver" xml:space="preserve">
     <value>r90
 r93ERROR_CODE: 0x04FAB9 Netzwerk-Timeout. Verbindung getrennt.
@@ -58,7 +47,6 @@ r93ERROR_CODE: 0x00FFB4 Stromspitze. Wahrscheinlich Schäden an elektronischen K
 r90
 r93ERROR_CODE: 0x0A6599 Fehler bei arithmetischer Operation: Allgemeiner Fehler.</value>
   </data>
-
   <data name="StatusBroken" xml:space="preserve">
     <value>g90Diagnose wird ausgeführt...              
 g90
@@ -75,7 +63,6 @@ r95ERROR_CODE: 0x052001 Workstation nicht bereit, Materialbanken OFFLINE
 g90
 y39Sofortiges Handeln erforderlich: Bringe die Materialbanken wieder online, um fortzufahren.</value>
   </data>
-
   <data name="StatusBroken2" xml:space="preserve">
     <value>g90Diagnose wird ausgeführt...              
 g90
@@ -89,7 +76,6 @@ r92ERROR_CODE: 0xEFDFB4 8-BIT-ALU-Chip beschädigt
 g90
 y39Sofortiges Handeln erforderlich: Ersetze den 8-BIT-ALU-Chip. Anforderungen an Workstation gesendet.</value>
   </data>
-
   <data name="RebootBroken" xml:space="preserve">
     <value>g90=========================================================================
 g90Fab Control v156.5.9870
@@ -107,7 +93,6 @@ r95ERROR_CODE: 0x052001 Workstation nicht bereit, Materialbanken OFFLINE
 g90
 y39Sofortiges Handeln erforderlich: Bringe die Materialbanken wieder online, um fortzufahren.</value>
   </data>
-
   <data name="RebootBroken2" xml:space="preserve">
     <value>g90=========================================================================
 g90Fab Control v156.5.9870
@@ -122,7 +107,6 @@ r92ERROR_CODE: 0xEFDFB4 8-BIT-ALU-Chip beschädigt
 g90
 y39Sofortiges Handeln erforderlich: Ersetze den 8-BIT-ALU-Chip. Anforderungen an Workstation gesendet.</value>
   </data>
-
   <data name="ChipReplaced" xml:space="preserve">
     <value>r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
@@ -130,7 +114,6 @@ r92ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r95ERROR_CODE: ?x?????? 
 y95WARNUNG: 0x45FDB3 8-BIT-ALU-Chip ersetzt. Neustart erforderlich.</value>
   </data>
-
   <data name="RebootFix" xml:space="preserve">
     <value>y95Erzwinge Neustart...
 g90
@@ -167,7 +150,6 @@ r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r99ERROR_CODE: UNSPEZIFIZIERTER FEHLER</value>
   </data>
-
   <data name="RebootBroken3" xml:space="preserve">
     <value>y95Erzwinge Neustart...
 g90
@@ -185,7 +167,6 @@ r95Verbindung zum Anlagennetzwerk... [FEHLER]
 g95
 r90ERROR_CODE: 0x997A5E Katastrophaler Fehler. Sicherheitsprotokolle aktiviert.</value>
   </data>
-
   <data name="StatusBroken3" xml:space="preserve">
     <value>g90Diagnose wird ausgeführt...              
 g90
@@ -199,5 +180,4 @@ g90
 w90Letzte Logeinträge:
 r92ERROR_CODE: 0x997A5E Katastrophaler Fehler. Sicherheitsprotokolle aktiviert.</value>
   </data>
-
 </root>

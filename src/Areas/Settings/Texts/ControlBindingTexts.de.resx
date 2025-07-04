@@ -1,157 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-    <!-- 
-		Microsoft ResX Schema
-		Version 1.3  (Struktur unverändert)
-  -->
-    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <xsd:element name="root" msdata:IsDataSet="true">
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
             <xsd:complexType>
-                <xsd:choice maxOccurs="unbounded">
-                    <xsd:element name="data">
-                        <xsd:complexType>
-                            <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
-                            </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1"/>
-                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-                        </xsd:complexType>
-                    </xsd:element>
-                    <xsd:element name="resheader">
-                        <xsd:complexType>
-                            <xsd:sequence>
-                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                            </xsd:sequence>
-                            <xsd:attribute name="name" type="xsd:string" use="required"/>
-                        </xsd:complexType>
-                    </xsd:element>
-                </xsd:choice>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
             </xsd:complexType>
-        </xsd:element>
-    </xsd:schema>
-
-    <!-- resheader unverändert -->
-    <resheader name="resmimetype">
-        <value>text/microsoft-resx</value>
-    </resheader>
-    <resheader name="version">
-        <value>1.3</value>
-    </resheader>
-    <resheader name="reader">
-        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-    <resheader name="writer">
-        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>
-
-    <!-- ==================== DATA ==================== -->
-
-    <data name="Interact" xml:space="preserve"><value>Interagieren</value></data>
-
-    <data name="Misc" xml:space="preserve"><value>Verschiedenes</value><comment>Category header for keybinding</comment></data>
-
-    <data name="SwitchModes" xml:space="preserve"><value>Modi wechseln</value></data>
-
-    <data name="HideUI" xml:space="preserve"><value>UI ausblenden</value></data>
-
-    <data name="Editor" xml:space="preserve"><value>Editor</value><comment>Header category for keybinding</comment></data>
-
-    <data name="SelectMode" xml:space="preserve"><value>Auswahlmodus</value></data>
-
-    <data name="DeleteBlock" xml:space="preserve"><value>Block löschen</value></data>
-
-    <data name="FlipPartXAxis" xml:space="preserve"><value>Teil an X-Achse spiegeln</value></data>
-
-    <data name="FlipPartZAxis" xml:space="preserve"><value>Teil an Z-Achse spiegeln</value></data>
-
-    <data name="RotatePart" xml:space="preserve"><value>Teil drehen</value></data>
-
-    <data name="Undo" xml:space="preserve"><value>Rückgängig</value></data>
-
-    <data name="Redo" xml:space="preserve"><value>Wiederholen</value></data>
-
-    <data name="SelectAll" xml:space="preserve"><value>Alles auswählen</value></data>
-
-    <data name="Copy" xml:space="preserve"><value>Kopieren</value></data>
-
-    <data name="Cut" xml:space="preserve"><value>Ausschneiden</value></data>
-
-    <data name="Paste" xml:space="preserve"><value>Einfügen</value></data>
-
-    <data name="SelectSegment" xml:space="preserve"><value>Segment auswählen</value></data>
-
-    <data name="NextSlot" xml:space="preserve"><value>Nächster Slot</value></data>
-
-    <data name="PreviousSlot" xml:space="preserve"><value>Vorheriger Slot</value></data>
-
-    <data name="Slot0" xml:space="preserve"><value>Slot 0</value></data>
-    <data name="Slot1" xml:space="preserve"><value>Slot 1</value></data>
-    <data name="Slot2" xml:space="preserve"><value>Slot 2</value></data>
-    <data name="Slot3" xml:space="preserve"><value>Slot 3</value></data>
-    <data name="Slot4" xml:space="preserve"><value>Slot 4</value></data>
-
-    <data name="SpaceOutInOutputBits" xml:space="preserve"><value>Ein/Ausgangs-Bits auseinanderziehen</value></data>
-
-    <data name="CloseInInOutputBits" xml:space="preserve"><value>Ein/Ausgangs-Bits zusammenziehen</value></data>
-
-    <data name="Simulation" xml:space="preserve"><value>Simulation</value></data>
-
-    <data name="RunValidation" xml:space="preserve"><value>Validierung ausführen</value></data>
-
-    <data name="StartPause" xml:space="preserve"><value>Start / Pause</value></data>
-
-    <data name="Reset" xml:space="preserve"><value>Zurücksetzen</value></data>
-
-    <data name="Step" xml:space="preserve"><value>Schritt</value></data>
-
-    <data name="FasterSimulation" xml:space="preserve"><value>Simulation beschleunigen</value></data>
-
-    <data name="SlowerSimulation" xml:space="preserve"><value>Simulation verlangsamen</value></data>
-
-    <data name="CameraControls" xml:space="preserve"><value>Kamerasteuerung</value></data>
-
-    <data name="MoveAround" xml:space="preserve"><value>Bewegen</value></data>
-
-    <data name="LookAround" xml:space="preserve"><value>Umschauen</value></data>
-
-    <data name="RotateViewLeft" xml:space="preserve"><value>Ansicht nach links drehen</value></data>
-
-    <data name="RotateViewRight" xml:space="preserve"><value>Ansicht nach rechts drehen</value></data>
-
-    <data name="CenterCamera" xml:space="preserve"><value>Kamera zentrieren</value></data>
-
-    <data name="PedestalViewUp" xml:space="preserve"><value>Ansicht nach oben verschieben</value></data>
-
-    <data name="PedestalViewDown" xml:space="preserve"><value>Ansicht nach unten verschieben</value></data>
-
-    <data name="SwitchFreeCam" xml:space="preserve"><value>Free-Cam umschalten</value></data>
-
-    <data name="ToggleCamMovements" xml:space="preserve"><value>Kamerabewegungen umschalten</value></data>
-
-    <data name="Unknown" xml:space="preserve"><value>Unbekannt</value></data>
-
-    <data name="BuildUpward" xml:space="preserve"><value>Nach oben bauen</value></data>
-
-    <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Interact" xml:space="preserve">
+    <value>Interagieren</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Verschiedenes</value>
+    <comment>Category header for keybinding</comment>
+  </data>
+  <data name="SwitchModes" xml:space="preserve">
+    <value>Modi wechseln</value>
+  </data>
+  <data name="HideUI" xml:space="preserve">
+    <value>UI ausblenden</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Editor</value>
+    <comment>Header category for keybinding</comment>
+  </data>
+  <data name="SelectMode" xml:space="preserve">
+    <value>Auswahlmodus</value>
+  </data>
+  <data name="DeleteBlock" xml:space="preserve">
+    <value>Block löschen</value>
+  </data>
+  <data name="FlipPartXAxis" xml:space="preserve">
+    <value>Teil an X-Achse spiegeln</value>
+  </data>
+  <data name="FlipPartZAxis" xml:space="preserve">
+    <value>Teil an Z-Achse spiegeln</value>
+  </data>
+  <data name="RotatePart" xml:space="preserve">
+    <value>Teil drehen</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Alles auswählen</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="SelectSegment" xml:space="preserve">
+    <value>Segment auswählen</value>
+  </data>
+  <data name="NextSlot" xml:space="preserve">
+    <value>Nächster Slot</value>
+  </data>
+  <data name="PreviousSlot" xml:space="preserve">
+    <value>Vorheriger Slot</value>
+  </data>
+  <data name="Slot0" xml:space="preserve">
+    <value>Slot 0</value>
+  </data>
+  <data name="Slot1" xml:space="preserve">
+    <value>Slot 1</value>
+  </data>
+  <data name="Slot2" xml:space="preserve">
+    <value>Slot 2</value>
+  </data>
+  <data name="Slot3" xml:space="preserve">
+    <value>Slot 3</value>
+  </data>
+  <data name="Slot4" xml:space="preserve">
+    <value>Slot 4</value>
+  </data>
+  <data name="SpaceOutInOutputBits" xml:space="preserve">
+    <value>Ein/Ausgangs-Bits auseinanderziehen</value>
+  </data>
+  <data name="CloseInInOutputBits" xml:space="preserve">
+    <value>Ein/Ausgangs-Bits zusammenziehen</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>Simulation</value>
+  </data>
+  <data name="RunValidation" xml:space="preserve">
+    <value>Validierung ausführen</value>
+  </data>
+  <data name="StartPause" xml:space="preserve">
+    <value>Start / Pause</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Zurücksetzen</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Schritt</value>
+  </data>
+  <data name="FasterSimulation" xml:space="preserve">
+    <value>Simulation beschleunigen</value>
+  </data>
+  <data name="SlowerSimulation" xml:space="preserve">
+    <value>Simulation verlangsamen</value>
+  </data>
+  <data name="CameraControls" xml:space="preserve">
+    <value>Kamerasteuerung</value>
+  </data>
+  <data name="MoveAround" xml:space="preserve">
+    <value>Bewegen</value>
+  </data>
+  <data name="LookAround" xml:space="preserve">
+    <value>Umschauen</value>
+  </data>
+  <data name="RotateViewLeft" xml:space="preserve">
+    <value>Ansicht nach links drehen</value>
+  </data>
+  <data name="RotateViewRight" xml:space="preserve">
+    <value>Ansicht nach rechts drehen</value>
+  </data>
+  <data name="CenterCamera" xml:space="preserve">
+    <value>Kamera zentrieren</value>
+  </data>
+  <data name="PedestalViewUp" xml:space="preserve">
+    <value>Ansicht nach oben verschieben</value>
+  </data>
+  <data name="PedestalViewDown" xml:space="preserve">
+    <value>Ansicht nach unten verschieben</value>
+  </data>
+  <data name="SwitchFreeCam" xml:space="preserve">
+    <value>Free-Cam umschalten</value>
+  </data>
+  <data name="ToggleCamMovements" xml:space="preserve">
+    <value>Kamerabewegungen umschalten</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="BuildUpward" xml:space="preserve">
+    <value>Nach oben bauen</value>
+  </data>
+  <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>Taste drücken, um festzulegen.
 Linksklick, um zu löschen.</value>
   </data>
-
-    <data name="SettingKeyInput" xml:space="preserve"><value>Tasteingabe wird festgelegt...</value></data>
-
-    <data name="PermanentlyPressedKeysIgnored" xml:space="preserve"><value>Dauerhaft gedrückte Tasten ignoriert: </value></data>
-
-    <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
+  <data name="SettingKeyInput" xml:space="preserve">
+    <value>Tasteingabe wird festgelegt...</value>
+  </data>
+  <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
+    <value>Dauerhaft gedrückte Tasten ignoriert: </value>
+  </data>
+  <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
     <value>Von Hard Chip erkannte dauerhaft gedrückte Tasten werden ignoriert.
 Dies kann durch bestimmte Tastaturlayouts mit Modifikatortasten
 (z. B. IME-japanische Eingabe) verursacht sein.</value>
   </data>
-
-    <data name="ResetBindings" xml:space="preserve"><value>Belegungen zurücksetzen</value></data>
-
-    <data name="CanTUse0" xml:space="preserve"><value>{0} kann nicht verwendet werden</value></data>
-
-    <data name="_0AlreadyUsed" xml:space="preserve"><value>{0} bereits verwendet</value></data>
+  <data name="ResetBindings" xml:space="preserve">
+    <value>Belegungen zurücksetzen</value>
+  </data>
+  <data name="CanTUse0" xml:space="preserve">
+    <value>{0} kann nicht verwendet werden</value>
+  </data>
+  <data name="_0AlreadyUsed" xml:space="preserve">
+    <value>{0} bereits verwendet</value>
+  </data>
+  <data name="RightClickToEdit" xml:space="preserve">
+    <value>* Rechtsklick zum Bearbeiten</value>
+  </data>
 </root>
