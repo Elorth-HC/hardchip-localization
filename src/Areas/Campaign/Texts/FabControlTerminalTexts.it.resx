@@ -181,7 +181,7 @@ g90
 w90Ultime voci del registro:
 r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
 g90
-y39Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Requisiti inviati alla stazione di lavoro...</value>
+y39Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Requisiti inviati alla postazione di lavoro...</value>
   </data>
   <data name="StatusBroken" xml:space="preserve">
     <value>g90Avvio diagnostica...              
@@ -194,7 +194,7 @@ g90
 w90Ultime voci del registro:
 r92CODICE_ERRORE: 0xEFDFB4 chip ALU 8BIT danneggiato
 g90
-y39Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Requisiti inviati alla stazione di lavoro...
+y39Richiesta azione immediata: Sostituisci il chip ALU 8BIT. Requisiti inviati alla postazione di lavoro...
 r95CODICE_ERRORE: 0x052001 La stazione di lavoro non è pronta, le banche materiali sono OFFLINE
 g90
 y39Richiesta azione immediata: Riporta le banche materiali ONLINE per continuare.</value>

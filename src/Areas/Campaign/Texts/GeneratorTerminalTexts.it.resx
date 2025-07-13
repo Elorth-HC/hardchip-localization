@@ -96,7 +96,7 @@ g90Sequenza di riavvio completata. Stato generatore: OPERATIVO.</value>
   <data name="RebootFix" xml:space="preserve">
     <value>y90Tentativo di riavvio forzato...
 g90
-g92Interruzzionde di tutti i sottosistemi dei generatori...
+g92Interruzzione di tutti i sottosistemi dei generatori...
 g93Attivazione interruzione dell'energia d'emergenza...
 g94Stabilizzazione campi di contenimento... [OK]
 g92Blocco valvole di afflusso del carburante... [OK]
@@ -104,7 +104,7 @@ g92Inizio fase di raffreddamento dei sistemi di regolazione termica... [OK]
 g90Disconnessione dalla rete elettrica principale... [OK]
 g90Salvataggio dell'ultima configurazione nota... [OK]
 g90
-g97Tutti i sottosistemi bloccati. Stato generatore [OFFLINE
+g97Tutti i sottosistemi bloccati. Stato generatore [OFFLINE]
 g90
 g90
 g90=========================================================================
@@ -128,7 +128,7 @@ g90Sequenza di riavvio completata. Stato generatore: OPERATIVO.
 </value>
   </data>
   <data name="StatusFixed" xml:space="preserve">
-    <value>g90Stao del generatore: OPERATIVO.</value>
+    <value>g90Stato del generatore: OPERATIVO.</value>
   </data>
   <data name="StatusFixedForever" xml:space="preserve">
     <value>g90
