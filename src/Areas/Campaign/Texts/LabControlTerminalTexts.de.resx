@@ -59,7 +59,7 @@ g92 Sicherheitstür-Dichtungsprüfung [OK]
 r95 Steuereinheit der Sicherheitstür FEHLER, Einheit reagiert nicht
 r95ERROR_CODE: 0xEFDFB4 BYPASS-Chip beschädigt
 g90
-y39Handle sofort: Ersetze den BYPASS-Chip. Anforderungen an Workstation gesendet.</value>
+y39Sofortiges Handeln erforderlich: Ersetze den BYPASS-Chip. Anforderungen an Workstation gesendet.</value>
   </data>
   <data name="RebootBroken" xml:space="preserve">
     <value>g90=========================================================================
@@ -74,7 +74,7 @@ g92Sicherheitstür-Dichtungsprüfung [OK]
 r95Steuereinheit der Sicherheitstür FEHLER, Einheit reagiert nicht
 r92ERROR_CODE: 0xEFDFB4 BYPASS-Chip beschädigt
 g90
-y39Handle sofort: Ersetze den BYPASS-Chip. Anforderungen an Workstation gesendet.</value>
+y39Sofortiges Handeln erforderlich: Ersetze den BYPASS-Chip. Anforderungen an Workstation gesendet.</value>
   </data>
   <data name="ChipReplaced" xml:space="preserve">
     <value>r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER

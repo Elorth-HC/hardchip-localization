@@ -176,7 +176,7 @@ Höhere Werte verringern die Performance stark, erhöhen jedoch die Qualität.</
     <value>Mausrand-Scrollen</value>
   </data>
   <data name="DoubleClickToEdit" xml:space="preserve">
-    <value>Edit-Modus bei Doppelklick rechts</value>
+    <value>Edit-Modus bei Doppel-Rechtsklick</value>
   </data>
   <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
     <value>Wenn aktiviert, schaltet ein doppelter Rechtsklick in den Edit-Modus.
