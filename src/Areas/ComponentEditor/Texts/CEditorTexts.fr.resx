@@ -366,10 +366,10 @@ masque partiellement les traces toujours connectées aux blocs 0/1 constants.</v
     <value>NouvelleComposante</value>
   </data>
   <data name="CameraPedestalDown" xml:space="preserve">
-    <value>Relever la caméra</value>
+    <value>Abaisser la caméra</value>
   </data>
   <data name="CameraPedestalUp" xml:space="preserve">
-    <value>Abaisser la caméra</value>
+    <value>Relever la caméra</value>
   </data>
   <data name="TakePhoto" xml:space="preserve">
     <value>Prendre une photo</value>

@@ -82,4 +82,10 @@
   <data name="CommunityStages" xml:space="preserve">
     <value>Stages Communauté</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Réessayer</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Connexion...</value>
+  </data>
 </root>

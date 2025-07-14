@@ -40,7 +40,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RepresentingNegativeNumberSignedNumberCanTBeDoneWithThePreviousSolutionsAsIs" xml:space="preserve">
-    <value>Représenter un nombre négatif (nombre signé)n'est pas
+    <value>Représenter un nombre négatif (nombre signé) n'est pas
 réalisable avec les solutions précédentes telles quelles.</value>
   </data>
   <data name="ASmallTwistCanBringThatRepresentationWhileStillReusingAllPreviousSolutions" xml:space="preserve">

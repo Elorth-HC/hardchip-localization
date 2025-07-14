@@ -86,7 +86,7 @@
     <value>Cela réinitialisera votre progression de campagne, mais NE supprimera PAS les solutions déjà résolues.</value>
   </data>
   <data name="AreYouSureYouWantToResetYourCampaignProgressionNSolvedSolutionsWonTBeRemoved" xml:space="preserve">
-    <value>Êtes-vous sûr de vouloir réinitialiser votre progression de campagne
+    <value>Êtes-vous sûr de vouloir réinitialiser votre progression de campagne ?
 Les solutions résolues ne seront pas supprimées.</value>
   </data>
   <data name="HardReset" xml:space="preserve">
@@ -102,7 +102,7 @@ Les solutions résolues ne seront pas supprimées.</value>
     <value>Cette action réinitialisera TOUS les paramètres, les solutions et la progression de la campagne.</value>
   </data>
   <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
-    <value>Êtes-vous sûr de vouloir réinitialiser TOUTES les solutions et la progression de la campagne;
+    <value>Êtes-vous sûr de vouloir réinitialiser TOUTES les solutions et la progression de la campagne ?
     
 CETTE ACTION SUPPRIME TOUT, ASSUREZ-VOUS DE CE QUE VOUS FAITES !</value>
   </data>
@@ -200,8 +200,8 @@ les phases en vue à la première personne.</value>
     <value>Mode édition sur double-click droit</value>
   </data>
   <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
-    <value>Si activé, un double-clic gauche passera en mode édition.
-Le block Metal sera automatiquement sélectionné.</value>
+    <value>Si activé, un double-clic droit passera en mode édition.
+Le bloc Metal sera automatiquement sélectionné.</value>
   </data>
   <data name="WorldFOV" xml:space="preserve">
     <value>FOV du monde</value>
