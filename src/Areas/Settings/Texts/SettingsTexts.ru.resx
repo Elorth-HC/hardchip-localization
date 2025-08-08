@@ -278,35 +278,4 @@
   <data name="FOVEditor" xml:space="preserve">
     <value>Угол обзора в редакторе</value>
   </data>
-  <data name="HideBugReportButton" xml:space="preserve">
-    <value>Скрыть кнопку отчёта об ошибке</value>
-  </data>
-  <data name="ShowExtendedChipInfo" xml:space="preserve">
-    <value>Показать расширенную информацию о чипе</value>
-  </data>
-  <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
-    <value>Показывать количество блоков, объем, информацию о MOS и потерях в информационной области внизу слева.</value>
-  </data>
-  <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
-    <value>Это позволяет вашему имени пользователя Steam отображаться в таблицах лидеров,
-заменяя текущее автогенерируемое имя.
-
-Включив это, вы соглашаетесь на то, что Hard Chip будет использовать ваше
-имя пользователя Steam для отображения в таблицах лидеров.</value>
-  </data>
-  <data name="SteamName" xml:space="preserve">
-    <value>Имя Steam:</value>
-  </data>
-  <data name="UseSteamName" xml:space="preserve">
-    <value>Использовать имя Steam</value>
-  </data>
-  <data name="UseHCName" xml:space="preserve">
-    <value>Использовать имя HC</value>
-  </data>
-  <data name="LeaderboardID" xml:space="preserve">
-    <value>ID таблицы лидеров:</value>
-  </data>
-  <data name="EditorTheme" xml:space="preserve">
-    <value>Тема редактора</value>
-  </data>
 </root>
