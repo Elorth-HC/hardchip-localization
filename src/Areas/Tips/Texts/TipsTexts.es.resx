@@ -51,4 +51,10 @@
   <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
     <value>Consejo: puedes entrar en el modo Selección (cursor verde) haciendo clic derecho en cualquier momento.</value>
   </data>
+  <data name="WhenPickingInputOutputSpreadWithPlusMinusKey" xml:space="preserve">
+    <value>Consejo: al elegir una nueva posición de entrada/salida, pulsa + o - para espaciar las líneas hasta 4 casillas.</value>
+  </data>
+  <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
+    <value>Consejo: intercalar tus entradas puede ayudar a reducir el trabajo de cableado.</value>
+  </data>
 </root>

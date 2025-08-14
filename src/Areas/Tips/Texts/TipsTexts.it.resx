@@ -70,4 +70,10 @@
   <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
     <value>Consiglio: puoi entrare in modalità selezione (cursore con un blocco verde) premendo il tasto destro in qualsiasi momento.</value>
   </data>
+  <data name="WhenPickingInputOutputSpreadWithPlusMinusKey" xml:space="preserve">
+    <value>Consiglio: quando scegli una nuova posizione di input/output, premi + o - per distanziare le linee fino a 4 spazi.</value>
+  </data>
+  <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
+    <value>Consiglio: intercalare i tuoi ingressi può aiutare a ridurre il lavoro di cablaggio.</value>
+  </data>
 </root>

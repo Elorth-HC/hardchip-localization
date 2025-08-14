@@ -51,4 +51,10 @@
   <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
     <value>Tipp: Mit einem Rechtsklick kannst du jederzeit in den Auswahlmodus (grüner Rahmen-Cursor) wechseln.</value>
   </data>
+  <data name="WhenPickingInputOutputSpreadWithPlusMinusKey" xml:space="preserve">
+    <value>Tipp: Wenn du eine neue Ein-/Ausgangsposition wählst, drücke + oder -, um die Leitungen auf bis zu 4 Felder Abstand zu spreizen.</value>
+  </data>
+  <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
+    <value>Tipp: Das Ineinanderflechten deiner Eingänge kann den Verdrahtungsaufwand verringern.</value>
+  </data>
 </root>

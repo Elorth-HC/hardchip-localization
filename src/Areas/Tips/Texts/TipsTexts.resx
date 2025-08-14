@@ -51,4 +51,10 @@
   <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
     <value>Tip: you can enter Select mode (green box cursor) by right clicking at any time.</value>
   </data>
+  <data name="WhenPickingInputOutputSpreadWithPlusMinusKey" xml:space="preserve">
+    <value>Tip: when picking a new input/output position, hit + or - keys to spread the lines up to 4 spaces apart.</value>
+  </data>
+  <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
+    <value>Tip: interleaving your inputs might help reduce the wiring work.</value>
+  </data>
 </root>

@@ -70,4 +70,10 @@
   <data name="DevCTAProposeTip" xml:space="preserve">
     <value>Dev: Вы можете предложить подсказку, которую, по вашему мнению, стоит сюда добавить, на Discord-сервере HC!</value>
   </data>
+  <data name="WhenPickingInputOutputSpreadWithPlusMinusKey" xml:space="preserve">
+    <value>Совет: выбирая новую позицию входа/выхода, нажимайте клавиши + или -, чтобы раздвинуть линии до 4 клеток.</value>
+  </data>
+  <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
+    <value>Совет: чередование входов может помочь сократить объём проводки.</value>
+  </data>
 </root>

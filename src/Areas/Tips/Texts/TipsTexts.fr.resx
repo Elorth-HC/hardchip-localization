@@ -51,4 +51,10 @@
   <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
     <value>Astuce: vous pouvez entrer en mode Sélection (curseur en boîte verte) en cliquant avec le bouton droit à tout moment.</value>
   </data>
+  <data name="WhenPickingInputOutputSpreadWithPlusMinusKey" xml:space="preserve">
+    <value>Astuce: lors du choix d'une nouvelle position d'entrée/sortie, appuyez sur + ou - pour écarter les lignes jusqu'à 4 cases.</value>
+  </data>
+  <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
+    <value>Astuce: entrelacer vos entrées peut aider à réduire le travail de câblage.</value>
+  </data>
 </root>
