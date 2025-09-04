@@ -52,7 +52,8 @@
     <value>¿Restablecer todos los ajustes?</value>
   </data>
   <data name="AllSettingsWillBeResetToDefaultRestartingTheGameCouldBeNecessaryToFullyApply" xml:space="preserve">
-    <value>Todos los ajustes se restablecerán a los valores predeterminados. Puede ser necesario reiniciar el juego para aplicarlos completamente.</value>
+    <value>Todos los ajustes se restablecerán a los valores predeterminados.
+Puede ser necesario reiniciar el juego para aplicarlos completamente.</value>
   </data>
   <data name="Campaign" xml:space="preserve">
     <value>Campaña</value>
@@ -105,10 +106,13 @@ Las soluciones completadas no se eliminarán.</value>
     <value>En línea</value>
   </data>
   <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
-    <value>Las tablas se calculan con las últimas soluciones de todo el mundo y tus puntuaciones actualizan las tablas.</value>
+    <value>Las tablas se calculan con las últimas soluciones de todo
+el mundo y tus puntuaciones actualizan las tablas.</value>
   </data>
   <data name="ChartsAreCalculatedFromAFixedAndLocalSnapshotNofTheLatestSolutionsFromAroundTheWorldYourNscoresDonTUpdateCharts" xml:space="preserve">
-    <value>Las tablas se calculan a partir de una instantánea local fija de las últimas soluciones globales. Tus puntuaciones no actualizan las tablas.</value>
+    <value>Las tablas se calculan a partir de una instantánea local fija
+de las últimas soluciones globales. Tus puntuaciones no
+actualizan las tablas.</value>
   </data>
   <data name="RayPrecision" xml:space="preserve">
     <value>Precisión de rayo</value>
