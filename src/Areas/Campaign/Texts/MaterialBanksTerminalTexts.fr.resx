@@ -48,7 +48,7 @@ g92 Intégrité physique [OK]
 r95 Unité de contrôle du système central [ÉCHEC], aucune réponse
 r95CODE_ERREUR : 0xEFDFB4 Puce INVERTER endommagée
 g90
-y39Action immédiate requise : remplacer la puce INVERTER. Besoins envoyés au poste de travail.</value>
+y39Action immédiate requise : remplacer la puce INVERTER. Requis envoyés au poste de travail.</value>
   </data>
   <data name="FirstScreenEver1" xml:space="preserve">
     <value>r90
@@ -105,7 +105,7 @@ g92 Unité de contrôle du système central [OK]
 r95 Inventaire des matériaux [ÉCHEC], valeurs impossibles détectées.
 r95CODE_ERREUR : 0xEFDFB4 Puce ADDER 8 bits endommagée
 g90
-y39Action immédiate requise : remplacer la puce ADDER 8 bits. Besoins envoyés au poste de travail.</value>
+y39Action immédiate requise : remplacer la puce ADDER 8 bits. Requis envoyés au poste de travail.</value>
   </data>
   <data name="ChipReplaced2" xml:space="preserve">
     <value>r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE

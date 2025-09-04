@@ -59,7 +59,7 @@ g92 Vérification du joint mécanique de la porte de sécurité [OK]
 r95 Échec du système de contrôle de la porte de sécurité, unité ne répond pas
 r95CODE_ERREUR : 0xEFDFB4 Puce BYPASS endommagée
 g90
-y39Action immédiate requise : remplacer la puce BYPASS. Besoins envoyés au poste de travail.</value>
+y39Action immédiate requise : remplacer la puce BYPASS. Requis envoyés au poste de travail.</value>
   </data>
   <data name="RebootBroken" xml:space="preserve">
     <value>g90=========================================================================
@@ -74,7 +74,7 @@ g92Vérification du joint mécanique de la porte de sécurité [OK]
 r95Échec du système de contrôle de la porte de sécurité, unité ne répond pas
 r92CODE_ERREUR : 0xEFDFB4 Puce BYPASS endommagée
 g90
-y39Action immédiate requise : remplacer la puce BYPASS. Besoins envoyés au poste de travail.</value>
+y39Action immédiate requise : remplacer la puce BYPASS. Requis envoyés au poste de travail.</value>
   </data>
   <data name="ChipReplaced" xml:space="preserve">
     <value>r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE

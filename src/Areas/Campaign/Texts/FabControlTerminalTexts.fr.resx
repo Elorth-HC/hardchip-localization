@@ -58,7 +58,7 @@ g90
 w90Dernières entrées du journal :
 r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
 g90
-y39Action immédiate requise : remplacer la puce ALU 8 bits. Envoi des besoins à la station de travail...
+y39Action immédiate requise : remplacer la puce ALU 8 bits. Envoi des requis à la station de travail...
 r95CODE_ERREUR : 0x052001 Station de travail non prête, banques de matériaux HORS LIGNE
 g90
 y39Action immédiate requise : remettre les banques de matériaux en ligne pour continuer.</value>
@@ -74,7 +74,7 @@ g90
 w90Dernières entrées du journal :
 r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
 g90
-y39Action immédiate requise : remplacer la puce ALU 8 bits. Besoins envoyés à la station de travail.</value>
+y39Action immédiate requise : remplacer la puce ALU 8 bits. Requis envoyés à la station de travail.</value>
   </data>
   <data name="RebootBroken" xml:space="preserve">
     <value>g90=========================================================================
@@ -88,7 +88,7 @@ g92Intégrité physique [OK]
 r95Unité de contrôle du système central [ÉCHEC], aucune réponse de l'unité
 r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
 g90
-y39Action immédiate requise : remplacer la puce ALU 8 bits. Envoi des besoins à la station de travail...
+y39Action immédiate requise : remplacer la puce ALU 8 bits. Envoi des requis à la station de travail...
 r95CODE_ERREUR : 0x052001 Station de travail non prête, banques de matériaux HORS LIGNE
 g90
 y39Action immédiate requise : remettre les banques de matériaux en ligne pour continuer.</value>
@@ -105,7 +105,7 @@ g92Intégrité physique [OK]
 r95Unité de contrôle du système central [ÉCHEC], aucune réponse de l'unité
 r92CODE_ERREUR : 0xEFDFB4 Puce ALU 8 bits endommagée
 g90
-y39Action immédiate requise : remplacer la puce ALU 8 bits. Besoins envoyés à la station de travail.</value>
+y39Action immédiate requise : remplacer la puce ALU 8 bits. Requis envoyés à la station de travail.</value>
   </data>
   <data name="ChipReplaced" xml:space="preserve">
     <value>r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
