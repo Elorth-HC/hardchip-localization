@@ -206,4 +206,13 @@ Hoch -&gt; Zufriedenstellend -&gt; Reduziert</value>
   <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
     <value>Lösung veraltet, führen Sie die Validierung erneut aus, um zu aktualisieren.</value>
   </data>
+  <data name="FloatingComma" xml:space="preserve">
+    <value>Schwebend:</value>
+  </data>
+  <data name="Grade" xml:space="preserve">
+    <value>Bewertung</value>
+  </data>
+  <data name="LossComma" xml:space="preserve">
+    <value>Verlust:</value>
+  </data>
 </root>

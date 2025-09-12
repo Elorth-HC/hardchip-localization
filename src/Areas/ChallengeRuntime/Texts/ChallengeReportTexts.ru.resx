@@ -221,4 +221,13 @@
   <data name="Slow" xml:space="preserve">
     <value>Медленно</value>
   </data>
+  <data name="FloatingComma" xml:space="preserve">
+    <value>Плавающие:</value>
+  </data>
+  <data name="Grade" xml:space="preserve">
+    <value>Оценка</value>
+  </data>
+  <data name="LossComma" xml:space="preserve">
+    <value>Потери:</value>
+  </data>
 </root>

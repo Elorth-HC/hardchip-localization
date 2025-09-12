@@ -259,4 +259,10 @@ Benutzername für die Anzeige in Bestenlisten verwendet.</value>
   <data name="EditorTheme" xml:space="preserve">
     <value>Editor-Theme</value>
   </data>
+  <data name="AlwaysHideCameraControl" xml:space="preserve">
+    <value>Kamera-Steuerung immer ausblenden</value>
+  </data>
+  <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
+    <value>Die Kamera-Steuerung unten rechts während des Spiels immer ausgeblendet lassen.</value>
+  </data>
 </root>

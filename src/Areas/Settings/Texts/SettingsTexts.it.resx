@@ -269,4 +269,10 @@ Attivando questo, consentirai ad Hard Chip di usare il tuo nome utente per la vi
   <data name="WorldFOV" xml:space="preserve">
     <value>Campo visivo mondo</value>
   </data>
+  <data name="AlwaysHideCameraControl" xml:space="preserve">
+    <value>Nascondi sempre i controlli della telecamera</value>
+  </data>
+  <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
+    <value>Mantieni nascosti i controlli della telecamera in basso a destra durante il gioco.</value>
+  </data>
 </root>

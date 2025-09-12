@@ -82,4 +82,10 @@
   <data name="CommunityStages" xml:space="preserve">
     <value>Fases de la comunidad</value>
   </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Conectando...</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Reintentar</value>
+  </data>
 </root>

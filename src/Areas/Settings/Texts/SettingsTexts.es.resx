@@ -260,4 +260,10 @@ usuario de Steam para mostrar en las tablas de clasificación.</value>
   <data name="EditorTheme" xml:space="preserve">
     <value>Tema del editor</value>
   </data>
+  <data name="AlwaysHideCameraControl" xml:space="preserve">
+    <value>Ocultar siempre controles de cámara</value>
+  </data>
+  <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
+    <value>Mantener los controles de cámara de la esquina inferior derecha ocultos en todo momento durante el juego.</value>
+  </data>
 </root>

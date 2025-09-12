@@ -280,4 +280,10 @@ nom d'utilisateur Steam à des fins d'affichage des classements.</value>
   <data name="EditorTheme" xml:space="preserve">
     <value>Thème éditeur</value>
   </data>
+  <data name="AlwaysHideCameraControl" xml:space="preserve">
+    <value>Toujours masquer les contrôles de caméra</value>
+  </data>
+  <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
+    <value>Garder les contrôles de caméra en bas à droite cachés en permanence pendant le jeu.</value>
+  </data>
 </root>

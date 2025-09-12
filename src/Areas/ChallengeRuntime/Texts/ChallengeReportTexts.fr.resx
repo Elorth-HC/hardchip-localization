@@ -206,4 +206,13 @@ Lent -&gt; Satisfaisant -&gt; Rapide</value>
   <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
     <value>Solution obsolète, relancez la validation pour mettre à jour.</value>
   </data>
+  <data name="FloatingComma" xml:space="preserve">
+    <value>Flottant :</value>
+  </data>
+  <data name="Grade" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="LossComma" xml:space="preserve">
+    <value>Perte :</value>
+  </data>
 </root>
