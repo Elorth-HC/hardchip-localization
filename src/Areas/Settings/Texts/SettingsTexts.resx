@@ -257,6 +257,12 @@ username for leaderboard display purposes.</value>
   <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
     <value>Show blocks count, volume, mos and loss information in the Info area at the bottom left.</value>
   </data>
+  <data name="AlwaysHideCameraControl" xml:space="preserve">
+    <value>Always hide camera controls</value>
+  </data>
+  <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
+    <value>Keep the bottom right camera controls hidden at all times during gameplay.</value>
+  </data>
   <data name="EditorTheme" xml:space="preserve">
     <value>Editor theme</value>
   </data>

@@ -101,7 +101,7 @@ if ($languageFiles.Count -eq 0) {
     Write-Host "No $LanguageCode translation files to analyze." -ForegroundColor Yellow
 } else {
     foreach ($langFile in $languageFiles) {
-    Write-Host "`nChecking: $($langFile.Name)" -ForegroundColor Cyan
+    Write-Host "Checking: $($langFile.Name)" -ForegroundColor Cyan
     
     $languageEntries = Get-ResxEntries -filePath $langFile.FullName
     $englishFile = Get-EnglishFile -languageFilePath $langFile.FullName
@@ -196,9 +196,9 @@ if ($languageFiles.Count -gt 0) {
 }
 
 # Report results
-Write-Host "`n" + "="*60 -ForegroundColor Yellow
+Write-Host "`n=======================================================" -ForegroundColor Yellow
 Write-Host "$($LanguageCode.ToUpper()) TRANSLATION VERIFICATION REPORT" -ForegroundColor Yellow
-Write-Host "="*60 -ForegroundColor Yellow
+Write-Host "========================================================" -ForegroundColor Yellow
 
 Write-Host "`nSUMMARY:" -ForegroundColor Green
 Write-Host "  English reference files: $($englishFiles.Count)"
@@ -224,7 +224,7 @@ else {
     Write-Host "`nNo issues found! All $LanguageCode translations appear consistent." -ForegroundColor Green
 }
 
-Write-Host "`n" + "="*60 -ForegroundColor Yellow
+Write-Host "`n=======================================================" -ForegroundColor Yellow
 
 # Export detailed report to file
 $reportPath = "$WorkspacePath\$($LanguageCode.ToUpper())_Translation_Report.txt"
