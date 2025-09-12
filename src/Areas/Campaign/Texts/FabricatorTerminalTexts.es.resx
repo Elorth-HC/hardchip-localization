@@ -53,16 +53,17 @@ g92External control interfaces... [OK]
 r95Material Bank 1 [OFFLINE]
 r95Material Bank 2 [OFFLINE]
 g90
-y95WARNING: Material banks unavailable. Buffered materials available for limited operations only.
+y95ADVERTENCIA: Bancos de material no disponibles. Materiales en búfer disponibles solo para operaciones limitadas.
 g90
-g39Boot sequence complete. Fabricator status: PARTIALLY OPERATIONAL
+g39Secuencia de arranque completada. Estado del fabricador: PARCIALMENTE OPERATIVO
 g90
-g90Received design specifications for BYPASS chip.
-g90Ready to start fabrication process.</value>
+g90Especificaciones de diseño recibidas para chip BYPASS.
+g90Listo para iniciar el proceso de fabricación.</value>
   </data>
   <data name="StatusStep0" xml:space="preserve">
     <value>g90Ejecutando diagnóstico...              
 g90
+g91Fabricador Autónomo v546.1.7430
 g91Autonomous Fabricator v546.1.7430
 g92 Power System [OK]
 g92 Physical Integrity [OK]
@@ -70,9 +71,9 @@ g92 Core Systems [OK]
 r95 Material Bank 1 [OFFLINE]
 r95 Material Bank 2 [OFFLINE]
 g90
-y95WARNING: Material banks unavailable. Buffered materials available for limited operations only.
+y95ADVERTENCIA: Bancos de material no disponibles. Materiales en búfer disponibles solo para operaciones limitadas.
 g90
-g39Fabricator status: PARTIALLY OPERATIONAL</value>
+g39Estado del fabricador: PARCIALMENTE OPERATIVO</value>
   </data>
   <data name="StatusStep1" xml:space="preserve">
     <value>g90Ejecutando diagnóstico...              
@@ -84,9 +85,9 @@ g92 Core Systems [OK]
 g92 Material Bank 1 [ONLINE]
 r95 Material Bank 2 [OFFLINE]
 g90
-y95WARNING: Material Bank 2 unavailable. Limited operations only.
+y95ADVERTENCIA: Banco de Material 2 no disponible. Solo operaciones limitadas.
 g90
-g39Fabricator status: PARTIALLY OPERATIONAL</value>
+g39Estado del fabricador: PARCIALMENTE OPERATIVO</value>
   </data>
   <data name="StatusStep0Shorted" xml:space="preserve">
     <value>
@@ -96,9 +97,9 @@ g90Fabricator status: PARTIALLY OPERATIONAL</value>
   </data>
   <data name="StatusStep1Shorted" xml:space="preserve">
     <value>
-g92Material Bank 1 [ONLINE]
-r95Material Bank 2 [OFFLINE]
-g90Fabricator status: PARTIALLY OPERATIONAL</value>
+g92Banco de Material 1 [EN LÍNEA]
+r95Banco de Material 2 [FUERA DE LÍNEA]
+g90Estado del fabricador: PARCIALMENTE OPERATIVO</value>
   </data>
   <data name="StatusStep2Shorted" xml:space="preserve">
     <value>
@@ -119,49 +120,49 @@ g90
 g39Fabricator status: OPERATIONAL</value>
   </data>
   <data name="FabricateMore" xml:space="preserve">
-    <value>g90Fabrication process complete.</value>
+    <value>g90Proceso de fabricación completado.</value>
   </data>
   <data name="ReceivedInverter" xml:space="preserve">
-    <value>g90Received design specifications for INVERTER chip.
-g90Ready to start fabrication process.</value>
+    <value>g90Especificaciones de diseño recibidas para chip INVERSOR.
+g90Listo para iniciar el proceso de fabricación.</value>
   </data>
   <data name="ReceivedAdder" xml:space="preserve">
-    <value>g90Received design specifications for 8BIT ADDER chip.
-g90Ready to start fabrication process.</value>
+    <value>g90Especificaciones de diseño recibidas para chip SUMADOR DE 8 BITS.
+g90Listo para iniciar el proceso de fabricación.</value>
   </data>
   <data name="ReceivedALU" xml:space="preserve">
-    <value>g90Received design specifications for ALU chip.
-g90Ready to start fabrication process.</value>
+    <value>g90Especificaciones de diseño recibidas para chip ALU.
+g90Listo para iniciar el proceso de fabricación.</value>
   </data>
   <data name="GenericFabricateLog" xml:space="preserve">
-    <value>g90Initiating fabrication sequence for [CHIPNAME] chip...
+    <value>g90Iniciando secuencia de fabricación para chip [CHIPNAME]...
 g90
-g90Loading design specifications from database... [OK]
-g90Design verification and compliance check... [OK]
-g90Preparing silicon wafer... [OK]
-g94Applying photoresist layer... [OK]
+g90Cargando especificaciones de diseño de la base de datos... [OK]
+g90Verificación de diseño y comprobación de cumplimiento... [OK]
+g90Preparando oblea de silicio... [OK]
+g94Aplicando capa de fotorresistencia... [OK]
 g90
-g90Starting lithography process for base layer...
-g92UV exposure complete... [OK]
-g93Developing photoresist... [OK]
-g93High-temperature annealing... [OK]
+g90Iniciando proceso de litografía para capa base...
+g92Exposición UV completada... [OK]
+g93Revelado de fotorresistencia... [OK]
+g93Recocido a alta temperatura... [OK]
 g90
-g90Final lithography for top metal layer...
-g91UV exposure and development... [OK]
-g92Final etching and cleaning... [OK]
+g90Litografía final para capa metálica superior...
+g91Exposición UV y revelado... [OK]
+g92Grabado final y limpieza... [OK]
 g90
-g90Assembly of chip onto package...
-g92Wire bonding of chip leads... [OK]
-g93Encapsulation and curing... [OK]
-g90Packaging and labeling... [OK]
+g90Montaje del chip en el encapsulado...
+g92Soldadura de cables del chip... [OK]
+g93Encapsulado y curado... [OK]
+g90Empaquetado y etiquetado... [OK]
 g90
-g92Fabrication process complete.
+g92Proceso de fabricación completado.
 g90
-g90[CHIPNAME] chip is ready.
-g90Fabrication log saved. Batch ID: 2224A[BATCHID]X.</value>
+g90Chip [CHIPNAME] está listo.
+g90Registro de fabricación guardado. ID de lote: 2224A[BATCHID]X.</value>
   </data>
   <data name="LookAtChip" xml:space="preserve">
     <value>g99
-r90ERROR_CODE: ?x?????? look on top of the fabricator table</value>
+r90ERROR_CODE: ?x?????? mira encima de la mesa del fabricador</value>
   </data>
 </root>
