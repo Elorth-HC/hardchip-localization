@@ -162,11 +162,14 @@ und klicke dann auf einen SUBSTRAT-Block, um ihn zu platzieren.</value>
 _ (NEUTRAL, grau).</value>
   </data>
   <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
-    <value>INPUT-Blöcke senden 1- oder 0-Zustände
-an benachbarte METALL-Blöcke.</value>
+    <value>INPUT-Blöcke können aktiv ein Signal treiben und
+entweder eine 1 oder 0 in benachbarte METALL-Blöcke senden.</value>
   </data>
   <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
-    <value>Andernfalls kehren ALLE Blöcke in ihren natürlichen NEUTRAL-Zustand zurück.</value>
+    <value>Alle anderen Blöcke leiten diese Signale einfach über
+verbundene Leitungen weiter. Wenn kein INPUT sie weiterhin treibt,
+lösen sich die Signale schließlich auf und das gesamte verbundene
+METALL-Netzwerk kehrt in den schwebenden Zustand zurück.</value>
   </data>
   <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
     <value>Sobald du auf „VALIDIEREN“ klickst, werden INPUTS vom Validierungsprozess gesteuert.</value>
@@ -273,5 +276,8 @@ MOSFETs (Metal Oxide Semiconductor Field-effect Transistors) können jedoch auf 
   </data>
   <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
     <value>STRG links gedrückt halten, Linksklick halten und nach oben ziehen, um METALL vertikal hinzuzufügen.</value>
+  </data>
+  <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
+    <value>Metallbahnen beginnen im grauen schwebenden Zustand.\nKeine Energie fließt zu/von einer Stromquelle. Sie\nsind im Grunde getrennte Drahtteile.</value>
   </data>
 </root>

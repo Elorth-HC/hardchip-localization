@@ -175,18 +175,20 @@ depuis le bouton « ? ».</value>
 puis VALIDEZ.</value>
   </data>
   <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
-    <value>Les blocs METAL, INPUT et OUTPUT peuvent avoir 3 états :
-1 (en rouge),
-0 (en bleu),
-_ (appelé NEUTRE en gris).</value>
+    <value>Les blocs METAL et INPUT peuvent chacun être dans l'un de trois états :
+1 (rouge) - connecté au positif / VDD
+0 (bleu) - connecté à la masse / VSS
+_ (gris) - déconnecté / flottant / Hi-Z</value>
   </data>
   <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
-    <value>Les blocs INPUT envoient des états 1 ou 0
-aux blocs METAL adjacents.</value>
+    <value>Les blocs INPUT peuvent activement piloter un signal,
+envoyant soit un 1 soit un 0 dans les blocs METAL adjacents.</value>
   </data>
   <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
-    <value>Sinon, TOUS les blocs reviendront à
-leur état NEUTRE naturel.</value>
+    <value>Tous les autres blocs propagent simplement ces signaux le long
+des connexions. Si aucun INPUT ne continue à les piloter,
+les signaux finissent par se dissiper et l'ensemble du réseau
+connecté de METAL retourne à l'état flottant.</value>
   </data>
   <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
     <value>Les INPUTS sont contrôlés par le processus de validation
@@ -319,5 +321,8 @@ tout en maintenant CTRL enfoncée.</value>
   <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
     <value>CTRL gauche + maintenir le clic gauche,
 puis déplacer vers le haut pour ajouter des traces verticalement.</value>
+  </data>
+  <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
+    <value>Les pistes métalliques commencent dans l'état gris flottant.\nAucune énergie ne circule vers/depuis une source d'alimentation. Ce sont\nbasiquement des morceaux de fil déconnectés.</value>
   </data>
 </root>

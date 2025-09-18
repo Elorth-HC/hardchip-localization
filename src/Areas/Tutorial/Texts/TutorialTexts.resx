@@ -174,18 +174,20 @@ help from the '?' button.</value>
     <value>Test the 'Click Me!' input at least once then VALIDATE.</value>
   </data>
   <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
-    <value>METAL, INPUT and OUTPUT blocks can have 3 states:
-1 (in red),
-0 (in blue),
-_ (known as NEUTRAL in gray).</value>
+    <value>METAL and INPUT blocks can each be in one of three states:
+1 (red) - connected to positive / VDD
+0 (blue) - connected to ground / VSS
+_ (gray) - disconnected / floating / Hi-Z</value>
   </data>
   <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
-    <value>INPUT blocks sends 1 or 0 states
-to adjacent METAL blocks.</value>
+    <value>INPUT blocks can actively drive a signal, sending
+either a 1 or 0 into adjacent METAL blocks.</value>
   </data>
   <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
-    <value>Otherwise ALL block will revert to
-their natural NEUTRAL state.</value>
+    <value>All other blocks simply propagate these signals along
+connected traces. If no INPUT continues to drive them,
+the signals eventually dissipate and the entire connected
+network of METAL returns to the floating state.</value>
   </data>
   <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
     <value>INPUTS are controlled by the validation
@@ -316,5 +318,8 @@ MOUSE MOVE up while holding CTRL DOWN.</value>
   <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
     <value>Left CTRL + hold Left CLICK down,
 then move up to add METAL vertically.</value>
+  </data>
+  <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
+    <value>Metal traces start in the gray floating state.\nNo energy flows to/from a power source. They\nare basically disconnected pieces of wire.</value>
   </data>
 </root>

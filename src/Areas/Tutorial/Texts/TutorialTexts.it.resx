@@ -155,7 +155,8 @@ L'input A deve essere connesso all'output A ma né all'output B né al C.</value
     <value>INFO: RAPPORTO COMPLETO SBLOCCATO.</value>
   </data>
   <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
-    <value>Il blocco di INPUT invia lo stato 1 o 0 ai blocchi di METALLO adiacenti.</value>
+    <value>I blocchi di INPUT possono guidare attivamente un segnale,
+inviando un 1 o uno 0 nei blocchi di METALLO adiacenti.</value>
   </data>
   <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
     <value>Gli INPUT sono controllati dal processo di verifica nel momento in cui premi 'VERIFICA'.</value>
@@ -182,7 +183,10 @@ L'input A deve essere connesso all'output A ma né all'output B né al C.</value
     <value>Gli NOMS (MOS Negativi) sono l'esatto opposto dei PMOS.</value>
   </data>
   <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
-    <value>Altrimenti TUTTI i blocchi torneranno al loro naturale stato NEUTRALE.</value>
+    <value>Tutti gli altri blocchi propagano semplicemente questi segnali lungo
+le connessioni. Se nessun INPUT continua a guidarli,
+i segnali alla fine si dissipano e l'intera rete connessa
+di METALLO torna allo stato flottante.</value>
   </data>
   <data name="RepresentingNegativeNumberSignedNumberCanTBeDoneWithThePreviousSolutionsAsIs" xml:space="preserve">
     <value>Rappresentare i numeri negativi (numeri con segno) non può essere fatto con le soluzioni precedenti così come sono.</value>
@@ -246,10 +250,10 @@ Altrimenti sono connesse.</value>
     <value>Per riutilizzare ciò che hai già costruito, salva un qualsiasi circuito come PROGETTO e poi selezionalo per ottenere una sua copia da piazzare.</value>
   </data>
   <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
-    <value>I blocchi di METALLO, INPUT e OUTPUT possono avere 3 stati:
-1 (in rosso),
-0 (in blu),
-_ (noto come NEUTRALE in grigio).</value>
+    <value>I blocchi di METALLO e INPUT possono trovarsi ciascuno in uno di tre stati:
+1 (rosso) - collegato al positivo / VDD
+0 (blu) - collegato a massa / VSS
+_ (grigio) - scollegato / flottante / Hi-Z</value>
   </data>
   <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
     <value>A volte, può essere complicato piazzare connessioni senza che si tocchino tra loro.</value>
@@ -284,5 +288,8 @@ Ma i MOSFET (Transistor a Semiconduttori Ossido di Metallo con effetto-campo) po
   </data>
   <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
     <value>Puoi usare R per ruotare i PMOS/NMOS o qualsiasi altra selezione di blocchi.</value>
+  </data>
+  <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
+    <value>Le piste metalliche iniziano nello stato grigio flottante.\nNessuna energia fluisce verso/da una fonte di alimentazione. Sono\nfondamentalmente pezzi di filo scollegati.</value>
   </data>
 </root>

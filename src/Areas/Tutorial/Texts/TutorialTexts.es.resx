@@ -160,16 +160,20 @@ el conjunto completo de bloques.</value>
     <value>Prueba la entrada «¡Haz clic!» al menos una vez y luego VALIDA.</value>
   </data>
   <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
-    <value>Los bloques METÁLICOS, de ENTRADA y SALIDA pueden tener 3 estados:
-1 (en rojo),
-0 (en azul),
-_ (conocido como NEUTRAL en gris).</value>
+    <value>Los bloques METÁLICOS y de ENTRADA pueden estar cada uno en uno de tres estados:
+1 (rojo) - conectado a positivo / VDD
+0 (azul) - conectado a tierra / VSS
+_ (gris) - desconectado / flotante / Hi-Z</value>
   </data>
   <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
-    <value>Los bloques de ENTRADA envían estados 1 o 0 a los bloques METÁLICOS adyacentes.</value>
+    <value>Los bloques de ENTRADA pueden impulsar activamente una señal,
+enviando un 1 o 0 a los bloques METÁLICOS adyacentes.</value>
   </data>
   <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
-    <value>En caso contrario, TODOS los bloques volverán a su estado NEUTRAL natural.</value>
+    <value>Todos los demás bloques simplemente propagan estas señales a lo largo
+de las conexiones. Si ninguna ENTRADA continúa impulsándolas,
+las señales finalmente se disipan y toda la red conectada
+de METAL vuelve al estado flotante.</value>
   </data>
   <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
     <value>Las ENTRADAS las controla el proceso de validación
@@ -290,5 +294,8 @@ y mover hacia arriba para añadir METAL verticalmente.</value>
   <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
     <value>Para conectar la ENTRADA y la SALIDA usa un bloque METÁLICO
 y luego haz clic en cualquier bloque de SUSTRATO para colocarlo.</value>
+  </data>
+  <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
+    <value>Las conexiones metálicas comienzan en el estado gris flotante.\nNo fluye energía hacia/desde una fuente de alimentación. Son\nbásicamente piezas de cable desconectadas.</value>
   </data>
 </root>
