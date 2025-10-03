@@ -323,6 +323,8 @@ tout en maintenant CTRL enfoncée.</value>
 puis déplacer vers le haut pour ajouter des traces verticalement.</value>
   </data>
   <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
-    <value>Les pistes métalliques commencent dans l'état gris flottant.\nAucune énergie ne circule vers/depuis une source d'alimentation. Ce sont\nbasiquement des morceaux de fil déconnectés.</value>
+    <value>Les pistes métalliques commencent dans l'état gris flottant.
+Aucune énergie ne circule vers/depuis une source d'alimentation.
+Ce ne sont simplement que des morceaux de fil déconnectés.</value>
   </data>
 </root>

@@ -278,6 +278,8 @@ MOSFETs (Metal Oxide Semiconductor Field-effect Transistors) können jedoch auf 
     <value>STRG links gedrückt halten, Linksklick halten und nach oben ziehen, um METALL vertikal hinzuzufügen.</value>
   </data>
   <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
-    <value>Metallbahnen beginnen im grauen schwebenden Zustand.\nKeine Energie fließt zu/von einer Stromquelle. Sie\nsind im Grunde getrennte Drahtteile.</value>
+    <value>Metallbahnen beginnen im grauen schwebenden Zustand.
+Keine Energie fließt zu/von einer Stromquelle. Sie sind im
+Grunde getrennte Drahtteile.</value>
   </data>
 </root>

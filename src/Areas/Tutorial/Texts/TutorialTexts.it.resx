@@ -290,6 +290,8 @@ Ma i MOSFET (Transistor a Semiconduttori Ossido di Metallo con effetto-campo) po
     <value>Puoi usare R per ruotare i PMOS/NMOS o qualsiasi altra selezione di blocchi.</value>
   </data>
   <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
-    <value>Le piste metalliche iniziano nello stato grigio flottante.\nNessuna energia fluisce verso/da una fonte di alimentazione. Sono\nfondamentalmente pezzi di filo scollegati.</value>
+    <value>Le piste metalliche iniziano nello stato grigio flottante.
+Nessuna energia fluisce verso/da una fonte di alimentazione.
+Sono fondamentalmente pezzi di filo scollegati.</value>
   </data>
 </root>

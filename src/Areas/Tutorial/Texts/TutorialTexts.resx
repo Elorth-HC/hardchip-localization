@@ -320,6 +320,8 @@ MOUSE MOVE up while holding CTRL DOWN.</value>
 then move up to add METAL vertically.</value>
   </data>
   <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
-    <value>Metal traces start in the gray floating state.\nNo energy flows to/from a power source. They\nare basically disconnected pieces of wire.</value>
+    <value>Metal traces start in the gray floating state. No
+energy flows to/from a power source. They are
+basically disconnected pieces of wire.</value>
   </data>
 </root>

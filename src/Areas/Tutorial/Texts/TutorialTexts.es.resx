@@ -296,6 +296,8 @@ y mover hacia arriba para añadir METAL verticalmente.</value>
 y luego haz clic en cualquier bloque de SUSTRATO para colocarlo.</value>
   </data>
   <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
-    <value>Las conexiones metálicas comienzan en el estado gris flotante.\nNo fluye energía hacia/desde una fuente de alimentación. Son\nbásicamente piezas de cable desconectadas.</value>
+    <value>Las conexiones metálicas comienzan en el estado gris flotante.
+No fluye energía hacia/desde una fuente de alimentación. Son
+básicamente piezas de cable desconectadas.</value>
   </data>
 </root>
