@@ -117,4 +117,10 @@ Bewertung: {1}</value>
   <data name="MemoryBit" xml:space="preserve">
     <value>Speicherzellen</value>
   </data>
+  <data name="AdderChip" xml:space="preserve">
+    <value>Byte-Addierer-Chip</value>
+  </data>
+  <data name="ALUChip" xml:space="preserve">
+    <value>Byte-ALU-Chip</value>
+  </data>
 </root>

@@ -117,4 +117,10 @@ Grade: {1}</value>
   <data name="MemoryBit" xml:space="preserve">
     <value>Memory Cells</value>
   </data>
+  <data name="AdderChip" xml:space="preserve">
+    <value>Byte Adder Chip</value>
+  </data>
+  <data name="ALUChip" xml:space="preserve">
+    <value>Byte ALU Chip</value>
+  </data>
 </root>

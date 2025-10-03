@@ -134,4 +134,10 @@
     <value>Stato: {0}
 Grado: {1}</value>
   </data>
+  <data name="AdderChip" xml:space="preserve">
+    <value>Chip Sommatore di Byte</value>
+  </data>
+  <data name="ALUChip" xml:space="preserve">
+    <value>Chip ALU di Byte</value>
+  </data>
 </root>

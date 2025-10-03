@@ -134,4 +134,10 @@
   <data name="BonusStages" xml:space="preserve">
     <value>Дополнительные уровни</value>
   </data>
+  <data name="AdderChip" xml:space="preserve">
+    <value>Байтовый сумматор</value>
+  </data>
+  <data name="ALUChip" xml:space="preserve">
+    <value>Байтовый АЛУ</value>
+  </data>
 </root>
