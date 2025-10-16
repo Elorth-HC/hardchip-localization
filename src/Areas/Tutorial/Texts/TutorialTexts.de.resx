@@ -282,4 +282,27 @@ MOSFETs (Metal Oxide Semiconductor Field-effect Transistors) können jedoch auf 
 Keine Energie fließt zu/von einer Stromquelle. Sie sind im
 Grunde getrennte Drahtteile.</value>
   </data>
+  <data name="InputsHaveVaryingSignalsButSometimesNyouNeedAConstantSignalOf1Or0" xml:space="preserve">
+    <value>Eingänge haben variierende Signale. Aber manchmal
+brauchen Sie ein konstantes Signal von 1 oder 0.</value>
+  </data>
+  <data name="ConstantBlocksDoJustThat" xml:space="preserve">
+    <value>Konstantenblöcke machen genau das.</value>
+  </data>
+  <data name="ThisIsThe1ConstantBlockAtPlane8" xml:space="preserve">
+    <value>Dies ist der 1-Konstantenblock auf Ebene 8.</value>
+  </data>
+  <data name="AndThe0ConstantBlockAtPlane6" xml:space="preserve">
+    <value>Und der 0-Konstantenblock auf Ebene 6.</value>
+  </data>
+  <data name="TheyAreAlwaysFixedInTheirRespectivePowerPlane" xml:space="preserve">
+    <value>Sie sind immer in ihrer jeweiligen Stromebene fixiert.</value>
+  </data>
+  <data name="ThisIsHelpfullWhenYouBuildReusablePartsAllNpartsAlwaysHaveTheirConstant0Or1FromThisKnownPlane" xml:space="preserve">
+    <value>Das ist hilfreich, wenn Sie wiederverwendbare Teile bauen. Alle
+Teile haben immer ihre Konstante 0 oder 1 von dieser bekannten Ebene.</value>
+  </data>
+  <data name="CONNECTEachConstantBlockToItsOutputThenVALIDATE" xml:space="preserve">
+    <value>VERBINDEN Sie jeden Konstantenblock mit seinem Ausgang, dann VALIDIEREN.</value>
+  </data>
 </root>

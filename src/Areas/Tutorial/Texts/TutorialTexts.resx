@@ -324,4 +324,25 @@ then move up to add METAL vertically.</value>
 energy flows to/from a power source. They are
 basically disconnected pieces of wire.</value>
   </data>
+  <data name="InputsHaveVaryingSignalsButSometimesNyouNeedAConstantSignalOf1Or0" xml:space="preserve">
+    <value>Inputs have varying signals. But sometimes\nyou need a constant signal of 1 or 0.</value>
+  </data>
+  <data name="ConstantBlocksDoJustThat" xml:space="preserve">
+    <value>Constant blocks do just that.</value>
+  </data>
+  <data name="ThisIsThe1ConstantBlockAtPlane8" xml:space="preserve">
+    <value>This is the 1 constant block at plane 8.</value>
+  </data>
+  <data name="AndThe0ConstantBlockAtPlane6" xml:space="preserve">
+    <value>And the 0 constant block at plane 6.</value>
+  </data>
+  <data name="TheyAreAlwaysFixedInTheirRespectivePowerPlane" xml:space="preserve">
+    <value>They are always fixed in their respective power plane.</value>
+  </data>
+  <data name="ThisIsHelpfullWhenYouBuildReusablePartsAllNpartsAlwaysHaveTheirConstant0Or1FromThisKnownPlane" xml:space="preserve">
+    <value>This is helpfull when you build reusable parts. All\nparts always have their constant 0 or 1 from this known plane.</value>
+  </data>
+  <data name="CONNECTEachConstantBlockToItsOutputThenVALIDATE" xml:space="preserve">
+    <value>CONNECT each constant block to its output then VALIDATE.</value>
+  </data>
 </root>

@@ -327,4 +327,27 @@ puis déplacer vers le haut pour ajouter des traces verticalement.</value>
 Aucune énergie ne circule vers/depuis une source d'alimentation.
 Ce ne sont simplement que des morceaux de fil déconnectés.</value>
   </data>
+  <data name="InputsHaveVaryingSignalsButSometimesNyouNeedAConstantSignalOf1Or0" xml:space="preserve">
+    <value>Les entrées ont des signaux variables. Mais parfois
+vous avez besoin d'un signal constant de 1 ou 0.</value>
+  </data>
+  <data name="ConstantBlocksDoJustThat" xml:space="preserve">
+    <value>Les blocs constants font exactement cela.</value>
+  </data>
+  <data name="ThisIsThe1ConstantBlockAtPlane8" xml:space="preserve">
+    <value>Ceci est le bloc constant 1 au plan 8.</value>
+  </data>
+  <data name="AndThe0ConstantBlockAtPlane6" xml:space="preserve">
+    <value>Et le bloc constant 0 au plan 6.</value>
+  </data>
+  <data name="TheyAreAlwaysFixedInTheirRespectivePowerPlane" xml:space="preserve">
+    <value>Ils sont toujours fixés dans leur plan respectif.</value>
+  </data>
+  <data name="ThisIsHelpfullWhenYouBuildReusablePartsAllNpartsAlwaysHaveTheirConstant0Or1FromThisKnownPlane" xml:space="preserve">
+    <value>C'est utile lorsque vous construisez des pièces réutilisables. Toutes
+les pièces ont toujours leur constante 0 ou 1 de ces plans connus.</value>
+  </data>
+  <data name="CONNECTEachConstantBlockToItsOutputThenVALIDATE" xml:space="preserve">
+    <value>CONNECTEZ chaque bloc constant à sa sortie puis VALIDEZ.</value>
+  </data>
 </root>

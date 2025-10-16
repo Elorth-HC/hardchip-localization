@@ -300,4 +300,27 @@ y luego haz clic en cualquier bloque de SUSTRATO para colocarlo.</value>
 No fluye energía hacia/desde una fuente de alimentación. Son
 básicamente piezas de cable desconectadas.</value>
   </data>
+  <data name="InputsHaveVaryingSignalsButSometimesNyouNeedAConstantSignalOf1Or0" xml:space="preserve">
+    <value>Las entradas tienen señales variables. Pero a veces
+necesitas una señal constante de 1 o 0.</value>
+  </data>
+  <data name="ConstantBlocksDoJustThat" xml:space="preserve">
+    <value>Los bloques constantes hacen precisamente eso.</value>
+  </data>
+  <data name="ThisIsThe1ConstantBlockAtPlane8" xml:space="preserve">
+    <value>Este es el bloque constante 1 en el plano 8.</value>
+  </data>
+  <data name="AndThe0ConstantBlockAtPlane6" xml:space="preserve">
+    <value>Y el bloque constante 0 en el plano 6.</value>
+  </data>
+  <data name="TheyAreAlwaysFixedInTheirRespectivePowerPlane" xml:space="preserve">
+    <value>Siempre están fijos en su respectivo plano de alimentación.</value>
+  </data>
+  <data name="ThisIsHelpfullWhenYouBuildReusablePartsAllNpartsAlwaysHaveTheirConstant0Or1FromThisKnownPlane" xml:space="preserve">
+    <value>Esto es útil cuando construyes partes reutilizables. Todas
+las partes siempre tienen su constante 0 o 1 desde este plano conocido.</value>
+  </data>
+  <data name="CONNECTEachConstantBlockToItsOutputThenVALIDATE" xml:space="preserve">
+    <value>CONECTA cada bloque constante a su salida, luego VALIDA.</value>
+  </data>
 </root>
