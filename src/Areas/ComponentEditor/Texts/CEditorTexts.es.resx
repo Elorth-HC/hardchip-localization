@@ -228,7 +228,7 @@ oculta parcialmente las pistas siempre conectadas a bloques constantes 0/1.</val
     <value>Desplazarse izquierda</value>
   </data>
   <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
-    <value>Cámara editor/Cámara libre (SHIFT/CTRL/WASD/CLIC IZQ.)</value>
+    <value>Cámara editor/Cámara libre (SPACE/CTRL/WASD/CLIC IZQ.)</value>
   </data>
   <data name="EditorCamFreeCam" xml:space="preserve">
     <value>Cámara editor/Cámara libre</value>

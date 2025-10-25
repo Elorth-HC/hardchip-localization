@@ -228,7 +228,7 @@ hide metal traces always connected to 0/1 constant blocks.</value>
     <value>Strafe Left</value>
   </data>
   <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
-    <value>Editor Cam/Free Cam (SHIFT/CTRL/WASD/LEFT CLICK)</value>
+    <value>Editor Cam/Free Cam (SPACE/CTRL/WASD/LEFT CLICK)</value>
   </data>
   <data name="EditorCamFreeCam" xml:space="preserve">
     <value>Editor Cam/Free Cam</value>

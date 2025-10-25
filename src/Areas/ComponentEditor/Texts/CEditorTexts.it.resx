@@ -222,7 +222,7 @@ Riducendo il circuito rimuoverà i blocchi al di fuori della nuova dimensione de
     <value>Editor fotocamera/fotocamera libera</value>
   </data>
   <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
-    <value>Editor fotocamera/fotocamera libera (SHIFT/CTRL/WASD/CLICL TASTO SINISTRO)</value>
+    <value>Editor fotocamera/fotocamera libera (SPACE/CTRL/WASD/CLICL TASTO SINISTRO)</value>
   </data>
   <data name="EnterNewNameForThisBlueprint" xml:space="preserve">
     <value>Inserisci un nuovo nome per questo progetto:</value>

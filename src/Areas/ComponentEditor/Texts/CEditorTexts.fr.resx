@@ -228,7 +228,7 @@ masque partiellement les traces toujours connectées aux blocs 0/1 constants.</v
     <value>Déplacement latéral à gauche</value>
   </data>
   <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
-    <value>Cam. Éditeur/Cam. Libre (SHIFT/CTRL/ZQSD/CLIC GAUCHE)</value>
+    <value>Cam. Éditeur/Cam. Libre (SPACE/CTRL/ZQSD/CLIC GAUCHE)</value>
   </data>
   <data name="EditorCamFreeCam" xml:space="preserve">
     <value>Caméra Éditeur/Caméra Libre</value>

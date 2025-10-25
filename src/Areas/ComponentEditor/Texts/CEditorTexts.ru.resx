@@ -488,7 +488,7 @@ Discord, и любые другие программы, поддерживающ
     <value>Переименовать чертёж:</value>
   </data>
   <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
-    <value>Камера редактора/Свободная камера (SHIFT/CTRL/WASD/ЛКМ)</value>
+    <value>Камера редактора/Свободная камера (SPACE/CTRL/WASD/ЛКМ)</value>
   </data>
   <data name="ButtonLabelChecked" xml:space="preserve">
     <value>   Проверено!   </value>
