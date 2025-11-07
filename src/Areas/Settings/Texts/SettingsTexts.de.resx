@@ -265,4 +265,24 @@ Benutzername für die Anzeige in Bestenlisten verwendet.</value>
   <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
     <value>Die Kamera-Steuerung unten rechts während des Spiels immer ausgeblendet lassen.</value>
   </data>
+  <data name="DangerZone" xml:space="preserve">
+    <value>Gefahrenzone</value>
+  </data>
+  <data name="ThisWillResetYourTutorialSolutionsButNotYourCampaignProgression" xml:space="preserve">
+    <value>Dadurch werden deine Tutorial-Lösungen zurückgesetzt,
+aber nicht dein Kampagnenfortschritt.</value>
+  </data>
+  <data name="ResetsTutorial" xml:space="preserve">
+    <value>Tutorial zurücksetzen?</value>
+  </data>
+  <data name="ResetTutorial" xml:space="preserve">
+    <value>Tutorial zurücksetzen</value>
+  </data>
+  <data name="AreYouSureYouWantToResetAllYourTutorialSolutionsYourCampaignProgressionAndAllOtherStageSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>Bist du sicher, dass du all deine Tutorial-Lösungen zurücksetzen
+möchtest?
+
+Dein Kampagnenfortschritt und alle anderen Stufenlösungen
+werden nicht entfernt.</value>
+  </data>
 </root>

@@ -273,6 +273,26 @@ Attivando questo, consentirai ad Hard Chip di usare il tuo nome utente per la vi
     <value>Nascondi sempre i controlli della telecamera</value>
   </data>
   <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
-    <value>Mantieni nascosti i controlli della telecamera in basso a destra durante il gioco.</value>
+    <value>Mantieni nascosti i controlli della telecamera
+in basso a destra durante il gioco.</value>
+  </data>
+  <data name="DangerZone" xml:space="preserve">
+    <value>Zona pericolosa</value>
+  </data>
+  <data name="ThisWillResetYourTutorialSolutionsButNotYourCampaignProgression" xml:space="preserve">
+    <value>Questo reimposterà le tue soluzioni del tutorial,
+ma non la progressione della campagna.</value>
+  </data>
+  <data name="ResetsTutorial" xml:space="preserve">
+    <value>Reimpostare il tutorial?</value>
+  </data>
+  <data name="ResetTutorial" xml:space="preserve">
+    <value>Reimposta il tutorial</value>
+  </data>
+  <data name="AreYouSureYouWantToResetAllYourTutorialSolutionsYourCampaignProgressionAndAllOtherStageSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>Sei sicuro di voler reimpostare tutte le soluzioni del tutorial?
+
+La progressione della campagna e tutte le altre soluzioni degli
+stage non verranno rimosse.</value>
   </data>
 </root>

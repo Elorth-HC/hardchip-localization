@@ -284,6 +284,26 @@ nom d'utilisateur Steam à des fins d'affichage des classements.</value>
     <value>Toujours masquer les contrôles de caméra</value>
   </data>
   <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
-    <value>Garder les contrôles de caméra en bas à droite cachés en permanence pendant le jeu.</value>
+    <value>Garder les contrôles de caméra en bas à
+droite cachés en permanence pendant le jeu.</value>
+  </data>
+  <data name="DangerZone" xml:space="preserve">
+    <value>Zone de danger</value>
+  </data>
+  <data name="ThisWillResetYourTutorialSolutionsButNotYourCampaignProgression" xml:space="preserve">
+    <value>Cela réinitialisera vos solutions du tutoriel,
+mais pas votre progression de campagne.</value>
+  </data>
+  <data name="ResetsTutorial" xml:space="preserve">
+    <value>Réinitialiser le tutoriel ?</value>
+  </data>
+  <data name="ResetTutorial" xml:space="preserve">
+    <value>Réinitialiser le tutoriel</value>
+  </data>
+  <data name="AreYouSureYouWantToResetAllYourTutorialSolutionsYourCampaignProgressionAndAllOtherStageSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir réinitialiser toutes vos solutions du tutoriel ?
+
+Votre progression de campagne et toutes les autres solutions de niveaux
+ne seront pas supprimées.</value>
   </data>
 </root>

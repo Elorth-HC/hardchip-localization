@@ -282,6 +282,25 @@
     <value>Всегда скрывать элементы управления камерой</value>
   </data>
   <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
-    <value>Всегда держать элементы управления камерой в правом нижнем углу скрытыми во время игры.</value>
+    <value>Всегда держать элементы управления камерой в
+правом нижнем углу скрытыми во время игры.</value>
+  </data>
+  <data name="DangerZone" xml:space="preserve">
+    <value>Опасная зона</value>
+  </data>
+  <data name="ThisWillResetYourTutorialSolutionsButNotYourCampaignProgression" xml:space="preserve">
+    <value>Это сбросит ваши решения в учебном режиме,
+но не прогресс кампании.</value>
+  </data>
+  <data name="ResetsTutorial" xml:space="preserve">
+    <value>Сбросить учебный режим?</value>
+  </data>
+  <data name="ResetTutorial" xml:space="preserve">
+    <value>Сбросить учебный режим</value>
+  </data>
+  <data name="AreYouSureYouWantToResetAllYourTutorialSolutionsYourCampaignProgressionAndAllOtherStageSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>Вы уверены, что хотите сбросить все решения учебного режима?
+
+Прогресс кампании и все остальные решения этапов удалены не будут.</value>
   </data>
 </root>

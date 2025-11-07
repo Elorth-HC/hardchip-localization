@@ -266,4 +266,23 @@ username for leaderboard display purposes.</value>
   <data name="EditorTheme" xml:space="preserve">
     <value>Editor theme</value>
   </data>
+  <data name="DangerZone" xml:space="preserve">
+    <value>Danger Zone</value>
+  </data>
+  <data name="ThisWillResetYourTutorialSolutionsButNotYourCampaignProgression" xml:space="preserve">
+    <value>This will reset your tutorial solutions,
+but not your campaign progression.</value>
+  </data>
+  <data name="ResetsTutorial" xml:space="preserve">
+    <value>Resets tutorial?</value>
+  </data>
+  <data name="ResetTutorial" xml:space="preserve">
+    <value>Reset tutorial</value>
+  </data>
+  <data name="AreYouSureYouWantToResetAllYourTutorialSolutionsYourCampaignProgressionAndAllOtherStageSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>Are you sure you want to reset all your tutorial solutions?
+
+Your campaign progression and all other stage solutions
+won't be removed.</value>
+  </data>
 </root>

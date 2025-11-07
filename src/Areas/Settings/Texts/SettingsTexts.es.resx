@@ -264,6 +264,26 @@ usuario de Steam para mostrar en las tablas de clasificación.</value>
     <value>Ocultar siempre controles de cámara</value>
   </data>
   <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
-    <value>Mantener los controles de cámara de la esquina inferior derecha ocultos en todo momento durante el juego.</value>
+    <value>Mantener los controles de cámara de la esquina inferior
+derecha ocultos en todo momento durante el juego.</value>
+  </data>
+  <data name="DangerZone" xml:space="preserve">
+    <value>Zona de peligro</value>
+  </data>
+  <data name="ThisWillResetYourTutorialSolutionsButNotYourCampaignProgression" xml:space="preserve">
+    <value>Esto restablecerá tus soluciones del tutorial,
+pero no tu progreso de campaña.</value>
+  </data>
+  <data name="ResetsTutorial" xml:space="preserve">
+    <value>¿Restablecer tutorial?</value>
+  </data>
+  <data name="ResetTutorial" xml:space="preserve">
+    <value>Restablecer tutorial</value>
+  </data>
+  <data name="AreYouSureYouWantToResetAllYourTutorialSolutionsYourCampaignProgressionAndAllOtherStageSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>¿Seguro que quieres restablecer todas tus soluciones del tutorial?
+
+Tu progreso en la campaña y todas las demás soluciones de fases
+no se eliminarán.</value>
   </data>
 </root>
