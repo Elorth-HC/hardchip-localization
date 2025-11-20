@@ -76,4 +76,10 @@
   <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
     <value>Совет: чередование входов может помочь сократить объём проводки.</value>
   </data>
+  <data name="YouCanNeutralCtrlClick" xml:space="preserve">
+    <value>Совет: вы можете переключить вход в нейтральное состояние, удерживая Ctrl и щёлкнув по нему.</value>
+  </data>
+  <data name="YouCanCenterCameraWithSpaceBar" xml:space="preserve">
+    <value>Совет: вы можете центрировать камеру с помощью пробела, нажмите дважды, чтобы вернуться к предыдущей позиции камеры.</value>
+  </data>
 </root>

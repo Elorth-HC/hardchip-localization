@@ -436,6 +436,9 @@ et la place dans le presse-papiers ainsi que dans le dossier de captures Steam.<
   <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>Phase d'initialisation, ne compte pas dans le score en ticks.</value>
   </data>
+  <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>Phase de validation aléatoire, ne compte pas dans le score en ticks.</value>
+  </data>
   <data name="Any" xml:space="preserve">
     <value>Tout</value>
   </data>

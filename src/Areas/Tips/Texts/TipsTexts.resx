@@ -57,4 +57,10 @@
   <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
     <value>Tip: interleaving your inputs might help reduce the wiring work.</value>
   </data>
+  <data name="YouCanNeutralCtrlClick" xml:space="preserve">
+    <value>Tip: you can switch an input to neutral by holding Ctrl while clicking on it.</value>
+  </data>
+  <data name="YouCanCenterCameraWithSpaceBar" xml:space="preserve">
+    <value>Tip: you can center the camera with Spacebar, hit twice to come back to the previous camera position.</value>
+  </data>
 </root>

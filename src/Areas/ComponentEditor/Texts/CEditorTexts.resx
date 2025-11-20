@@ -490,4 +490,7 @@ put in the clipboard and Steam Screenshot Folder.</value>
   <data name="ComparerModeSummary" xml:space="preserve">
     <value>Comparer</value>
   </data>
+  <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>Random validation phase, doesn't count toward tick score.</value>
+  </data>
 </root>

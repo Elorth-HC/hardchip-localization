@@ -76,4 +76,10 @@
   <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
     <value>Consiglio: intercalare i tuoi ingressi può aiutare a ridurre il lavoro di cablaggio.</value>
   </data>
+  <data name="YouCanNeutralCtrlClick" xml:space="preserve">
+    <value>Consiglio: puoi impostare un ingresso su neutro tenendo premuto Ctrl mentre ci clicchi sopra.</value>
+  </data>
+  <data name="YouCanCenterCameraWithSpaceBar" xml:space="preserve">
+    <value>Consiglio: puoi centrare la telecamera con la barra spaziatrice, premi due volte per tornare alla posizione precedente della telecamera.</value>
+  </data>
 </root>

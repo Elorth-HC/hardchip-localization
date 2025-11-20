@@ -57,4 +57,10 @@
   <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
     <value>Tipp: Das Ineinanderflechten deiner Eingänge kann den Verdrahtungsaufwand verringern.</value>
   </data>
+  <data name="YouCanNeutralCtrlClick" xml:space="preserve">
+    <value>Tipp: Du kannst einen Eingang auf Neutral schalten, indem du Strg gedrückt hältst und darauf klickst.</value>
+  </data>
+  <data name="YouCanCenterCameraWithSpaceBar" xml:space="preserve">
+    <value>Tipp: Du kannst die Kamera mit der Leertaste zentrieren, drücke zweimal, um zur vorherigen Kameraposition zurückzukehren.</value>
+  </data>
 </root>

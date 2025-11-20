@@ -436,6 +436,9 @@ colocarla en el portapapeles y en la carpeta de capturas de Steam.</value>
   <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>Fase inicial de encendido, no cuenta para la puntuación de ticks.</value>
   </data>
+  <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>Fase de validación aleatoria, no cuenta para la puntuación de ticks.</value>
+  </data>
   <data name="Any" xml:space="preserve">
     <value>Cualquiera</value>
   </data>

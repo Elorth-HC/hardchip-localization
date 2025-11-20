@@ -275,6 +275,9 @@ Riducendo il circuito rimuoverà i blocchi al di fuori della nuova dimensione de
   <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>Fase di accensione, non viene contata nel punteggio tick.</value>
   </data>
+  <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>Fase di validazione casuale, non viene contata nel punteggio tick.</value>
+  </data>
   <data name="InputNamed" xml:space="preserve">
     <value>Input rinominato </value>
   </data>

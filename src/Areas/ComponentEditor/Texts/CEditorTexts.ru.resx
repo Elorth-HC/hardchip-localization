@@ -88,6 +88,9 @@
   <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>Этап включения питания не влияет на оценку тактов.</value>
   </data>
+  <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>Этап случайной проверки не влияет на оценку тактов.</value>
+  </data>
   <data name="SwitchToShrinkMode" xml:space="preserve">
     <value>Переключиться в режим уменьшения</value>
   </data>

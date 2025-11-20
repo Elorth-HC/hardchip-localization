@@ -57,4 +57,10 @@
   <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
     <value>Astuce: entrelacer vos entrées peut aider à réduire le travail de câblage.</value>
   </data>
+  <data name="YouCanNeutralCtrlClick" xml:space="preserve">
+    <value>Astuce: vous pouvez passer une entrée en neutre en maintenant Ctrl tout en cliquant dessus.</value>
+  </data>
+  <data name="YouCanCenterCameraWithSpaceBar" xml:space="preserve">
+    <value>Astuce: vous pouvez centrer la caméra avec la barre d'espace, appuyez deux fois pour revenir à la position précédente de la caméra.</value>
+  </data>
 </root>

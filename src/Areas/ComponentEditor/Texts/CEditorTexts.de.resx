@@ -450,6 +450,9 @@ und lege ihn in die Zwischenablage sowie den Steam-Screenshot-Ordner ab.</value>
   <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>Anfängliche Hochfahrphase, zählt nicht zum Tick-Score.</value>
   </data>
+  <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>Zufällige Validierungsphase, zählt nicht zum Tick-Score.</value>
+  </data>
   <data name="Any" xml:space="preserve">
     <value>Beliebig</value>
   </data>
