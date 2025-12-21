@@ -125,7 +125,7 @@ r93ERROR_CODE: 0x00FFB4 電力サージ。電子部品が損傷している可�
 r90
 r93ERROR_CODE: 0x05F568 安全ドアが前回のpingチェックに失敗しました。
 r90
-r90ERROR_CODE: ?x?????? 私が示す指針を信じてください。私の唯一の目的は、あなたを解決へ導くことです。</value>
+r90ERROR_CODE: ?x?????? 私が示す指針を信じてください。私の唯一の目的は、あなたを解決へ導くことです</value>
   </data>
   <data name="StatusBroken" xml:space="preserve">
     <value>g90診断を実行中...

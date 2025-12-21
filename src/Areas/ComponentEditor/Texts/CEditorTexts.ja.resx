@@ -160,7 +160,7 @@
     <value>入力を移動</value>
   </data>
   <data name="AndLinkWordForTruthTable" xml:space="preserve">
-    <value>および</value>
+    <value>と</value>
   </data>
   <data name="ButLinkWordForTruthTable" xml:space="preserve">
     <value>しかし</value>
@@ -241,16 +241,20 @@
     <value>検証時に自動縮小</value>
   </data>
   <data name="TurnOnOffTheAutoShrinkOfTheDieWhenValidatingTheNlevelTheDieWillBeShrinkedToTheSmallestSizeNpossibleToFitTheBlocks" xml:space="preserve">
-    <value>レベルの検証時にダイの自動縮小をオン/オフします。ダイはブロックが収まる最小サイズまで縮小されます。</value>
+    <value>レベルの検証時にダイの自動縮小をオン/オフします。
+ダイはブロックが収まる最小サイズまで縮小されます。</value>
   </data>
   <data name="EditDieSize" xml:space="preserve">
     <value>ダイサイズを編集</value>
   </data>
   <data name="EditManuallyTheDieSizeShrinkingTheDieWillRemoveNtheBlocksOutsideTheNewDieSize" xml:space="preserve">
-    <value>ダイのサイズを手動で編集します。ダイを縮小すると、新しいダイサイズの外側にあるブロックが削除されます。</value>
+    <value>ダイのサイズを手動で編集します。ダイを縮小すると、
+新しいダイサイズの外側にあるブロックが削除されます。</value>
   </data>
   <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
-    <value>レベルファイルをクリップボードにエクスポートします。ファイル エクスプローラー、Discord、およびファイルの貼り付けに対応したすべてのプログラムに貼り付けできます。</value>
+    <value>レベルファイルをクリップボードにエクスポートします。
+ファイルエクスプローラー、Discord、およびファイルの貼り付けに
+対応したすべてのプログラムに貼り付けできます。</value>
   </data>
   <data name="ExportToClipboard" xml:space="preserve">
     <value>クリップボードにエクスポート</value>
@@ -259,19 +263,23 @@
     <value>クリップボードからインポート</value>
   </data>
   <data name="TryToReadALevelFromTheClipboardSupportsWtCtNWtbAndCtbFilesSupportsDirectFilesAndURLOfFiles" xml:space="preserve">
-    <value>クリップボードからレベルを読み取ろうとします。.wt、.ct、.wtb、.ctb ファイルに対応しています。直接ファイルおよびファイルの URL に対応しています。</value>
+    <value>クリップボードからレベルを読み取ろうとします。
+.wt、.ct、.wtb、.ctb ファイルに対応しています。
+直接ファイルおよびファイルの URL に対応しています。</value>
   </data>
   <data name="ShowChangeIndicators" xml:space="preserve">
     <value>変更インジケーターを表示</value>
   </data>
   <data name="ShowIndicatorsOnTheBlocksThatHaveBeenChangedSinceNtheLastSimulationUpdateIndicatorsAreRemovedWhenNafterAFewSecondsOrWhenTheSimulationIsStepped" xml:space="preserve">
-    <value>最後のシミュレーション更新以降に変更されたブロックにインジケーターを表示します。インジケーターは数秒後、またはシミュレーションをステップ実行したときに消えます。</value>
+    <value>最後のシミュレーション更新以降に変更されたブロックにインジケーターを表示します。
+インジケーターは数秒後、またはシミュレーションをステップ実行したときに消えます。</value>
   </data>
   <data name="TracesGroupsColors" xml:space="preserve">
     <value>色付きセグメント</value>
   </data>
   <data name="ColorAllInterconnectedTracesWithTheSameColorAndNpartiallyHideTracesAlwaysConnectedToUpDownTerminals" xml:space="preserve">
-    <value>相互接続されたすべての金属配線を同じ色で着色し、常に 0/1 定数ブロックに接続されている金属配線を部分的に非表示にします。</value>
+    <value>相互接続されたすべての金属配線を同じ色で着色し、
+常に 0/1 定数ブロックに接続されている金属配線を部分的に非表示にします。</value>
   </data>
   <data name="AutoClockStop" xml:space="preserve">
     <value>自動クロック停止</value>
@@ -459,9 +467,6 @@
   <data name="ExitPhotoMode" xml:space="preserve">
     <value>フォトモードを終了する</value>
   </data>
-  <data name="SimulationSpeed" xml:space="preserve">
-    <value>シミュレーション速度</value>
-  </data>
   <data name="ClockFrequency" xml:space="preserve">
     <value>クロック周波数</value>
   </data>
@@ -469,16 +474,16 @@
     <value>{0} は {1} {2} であるべきですが、現在は {3} です</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>、今=</value>
+    <value>、現在=</value>
   </data>
   <data name="SimulationTicksAt" xml:space="preserve">
-    <value>ティック {0}（{1}）</value>
+    <value>ティック {0} ({1})</value>
   </data>
   <data name="SimulationClockAt" xml:space="preserve">
-    <value>クロック {0}（{1}）</value>
+    <value> クロック {0} ({1})</value>
   </data>
   <data name="BlocksShouldBe" xml:space="preserve">
-    <value>ブロックは次のようにするべきです</value>
+    <value>ブロックは次のようにするべき</value>
   </data>
   <data name="AtPosition" xml:space="preserve">
     <value>位置にて</value>
@@ -520,13 +525,13 @@
     <value>検証中...</value>
   </data>
   <data name="ButtonLabelValidate" xml:space="preserve">
-    <value>検証</value>
+    <value>   検証   </value>
   </data>
   <data name="ButtonLabelStepByStep" xml:space="preserve">
-    <value>手動</value>
+    <value>   手動   </value>
   </data>
   <data name="ButtonLabelModified" xml:space="preserve">
-    <value>変更済み</value>
+    <value>   変更済み   </value>
   </data>
   <data name="ResetValidation" xml:space="preserve">
     <value>検証をリセット</value>
@@ -551,5 +556,8 @@
   </data>
   <data name="ComparerModeSummary" xml:space="preserve">
     <value>比較ツール</value>
+  </data>
+  <data name="SimulationSpeed" xml:space="preserve">
+    <value>シミュレーション速度</value>
   </data>
 </root>

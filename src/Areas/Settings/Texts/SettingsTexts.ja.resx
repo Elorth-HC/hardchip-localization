@@ -200,7 +200,7 @@
 値を高くすると品質は向上しますが、パフォーマンスは低下します。</value>
   </data>
   <data name="LikelyPerformanceCost1030Percent" xml:space="preserve">
-    <value>推定されるパフォーマンス低下：10～30％。</value>
+    <value>推定されるパフォーマンス低下: 10～30％</value>
   </data>
   <data name="ChromaticAberration" xml:space="preserve">
     <value>色収差</value>
@@ -304,9 +304,11 @@
     <value>マウスホイールの水平スクロールでカメラを回転します。</value>
   </data>
   <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
-    <value>これにより、Steamのユーザー名がリーダーボードに表示され、現在の自動生成された名前に置き換わります。
+    <value>これにより、Steamのユーザー名がリーダーボードに表示され、
+現在の自動生成された名前に置き換わります。
 
-これを有効にすると、Hard Chipがリーダーボード表示の目的であなたのSteamユーザー名を使用することに同意したことになります。</value>
+これを有効にすると、Hard Chipがリーダーボード表示の目的で
+あなたのSteamユーザー名を使用することに同意したことになります。</value>
   </data>
   <data name="SteamName" xml:space="preserve">
     <value>Steam名:</value>

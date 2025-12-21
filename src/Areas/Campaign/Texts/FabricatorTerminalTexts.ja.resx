@@ -167,17 +167,20 @@ g90
 g39ファブリケーターの状態: 部分稼働中</value>
   </data>
   <data name="StatusStep0Shorted" xml:space="preserve">
-    <value>r95マテリアルバンク 1 [オフライン]  
+    <value>
+r95マテリアルバンク 1 [オフライン]  
 r95マテリアルバンク 2 [オフライン]  
 g90ファブリケーターのステータス: 部分的に稼働中</value>
   </data>
   <data name="StatusStep1Shorted" xml:space="preserve">
-    <value>g92マテリアルバンク 1 [オンライン]
+    <value>
+g92マテリアルバンク 1 [オンライン]
 r95マテリアルバンク 2 [オフライン]
 g90ファブリケーターのステータス: 部分的に稼働中</value>
   </data>
   <data name="StatusStep2Shorted" xml:space="preserve">
-    <value>g92マテリアルバンク 1 [オンライン]
+    <value>
+g92マテリアルバンク 1 [オンライン]
 g92マテリアルバンク 2 [オンライン]
 g90ファブリケーターのステータス: 稼働中</value>
   </data>
