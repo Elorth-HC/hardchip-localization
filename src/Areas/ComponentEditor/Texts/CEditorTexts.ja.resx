@@ -136,7 +136,7 @@
     <value>ブループリントの名前を変更:</value>
   </data>
   <data name="DeleteBlueprint" xml:space="preserve">
-    <value>設計図を削除:</value>
+    <value>ブループリントを削除:</value>
   </data>
   <data name="Probes" xml:space="preserve">
     <value>プローブ</value>
@@ -172,13 +172,13 @@
     <value>画面に固定する</value>
   </data>
   <data name="NeutralAllowed" xml:space="preserve">
-    <value>ニュートラルが許可されています</value>
+    <value>ニュートラル許可</value>
   </data>
   <data name="StickToBlock" xml:space="preserve">
     <value>ブロックに固定する</value>
   </data>
   <data name="NeutralNotAllowed" xml:space="preserve">
-    <value>ニュートラルは許可されていません</value>
+    <value>ニュートラル禁止</value>
   </data>
   <data name="StopAt1" xml:space="preserve">
     <value>1で停止</value>
@@ -205,16 +205,16 @@
     <value>ブループリントライブラリを開く</value>
   </data>
   <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve">
-    <value>ブロック設計図ごとに最良のもののみを表示する</value>
+    <value>ブロックブループリントごとに最良のもののみを表示する</value>
   </data>
   <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve">
-    <value>出来高別に最良の設計図のみを表示</value>
+    <value>出来高別に最良のブループリントのみを表示</value>
   </data>
   <data name="ShowOnlyBestsByTickBlueprints" xml:space="preserve">
-    <value>ティックごとの最良の設計図のみを表示</value>
+    <value>ティックごとの最良のブループリントのみを表示</value>
   </data>
   <data name="ShowOnlyBestsByMOSBlueprints" xml:space="preserve">
-    <value>MOS設計図のうち最良のもののみを表示する</value>
+    <value>MOSブループリントのうち最良のもののみを表示する</value>
   </data>
   <data name="SaveSelectionAsBlueprint" xml:space="preserve">
     <value>選択範囲をブループリントとして保存</value>
@@ -430,7 +430,7 @@
     <value>ブループリントとして保存</value>
   </data>
   <data name="CreatingANewBlueprint" xml:space="preserve">
-    <value>新しい設計図を作成中:</value>
+    <value>新しいブループリントを作成中:</value>
   </data>
   <data name="NewComponent" xml:space="preserve">
     <value>新しいコンポーネント</value>
@@ -541,7 +541,7 @@
     <value>プローブ</value>
   </data>
   <data name="BluePrintModeSummary" xml:space="preserve">
-    <value>設計図（{0}/{1}：設計図を反転）</value>
+    <value>ブループリント ({0}/{1}: ブループリントを反転)</value>
   </data>
   <data name="SelectPinModeSummary" xml:space="preserve">
     <value>ピンを再配置（{0}/{1}:間隔を狭める/広げる）</value>

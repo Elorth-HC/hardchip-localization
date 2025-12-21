@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NewBlueprint" xml:space="preserve">
-    <value>新しい設計図</value>
+    <value>新しいブループリント</value>
   </data>
   <data name="Deterministic" xml:space="preserve">
     <value>決定論的</value>

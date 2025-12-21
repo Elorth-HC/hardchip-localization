@@ -145,13 +145,16 @@
     <value>すべての回路をゼロから作り直すのは非常に非効率です。</value>
   </data>
   <data name="ToReuseWhatYouAlreadyBuiltSaveAnyCircuitAsABLUEPRINTAndThenJustSelectItToGetACopyForPlacement" xml:space="preserve">
-    <value>すでに作ったものを再利用するには、任意の回路をBLUEPRINTとして保存し、あとはそれを選択するだけで配置用のコピーを取得できます。</value>
+    <value>すでに作ったものを再利用するには、
+任意の回路をブループリントとして保存し、
+あとはそれを選択するだけで配置用のコピーを取得できます。</value>
   </data>
   <data name="EachStageSavesYourPassingCircuitAsABLUEPRINTTooForYouToUseYouCanCreateEditYourOwnAsWell" xml:space="preserve">
-    <value>各ステージでは、合格した回路も使用できるようにBLUEPRINTとして保存されます。自分のものも作成／編集できます。</value>
+    <value>各ステージでは、合格した回路も使用できるようにブループリントとして保存されます。
+自分のものも作成と編集できます。</value>
   </data>
   <data name="UseTheBLUEPRINTModeToPlaceAnINVERTEROntoTheDIEThenVALIDATE" xml:space="preserve">
-    <value>BLUEPRINTモードを使用してDIE上にINVERTERを配置し、その後VALIDATEしてください。</value>
+    <value>ブループリントモードを使用してDIE上にINVERTERを配置し、その後VALIDATEしてください。</value>
   </data>
   <data name="TheDIESizeWasFixedUntilNowNowTheSizeWillBeDynamicToTheRightAndBottomDirection" xml:space="preserve">
     <value>これまでDIEサイズは固定でしたが、今後は右方向および下方向に動的に変化します。</value>
@@ -232,7 +235,9 @@ _（灰）- 未接続 / フローティング / Hi-Z</value>
     <value>INPUTブロックは信号を能動的に駆動し、隣接するMETALブロックに1または0を送信できます。</value>
   </data>
   <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
-    <value>他のすべてのブロックは、接続された配線に沿ってこれらの信号を単に伝播させるだけです。INPUT がそれらを駆動し続けない場合、信号は最終的に消散し、接続された METAL のネットワーク全体がフローティング状態に戻ります。</value>
+    <value>他のすべてのブロックは、接続された配線に沿ってこれらの信号を単に伝播させるだけです。
+入力がそれらを駆動し続けない場合、信号は最終的に消散し、
+接続された METAL のネットワーク全体がフローティング状態に戻ります。</value>
   </data>
   <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
     <value>「VALIDATE」をクリックした瞬間に、INPUTS はバリデーションプロセスによって制御されます。</value>
