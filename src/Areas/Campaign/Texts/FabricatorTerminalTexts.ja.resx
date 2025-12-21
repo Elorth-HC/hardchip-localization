@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>g90=========================================================================
+g90自律型ファブリケーター v546.1.7430
+g90=========================================================================
+g90
+g96起動中...
+g90
+g92電源システム [OK]
+g92物理的完全性 [OK]
+g92コアシステム [OK]
+g92外部制御インターフェース... [OK]
+r95マテリアルバンク 1 [オフライン]
+r95マテリアルバンク 2 [オフライン]
+g90
+y95警告: マテリアルバンクが利用できません。バッファ済みマテリアルは限定的な操作にのみ使用可能です。
+g90
+g39起動シーケンス完了。ファブリケーター状態: 部分稼働
+g90
+g90BYPASSチップの設計仕様を受信しました。
+g90製造プロセスを開始する準備ができました。</value>
+  </data>
+  <data name="StatusStep0" xml:space="preserve">
+    <value>g90診断を実行中...              
+g90
+g91自律型ファブリケーター v546.1.7430
+g92 電源システム [OK]
+g92 物理的完全性 [OK]
+g92 コアシステム [OK]
+r95 マテリアルバンク 1 [オフライン]
+r95 マテリアルバンク 2 [オフライン]
+g90
+y95警告: マテリアルバンクは利用できません。バッファ済みマテリアルは限定的な操作にのみ使用可能です。
+g90
+g39ファブリケーター状態: 部分的に稼働中</value>
+  </data>
+  <data name="StatusStep1" xml:space="preserve">
+    <value>g90診断を実行中...
+g90
+g91自律型ファブリケーター v546.1.7430
+g92 電源システム [OK]
+g92 機体の完全性 [OK]
+g92 コアシステム [OK]
+g92 マテリアルバンク 1 [オンライン]
+r95 マテリアルバンク 2 [オフライン]
+g90
+y95警告: マテリアルバンク 2 は利用できません。限定的な操作のみ可能です。
+g90
+g39ファブリケーターの状態: 部分稼働中</value>
+  </data>
+  <data name="StatusStep0Shorted" xml:space="preserve">
+    <value>r95マテリアルバンク 1 [オフライン]  
+r95マテリアルバンク 2 [オフライン]  
+g90ファブリケーターのステータス: 部分的に稼働中</value>
+  </data>
+  <data name="StatusStep1Shorted" xml:space="preserve">
+    <value>g92マテリアルバンク 1 [オンライン]
+r95マテリアルバンク 2 [オフライン]
+g90ファブリケーターのステータス: 部分的に稼働中</value>
+  </data>
+  <data name="StatusStep2Shorted" xml:space="preserve">
+    <value>g92マテリアルバンク 1 [オンライン]
+g92マテリアルバンク 2 [オンライン]
+g90ファブリケーターのステータス: 稼働中</value>
+  </data>
+  <data name="StatusStep2" xml:space="preserve">
+    <value>g90診断を実行中...
+g90
+g91自律型ファブリケーター v546.1.7430
+g92 電源システム [OK]
+g92 物理的完全性 [OK]
+g92 コアシステム [OK]
+g92 マテリアルバンク 1 [オンライン]
+g95 マテリアルバンク 2 [オンライン]
+g90
+g39ファブリケーターのステータス: 稼働中</value>
+  </data>
+  <data name="FabricateMore" xml:space="preserve">
+    <value>g90製造プロセスが完了しました。</value>
+  </data>
+  <data name="ReceivedInverter" xml:space="preserve">
+    <value>g90INVERTERチップの設計仕様を受領しました。  
+g90製造プロセスを開始する準備ができました。</value>
+  </data>
+  <data name="ReceivedAdder" xml:space="preserve">
+    <value>g90 8ビット加算器チップの設計仕様を受領しました。  
+g90 製造プロセスを開始する準備ができました。</value>
+  </data>
+  <data name="ReceivedALU" xml:space="preserve">
+    <value>g90ALUチップの設計仕様を受領しました。  
+g90製造プロセスを開始する準備ができました。</value>
+  </data>
+  <data name="GenericFabricateLog" xml:space="preserve">
+    <value>g90[CHIPNAME]チップの製造シーケンスを開始しています...
+g90
+g90データベースから設計仕様を読み込み中... [OK]
+g90設計検証および適合性チェック... [OK]
+g90シリコンウェハを準備中... [OK]
+g94フォトレジスト層を塗布中... [OK]
+g90
+g90ベース層のリソグラフィ工程を開始しています...
+g92UV露光完了... [OK]
+g93フォトレジストを現像中... [OK]
+g93高温アニール... [OK]
+g90
+g90上部金属層の最終リソグラフィ...
+g91UV露光および現像... [OK]
+g92最終エッチングおよび洗浄... [OK]
+g90
+g90チップをパッケージに実装中...
+g92チップ端子のワイヤボンディング... [OK]
+g93封止および硬化... [OK]
+g90梱包およびラベリング... [OK]
+g90
+g92製造プロセスが完了しました。
+g90
+g90[CHIPNAME]チップの準備ができました。
+g90製造ログを保存しました。バッチID: 2224A[BATCHID]X。</value>
+  </data>
+  <data name="LookAtChip" xml:space="preserve">
+    <value>g99
+r90エラーコード: ?x?????? ファブリケーターのテーブルの上を見てください</value>
+  </data>
+</root>
