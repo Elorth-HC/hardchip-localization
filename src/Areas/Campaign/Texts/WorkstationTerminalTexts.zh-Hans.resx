@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReceivedBypassRequirement" xml:space="preserve">
+    <value>g90已收到 BYPASS 芯片的需求。
+g90准备开始设计流程。</value>
+  </data>
+  <data name="StartBypass" xml:space="preserve">
+    <value>g90=========================================================================
+g90Rapid Prototyping Workstation v0.55.677
+g90=========================================================================
+g90
+g35正在启动...
+g90
+g92电源系统 [正常]
+g92物理完整性 [正常]
+y92制造机部分在线
+r95芯片数据库故障，数据损坏
+r99错误：数据损坏，正在格式化数据库... 
+g90
+g90已收到 BYPASS 芯片的需求。
+r99错误：数据库中未找到芯片！
+g90
+g95正在处理 BYPASS 芯片的需求组件...
+g92   连线需求
+g92   输入/输出需求
+g92   交叉连线需求
+g92所有需求组件已上传
+g90
+y39工作站环境已为 BYPASS 芯片半导体工程设置完成。</value>
+  </data>
+  <data name="BypassDone" xml:space="preserve">
+    <value>g90BYPASS 芯片设计：完成
+g90
+g92启动制造机 [正常]
+g90正在向制造机发送设计...
+g17.....
+g90完成。</value>
+  </data>
+  <data name="ReceivedALURequirementFailed" xml:space="preserve">
+    <value>g90已收到 ALU 芯片的需求。
+r95ERROR_CODE: 0x052001 工作站未就绪，材料库离线。</value>
+  </data>
+  <data name="ReceivedALURequirement" xml:space="preserve">
+    <value>g90已收到 ALU 芯片的需求。
+g90准备开始设计流程。</value>
+  </data>
+  <data name="ReceivedInverterRequirement" xml:space="preserve">
+    <value>g90已收到 INVERTER 芯片的需求。
+g90准备开始设计流程。</value>
+  </data>
+  <data name="StartInverter" xml:space="preserve">
+    <value>g90=========================================================================
+g90Rapid Prototyping Workstation v0.55.677
+g90=========================================================================
+g90
+y92主材料库 [离线]
+y95副材料库 [离线]
+y92制造机部分在线
+g90
+g90已收到 INVERTER 芯片的需求。
+r99错误：数据库中未找到芯片！
+g90
+g95正在处理 INVERTER 芯片的需求组件...
+g92   PMOS 需求
+g92   NMOS 需求
+g92   NOT 需求
+g92所有需求组件已上传
+g90
+y39工作站环境已为 INVERTER 芯片半导体工程设置完成。</value>
+  </data>
+  <data name="InverterDone" xml:space="preserve">
+    <value>g90INVERTER 芯片设计：完成
+g90
+g92制造机 [在线]
+g90正在向制造机发送设计...
+g17.....
+g90完成。</value>
+  </data>
+  <data name="ReceivedAdderRequirement" xml:space="preserve">
+    <value>g90已收到 8位加法器芯片的需求。
+g90准备开始设计流程。</value>
+  </data>
+  <data name="StartAdder" xml:space="preserve">
+    <value>g90=========================================================================
+g90Rapid Prototyping Workstation v0.55.677
+g90=========================================================================
+g90
+g92主材料库 [在线]
+y95副材料库 [离线]
+y92制造机部分在线
+g90
+g90已收到 8BIT ADDER 芯片的需求。
+r99错误：数据库中未找到芯片！
+g90
+g95正在处理 8BIT ADDER 芯片的需求组件...
+g92   NOT 门需求
+g92   NAND 门需求
+g92   AND 门需求
+g92   OR 门需求
+g92   XOR 门需求
+g92   位全加器需求
+g92   4位加法器需求
+g92   8位加法器需求
+g92所有需求组件已上传
+g90
+y39工作站环境已为 8BIT ADDER 半导体工程设置完成。</value>
+  </data>
+  <data name="AdderDone" xml:space="preserve">
+    <value>g908BIT ADDER 芯片设计：完成
+g90
+g92制造机 [在线]
+g90正在向制造机发送设计...
+g17.....
+g90完成。</value>
+  </data>
+  <data name="StartALU" xml:space="preserve">
+    <value>g90=========================================================================
+g90Rapid Prototyping Workstation v0.55.677
+g90=========================================================================
+g90
+g92主材料库 [在线]
+g95副材料库 [在线]
+g92制造机在线
+g90
+g90已收到 8BIT ALU 芯片的需求。
+r99错误：数据库中未找到芯片！
+g90
+g95正在处理 8BIT ALU 芯片的需求组件...
+g92   XOR 门需求
+g92   NOR8 门需求
+g92   8位加法器需求
+g92   有符号数表示需求
+g92   反相器+1 需求
+g92   减法器需求
+g92   8位 ALU 需求
+g92所有需求组件已上传
+g90
+y39工作站环境已为 8BIT ALU 半导体工程设置完成。</value>
+  </data>
+  <data name="ALUDone" xml:space="preserve">
+    <value>g908BIT ALU 芯片设计：完成
+g90
+g92制造机 [在线]
+g90正在向制造机发送设计...
+g17.....
+g90完成。</value>
+  </data>
+</root>

@@ -4,7 +4,7 @@
 param(
     [Parameter(Mandatory=$true)]
     [string]$LanguageCode,
-    [string]$WorkspacePath = "c:\Repos\hardchip-localization"
+    [string]$WorkspacePath = "."
 )
 
 # Validate language code format (2-5 characters, letters and hyphens only)

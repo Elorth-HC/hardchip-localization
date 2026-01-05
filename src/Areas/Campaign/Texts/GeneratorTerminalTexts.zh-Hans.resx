@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r93ERROR_CODE: 0x00FAB4 一般故障。发生未指定错误。
+r90
+r93ERROR_CODE: 0x03FAA3 I/O 错误。设备无响应。
+r90
+r93ERROR_CODE: 0x04FAB9 网络超时。连接丢失。
+r90
+r93ERROR_CODE: 0x02FAC2 内存溢出。进程意外终止。
+r90
+r93ERROR_CODE: 0x00FFB4 电涌。电子元件可能损坏。电力分配系统处于安全模式。
+r90
+r90ERROR_CODE: ?x?????? hello
+r90
+r93ERROR_CODE: 0x01FAB1 严重故障。需要系统重启。</value>
+  </data>
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90正在运行诊断...              
+g90
+g91Autonomous Generator v156.5.9870
+g93 物理完整性：[正常]
+g92 控制系统：[正常]
+g90
+r90 当前状态：无响应
+g90 当前功率输出：0.1%%
+g90
+w90最后日志条目：
+r92 ERROR_CODE: 0x00FFB4 电涌。电子元件可能损坏。电力分配系统处于安全模式。
+r92 ERROR_CODE: 0x01FAB1 严重故障。需要系统重启。
+g90
+y39需要立即处理：reboot。</value>
+  </data>
+  <data name="RebootFix" xml:space="preserve">
+    <value>y90正在尝试强制重启...
+g90
+g92正在停止所有发电机子系统...
+g93正在启用紧急电源关闭...
+g94限制场稳定中... [正常]
+g92燃料进气阀已锁定... [正常]
+g92热调节系统进入冷却阶段... [正常]
+g90断开与主电网的连接... [正常]
+g90保存最后已知配置... [正常]
+g90
+g97所有子系统已停止。发电机状态 [离线]。
+g90
+g90
+g90=========================================================================
+g90Autonomous Generator v156.5.9870
+g90=========================================================================
+g90
+g96核心系统检查...
+g90所有系统 [正常]
+g90
+g92正在启动启动序列...
+g93启动控制系统... [正常]
+r94正在建立与电网的连接... [失败]
+g92校准能量限制场... [正常]
+g93启动热调节系统... [正常]
+g92打开燃料进气阀... [正常]
+g99启动电力分配系统... [正常]
+g99评估功率水平... [正常]
+g91与外部控制接口同步... [正常]
+g90
+g90重启序列完成。发电机状态：运行正常。
+</value>
+  </data>
+  <data name="InitialScreenFixed" xml:space="preserve">
+    <value>g90=========================================================================
+g90Autonomous Generator v156.5.9870
+g90=========================================================================
+g90
+g90核心系统检查...
+g90所有系统 [正常]
+g90
+g90正在启动启动序列...
+g90启动控制系统... [正常]
+r90正在建立与电网的连接... [失败]
+g90校准能量限制场... [正常]
+g90启动热调节系统... [正常]
+g90打开燃料进气阀... [正常]
+g90启动电力分配系统... [正常]
+g90评估功率水平... [正常]
+g90与外部控制接口同步... [正常]
+g90
+g90重启序列完成。发电机状态：运行正常。</value>
+  </data>
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90发电机状态：运行正常。</value>
+  </data>
+  <data name="StatusFixedForever" xml:space="preserve">
+    <value>g90
+g90发电机状态：运行正常。</value>
+  </data>
+</root>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>g90=========================================================================
+g90Autonomous Fabricator v546.1.7430
+g90=========================================================================
+g90
+g96正在启动...
+g90
+g92电源系统 [正常]
+g92物理完整性 [正常]
+g92核心系统 [正常]
+g92外部控制接口... [正常]
+r95材料库 1 [离线]
+r95材料库 2 [离线]
+g90
+y95警告：材料库不可用。仅有缓冲材料可用于有限操作。
+g90
+g39启动序列完成。制造机状态：部分运行
+g90
+g90已收到 BYPASS 芯片的设计规格。
+g90准备开始制造流程。</value>
+  </data>
+  <data name="StatusStep0" xml:space="preserve">
+    <value>g90正在运行诊断...              
+g90
+g91Autonomous Fabricator v546.1.7430
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+g92 核心系统 [正常]
+r95 材料库 1 [离线]
+r95 材料库 2 [离线]
+g90
+y95警告：材料库不可用。仅有缓冲材料可用于有限操作。
+g90
+g39制造机状态：部分运行</value>
+  </data>
+  <data name="StatusStep1" xml:space="preserve">
+    <value>g90正在运行诊断...              
+g90
+g91Autonomous Fabricator v546.1.7430
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+g92 核心系统 [正常]
+g92 材料库 1 [在线]
+r95 材料库 2 [离线]
+g90
+y95警告：材料库 2 不可用。仅限有限操作。
+g90
+g39制造机状态：部分运行</value>
+  </data>
+  <data name="StatusStep0Shorted" xml:space="preserve">
+    <value>
+r95材料库 1 [离线]
+r95材料库 2 [离线]
+g90制造机状态：部分运行</value>
+  </data>
+  <data name="StatusStep1Shorted" xml:space="preserve">
+    <value>
+g92材料库 1 [在线]
+r95材料库 2 [离线]
+g90制造机状态：部分运行</value>
+  </data>
+  <data name="StatusStep2Shorted" xml:space="preserve">
+    <value>
+g92材料库 1 [在线]
+g92材料库 2 [在线]
+g90制造机状态：运行正常</value>
+  </data>
+  <data name="StatusStep2" xml:space="preserve">
+    <value>g90正在运行诊断...              
+g90
+g91Autonomous Fabricator v546.1.7430
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+g92 核心系统 [正常]
+g92 材料库 1 [在线]
+g95 材料库 2 [在线]
+g90
+g39制造机状态：运行正常</value>
+  </data>
+  <data name="FabricateMore" xml:space="preserve">
+    <value>g90制造流程完成。</value>
+  </data>
+  <data name="ReceivedInverter" xml:space="preserve">
+    <value>g90已收到 INVERTER 芯片的设计规格。
+g90准备开始制造流程。</value>
+  </data>
+  <data name="ReceivedAdder" xml:space="preserve">
+    <value>g90已收到 8BIT ADDER 芯片的设计规格。
+g90准备开始制造流程。</value>
+  </data>
+  <data name="ReceivedALU" xml:space="preserve">
+    <value>g90已收到 ALU 芯片的设计规格。
+g90准备开始制造流程。</value>
+  </data>
+  <data name="GenericFabricateLog" xml:space="preserve">
+    <value>g90正在启动 [CHIPNAME] 芯片的制造序列...
+g90
+g90从数据库加载设计规格... [正常]
+g90设计验证和合规检查... [正常]
+g90准备硅晶圆... [正常]
+g94涂覆光刻胶层... [正常]
+g90
+g90开始基层光刻工艺...
+g92紫外线曝光完成... [正常]
+g93显影光刻胶... [正常]
+g93高温退火... [正常]
+g90
+g90顶层金属层最终光刻...
+g91紫外线曝光和显影... [正常]
+g92最终蚀刻和清洗... [正常]
+g90
+g90将芯片组装到封装上...
+g92芯片引线键合... [正常]
+g93封装和固化... [正常]
+g90包装和标签... [正常]
+g90
+g92制造流程完成。
+g90
+g90[CHIPNAME] 芯片已就绪。
+g90制造日志已保存。批次 ID: 2224A[BATCHID]X.</value>
+  </data>
+  <data name="LookAtChip" xml:space="preserve">
+    <value>g99
+r90ERROR_CODE: ?x?????? 看制造机台面上方</value>
+  </data>
+</root>

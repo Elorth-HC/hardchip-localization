@@ -27,6 +27,8 @@ Contributors who wished to get recognized:
 #### 🇮🇹 Italian (it)
 - **ir_trevi** - Full translation
 
+#### 🇨🇳 China (zh-Hans)
+- **Gedoy** - Full translation
 
 ## Recognition Guidelines
 

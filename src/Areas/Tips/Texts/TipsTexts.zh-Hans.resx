@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HoldMiddleMouseButtonToRotateAround" xml:space="preserve">
+    <value>提示：使用鼠标中键旋转相机查看你的解决方案。</value>
+  </data>
+  <data name="CtrlXCVWorkForCutCopyPastSelectAllOperation" xml:space="preserve">
+    <value>提示：使用 Ctrl-A 全选，Ctrl-X/C/V 剪切/复制/粘贴。</value>
+  </data>
+  <data name="DevCTAProposeTip" xml:space="preserve">
+    <value>开发者：你可以使用 HC 的 Discord 来提议你认为应该出现在这里的提示！</value>
+  </data>
+  <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
+    <value>提示：你可以随时通过右键点击进入选择模式（绿色框光标）。</value>
+  </data>
+  <data name="WhenPickingInputOutputSpreadWithPlusMinusKey" xml:space="preserve">
+    <value>提示：选择新的输入/输出位置时，按 + 或 - 键可将线间距扩大到最多 4 个空格。</value>
+  </data>
+  <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
+    <value>提示：交错排列输入可能有助于减少布线工作。</value>
+  </data>
+  <data name="YouCanNeutralCtrlClick" xml:space="preserve">
+    <value>提示：你可以按住 Ctrl 点击输入将其切换为中性状态。</value>
+  </data>
+  <data name="YouCanCenterCameraWithSpaceBar" xml:space="preserve">
+    <value>提示：你可以用空格键居中相机，按两次可返回之前的相机位置。</value>
+  </data>
+</root>

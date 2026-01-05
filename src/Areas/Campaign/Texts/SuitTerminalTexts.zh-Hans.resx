@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Text1" xml:space="preserve">
+    <value>g90===========================================================================
+g90                   Life Suit v156.5.9870, 启动序列                    
+g92===========================================================================
+g90
+g35正在启动...
+g90
+r99错误：能量水平严重不足
+r99错误：数据损坏，正在重置为出厂设置...  
+g90 
+g30new_user 紧急唤醒启动
+g17.....
+g57检测到用户生命体征
+g90
+y39需要立即处理：检测到系统错误
+g90
+w83按任意键确认...</value>
+  </data>
+  <data name="_0ToTake" xml:space="preserve">
+    <value>{0} 拾取 {1}</value>
+  </data>
+  <data name="_8BITADDERChip" xml:space="preserve">
+    <value>8BIT ADDER 芯片</value>
+  </data>
+  <data name="_0ToPlace" xml:space="preserve">
+    <value>{0} 放置 {1}</value>
+  </data>
+  <data name="BYPASSChip" xml:space="preserve">
+    <value>BYPASS 芯片</value>
+  </data>
+  <data name="InHand" xml:space="preserve">
+    <value>手持</value>
+  </data>
+  <data name="INVERTERChip" xml:space="preserve">
+    <value>INVERTER 芯片</value>
+  </data>
+  <data name="_8BITALUChip" xml:space="preserve">
+    <value>8BIT ALU 芯片</value>
+  </data>
+  <data name="Press0ToInteract" xml:space="preserve">
+    <value>按 {0} 交互</value>
+  </data>
+</root>

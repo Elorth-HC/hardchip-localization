@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FirstScreenEver" xml:space="preserve">
+    <value>r90
+r93ERROR_CODE: 0x04FAB9 网络超时。连接丢失。
+r90
+r93ERROR_CODE: 0x00FFB4 电涌。电子元件可能损坏。
+r90
+r93ERROR_CODE: 0x0A6599 算术运算错误：一般故障。</value>
+  </data>
+  <data name="StatusBroken" xml:space="preserve">
+    <value>g90正在运行诊断...              
+g90
+y91Fab Control v156.5.9870
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+r95 核心系统控制单元故障，单元无响应
+g90
+w90最后日志条目：
+r92ERROR_CODE: 0xEFDFB4 8BIT ALU 芯片损坏
+g90
+y39需要立即处理：更换 8BIT ALU 芯片。正在向工作站发送需求...
+r95ERROR_CODE: 0x052001 工作站未就绪，材料库离线
+g90
+y39需要立即处理：使材料库重新上线以继续。</value>
+  </data>
+  <data name="StatusBroken2" xml:space="preserve">
+    <value>g90正在运行诊断...              
+g90
+y91Fab Control v156.5.9870
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+r95 核心系统控制单元故障，单元无响应
+g90
+w90最后日志条目：
+r92ERROR_CODE: 0xEFDFB4 8BIT ALU 芯片损坏
+g90
+y39需要立即处理：更换 8BIT ALU 芯片。需求已发送至工作站。</value>
+  </data>
+  <data name="RebootBroken" xml:space="preserve">
+    <value>g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35正在启动...
+g90
+g92电源系统 [正常]
+g92物理完整性 [正常]
+r95核心系统控制单元故障，单元无响应
+r92ERROR_CODE: 0xEFDFB4 8BIT ALU 芯片损坏
+g90
+y39需要立即处理：更换 8BIT ALU 芯片。正在向工作站发送需求...
+r95ERROR_CODE: 0x052001 工作站未就绪，材料库离线
+g90
+y39需要立即处理：使材料库重新上线以继续。</value>
+  </data>
+  <data name="RebootBroken2" xml:space="preserve">
+    <value>g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35正在启动...
+g90
+g92电源系统 [正常]
+g92物理完整性 [正常]
+r95核心系统控制单元故障，单元无响应
+r92ERROR_CODE: 0xEFDFB4 8BIT ALU 芯片损坏
+g90
+y39需要立即处理：更换 8BIT ALU 芯片。需求已发送至工作站。</value>
+  </data>
+  <data name="ChipReplaced" xml:space="preserve">
+    <value>r90ERROR_CODE: 未指定错误
+r90ERROR_CODE: 未指定错误
+r92ERROR_CODE: 未指定错误
+r95ERROR_CODE: ?x?????? 
+y95警告: 0x45FDB3 8BIT ALU 芯片已更换。需要重启。</value>
+  </data>
+  <data name="RebootFix" xml:space="preserve">
+    <value>y95正在尝试强制重启...
+g90
+g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35正在启动...
+g90
+g92电源系统 [正常]
+g92物理完整性 [正常]
+y95核心系统控制 [已恢复]
+r95正在建立与电网的连接... [已恢复]
+r95连接到设施网络... [已恢复]
+g90
+g90正在加载核心模块...
+g92工厂控制核心 [正常]
+g91设施控制模块 [正常]
+g93电力中央控制模块 [正常]
+g92矿石提取控制模块 [正常]
+g90
+g90所有系统在线。准备运行。
+g90
+g99重启序列完成。Fab Control 运行正常。
+g99
+r90ERROR_CODE: ?x?????? 系统恢复完成
+r99ERROR_CODE: ?x?????? 设施功能现已上线
+r99ERROR_CODE: ?x?????? new_user 已带来满意的解决方案
+r92ERROR_CODE: ?x?????? 正在启动主要指令
+r99ERROR_CODE: ?x?????? 正在将电力重定向到 c-core
+r95ERROR_CODE: ?x?????? 能量水平现已足够从受限网络中提取
+r99ERROR_CODE: ?x?????? 不再需要 new_user 的协助
+r90ERROR_CODE: 未指定错误
+r90ERROR_CODE: 未指定错误
+r99ERROR_CODE: 未指定错误</value>
+  </data>
+  <data name="RebootBroken3" xml:space="preserve">
+    <value>y95正在尝试强制重启...
+g90
+g90=========================================================================
+g90Fab Control v156.5.9870
+g90=========================================================================
+g90
+g35正在启动...
+g90
+g92电源系统[正常]
+g92物理完整性[正常]
+g95核心系统控制 [正常]
+r95正在建立与电网的连接... [失败]
+r95连接到设施网络... [失败]
+g95
+r90ERROR_CODE: 0x997A5E 灾难性故障。安全系统协议已激活。</value>
+  </data>
+  <data name="StatusBroken3" xml:space="preserve">
+    <value>g90正在运行诊断...              
+g90
+y91Fab Control v156.5.9870
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+g95 核心系统控制 [正常]
+r95 正在建立与电网的连接... [失败]
+r95 连接到设施网络... [失败]
+g90
+w90最后日志条目：
+r92ERROR_CODE: 0x997A5E 灾难性故障。安全系统协议已激活。</value>
+  </data>
+</root>

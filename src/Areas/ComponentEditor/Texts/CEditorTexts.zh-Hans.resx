@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Filter" xml:space="preserve">
+    <value>筛选</value>
+  </data>
+  <data name="Schematics" xml:space="preserve">
+    <value>原理图</value>
+  </data>
+  <data name="OpenSchematic" xml:space="preserve">
+    <value>打开原理图</value>
+  </data>
+  <data name="EnterNewNameForThisBlueprint" xml:space="preserve">
+    <value>为此蓝图输入新名称：</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisBlueprint" xml:space="preserve">
+    <value>确定要删除此蓝图吗？</value>
+  </data>
+  <data name="RenameBlueprint" xml:space="preserve">
+    <value>重命名蓝图：</value>
+  </data>
+  <data name="DeleteBlueprint" xml:space="preserve">
+    <value>删除蓝图：</value>
+  </data>
+  <data name="Probes" xml:space="preserve">
+    <value>探针</value>
+  </data>
+  <data name="PickBitsPositionsOneAtATimeRightClickToCancel" xml:space="preserve">
+    <value>逐个选择位位置。右键点击取消。</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="ClickToSelectPosition" xml:space="preserve">
+    <value>点击选择位置</value>
+  </data>
+  <data name="ClickToResetPosition" xml:space="preserve">
+    <value>点击重置位置</value>
+  </data>
+  <data name="RelocateInput" xml:space="preserve">
+    <value>重定位输入</value>
+  </data>
+  <data name="AndLinkWordForTruthTable" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="ButLinkWordForTruthTable" xml:space="preserve">
+    <value>但</value>
+  </data>
+  <data name="RelocateOutput" xml:space="preserve">
+    <value>重定位输出</value>
+  </data>
+  <data name="StickToScreen" xml:space="preserve">
+    <value>固定到屏幕</value>
+  </data>
+  <data name="NeutralAllowed" xml:space="preserve">
+    <value>允许中性状态</value>
+  </data>
+  <data name="StickToBlock" xml:space="preserve">
+    <value>固定到方块</value>
+  </data>
+  <data name="NeutralNotAllowed" xml:space="preserve">
+    <value>不允许中性状态</value>
+  </data>
+  <data name="StopAt1" xml:space="preserve">
+    <value>在 1 时停止</value>
+  </data>
+  <data name="StopAt0" xml:space="preserve">
+    <value>在 0 时停止</value>
+  </data>
+  <data name="StopAt_" xml:space="preserve">
+    <value>在 _ 时停止</value>
+  </data>
+  <data name="StopAtError" xml:space="preserve">
+    <value>在错误时停止</value>
+  </data>
+  <data name="DonTStop" xml:space="preserve">
+    <value>不停止</value>
+  </data>
+  <data name="BlueprintSaved" xml:space="preserve">
+    <value>蓝图已保存</value>
+  </data>
+  <data name="SaveAllAsABlueprint" xml:space="preserve">
+    <value>全部保存为蓝图</value>
+  </data>
+  <data name="OpenBlueprintLibrary" xml:space="preserve">
+    <value>打开蓝图库</value>
+  </data>
+  <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve">
+    <value>仅显示按方块数最优的蓝图</value>
+  </data>
+  <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve">
+    <value>仅显示按体积最优的蓝图</value>
+  </data>
+  <data name="ShowOnlyBestsByTickBlueprints" xml:space="preserve">
+    <value>仅显示按时钟周期最优的蓝图</value>
+  </data>
+  <data name="ShowOnlyBestsByMOSBlueprints" xml:space="preserve">
+    <value>仅显示按 MOS 数最优的蓝图</value>
+  </data>
+  <data name="SaveSelectionAsBlueprint" xml:space="preserve">
+    <value>将选择保存为蓝图</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>方块</value>
+  </data>
+  <data name="Comparer" xml:space="preserve">
+    <value>比较器</value>
+  </data>
+  <data name="ReuseBestSolution" xml:space="preserve">
+    <value>复用最佳方案</value>
+  </data>
+  <data name="NowBest" xml:space="preserve">
+    <value>当前 - - - - - - - - - - - 最佳</value>
+  </data>
+  <data name="Toolbox" xml:space="preserve">
+    <value>工具箱</value>
+  </data>
+  <data name="Photomode" xml:space="preserve">
+    <value>拍照模式</value>
+  </data>
+  <data name="AutoShrinkOnValidate" xml:space="preserve">
+    <value>验证时自动收缩</value>
+  </data>
+  <data name="TurnOnOffTheAutoShrinkOfTheDieWhenValidatingTheNlevelTheDieWillBeShrinkedToTheSmallestSizeNpossibleToFitTheBlocks" xml:space="preserve">
+    <value>开启/关闭验证关卡时晶片的自动收缩。
+晶片将被收缩到能容纳所有方块的
+最小尺寸。</value>
+  </data>
+  <data name="EditDieSize" xml:space="preserve">
+    <value>编辑晶片尺寸</value>
+  </data>
+  <data name="EditManuallyTheDieSizeShrinkingTheDieWillRemoveNtheBlocksOutsideTheNewDieSize" xml:space="preserve">
+    <value>手动编辑晶片尺寸。收缩晶片将移除
+新晶片尺寸之外的方块。</value>
+  </data>
+  <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
+    <value>将关卡文件导出到剪贴板。可粘贴到文件资源管理器、
+Discord 和所有支持粘贴文件的程序中。</value>
+  </data>
+  <data name="ExportToClipboard" xml:space="preserve">
+    <value>导出到剪贴板</value>
+  </data>
+  <data name="ImportFromClipboard" xml:space="preserve">
+    <value>从剪贴板导入</value>
+  </data>
+  <data name="TryToReadALevelFromTheClipboardSupportsWtCtNWtbAndCtbFilesSupportsDirectFilesAndURLOfFiles" xml:space="preserve">
+    <value>尝试从剪贴板读取关卡。支持 .wt、.ct、
+.wtb 和 .ctb 文件。支持直接文件和文件 URL。</value>
+  </data>
+  <data name="ShowChangeIndicators" xml:space="preserve">
+    <value>显示更改指示器</value>
+  </data>
+  <data name="ShowIndicatorsOnTheBlocksThatHaveBeenChangedSinceNtheLastSimulationUpdateIndicatorsAreRemovedWhenNafterAFewSecondsOrWhenTheSimulationIsStepped" xml:space="preserve">
+    <value>显示自上次模拟更新以来已更改的方块上的指示器。
+指示器会在几秒后或模拟步进时移除。</value>
+  </data>
+  <data name="TracesGroupsColors" xml:space="preserve">
+    <value>彩色分段</value>
+  </data>
+  <data name="ColorAllInterconnectedTracesWithTheSameColorAndNpartiallyHideTracesAlwaysConnectedToUpDownTerminals" xml:space="preserve">
+    <value>用相同颜色标记所有互连的金属走线，并部分
+隐藏始终连接到 0/1 常量块的金属走线。</value>
+  </data>
+  <data name="AutoClockStop" xml:space="preserve">
+    <value>自动时钟停止</value>
+  </data>
+  <data name="RemoveNextClockSwitchStopStopSimulationWhenClockSwitchesItsSignal" xml:space="preserve">
+    <value>当时钟信号切换时停止模拟。</value>
+  </data>
+  <data name="CameraDramaticCameraMoves" xml:space="preserve">
+    <value>戏剧性镜头移动</value>
+  </data>
+  <data name="CameraRotateLeft" xml:space="preserve">
+    <value>向左旋转</value>
+  </data>
+  <data name="CameraForward" xml:space="preserve">
+    <value>向前</value>
+  </data>
+  <data name="CameraRotateRightE" xml:space="preserve">
+    <value>向右旋转</value>
+  </data>
+  <data name="CameraCycleUIElements" xml:space="preserve">
+    <value>隐藏界面 ({0})</value>
+  </data>
+  <data name="CameraStrafeLeft" xml:space="preserve">
+    <value>向左平移</value>
+  </data>
+  <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
+    <value>编辑器相机/自由相机 (SPACE/CTRL/WASD/左键点击)</value>
+  </data>
+  <data name="EditorCamFreeCam" xml:space="preserve">
+    <value>编辑器相机/自由相机</value>
+  </data>
+  <data name="CameraStrafeRight" xml:space="preserve">
+    <value>向右平移</value>
+  </data>
+  <data name="CenterCamera" xml:space="preserve">
+    <value>居中相机</value>
+  </data>
+  <data name="CameraZoomIn" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="CameraBackward" xml:space="preserve">
+    <value>向后</value>
+  </data>
+  <data name="CameraZoomOut" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="DieOperations" xml:space="preserve">
+    <value>晶片操作</value>
+  </data>
+  <data name="Shrink5BlocksFromTheBack" xml:space="preserve">
+    <value>从后方收缩 5 格</value>
+  </data>
+  <data name="Shrink1BlockFromTheBack" xml:space="preserve">
+    <value>从后方收缩 1 格</value>
+  </data>
+  <data name="Shrink5BlocksFromTheRight" xml:space="preserve">
+    <value>从右侧收缩 5 格</value>
+  </data>
+  <data name="Shrink5BlocksFromTheTop" xml:space="preserve">
+    <value>从顶部收缩 5 格</value>
+  </data>
+  <data name="Shrink1BlockFromTheLeft" xml:space="preserve">
+    <value>从左侧收缩 1 格</value>
+  </data>
+  <data name="SwitchToExtendMode" xml:space="preserve">
+    <value>切换到扩展模式</value>
+  </data>
+  <data name="Shrink1BlockFromTheRight" xml:space="preserve">
+    <value>从右侧收缩 1 格</value>
+  </data>
+  <data name="Shrink1BlockFromTheTop" xml:space="preserve">
+    <value>从顶部收缩 1 格</value>
+  </data>
+  <data name="Shrink5BlocksFromTheLeft" xml:space="preserve">
+    <value>从左侧收缩 5 格</value>
+  </data>
+  <data name="Shrink1BlockFromTheFront" xml:space="preserve">
+    <value>从前方收缩 1 格</value>
+  </data>
+  <data name="Shrink5BlocksFromTheFront" xml:space="preserve">
+    <value>从前方收缩 5 格</value>
+  </data>
+  <data name="ShrinkTheDieToFitTheMinimumSize" xml:space="preserve">
+    <value>将晶片收缩到最小尺寸</value>
+  </data>
+  <data name="Extend5BlocksFromTheBack" xml:space="preserve">
+    <value>从后方扩展 5 格</value>
+  </data>
+  <data name="Extend1BlockFromTheBack" xml:space="preserve">
+    <value>从后方扩展 1 格</value>
+  </data>
+  <data name="Extend5BlocksFromTheRight" xml:space="preserve">
+    <value>从右侧扩展 5 格</value>
+  </data>
+  <data name="Extend5BlocksFromTheTop" xml:space="preserve">
+    <value>从顶部扩展 5 格</value>
+  </data>
+  <data name="Extend1BlockFromTheLeft" xml:space="preserve">
+    <value>从左侧扩展 1 格</value>
+  </data>
+  <data name="SwitchToShrinkMode" xml:space="preserve">
+    <value>切换到收缩模式</value>
+  </data>
+  <data name="Extend1BlockFromTheRight" xml:space="preserve">
+    <value>从右侧扩展 1 格</value>
+  </data>
+  <data name="Extend1BlockFromTheTop" xml:space="preserve">
+    <value>从顶部扩展 1 格</value>
+  </data>
+  <data name="Extend5BlocksFromTheLeft" xml:space="preserve">
+    <value>从左侧扩展 5 格</value>
+  </data>
+  <data name="Extend1BlockFromTheFront" xml:space="preserve">
+    <value>从前方扩展 1 格</value>
+  </data>
+  <data name="Extend5BlocksFromTheFront" xml:space="preserve">
+    <value>从前方扩展 5 格</value>
+  </data>
+  <data name="CopyCtrlC" xml:space="preserve">
+    <value>复制 (Ctrl+C)</value>
+  </data>
+  <data name="CutCtrlX" xml:space="preserve">
+    <value>剪切 (Ctrl+X)</value>
+  </data>
+  <data name="PasteCtrlV" xml:space="preserve">
+    <value>粘贴 (Ctrl+V)</value>
+  </data>
+  <data name="DeleteDel" xml:space="preserve">
+    <value>删除 (Del)</value>
+  </data>
+  <data name="RemoveProbes" xml:space="preserve">
+    <value>移除探针</value>
+  </data>
+  <data name="NoName" xml:space="preserve">
+    <value>无名称</value>
+  </data>
+  <data name="SlotSelection" xml:space="preserve">
+    <value>槽位选择</value>
+  </data>
+  <data name="UndoCtrlZ" xml:space="preserve">
+    <value>撤销 (Ctrl+Z)</value>
+  </data>
+  <data name="RedoCtrlY" xml:space="preserve">
+    <value>重做 (Ctrl+Y)</value>
+  </data>
+  <data name="RestartLevel" xml:space="preserve">
+    <value>重新开始关卡</value>
+  </data>
+  <data name="Modes" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="Probe" xml:space="preserve">
+    <value>探针</value>
+  </data>
+  <data name="SaveAsABlueprint" xml:space="preserve">
+    <value>保存为蓝图</value>
+  </data>
+  <data name="CreatingANewBlueprint" xml:space="preserve">
+    <value>创建新蓝图：</value>
+  </data>
+  <data name="NewComponent" xml:space="preserve">
+    <value>新组件</value>
+  </data>
+  <data name="CameraPedestalDown" xml:space="preserve">
+    <value>下降</value>
+  </data>
+  <data name="CameraPedestalUp" xml:space="preserve">
+    <value>上升</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>拍照</value>
+  </data>
+  <data name="HideUIForASplitSecondTakeAScreenshotNputInTheClipboardAndSteamScreenshotFolder" xml:space="preserve">
+    <value>短暂隐藏界面，截取屏幕截图，
+放入剪贴板和 Steam 截图文件夹。</value>
+  </data>
+  <data name="ReportShape" xml:space="preserve">
+    <value>分数形状</value>
+    <comment>Report formating on photomode</comment>
+  </data>
+  <data name="ReportBackground" xml:space="preserve">
+    <value>分数背景</value>
+    <comment>Report formating on photomode</comment>
+  </data>
+  <data name="ReportText" xml:space="preserve">
+    <value>分数文本</value>
+    <comment>Report formating on photomode</comment>
+  </data>
+  <data name="ExitPhotoMode" xml:space="preserve">
+    <value>退出拍照模式</value>
+  </data>
+  <data name="SimulationSpeed" xml:space="preserve">
+    <value>模拟速度 </value>
+  </data>
+  <data name="ClockFrequency" xml:space="preserve">
+    <value>时钟频率 </value>
+  </data>
+  <data name="_ShouldBeRightNowIs" xml:space="preserve">
+    <value>{0} 应该是 {1} {2} 当前是 {3}</value>
+  </data>
+  <data name="Now" xml:space="preserve">
+    <value>，当前=</value>
+    <comment>truth table indication on the output readout</comment>
+  </data>
+  <data name="SimulationTicksAt" xml:space="preserve">
+    <value>时钟周期 {0} 于 {1}</value>
+  </data>
+  <data name="SimulationClockAt" xml:space="preserve">
+    <value> 时钟 {0} ({1})</value>
+  </data>
+  <data name="BlocksShouldBe" xml:space="preserve">
+    <value>方块应该是 </value>
+  </data>
+  <data name="AtPosition" xml:space="preserve">
+    <value> 在位置 </value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>等待中... </value>
+  </data>
+  <data name="Validating" xml:space="preserve">
+    <value>验证中... </value>
+  </data>
+  <data name="TruthTable" xml:space="preserve">
+    <value>真值表</value>
+  </data>
+  <data name="InputNamed" xml:space="preserve">
+    <value>名为 </value>
+  </data>
+  <data name="OutputToMatchNamed" xml:space="preserve">
+    <value>要匹配的输出名为 </value>
+  </data>
+  <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>初始上电阶段，不计入时钟周期分数。</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>任意</value>
+  </data>
+  <data name="AnyLowercase" xml:space="preserve">
+    <value>任意</value>
+  </data>
+  <data name="ButtonLabelUnresponsive" xml:space="preserve">
+    <value> 无响应 </value>
+  </data>
+  <data name="ButtonLabelMissedGoal" xml:space="preserve">
+    <value> 未达目标 </value>
+  </data>
+  <data name="ButtonLabelChecked" xml:space="preserve">
+    <value>   已通过！   </value>
+  </data>
+  <data name="ButtonLabelValidating" xml:space="preserve">
+    <value> 验证中... </value>
+  </data>
+  <data name="ButtonLabelValidate" xml:space="preserve">
+    <value>   验证   </value>
+    <comment>Spaces are important</comment>
+  </data>
+  <data name="ButtonLabelStepByStep" xml:space="preserve">
+    <value>   手动   </value>
+    <comment>Spaces are important</comment>
+  </data>
+  <data name="ButtonLabelModified" xml:space="preserve">
+    <value>   已修改   </value>
+    <comment>Spaces are important</comment>
+  </data>
+  <data name="ResetValidation" xml:space="preserve">
+    <value>重置验证</value>
+  </data>
+  <data name="EditModeSummary" xml:space="preserve">
+    <value>编辑 (向上:{0}/删除{1}/选择{2})</value>
+  </data>
+  <data name="DieOperationsModeSummary" xml:space="preserve">
+    <value>扩展/收缩晶片</value>
+  </data>
+  <data name="ProbeModeSummary" xml:space="preserve">
+    <value>探针</value>
+  </data>
+  <data name="BluePrintModeSummary" xml:space="preserve">
+    <value>蓝图 ({0}/{1}:翻转蓝图)</value>
+  </data>
+  <data name="SelectPinModeSummary" xml:space="preserve">
+    <value>重定位引脚 ({0}/{1}:增加/减少间距)</value>
+  </data>
+  <data name="DebugModeSummary" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="ComparerModeSummary" xml:space="preserve">
+    <value>比较器</value>
+  </data>
+  <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>随机验证阶段，不计入时钟周期分数。</value>
+  </data>
+</root>

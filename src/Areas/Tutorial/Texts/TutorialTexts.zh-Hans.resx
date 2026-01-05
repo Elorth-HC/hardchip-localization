@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RepresentingNegativeNumberSignedNumberCanTBeDoneWithThePreviousSolutionsAsIs" xml:space="preserve">
+    <value>表示负数（有符号数）
+无法直接使用之前的解决方案实现。</value>
+  </data>
+  <data name="ASmallTwistCanBringThatRepresentationWhileStillReusingAllPreviousSolutions" xml:space="preserve">
+    <value>一个小技巧可以实现这种表示法，
+同时仍然复用之前所有的解决方案。</value>
+  </data>
+  <data name="ThisIsTheNumberRepresentationUsedSoFar" xml:space="preserve">
+    <value>这是目前使用的数字表示法。</value>
+  </data>
+  <data name="HereSTheNegativeNumberRepresentationCompatibleOutput" xml:space="preserve">
+    <value>这是兼容负数表示法的输出。</value>
+  </data>
+  <data name="SetINDIVIDUALINPUTBITSToMatchTheOUTPUTValueThenMANUALLYVALIDATEStepByStep" xml:space="preserve">
+    <value>设置各个输入位以匹配输出值，
+然后逐步手动验证</value>
+  </data>
+  <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
+    <value>有时，连线放置时不触碰其他连线
+可能会比较棘手。</value>
+  </data>
+  <data name="ConnectINPUTAndOUTPUTWithoutSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>连接输入和输出，避免短路，然后验证。</value>
+  </data>
+  <data name="UseTheCompactingTheInverterBlueprintThenValidate" xml:space="preserve">
+    <value>使用"压缩反相器"蓝图然后验证。</value>
+  </data>
+  <data name="ItWouldBeVeryInefficientToRebuildEveryCircuitFromScratch" xml:space="preserve">
+    <value>每次从头重建电路
+是非常低效的</value>
+  </data>
+  <data name="ToReuseWhatYouAlreadyBuiltSaveAnyCircuitAsABLUEPRINTAndThenJustSelectItToGetACopyForPlacement" xml:space="preserve">
+    <value>要复用已构建的电路，
+将任何电路保存为蓝图，
+然后选择它即可获得副本进行放置。</value>
+  </data>
+  <data name="EachStageSavesYourPassingCircuitAsABLUEPRINTTooForYouToUseYouCanCreateEditYourOwnAsWell" xml:space="preserve">
+    <value>每个关卡也会将你通过的电路
+保存为蓝图供你使用。
+你也可以创建/编辑自己的蓝图。</value>
+  </data>
+  <data name="UseTheBLUEPRINTModeToPlaceAnINVERTEROntoTheDIEThenVALIDATE" xml:space="preserve">
+    <value>使用蓝图模式将反相器放置到晶片上，然后验证。</value>
+  </data>
+  <data name="TheDIESizeWasFixedUntilNowNowTheSizeWillBeDynamicToTheRightAndBottomDirection" xml:space="preserve">
+    <value>到目前为止晶片尺寸是固定的；现在尺寸将
+向右和向下方向动态变化。</value>
+  </data>
+  <data name="IfYouNeedMoreSpaceJustBuildOutsideTheDIEToExtendIt" xml:space="preserve">
+    <value>如果需要更多空间，
+只需在晶片外部构建以扩展它。</value>
+  </data>
+  <data name="WhenYouValidateAnyEmptyContiguousSpacesWillAutomaticalyBeRemoved" xml:space="preserve">
+    <value>验证时，任何空的连续空间
+将自动被移除。</value>
+  </data>
+  <data name="DoingSoWillShiftAnyOutputToTheNewEdgeLocation" xml:space="preserve">
+    <value>这样做将把输出移动到新的边缘位置。</value>
+  </data>
+  <data name="TryRemovingAnyBlockInThisColumnAndThenValidateToCompactTheDie" xml:space="preserve">
+    <value>尝试移除此列中的任何方块，
+然后验证以压缩晶片。</value>
+  </data>
+  <data name="INFOFULLREPORTUNLOCKED" xml:space="preserve">
+    <value>信息：完整报告已解锁。</value>
+  </data>
+  <data name="COMPACTAndOPTIMIZETheINVERTERThenVALIDATE" xml:space="preserve">
+    <value>压缩并优化反相器，然后验证。</value>
+  </data>
+  <data name="TipToDoACuboidSelectHoldLeftCTRLWhileSelectingOrDeleting" xml:space="preserve">
+    <value>提示：要进行立方体选择，请在选择
+或删除时按住左 CTRL。</value>
+  </data>
+  <data name="AreaTooLarge" xml:space="preserve">
+    <value>区域过大</value>
+  </data>
+  <data name="SomeValidationRequiresMultipleStepsEachStepHasItsOwnRequirementAllAreListedOnTopHere" xml:space="preserve">
+    <value>验证通常需要多个步骤。
+每个步骤都有自己的要求。
+所有要求都列在顶部这里。</value>
+  </data>
+  <data name="EachStepIsVerifiedInOrderOneAfterTheOtherIfAStepFailsToBeVerifiedTheValidationStops" xml:space="preserve">
+    <value>每个步骤按顺序逐一验证。
+如果某个步骤验证失败，
+验证将停止。</value>
+  </data>
+  <data name="BuildASolutionThatMeetsTheCRITERIAThenVALIDATE" xml:space="preserve">
+    <value>构建一个满足条件的解决方案，然后验证。</value>
+  </data>
+  <data name="IMHereToHelpTrustInTheGuidanceIOfferForMyOnlyAimIsToLeadYouToResolution" xml:space="preserve">
+    <value>我在这里帮助你。相信我提供的指导，
+因为我的唯一目的是带领你解决问题。</value>
+  </data>
+  <data name="ThisOneBlockIsASUBSTRATEBlockSeeItAsTheSupportForEverythingElse" xml:space="preserve">
+    <value>这个方块是基底块，
+把它看作是其他一切的支撑。</value>
+  </data>
+  <data name="ThisIsTheDIEItIsComposedOfTheEntireSetOfAllBlocks" xml:space="preserve">
+    <value>这是晶片，它由所有方块的
+完整集合组成。</value>
+  </data>
+  <data name="ThisIsAnINPUTBlockItProvidesSignalToTheDIEToProcessIt" xml:space="preserve">
+    <value>这是一个输入块，它向晶片
+提供信号进行处理。</value>
+  </data>
+  <data name="ThisIsAnOUTPUTBlockItReceivesTheSignalProcessedByTheDIE" xml:space="preserve">
+    <value>这是一个输出块，它接收
+晶片处理后的信号。</value>
+  </data>
+  <data name="ThisDIENeedsToFullfillASimpleTaskOutputingWhatItReceivesOnTheInput" xml:space="preserve">
+    <value>这个晶片需要完成一个简单的任务：
+将输入收到的内容输出。</value>
+  </data>
+  <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
+    <value>要连接输入和输出，使用金属块，
+然后点击任何基底块来放置。</value>
+  </data>
+  <data name="WhenYouHaveCompletedYourDIELaunchTheVerificationWithTheVALIDATEButton" xml:space="preserve">
+    <value>完成晶片后，
+使用"验证"按钮启动验证。</value>
+  </data>
+  <data name="AtAnyPointYouCanGetHintsAndHelpFromTheButton" xml:space="preserve">
+    <value>你可以随时从"?"
+按钮获取提示和帮助。</value>
+  </data>
+  <data name="ConnectTheINPUTToTheOUTPUTThenVALIDATE" xml:space="preserve">
+    <value>将输入连接到输出，然后验证</value>
+  </data>
+  <data name="TestWithTheClickMeInputAtLeastOnceThenValidate" xml:space="preserve">
+    <value>至少测试一次"点击我！"输入，然后验证。</value>
+  </data>
+  <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
+    <value>金属块和输入块可以处于三种状态之一：
+1（红色）- 连接到正极 / VDD
+0（蓝色）- 连接到接地 / VSS
+_（灰色）- 断开 / 浮空 / 高阻态</value>
+  </data>
+  <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
+    <value>输入块可以主动驱动信号，
+向相邻的金属块发送 1 或 0。</value>
+  </data>
+  <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
+    <value>所有其他方块只是沿着连接的走线传播这些信号。
+如果没有输入继续驱动它们，
+信号最终会消散，整个连接的
+金属网络将返回浮空状态。</value>
+  </data>
+  <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
+    <value>当你点击"验证"时，
+输入由验证过程控制。</value>
+  </data>
+  <data name="BUTYouCanTestDifferentINPUTSSeedingStateByClickingOnIt" xml:space="preserve">
+    <value>但你可以通过点击旁边的标签
+来测试不同的输入值。</value>
+  </data>
+  <data name="DoingSoWillSTOPTheValidationProcess" xml:space="preserve">
+    <value>这样做将停止验证过程。</value>
+  </data>
+  <data name="ChangeTheINPUTAtLeastOnceThenVALIDATE" xml:space="preserve">
+    <value>至少更改一次输入，然后验证。</value>
+  </data>
+  <data name="MOSCanTakeDifferentShapesNotLimitedToThe3x2x3Blocks" xml:space="preserve">
+    <value>MOS 可以采用不同的形状，
+不限于 3x2x3 方块。</value>
+  </data>
+  <data name="SpecialShapeMOSCanHaveTwoGatesAndShareTheSameChannel" xml:space="preserve">
+    <value>特殊形状的 MOS 可以有两个栅极
+并共享同一个通道。</value>
+  </data>
+  <data name="YouCantUseTraceHereOnlyPMOSFromTheBottomBuildMenu" xml:space="preserve">
+    <value>这里不能使用金属块，只能使用
+底部构建菜单中的 PMOS。</value>
+  </data>
+  <data name="CreateAMERGEDPMOSWith2GATESThenVALIDATE" xml:space="preserve">
+    <value>创建一个带有 2 个栅极的合并 PMOS，然后验证</value>
+  </data>
+  <data name="NMOSNegativeMOSAreTheExactOppositeOfPMOS" xml:space="preserve">
+    <value>NMOS（负 MOS）与 PMOS 完全相反。</value>
+  </data>
+  <data name="TheBlueStripsHelpToDifferentiateTheNMOSFromAPMOSWhichAreRed" xml:space="preserve">
+    <value>蓝色条纹有助于区分
+NMOS 和 PMOS（红色）。</value>
+  </data>
+  <data name="ApplyingA1ToTheNMOSSGateActivatesItAllowingONLY0GoingThroughIt" xml:space="preserve">
+    <value>向 NMOS 的栅极施加 1 会激活它，
+只允许 0 通过。</value>
+  </data>
+  <data name="ApplyingA0DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>施加 0 会使其停用，
+阻止所有状态通过。</value>
+  </data>
+  <data name="ConnectTheNMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>正确连接 NMOS，然后验证</value>
+  </data>
+  <data name="TRACESCanOnlyTransferOneStateAtATimeButMOSFETMetalOxideSemiconductorsFieldEffectTransistorCanReactToStates" xml:space="preserve">
+    <value>简单的金属连接一次只能传输一种状态。
+但 MOSFET（金属氧化物半导体场效应晶体管）
+可以对状态作出反应！</value>
+  </data>
+  <data name="HereSAMOSFETAndMovingForwardWeLlReferToItAsMOS" xml:space="preserve">
+    <value>这是一个 MOSFET，今后
+我们将称它为 MOS。</value>
+  </data>
+  <data name="MOSHas2MajorPartsTheGate" xml:space="preserve">
+    <value>MOS 有两个主要部分：栅极...</value>
+  </data>
+  <data name="AndTheChannel" xml:space="preserve">
+    <value>...以及通道</value>
+  </data>
+  <data name="ThisOneMOSIsAPMOSPositiveMOSItActsLikeASwitchThatCanBeEitherActivatedOrDeactivatedByAnyGivenState" xml:space="preserve">
+    <value>这个 MOS 是 PMOS（正 MOS）。它就像一个
+开关，可以被任何给定的状态
+"激活"或"停用"。</value>
+  </data>
+  <data name="Applying0ToThePMOSSGateActivatesItAllowingONLY1GoingThroughIt" xml:space="preserve">
+    <value>向 PMOS 的栅极施加 0 会激活它，
+只允许 1 通过。</value>
+  </data>
+  <data name="Applying1DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>施加 1 会使其停用，
+阻止所有状态通过。</value>
+  </data>
+  <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
+    <value>使用顶部这里的帮助按钮，或尝试自己连接 PMOS</value>
+  </data>
+  <data name="ConnectThePMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>正确连接 PMOS，然后验证</value>
+  </data>
+  <data name="MostOfTheTimeASCHEMATICIsAvailableWithTheChipButtonOnTopHere" xml:space="preserve">
+    <value>大多数时候，可以通过顶部这里的芯片按钮获得原理图。</value>
+  </data>
+  <data name="ItProvidesOptionalStepsToBuildTheChipForEachLevel" xml:space="preserve">
+    <value>它为每个关卡提供了构建芯片的可选步骤。</value>
+  </data>
+  <data name="UseTheSCHEMATICOrNotToBuildAnINVERTERThenVALIDATE" xml:space="preserve">
+    <value>使用原理图（或不使用）构建反相器，然后验证</value>
+  </data>
+  <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
+    <value>你可以使用 R 键旋转 PMOS/NMOS
+或任何选中的方块。</value>
+  </data>
+  <data name="Connecting2INPUTSWithTheOPPOSITEStates1And0WillResultInASHORTCIRCUIT" xml:space="preserve">
+    <value>连接两个状态相反（1 和 0）的输入
+将导致短路。</value>
+  </data>
+  <data name="ASHORTCIRCUITWillPreventTheDIEFromProperlyFunctioningInUnexpectedWays" xml:space="preserve">
+    <value>短路将以意想不到的方式
+阻止晶片正常工作。</value>
+  </data>
+  <data name="ToIsolateThe2INPUTSFromEachOtherHoldALTDownAndClickOnATRACEToRemoveIt" xml:space="preserve">
+    <value>要将两个输入相互隔离，按住 ALT
+并点击金属块将其移除。</value>
+  </data>
+  <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>修复短路，然后验证</value>
+  </data>
+  <data name="ToIsolateTRACEsFromEachOtherTheyMustHaveAtLeast1EmptySpaceBetweenThemInAnyDirectionOtherwiseTheyAreConnected" xml:space="preserve">
+    <value>要将金属路径相互隔离，它们之间
+在任何方向上必须至少有 1 个空格。
+否则它们是连接的。</value>
+  </data>
+  <data name="FollowingTheCriteriaInputAMustBeConnectedToOutputAButNotToOutputBNorC" xml:space="preserve">
+    <value>按照条件：
+输入 A 必须连接到输出 A
+但不能连接到输出 B 或 C。</value>
+  </data>
+  <data name="AddTRACESUpByHoldingLEFTCLICKAndThenMOUSEMOVEUpWhileHoldingCTRLDOWN" xml:space="preserve">
+    <value>按住左键点击，然后
+在按住 CTRL 的同时向上移动鼠标来向上添加金属块。</value>
+  </data>
+  <data name="SEPARATETRACEsABAndCThenVALIDATE" xml:space="preserve">
+    <value>分离 A、B 和 C 连接。然后验证。</value>
+  </data>
+  <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
+    <value>左 CTRL + 按住左键点击，
+然后向上移动以垂直添加金属。</value>
+  </data>
+  <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
+    <value>金属走线开始时处于灰色浮空状态。
+没有能量从电源流入/流出。它们
+基本上是断开的导线片段。</value>
+  </data>
+  <data name="InputsHaveVaryingSignalsButSometimesNyouNeedAConstantSignalOf1Or0" xml:space="preserve">
+    <value>输入有变化的信号。但有时
+你需要恒定的 1 或 0 信号。</value>
+  </data>
+  <data name="ConstantBlocksDoJustThat" xml:space="preserve">
+    <value>常量块正是这样做的。</value>
+  </data>
+  <data name="ThisIsThe1ConstantBlockAtPlane8" xml:space="preserve">
+    <value>这是位于第 8 层的 1 常量块。</value>
+  </data>
+  <data name="AndThe0ConstantBlockAtPlane6" xml:space="preserve">
+    <value>以及位于第 6 层的 0 常量块。</value>
+  </data>
+  <data name="TheyAreAlwaysFixedInTheirRespectivePowerPlane" xml:space="preserve">
+    <value>它们始终固定在各自的电源层。</value>
+  </data>
+  <data name="ThisIsHelpfullWhenYouBuildReusablePartsAllNpartsAlwaysHaveTheirConstant0Or1FromThisKnownPlane" xml:space="preserve">
+    <value>当你构建可复用部件时这很有帮助。所有部件
+总是从这个已知层获取常量 0 或 1。</value>
+  </data>
+  <data name="CONNECTEachConstantBlockToItsOutputThenVALIDATE" xml:space="preserve">
+    <value>将每个常量块连接到其输出，然后验证。</value>
+  </data>
+</root>
