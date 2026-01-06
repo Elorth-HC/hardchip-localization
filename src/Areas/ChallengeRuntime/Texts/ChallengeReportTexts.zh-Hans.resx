@@ -44,16 +44,16 @@
     <comment>Composed with the name of the challenge at the beginning</comment>
   </data>
   <data name="LastChipChecked" xml:space="preserve">
-    <value>上次检查的芯片</value>
+    <value>上次检测的芯片</value>
   </data>
   <data name="ChipChecked" xml:space="preserve">
-    <value>芯片已通过！</value>
+    <value>芯片已检测！</value>
   </data>
   <data name="FunctionalSatisfactoryStreamlined" xml:space="preserve">
-    <value>功能性 -&gt; 合格 -&gt; 精简</value>
+    <value>可用 -&gt; 合格 -&gt; 精简</value>
   </data>
   <data name="Blocks" xml:space="preserve">
-    <value>   方块：</value>
+    <value>   块数：</value>
     <comment>Space important</comment>
   </data>
   <data name="Volume" xml:space="preserve">
@@ -61,27 +61,27 @@
     <comment>Space important</comment>
   </data>
   <data name="BlocksUsedTheFewerTheBetterNComplexSatisfactoryEfficient" xml:space="preserve">
-    <value>使用的方块。越少越好。
+    <value>使用的块数量。越少越好。
 复杂 -&gt; 合格 -&gt; 高效</value>
   </data>
   <data name="VolumeUsedTheSmallerTheBetterNLargeSatisfactoryCompact" xml:space="preserve">
-    <value>使用的体积。越小越好。
-大型 -&gt; 合格 -&gt; 紧凑</value>
+    <value>占用的体积。越小越好。
+庞大 -&gt; 合格 -&gt; 紧凑</value>
   </data>
   <data name="Ticks" xml:space="preserve">
-    <value>   时钟周期：</value>
+    <value>   时钟周期数：</value>
   </data>
   <data name="MOS" xml:space="preserve">
-    <value>   MOS：</value>
+    <value>   MOS数：</value>
     <comment>Space important</comment>
   </data>
   <data name="TicksUsedTheFewerTheBetterNSlowSatisfactoryFast" xml:space="preserve">
     <value>使用的时钟周期。越少越好。
-慢速 -&gt; 合格 -&gt; 快速</value>
+缓慢 -&gt; 合格 -&gt; 快速</value>
   </data>
   <data name="MOSUsedTheFewerTheBetterNHighSatisfactoryReduced" xml:space="preserve">
-    <value>使用的 MOS。越少越好。
-高 -&gt; 合格 -&gt; 低</value>
+    <value>使用的 MOS数。越少越好。
+偏多 -&gt; 合格 -&gt; 精简</value>
   </data>
   <data name="DataUnavailable" xml:space="preserve">
     <value>数据不可用</value>
@@ -102,10 +102,10 @@
     <value>将蓝图导出为新的 HCDrive 文件到剪贴板</value>
   </data>
   <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
-    <value>最佳方块数解决方案，点击比较。右键设为当前。</value>
+    <value>最佳块数解决方案，点击比较。右键设为当前。</value>
   </data>
   <data name="BestBlockSolution" xml:space="preserve">
-    <value>（最佳方块数解决方案）</value>
+    <value>（最佳块数解决方案）</value>
   </data>
   <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
     <value>最佳体积解决方案，点击比较。右键设为当前。</value>
@@ -120,10 +120,10 @@
     <value>（最佳时钟周期解决方案）</value>
   </data>
   <data name="BestMosSolutionClickToCompare" xml:space="preserve">
-    <value>最佳 MOS 解决方案，点击比较。右键设为当前。</value>
+    <value>最佳 MOS 数解决方案，点击比较。右键设为当前。</value>
   </data>
   <data name="BestMosSolution" xml:space="preserve">
-    <value>（最佳 MOS 解决方案）</value>
+    <value>（最佳 MOS 数解决方案）</value>
   </data>
   <data name="Modify" xml:space="preserve">
     <value>修改</value>
@@ -135,7 +135,7 @@
     <value>评级{0}：</value>
   </data>
   <data name="Functional" xml:space="preserve">
-    <value>功能性</value>
+    <value>可用</value>
   </data>
   <data name="Satisfactory" xml:space="preserve">
     <value>合格</value>
@@ -165,7 +165,7 @@
     <value>高效++</value>
   </data>
   <data name="Large" xml:space="preserve">
-    <value>大型</value>
+    <value>庞大</value>
   </data>
   <data name="Compact" xml:space="preserve">
     <value>紧凑</value>
@@ -177,7 +177,7 @@
     <value>紧凑++</value>
   </data>
   <data name="Slow" xml:space="preserve">
-    <value>慢速</value>
+    <value>缓慢</value>
   </data>
   <data name="Fast" xml:space="preserve">
     <value>快速</value>

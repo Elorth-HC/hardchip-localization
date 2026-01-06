@@ -64,7 +64,7 @@ r90ERROR_CODE: 未指定错误
 r90ERROR_CODE: 未指定错误
 r90ERROR_CODE: 未指定错误
 r92ERROR_CODE: 未指定错误
-r95ERROR_CODE: ?x?????? continue
+r95ERROR_CODE: ?x?????? 继续
 y95警告: 0x45FDB3 INVERTER 芯片已更换。需要重启。</value>
   </data>
   <data name="RebootFix1" xml:space="preserve">
@@ -113,7 +113,7 @@ r90ERROR_CODE: 未指定错误
 r90ERROR_CODE: 未指定错误
 r90ERROR_CODE: 未指定错误
 r92ERROR_CODE: 未指定错误
-r95ERROR_CODE: ?x?????? continue
+r95ERROR_CODE: ?x?????? 继续
 y95警告: 0x45FDB3 8BIT ADDER 芯片已更换。需要重启。</value>
   </data>
   <data name="RebootFix2" xml:space="preserve">

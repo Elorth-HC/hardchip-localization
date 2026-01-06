@@ -82,7 +82,7 @@ r90ERROR_CODE: 未指定错误
 r90ERROR_CODE: 未指定错误
 r90ERROR_CODE: 未指定错误
 r92ERROR_CODE: 未指定错误
-r95ERROR_CODE: ?x?????? good
+r95ERROR_CODE: ?x?????? 很好
 y95警告: 0x45FDB3 BYPASS 芯片已更换。需要重启。</value>
   </data>
   <data name="RebootFix" xml:space="preserve">

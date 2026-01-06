@@ -64,7 +64,7 @@
     <value>探针</value>
   </data>
   <data name="PickBitsPositionsOneAtATimeRightClickToCancel" xml:space="preserve">
-    <value>逐个选择位位置。右键点击取消。</value>
+    <value>逐个选择 bit 位置。右键点击取消。</value>
   </data>
   <data name="Label" xml:space="preserve">
     <value>标签</value>
@@ -97,7 +97,7 @@
     <value>允许中性状态</value>
   </data>
   <data name="StickToBlock" xml:space="preserve">
-    <value>固定到方块</value>
+    <value>固定到块</value>
   </data>
   <data name="NeutralNotAllowed" xml:space="preserve">
     <value>不允许中性状态</value>
@@ -127,7 +127,7 @@
     <value>打开蓝图库</value>
   </data>
   <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve">
-    <value>仅显示按方块数最优的蓝图</value>
+    <value>仅显示按块数最优的蓝图</value>
   </data>
   <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve">
     <value>仅显示按体积最优的蓝图</value>
@@ -142,7 +142,7 @@
     <value>将选择保存为蓝图</value>
   </data>
   <data name="Blocks" xml:space="preserve">
-    <value>方块</value>
+    <value>块</value>
   </data>
   <data name="Comparer" xml:space="preserve">
     <value>比较器</value>
@@ -163,16 +163,16 @@
     <value>验证时自动收缩</value>
   </data>
   <data name="TurnOnOffTheAutoShrinkOfTheDieWhenValidatingTheNlevelTheDieWillBeShrinkedToTheSmallestSizeNpossibleToFitTheBlocks" xml:space="preserve">
-    <value>开启/关闭验证关卡时晶片的自动收缩。
-晶片将被收缩到能容纳所有方块的
+    <value>开启/关闭验证关卡时 Die 的自动收缩。
+Die 将被收缩到能容纳所有块的
 最小尺寸。</value>
   </data>
   <data name="EditDieSize" xml:space="preserve">
-    <value>编辑晶片尺寸</value>
+    <value>编辑 Die 尺寸</value>
   </data>
   <data name="EditManuallyTheDieSizeShrinkingTheDieWillRemoveNtheBlocksOutsideTheNewDieSize" xml:space="preserve">
-    <value>手动编辑晶片尺寸。收缩晶片将移除
-新晶片尺寸之外的方块。</value>
+    <value>手动编辑 Die 尺寸。收缩 Die 将移除
+新 Die 尺寸之外的块。</value>
   </data>
   <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
     <value>将关卡文件导出到剪贴板。可粘贴到文件资源管理器、
@@ -192,7 +192,7 @@ Discord 和所有支持粘贴文件的程序中。</value>
     <value>显示更改指示器</value>
   </data>
   <data name="ShowIndicatorsOnTheBlocksThatHaveBeenChangedSinceNtheLastSimulationUpdateIndicatorsAreRemovedWhenNafterAFewSecondsOrWhenTheSimulationIsStepped" xml:space="preserve">
-    <value>显示自上次模拟更新以来已更改的方块上的指示器。
+    <value>显示自上次模拟更新以来已更改的块上的指示器。
 指示器会在几秒后或模拟步进时移除。</value>
   </data>
   <data name="TracesGroupsColors" xml:space="preserve">
@@ -248,7 +248,7 @@ Discord 和所有支持粘贴文件的程序中。</value>
     <value>缩小</value>
   </data>
   <data name="DieOperations" xml:space="preserve">
-    <value>晶片操作</value>
+    <value>Die 操作</value>
   </data>
   <data name="Shrink5BlocksFromTheBack" xml:space="preserve">
     <value>从后方收缩 5 格</value>
@@ -284,7 +284,7 @@ Discord 和所有支持粘贴文件的程序中。</value>
     <value>从前方收缩 5 格</value>
   </data>
   <data name="ShrinkTheDieToFitTheMinimumSize" xml:space="preserve">
-    <value>将晶片收缩到最小尺寸</value>
+    <value>将 Die 收缩到最小尺寸</value>
   </data>
   <data name="Extend5BlocksFromTheBack" xml:space="preserve">
     <value>从后方扩展 5 格</value>
@@ -412,7 +412,7 @@ Discord 和所有支持粘贴文件的程序中。</value>
     <value> 时钟 {0} ({1})</value>
   </data>
   <data name="BlocksShouldBe" xml:space="preserve">
-    <value>方块应该是 </value>
+    <value>块应该是 </value>
   </data>
   <data name="AtPosition" xml:space="preserve">
     <value> 在位置 </value>
@@ -472,7 +472,7 @@ Discord 和所有支持粘贴文件的程序中。</value>
     <value>编辑 (向上:{0}/删除{1}/选择{2})</value>
   </data>
   <data name="DieOperationsModeSummary" xml:space="preserve">
-    <value>扩展/收缩晶片</value>
+    <value>扩展/收缩 Die</value>
   </data>
   <data name="ProbeModeSummary" xml:space="preserve">
     <value>探针</value>

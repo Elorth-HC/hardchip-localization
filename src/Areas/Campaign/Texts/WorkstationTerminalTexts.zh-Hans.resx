@@ -59,10 +59,10 @@ g90
 g90已收到 BYPASS 芯片的需求。
 r99错误：数据库中未找到芯片！
 g90
-g95正在处理 BYPASS 芯片的需求组件...
-g92   连线需求
-g92   输入/输出需求
-g92   交叉连线需求
+g95正在处理 BYPASS 芯片所需组件...
+g92   需要 连线
+g92   需要 输入/输出
+g92   需要 交叉连线
 g92所有需求组件已上传
 g90
 y39工作站环境已为 BYPASS 芯片半导体工程设置完成。</value>
@@ -70,7 +70,7 @@ y39工作站环境已为 BYPASS 芯片半导体工程设置完成。</value>
   <data name="BypassDone" xml:space="preserve">
     <value>g90BYPASS 芯片设计：完成
 g90
-g92启动制造机 [正常]
+g92启动制造机 [成功]
 g90正在向制造机发送设计...
 g17.....
 g90完成。</value>
@@ -99,10 +99,10 @@ g90
 g90已收到 INVERTER 芯片的需求。
 r99错误：数据库中未找到芯片！
 g90
-g95正在处理 INVERTER 芯片的需求组件...
-g92   PMOS 需求
-g92   NMOS 需求
-g92   NOT 需求
+g95正在处理 INVERTER 芯片所需组件...
+g92   需要 PMOS
+g92   需要 NMOS
+g92   需要 NOT
 g92所有需求组件已上传
 g90
 y39工作站环境已为 INVERTER 芯片半导体工程设置完成。</value>
@@ -116,7 +116,7 @@ g17.....
 g90完成。</value>
   </data>
   <data name="ReceivedAdderRequirement" xml:space="preserve">
-    <value>g90已收到 8位加法器芯片的需求。
+    <value>g90已收到 8BIT ADDER 芯片的需求。
 g90准备开始设计流程。</value>
   </data>
   <data name="StartAdder" xml:space="preserve">
@@ -131,15 +131,15 @@ g90
 g90已收到 8BIT ADDER 芯片的需求。
 r99错误：数据库中未找到芯片！
 g90
-g95正在处理 8BIT ADDER 芯片的需求组件...
-g92   NOT 门需求
-g92   NAND 门需求
-g92   AND 门需求
-g92   OR 门需求
-g92   XOR 门需求
-g92   位全加器需求
-g92   4位加法器需求
-g92   8位加法器需求
+g95正在处理 8BIT ADDER 芯片所需组件...
+g92   需要 非门
+g92   需要 与非门
+g92   需要 与门
+g92   需要 或门
+g92   需要 异或门
+g92   需要 全加器
+g92   需要 4位加法器
+g92   需要 8位加法器
 g92所有需求组件已上传
 g90
 y39工作站环境已为 8BIT ADDER 半导体工程设置完成。</value>
@@ -164,14 +164,14 @@ g90
 g90已收到 8BIT ALU 芯片的需求。
 r99错误：数据库中未找到芯片！
 g90
-g95正在处理 8BIT ALU 芯片的需求组件...
-g92   XOR 门需求
-g92   NOR8 门需求
-g92   8位加法器需求
-g92   有符号数表示需求
-g92   反相器+1 需求
-g92   减法器需求
-g92   8位 ALU 需求
+g95正在处理 8BIT ALU 芯片所需组件...
+g92   需要 异或门
+g92   需要 8位或非门
+g92   需要 8位加法器
+g92   需要 有符号数表示
+g92   需要 求补器
+g92   需要 减法器
+g92   需要 8位 ALU
 g92所有需求组件已上传
 g90
 y39工作站环境已为 8BIT ALU 半导体工程设置完成。</value>

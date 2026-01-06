@@ -55,19 +55,19 @@
     <value>所有设置将重置为默认值。可能需要重启游戏才能完全应用。</value>
   </data>
   <data name="Campaign" xml:space="preserve">
-    <value>战役</value>
+    <value>剧情</value>
   </data>
   <data name="ResetCampaignOnly" xml:space="preserve">
-    <value>仅重置战役</value>
+    <value>仅重置剧情</value>
   </data>
   <data name="ResetCampaignProgression" xml:space="preserve">
-    <value>重置战役进度？</value>
+    <value>重置剧情进度？</value>
   </data>
   <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
-    <value>这将重置你的战役进度，但不会删除已完成的解决方案。</value>
+    <value>这将重置你的剧情进度，但不会删除已完成的解决方案。</value>
   </data>
   <data name="AreYouSureYouWantToResetYourCampaignProgressionNSolvedSolutionsWonTBeRemoved" xml:space="preserve">
-    <value>确定要重置你的战役进度吗？
+    <value>确定要重置你的剧情进度吗？
 已完成的解决方案不会被删除。</value>
   </data>
   <data name="HardReset" xml:space="preserve">
@@ -80,10 +80,10 @@
     <value>重置所有内容？</value>
   </data>
   <data name="ThisWillResetEVERYSettingsSolutionsAndCampaignProgression" xml:space="preserve">
-    <value>这将重置所有设置、解决方案和战役进度。</value>
+    <value>这将重置所有设置、解决方案和剧情进度。</value>
   </data>
   <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
-    <value>确定要重置所有解决方案和战役进度吗？
+    <value>确定要重置所有解决方案和剧情进度吗？
 
 这将删除所有内容，请确认你的操作！</value>
   </data>
@@ -270,7 +270,7 @@ Steam 用户名用于排行榜显示。</value>
   </data>
   <data name="ThisWillResetYourTutorialSolutionsButNotYourCampaignProgression" xml:space="preserve">
     <value>这将重置你的教程解决方案，
-但不会重置你的战役进度。</value>
+但不会重置你的剧情进度。</value>
   </data>
   <data name="ResetsTutorial" xml:space="preserve">
     <value>重置教程？</value>
@@ -281,7 +281,7 @@ Steam 用户名用于排行榜显示。</value>
   <data name="AreYouSureYouWantToResetAllYourTutorialSolutionsYourCampaignProgressionAndAllOtherStageSolutionsWonTBeRemoved" xml:space="preserve">
     <value>确定要重置所有教程解决方案吗？
 
-你的战役进度和所有其他关卡解决方案
+你的剧情进度和所有其他关卡解决方案
 不会被删除。</value>
   </data>
 </root>
