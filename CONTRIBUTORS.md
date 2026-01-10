@@ -27,6 +27,8 @@ Contributors who wished to get recognized:
 #### 🇮🇹 Italian (it)
 - **ir_trevi** - Full translation
 
+#### JA Japanese (ja)
+- **Michael Tedder** ([@falken42](https://github.com/falken42/)) - Full translation
 
 ## Recognition Guidelines
 
