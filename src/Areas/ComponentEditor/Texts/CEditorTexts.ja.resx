@@ -453,7 +453,8 @@
     <value>写真を撮る</value>
   </data>
   <data name="HideUIForASplitSecondTakeAScreenshotNputInTheClipboardAndSteamScreenshotFolder" xml:space="preserve">
-    <value>一瞬だけUIを非表示にしてスクリーンショットを撮り、クリップボードとSteamのスクリーンショットフォルダーに保存します。</value>
+    <value>一瞬だけUIを非表示にしてスクリーンショットを撮り、
+クリップボードとSteamのスクリーンショットフォルダーに保存します。</value>
   </data>
   <data name="ReportShape" xml:space="preserve">
     <value>スコアの形式</value>

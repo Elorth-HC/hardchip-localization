@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="UndoRedoStackSize" xml:space="preserve">
-    <value>元に戻す/やり直しスタックのサイズ</value>
+    <value>元に戻す / やり直しスタックのサイズ</value>
   </data>
   <data name="CanBeIncreasedToAllowMoreUndosButWillConsumeMoreMemory" xml:space="preserve">
     <value>元に戻す回数を増やすために増やすことはできますが、メモリ消費量が増えます。</value>
@@ -184,10 +184,13 @@
     <value>オンライン</value>
   </data>
   <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
-    <value>チャートは世界中の最新の解答をもとに算出され、あなたのスコアがチャートを更新します。</value>
+    <value>チャートは世界中の最新の解答をもとに算出され、
+あなたのスコアがチャートを更新します。</value>
   </data>
   <data name="ChartsAreCalculatedFromAFixedAndLocalSnapshotNofTheLatestSolutionsFromAroundTheWorldYourNscoresDonTUpdateCharts" xml:space="preserve">
-    <value>チャートは、世界中の最新の解答の固定されたローカルスナップショットに基づいて算出されます。あなたのスコアはチャートを更新しません。</value>
+    <value>チャートは、世界中の最新の解答の固定された
+ローカルスナップショットに基づいて算出されます。
+あなたのスコアはチャートを更新しません。</value>
   </data>
   <data name="RayPrecision" xml:space="preserve">
     <value>レイ精度</value>

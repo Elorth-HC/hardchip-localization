@@ -184,7 +184,9 @@ INSTALLを押してブループリントのインストールを完了してく�
   </data>
   <data name="ExportSuccessMessage" xml:space="preserve">
     <value>エクスポートに成功しました。  
-新しいHCDriveがクリップボードにあります！エクスプローラーや画像コンテンツに対応した他のソフトウェアに貼り付けて共有できます。</value>
+新しいHCDriveがクリップボードにあります！
+エクスプローラーや画像コンテンツに対応した
+他のソフトウェアに貼り付けて共有できます。</value>
   </data>
   <data name="InstallFailedMessage" xml:space="preserve">
     <value>インストールに失敗しました。

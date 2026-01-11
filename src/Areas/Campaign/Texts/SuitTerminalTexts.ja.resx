@@ -136,13 +136,13 @@ g90
 w83確認するには任意のキーを押してください...</value>
   </data>
   <data name="_0ToTake" xml:space="preserve">
-    <value>{1}を取るには{0}を押してください</value>
+    <value>{1}を取るには{0}を</value>
   </data>
   <data name="_8BITADDERChip" xml:space="preserve">
     <value>8ビット加算器チップ</value>
   </data>
   <data name="_0ToPlace" xml:space="preserve">
-    <value>{1}を置くには{0}を押してください</value>
+    <value>{1}を置くには{0}を</value>
   </data>
   <data name="BYPASSChip" xml:space="preserve">
     <value>BYPASSチップ</value>
@@ -157,6 +157,6 @@ w83確認するには任意のキーを押してください...</value>
     <value>8ビットALUチップ</value>
   </data>
   <data name="Press0ToInteract" xml:space="preserve">
-    <value>{0} を押して操作する</value>
+    <value>{0}を押して操作する</value>
   </data>
 </root>

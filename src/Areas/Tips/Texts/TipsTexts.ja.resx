@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HoldMiddleMouseButtonToRotateAround" xml:space="preserve">
-    <value>ヒント：マウスの中ボタンを使って、カメラを自分の解決策の周りに回転させましょう。</value>
+    <value>ヒント: マウスの中ボタンを使って、カメラを自分の解決策の周りに回転させましょう。</value>
   </data>
   <data name="CtrlXCVWorkForCutCopyPastSelectAllOperation" xml:space="preserve">
     <value>ヒント: Ctrl-A で全選択し、Ctrl-X/C/V で切り取り/コピー/貼り付けします。</value>
   </data>
   <data name="DevCTAProposeTip" xml:space="preserve">
-    <value>開発者より：ここに載せるべきだと思うヒントがあれば、HCのDiscordで提案できます！</value>
+    <value>開発者より: ここに載せるべきだと思うヒントがあれば、HCのDiscordで提案できます！</value>
   </data>
   <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
-    <value>ヒント：右クリックすれば、いつでも選択モード（緑の枠のカーソル）に入れます。</value>
+    <value>ヒント: 右クリックすれば、いつでも選択モード（緑の枠のカーソル）に入れます。</value>
   </data>
   <data name="WhenPickingInputOutputSpreadWithPlusMinusKey" xml:space="preserve">
-    <value>ヒント：新しい入出力位置を選ぶときに + または - キーを押すと、線の間隔を最大4マスまで広げられます。</value>
+    <value>ヒント: 新しい入出力位置を選ぶときに + または - キーを押すと、線の間隔を最大4マスまで広げられます。</value>
   </data>
   <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
-    <value>ヒント：入力を交互に配置すると、配線作業を減らせるかもしれません。</value>
+    <value>ヒント: 入力を交互に配置すると、配線作業を減らせるかもしれません。</value>
   </data>
   <data name="YouCanNeutralCtrlClick" xml:space="preserve">
     <value>ヒント: 入力をクリックする際にCtrlを押しながら操作すると、ニュートラルに切り替えられます。</value>

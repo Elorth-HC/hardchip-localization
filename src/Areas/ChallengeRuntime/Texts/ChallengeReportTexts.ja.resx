@@ -215,10 +215,10 @@
     <value>標準</value>
   </data>
   <data name="Streamlined" xml:space="preserve">
-    <value>最適化された</value>
+    <value>最適</value>
   </data>
   <data name="Advanced" xml:space="preserve">
-    <value>高度な</value>
+    <value>高度</value>
   </data>
   <data name="Masterpiece" xml:space="preserve">
     <value>傑作</value>
@@ -266,7 +266,7 @@
     <value>高い</value>
   </data>
   <data name="Reduced" xml:space="preserve">
-    <value>縮小済み</value>
+    <value>縮小</value>
   </data>
   <data name="ReducedP" xml:space="preserve">
     <value>縮小+</value>

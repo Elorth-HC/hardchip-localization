@@ -202,7 +202,7 @@
     <value>検証を実行</value>
   </data>
   <data name="StartPause" xml:space="preserve">
-    <value>開始／一時停止</value>
+    <value>開始 / 一時停止</value>
   </data>
   <data name="Reset" xml:space="preserve">
     <value>リセット</value>
@@ -263,7 +263,9 @@
     <value>押しっぱなしのキーは無視されました: </value>
   </data>
   <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
-    <value>Hard Chip により、押しっぱなしと検出されたキーは無視されます。これは、修飾キーを使用する特定のキーボード入力レイアウト（例：IME 日本語入力）が原因である可能性があります。</value>
+    <value>Hard Chip により、押しっぱなしと検出されたキーは無視されます。
+これは、修飾キーを使用する特定のキーボード入力レイアウト（例：IME 日本語入力）が
+原因である可能性があります。</value>
   </data>
   <data name="ResetBindings" xml:space="preserve">
     <value>割り当てをリセット</value>
