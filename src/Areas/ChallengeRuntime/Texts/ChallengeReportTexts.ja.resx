@@ -127,7 +127,7 @@
     <value>チップを確認しました！</value>
   </data>
   <data name="FunctionalSatisfactoryStreamlined" xml:space="preserve">
-    <value>機能的 → 満足できる → 最適化済み</value>
+    <value>機能的 → 標準 → 最適</value>
   </data>
   <data name="Blocks" xml:space="preserve">
     <value>   ブロック:</value>
@@ -137,11 +137,11 @@
   </data>
   <data name="BlocksUsedTheFewerTheBetterNComplexSatisfactoryEfficient" xml:space="preserve">
     <value>使用したブロック数。少ないほど良い。  
-複雑 → 満足 → 効率的</value>
+複雑 → 標準 → 効率的</value>
   </data>
   <data name="VolumeUsedTheSmallerTheBetterNLargeSatisfactoryCompact" xml:space="preserve">
     <value>使用した体積。小さいほど良いです。  
-大きい → 満足できる → コンパクト</value>
+大きい → 標準 → コンパクト</value>
   </data>
   <data name="Ticks" xml:space="preserve">
     <value>   ティック:</value>
@@ -151,11 +151,11 @@
   </data>
   <data name="TicksUsedTheFewerTheBetterNSlowSatisfactoryFast" xml:space="preserve">
     <value>使用したティック数。少ないほど良いです。  
-遅い -&gt; 満足できる -&gt; 速い</value>
+遅い → 標準 → 速い</value>
   </data>
   <data name="MOSUsedTheFewerTheBetterNHighSatisfactoryReduced" xml:space="preserve">
     <value>使用されたMOS。少ないほど良い。  
-高い -&gt; 満足 -&gt; 減少</value>
+高い → 標準 → 減少</value>
   </data>
   <data name="DataUnavailable" xml:space="preserve">
     <value>データは利用できません</value>
@@ -212,7 +212,7 @@
     <value>機能的</value>
   </data>
   <data name="Satisfactory" xml:space="preserve">
-    <value>満足のいく</value>
+    <value>標準</value>
   </data>
   <data name="Streamlined" xml:space="preserve">
     <value>最適化された</value>

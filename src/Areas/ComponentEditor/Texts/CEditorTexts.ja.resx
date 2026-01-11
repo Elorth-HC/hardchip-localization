@@ -193,7 +193,7 @@
     <value>エラー時に停止</value>
   </data>
   <data name="DonTStop" xml:space="preserve">
-    <value>止まらないで</value>
+    <value>停止しない</value>
   </data>
   <data name="BlueprintSaved" xml:space="preserve">
     <value>ブループリントを保存しました</value>
@@ -229,7 +229,7 @@
     <value>最適な解決策を再利用する</value>
   </data>
   <data name="NowBest" xml:space="preserve">
-    <value>現在 - - - - - - - - - - - 最高</value>
+    <value>現在 - - - - - - - - - - - 最適</value>
   </data>
   <data name="Toolbox" xml:space="preserve">
     <value>ツールボックス</value>
