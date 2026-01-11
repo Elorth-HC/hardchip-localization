@@ -130,7 +130,7 @@
     <value>負の数の表現に対応した出力はこちらです。</value>
   </data>
   <data name="SetINDIVIDUALINPUTBITSToMatchTheOUTPUTValueThenMANUALLYVALIDATEStepByStep" xml:space="preserve">
-    <value>個々の入力ビットを出力値に一致するように設定し、次に手動でステップごとに検証してください。</value>
+    <value>個々の入力ビットを出力値に一致するように設定し、次に手動でステップごとに検証してください</value>
   </data>
   <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
     <value>ときどき、ほかの接続に触れずに接続を配置するのは難しいことがあります。</value>
@@ -142,7 +142,8 @@
     <value>「Compacting the Inverter」ブループリントを使用してから、検証してください。</value>
   </data>
   <data name="ItWouldBeVeryInefficientToRebuildEveryCircuitFromScratch" xml:space="preserve">
-    <value>すべての回路をゼロから作り直すのは非常に非効率です。</value>
+    <value>すべての回路をゼロから
+作り直すのは非常に非効率です</value>
   </data>
   <data name="ToReuseWhatYouAlreadyBuiltSaveAnyCircuitAsABLUEPRINTAndThenJustSelectItToGetACopyForPlacement" xml:space="preserve">
     <value>すでに作ったものを再利用するには、
@@ -286,7 +287,7 @@ _（灰）- 未接続 / フローティング / Hi-Z</value>
     <value>こちらがMOSFETで、以降はMOSと呼びます。</value>
   </data>
   <data name="MOSHas2MajorPartsTheGate" xml:space="preserve">
-    <value>MOSには2つの主要な部分があります：ゲート…</value>
+    <value>MOSには2つの主要な部分があります：ゲート...</value>
   </data>
   <data name="AndTheChannel" xml:space="preserve">
     <value>... とチャンネル</value>
@@ -301,7 +302,7 @@ _（灰）- 未接続 / フローティング / Hi-Z</value>
     <value>1を適用すると無効化され、あらゆる状態が通過するのをブロックします。</value>
   </data>
   <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
-    <value>ここ上部のHELPボタンを使うか、PMOSを自分で配線してみてください。</value>
+    <value>ここ上部のHELPボタンを使うか、PMOSを自分で配線してみてください</value>
   </data>
   <data name="ConnectThePMOSProperlyThenVALIDATE" xml:space="preserve">
     <value>PMOSを正しく接続してから、検証してください</value>
@@ -313,7 +314,7 @@ _（灰）- 未接続 / フローティング / Hi-Z</value>
     <value>各レベルごとにチップを構築するための任意の手順を提供します。</value>
   </data>
   <data name="UseTheSCHEMATICOrNotToBuildAnINVERTERThenVALIDATE" xml:space="preserve">
-    <value>回路図（使っても使わなくても）を使ってインバータを作り、その後に検証してください。</value>
+    <value>回路図（使っても使わなくても）を使ってインバータを作り、その後に検証してください</value>
   </data>
   <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
     <value>R を使用して PMOS/NMOS または任意のブロック選択を回転できます。</value>
@@ -328,7 +329,7 @@ _（灰）- 未接続 / フローティング / Hi-Z</value>
     <value>2つのINPUTを互いに分離するには、「ALT」を押しながらMETALブロックをクリックして削除します。</value>
   </data>
   <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
-    <value>短絡を修理してから、検証してください。</value>
+    <value>短絡を修理してから、検証してください</value>
   </data>
   <data name="ToIsolateTRACEsFromEachOtherTheyMustHaveAtLeast1EmptySpaceBetweenThemInAnyDirectionOtherwiseTheyAreConnected" xml:space="preserve">
     <value>METALの経路同士を互いに絶縁するには、どの方向でも間に少なくとも空きマスが1つ必要です。そうでない場合は接続されています。</value>

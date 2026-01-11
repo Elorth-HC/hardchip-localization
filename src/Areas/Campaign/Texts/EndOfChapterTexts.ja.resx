@@ -118,18 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ChapterOneChecked" xml:space="preserve">
-    <value>第1章チェック完了！</value>
+    <value>第1章チェック完了！
+</value>
   </data>
   <data name="YouVeCompletedTheFirstChapterOfHardChipThe8bitALU" xml:space="preserve">
-    <value>Hard Chip：-8ビットALU- の第1章を完了しました！</value>
+    <value>Hard Chip: 「8ビットALU」の第1章を完了しました！
+
+</value>
   </data>
   <data name="Chapter2IsInTheMakingThatDoesnTMeanThereNothingToDoYouCanRevisitYourDesignsToImproveGradesAtTheWorkstation" xml:space="preserve">
-    <value>チャプター2は現在制作中です。だからといって、やることが何もないわけではありません。ワークステーションで評価を上げるために、設計を見直すことができます。</value>
+    <value>第2章は現在制作中です。だからといって、やることが何もないわけではありません。ワークステーションで評価を上げるために、設計を見直すことができます。
+
+</value>
   </data>
   <data name="OrYouCanCreateEntirelyNewCircuitsThanksToTheBonusStageFromTheMainMenu" xml:space="preserve">
-    <value>または、メインメニューのボーナスステージから、まったく新しい回路を作成することもできます！</value>
+    <value>または、メインメニューのボーナスステージから、まったく新しい回路を作成することもできます！
+
+</value>
   </data>
   <data name="PressAnyKeyToAcknowledge" xml:space="preserve">
-    <value>続行するには任意のキーを押してください…</value>
+    <value>いずれかのキーを押してください...
+
+</value>
   </data>
 </root>

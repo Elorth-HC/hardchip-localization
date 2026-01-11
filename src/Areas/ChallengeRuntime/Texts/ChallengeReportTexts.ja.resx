@@ -130,10 +130,10 @@
     <value>機能的 → 満足できる → 最適化済み</value>
   </data>
   <data name="Blocks" xml:space="preserve">
-    <value>ブロック:</value>
+    <value>   ブロック:</value>
   </data>
   <data name="Volume" xml:space="preserve">
-    <value>ボリューム:</value>
+    <value>   ボリューム:</value>
   </data>
   <data name="BlocksUsedTheFewerTheBetterNComplexSatisfactoryEfficient" xml:space="preserve">
     <value>使用したブロック数。少ないほど良い。  
@@ -144,10 +144,10 @@
 大きい → 満足できる → コンパクト</value>
   </data>
   <data name="Ticks" xml:space="preserve">
-    <value>ティック:</value>
+    <value>   ティック:</value>
   </data>
   <data name="MOS" xml:space="preserve">
-    <value>MOS:</value>
+    <value>   MOS:</value>
   </data>
   <data name="TicksUsedTheFewerTheBetterNSlowSatisfactoryFast" xml:space="preserve">
     <value>使用したティック数。少ないほど良いです。  
@@ -179,25 +179,25 @@
     <value>最適なブロック解決策。クリックして比較。右クリックで現在の設定にします。</value>
   </data>
   <data name="BestBlockSolution" xml:space="preserve">
-    <value>（最適なブロックソリューション）</value>
+    <value> （最適なブロックソリューション）</value>
   </data>
   <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
     <value>最適なボリューム解決策。クリックして比較。右クリックで現在の設定にします。</value>
   </data>
   <data name="BestVolumeSolution" xml:space="preserve">
-    <value>（最高のボリュームソリューション）</value>
+    <value> （最適なボリュームソリューション）</value>
   </data>
   <data name="BestTickSolutionClickToCompare" xml:space="preserve">
-    <value>最適なTickソリューション。クリックして比較。右クリックで現在の設定にします。</value>
+    <value>最適なティックソリューション。クリックして比較。右クリックで現在の設定にします。</value>
   </data>
   <data name="BestTickSolution" xml:space="preserve">
-    <value>（最適なTickソリューション）</value>
+    <value> （最適なティックソリューション）</value>
   </data>
   <data name="BestMosSolutionClickToCompare" xml:space="preserve">
     <value>最適なMOSソリューション。クリックして比較。右クリックで現在の設定にします。</value>
   </data>
   <data name="BestMosSolution" xml:space="preserve">
-    <value>最適なMOSソリューション</value>
+    <value> （最適なMOSソリューション）</value>
   </data>
   <data name="Modify" xml:space="preserve">
     <value>変更する</value>
@@ -275,7 +275,7 @@
     <value>削減++</value>
   </data>
   <data name="CompletedSuccessfully" xml:space="preserve">
-    <value>正常に完了しました。</value>
+    <value> 正常に完了しました。</value>
   </data>
   <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
     <value>解決策が古くなっています。更新するには、検証をもう一度実行してください。</value>

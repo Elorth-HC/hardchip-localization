@@ -468,7 +468,7 @@
     <value>フォトモードを終了する</value>
   </data>
   <data name="ClockFrequency" xml:space="preserve">
-    <value>クロック周波数</value>
+    <value>クロック周波数 </value>
   </data>
   <data name="_ShouldBeRightNowIs" xml:space="preserve">
     <value>{0} は {1} {2} であるべきですが、現在は {3} です</value>
@@ -483,16 +483,16 @@
     <value> クロック {0} ({1})</value>
   </data>
   <data name="BlocksShouldBe" xml:space="preserve">
-    <value>ブロックは次のようにするべき</value>
+    <value>ブロックは次のようであるべき</value>
   </data>
   <data name="AtPosition" xml:space="preserve">
     <value>位置にて</value>
   </data>
   <data name="Pending" xml:space="preserve">
-    <value>保留中...</value>
+    <value>保留中... </value>
   </data>
   <data name="Validating" xml:space="preserve">
-    <value>検証中...</value>
+    <value>検証中... </value>
   </data>
   <data name="TruthTable" xml:space="preserve">
     <value>真理値表</value>
@@ -513,16 +513,16 @@
     <value>任意</value>
   </data>
   <data name="ButtonLabelUnresponsive" xml:space="preserve">
-    <value>応答なし</value>
+    <value> 応答なし </value>
   </data>
   <data name="ButtonLabelMissedGoal" xml:space="preserve">
-    <value>目標未達成</value>
+    <value> 目標未達成  </value>
   </data>
   <data name="ButtonLabelChecked" xml:space="preserve">
-    <value>確認済み！</value>
+    <value>   確認済み！   </value>
   </data>
   <data name="ButtonLabelValidating" xml:space="preserve">
-    <value>検証中...</value>
+    <value> 検証中... </value>
   </data>
   <data name="ButtonLabelValidate" xml:space="preserve">
     <value>   検証   </value>
@@ -558,7 +558,7 @@
     <value>比較ツール</value>
   </data>
   <data name="SimulationSpeed" xml:space="preserve">
-    <value>シミュレーション速度</value>
+    <value>シミュレーション速度 </value>
   </data>
   <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>ランダム検証フェーズ。ティックスコアには影響しません。</value>

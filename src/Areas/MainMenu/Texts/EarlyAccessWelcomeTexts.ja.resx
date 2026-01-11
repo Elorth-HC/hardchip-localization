@@ -118,21 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="WelcomeToHardChip" xml:space="preserve">
-    <value>Hard Chipへようこそ！</value>
+    <value>Hard Chipへようこそ！
+</value>
   </data>
   <data name="ThisGameIsInActiveDevelopmentAndStillEvolving" xml:space="preserve">
-    <value>このゲームは現在も活発に開発が進められており、進化し続けています！</value>
+    <value>このゲームは現在も活発に開発が進められており、進化し続けています！
+
+</value>
   </data>
   <data name="TheFirstChapterAndSeveralBonusStagesAreReady" xml:space="preserve">
-    <value>最初のチャプターといくつかのボーナスステージはすでにプレイ可能ですが、追加コンテンツや機能、改善はまだ開発中であることにご注意ください。アップデートの配信に伴い体験内容が変わる可能性があります。開発を続ける中で、皆さまのご辛抱とフィードバックに感謝します。</value>
+    <value>第1章といくつかのボーナスステージはすでにプレイ可能ですが、追加コンテンツや機能、改善はまだ開発中であることにご注意ください。アップデートの配信に伴い体験内容が変わる可能性があります。開発を続ける中で、皆さまのご辛抱とフィードバックに感謝します！
+
+</value>
   </data>
   <data name="PleaseDropByHCSDiscordServerOrSteamForumsAndLetMeKnowYourThoughtsWishesAndSuggestionsNN" xml:space="preserve">
-    <value>HCのDiscordサーバーやSteamフォーラムにぜひ立ち寄って、感想やご要望、提案を聞かせてください。</value>
+    <value>HCのDiscordサーバーやSteamフォーラムにぜひ立ち寄って、感想やご要望、提案を聞かせてください。
+
+</value>
   </data>
   <data name="HaveFunAndEnjoyTheGameNN" xml:space="preserve">
-    <value>楽しんで、ゲームを満喫してください！</value>
+    <value>楽しんで、ゲームを満喫してください！
+
+</value>
   </data>
   <data name="HCSDeveloperElorth" xml:space="preserve">
-    <value>HCの開発者 - Elorth</value>
+    <value>  HCの開発者 - Elorth</value>
   </data>
 </root>
