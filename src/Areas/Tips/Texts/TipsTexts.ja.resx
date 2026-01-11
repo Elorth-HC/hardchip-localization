@@ -135,4 +135,10 @@
   <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
     <value>ヒント：入力を交互に配置すると、配線作業を減らせるかもしれません。</value>
   </data>
+  <data name="YouCanNeutralCtrlClick" xml:space="preserve">
+    <value>ヒント: 入力をクリックする際にCtrlを押しながら操作すると、ニュートラルに切り替えられます。</value>
+  </data>
+  <data name="YouCanCenterCameraWithSpaceBar" xml:space="preserve">
+    <value>ヒント: Spaceキーでカメラを中央に戻せます。もう一度押すと、前のカメラ位置に戻ります。</value>
+  </data>
 </root>

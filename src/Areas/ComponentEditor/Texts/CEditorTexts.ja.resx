@@ -560,4 +560,7 @@
   <data name="SimulationSpeed" xml:space="preserve">
     <value>シミュレーション速度</value>
   </data>
+  <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>ランダム検証フェーズ。ティックスコアには影響しません。</value>
+  </data>
 </root>
