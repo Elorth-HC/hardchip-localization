@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RepresentingNegativeNumberSignedNumberCanTBeDoneWithThePreviousSolutionsAsIs" xml:space="preserve">
+    <value>負の数（符号付き数）を表現することは、
+これまでの解決策をそのままでは実現できません。</value>
+  </data>
+  <data name="ASmallTwistCanBringThatRepresentationWhileStillReusingAllPreviousSolutions" xml:space="preserve">
+    <value>ちょっとした工夫でその表現が可能になり、
+これまでの解決策をすべて引き続き再利用できます。</value>
+  </data>
+  <data name="ThisIsTheNumberRepresentationUsedSoFar" xml:space="preserve">
+    <value>これはこれまで使用されてきた数値表現です。</value>
+  </data>
+  <data name="HereSTheNegativeNumberRepresentationCompatibleOutput" xml:space="preserve">
+    <value>負の数の表現に対応した出力はこちらです。</value>
+  </data>
+  <data name="SetINDIVIDUALINPUTBITSToMatchTheOUTPUTValueThenMANUALLYVALIDATEStepByStep" xml:space="preserve">
+    <value>個々の入力ビットを出力値に一致するように設定し、
+次に手動でステップごとに検証してください</value>
+  </data>
+  <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
+    <value>ときどき、ほかの接続に触れずに接続を配置するのは難しいことがあります。</value>
+  </data>
+  <data name="ConnectINPUTAndOUTPUTWithoutSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>短絡させずにINPUTとOUTPUTを接続し、その後に検証してください。</value>
+  </data>
+  <data name="UseTheCompactingTheInverterBlueprintThenValidate" xml:space="preserve">
+    <value>「Compacting the Inverter」ブループリントを使用してから、検証してください。</value>
+  </data>
+  <data name="ItWouldBeVeryInefficientToRebuildEveryCircuitFromScratch" xml:space="preserve">
+    <value>すべての回路をゼロから
+作り直すのは非常に非効率です</value>
+  </data>
+  <data name="ToReuseWhatYouAlreadyBuiltSaveAnyCircuitAsABLUEPRINTAndThenJustSelectItToGetACopyForPlacement" xml:space="preserve">
+    <value>すでに作ったものを再利用するには、
+任意の回路をブループリントとして保存し、
+あとはそれを選択するだけで配置用のコピーを取得できます。</value>
+  </data>
+  <data name="EachStageSavesYourPassingCircuitAsABLUEPRINTTooForYouToUseYouCanCreateEditYourOwnAsWell" xml:space="preserve">
+    <value>各ステージでは、合格した回路も使用できるようにブループリントとして保存されます。
+自分のものも作成と編集できます。</value>
+  </data>
+  <data name="UseTheBLUEPRINTModeToPlaceAnINVERTEROntoTheDIEThenVALIDATE" xml:space="preserve">
+    <value>ブループリントモードを使用してダイ上にINVERTERを配置し、その後VALIDATEしてください。</value>
+  </data>
+  <data name="TheDIESizeWasFixedUntilNowNowTheSizeWillBeDynamicToTheRightAndBottomDirection" xml:space="preserve">
+    <value>これまでダイサイズは固定でしたが、
+今後は右方向および下方向に動的に変化します。</value>
+  </data>
+  <data name="IfYouNeedMoreSpaceJustBuildOutsideTheDIEToExtendIt" xml:space="preserve">
+    <value>もっとスペースが必要なら、ダイの外側に
+作って拡張すればいいだけです。</value>
+  </data>
+  <data name="WhenYouValidateAnyEmptyContiguousSpacesWillAutomaticalyBeRemoved" xml:space="preserve">
+    <value>検証すると、連続する空白は自動的に削除されます。</value>
+  </data>
+  <data name="DoingSoWillShiftAnyOutputToTheNewEdgeLocation" xml:space="preserve">
+    <value>そうすると、すべての出力が新しいエッジ位置へ移動します。</value>
+  </data>
+  <data name="TryRemovingAnyBlockInThisColumnAndThenValidateToCompactTheDie" xml:space="preserve">
+    <value>この列の任意のブロックを削除してから、
+検証してダイをコンパクトにしてみてください。</value>
+  </data>
+  <data name="INFOFULLREPORTUNLOCKED" xml:space="preserve">
+    <value>情報: 完全なレポートが解除されました。</value>
+  </data>
+  <data name="COMPACTAndOPTIMIZETheINVERTERThenVALIDATE" xml:space="preserve">
+    <value>インバータをコンパクト化して最適化し、その後に検証してください。</value>
+  </data>
+  <data name="TipToDoACuboidSelectHoldLeftCTRLWhileSelectingOrDeleting" xml:space="preserve">
+    <value>ヒント: 直方体選択を行うには、選択または削除中に
+左CTRLを押し続けてください。</value>
+  </data>
+  <data name="AreaTooLarge" xml:space="preserve">
+    <value>領域が大きすぎます</value>
+  </data>
+  <data name="SomeValidationRequiresMultipleStepsEachStepHasItsOwnRequirementAllAreListedOnTopHere" xml:space="preserve">
+    <value>検証には通常、複数の手順が必要です。
+各手順にはそれぞれ要件があります。
+すべて上部に一覧表示されています。</value>
+  </data>
+  <data name="EachStepIsVerifiedInOrderOneAfterTheOtherIfAStepFailsToBeVerifiedTheValidationStops" xml:space="preserve">
+    <value>各ステップは順番に、1つずつ検証されます。
+いずれかのステップの検証に失敗した場合、
+検証は停止します。</value>
+  </data>
+  <data name="BuildASolutionThatMeetsTheCRITERIAThenVALIDATE" xml:space="preserve">
+    <value>基準を満たすソリューションを構築し、その後に検証してください。</value>
+  </data>
+  <data name="IMHereToHelpTrustInTheGuidanceIOfferForMyOnlyAimIsToLeadYouToResolution" xml:space="preserve">
+    <value>私はあなたを助けるためにここにいます。私が示す案内を信じてください。
+私の唯一の目的は、あなたを解決へ導くことです。</value>
+  </data>
+  <data name="ThisOneBlockIsASUBSTRATEBlockSeeItAsTheSupportForEverythingElse" xml:space="preserve">
+    <value>この1つのブロックはSUBSTRATEブロックで、
+他のすべてを支える土台だと考えてください。</value>
+  </data>
+  <data name="ThisIsTheDIEItIsComposedOfTheEntireSetOfAllBlocks" xml:space="preserve">
+    <value>これはダイであり、すべてのブロックの
+全体集合で構成されています。</value>
+  </data>
+  <data name="ThisIsAnINPUTBlockItProvidesSignalToTheDIEToProcessIt" xml:space="preserve">
+    <value>これはINPUTブロックで、
+ダイが処理するための信号を提供します。</value>
+  </data>
+  <data name="ThisIsAnOUTPUTBlockItReceivesTheSignalProcessedByTheDIE" xml:space="preserve">
+    <value>これはOUTPUTブロックで、
+ダイによって処理された信号を受け取ります。</value>
+  </data>
+  <data name="ThisDIENeedsToFullfillASimpleTaskOutputingWhatItReceivesOnTheInput" xml:space="preserve">
+    <value>このダイは単純なタスクを果たす必要がある: 
+入力で受け取ったものを出力すること。</value>
+  </data>
+  <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
+    <value>INPUT と OUTPUT を接続するには METAL ブロックを使用し、
+その後、任意の SUBSTRATE ブロックをクリックして配置してください。</value>
+  </data>
+  <data name="WhenYouHaveCompletedYourDIELaunchTheVerificationWithTheVALIDATEButton" xml:space="preserve">
+    <value>ダイの作成が完了したら、「VALIDATE」ボタンで検証を開始してください。</value>
+  </data>
+  <data name="AtAnyPointYouCanGetHintsAndHelpFromTheButton" xml:space="preserve">
+    <value>いつでも「?」ボタンからヒントやヘルプを確認できます。</value>
+  </data>
+  <data name="ConnectTheINPUTToTheOUTPUTThenVALIDATE" xml:space="preserve">
+    <value>INPUT を OUTPUT に接続し、その後 VALIDATE してください</value>
+  </data>
+  <data name="TestWithTheClickMeInputAtLeastOnceThenValidate" xml:space="preserve">
+    <value>「Click Me!」入力を少なくとも一度テストしてから、VALIDATEしてください。</value>
+  </data>
+  <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
+    <value>METALブロックとINPUTブロックは、それぞれ次の3つの状態のいずれかになります：
+1（赤）- 正極 / VDD に接続
+0（青）- グランド / VSS に接続
+_（灰）- 未接続 / フローティング / Hi-Z</value>
+  </data>
+  <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
+    <value>INPUTブロックは信号を能動的に駆動し、
+隣接するMETALブロックに1または0を送信できます。</value>
+  </data>
+  <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
+    <value>他のすべてのブロックは、接続された配線に沿ってこれらの信号を単に伝播させるだけです。
+入力がそれらを駆動し続けない場合、信号は最終的に消散し、
+接続された METAL のネットワーク全体がフローティング状態に戻ります。</value>
+  </data>
+  <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
+    <value>「VALIDATE」をクリックした瞬間に、
+INPUTS はバリデーションプロセスによって制御されます。</value>
+  </data>
+  <data name="BUTYouCanTestDifferentINPUTSSeedingStateByClickingOnIt" xml:space="preserve">
+    <value>ただし、隣にあるラベルをクリックすることで、
+INPUT のさまざまな値をテストできます。</value>
+  </data>
+  <data name="DoingSoWillSTOPTheValidationProcess" xml:space="preserve">
+    <value>そうすると検証プロセスが停止します。</value>
+  </data>
+  <data name="ChangeTheINPUTAtLeastOnceThenVALIDATE" xml:space="preserve">
+    <value>INPUT を少なくとも一度変更してから、VALIDATE してください。</value>
+  </data>
+  <data name="MOSCanTakeDifferentShapesNotLimitedToThe3x2x3Blocks" xml:space="preserve">
+    <value>MOS はさまざまな形状を取り得て、
+3×2×3 のブロックに限定されません。</value>
+  </data>
+  <data name="SpecialShapeMOSCanHaveTwoGatesAndShareTheSameChannel" xml:space="preserve">
+    <value>特殊形状のMOSは2つのゲートを持ち、
+同じチャネルを共有できます。</value>
+  </data>
+  <data name="YouCantUseTraceHereOnlyPMOSFromTheBottomBuildMenu" xml:space="preserve">
+    <value>ここではMETALブロックは使用できません。
+下部の建築メニューからPMOSのみ使用できます。</value>
+  </data>
+  <data name="CreateAMERGEDPMOSWith2GATESThenVALIDATE" xml:space="preserve">
+    <value>2つのゲートを持つマージ済みPMOSを作成し、その後検証してください</value>
+  </data>
+  <data name="NMOSNegativeMOSAreTheExactOppositeOfPMOS" xml:space="preserve">
+    <value>NMOS（Negative MOS）はPMOSの正反対です。</value>
+  </data>
+  <data name="TheBlueStripsHelpToDifferentiateTheNMOSFromAPMOSWhichAreRed" xml:space="preserve">
+    <value>青いストライプは、NMOSをPMOS（赤）と区別するのに役立ちます。</value>
+  </data>
+  <data name="ApplyingA1ToTheNMOSSGateActivatesItAllowingONLY0GoingThroughIt" xml:space="preserve">
+    <value>NMOSのゲートに1を印加すると有効になり、0だけを通します。</value>
+  </data>
+  <data name="ApplyingA0DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>0を適用すると無効化され、あらゆる状態が通過するのをブロックします。</value>
+  </data>
+  <data name="ConnectTheNMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>NMOSを正しく接続してから、検証してください</value>
+  </data>
+  <data name="TRACESCanOnlyTransferOneStateAtATimeButMOSFETMetalOxideSemiconductorsFieldEffectTransistorCanReactToStates" xml:space="preserve">
+    <value>単純な金属接続では、一度に1つの状態しか伝送できません。  
+しかしMOSFET（金属酸化膜半導体電界効果トランジスタ）は状態に反応できます！</value>
+  </data>
+  <data name="HereSAMOSFETAndMovingForwardWeLlReferToItAsMOS" xml:space="preserve">
+    <value>こちらがMOSFETで、以降はMOSと呼びます。</value>
+  </data>
+  <data name="MOSHas2MajorPartsTheGate" xml:space="preserve">
+    <value>MOSには2つの主要な部分があります：ゲート...</value>
+  </data>
+  <data name="AndTheChannel" xml:space="preserve">
+    <value>... とチャンネル</value>
+  </data>
+  <data name="ThisOneMOSIsAPMOSPositiveMOSItActsLikeASwitchThatCanBeEitherActivatedOrDeactivatedByAnyGivenState" xml:space="preserve">
+    <value>このMOSはPMOS（正のMOS）です。
+任意の状態によって「有効化」または「無効化」されるスイッチのように動作します。</value>
+  </data>
+  <data name="Applying0ToThePMOSSGateActivatesItAllowingONLY1GoingThroughIt" xml:space="preserve">
+    <value>PMOSのゲートに0を加えると有効になり、1だけを通します。</value>
+  </data>
+  <data name="Applying1DeactivatesItBlockingALLStateGoingThroughIt" xml:space="preserve">
+    <value>1を適用すると無効化され、あらゆる状態が通過するのをブロックします。</value>
+  </data>
+  <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
+    <value>ここ上部のHELPボタンを使うか、PMOSを自分で配線してみてください</value>
+  </data>
+  <data name="ConnectThePMOSProperlyThenVALIDATE" xml:space="preserve">
+    <value>PMOSを正しく接続してから、検証してください</value>
+  </data>
+  <data name="MostOfTheTimeASCHEMATICIsAvailableWithTheChipButtonOnTopHere" xml:space="preserve">
+    <value>ほとんどの場合、ここ上部の「Chip」ボタンから回路図を利用できます。</value>
+  </data>
+  <data name="ItProvidesOptionalStepsToBuildTheChipForEachLevel" xml:space="preserve">
+    <value>各レベルごとにチップを構築するための任意の手順を提供します。</value>
+  </data>
+  <data name="UseTheSCHEMATICOrNotToBuildAnINVERTERThenVALIDATE" xml:space="preserve">
+    <value>回路図（使っても使わなくても）を使ってインバータを作り、その後に検証してください</value>
+  </data>
+  <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
+    <value>「R」を使用して PMOS/NMOS または
+選択されたブロックを回転できます。</value>
+  </data>
+  <data name="Connecting2INPUTSWithTheOPPOSITEStates1And0WillResultInASHORTCIRCUIT" xml:space="preserve">
+    <value>状態が互いに反対の 1 と 0 の 2 つの入力を接続すると、
+短絡が発生します。</value>
+  </data>
+  <data name="ASHORTCIRCUITWillPreventTheDIEFromProperlyFunctioningInUnexpectedWays" xml:space="preserve">
+    <value>短絡が発生すると、ダイが予期しない形で
+正常に動作しなくなります。</value>
+  </data>
+  <data name="ToIsolateThe2INPUTSFromEachOtherHoldALTDownAndClickOnATRACEToRemoveIt" xml:space="preserve">
+    <value>2つのINPUTを互いに分離するには、
+「ALT」を押しながらMETALブロックをクリックして削除します。</value>
+  </data>
+  <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
+    <value>短絡を修理してから、検証してください</value>
+  </data>
+  <data name="ToIsolateTRACEsFromEachOtherTheyMustHaveAtLeast1EmptySpaceBetweenThemInAnyDirectionOtherwiseTheyAreConnected" xml:space="preserve">
+    <value>METALの経路同士を互いに絶縁するには、
+どの方向でも間に少なくとも空きマスが1つ必要です。
+そうでない場合は接続されています。</value>
+  </data>
+  <data name="FollowingTheCriteriaInputAMustBeConnectedToOutputAButNotToOutputBNorC" xml:space="preserve">
+    <value>基準に従って：
+入力Aは出力Aに接続されていなければなりませんが、
+出力BおよびCには接続されていてはなりません。</value>
+  </data>
+  <data name="AddTRACESUpByHoldingLEFTCLICKAndThenMOUSEMOVEUpWhileHoldingCTRLDOWN" xml:space="preserve">
+    <value>左クリックを押し続けてMETALブロックを上に追加し、
+CTRLを押したままマウスを上に動かします。</value>
+  </data>
+  <data name="SEPARATETRACEsABAndCThenVALIDATE" xml:space="preserve">
+    <value>接続A、B、Cを分離してください。その後、検証してください。</value>
+  </data>
+  <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
+    <value>左CTRLを押しながら左クリックを押し続け、
+上に動かしてMETALを垂直に追加します。</value>
+  </data>
+  <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
+    <value>金属配線は灰色のフローティング状態から始まります。
+電源から / 電源へはエネルギーが一切流れません。
+基本的には切り離されたワイヤーの断片です。</value>
+  </data>
+  <data name="InputsHaveVaryingSignalsButSometimesNyouNeedAConstantSignalOf1Or0" xml:space="preserve">
+    <value>入力信号は変化します。
+しかし、ときには 1 または 0 の一定の信号が必要になります。</value>
+  </data>
+  <data name="ConstantBlocksDoJustThat" xml:space="preserve">
+    <value>定数ブロックはまさにそれを行います。</value>
+  </data>
+  <data name="ThisIsThe1ConstantBlockAtPlane8" xml:space="preserve">
+    <value>これは平面8の定数ブロック1です。</value>
+  </data>
+  <data name="AndThe0ConstantBlockAtPlane6" xml:space="preserve">
+    <value>そして、平面6の0定数ブロック。</value>
+  </data>
+  <data name="TheyAreAlwaysFixedInTheirRespectivePowerPlane" xml:space="preserve">
+    <value>それらは常にそれぞれの電源プレーンに固定されています。</value>
+  </data>
+  <data name="ThisIsHelpfullWhenYouBuildReusablePartsAllNpartsAlwaysHaveTheirConstant0Or1FromThisKnownPlane" xml:space="preserve">
+    <value>再利用可能な部品を作成する際に役立ちます。
+すべての部品は、常にこの既知の平面から定数 0 または 1 を持ちます。</value>
+  </data>
+  <data name="CONNECTEachConstantBlockToItsOutputThenVALIDATE" xml:space="preserve">
+    <value>各定数ブロックをそれぞれの出力に接続してから、検証してください。</value>
+  </data>
+</root>

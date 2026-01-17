@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Filter" xml:space="preserve">
+    <value>フィルター</value>
+  </data>
+  <data name="Schematics" xml:space="preserve">
+    <value>回路図</value>
+  </data>
+  <data name="OpenSchematic" xml:space="preserve">
+    <value>回路図を開く</value>
+  </data>
+  <data name="EnterNewNameForThisBlueprint" xml:space="preserve">
+    <value>このブループリントの新しい名前を入力してください:</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisBlueprint" xml:space="preserve">
+    <value>このブループリントを削除してもよろしいですか？</value>
+  </data>
+  <data name="RenameBlueprint" xml:space="preserve">
+    <value>ブループリントの名前を変更:</value>
+  </data>
+  <data name="DeleteBlueprint" xml:space="preserve">
+    <value>ブループリントを削除:</value>
+  </data>
+  <data name="Probes" xml:space="preserve">
+    <value>プローブ</value>
+  </data>
+  <data name="PickBitsPositionsOneAtATimeRightClickToCancel" xml:space="preserve">
+    <value>ビット位置を1つずつ選択してください。右クリックでキャンセルします。</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>ラベル</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="ClickToSelectPosition" xml:space="preserve">
+    <value>クリックして位置を選択</value>
+  </data>
+  <data name="ClickToResetPosition" xml:space="preserve">
+    <value>クリックして位置をリセット</value>
+  </data>
+  <data name="RelocateInput" xml:space="preserve">
+    <value>入力を移動</value>
+  </data>
+  <data name="AndLinkWordForTruthTable" xml:space="preserve">
+    <value>と</value>
+  </data>
+  <data name="ButLinkWordForTruthTable" xml:space="preserve">
+    <value>しかし</value>
+  </data>
+  <data name="RelocateOutput" xml:space="preserve">
+    <value>出力を移動する</value>
+  </data>
+  <data name="StickToScreen" xml:space="preserve">
+    <value>画面に固定する</value>
+  </data>
+  <data name="NeutralAllowed" xml:space="preserve">
+    <value>ニュートラル許可</value>
+  </data>
+  <data name="StickToBlock" xml:space="preserve">
+    <value>ブロックに固定する</value>
+  </data>
+  <data name="NeutralNotAllowed" xml:space="preserve">
+    <value>ニュートラル禁止</value>
+  </data>
+  <data name="StopAt1" xml:space="preserve">
+    <value>1で停止</value>
+  </data>
+  <data name="StopAt0" xml:space="preserve">
+    <value>0で停止</value>
+  </data>
+  <data name="StopAt_" xml:space="preserve">
+    <value>_ で停止</value>
+  </data>
+  <data name="StopAtError" xml:space="preserve">
+    <value>エラー時に停止</value>
+  </data>
+  <data name="DonTStop" xml:space="preserve">
+    <value>停止しない</value>
+  </data>
+  <data name="BlueprintSaved" xml:space="preserve">
+    <value>ブループリントを保存しました</value>
+  </data>
+  <data name="SaveAllAsABlueprint" xml:space="preserve">
+    <value>すべてをブループリントとして保存</value>
+  </data>
+  <data name="OpenBlueprintLibrary" xml:space="preserve">
+    <value>ブループリントライブラリを開く</value>
+  </data>
+  <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve">
+    <value>ブロックブループリントごとに最良のもののみを表示する</value>
+  </data>
+  <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve">
+    <value>出来高別に最良のブループリントのみを表示</value>
+  </data>
+  <data name="ShowOnlyBestsByTickBlueprints" xml:space="preserve">
+    <value>ティックごとの最良のブループリントのみを表示</value>
+  </data>
+  <data name="ShowOnlyBestsByMOSBlueprints" xml:space="preserve">
+    <value>MOSブループリントのうち最良のもののみを表示する</value>
+  </data>
+  <data name="SaveSelectionAsBlueprint" xml:space="preserve">
+    <value>選択範囲をブループリントとして保存</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>ブロック</value>
+  </data>
+  <data name="Comparer" xml:space="preserve">
+    <value>比較ツール</value>
+  </data>
+  <data name="ReuseBestSolution" xml:space="preserve">
+    <value>最適な解決策を再利用する</value>
+  </data>
+  <data name="NowBest" xml:space="preserve">
+    <value>現在 - - - - - - - - - - - 最適</value>
+  </data>
+  <data name="Toolbox" xml:space="preserve">
+    <value>ツールボックス</value>
+  </data>
+  <data name="Photomode" xml:space="preserve">
+    <value>フォトモード</value>
+  </data>
+  <data name="AutoShrinkOnValidate" xml:space="preserve">
+    <value>検証時に自動縮小</value>
+  </data>
+  <data name="TurnOnOffTheAutoShrinkOfTheDieWhenValidatingTheNlevelTheDieWillBeShrinkedToTheSmallestSizeNpossibleToFitTheBlocks" xml:space="preserve">
+    <value>レベルの検証時にダイの自動縮小をオン/オフします。
+ダイはブロックが収まる最小サイズまで縮小されます。</value>
+  </data>
+  <data name="EditDieSize" xml:space="preserve">
+    <value>ダイサイズを編集</value>
+  </data>
+  <data name="EditManuallyTheDieSizeShrinkingTheDieWillRemoveNtheBlocksOutsideTheNewDieSize" xml:space="preserve">
+    <value>ダイのサイズを手動で編集します。ダイを縮小すると、
+新しいダイサイズの外側にあるブロックが削除されます。</value>
+  </data>
+  <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
+    <value>レベルファイルをクリップボードにエクスポートします。
+ファイルエクスプローラー、Discord、およびファイルの貼り付けに
+対応したすべてのプログラムに貼り付けできます。</value>
+  </data>
+  <data name="ExportToClipboard" xml:space="preserve">
+    <value>クリップボードにエクスポート</value>
+  </data>
+  <data name="ImportFromClipboard" xml:space="preserve">
+    <value>クリップボードからインポート</value>
+  </data>
+  <data name="TryToReadALevelFromTheClipboardSupportsWtCtNWtbAndCtbFilesSupportsDirectFilesAndURLOfFiles" xml:space="preserve">
+    <value>クリップボードからレベルを読み取ろうとします。
+.wt、.ct、.wtb、.ctb ファイルに対応しています。
+直接ファイルおよびファイルの URL に対応しています。</value>
+  </data>
+  <data name="ShowChangeIndicators" xml:space="preserve">
+    <value>変更インジケーターを表示</value>
+  </data>
+  <data name="ShowIndicatorsOnTheBlocksThatHaveBeenChangedSinceNtheLastSimulationUpdateIndicatorsAreRemovedWhenNafterAFewSecondsOrWhenTheSimulationIsStepped" xml:space="preserve">
+    <value>最後のシミュレーション更新以降に変更されたブロックにインジケーターを表示します。
+インジケーターは数秒後、またはシミュレーションをステップ実行したときに消えます。</value>
+  </data>
+  <data name="TracesGroupsColors" xml:space="preserve">
+    <value>色付きセグメント</value>
+  </data>
+  <data name="ColorAllInterconnectedTracesWithTheSameColorAndNpartiallyHideTracesAlwaysConnectedToUpDownTerminals" xml:space="preserve">
+    <value>相互接続されたすべての金属配線を同じ色で着色し、
+常に 0/1 定数ブロックに接続されている金属配線を部分的に非表示にします。</value>
+  </data>
+  <data name="AutoClockStop" xml:space="preserve">
+    <value>自動クロック停止</value>
+  </data>
+  <data name="RemoveNextClockSwitchStopStopSimulationWhenClockSwitchesItsSignal" xml:space="preserve">
+    <value>クロックが信号を切り替えたときにシミュレーションを停止します。</value>
+  </data>
+  <data name="CameraDramaticCameraMoves" xml:space="preserve">
+    <value>ドラマチックなカメラワーク</value>
+  </data>
+  <data name="CameraRotateLeft" xml:space="preserve">
+    <value>左に回転</value>
+  </data>
+  <data name="CameraForward" xml:space="preserve">
+    <value>進む</value>
+  </data>
+  <data name="CameraRotateRightE" xml:space="preserve">
+    <value>右に回転</value>
+  </data>
+  <data name="CameraCycleUIElements" xml:space="preserve">
+    <value>UI を非表示 ({0})</value>
+  </data>
+  <data name="CameraStrafeLeft" xml:space="preserve">
+    <value>左にストレイフ</value>
+  </data>
+  <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
+    <value>エディターカメラ/フリーカメラ（SPACE/CTRL/WASD/左クリック）</value>
+  </data>
+  <data name="EditorCamFreeCam" xml:space="preserve">
+    <value>エディターカメラ/フリーカメラ</value>
+  </data>
+  <data name="CameraStrafeRight" xml:space="preserve">
+    <value>右にストレイフ</value>
+  </data>
+  <data name="CenterCamera" xml:space="preserve">
+    <value>カメラを中央に配置</value>
+  </data>
+  <data name="CameraZoomIn" xml:space="preserve">
+    <value>ズームイン</value>
+  </data>
+  <data name="CameraBackward" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="CameraZoomOut" xml:space="preserve">
+    <value>ズームアウト</value>
+  </data>
+  <data name="DieOperations" xml:space="preserve">
+    <value>ダイ操作</value>
+  </data>
+  <data name="Shrink5BlocksFromTheBack" xml:space="preserve">
+    <value>後ろから5ブロック縮小する</value>
+  </data>
+  <data name="Shrink1BlockFromTheBack" xml:space="preserve">
+    <value>後ろから1ブロック縮小する</value>
+  </data>
+  <data name="Shrink5BlocksFromTheRight" xml:space="preserve">
+    <value>右側から5ブロック縮小する</value>
+  </data>
+  <data name="Shrink5BlocksFromTheTop" xml:space="preserve">
+    <value>上から5ブロック縮小する</value>
+  </data>
+  <data name="Shrink1BlockFromTheLeft" xml:space="preserve">
+    <value>左から1ブロック縮小</value>
+  </data>
+  <data name="SwitchToExtendMode" xml:space="preserve">
+    <value>拡張モードに切り替える</value>
+  </data>
+  <data name="Shrink1BlockFromTheRight" xml:space="preserve">
+    <value>右側から1ブロック縮小</value>
+  </data>
+  <data name="Shrink1BlockFromTheTop" xml:space="preserve">
+    <value>上から1ブロック縮小</value>
+  </data>
+  <data name="Shrink5BlocksFromTheLeft" xml:space="preserve">
+    <value>左から5ブロック縮小する</value>
+  </data>
+  <data name="Shrink1BlockFromTheFront" xml:space="preserve">
+    <value>先頭から1ブロック縮小</value>
+  </data>
+  <data name="Shrink5BlocksFromTheFront" xml:space="preserve">
+    <value>前方から5ブロック縮小する</value>
+  </data>
+  <data name="ShrinkTheDieToFitTheMinimumSize" xml:space="preserve">
+    <value>ダイを最小サイズに収まるように縮小する</value>
+  </data>
+  <data name="Extend5BlocksFromTheBack" xml:space="preserve">
+    <value>背面から5ブロック拡張する</value>
+  </data>
+  <data name="Extend1BlockFromTheBack" xml:space="preserve">
+    <value>背面から1ブロック拡張する</value>
+  </data>
+  <data name="Extend5BlocksFromTheRight" xml:space="preserve">
+    <value>右から5ブロック拡張する</value>
+  </data>
+  <data name="Extend5BlocksFromTheTop" xml:space="preserve">
+    <value>上から5ブロック拡張する</value>
+  </data>
+  <data name="Extend1BlockFromTheLeft" xml:space="preserve">
+    <value>左から1ブロック拡張する</value>
+  </data>
+  <data name="SwitchToShrinkMode" xml:space="preserve">
+    <value>縮小モードに切り替える</value>
+  </data>
+  <data name="Extend1BlockFromTheRight" xml:space="preserve">
+    <value>右に1ブロック拡張する</value>
+  </data>
+  <data name="Extend1BlockFromTheTop" xml:space="preserve">
+    <value>上から1ブロック拡張する</value>
+  </data>
+  <data name="Extend5BlocksFromTheLeft" xml:space="preserve">
+    <value>左から5ブロック拡張する</value>
+  </data>
+  <data name="Extend1BlockFromTheFront" xml:space="preserve">
+    <value>前方に1ブロック拡張する</value>
+  </data>
+  <data name="Extend5BlocksFromTheFront" xml:space="preserve">
+    <value>前方に5ブロック拡張する</value>
+  </data>
+  <data name="CopyCtrlC" xml:space="preserve">
+    <value>コピー（Ctrl+C）</value>
+  </data>
+  <data name="CutCtrlX" xml:space="preserve">
+    <value>切り取り（Ctrl+X）</value>
+  </data>
+  <data name="PasteCtrlV" xml:space="preserve">
+    <value>貼り付け（Ctrl+V）</value>
+  </data>
+  <data name="DeleteDel" xml:space="preserve">
+    <value>削除（Del）</value>
+  </data>
+  <data name="RemoveProbes" xml:space="preserve">
+    <value>プローブを削除</value>
+  </data>
+  <data name="NoName" xml:space="preserve">
+    <value>名前なし</value>
+  </data>
+  <data name="SlotSelection" xml:space="preserve">
+    <value>スロット選択</value>
+  </data>
+  <data name="UndoCtrlZ" xml:space="preserve">
+    <value>元に戻す（Ctrl+Z）</value>
+  </data>
+  <data name="RedoCtrlY" xml:space="preserve">
+    <value>やり直し（Ctrl+Y）</value>
+  </data>
+  <data name="RestartLevel" xml:space="preserve">
+    <value>レベルを再開する</value>
+  </data>
+  <data name="Modes" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="Probe" xml:space="preserve">
+    <value>プローブ</value>
+  </data>
+  <data name="SaveAsABlueprint" xml:space="preserve">
+    <value>ブループリントとして保存</value>
+  </data>
+  <data name="CreatingANewBlueprint" xml:space="preserve">
+    <value>新しいブループリントを作成中:</value>
+  </data>
+  <data name="NewComponent" xml:space="preserve">
+    <value>新しいコンポーネント</value>
+  </data>
+  <data name="CameraPedestalDown" xml:space="preserve">
+    <value>ペデスタルを下げる</value>
+  </data>
+  <data name="CameraPedestalUp" xml:space="preserve">
+    <value>台座を上げる</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>写真を撮る</value>
+  </data>
+  <data name="HideUIForASplitSecondTakeAScreenshotNputInTheClipboardAndSteamScreenshotFolder" xml:space="preserve">
+    <value>一瞬だけUIを非表示にしてスクリーンショットを撮り、
+クリップボードとSteamのスクリーンショットフォルダーに保存します。</value>
+  </data>
+  <data name="ReportShape" xml:space="preserve">
+    <value>スコアの形式</value>
+  </data>
+  <data name="ReportBackground" xml:space="preserve">
+    <value>スコアの背景</value>
+  </data>
+  <data name="ReportText" xml:space="preserve">
+    <value>スコアのテキスト</value>
+  </data>
+  <data name="ExitPhotoMode" xml:space="preserve">
+    <value>フォトモードを終了する</value>
+  </data>
+  <data name="ClockFrequency" xml:space="preserve">
+    <value>クロック周波数 </value>
+  </data>
+  <data name="_ShouldBeRightNowIs" xml:space="preserve">
+    <value>{0} は {1} {2} であるべきですが、現在は {3} です</value>
+  </data>
+  <data name="Now" xml:space="preserve">
+    <value>、現在=</value>
+  </data>
+  <data name="SimulationTicksAt" xml:space="preserve">
+    <value>ティック {0} ({1})</value>
+  </data>
+  <data name="SimulationClockAt" xml:space="preserve">
+    <value> クロック {0} ({1})</value>
+  </data>
+  <data name="BlocksShouldBe" xml:space="preserve">
+    <value>ブロックは次のようであるべき</value>
+  </data>
+  <data name="AtPosition" xml:space="preserve">
+    <value>位置にて</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>保留中... </value>
+  </data>
+  <data name="Validating" xml:space="preserve">
+    <value>検証中... </value>
+  </data>
+  <data name="TruthTable" xml:space="preserve">
+    <value>真理値表</value>
+  </data>
+  <data name="InputNamed" xml:space="preserve">
+    <value>名前付き入力</value>
+  </data>
+  <data name="OutputToMatchNamed" xml:space="preserve">
+    <value>指定された名前に一致する出力</value>
+  </data>
+  <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>初期電源投入フェーズ。ティックスコアにはカウントされません。</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>任意</value>
+  </data>
+  <data name="AnyLowercase" xml:space="preserve">
+    <value>任意</value>
+  </data>
+  <data name="ButtonLabelUnresponsive" xml:space="preserve">
+    <value> 応答なし </value>
+  </data>
+  <data name="ButtonLabelMissedGoal" xml:space="preserve">
+    <value> 目標未達成  </value>
+  </data>
+  <data name="ButtonLabelChecked" xml:space="preserve">
+    <value>   確認済み！   </value>
+  </data>
+  <data name="ButtonLabelValidating" xml:space="preserve">
+    <value> 検証中... </value>
+  </data>
+  <data name="ButtonLabelValidate" xml:space="preserve">
+    <value>   検証   </value>
+  </data>
+  <data name="ButtonLabelStepByStep" xml:space="preserve">
+    <value>   手動   </value>
+  </data>
+  <data name="ButtonLabelModified" xml:space="preserve">
+    <value>   変更済み   </value>
+  </data>
+  <data name="ResetValidation" xml:space="preserve">
+    <value>検証をリセット</value>
+  </data>
+  <data name="EditModeSummary" xml:space="preserve">
+    <value>編集（上へ:{0}/削除:{1}/選択:{2}）</value>
+  </data>
+  <data name="DieOperationsModeSummary" xml:space="preserve">
+    <value>ダイを拡大/縮小</value>
+  </data>
+  <data name="ProbeModeSummary" xml:space="preserve">
+    <value>プローブ</value>
+  </data>
+  <data name="BluePrintModeSummary" xml:space="preserve">
+    <value>ブループリント ({0}/{1}: ブループリントを反転)</value>
+  </data>
+  <data name="SelectPinModeSummary" xml:space="preserve">
+    <value>ピンを再配置（{0}/{1}:間隔を狭める/広げる）</value>
+  </data>
+  <data name="DebugModeSummary" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="ComparerModeSummary" xml:space="preserve">
+    <value>比較ツール</value>
+  </data>
+  <data name="SimulationSpeed" xml:space="preserve">
+    <value>シミュレーション速度 </value>
+  </data>
+  <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
+    <value>ランダム検証フェーズ。ティックスコアには影響しません。</value>
+  </data>
+</root>

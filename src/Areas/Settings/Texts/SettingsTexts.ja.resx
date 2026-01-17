@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UndoRedoStackSize" xml:space="preserve">
+    <value>元に戻す / やり直しスタックのサイズ</value>
+  </data>
+  <data name="CanBeIncreasedToAllowMoreUndosButWillConsumeMoreMemory" xml:space="preserve">
+    <value>元に戻す回数を増やすために増やすことはできますが、メモリ消費量が増えます。</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>設定をリセット</value>
+  </data>
+  <data name="ResetAllSettings" xml:space="preserve">
+    <value>すべての設定をリセットしますか？</value>
+  </data>
+  <data name="AllSettingsWillBeResetToDefaultRestartingTheGameCouldBeNecessaryToFullyApply" xml:space="preserve">
+    <value>すべての設定がデフォルトにリセットされます。完全に適用するには、ゲームの再起動が必要になる場合があります。</value>
+  </data>
+  <data name="Campaign" xml:space="preserve">
+    <value>キャンペーン</value>
+  </data>
+  <data name="ResetCampaignOnly" xml:space="preserve">
+    <value>キャンペーンのみをリセット</value>
+  </data>
+  <data name="ResetCampaignProgression" xml:space="preserve">
+    <value>キャンペーンの進行状況をリセットしますか？</value>
+  </data>
+  <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
+    <value>これによりキャンペーンの進行状況はリセットされますが、解決済みのソリューションは削除されません。</value>
+  </data>
+  <data name="AreYouSureYouWantToResetYourCampaignProgressionNSolvedSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>キャンペーンの進行状況をリセットしてもよろしいですか？  
+解決済みの解法は削除されません。</value>
+  </data>
+  <data name="HardReset" xml:space="preserve">
+    <value>ハードリセット</value>
+  </data>
+  <data name="ResetEverything" xml:space="preserve">
+    <value>すべてをリセット</value>
+  </data>
+  <data name="ResetEVERYTHINGUppercase" xml:space="preserve">
+    <value>すべてをリセットしますか？</value>
+  </data>
+  <data name="ThisWillResetEVERYSettingsSolutionsAndCampaignProgression" xml:space="preserve">
+    <value>これにより、すべての設定、解決状況、キャンペーンの進行状況がリセットされます。</value>
+  </data>
+  <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
+    <value>本当に、すべての解法とキャンペーンの進行状況をリセットしますか？
+
+これによりすべてが削除されます。実行してよいか、よく確認してください！</value>
+  </data>
+  <data name="MusicAndAmbianceLicencesAllowMonetizedContent" xml:space="preserve">
+    <value>*音楽およびアンビエンスのライセンスにより、収益化コンテンツが可能になります。</value>
+  </data>
+  <data name="MasterVolume" xml:space="preserve">
+    <value>マスター音量</value>
+  </data>
+  <data name="GameplayVolume" xml:space="preserve">
+    <value>ゲームプレイ</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="FOVEditor" xml:space="preserve">
+    <value>エディターの視野角</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>オンライン</value>
+  </data>
+  <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
+    <value>チャートは世界中の最新の解答をもとに算出され、
+あなたのスコアがチャートを更新します。</value>
+  </data>
+  <data name="ChartsAreCalculatedFromAFixedAndLocalSnapshotNofTheLatestSolutionsFromAroundTheWorldYourNscoresDonTUpdateCharts" xml:space="preserve">
+    <value>チャートは、世界中の最新の解答の固定された
+ローカルスナップショットに基づいて算出されます。
+あなたのスコアはチャートを更新しません。</value>
+  </data>
+  <data name="RayPrecision" xml:space="preserve">
+    <value>レイ精度</value>
+  </data>
+  <data name="UseCubicWhenNothingElseWorksWillRenderCubesInsteadOfComplexShapesFastButUgly" xml:space="preserve">
+    <value>他に何も機能しない場合は「Cubic」を使用してください。複雑な形状の代わりにキューブを描画します。高速ですが見た目は悪いです。</value>
+  </data>
+  <data name="RayPrecisionIsTheNumberOfStepsEachRayPerformNHigherValuesWillIncreaseQualityButWillDecreasePerformance" xml:space="preserve">
+    <value>レイ精度は、各レイが実行するステップ数です。  
+値を高くすると品質は向上しますが、パフォーマンスは低下します。</value>
+  </data>
+  <data name="LikelyPerformanceCost1030Percent" xml:space="preserve">
+    <value>推定されるパフォーマンス低下: 10～30％</value>
+  </data>
+  <data name="ChromaticAberration" xml:space="preserve">
+    <value>色収差</value>
+  </data>
+  <data name="NoPerformanceCostButMayCauseDiscomfortToSomeUsers" xml:space="preserve">
+    <value>パフォーマンスへの影響はありませんが、一部のユーザーには不快感を与える可能性があります。</value>
+  </data>
+  <data name="UITextScale" xml:space="preserve">
+    <value>UIテキストのスケール</value>
+  </data>
+  <data name="Benchmark" xml:space="preserve">
+    <value>ベンチマーク</value>
+  </data>
+  <data name="ApplySettings" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="WonTBeAppliedIfVSyncIsEnabled" xml:space="preserve">
+    <value>VSync が有効になっている場合は適用されません。</value>
+  </data>
+  <data name="FPSLimit" xml:space="preserve">
+    <value>FPS制限</value>
+  </data>
+  <data name="RestartToApplyChanges" xml:space="preserve">
+    <value>変更を適用するには再起動してください</value>
+  </data>
+  <data name="EditorRenderScale" xml:space="preserve">
+    <value>エディターのレンダリングスケール</value>
+  </data>
+  <data name="LowerValuesWillIncreasePerformanceButWillDecreaseQualityNHigherValuesWillStronglyDecreasePerformanceButWillIncreaseQuality" xml:space="preserve">
+    <value>低い値にするとパフォーマンスは向上しますが、品質は低下します。  
+高い値にするとパフォーマンスは大幅に低下しますが、品質は向上します。</value>
+  </data>
+  <data name="FieldOfViewUsedDuringFirstPersonPhasesNoPerformanceCost" xml:space="preserve">
+    <value>一人称視点の場面で使用される視野角。パフォーマンスへの影響はありません。</value>
+  </data>
+  <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
+    <value>エディタのフェーズ中に使用される視野角。パフォーマンスへの影響はありません。</value>
+  </data>
+  <data name="RenderMethod" xml:space="preserve">
+    <value>レンダリング方法</value>
+  </data>
+  <data name="MouseWheelSensitivity" xml:space="preserve">
+    <value>マウスホイールの感度</value>
+  </data>
+  <data name="FlipVerticalMouseMovementDuringFPSPhases" xml:space="preserve">
+    <value>FPS視点中のマウスの縦方向の動きを反転する。</value>
+  </data>
+  <data name="MouseEdgeScrolling" xml:space="preserve">
+    <value>マウスの端スクロール</value>
+  </data>
+  <data name="DoubleClickToEdit" xml:space="preserve">
+    <value>右クリックをダブルクリックすると編集モードになります</value>
+  </data>
+  <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
+    <value>有効にすると、マウスの右ボタンをダブルクリックすると編集モードに切り替わります。  
+金属ブロックが自動的に選択されます。</value>
+  </data>
+  <data name="WorldFOV" xml:space="preserve">
+    <value>ワールドFOV</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Windowed" xml:space="preserve">
+    <value>ウィンドウ表示</value>
+  </data>
+  <data name="Borderless" xml:space="preserve">
+    <value>ボーダーレス</value>
+  </data>
+  <data name="AutoDetect" xml:space="preserve">
+    <value>自動検出</value>
+  </data>
+  <data name="UnlimitedOrVSync" xml:space="preserve">
+    <value>無制限（またはVSync）</value>
+  </data>
+  <data name="RayMarching" xml:space="preserve">
+    <value>レイマーチング</value>
+  </data>
+  <data name="Cubic" xml:space="preserve">
+    <value>立方体の</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>アクション</value>
+  </data>
+  <data name="DarkBackground" xml:space="preserve">
+    <value>ダークな背景</value>
+  </data>
+  <data name="ReduceVisualStrainOnTheEditorSBackgroundForSensitivityToBrightness" xml:space="preserve">
+    <value>一部のユーザーにとって、エディターの背景による視覚的な負担を軽減できる場合があります。</value>
+  </data>
+  <data name="FPSInvertYAxis" xml:space="preserve">
+    <value>一人称視点中にY軸を反転する</value>
+  </data>
+  <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
+    <value>マウスカーソルが画面の端にあるときにカメラを移動します。</value>
+  </data>
+  <data name="MouseHorizontalScrolling" xml:space="preserve">
+    <value>マウスの水平スクロール</value>
+  </data>
+  <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
+    <value>マウスホイールの水平スクロールでカメラを回転します。</value>
+  </data>
+  <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
+    <value>これにより、Steamのユーザー名がリーダーボードに表示され、
+現在の自動生成された名前に置き換わります。
+
+これを有効にすると、Hard Chipがリーダーボード表示の目的で
+あなたのSteamユーザー名を使用することに同意したことになります。</value>
+  </data>
+  <data name="SteamName" xml:space="preserve">
+    <value>Steam名:</value>
+  </data>
+  <data name="UseSteamName" xml:space="preserve">
+    <value>Steam名を使用する</value>
+  </data>
+  <data name="UseHCName" xml:space="preserve">
+    <value>HC名を使用する</value>
+  </data>
+  <data name="LeaderboardID" xml:space="preserve">
+    <value>リーダーボードID:</value>
+  </data>
+  <data name="HideBugReportButton" xml:space="preserve">
+    <value>バグ報告ボタンを非表示にする</value>
+  </data>
+  <data name="ShowExtendedChipInfo" xml:space="preserve">
+    <value>拡張チップ情報を表示</value>
+  </data>
+  <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
+    <value>左下の情報エリアに、ブロック数、ボリューム、MOS および損失情報を表示します。</value>
+  </data>
+  <data name="AlwaysHideCameraControl" xml:space="preserve">
+    <value>カメラのコントロールを常に非表示にする</value>
+  </data>
+  <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
+    <value>ゲームプレイ中は常に右下のカメラ操作を非表示にする。</value>
+  </data>
+  <data name="EditorTheme" xml:space="preserve">
+    <value>エディターのテーマ</value>
+  </data>
+  <data name="DangerZone" xml:space="preserve">
+    <value>危険ゾーン</value>
+  </data>
+  <data name="ThisWillResetYourTutorialSolutionsButNotYourCampaignProgression" xml:space="preserve">
+    <value>これによりチュートリアルの解答がリセットされますが、キャンペーンの進行状況はリセットされません。</value>
+  </data>
+  <data name="ResetsTutorial" xml:space="preserve">
+    <value>チュートリアルをリセットしますか？</value>
+  </data>
+  <data name="ResetTutorial" xml:space="preserve">
+    <value>チュートリアルをリセット</value>
+  </data>
+  <data name="AreYouSureYouWantToResetAllYourTutorialSolutionsYourCampaignProgressionAndAllOtherStageSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>チュートリアルの解答をすべてリセットしてもよろしいですか？
+
+キャンペーンの進行状況および他のすべてのステージの解答は削除されません。</value>
+  </data>
+</root>

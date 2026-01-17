@@ -30,6 +30,9 @@ Contributors who wished to get recognized:
 #### 🇨🇳 China (zh-Hans)
 - **Gedoy** - Full translation
 
+#### JA Japanese (ja)
+- **Michael Tedder** ([@falken42](https://github.com/falken42/)) - Full translation
+
 ## Recognition Guidelines
 
 Contributors are listed in the following format:

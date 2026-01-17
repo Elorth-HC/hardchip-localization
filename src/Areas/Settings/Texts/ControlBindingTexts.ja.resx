@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Interact" xml:space="preserve">
+    <value>操作する</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="SwitchModes" xml:space="preserve">
+    <value>モードを切り替える</value>
+  </data>
+  <data name="HideUI" xml:space="preserve">
+    <value>UIを非表示にする</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>エディター</value>
+  </data>
+  <data name="SelectMode" xml:space="preserve">
+    <value>モードを選択</value>
+  </data>
+  <data name="DeleteBlock" xml:space="preserve">
+    <value>ブロックを削除</value>
+  </data>
+  <data name="FlipPartXAxis" xml:space="preserve">
+    <value>部品をX軸で反転</value>
+  </data>
+  <data name="FlipPartZAxis" xml:space="preserve">
+    <value>部品をZ軸で反転</value>
+  </data>
+  <data name="RotatePart" xml:space="preserve">
+    <value>部品を回転する</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>やり直す</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>切り取り</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>貼り付け</value>
+  </data>
+  <data name="SelectSegment" xml:space="preserve">
+    <value>セグメントを選択</value>
+  </data>
+  <data name="NextSlot" xml:space="preserve">
+    <value>次のスロット</value>
+  </data>
+  <data name="PreviousSlot" xml:space="preserve">
+    <value>前のスロット</value>
+  </data>
+  <data name="Slot0" xml:space="preserve">
+    <value>スロット 0</value>
+  </data>
+  <data name="Slot1" xml:space="preserve">
+    <value>スロット 1</value>
+  </data>
+  <data name="Slot2" xml:space="preserve">
+    <value>スロット 2</value>
+  </data>
+  <data name="Slot3" xml:space="preserve">
+    <value>スロット 3</value>
+  </data>
+  <data name="Slot4" xml:space="preserve">
+    <value>スロット 4</value>
+  </data>
+  <data name="SpaceOutInOutputBits" xml:space="preserve">
+    <value>入出力ビットを分離する</value>
+  </data>
+  <data name="CloseInInOutputBits" xml:space="preserve">
+    <value>入出力ビットを詰める</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>シミュレーション</value>
+  </data>
+  <data name="RunValidation" xml:space="preserve">
+    <value>検証を実行</value>
+  </data>
+  <data name="StartPause" xml:space="preserve">
+    <value>開始 / 一時停止</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>ステップ</value>
+  </data>
+  <data name="FasterSimulation" xml:space="preserve">
+    <value>シミュレーションを高速化</value>
+  </data>
+  <data name="SlowerSimulation" xml:space="preserve">
+    <value>シミュレーションを遅くする</value>
+  </data>
+  <data name="CameraControls" xml:space="preserve">
+    <value>カメラコントロール</value>
+  </data>
+  <data name="MoveAround" xml:space="preserve">
+    <value>移動</value>
+  </data>
+  <data name="LookAround" xml:space="preserve">
+    <value>周囲を見る</value>
+  </data>
+  <data name="RotateViewLeft" xml:space="preserve">
+    <value>ビューを左に回転</value>
+  </data>
+  <data name="RotateViewRight" xml:space="preserve">
+    <value>ビューを右に回転</value>
+  </data>
+  <data name="CenterCamera" xml:space="preserve">
+    <value>カメラを中央に配置</value>
+  </data>
+  <data name="PedestalViewUp" xml:space="preserve">
+    <value>台座ビューを上に移動</value>
+  </data>
+  <data name="PedestalViewDown" xml:space="preserve">
+    <value>カメラを下げる</value>
+  </data>
+  <data name="SwitchFreeCam" xml:space="preserve">
+    <value>フリーカメラに切り替え</value>
+  </data>
+  <data name="ToggleCamMovements" xml:space="preserve">
+    <value>カメラの動きを切り替え</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="BuildUpward" xml:space="preserve">
+    <value>上に向かって建てる</value>
+  </data>
+  <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
+    <value>キーを押して設定します。  
+左クリックでクリアします。</value>
+  </data>
+  <data name="SettingKeyInput" xml:space="preserve">
+    <value>キー入力を設定しています...</value>
+  </data>
+  <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
+    <value>押しっぱなしのキーは無視されました: </value>
+  </data>
+  <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
+    <value>Hard Chip により、押しっぱなしと検出されたキーは無視されます。
+これは、修飾キーを使用する特定のキーボード入力レイアウト（例：IME 日本語入力）が
+原因である可能性があります。</value>
+  </data>
+  <data name="ResetBindings" xml:space="preserve">
+    <value>割り当てをリセット</value>
+  </data>
+  <data name="CanTUse0" xml:space="preserve">
+    <value>{0} を使用できません</value>
+  </data>
+  <data name="_0AlreadyUsed" xml:space="preserve">
+    <value>{0} はすでに使用されています</value>
+  </data>
+  <data name="RightClickToEdit" xml:space="preserve">
+    <value>* 右クリックして編集</value>
+  </data>
+</root>

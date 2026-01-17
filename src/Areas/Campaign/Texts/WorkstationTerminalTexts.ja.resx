@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReceivedBypassRequirement" xml:space="preserve">
+    <value>BYPASSチップの要件を受領しました。  
+設計プロセスを開始する準備ができました。</value>
+  </data>
+  <data name="StartBypass" xml:space="preserve">
+    <value>g90=========================================================================
+g90ラピッドプロトタイピング・ワークステーション v0.55.677
+g90=========================================================================
+g90
+g35起動中...
+g90
+g92電源システム [OK]
+g92物理的完全性 [OK]
+y92ファブリケーター 部分的にオンライン
+r95チップデータベース 失敗、データが破損
+r99エラー: データが破損、データベースをフォーマット中... 
+g90
+g90BYPASSチップの要件を受信しました。
+r99エラー: データベースにチップが見つかりません!
+g90
+g95BYPASSチップの受信要件パーツを処理中...
+g92   TRACES 要件
+g92   入力/出力 要件
+g92   CROSSING TRACES 要件
+g92すべての要件パーツをアップロードしました
+g90
+y39BYPASSチップの半導体エンジニアリング向けにワークステーション環境を設定しました。</value>
+  </data>
+  <data name="BypassDone" xml:space="preserve">
+    <value>g90BYPASSチップ設計: 完了
+g90
+g92Fabricator を起動中 [OK]
+g90設計を Fabricator に送信中...
+g17.....
+g90完了。</value>
+  </data>
+  <data name="ReceivedALURequirementFailed" xml:space="preserve">
+    <value>g90ALUチップの要件を受信しました。  
+r95ERROR_CODE: 0x052001 ワークステーションの準備ができていません。Material Banks はOFFLINEです。</value>
+  </data>
+  <data name="ReceivedALURequirement" xml:space="preserve">
+    <value>g90ALUチップの要件を受領しました。  
+g90設計プロセスを開始する準備ができました。</value>
+  </data>
+  <data name="ReceivedInverterRequirement" xml:space="preserve">
+    <value>g90INVERTERチップの要件を受領しました。  
+g90設計プロセスを開始する準備ができました。</value>
+  </data>
+  <data name="StartInverter" xml:space="preserve">
+    <value>g90=========================================================================
+g90ラピッドプロトタイピング・ワークステーション v0.55.677
+g90=========================================================================
+g90
+y92一次材料バンク [オフライン]
+y95二次材料バンク [オフライン]
+y92ファブリケーター 部分的にオンライン
+g90
+g90INVERTERチップの要件を受信しました。
+r99error: データベースにチップが見つかりません！
+g90
+g95INVERTERチップの受信した要件パーツを処理中...
+g92   PMOS要件
+g92   NMOS要件
+g92   NOT要件
+g92すべての要件パーツをアップロードしました
+g90
+y39INVERTERチップの半導体エンジニアリング向けにワークステーション環境をセットアップしました。</value>
+  </data>
+  <data name="InverterDone" xml:space="preserve">
+    <value>g90INVERTERチップ設計: 完了
+g90
+g92Fabricator [オンライン]
+g90設計をFabricatorに送信中...
+g17.....
+g90完了。</value>
+  </data>
+  <data name="ReceivedAdderRequirement" xml:space="preserve">
+    <value>g90 8ビット加算器チップの要件を受領しました。  
+g90 設計プロセスを開始する準備ができました。</value>
+  </data>
+  <data name="StartAdder" xml:space="preserve">
+    <value>g90=========================================================================
+g90ラピッドプロトタイピング・ワークステーション v0.55.677
+g90=========================================================================
+g90
+g92主要マテリアルバンク [オンライン]
+y95副次マテリアルバンク [オフライン]
+y92ファブリケーター 部分的にオンライン
+g90
+g908BIT ADDERチップの要件を受信しました。
+r99エラー: データベースにチップが見つかりません！
+g90
+g958BIT ADDERチップの受信要件パーツを処理中...
+g92   NOTゲート要件
+g92   NANDゲート要件
+g92   ANDゲート要件
+g92   ORゲート要件
+g92   XORゲート要件
+g92   ビット・フルアダー要件
+g92   4bitアダー要件
+g92   8bitアダー要件
+g92すべての要件パーツをアップロードしました
+g90
+y398BIT ADDERの半導体エンジニアリング向けにワークステーション環境をセットアップしました。</value>
+  </data>
+  <data name="AdderDone" xml:space="preserve">
+    <value>g908BIT ADDERチップ設計：完了
+g90
+g92Fabricator [オンライン]
+g90設計をFabricatorに送信中...
+g17.....
+g90完了。</value>
+  </data>
+  <data name="StartALU" xml:space="preserve">
+    <value>g90=========================================================================
+g90ラピッドプロトタイピング・ワークステーション v0.55.677
+g90=========================================================================
+g90
+g92主要材料バンク [オンライン]
+g95副材料バンク [オンライン]
+g92ファブリケーター オンライン
+g90
+g90 8BIT ALUチップの要件を受信しました。
+r99エラー: データベースにチップが見つかりません!
+g90
+g95 8BIT ALUチップの受信要件パーツを処理中...
+g92   XORゲート要件
+g92   NOR8ゲート要件
+g92   8ビット加算器要件
+g92   符号付き数表現要件
+g92   インバータ+1要件
+g92   減算器要件
+g92   8ビットALU要件
+g92すべての要件パーツをアップロードしました
+g90
+y39 8BIT ALU半導体エンジニアリング用にワークステーション環境をセットアップしました。</value>
+  </data>
+  <data name="ALUDone" xml:space="preserve">
+    <value>g908BIT ALUチップ設計：完了
+g90
+g92Fabricator [オンライン]
+g90設計をFabricatorに送信中...
+g17.....
+g90完了。</value>
+  </data>
+</root>
