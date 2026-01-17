@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StatusBroken1" xml:space="preserve">
+    <value>g90正在运行诊断...
+g90
+g91Autonomous Material Bank v12.0.4575
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+r95 核心系统控制单元 [故障]，单元无响应
+r95ERROR_CODE: 0xEFDFB4 INVERTER 芯片损坏
+g90
+y39需要立即处理：更换 INVERTER 芯片。需求已发送至工作站。</value>
+  </data>
+  <data name="FirstScreenEver1" xml:space="preserve">
+    <value>r90
+r93ERROR_CODE: 0x04FAB9 网络超时。连接丢失。
+r90
+r93ERROR_CODE: 0x00FFB4 电涌。电子元件可能损坏。
+r90
+r93ERROR_CODE: 0x0CAF89 检测到输出管理故障。不可逆。</value>
+  </data>
+  <data name="ChipReplaced1" xml:space="preserve">
+    <value>r90ERROR_CODE: 未指定错误
+r90ERROR_CODE: 未指定错误
+r90ERROR_CODE: 未指定错误
+r90ERROR_CODE: 未指定错误
+r92ERROR_CODE: 未指定错误
+r95ERROR_CODE: ?x?????? 继续
+y95警告: 0x45FDB3 INVERTER 芯片已更换。需要重启。</value>
+  </data>
+  <data name="RebootFix1" xml:space="preserve">
+    <value>y95正在尝试强制重启...
+g90
+g90=========================================================================
+g90Autonomous Material Bank v12.0.4575                 
+g90=========================================================================
+g90
+g96核心系统检查...
+g90
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+y95 核心系统控制单元 [已恢复]
+g92 材料库存 [正常]
+g92 与制造机的连接 [正常]
+g90
+g90重启序列完成。材料库状态：运行正常。</value>
+  </data>
+  <data name="StatusFixed" xml:space="preserve">
+    <value>g90材料库状态：运行正常。</value>
+  </data>
+  <data name="FirstScreenEver2" xml:space="preserve">
+    <value>r90
+r93ERROR_CODE: 0x04FAB9 网络超时。连接丢失。
+r90
+r93ERROR_CODE: 0x00FFB4 电涌。电子元件可能损坏。
+r90
+r93ERROR_CODE: 0x0CAF25 检测到输出管理故障。无效的无限库存。</value>
+  </data>
+  <data name="StatusBroken2" xml:space="preserve">
+    <value>g90正在运行诊断...
+g90
+g91Autonomous Material Bank v12.0.4575
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+g92 核心系统控制单元 [正常]
+r95 材料库存 [故障]，检测到不可能的数量。
+r95ERROR_CODE: 0xEFDFB4 8BIT ADDER 芯片损坏
+g90
+y39需要立即处理：更换 8BIT ADDER 芯片。需求已发送至工作站。</value>
+  </data>
+  <data name="ChipReplaced2" xml:space="preserve">
+    <value>r90ERROR_CODE: 未指定错误
+r90ERROR_CODE: 未指定错误
+r90ERROR_CODE: 未指定错误
+r90ERROR_CODE: 未指定错误
+r92ERROR_CODE: 未指定错误
+r95ERROR_CODE: ?x?????? 继续
+y95警告: 0x45FDB3 8BIT ADDER 芯片已更换。需要重启。</value>
+  </data>
+  <data name="RebootFix2" xml:space="preserve">
+    <value>y95正在尝试强制重启...
+g90
+g90=========================================================================
+g90Autonomous Material Bank v12.0.4575                 
+g90=========================================================================
+g90
+g96核心系统检查...
+g90
+g92 电源系统 [正常]
+g92 物理完整性 [正常]
+y95 核心系统控制单元 [正常]
+g92 材料库存 [已恢复]
+g92 与制造机的连接 [正常]
+g90
+g90重启序列完成。材料库状态：运行正常。</value>
+  </data>
+</root>

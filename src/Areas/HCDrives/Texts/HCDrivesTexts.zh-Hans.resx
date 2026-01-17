@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NoHCDriveMessage" xml:space="preserve">
+    <value>未插入 HCDrive！
+
+HCDrive 是包含芯片、关卡和蓝图的
+压缩文件。便于轻松分享。
+
+确保剪贴板中有 HCDrive 文件
+或文件链接，然后按加载。</value>
+  </data>
+  <data name="LoadHCDriveFailedMessage" xml:space="preserve">
+    <value>未插入有效的 HCDrive！
+
+确保剪贴板中有 HCDrive 文件，
+然后按加载按钮。</value>
+  </data>
+  <data name="StageToExportMessage" xml:space="preserve">
+    <value>社区关卡准备导出：
+
+- 标签：{0}
+- 描述：{1}
+
+按导出创建关卡 HCDrive。</value>
+  </data>
+  <data name="ChipToExportMessage" xml:space="preserve">
+    <value>芯片准备导出：
+
+- 标签：{0}
+- 描述：{1}
+
+按导出创建芯片 HCDrive。</value>
+  </data>
+  <data name="BlueprintToExportMessage" xml:space="preserve">
+    <value>蓝图准备导出：
+
+- 标签：{0}
+- 描述：{1}
+
+按导出创建蓝图 HCDrive。</value>
+  </data>
+  <data name="StageToImportMessage" xml:space="preserve">
+    <value>已插入有效的 HCDrive。检测到社区关卡：
+
+- 标签：{0}
+- 描述：{1}
+
+按安装完成关卡的安装。</value>
+  </data>
+  <data name="ChipToImportMessage" xml:space="preserve">
+    <value>已插入有效的 HCDrive。检测到芯片：
+
+- 标签：{0}
+- 描述：{1}
+
+按安装完成芯片的安装。</value>
+  </data>
+  <data name="BlueprintToImportMessage" xml:space="preserve">
+    <value>已插入有效的 HCDrive。检测到蓝图：
+
+- 标签：{0}
+- 描述：{1}
+
+按安装完成蓝图的安装。</value>
+  </data>
+  <data name="ExportSuccessMessage" xml:space="preserve">
+    <value>导出成功。
+新的 HCDrive 已在剪贴板中！你现在可以
+通过粘贴到资源管理器或任何其他
+支持图像内容的软件来分享它。</value>
+  </data>
+  <data name="InstallFailedMessage" xml:space="preserve">
+    <value>安装失败。
+
+HCDrive 内容可能已损坏或不兼容。</value>
+  </data>
+  <data name="InstallSuccessMessage" xml:space="preserve">
+    <value>安装成功。
+
+HCDrive 内容已安装！</value>
+  </data>
+</root>

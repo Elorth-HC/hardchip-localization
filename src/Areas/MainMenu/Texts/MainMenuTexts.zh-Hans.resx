@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BonusStages" xml:space="preserve">
+    <value>额外关卡</value>
+  </data>
+  <data name="FinishTheByteAdderChipToUnlock" xml:space="preserve">
+    <value>完成字节加法器芯片以解锁。</value>
+  </data>
+  <data name="ComingSoon" xml:space="preserve">
+    <value>即将推出。</value>
+  </data>
+  <data name="ReachTheALUChipMapToUnlock" xml:space="preserve">
+    <value>到达 ALU 芯片地图以解锁。</value>
+  </data>
+  <data name="FinishTheInverterChipMapToUnlock" xml:space="preserve">
+    <value>完成反相器芯片地图以解锁。</value>
+  </data>
+  <data name="LinksBugsCommentsOrFeedback" xml:space="preserve">
+    <value>链接：报告漏洞、评论或反馈？</value>
+  </data>
+  <data name="CommentsSuggestionsBugReportOnHardChipSDiscord" xml:space="preserve">
+    <value>在 Hard Chip 的 Discord 上发表评论/建议/漏洞报告！</value>
+  </data>
+  <data name="ShareYourCreationOnTwitterWithHardchipgameOrHardchipgame" xml:space="preserve">
+    <value>在 Twitter 上使用 #hardchipgame 或 @hardchipgame 分享你的作品！</value>
+  </data>
+  <data name="PostYourCreationOnHardChipSSubreddit" xml:space="preserve">
+    <value>在 Hard Chip 的 subreddit 上发布你的作品！</value>
+  </data>
+  <data name="JoinHardChipSSteamCommunity" xml:space="preserve">
+    <value>加入 Hard Chip 的 Steam 社区！</value>
+  </data>
+  <data name="MusicMEGAS" xml:space="preserve">
+    <value>音乐：MEGAS </value>
+  </data>
+  <data name="QuickUpdates" xml:space="preserve">
+    <value>快速更新</value>
+  </data>
+  <data name="AllPatchNotes" xml:space="preserve">
+    <value>所有更新日志</value>
+  </data>
+  <data name="AllTheUpdatesOnSteam" xml:space="preserve">
+    <value>Steam 上的所有更新！</value>
+  </data>
+  <data name="WishlistHardChipOnSteam" xml:space="preserve">
+    <value>在 Steam 上将 Hard Chip 加入愿望单！</value>
+  </data>
+  <data name="UnavailableInTheDemo" xml:space="preserve">
+    <value>演示版中不可用。</value>
+  </data>
+</root>

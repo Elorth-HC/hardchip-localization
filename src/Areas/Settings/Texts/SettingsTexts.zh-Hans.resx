@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UndoRedoStackSize" xml:space="preserve">
+    <value>撤销/重做堆栈大小</value>
+  </data>
+  <data name="CanBeIncreasedToAllowMoreUndosButWillConsumeMoreMemory" xml:space="preserve">
+    <value>可以增加以允许更多撤销操作，但会消耗更多内存。</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>重置设置</value>
+  </data>
+  <data name="ResetAllSettings" xml:space="preserve">
+    <value>重置所有设置？</value>
+  </data>
+  <data name="AllSettingsWillBeResetToDefaultRestartingTheGameCouldBeNecessaryToFullyApply" xml:space="preserve">
+    <value>所有设置将重置为默认值。可能需要重启游戏才能完全应用。</value>
+  </data>
+  <data name="Campaign" xml:space="preserve">
+    <value>剧情</value>
+  </data>
+  <data name="ResetCampaignOnly" xml:space="preserve">
+    <value>仅重置剧情</value>
+  </data>
+  <data name="ResetCampaignProgression" xml:space="preserve">
+    <value>重置剧情进度？</value>
+  </data>
+  <data name="ThisWillResetYourCampaignProgressionButWONTRemoveSolvedSolutions" xml:space="preserve">
+    <value>这将重置你的剧情进度，但不会删除已完成的解决方案。</value>
+  </data>
+  <data name="AreYouSureYouWantToResetYourCampaignProgressionNSolvedSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>确定要重置你的剧情进度吗？
+已完成的解决方案不会被删除。</value>
+  </data>
+  <data name="HardReset" xml:space="preserve">
+    <value>硬重置</value>
+  </data>
+  <data name="ResetEverything" xml:space="preserve">
+    <value>重置所有</value>
+  </data>
+  <data name="ResetEVERYTHINGUppercase" xml:space="preserve">
+    <value>重置所有内容？</value>
+  </data>
+  <data name="ThisWillResetEVERYSettingsSolutionsAndCampaignProgression" xml:space="preserve">
+    <value>这将重置所有设置、解决方案和剧情进度。</value>
+  </data>
+  <data name="AreYouSureYouWantToResetEVERYSolutionsAndCampaignProgressionNTHISDELETEEVERYTHINGBESUREWHATYOUAREDOING" xml:space="preserve">
+    <value>确定要重置所有解决方案和剧情进度吗？
+
+这将删除所有内容，请确认你的操作！</value>
+  </data>
+  <data name="MusicAndAmbianceLicencesAllowMonetizedContent" xml:space="preserve">
+    <value>*音乐和环境音许可证允许用于盈利内容。</value>
+  </data>
+  <data name="MasterVolume" xml:space="preserve">
+    <value>主音量</value>
+  </data>
+  <data name="GameplayVolume" xml:space="preserve">
+    <value>游戏音量</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="FOVEditor" xml:space="preserve">
+    <value>编辑器视野</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="ChartsAreCalculatedWithTheLatestSolutionsFromNaroundTheWorldAndYourScoresUpdateCharts" xml:space="preserve">
+    <value>排行榜根据来自世界各地的最新解决方案计算，
+你的分数会更新排行榜。</value>
+  </data>
+  <data name="ChartsAreCalculatedFromAFixedAndLocalSnapshotNofTheLatestSolutionsFromAroundTheWorldYourNscoresDonTUpdateCharts" xml:space="preserve">
+    <value>排行榜根据来自世界各地最新解决方案的
+固定本地快照计算。你的分数不会更新排行榜。</value>
+  </data>
+  <data name="RayPrecision" xml:space="preserve">
+    <value>光线精度</value>
+  </data>
+  <data name="UseCubicWhenNothingElseWorksWillRenderCubesInsteadOfComplexShapesFastButUgly" xml:space="preserve">
+    <value>当其他方法都不起作用时使用立方体。将渲染立方体而不是复杂形状，速度快但不美观。</value>
+  </data>
+  <data name="RayPrecisionIsTheNumberOfStepsEachRayPerformNHigherValuesWillIncreaseQualityButWillDecreasePerformance" xml:space="preserve">
+    <value>光线精度是每条光线执行的步数。
+数值越高质量越好，但会降低性能。</value>
+  </data>
+  <data name="LikelyPerformanceCost1030Percent" xml:space="preserve">
+    <value>可能的性能损耗：10-30%。</value>
+  </data>
+  <data name="ChromaticAberration" xml:space="preserve">
+    <value>色差</value>
+  </data>
+  <data name="NoPerformanceCostButMayCauseDiscomfortToSomeUsers" xml:space="preserve">
+    <value>无性能损耗，但可能会给部分用户带来不适。</value>
+  </data>
+  <data name="UITextScale" xml:space="preserve">
+    <value>界面文字缩放</value>
+  </data>
+  <data name="Benchmark" xml:space="preserve">
+    <value>基准测试</value>
+  </data>
+  <data name="ApplySettings" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="WonTBeAppliedIfVSyncIsEnabled" xml:space="preserve">
+    <value>如果启用了垂直同步，则不会应用。</value>
+  </data>
+  <data name="FPSLimit" xml:space="preserve">
+    <value>帧率限制</value>
+  </data>
+  <data name="RestartToApplyChanges" xml:space="preserve">
+    <value>重启以应用更改</value>
+  </data>
+  <data name="EditorRenderScale" xml:space="preserve">
+    <value>编辑器渲染缩放</value>
+  </data>
+  <data name="LowerValuesWillIncreasePerformanceButWillDecreaseQualityNHigherValuesWillStronglyDecreasePerformanceButWillIncreaseQuality" xml:space="preserve">
+    <value>较低的值会提高性能，但会降低质量。
+较高的值会大幅降低性能，但会提高质量。</value>
+  </data>
+  <data name="FieldOfViewUsedDuringFirstPersonPhasesNoPerformanceCost" xml:space="preserve">
+    <value>第一人称阶段使用的视野。无性能损耗。</value>
+  </data>
+  <data name="FieldOfViewUsedDuringEditorPhasesNoPerformanceCost" xml:space="preserve">
+    <value>编辑器阶段使用的视野。无性能损耗。</value>
+  </data>
+  <data name="RenderMethod" xml:space="preserve">
+    <value>渲染方法</value>
+  </data>
+  <data name="MouseWheelSensitivity" xml:space="preserve">
+    <value>鼠标滚轮灵敏度</value>
+  </data>
+  <data name="FlipVerticalMouseMovementDuringFPSPhases" xml:space="preserve">
+    <value>在第一人称阶段翻转垂直鼠标移动。</value>
+  </data>
+  <data name="MouseEdgeScrolling" xml:space="preserve">
+    <value>鼠标边缘滚动</value>
+  </data>
+  <data name="DoubleClickToEdit" xml:space="preserve">
+    <value>双击右键进入编辑模式</value>
+  </data>
+  <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
+    <value>如果启用，双击鼠标右键将切换到编辑模式。
+将自动选择金属块。</value>
+  </data>
+  <data name="WorldFOV" xml:space="preserve">
+    <value>世界视野</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>通用</value>
+  </data>
+  <data name="Windowed" xml:space="preserve">
+    <value>窗口化</value>
+  </data>
+  <data name="Borderless" xml:space="preserve">
+    <value>无边框</value>
+  </data>
+  <data name="AutoDetect" xml:space="preserve">
+    <value>自动检测</value>
+  </data>
+  <data name="UnlimitedOrVSync" xml:space="preserve">
+    <value>无限制（或垂直同步）</value>
+  </data>
+  <data name="RayMarching" xml:space="preserve">
+    <value>光线步进</value>
+  </data>
+  <data name="Cubic" xml:space="preserve">
+    <value>立方体</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>操作</value>
+    <comment>Describe what a key binding does</comment>
+  </data>
+  <data name="DarkBackground" xml:space="preserve">
+    <value>深色背景</value>
+  </data>
+  <data name="ReduceVisualStrainOnTheEditorSBackgroundForSensitivityToBrightness" xml:space="preserve">
+    <value>可能会减轻部分用户对编辑器背景的视觉疲劳。</value>
+  </data>
+  <data name="FPSInvertYAxis" xml:space="preserve">
+    <value>在第一人称阶段反转 Y 轴</value>
+  </data>
+  <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
+    <value>当鼠标在屏幕边缘时移动相机。</value>
+  </data>
+  <data name="MouseHorizontalScrolling" xml:space="preserve">
+    <value>鼠标水平滚动</value>
+  </data>
+  <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
+    <value>使用鼠标水平滚动来旋转相机。</value>
+  </data>
+  <data name="ThisAllowsYourSteamUsernameToAppearOnTheLeaderboardsReplacingTheCurrent" xml:space="preserve">
+    <value>这允许你的 Steam 用户名显示在排行榜上，
+替换当前自动生成的名称。
+
+启用此选项即表示你同意 Hard Chip 使用你的
+Steam 用户名用于排行榜显示。</value>
+  </data>
+  <data name="SteamName" xml:space="preserve">
+    <value>Steam 名称：</value>
+  </data>
+  <data name="UseSteamName" xml:space="preserve">
+    <value>使用 Steam 名称</value>
+  </data>
+  <data name="UseHCName" xml:space="preserve">
+    <value>使用 HC 名称</value>
+  </data>
+  <data name="LeaderboardID" xml:space="preserve">
+    <value>排行榜 ID：</value>
+  </data>
+  <data name="HideBugReportButton" xml:space="preserve">
+    <value>隐藏漏洞报告按钮</value>
+  </data>
+  <data name="ShowExtendedChipInfo" xml:space="preserve">
+    <value>显示扩展芯片信息</value>
+  </data>
+  <data name="ShowBlocksCountVolumeMosAndLossInformationInTheInfoAreaAtTheBottomLeft" xml:space="preserve">
+    <value>在左下角的信息区域显示方块数量、体积、MOS 和损耗信息。</value>
+  </data>
+  <data name="AlwaysHideCameraControl" xml:space="preserve">
+    <value>始终隐藏相机控制</value>
+  </data>
+  <data name="AlwaysHideCameraControlTooltip" xml:space="preserve">
+    <value>在游戏过程中始终隐藏右下角的相机控制。</value>
+  </data>
+  <data name="EditorTheme" xml:space="preserve">
+    <value>编辑器主题</value>
+  </data>
+  <data name="DangerZone" xml:space="preserve">
+    <value>危险区域</value>
+  </data>
+  <data name="ThisWillResetYourTutorialSolutionsButNotYourCampaignProgression" xml:space="preserve">
+    <value>这将重置你的教程解决方案，
+但不会重置你的剧情进度。</value>
+  </data>
+  <data name="ResetsTutorial" xml:space="preserve">
+    <value>重置教程？</value>
+  </data>
+  <data name="ResetTutorial" xml:space="preserve">
+    <value>重置教程</value>
+  </data>
+  <data name="AreYouSureYouWantToResetAllYourTutorialSolutionsYourCampaignProgressionAndAllOtherStageSolutionsWonTBeRemoved" xml:space="preserve">
+    <value>确定要重置所有教程解决方案吗？
+
+你的剧情进度和所有其他关卡解决方案
+不会被删除。</value>
+  </data>
+</root>

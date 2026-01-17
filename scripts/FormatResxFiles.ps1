@@ -4,7 +4,7 @@
 Write-Host "Starting to format all .resx files in the workspace..." -ForegroundColor Green
 
 # Get all .resx files in the workspace recursively
-$resxFiles = Get-ChildItem -Path "c:\Repos\hardchip-localization" -Filter "*.resx" -Recurse
+$resxFiles = Get-ChildItem -Path "." -Filter "*.resx" -Recurse
 
 if ($resxFiles.Count -eq 0) {
     Write-Host "No .resx files found in the workspace." -ForegroundColor Yellow

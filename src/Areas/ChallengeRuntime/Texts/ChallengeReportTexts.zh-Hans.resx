@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PerformanceReport" xml:space="preserve">
+    <value>{0} 性能报告</value>
+    <comment>Composed with the name of the challenge at the beginning</comment>
+  </data>
+  <data name="LastChipChecked" xml:space="preserve">
+    <value>上次检测的芯片</value>
+  </data>
+  <data name="ChipChecked" xml:space="preserve">
+    <value>芯片已检测！</value>
+  </data>
+  <data name="FunctionalSatisfactoryStreamlined" xml:space="preserve">
+    <value>可用 -&gt; 合格 -&gt; 精简</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>   块数：</value>
+    <comment>Space important</comment>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>   体积：</value>
+    <comment>Space important</comment>
+  </data>
+  <data name="BlocksUsedTheFewerTheBetterNComplexSatisfactoryEfficient" xml:space="preserve">
+    <value>使用的块数量。越少越好。
+复杂 -&gt; 合格 -&gt; 高效</value>
+  </data>
+  <data name="VolumeUsedTheSmallerTheBetterNLargeSatisfactoryCompact" xml:space="preserve">
+    <value>占用的体积。越小越好。
+庞大 -&gt; 合格 -&gt; 紧凑</value>
+  </data>
+  <data name="Ticks" xml:space="preserve">
+    <value>   时钟周期数：</value>
+  </data>
+  <data name="MOS" xml:space="preserve">
+    <value>   MOS数：</value>
+    <comment>Space important</comment>
+  </data>
+  <data name="TicksUsedTheFewerTheBetterNSlowSatisfactoryFast" xml:space="preserve">
+    <value>使用的时钟周期。越少越好。
+缓慢 -&gt; 合格 -&gt; 快速</value>
+  </data>
+  <data name="MOSUsedTheFewerTheBetterNHighSatisfactoryReduced" xml:space="preserve">
+    <value>使用的 MOS数。越少越好。
+偏多 -&gt; 合格 -&gt; 精简</value>
+  </data>
+  <data name="DataUnavailable" xml:space="preserve">
+    <value>数据不可用</value>
+  </data>
+  <data name="VolumeReport" xml:space="preserve">
+    <value>体积</value>
+  </data>
+  <data name="TicksReport" xml:space="preserve">
+    <value>时钟周期</value>
+  </data>
+  <data name="MOSReport" xml:space="preserve">
+    <value>MOS</value>
+  </data>
+  <data name="PhotoMode" xml:space="preserve">
+    <value>拍照模式</value>
+  </data>
+  <data name="ExportBlueprintToANewHCDriveFileIntoTheClipboard" xml:space="preserve">
+    <value>将蓝图导出为新的 HCDrive 文件到剪贴板</value>
+  </data>
+  <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
+    <value>最佳块数解决方案，点击比较。右键设为当前。</value>
+  </data>
+  <data name="BestBlockSolution" xml:space="preserve">
+    <value>（最佳块数解决方案）</value>
+  </data>
+  <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
+    <value>最佳体积解决方案，点击比较。右键设为当前。</value>
+  </data>
+  <data name="BestVolumeSolution" xml:space="preserve">
+    <value>（最佳体积解决方案）</value>
+  </data>
+  <data name="BestTickSolutionClickToCompare" xml:space="preserve">
+    <value>最佳时钟周期解决方案，点击比较。右键设为当前。</value>
+  </data>
+  <data name="BestTickSolution" xml:space="preserve">
+    <value>（最佳时钟周期解决方案）</value>
+  </data>
+  <data name="BestMosSolutionClickToCompare" xml:space="preserve">
+    <value>最佳 MOS 数解决方案，点击比较。右键设为当前。</value>
+  </data>
+  <data name="BestMosSolution" xml:space="preserve">
+    <value>（最佳 MOS 数解决方案）</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="SaveBlueprint" xml:space="preserve">
+    <value>保存蓝图</value>
+  </data>
+  <data name="Grade01" xml:space="preserve">
+    <value>评级{0}：</value>
+  </data>
+  <data name="Functional" xml:space="preserve">
+    <value>可用</value>
+  </data>
+  <data name="Satisfactory" xml:space="preserve">
+    <value>合格</value>
+  </data>
+  <data name="Streamlined" xml:space="preserve">
+    <value>精简</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>进阶</value>
+  </data>
+  <data name="Masterpiece" xml:space="preserve">
+    <value>杰作</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Complex" xml:space="preserve">
+    <value>复杂</value>
+  </data>
+  <data name="Efficient" xml:space="preserve">
+    <value>高效</value>
+  </data>
+  <data name="EfficientP" xml:space="preserve">
+    <value>高效+</value>
+  </data>
+  <data name="EfficientPP" xml:space="preserve">
+    <value>高效++</value>
+  </data>
+  <data name="Large" xml:space="preserve">
+    <value>庞大</value>
+  </data>
+  <data name="Compact" xml:space="preserve">
+    <value>紧凑</value>
+  </data>
+  <data name="CompactP" xml:space="preserve">
+    <value>紧凑+</value>
+  </data>
+  <data name="CompactPP" xml:space="preserve">
+    <value>紧凑++</value>
+  </data>
+  <data name="Slow" xml:space="preserve">
+    <value>缓慢</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>快速</value>
+  </data>
+  <data name="FastP" xml:space="preserve">
+    <value>快速+</value>
+  </data>
+  <data name="FastPP" xml:space="preserve">
+    <value>快速++</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="Reduced" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="ReducedP" xml:space="preserve">
+    <value>低+</value>
+  </data>
+  <data name="ReducedPP" xml:space="preserve">
+    <value>低++</value>
+  </data>
+  <data name="CompletedSuccessfully" xml:space="preserve">
+    <value> 成功完成。</value>
+  </data>
+  <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
+    <value>解决方案已过时。重新运行验证以更新。</value>
+  </data>
+  <data name="LossComma" xml:space="preserve">
+    <value>损耗：</value>
+  </data>
+  <data name="FloatingComma" xml:space="preserve">
+    <value>浮空：</value>
+  </data>
+  <data name="Grade" xml:space="preserve">
+    <value>评级</value>
+  </data>
+</root>
