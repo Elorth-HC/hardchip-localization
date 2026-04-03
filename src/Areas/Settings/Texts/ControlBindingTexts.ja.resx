@@ -254,7 +254,7 @@
   </data>
   <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>キーを押して設定します。  
-左クリックでクリアします。</value>
+右クリックでクリアします。</value>
   </data>
   <data name="SettingKeyInput" xml:space="preserve">
     <value>キー入力を設定しています...</value>
@@ -277,6 +277,6 @@
     <value>{0} はすでに使用されています</value>
   </data>
   <data name="RightClickToEdit" xml:space="preserve">
-    <value>* 右クリックして編集</value>
+    <value>* 左クリックして編集</value>
   </data>
 </root>

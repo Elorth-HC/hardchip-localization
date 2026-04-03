@@ -178,7 +178,7 @@
   </data>
   <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>按键设置。
-左键点击清除。</value>
+右键点击清除。</value>
   </data>
   <data name="SettingKeyInput" xml:space="preserve">
     <value>正在设置按键输入...</value>
@@ -201,6 +201,6 @@
     <value>{0} 已被使用</value>
   </data>
   <data name="RightClickToEdit" xml:space="preserve">
-    <value>* 右键点击编辑</value>
+    <value>* 左键点击编辑</value>
   </data>
 </root>

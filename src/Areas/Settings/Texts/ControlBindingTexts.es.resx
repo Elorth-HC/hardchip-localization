@@ -177,7 +177,7 @@
     <value>Construir hacia arriba</value>
   </data>
   <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
-    <value>Pulsa una tecla para asignar.<br />Clic izquierdo para limpiar.</value>
+    <value>Pulsa una tecla para asignar.<br />Clic derecho para limpiar.</value>
   </data>
   <data name="SettingKeyInput" xml:space="preserve">
     <value>Asignando entrada de tecla…</value>
@@ -200,6 +200,6 @@ modificadoras específicas (por ejemplo, IME para japonés).</value>
     <value>{0} ya está en uso</value>
   </data>
   <data name="RightClickToEdit" xml:space="preserve">
-    <value>* Clic derecho para editar</value>
+    <value>* Clic izquierdo para editar</value>
   </data>
 </root>

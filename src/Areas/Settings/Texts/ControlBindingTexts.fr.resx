@@ -181,7 +181,7 @@
   </data>
   <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>Appuyez sur une touche pour définir.
-Clic gauche pour effacer.</value>
+Clic droit pour effacer.</value>
   </data>
   <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
     <value>Touches pressées en permanence ignorées:</value>
@@ -200,6 +200,6 @@ Cela peut être dû aux dispositions spécifiques des entrées du clavier (Ex: I
     <value>{0} déjà utilisé</value>
   </data>
   <data name="RightClickToEdit" xml:space="preserve">
-    <value>* Clic droit pour éditer</value>
+    <value>* Clic gauche pour éditer</value>
   </data>
 </root>

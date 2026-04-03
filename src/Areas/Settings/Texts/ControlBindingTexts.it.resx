@@ -130,7 +130,7 @@ Ciò può essere causato da alcune tastiere specifiche che utilizzano un modific
   </data>
   <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>Premi un tasto da assegnare. 
-Tasto sinistro del mouse per rimuoverlo.</value>
+Tasto destro del mouse per rimuoverlo.</value>
   </data>
   <data name="PreviousSlot" xml:space="preserve">
     <value>Slot precedente</value>
@@ -145,7 +145,7 @@ Tasto sinistro del mouse per rimuoverlo.</value>
     <value>Ripristina controlli</value>
   </data>
   <data name="RightClickToEdit" xml:space="preserve">
-    <value>* Tasto destro per modificare</value>
+    <value>* Tasto sinistro per modificare</value>
   </data>
   <data name="RotatePart" xml:space="preserve">
     <value>Ruota la parte</value>

@@ -162,7 +162,7 @@
   </data>
   <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>Нажмите клавишу, чтобы задать.
-Кликните, чтобы очистить.</value>
+Кликните правой кнопкой мыши, чтобы очистить.</value>
   </data>
   <data name="SelectMode" xml:space="preserve">
     <value>Выбрать режим</value>
@@ -196,7 +196,7 @@
     <value>Выделить сегмент</value>
   </data>
   <data name="RightClickToEdit" xml:space="preserve">
-    <value>* Нажмите правой кнопкой мыши, чтобы редактировать</value>
+    <value>* Нажмите левой кнопкой мыши, чтобы редактировать</value>
   </data>
   <data name="DeleteBlock" xml:space="preserve">
     <value>Удалить блок</value>
