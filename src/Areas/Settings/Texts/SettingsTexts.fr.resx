@@ -306,4 +306,13 @@ mais pas votre progression de campagne.</value>
 Votre progression de campagne et toutes les autres solutions de niveaux
 ne seront pas supprimées.</value>
   </data>
+  <data name="TerminalGlitchEffect" xml:space="preserve">
+    <value>Effet de glitch du terminal</value>
+  </data>
+  <data name="DistinctMOSBlocks" xml:space="preserve">
+    <value>Blocs MOS distincts</value>
+  </data>
+  <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
+    <value>Affiche les différents blocs composant un MOS dans le menu de construction.</value>
+  </data>
 </root>

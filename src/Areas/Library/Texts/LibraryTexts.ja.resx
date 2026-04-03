@@ -159,4 +159,7 @@
   <data name="FileName" xml:space="preserve">
     <value>ファイル名</value>
   </data>
+  <data name="Import" xml:space="preserve">
+    <value>インポート</value>
+  </data>
 </root>

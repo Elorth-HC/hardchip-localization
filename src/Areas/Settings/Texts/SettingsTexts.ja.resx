@@ -360,4 +360,13 @@
 
 キャンペーンの進行状況および他のすべてのステージの解答は削除されません。</value>
   </data>
+  <data name="TerminalGlitchEffect" xml:space="preserve">
+    <value>ターミナルグリッチエフェクト</value>
+  </data>
+  <data name="DistinctMOSBlocks" xml:space="preserve">
+    <value>個別のMOSブロック</value>
+  </data>
+  <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
+    <value>ビルドメニューでMOSを構成するさまざまなブロックを表示します。</value>
+  </data>
 </root>

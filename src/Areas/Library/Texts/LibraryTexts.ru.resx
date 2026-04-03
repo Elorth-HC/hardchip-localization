@@ -54,4 +54,7 @@
   <data name="Fast" xml:space="preserve">
     <value>Быстрый</value>
   </data>
+  <data name="Import" xml:space="preserve">
+    <value>Импортировать</value>
+  </data>
 </root>

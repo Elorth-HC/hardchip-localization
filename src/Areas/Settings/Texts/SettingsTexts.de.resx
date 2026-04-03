@@ -285,4 +285,13 @@ möchtest?
 Dein Kampagnenfortschritt und alle anderen Stufenlösungen
 werden nicht entfernt.</value>
   </data>
+  <data name="TerminalGlitchEffect" xml:space="preserve">
+    <value>Terminal-Glitch-Effekt</value>
+  </data>
+  <data name="DistinctMOSBlocks" xml:space="preserve">
+    <value>Eigenständige MOS-Blöcke</value>
+  </data>
+  <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
+    <value>Zeige die verschiedenen Blöcke, die einen MOS im Baumenü zusammensetzen.</value>
+  </data>
 </root>

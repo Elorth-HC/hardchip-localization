@@ -286,4 +286,13 @@ pero no tu progreso de campaña.</value>
 Tu progreso en la campaña y todas las demás soluciones de fases
 no se eliminarán.</value>
   </data>
+  <data name="TerminalGlitchEffect" xml:space="preserve">
+    <value>Efecto de glitch del terminal</value>
+  </data>
+  <data name="DistinctMOSBlocks" xml:space="preserve">
+    <value>Bloques MOS distintos</value>
+  </data>
+  <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
+    <value>Muestra los diferentes bloques que componen un MOS en el menú de construcción.</value>
+  </data>
 </root>

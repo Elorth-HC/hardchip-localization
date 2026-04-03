@@ -303,4 +303,13 @@
 
 Прогресс кампании и все остальные решения этапов удалены не будут.</value>
   </data>
+  <data name="TerminalGlitchEffect" xml:space="preserve">
+    <value>Эффект глитча терминала</value>
+  </data>
+  <data name="DistinctMOSBlocks" xml:space="preserve">
+    <value>Отдельные блоки MOS</value>
+  </data>
+  <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
+    <value>Показывает различные блоки, составляющие MOS в меню строительства.</value>
+  </data>
 </root>

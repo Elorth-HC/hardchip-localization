@@ -100,4 +100,7 @@
   <data name="Install" xml:space="preserve">
     <value>Installer</value>
   </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importer</value>
+  </data>
 </root>

@@ -295,4 +295,13 @@ ma non la progressione della campagna.</value>
 La progressione della campagna e tutte le altre soluzioni degli
 stage non verranno rimosse.</value>
   </data>
+  <data name="TerminalGlitchEffect" xml:space="preserve">
+    <value>Effetto glitch del terminale</value>
+  </data>
+  <data name="DistinctMOSBlocks" xml:space="preserve">
+    <value>Blocchi MOS distinti</value>
+  </data>
+  <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
+    <value>Mostra i diversi blocchi che compongono un MOS nel menu di costruzione.</value>
+  </data>
 </root>
