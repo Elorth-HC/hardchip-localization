@@ -285,4 +285,13 @@ but not your campaign progression.</value>
 Your campaign progression and all other stage solutions
 won't be removed.</value>
   </data>
+  <data name="TerminalGlitchEffect" xml:space="preserve">
+    <value>Terminal Glitch Effect</value>
+  </data>
+  <data name="DistinctMOSBlocks" xml:space="preserve">
+    <value>Distinct MOS Blocks</value>
+  </data>
+  <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
+    <value>Show the different blocks composing a MOS in the Build Menu.</value>
+  </data>
 </root>

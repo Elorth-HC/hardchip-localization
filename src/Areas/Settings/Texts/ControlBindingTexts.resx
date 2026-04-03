@@ -178,7 +178,7 @@
   </data>
   <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>Press a key to set.
-Left click to clear.</value>
+Right click to clear.</value>
   </data>
   <data name="SettingKeyInput" xml:space="preserve">
     <value>Setting key input...</value>
@@ -201,6 +201,6 @@ keys (Ex:IME Japanese input).</value>
     <value>{0} already used</value>
   </data>
   <data name="RightClickToEdit" xml:space="preserve">
-    <value>* Right click to edit</value>
+    <value>* Left click to edit</value>
   </data>
 </root>
