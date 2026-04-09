@@ -312,4 +312,7 @@
   <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
     <value>Показывает различные блоки, составляющие MOS в меню строительства.</value>
   </data>
+  <data name="FastRayMarching" xml:space="preserve">
+    <value>Быстрая трассировка лучей</value>
+  </data>
 </root>

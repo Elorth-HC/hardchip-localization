@@ -18,7 +18,7 @@ if (Test-Path $MainMenuTextsPath) {
     
     foreach ($file in $mainMenuFiles) {
         # Extract language code from filename (e.g., MainMenuTexts.de.resx -> de)
-        if ($file -match "MainMenuTexts\.([a-z]{2})\.resx") {
+        if ($file -match "MainMenuTexts\.([a-z]{2}(?:-[A-Za-z]+)?)\.resx") {
             $languageCode = $matches[1]
             if ($languageCode -notin $AllSupportedLanguages) {
                 $AllSupportedLanguages += $languageCode

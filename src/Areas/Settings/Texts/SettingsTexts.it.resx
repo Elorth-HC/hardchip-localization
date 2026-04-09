@@ -304,4 +304,7 @@ stage non verranno rimosse.</value>
   <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
     <value>Mostra i diversi blocchi che compongono un MOS nel menu di costruzione.</value>
   </data>
+  <data name="FastRayMarching" xml:space="preserve">
+    <value>Ray Marching veloce</value>
+  </data>
 </root>

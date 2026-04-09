@@ -165,4 +165,18 @@
   <data name="UnavailableInTheDemo" xml:space="preserve">
     <value>デモでは利用できません。</value>
   </data>
+  <data name="ExperimentalBuild" xml:space="preserve">
+    <value>実験的ビルド</value>
+  </data>
+  <data name="ThisIsAnExperimentalBuild" xml:space="preserve">
+    <value>これは開発ブランチからの実験的ビルドです。現在アクティブに開発・テストされている機能が含まれています。これらはデフォルトで有効になっている場合があり、起動オプションで切り替えることができ、予告なくいつでも追加または削除される可能性があります。
+
+互換性、パフォーマンス、安定性、またはサポートに関して、いかなる保証も提供されません。
+
+これらの機能を有効にすると、ゲームプレイ体験に影響を与える可能性があり、クラッシュ、データ損失、またはその他の予期しない動作を引き起こす可能性があります（おそらく起こるでしょう）。
+
+とはいえ：アイデアがある、またはテストを実行したいですか？公式HC Discordで私たちと共有してください！
+
+</value>
+  </data>
 </root>

@@ -87,4 +87,18 @@
   <data name="UnavailableInTheDemo" xml:space="preserve">
     <value>Indisponible dans la démo.</value>
   </data>
+  <data name="ExperimentalBuild" xml:space="preserve">
+    <value>Build Expérimental</value>
+  </data>
+  <data name="ThisIsAnExperimentalBuild" xml:space="preserve">
+    <value>Il s'agit d'un build expérimental issu de la branche de développement. Il inclut des fonctionnalités activement développées et testées. Celles-ci peuvent être activées par défaut, basculées via les options de lancement, et peuvent être ajoutées ou supprimées à tout moment sans préavis.
+
+Aucune garantie n'est fournie concernant la compatibilité, les performances, la stabilité ou le support.
+
+L'activation de ces fonctionnalités peut affecter votre expérience de jeu et pourrait (va ?) entraîner des plantages, une perte de données ou d'autres comportements inattendus.
+
+Cela dit : vous avez des idées ou souhaitez effectuer des tests ? Partagez-les avec nous sur le Discord officiel HC !
+
+</value>
+  </data>
 </root>

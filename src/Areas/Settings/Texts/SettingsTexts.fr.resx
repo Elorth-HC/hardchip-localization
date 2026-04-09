@@ -315,4 +315,7 @@ ne seront pas supprimées.</value>
   <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
     <value>Affiche les différents blocs composant un MOS dans le menu de construction.</value>
   </data>
+  <data name="FastRayMarching" xml:space="preserve">
+    <value>Ray Marching rapide</value>
+  </data>
 </root>

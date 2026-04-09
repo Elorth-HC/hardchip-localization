@@ -294,4 +294,7 @@ werden nicht entfernt.</value>
   <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
     <value>Zeige die verschiedenen Blöcke, die einen MOS im Baumenü zusammensetzen.</value>
   </data>
+  <data name="FastRayMarching" xml:space="preserve">
+    <value>Schnelles Ray Marching</value>
+  </data>
 </root>

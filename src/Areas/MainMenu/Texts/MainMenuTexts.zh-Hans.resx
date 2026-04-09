@@ -87,4 +87,18 @@
   <data name="UnavailableInTheDemo" xml:space="preserve">
     <value>演示版中不可用。</value>
   </data>
+  <data name="ExperimentalBuild" xml:space="preserve">
+    <value>实验性版本</value>
+  </data>
+  <data name="ThisIsAnExperimentalBuild" xml:space="preserve">
+    <value>这是来自开发分支的实验性版本。其中包含正在积极开发和测试的功能。这些功能可能默认启用，可通过启动选项切换，并可随时添加或删除，恕不另行通知。
+
+对于兼容性、性能、稳定性或支持，不提供任何保证。
+
+启用这些功能可能会影响你的游戏体验，并可能（将会？）导致崩溃、数据丢失或其他意外行为。
+
+话虽如此：有想法或想运行一些测试？在官方 HC Discord 上与我们分享！
+
+</value>
+  </data>
 </root>

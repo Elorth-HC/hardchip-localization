@@ -284,4 +284,16 @@ Steam 用户名用于排行榜显示。</value>
 你的剧情进度和所有其他关卡解决方案
 不会被删除。</value>
   </data>
+  <data name="FastRayMarching" xml:space="preserve">
+    <value>快速光线步进</value>
+  </data>
+  <data name="TerminalGlitchEffect" xml:space="preserve">
+    <value>终端故障效果</value>
+  </data>
+  <data name="DistinctMOSBlocks" xml:space="preserve">
+    <value>独立 MOS 方块</value>
+  </data>
+  <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
+    <value>在建造菜单中显示组成 MOS 的各个方块。</value>
+  </data>
 </root>

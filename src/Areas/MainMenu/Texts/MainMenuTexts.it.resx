@@ -106,4 +106,18 @@
   <data name="WishlistHardChipOnSteam" xml:space="preserve">
     <value>Aggiungi Hard Chip alla lista dei desideri su Steam!</value>
   </data>
+  <data name="ExperimentalBuild" xml:space="preserve">
+    <value>Build Sperimentale</value>
+  </data>
+  <data name="ThisIsAnExperimentalBuild" xml:space="preserve">
+    <value>Questa è una build sperimentale del ramo di sviluppo. Include funzionalità in fase di sviluppo e test attivi. Queste potrebbero essere abilitate per impostazione predefinita, attivate tramite le opzioni di avvio e possono essere aggiunte o rimosse in qualsiasi momento senza preavviso.
+
+Non vengono fornite garanzie riguardo alla compatibilità, alle prestazioni, alla stabilità o al supporto.
+
+L'abilitazione di queste funzionalità potrebbe influire sull'esperienza di gioco e potrebbe (anzi, probabilmente?) causare crash, perdita di dati o altri comportamenti inaspettati.
+
+Detto ciò: hai idee o vuoi eseguire alcuni test? Condividili con noi sul Discord ufficiale di HC!
+
+</value>
+  </data>
 </root>

@@ -369,4 +369,7 @@
   <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
     <value>ビルドメニューでMOSを構成するさまざまなブロックを表示します。</value>
   </data>
+  <data name="FastRayMarching" xml:space="preserve">
+    <value>高速レイマーチング</value>
+  </data>
 </root>

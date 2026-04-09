@@ -294,4 +294,7 @@ won't be removed.</value>
   <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
     <value>Show the different blocks composing a MOS in the Build Menu.</value>
   </data>
+  <data name="FastRayMarching" xml:space="preserve">
+    <value>Fast Ray Marching</value>
+  </data>
 </root>
