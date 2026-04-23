@@ -140,4 +140,104 @@ Grado: {1}</value>
   <data name="ALUChip" xml:space="preserve">
     <value>Chip ALU di Byte</value>
   </data>
+  <data name="OneInOneOut" xml:space="preserve">
+    <value>Un ingresso, un'uscita</value>
+    <comment>Stage for learning input and output</comment>
+  </data>
+  <data name="Control" xml:space="preserve">
+    <value>Controllo</value>
+    <comment>Stage for learning how to control inputs state</comment>
+  </data>
+  <data name="TheConflict" xml:space="preserve">
+    <value>Il conflitto</value>
+    <comment>Stage for learning what happen when 1 and 0 signal touch</comment>
+  </data>
+  <data name="Compliance" xml:space="preserve">
+    <value>Conformità</value>
+    <comment>Stage for learning that the truth table criteria to finish a stage</comment>
+  </data>
+  <data name="CrossingStates" xml:space="preserve">
+    <value>Stati incrociati</value>
+    <comment>Stage for learning building upward in 3D space</comment>
+  </data>
+  <data name="TheWall" xml:space="preserve">
+    <value>Il Muro</value>
+    <comment>Stage for learning when trace will or wont connect together </comment>
+  </data>
+  <data name="TwoToOnePMOS" xml:space="preserve">
+    <value>Due a uno (PMOS)</value>
+    <comment>Stage for learning about PMOS </comment>
+  </data>
+  <data name="AlterEgoNMOS" xml:space="preserve">
+    <value>Alter ego (NMOS)</value>
+    <comment>Stage for learning about NMOS</comment>
+  </data>
+  <data name="TheMerger" xml:space="preserve">
+    <value>La Fusione</value>
+    <comment>Stage for learning how to combine and shape MOS</comment>
+  </data>
+  <data name="Constants" xml:space="preserve">
+    <value>Costanti</value>
+    <comment>Stage for learning about static power blocks 1 and 0</comment>
+  </data>
+  <data name="Schematic" xml:space="preserve">
+    <value>Schema</value>
+    <comment>Stage for learning how to use schematic with an inverter</comment>
+  </data>
+  <data name="Compacting" xml:space="preserve">
+    <value>Compattamento</value>
+    <comment>Stage for learning how to compact the inverter and to see metrics</comment>
+  </data>
+  <data name="Blueprint" xml:space="preserve">
+    <value>Schema progettuale</value>
+    <comment>Stage for learning how to use blueprint</comment>
+  </data>
+  <data name="AndButNotNAND" xml:space="preserve">
+    <value>E ma non (NAND)</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="TogetherAND" xml:space="preserve">
+    <value>Insieme (AND)</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="EitherOR" xml:space="preserve">
+    <value>L'uno o l'altro (OR)</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="ExclusiveOrXOR" xml:space="preserve">
+    <value>O esclusivo (XOR)</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="BitFullAdder" xml:space="preserve">
+    <value>Full adder a 1 bit</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="NibbleAdder4Bit" xml:space="preserve">
+    <value>Sommatore nibble (4Bit)</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="ByteAdder8Bit" xml:space="preserve">
+    <value>Sommatore di byte (8Bit)</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="AllAtNothingNOR8" xml:space="preserve">
+    <value>Tutto o niente (NOR8)</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="NegativeNumber" xml:space="preserve">
+    <value>Numero negativo</value>
+    <comment>Stage for learning about negative number representation</comment>
+  </data>
+  <data name="InvertValue1" xml:space="preserve">
+    <value>Inverti valore+1</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="AddOrSubtract" xml:space="preserve">
+    <value>Somma o sottrai</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="AlgoLogicUnit" xml:space="preserve">
+    <value>Unità Algo-Logica</value>
+    <comment>Stage name</comment>
+  </data>
 </root>

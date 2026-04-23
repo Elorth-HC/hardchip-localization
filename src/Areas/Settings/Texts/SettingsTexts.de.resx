@@ -297,4 +297,31 @@ werden nicht entfernt.</value>
   <data name="FastRayMarching" xml:space="preserve">
     <value>Schnelles Ray Marching</value>
   </data>
+  <data name="MSAASamples" xml:space="preserve">
+    <value>MSAA-Samples</value>
+  </data>
+  <data name="SSAAFactor" xml:space="preserve">
+    <value>SSAA-Faktor</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>Voreinstellungen</value>
+  </data>
+  <data name="Faster" xml:space="preserve">
+    <value>Schneller</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Schnell</value>
+  </data>
+  <data name="Balanced" xml:space="preserve">
+    <value>Ausgewogen</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Keines</value>
+  </data>
+  <data name="SSAA" xml:space="preserve">
+    <value>SSAA</value>
+  </data>
+  <data name="MSAA" xml:space="preserve">
+    <value>MSAA</value>
+  </data>
 </root>

@@ -372,4 +372,31 @@
   <data name="FastRayMarching" xml:space="preserve">
     <value>高速レイマーチング</value>
   </data>
+  <data name="MSAASamples" xml:space="preserve">
+    <value>MSAAサンプル数</value>
+  </data>
+  <data name="SSAAFactor" xml:space="preserve">
+    <value>SSAAファクター</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>プリセット</value>
+  </data>
+  <data name="Faster" xml:space="preserve">
+    <value>さらに高速</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="Balanced" xml:space="preserve">
+    <value>バランス</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="SSAA" xml:space="preserve">
+    <value>SSAA</value>
+  </data>
+  <data name="MSAA" xml:space="preserve">
+    <value>MSAA</value>
+  </data>
 </root>

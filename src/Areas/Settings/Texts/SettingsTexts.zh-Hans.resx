@@ -296,4 +296,31 @@ Steam 用户名用于排行榜显示。</value>
   <data name="ShowTheDifferentBlocksComposingAMOSInTheBuildMenu" xml:space="preserve">
     <value>在建造菜单中显示组成 MOS 的各个方块。</value>
   </data>
+  <data name="MSAASamples" xml:space="preserve">
+    <value>MSAA 采样</value>
+  </data>
+  <data name="SSAAFactor" xml:space="preserve">
+    <value>SSAA 倍数</value>
+  </data>
+  <data name="Presets" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="Faster" xml:space="preserve">
+    <value>更快</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>快速</value>
+  </data>
+  <data name="Balanced" xml:space="preserve">
+    <value>均衡</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="SSAA" xml:space="preserve">
+    <value>SSAA</value>
+  </data>
+  <data name="MSAA" xml:space="preserve">
+    <value>MSAA</value>
+  </data>
 </root>

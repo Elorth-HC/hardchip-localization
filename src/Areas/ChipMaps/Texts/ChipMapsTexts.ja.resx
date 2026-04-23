@@ -199,4 +199,104 @@
   <data name="ALUChip" xml:space="preserve">
     <value>バイトALUチップ</value>
   </data>
+  <data name="OneInOneOut" xml:space="preserve">
+    <value>1入力1出力</value>
+    <comment>Stage for learning input and output</comment>
+  </data>
+  <data name="Control" xml:space="preserve">
+    <value>制御</value>
+    <comment>Stage for learning how to control inputs state</comment>
+  </data>
+  <data name="TheConflict" xml:space="preserve">
+    <value>衝突</value>
+    <comment>Stage for learning what happen when 1 and 0 signal touch</comment>
+  </data>
+  <data name="Compliance" xml:space="preserve">
+    <value>適合</value>
+    <comment>Stage for learning that the truth table criteria to finish a stage</comment>
+  </data>
+  <data name="CrossingStates" xml:space="preserve">
+    <value>交差する状態</value>
+    <comment>Stage for learning building upward in 3D space</comment>
+  </data>
+  <data name="TheWall" xml:space="preserve">
+    <value>ウォール</value>
+    <comment>Stage for learning when trace will or wont connect together </comment>
+  </data>
+  <data name="TwoToOnePMOS" xml:space="preserve">
+    <value>2対1（PMOS）</value>
+    <comment>Stage for learning about PMOS </comment>
+  </data>
+  <data name="AlterEgoNMOS" xml:space="preserve">
+    <value>別の自己（NMOS）</value>
+    <comment>Stage for learning about NMOS</comment>
+  </data>
+  <data name="TheMerger" xml:space="preserve">
+    <value>合体</value>
+    <comment>Stage for learning how to combine and shape MOS</comment>
+  </data>
+  <data name="Constants" xml:space="preserve">
+    <value>定数</value>
+    <comment>Stage for learning about static power blocks 1 and 0</comment>
+  </data>
+  <data name="Schematic" xml:space="preserve">
+    <value>回路図</value>
+    <comment>Stage for learning how to use schematic with an inverter</comment>
+  </data>
+  <data name="Compacting" xml:space="preserve">
+    <value>圧縮</value>
+    <comment>Stage for learning how to compact the inverter and to see metrics</comment>
+  </data>
+  <data name="Blueprint" xml:space="preserve">
+    <value>ブループリント</value>
+    <comment>Stage for learning how to use blueprint</comment>
+  </data>
+  <data name="AndButNotNAND" xml:space="preserve">
+    <value>かつ、しかし否定（NAND）</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="TogetherAND" xml:space="preserve">
+    <value>両方（AND）</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="EitherOR" xml:space="preserve">
+    <value>どちらか（OR）</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="ExclusiveOrXOR" xml:space="preserve">
+    <value>排他的論理和（XOR）</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="BitFullAdder" xml:space="preserve">
+    <value>ビット全加算器</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="NibbleAdder4Bit" xml:space="preserve">
+    <value>ニブル加算器（4Bit）</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="ByteAdder8Bit" xml:space="preserve">
+    <value>バイト加算器（8Bit）</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="AllAtNothingNOR8" xml:space="preserve">
+    <value>全て0（NOR8）</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="NegativeNumber" xml:space="preserve">
+    <value>負の数</value>
+    <comment>Stage for learning about negative number representation</comment>
+  </data>
+  <data name="InvertValue1" xml:space="preserve">
+    <value>値を反転+1</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="AddOrSubtract" xml:space="preserve">
+    <value>加算または減算</value>
+    <comment>Stage name</comment>
+  </data>
+  <data name="AlgoLogicUnit" xml:space="preserve">
+    <value>アルゴ・ロジック・ユニット</value>
+    <comment>Stage name</comment>
+  </data>
 </root>

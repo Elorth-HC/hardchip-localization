@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(powershell -File scripts/VerifyAllTranslations.ps1)",
-      "Bash(Select-String -Pattern \"\\(ISSUES FOUND|Missing key|Translation coverage\\)\")",
-      "Bash(powershell -Command \"& scripts/VerifyAllTranslations.ps1 | Select-String -Pattern '\\(ISSUES FOUND|Missing key|Translation coverage\\)'\")"
-    ]
-  }
-}
