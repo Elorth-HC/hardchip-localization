@@ -493,4 +493,7 @@ colocarla en el portapapeles y en la carpeta de capturas de Steam.</value>
   <data name="ComparerModeSummary" xml:space="preserve">
     <value>Comparador</value>
   </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>Alta calidad</value>
+  </data>
 </root>

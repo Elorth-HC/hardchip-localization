@@ -493,4 +493,7 @@ et la place dans le presse-papiers ainsi que dans le dossier de captures Steam.<
   <data name="ComparerModeSummary" xml:space="preserve">
     <value>Comparateur</value>
   </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>Haute qualité</value>
+  </data>
 </root>

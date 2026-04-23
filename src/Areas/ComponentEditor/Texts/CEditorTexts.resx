@@ -493,4 +493,7 @@ put in the clipboard and Steam Screenshot Folder.</value>
   <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>Random validation phase, doesn't count toward tick score.</value>
   </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>High Quality</value>
+  </data>
 </root>

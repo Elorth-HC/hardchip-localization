@@ -564,4 +564,7 @@
   <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>ランダム検証フェーズ。ティックスコアには影響しません。</value>
   </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>高品質</value>
+  </data>
 </root>

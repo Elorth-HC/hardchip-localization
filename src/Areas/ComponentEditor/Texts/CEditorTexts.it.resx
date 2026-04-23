@@ -500,4 +500,7 @@ Il circuito verrà ridotto alla dimensione più piccola possibile per includere 
   <data name="OutputToMatchNamed" xml:space="preserve">
     <value>Output al nome corrispondente </value>
   </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>Alta qualità</value>
+  </data>
 </root>

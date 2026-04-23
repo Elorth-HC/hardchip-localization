@@ -504,4 +504,7 @@ und lege ihn in die Zwischenablage sowie den Steam-Screenshot-Ordner ab.</value>
   <data name="ComparerModeSummary" xml:space="preserve">
     <value>Vergleicher</value>
   </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>Hohe Qualität</value>
+  </data>
 </root>

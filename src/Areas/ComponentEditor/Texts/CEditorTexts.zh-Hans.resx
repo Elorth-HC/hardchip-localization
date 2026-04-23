@@ -492,4 +492,7 @@ Discord 和所有支持粘贴文件的程序中。</value>
   <data name="RandomValidationPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>随机验证阶段，不计入时钟周期分数。</value>
   </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>高质量</value>
+  </data>
 </root>
