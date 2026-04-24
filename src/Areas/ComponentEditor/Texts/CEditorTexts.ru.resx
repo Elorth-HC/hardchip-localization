@@ -505,4 +505,7 @@ Discord, и любые другие программы, поддерживающ
   <data name="OpenBlueprintLibrary" xml:space="preserve">
     <value>Открыть библиотеку чертежей</value>
   </data>
+  <data name="HighQuality" xml:space="preserve">
+    <value>Высокое качество</value>
+  </data>
 </root>
