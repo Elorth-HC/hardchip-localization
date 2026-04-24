@@ -23,6 +23,7 @@ Contributors who wished to get recognized:
 - **Elorth Example** - All terminals corrections.
 
 #### 🇷🇺 Russian (ru)
+- **Dexoron** - Translation of levels and settings UI.
 
 #### 🇮🇹 Italian (it)
 - **ir_trevi** - Full translation
