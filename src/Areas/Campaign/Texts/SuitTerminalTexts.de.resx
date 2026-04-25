@@ -81,4 +81,10 @@ w83Drück eine beliebige Taste, um fortzufahren ...</value>
   <data name="Press0ToInteract" xml:space="preserve">
     <value>Drücke {0}, um zu interagieren</value>
   </data>
+  <data name="CommandCommandNameNotFoundAvailableCommandsHelp" xml:space="preserve">
+    <value>Befehl '{0}' nicht gefunden. Verfügbare Befehle:</value>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>Verfügbare Befehle:</value>
+  </data>
 </root>

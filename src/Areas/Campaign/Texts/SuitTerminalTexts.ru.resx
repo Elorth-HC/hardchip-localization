@@ -100,4 +100,10 @@ w83Нажмите любую клавишу, чтобы продолжить...<
   <data name="BYPASSChip" xml:space="preserve">
     <value>чип BYPASS</value>
   </data>
+  <data name="CommandCommandNameNotFoundAvailableCommandsHelp" xml:space="preserve">
+    <value>Команда '{0}' не найдена. Доступные команды:</value>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>Доступные команды:</value>
+  </data>
 </root>

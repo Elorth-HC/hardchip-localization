@@ -81,4 +81,10 @@ w83Press any key to acknowledge...</value>
   <data name="Press0ToInteract" xml:space="preserve">
     <value>Press {0} to interact</value>
   </data>
+  <data name="CommandCommandNameNotFoundAvailableCommandsHelp" xml:space="preserve">
+    <value>Command '{0}' not found. Available commands:</value>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>Available commands:</value>
+  </data>
 </root>

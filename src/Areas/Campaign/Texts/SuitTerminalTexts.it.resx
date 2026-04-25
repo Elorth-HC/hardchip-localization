@@ -100,4 +100,10 @@ y39Azione immediata richiesta: errori di sistema rilevati
 g90
 w83Premi un tasto per continuare...</value>
   </data>
+  <data name="CommandCommandNameNotFoundAvailableCommandsHelp" xml:space="preserve">
+    <value>Comando '{0}' non trovato. Comandi disponibili:</value>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>Comandi disponibili:</value>
+  </data>
 </root>

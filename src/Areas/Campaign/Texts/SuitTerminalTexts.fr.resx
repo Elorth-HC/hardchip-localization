@@ -81,4 +81,10 @@ w83Appuyez sur une touche pour confirmer...</value>
   <data name="Press0ToInteract" xml:space="preserve">
     <value>{0} pour interagir</value>
   </data>
+  <data name="CommandCommandNameNotFoundAvailableCommandsHelp" xml:space="preserve">
+    <value>Commande '{0}' introuvable. Commandes disponibles :</value>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>Commandes disponibles :</value>
+  </data>
 </root>

@@ -81,4 +81,10 @@ w83按任意键确认...</value>
   <data name="Press0ToInteract" xml:space="preserve">
     <value>按 {0} 交互</value>
   </data>
+  <data name="CommandCommandNameNotFoundAvailableCommandsHelp" xml:space="preserve">
+    <value>命令"{0}"未找到。可用命令：</value>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>可用命令：</value>
+  </data>
 </root>

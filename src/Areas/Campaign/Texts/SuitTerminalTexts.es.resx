@@ -81,4 +81,10 @@ w83Pulsa cualquier tecla para continuar...</value>
   <data name="Press0ToInteract" xml:space="preserve">
     <value>Pulsa {0} para interactuar</value>
   </data>
+  <data name="CommandCommandNameNotFoundAvailableCommandsHelp" xml:space="preserve">
+    <value>Comando '{0}' no encontrado. Comandos disponibles:</value>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>Comandos disponibles:</value>
+  </data>
 </root>
