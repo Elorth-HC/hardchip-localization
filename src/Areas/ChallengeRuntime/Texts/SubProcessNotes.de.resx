@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Bypass -->
+  <data name="OneInOneOutNotes" xml:space="preserve">
+    <value>SUBPROCESS-Helfer HINZUGEFÜGT zur Sitzung. GRUND: increase_resolution_probability.
+
+Einen Pin mit einem anderen verbinden. Das ist die ganze Aufgabe. Hier gibt es keine Logik, nur eine Leitung. Hier zu beginnen ist passend. Jede kommende Schaltung ist im Grunde nichts anderes als eine Sammlung von Entscheidungen darüber, was womit verbunden wird. Dies ist die erste.</value>
+  </data>
+  <data name="ControlNotes" xml:space="preserve">
+    <value>Ändere jetzt das Eingangssignal. Dieser Knopf oder Schalter ist es, der es treibt. Eine Kleinigkeit, aber sie verdient eine Pause: Die Schaltung tut nichts Interessantes, solange nicht etwas vorgelagertes beschließt, ein Signal zu senden. Von hier an heißt ein Design zu testen, Eingänge aktiv zu setzen und Ausgänge zu prüfen. Damit fängt es an.</value>
+  </data>
+  <data name="TheConflictNotes" xml:space="preserve">
+    <value>Es gibt einen Konflikt im Routing. Zwei Bahnen, die nicht verbunden sein sollten, sind es. Das ist ein Kurzschluss. Das Interessante an Kurzschlüssen ist, dass sie verwirrender sind als eine unterbrochene Verbindung: Statt nichts bekommt man falsches Verhalten. Einen hier zu sehen, wo die ganze Schaltung auf einen Blick passt, ist ein guter Moment, um zu verstehen, wie das aussieht.</value>
+  </data>
+  <data name="ComplianceNotes" xml:space="preserve">
+    <value>Der Chip muss jetzt Konformitätskriterien erfüllen, eine Reihe von Bedingungen, die er für alle erforderlichen Eingaben erfüllen muss. Hier wird aus Design Ingenieurarbeit: Es reicht nicht, etwas verbunden zu haben, es muss unter allen geforderten Testfällen korrekt sein. Über das Konformitätssystem wird ab jetzt jeder Chip bewertet. Lohnt sich, es klar zu verstehen, bevor die Schaltungen komplexer werden.</value>
+  </data>
+  <data name="CrossingStatesNotes" xml:space="preserve">
+    <value>Die Bahnen hier kreuzen Bereiche mit unterschiedlichen Signalzuständen. Das Routing kann das nicht ignorieren. Wo eine Bahn verläuft, ist elektrisch von Bedeutung, nicht nur räumlich. Zum ersten Mal wirkt das Layout des Die als Einschränkung, statt nur als Leinwand. Dieses Bewusstsein ist in jedem Chip präsent, der danach kommt.</value>
+  </data>
+  <data name="TheWallNotes" xml:space="preserve">
+    <value>Es gibt ein physisches Hindernis, das den direkten Weg blockiert. Nicht nur ein elektrisches Problem, sondern auch Geometrie. Layouts haben reichlich davon. Das Routing muss um das herum, was im Weg ist. Die Einschränkung hier ist überschaubar. Aber es kann enger werden.</value>
+  </data>
+
+  <!-- Inverter -->
+  <data name="TwoToOnePMOSNotes" xml:space="preserve">
+    <value>Ein PMOS-Transistor leitet (Kanal), wenn sein Gate auf Low gezogen wird. Er ist an, wenn das Signal aus ist, und aus, wenn das Signal an ist. Das läuft wahrscheinlich dem zuwider, wie man sich einen Schalter vorstellt. Es lohnt sich, einen Moment zu nehmen, um das wirklich zu verinnerlichen, statt es nur zu akzeptieren. Es kommt ein komplementärer Typ, der genau umgekehrt funktioniert, und die Paarung ergibt nur Sinn, wenn beide Hälften für sich klar sind.</value>
+  </data>
+  <data name="AlterEgoNMOSNotes" xml:space="preserve">
+    <value>NMOS leitet, wenn das Gate auf High ist, und blockiert, wenn es auf Low ist. Also genau das Gegenteil eines PMOS. Beide Hälften sind jetzt vorhanden. Die Schlüsselerkenntnis bei der Paarung von PMOS und NMOS ist Effizienz: Wenn der eine leitet, leitet der andere nicht, sodass es fast nie einen direkten Pfad von 1 (Versorgung) zu 0 (Masse) gibt. Dieser komplementäre (C) Teil eines CMOS-basierten Designs ist das zentrale Element (fast) aller Digitaltechnik.
+
+CMOS (Complementary Metal-Oxide-Semiconductor) ist die dominante Transistortechnologie, die praktisch der gesamten modernen digitalen Elektronik zugrunde liegt. Einige Schlüsselgründe für ihre Allgegenwart:
+
+Warum CMOS gewonnen hat:
+- Er zieht nur beim Schalten signifikanten Strom (nicht im Ruhezustand), was ihn weit energieeffizienter macht als ältere bipolare oder reine NMOS- oder reine PMOS-Designs
+- Er skaliert gut. Jahrzehnte von Prozess-Schrumpfungen (gemäß Moore's Law) wurden weitgehend von CMOS getragen
+- Er ist mit hoher Ausbeute und in Massenvolumen herstellbar
+
+Wo man ihn findet:
+- CPUs, GPUs, mobile SoCs sind alle CMOS-Logik
+- DRAM und NAND-Flash-Speicher
+- Bildsensoren (CMOS-Sensoren haben CCD als Standard abgelöst)
+- Analog-/Mixed-Signal-Chips (Operationsverstärker, ADCs, PLLs) verwenden zunehmend CMOS-Prozesse
+- FPGAs, Mikrocontroller, ASICs</value>
+  </data>
+  <data name="TheMergerNotes" xml:space="preserve">
+    <value>Zwei Transistoren, getrennte Funktionen, die sich physische Strukturen auf dem Die teilen können, ohne sich gegenseitig zu stören. Ein Gehäuse, zwei Schalter. Diese Ko-Lokalisierung ist es, was CMOS-Layouts kompakt machen kann, gleicher Footprint statt zweier getrennter Bereiche.</value>
+  </data>
+  <data name="ConstantsNotes" xml:space="preserve">
+    <value>Der 1-Block ist immer die High-Konstante (oder Versorgung). Der 0-Block ist die Low-Konstante, immer 0 (oder GND). Das sind Versorgungsebenen, die den Chip durchziehen, und hier sind sie Routing-Ressourcen, die man explizit verbindet. Diese Unterscheidung zählt: Die HIGH- und LOW-Zustände in einer Schaltung erscheinen nicht durch Magie. Etwas liefert sie, hier reduziert auf die Blöcke 0 und 1.</value>
+  </data>
+  <data name="SchematicNotes" xml:space="preserve">
+    <value>Der Schaltplan zeigt den Inverter als abstrakte Topologie: Transistoren, Verbindungen, Versorgungsschienen, ohne physische Positionen. Die Aufgabe ist, diese Topologie auf dem Die umzusetzen. Das ist die Übersetzungsschicht zwischen Spezifikation und Implementierung. Lohnt sich, sie als eigene Fertigkeit zu behandeln. Die kommenden Schaltpläne sind komplexer. Die Gewohnheit jetzt aufzubauen, macht jene handhabbar statt überwältigend.</value>
+  </data>
+  <data name="CompactingNotes" xml:space="preserve">
+    <value>Den gleichen Inverter in einen kleineren Footprint pressen. Kompakte Layouts laufen schneller und lassen Platz für mehr Schaltkreise auf dem Die. Hier wird Kompaktheit bewertet. Das Interessante an Verdichtung ist, dass sie das Routing-Problem verändert: Statt einen Pfad zu finden, sucht man einen Pfad, der andere Pfade nicht blockiert. Das Layout fängt an, sich nach Packen anzufühlen, nicht nur nach Verbinden.</value>
+  </data>
+  <data name="BlueprintNotes" xml:space="preserve">
+    <value>Der vorherige Inverter ist jetzt als Blueprint verfügbar, und die Aufgabe ist, ihn unverändert wiederzuverwenden. Es ist die gleiche Schaltung, und du kannst sie einfügen, spiegeln, drehen, wie du willst. Das hier produzierte Design wird als Komponente in komplexeren Designs weitergeführt.</value>
+  </data>
+
+  <!-- Adder -->
+  <data name="AdderNANDNotes" xml:space="preserve">
+    <value>Eines der ikonischsten Logikgatter, das NAND: Der Ausgang ist nur dann Low, wenn beide Eingänge High sind. Es ist das universellste Gatter der Digitallogik. Jedes andere Gatter kann allein aus NANDs konstruiert werden. Das musst du jetzt nicht tun, aber es ist gut, es im Kopf zu haben. Die CMOS-Implementierung des NAND ist außerdem von Natur aus effizient, was wichtig wird, je größer die Schaltungen werden. Jetzt ist der Moment, sicherzustellen, dass dein NAND so ist, wie du viele, viele NANDs sehen möchtest. Denk daran: Das hier produzierte Design wird als Blueprint in komplexeren Designs weitergeführt.</value>
+  </data>
+  <data name="AdderANDNotes" xml:space="preserve">
+    <value>AND ist ein NAND, gefolgt von einem Inverter. Beides ist jetzt zur Hand. Das ist das Kompositionsmuster, das sich durch das ganze Chipdesign zieht: Komplexe Logik ist einfachere Logik, kombiniert. AND ist ein direkter Bestandteil der Arithmetik, keine Vorarbeit.</value>
+  </data>
+  <data name="AdderORNotes" xml:space="preserve">
+    <value>OR: Der Ausgang ist High, wenn mindestens ein Eingang High ist. Mit AND und NOT bereits zur Hand ist der vollständige Satz boolescher Primitive jetzt komplett. Jede Logikfunktion lässt sich aus diesen dreien aufbauen. Alle drei zu haben ist der Punkt, an dem sich der Designraum öffnet, statt sich eingeschränkt anzufühlen.</value>
+  </data>
+  <data name="AdderXORNotes" xml:space="preserve">
+    <value>XOR: Der Ausgang ist High, wenn die beiden Eingänge sich unterscheiden, einer High und einer Low. Nicht wenn beide High sind, nicht wenn beide Low sind. Dieses „genau eines"-Verhalten ist der Schlüssel. Das Summenbit der binären Addition ist XOR: 0+0 ist 0, 1+0 oder 0+1 ist 1, und 1+1 ist 0 mit einem Übertrag. Der Übertrag wird separat behandelt. XOR macht die halbe Arbeit jedes einzelnen Bits im Addierer. Es ist auch die erste Logik, die sich bei Bedarf drastisch über PTL verdichten ließe, eine ganz andere, niedrigere Abstraktionsebene. Vollkommen optional, nur eine weitere Möglichkeit, Designs kompakt zu halten.</value>
+  </data>
+  <data name="FullBitAdderNotes" xml:space="preserve">
+    <value>Ein Volladdierer (full adder) nimmt drei Eingänge entgegen, zwei Datenbits und einen Übertrag (carry) von der vorherigen Stelle, und erzeugt eine Summe und einen Übertrag zur nächsten Stelle. Die Summe ist das XOR aller drei Eingänge. Der Übertrag ist wahr, wenn mindestens zwei der drei wahr sind. Sobald diese Zelle funktioniert, wird sie zum Baustein für alles, was breiter mit Addierern zu tun hat. Die Übertragskette, die durch das Verketten dieser Zellen entsteht, ist die zentrale strukturelle Idee der binären Addition.</value>
+  </data>
+  <data name="NibbleAdderNotes" xml:space="preserve">
+    <value>Vier Volladdiererzellen verkettet, der Übertrag jeder Stelle speist den Übertragseingang der nächsten. Das ist Ripple-Carry-Addition. „Ripple" bezieht sich darauf, wie sich der Übertrag sequentiell von Stelle zu Stelle fortpflanzt. Jedes Bit wartet, bis das davor sich stabilisiert hat, bevor sein eigener Ausgang final ist. Die Struktur ist direkt und die Übertragskette vollständig sichtbar, was dies zur klarsten Art macht, zu sehen, wie mehrbittige Arithmetik funktioniert.</value>
+  </data>
+  <data name="ByteAdderNotes" xml:space="preserve">
+    <value>Acht Volladdiererzellen, der Übertrag pflanzt sich durch alle acht Bitstellen fort. In dieser Größe sind Layout und Routing die Herausforderung: viele Signalpfade, die geordnet bleiben müssen, und eine Übertragskette, die von Anfang bis Ende sauber sein muss. Die hier nötige Designdisziplin trägt sich weiter. Diese gut zu organisieren ist wichtig für das, was darauf aufbaut.</value>
+  </data>
+
+  <!-- ALU -->
+  <data name="ALUXORNotes" xml:space="preserve">
+    <value>XOR erneut. Du hast es schon gebaut. In diesem Kontext erscheint es in zwei Rollen: innerhalb des arithmetischen Pfades wie zuvor und als auswählbare bitweise Operation. Gleiches Gatter, zwei Aufgaben. Die zweite Verwendung ist es, die beginnt, die ALU konfigurierbar statt fest zu machen. Lohnt sich, es mit beiden Rollen im Kopf zu bauen.</value>
+  </data>
+  <data name="NOR8Notes" xml:space="preserve">
+    <value>Ein NOR-Gatter mit 8 Eingängen. Der Ausgang ist nur High, wenn alle 8 Eingänge Low sind, das heißt, der Wert ist Null. Das ist der Nulldetektor. Klingt unscheinbar im Vergleich zur Arithmetik, aber Nullerkennung ist tragend: So weiß eine Schaltung, ob ein Ergebnis nichts ergeben hat, und diese Frage steuert bedingtes Verhalten. Dieses Gatter macht diese Frage beantwortbar.</value>
+  </data>
+  <data name="NegativeNumberNotes" xml:space="preserve">
+    <value>Das Zweierkomplement (two's complement) ist die Art, wie binäre Hardware negative Zahlen darstellt. Das Bitmuster für minus eins in 8 Bit ist 11111111. Addiere das zu 00000001, also plus eins, und du bekommst 100000000. Verwirf den Überlauf, und du bekommst 00000000. Null. Das ist die Definition: Die Negation im Zweierkomplement ist der Wert, den man zum Original addiert, um Null zu erhalten. Praktisch zählt das, weil Subtraktion dann mit derselben Schaltung wie Addition erfolgen kann, ohne jede Änderung. Sobald es klick macht, ist es elegant. Bevor es klick macht, wirkt es willkürlich.</value>
+  </data>
+  <data name="InvertValueNotes" xml:space="preserve">
+    <value>Alle 8 Bit auf einmal invertieren, ein bitweises NOT über das ganze Byte. Das ist Schritt eins der Negation im Zweierkomplement: alle Bits umkehren, dann eins addieren. Hier liegt der Fokus nur auf dem Umkehren. Das Umkehren und die nachfolgende Addition werden von verschiedenen Teilen der Schaltung umgesetzt, also macht es das Verständnis der vollständigen Operation einfacher, sie zuerst getrennt zu sehen, wenn sie kombiniert sind.</value>
+  </data>
+  <data name="AddOrSubtractNotes" xml:space="preserve">
+    <value>Ein einzelnes Bit entscheidet, ob diese Schaltung addiert oder subtrahiert. Wenn das Steuerbit 0 ist, geht der zweite Operand unverändert durch und es ergibt sich Addition. Wenn es 1 ist, wird der zweite Operand invertiert und der Carry-Eingang auf 1 gesetzt, was die Negation im Zweierkomplement vervollständigt. Die Hardware ist in beiden Fällen die gleiche Schaltung. Der Steuereingang lenkt die Daten um. Das ist Konfigurierbarkeit auf Gatterebene, und das ist das Prinzip, auf dem die vollständige ALU aufgebaut ist.</value>
+  </data>
+  <data name="AlgoLogicUnitNotes" xml:space="preserve">
+    <value>Hier kommt alles zusammen: der Addierer/Subtrahierer, die bitweisen Logikoperationen, der Nulldetektor, alles über Steuersignale ausgewählt. Die ALU tut nicht eine Sache. Sie tut mehrere Dinge, und die Steuereingänge bestimmen, welches gerade passiert. Das ist der Schritt von einer Schaltung, die rechnet, zu einer Schaltung, die gelenkt werden kann. Ich denke, das ist der stärkste Punkt dieser ganzen Karte. Lohnt sich, bei dem zu verweilen, was gerade gebaut wurde.</value>
+  </data>
+
+  <!-- Register -->
+  <data name="RegisterInverterNotes" xml:space="preserve">
+    <value>Dieser ist vertraut. Ein Inverter, NOT-Gatter. Er ist hier, weil das, was als Nächstes in diesem Abschnitt kommt, NOT auf nicht offensichtliche Weisen verwendet, besonders in Rückkopplungspfaden. Vom Primitiven auszugehen, statt anzunehmen, es sei schon solide, ist der richtige Ansatz.</value>
+  </data>
+  <data name="RegisterNANDNotes" xml:space="preserve">
+    <value>NAND erneut. Im Addiererabschnitt war NAND ein Schritt zu AND. Hier hat es eine andere Folge-Rolle. Zwei kreuzgekoppelte NAND-Gatter, deren Ausgänge jeweils in den Eingang des anderen zurückgeführt werden, bilden das einfachste mögliche Speicherelement. Diese Rückkopplungstopologie ist das, was als Nächstes kommt. Das zu wissen ändert, was es bedeutet, dieses hier sorgfältig zu bauen.</value>
+  </data>
+  <data name="RegisterANDNotes" xml:space="preserve">
+    <value>AND. Ebenfalls vertraut. Im Speicherkontext taucht es bei der Enable-Steuerung auf, der Logik, die kontrolliert, ob ein Speicherelement gerade für neue Eingaben offen ist. Das Muster ist: Enable AND Data speist den Speichereingang. Gleiches Gatter wie zuvor, andere Aufgabe.</value>
+  </data>
+  <data name="RegisterORNotes" xml:space="preserve">
+    <value>OR. Ebenfalls vertraut. Der Register-Chip nutzt das volle Gatter-Vokabular, und OR gehört dazu. Es erscheint in der Auswahl- und Routinglogik, der Schaltung, die Signale an den richtigen Ort lenkt.</value>
+  </data>
+  <data name="NORNotes" xml:space="preserve">
+    <value>NOR: Der Ausgang ist nur High, wenn alle Eingänge Low sind. Wie NAND ist NOR universell, und wie bei NAND bilden zwei kreuzgekoppelte NOR-Gatter das einfachste mögliche Speicherelement. Es gibt zwei Wege, dieses Element zu bauen: kreuzgekoppelte NANDs und kreuzgekoppelte NORs. Sie verhalten sich leicht unterschiedlich, der aktive Zustand ist zwischen ihnen invertiert. Beide Wege führen zur Speicherung.</value>
+  </data>
+  <data name="TriStateBufferNotes" xml:space="preserve">
+    <value>Ein Tri-State-Buffer hat drei mögliche Ausgangszustände: High, Low und hochohmig (high-impedance). Hochohmig heißt, nichts zu treiben. Wenn ein Tri-State-Ausgang in diesem Zustand ist, ist die angeschlossene Leitung frei für etwas anderes zum Treiben. Das ist es, was geteilte Verbindungen ermöglicht: mehrere Ausgänge an derselben Leitung, abwechselnd, mit nur einem aktiv zur Zeit. Ohne diesen Mechanismus funktioniert selektives Auslesen nicht, und ein Register, das nicht selektiv gelesen werden kann, ist nicht brauchbar.</value>
+  </data>
+  <data name="SRLatchNotes" xml:space="preserve">
+    <value>Das SR latch ist die erste Schaltung hier, die einen Zustand hält. Setzt man es auf High, bleibt es High. Setzt man es zurück, bleibt es Low. Entfernt man die Eingabe komplett, bleibt es dort, wo man es zuletzt gelassen hat. Dieses Verhalten kommt von zwei kreuzgekoppelten Gattern, deren Ausgänge in die Eingänge des jeweils anderen führen. Die Rückkopplungsschleife ist in zwei Positionen stabil und bleibt in jener, in die sie zuletzt gesetzt wurde. So funktioniert alle digitale Speicherung an der Wurzel. Das ist die Wurzel. Die Rückkopplungstopologie hier verdient es, vollständig verstanden zu werden, bevor es weitergeht, weil alles, was darauf aufbaut, mit dieser solide hier mehr Sinn ergeben wird.</value>
+  </data>
+  <data name="DLatchNotes" xml:space="preserve">
+    <value>Das D latch behebt den ungültigen Zustand des SR latch. Statt getrennter Set- und Reset-Eingänge gibt es einen Data-Eingang. Das Latch speist D automatisch in den Set-Pfad und NOT-D in den Reset-Pfad. Diese beiden sind immer komplementär, daher kann der ungültige Zustand nicht erreicht werden. Das Speicherverhalten ist identisch. Das ist die Designentwicklung von „funktioniert" zu „funktioniert korrekt unter allen Eingaben".</value>
+  </data>
+  <data name="DLatchWithEnableNotes" xml:space="preserve">
+    <value>Write Enable steuert, wann das Latch neue Daten erfasst. Output Enable (das Tri-State) steuert, wann der gespeicherte Wert am Ausgang erscheint. Zwei getrennte Steuerungen, beide nötig: Ein Speicherelement, das nur beschrieben werden kann, ist unvollständig, und eines, das den Ausgang die ganze Zeit treibt, verursacht Konflikte. Diese Zelle, beschreibbar und selektiv lesbar, ist die vollständige Speicherprimitive für ein einzelnes Bit. Hochskaliert ist das ein Register.</value>
+  </data>
+  <data name="FlipFlopNotes" xml:space="preserve">
+    <value>Das D latch ist transparent, solange es aktiviert ist. Daten fließen direkt durch, was Probleme verursacht, wenn der Ausgang in den Eingang zurückgeführt wird. Das flip-flop löst das, indem es Daten in genau einem Moment erfasst: an der Taktflanke. Vor der Flanke kann der Eingang machen, was er will. Nach der Flanke hält das flip-flop, was es in diesem Augenblick gesehen hat, und ignoriert alles andere bis zur nächsten Flanke. Diese taktgesteuerte Disziplin macht komplexe sequentielle Schaltungen vorhersagbar. Ohne sie jagt man Race Conditions in einer Schaltung hinterher, die sich schneller ändert, als man darüber nachdenken kann. Dieses hier verdient es, fest zu sitzen. Alles Sequenzielle ab hier hängt von diesem Verhalten ab.</value>
+  </data>
+  <data name="SelfSustainingBitNotes" xml:space="preserve">
+    <value>Ein selbsterhaltendes Bit speist seinen Ausgang zurück, um den aktuellen Zustand zu verstärken. Einmal gesetzt, hält es sich ohne fortlaufende Eingabe. Das isoliert das Rückkopplungsprinzip, das jedem bisher gebauten Speicherelement zugrunde liegt, und macht es als eigenes Design explizit.</value>
+  </data>
+  <data name="BusTransceiverNotes" xml:space="preserve">
+    <value>Ein Bustransceiver kann auf derselben Leitung sowohl senden als auch empfangen. Eine Richtungssteuerung bestimmt, in welche Richtung die Daten gerade fließen. Kombiniert mit Tri-State-Ausgang ist das die vollständige Schnittstelle zwischen einem Speicherelement und einem geteilten Bus. Der Transceiver ist das Stück, das gespeicherte Werte für alles auf dem Bus zugänglich macht.</value>
+  </data>
+  <data name="BitRegisterNotes" xml:space="preserve">
+    <value>Ein vollständiges Bit-Register: an einer Taktflanke beschreibbar, durch ein Tri-State lesbar, mit einem Bus verbunden. Das ist die wiederholte Einheit. Das Register, auf das diese gesamte Karte hinarbeitet, ist diese Zelle, hochskaliert. Wird vorerst automatisch abgeschlossen.</value>
+  </data>
+  <data name="FourBitRegisterNotes" xml:space="preserve">
+    <value>Vier Bit-Register, gemeinsam adressiert über eine geteilte Steuerschnittstelle. Hier wird das Konzept des Registers greifbar: mehrere Speicherbits, die zusammen lesen und schreiben. Die Struktur skaliert von hier aus sauber. Wird vorerst automatisch abgeschlossen.</value>
+  </data>
+
+</root>
