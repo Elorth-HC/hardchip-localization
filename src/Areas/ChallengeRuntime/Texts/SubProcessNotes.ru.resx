@@ -185,5 +185,7 @@ CMOS (Complementary Metal-Oxide-Semiconductor) — доминирующая тр
   <data name="FourBitRegisterNotes" xml:space="preserve">
     <value>Четыре однобитных регистра, адресуемых вместе через общий интерфейс управления. Здесь концепция регистра становится осязаемой: несколько бит хранения, читающихся и записывающихся вместе. Структура отсюда чисто масштабируется. Пока завершается автоматически.</value>
   </data>
-
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] закрыть/показать</value>
+  </data>
 </root>

@@ -185,5 +185,7 @@ CMOS 为什么胜出：
   <data name="FourBitRegisterNotes" xml:space="preserve">
     <value>四颗位寄存器，由共享的控制接口一起寻址。在这里寄存器的概念变得可触：多位存储，整体读、整体写。结构从这里起干净地放大。目前自动完成。</value>
   </data>
-
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] 关闭/显示</value>
+  </data>
 </root>

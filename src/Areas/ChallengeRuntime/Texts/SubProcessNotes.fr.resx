@@ -185,5 +185,7 @@ Où on le trouve :
   <data name="FourBitRegisterNotes" xml:space="preserve">
     <value>Quatre registres de bits adressés ensemble avec une interface de contrôle partagée. C'est là que le concept de registre devient tangible : plusieurs bits de stockage qui lisent et écrivent ensemble. La structure se met à l'échelle proprement à partir de là. Se complète automatiquement pour l'instant.</value>
   </data>
-
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] fermer/afficher</value>
+  </data>
 </root>

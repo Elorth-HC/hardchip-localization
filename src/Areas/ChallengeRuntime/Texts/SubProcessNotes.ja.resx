@@ -185,5 +185,7 @@ CMOS（Complementary Metal-Oxide-Semiconductor）は、現代のあらゆるデ�
   <data name="FourBitRegisterNotes" xml:space="preserve">
     <value>4つの1ビットレジスタが、共有の制御インターフェースで一緒にアドレスされる。ここでレジスタの概念が手に取れるものになる。複数ビットの記憶が、まとまって読み書きされる。構造はここからきれいにスケールしていく。今は自動で完了する。</value>
   </data>
-
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] 閉じる/表示</value>
+  </data>
 </root>

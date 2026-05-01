@@ -39,7 +39,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
   <!-- Bypass -->
   <data name="OneInOneOutNotes" xml:space="preserve">
     <value>SUBPROCESS helper ADDED to session. REASON: increase_resolution_probability.
@@ -61,7 +60,6 @@ Connect one pin to another. That's the whole challenge. There's no logic here, j
   <data name="TheWallNotes" xml:space="preserve">
     <value>There's a physical obstacle blocking the direct route. Not only electrical issue, but geometry also. Layouts have plenty of these. The routing has to work around whatever is there. The constraint here is approachable. But it can get more crowded.</value>
   </data>
-
   <!-- Inverter -->
   <data name="TwoToOnePMOSNotes" xml:space="preserve">
     <value>A PMOS transistor conducts (channel) when its gate is pulled low. It's on when the signal is off, off when the signal is on. That runs counter to how you might expect a switch to behave probably. It is worth spending a moment actually internalizing that, not just accepting it. There's a complementary type coming up that works the opposite way, and the pairing only makes sense if both halves are clear on their own.</value>
@@ -98,7 +96,6 @@ Where you find it:
   <data name="BlueprintNotes" xml:space="preserve">
     <value>Previous inverter is now accesible as a blueprint, and the task is to reuse it as is. The inverter is the same circuit, and you can paste it, flip it, rotate it at will. The design produced here carries forward as a component in more complex designs.</value>
   </data>
-
   <!-- Adder -->
   <data name="AdderNANDNotes" xml:space="preserve">
     <value>One of the most iconic logic gate, the NAND: output is low only when both inputs are high. It's the most universal gate in digital logic. Any other gate can be constructed from NANDs alone. That's not a thing you need to do right now, but it's worth carrying. NAND's CMOS implementation is also naturally efficient, and that matters as circuits get larger. Now is the time to make sure your NAND is the way you want to see many, many NANDs to be. Remember the design produced here carries forward as a blueprint in more complex designs</value>
@@ -121,7 +118,6 @@ Where you find it:
   <data name="ByteAdderNotes" xml:space="preserve">
     <value>Eight full adder cells, carry rippling through all eight bit positions. At this scale, layout and routing are the challenge: a lot of signal paths to keep organized and a carry chain that has to be clean from end to end. The design discipline required here carries forward. Getting this one well-organized matters for what builds on it.</value>
   </data>
-
   <!-- ALU -->
   <data name="ALUXORNotes" xml:space="preserve">
     <value>XOR again. You've built this one. In this context it appears in two roles: inside the arithmetic path, as before, and as a selectable bitwise operation. Same gate, two jobs. The second use is what starts making the ALU configurable rather than fixed-function. Worth building it with both roles in mind.</value>
@@ -141,7 +137,6 @@ Where you find it:
   <data name="AlgoLogicUnitNotes" xml:space="preserve">
     <value>Everything comes together here: the adder/subtracter, the bitwise logic operations, the zero detector, all selected by control signals. The ALU doesn't do one thing. It does several things, and the control inputs determine which one is happening right now. That's the step from a circuit that computes to a circuit that can be directed. I think this is the strongest point in this whole map. Worth pausing on what just got built.</value>
   </data>
-
   <!-- Register -->
   <data name="RegisterInverterNotes" xml:space="preserve">
     <value>This one is familiar. An inverter, NOT gate. It's here because what comes next in this section uses NOT in non-obvious ways, particularly in feedback paths. Starting from the primitive rather than assuming it's already solid is the right approach.</value>
@@ -185,5 +180,7 @@ Where you find it:
   <data name="FourBitRegisterNotes" xml:space="preserve">
     <value>Four bit registers addressed together with a shared control interface. This is where the register concept becomes tangible: multiple bits of storage that read and write together. The structure scales cleanly from here. Completes automatically for now.</value>
   </data>
-
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] close/show</value>
+  </data>
 </root>

@@ -185,5 +185,7 @@ Wo man ihn findet:
   <data name="FourBitRegisterNotes" xml:space="preserve">
     <value>Vier Bit-Register, zusammen adressiert über eine gemeinsame Steuerschnittstelle. Hier wird das Konzept des Registers greifbar: mehrere Speicherbits, die zusammen lesen und schreiben. Die Struktur skaliert von hier aus sauber. Wird vorerst automatisch abgeschlossen.</value>
   </data>
-
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] schließen/anzeigen</value>
+  </data>
 </root>
