@@ -77,7 +77,7 @@ Perché ha vinto il CMOS:
 - È producibile con alte rese e in volumi enormi
 
 Dove lo si trova:
-- CPU, GPU, SoC mobili sono tutti logica CMOS
+- CPU, GPU, SoC mobili sono tutti in logica CMOS
 - DRAM e memorie flash NAND
 - Sensori d'immagine (i sensori CMOS hanno sostituito i CCD come standard)
 - Chip analogici/mixed-signal (amplificatori operazionali, ADC, PLL) usano sempre più processi CMOS
@@ -107,7 +107,7 @@ Dove lo si trova:
     <value>AND è una NAND seguita da un inverter. Entrambe sono ormai a portata di mano. È lo schema di composizione che attraversa tutto il design dei chip: la logica complessa è logica più semplice combinata. AND è un componente diretto dell'aritmetica, non lavoro preliminare.</value>
   </data>
   <data name="AdderORNotes" xml:space="preserve">
-    <value>OR: l'uscita è alta quando almeno un ingresso è alto. Con AND e NOT già disponibili, l'insieme completo delle primitive booleane è ora completo. Qualsiasi funzione logica può essere costruita a partire da queste tre. Avere tutte e tre è il punto in cui lo spazio di design comincia ad aprirsi invece di sembrare costretto.</value>
+    <value>OR: l'uscita è alta quando almeno un ingresso è alto. Con AND e NOT già disponibili, l'insieme delle primitive booleane è ora completo. Qualsiasi funzione logica può essere costruita a partire da queste tre. Avere tutte e tre è il punto in cui lo spazio di design comincia ad aprirsi invece di sembrare costretto.</value>
   </data>
   <data name="AdderXORNotes" xml:space="preserve">
     <value>XOR: l'uscita è alta quando i due ingressi differiscono, uno alto e uno basso. Non quando entrambi sono alti, non quando entrambi sono bassi. Quel comportamento «esattamente uno» è la chiave. Il bit di somma dell'addizione binaria è XOR: 0+0 fa 0, 1+0 o 0+1 fa 1, e 1+1 fa 0 con un riporto in uscita. Il riporto si gestisce a parte. XOR fa metà del lavoro di ogni singolo bit del sommatore. È anche la prima logica che potrebbe essere drasticamente compattata, se desiderato, tramite PTL, un intero livello di astrazione più basso. Del tutto opzionale, solo un'altra opzione per compattare i design.</value>
@@ -127,10 +127,10 @@ Dove lo si trova:
     <value>XOR di nuovo. Lo hai già costruito. In questo contesto compare in due ruoli: dentro il percorso aritmetico, come prima, e come operazione bit a bit selezionabile. Stessa porta, due lavori. Il secondo uso è ciò che inizia a rendere l'ALU configurabile invece che a funzione fissa. Vale la pena costruirlo tenendo a mente entrambi i ruoli.</value>
   </data>
   <data name="NOR8Notes" xml:space="preserve">
-    <value>Una porta NOR a 8 ingressi. L'uscita è alta solo quando tutti gli 8 ingressi sono bassi, ovvero quando il valore è zero. È il rilevatore di zero. Sembra silenzioso rispetto all'aritmetica, ma il rilevamento dello zero è portante: è così che un circuito sa se un risultato è risultato nullo, e questa domanda governa il comportamento condizionale. Questa porta è ciò che rende quella domanda risolvibile.</value>
+    <value>Una porta NOR a 8 ingressi. L'uscita è alta solo quando tutti gli 8 ingressi sono bassi, ovvero quando il valore è zero. È il rilevatore di zero. Sembra silenzioso rispetto all'aritmetica, ma il rilevamento dello zero è portante: è così che un circuito sa se un risultato si è rivelato nullo, e questa domanda governa il comportamento condizionale. Questa porta è ciò che rende quella domanda risolvibile.</value>
   </data>
   <data name="NegativeNumberNotes" xml:space="preserve">
-    <value>Il complemento a due (two's complement) è il modo in cui l'hardware binario rappresenta i numeri negativi. La configurazione di bit per meno uno su 8 bit è 11111111. Sommala a 00000001, che è più uno, e si ottiene 100000000. Scarta il riporto in eccesso e si ottiene 00000000. Zero. Ecco la definizione: la negazione in complemento a due è il valore che si somma all'originale per ottenere zero. Conta praticamente perché la sottrazione può essere fatta con lo stesso circuito che fa l'addizione, senza alcuna modifica. Una volta che fa clic, è elegante. Prima che faccia clic, sembra arbitrario.</value>
+    <value>Il complemento a due (two's complement) è il modo in cui l'hardware binario rappresenta i numeri negativi. La configurazione di bit per meno uno su 8 bit è 11111111. Sommala a 00000001, che è più uno, e si ottiene 100000000. Scarta l'overflow e si ottiene 00000000. Zero. Ecco la definizione: la negazione in complemento a due è il valore che si somma all'originale per ottenere zero. Conta praticamente perché la sottrazione può essere fatta con lo stesso circuito che fa l'addizione, senza alcuna modifica. Una volta che fa clic, è elegante. Prima che faccia clic, sembra arbitrario.</value>
   </data>
   <data name="InvertValueNotes" xml:space="preserve">
     <value>Invertire tutti gli 8 bit in un colpo solo, un NOT bit a bit sull'intero byte. È il primo passo della negazione in complemento a due: ribaltare tutti i bit, poi sommare uno. Qui l'attenzione è solo sul ribaltamento. Il ribaltamento e l'addizione che lo segue sono realizzati da parti diverse del circuito, quindi vederli prima separati rende l'operazione completa più facile da capire una volta combinati.</value>
@@ -147,22 +147,22 @@ Dove lo si trova:
     <value>Questo è familiare. Un inverter, porta NOT. È qui perché ciò che viene dopo in questa sezione usa NOT in modi non ovvi, in particolare nei percorsi di retroazione. Partire dalla primitiva invece di dare per scontato che sia già solida è l'approccio giusto.</value>
   </data>
   <data name="RegisterNANDNotes" xml:space="preserve">
-    <value>NAND di nuovo. Nella sezione del sommatore, NAND era un passo verso AND. Qui ha un ruolo diverso da qui in avanti. Due porte NAND accoppiate in modo incrociato, con l'uscita di ciascuna riportata all'ingresso dell'altra, formano l'elemento di memoria più semplice possibile. Questa topologia di retroazione è ciò che arriva subito dopo. Saperlo cambia cosa significhi costruire questa con cura.</value>
+    <value>NAND di nuovo. Nella sezione del sommatore, NAND era un passo verso AND. Qui assume un ruolo diverso d'ora in avanti. Due porte NAND accoppiate in modo incrociato, con l'uscita di ciascuna riportata all'ingresso dell'altra, formano l'elemento di memoria più semplice possibile. Questa topologia di retroazione è ciò che arriva subito dopo. Saperlo cambia cosa significhi costruire questa con cura.</value>
   </data>
   <data name="RegisterANDNotes" xml:space="preserve">
     <value>AND. Anche familiare. Nel contesto della memoria compare nel gating di abilitazione, la logica che controlla se un elemento di memoria è in quel momento aperto a nuovi ingressi. Lo schema è: enable AND data alimenta l'ingresso di memoria. Stessa porta di prima, lavoro diverso.</value>
   </data>
   <data name="RegisterORNotes" xml:space="preserve">
-    <value>OR. Anche familiare. Il chip registro usa l'intero vocabolario delle porte, e OR ne fa parte. Compare nella logica di selezione e di routing, la circuiteria che indirizza i segnali al posto giusto.</value>
+    <value>OR. Anche familiare. Il chip del registro usa l'intero vocabolario delle porte, e OR ne fa parte. Compare nella logica di selezione e di routing, la circuiteria che indirizza i segnali al posto giusto.</value>
   </data>
   <data name="NORNotes" xml:space="preserve">
-    <value>NOR: l'uscita è alta solo quando tutti gli ingressi sono bassi. Come la NAND, anche NOR è universale, e come per NAND, due porte NOR accoppiate in modo incrociato formano l'elemento di memoria più semplice possibile. Ci sono due modi per costruire quell'elemento: NAND incrociate e NOR incrociate. Si comportano in modo leggermente diverso, lo stato attivo è invertito tra i due. Entrambi i percorsi portano alla memoria.</value>
+    <value>NOR: l'uscita è alta solo quando tutti gli ingressi sono bassi. Come la NAND, anche la NOR è universale, e come per la NAND, due porte NOR accoppiate in modo incrociato formano l'elemento di memoria più semplice possibile. Ci sono due modi per costruire quell'elemento: NAND incrociate e NOR incrociate. Si comportano in modo leggermente diverso, lo stato attivo è invertito tra le due. Entrambi i percorsi portano alla memoria.</value>
   </data>
   <data name="TriStateBufferNotes" xml:space="preserve">
     <value>Un buffer tri-state ha tre possibili stati di uscita: alto, basso e ad alta impedenza (high-impedance). Alta impedenza significa non pilotare nulla. Quando un'uscita tri-state è in quello stato, il filo a cui è collegata è libero affinché qualcos'altro possa pilotarlo. È ciò che rende possibili le connessioni condivise: più uscite sullo stesso filo, a turno, con una sola attiva alla volta. Senza questo meccanismo la lettura selettiva non funziona, e un registro che non può essere letto in modo selettivo non è utile.</value>
   </data>
   <data name="SRLatchNotes" xml:space="preserve">
-    <value>L'SR latch è il primo circuito qui che mantiene uno stato. Mettilo alto, resta alto. Resettalo, resta basso. Togli del tutto l'ingresso e resta dove l'hai lasciato. Questo comportamento nasce da due porte accoppiate in modo incrociato le cui uscite si alimentano a vicenda negli ingressi. L'anello di retroazione è stabile in due posizioni e resta in quella in cui è stato impostato l'ultima volta. È così che funziona alla base ogni memoria digitale. Qui si tocca il fondo. La topologia di retroazione qui merita di essere capita per intero prima di andare avanti, perché tutto ciò che vi si costruirà sopra avrà più senso con questa solida.</value>
+    <value>L'SR latch è il primo circuito qui che mantiene uno stato. Mettilo alto, resta alto. Resettalo, resta basso. Togli del tutto l'ingresso e resta dove l'hai lasciato. Questo comportamento nasce da due porte accoppiate in modo incrociato le cui uscite si alimentano a vicenda negli ingressi. L'anello di retroazione è stabile in due posizioni e resta in quella in cui è stato impostato l'ultima volta. È così che funziona alla base ogni memoria digitale. Qui si tocca il fondo. La topologia di retroazione qui merita di essere capita per intero prima di andare avanti, perché tutto ciò che vi si costruirà sopra avrà più senso quando questa è solida.</value>
   </data>
   <data name="DLatchNotes" xml:space="preserve">
     <value>Il D latch corregge lo stato non valido dell'SR latch. Invece di ingressi Set e Reset separati, c'è un solo ingresso Data. Il latch alimenta automaticamente D verso il percorso Set e NOT-D verso il percorso Reset. Questi due sono sempre complementari, quindi lo stato non valido non può essere raggiunto. Il comportamento di memoria è identico. È l'evoluzione di design da «funziona» a «funziona correttamente con tutti gli ingressi».</value>
@@ -171,7 +171,7 @@ Dove lo si trova:
     <value>Write enable controlla quando il latch cattura nuovi dati. Output enable (il tri-state) controlla quando il valore memorizzato compare in uscita. Due controlli separati, entrambi necessari: un elemento di memoria che si può solo scrivere è incompleto, e uno che pilota l'uscita in continuazione causa conflitti. Questa cella, scrivibile e leggibile in modo selettivo, è la primitiva completa di memoria a un singolo bit. Replicata, è un registro.</value>
   </data>
   <data name="FlipFlopNotes" xml:space="preserve">
-    <value>Il D latch è trasparente quando è abilitato. I dati passano direttamente, il che crea problemi quando l'uscita rientra nell'ingresso. Il flip-flop risolve la cosa catturando i dati in un istante esatto: il fronte di clock. Prima del fronte, l'ingresso può fare quel che vuole. Dopo il fronte, il flip-flop trattiene quanto ha visto in quell'istante e ignora tutto il resto fino al fronte successivo. Questa disciplina sincrona è ciò che rende prevedibili i circuiti sequenziali complessi. Senza di essa rincorri condizioni di corsa in un circuito che cambia più velocemente di quanto tu ne possa ragionare. Questo merita di essere ben solido. Tutto ciò che è sequenziale da qui in poi dipende da questo comportamento.</value>
+    <value>Il D latch è trasparente quando è abilitato. I dati passano direttamente, il che crea problemi quando l'uscita rientra nell'ingresso. Il flip-flop risolve la cosa catturando i dati in un istante esatto: il fronte di clock. Prima del fronte, l'ingresso può fare quel che vuole. Dopo il fronte, il flip-flop trattiene quanto ha visto in quell'istante e ignora tutto il resto fino al fronte successivo. Questa disciplina sincrona è ciò che rende prevedibili i circuiti sequenziali complessi. Senza di essa rincorri condizioni di corsa in un circuito che cambia più velocemente di quanto tu possa pensarci. Questo merita di essere ben solido. Tutto ciò che è sequenziale da qui in poi dipende da questo comportamento.</value>
   </data>
   <data name="SelfSustainingBitNotes" xml:space="preserve">
     <value>Un bit auto-sostenuto reinvia la propria uscita per rinforzare lo stato attuale. Una volta impostato, si mantiene senza ingresso continuo. Questo isola il principio di retroazione che sta alla base di ogni elemento di memoria costruito finora, reso esplicito come design a sé.</value>

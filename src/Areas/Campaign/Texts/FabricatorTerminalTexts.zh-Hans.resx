@@ -40,9 +40,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="FirstScreenEver" xml:space="preserve">
-    <value>g90=========================================================================
+    <value>g90====================================================================
 g90Autonomous Fabricator v546.1.7430
-g90=========================================================================
+g90====================================================================
 g90
 g96正在启动...
 g90
