@@ -50,7 +50,7 @@
     <value>Basculer entre les modes</value>
   </data>
   <data name="HideUI" xml:space="preserve">
-    <value>Masquer</value>
+    <value>Masquer l'interface</value>
   </data>
   <data name="Editor" xml:space="preserve">
     <value>Éditeur</value>
@@ -177,21 +177,21 @@
     <value>Construire vers le haut</value>
   </data>
   <data name="SettingKeyInput" xml:space="preserve">
-    <value>Réglage de l'entrée de la clé ...</value>
+    <value>Assignation de la touche...</value>
   </data>
   <data name="PressAKeyToSetNLeftClickToClear" xml:space="preserve">
     <value>Appuyez sur une touche pour définir.
 Clic droit pour effacer.</value>
   </data>
   <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
-    <value>Touches pressées en permanence ignorées:</value>
+    <value>Touches pressées en permanence ignorées :</value>
   </data>
   <data name="DetectedKeysPermanentlyPressedAndIgnoredByHardChip" xml:space="preserve">
-    <value>Touches détectées pressées en permanence sont ignorées.
-Cela peut être dû aux dispositions spécifiques des entrées du clavier (Ex: IME Entrée japonaise).</value>
+    <value>Les touches détectées comme pressées en permanence sont ignorées.
+Cela peut être dû à certaines dispositions de clavier utilisant des touches de modification (ex : saisie japonaise IME).</value>
   </data>
   <data name="ResetBindings" xml:space="preserve">
-    <value>Tout réinitialiser</value>
+    <value>Réinitialiser les raccourcis</value>
   </data>
   <data name="CanTUse0" xml:space="preserve">
     <value>Impossible d'utiliser {0}</value>

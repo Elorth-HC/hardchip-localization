@@ -59,22 +59,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NewBlueprint" xml:space="preserve">
-    <value>Nouveau plan</value>
+    <value>Nouveau blueprint</value>
   </data>
   <data name="Deterministic" xml:space="preserve">
-    <value>Déterministique</value>
+    <value>Déterministe</value>
   </data>
   <data name="Fast" xml:space="preserve">
     <value>Rapide</value>
   </data>
   <data name="ChipName" xml:space="preserve">
-    <value>Nom de la puce</value>
+    <value>nom de la puce</value>
   </data>
   <data name="BlueprintName" xml:space="preserve">
-    <value>Nom du plan</value>
+    <value>nom du blueprint</value>
   </data>
   <data name="EnterNewNameFor0" xml:space="preserve">
-    <value>Entrez le nouveau nom pour {0}:</value>
+    <value>Entrez le nouveau nom pour {0} :</value>
   </data>
   <data name="NewChip" xml:space="preserve">
     <value>Nouvelle puce</value>
@@ -83,10 +83,10 @@
     <value>Êtes-vous sûr de vouloir supprimer {0} ?</value>
   </data>
   <data name="CommunityStageName" xml:space="preserve">
-    <value>Nom du stage communauté</value>
+    <value>nom du niveau communautaire</value>
   </data>
   <data name="NewChallenge" xml:space="preserve">
-    <value>Nouveau stage communauté</value>
+    <value>Nouveau niveau communautaire</value>
   </data>
   <data name="Clear" xml:space="preserve">
     <value>Retirer</value>

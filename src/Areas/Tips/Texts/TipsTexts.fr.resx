@@ -40,27 +40,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HoldMiddleMouseButtonToRotateAround" xml:space="preserve">
-    <value>Astuce: utilisez le bouton du milieu de la souris pour faire pivoter la caméra autour de vos solutions.</value>
+    <value>Astuce : utilisez le bouton du milieu de la souris pour faire pivoter la caméra autour de vos solutions.</value>
   </data>
   <data name="CtrlXCVWorkForCutCopyPastSelectAllOperation" xml:space="preserve">
-    <value>Astuce: utilisez Ctrl-A pour tout sélectionner, Ctrl-X/C/V pour couper/copier/coller.</value>
+    <value>Astuce : utilisez Ctrl-A pour tout sélectionner, Ctrl-X/C/V pour couper/copier/coller.</value>
   </data>
   <data name="DevCTAProposeTip" xml:space="preserve">
-    <value>Dev: vous pouvez proposer une astuce sur le Discord de HC si vous pensez qu'elle devrait apparaître ici !</value>
+    <value>Dev : vous pouvez proposer une astuce sur le Discord de HC si vous pensez qu'elle devrait apparaître ici !</value>
   </data>
   <data name="YouCanEnterSelectModeByRightClicking" xml:space="preserve">
-    <value>Astuce: vous pouvez entrer en mode Sélection (curseur en boîte verte) en cliquant avec le bouton droit à tout moment.</value>
+    <value>Astuce : vous pouvez entrer en mode Sélection (curseur cube vert) en cliquant avec le bouton droit à tout moment.</value>
   </data>
   <data name="WhenPickingInputOutputSpreadWithPlusMinusKey" xml:space="preserve">
-    <value>Astuce: lors du choix d'une nouvelle position d'entrée/sortie, appuyez sur + ou - pour écarter les lignes jusqu'à 4 cases.</value>
+    <value>Astuce : lors du choix d'une nouvelle position d'entrée/sortie, appuyez sur + ou - pour écarter les lignes jusqu'à 4 cases d'écart.</value>
   </data>
   <data name="InterleavingInputsToReduceWiringOverhead" xml:space="preserve">
-    <value>Astuce: entrelacer vos entrées peut aider à réduire le travail de câblage.</value>
+    <value>Astuce : entrelacer vos entrées peut aider à réduire le travail de câblage.</value>
   </data>
   <data name="YouCanNeutralCtrlClick" xml:space="preserve">
-    <value>Astuce: vous pouvez passer une entrée en neutre en maintenant Ctrl tout en cliquant dessus.</value>
+    <value>Astuce : vous pouvez passer une entrée en neutre en maintenant Ctrl tout en cliquant dessus.</value>
   </data>
   <data name="YouCanCenterCameraWithSpaceBar" xml:space="preserve">
-    <value>Astuce: vous pouvez centrer la caméra avec la barre d'espace, appuyez deux fois pour revenir à la position précédente de la caméra.</value>
+    <value>Astuce : vous pouvez centrer la caméra avec la barre d'espace, appuyez deux fois pour revenir à la position précédente de la caméra.</value>
   </data>
 </root>

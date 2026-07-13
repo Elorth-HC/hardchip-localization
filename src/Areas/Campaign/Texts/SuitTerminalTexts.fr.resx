@@ -49,7 +49,7 @@ g90
 r99erreur : niveau d'énergie critique
 r99erreur : données corrompues, réinitialisation aux paramètres d'usine...  
 g90 
-g30nouvel_utilisateur réveil d'urgence activé
+g30réveil d'urgence de new_user activé
 g17.....
 g57Signes vitaux de l'utilisateur DÉTECTÉS
 g90
@@ -61,22 +61,22 @@ w83Appuyez sur une touche pour confirmer...</value>
     <value>{0} pour prendre la {1}</value>
   </data>
   <data name="_8BITADDERChip" xml:space="preserve">
-    <value>puce 8BIT ADDER</value>
+    <value>puce ADDITIONNEUR 8 bits</value>
   </data>
   <data name="_0ToPlace" xml:space="preserve">
     <value>{0} pour placer la {1}</value>
   </data>
   <data name="BYPASSChip" xml:space="preserve">
-    <value>puce BYPASS</value>
+    <value>puce CONTOURNEMENT</value>
   </data>
   <data name="InHand" xml:space="preserve">
     <value>En main</value>
   </data>
   <data name="INVERTERChip" xml:space="preserve">
-    <value>puce INVERTER</value>
+    <value>puce INVERSEUR</value>
   </data>
   <data name="_8BITALUChip" xml:space="preserve">
-    <value>puce 8BIT ALU</value>
+    <value>puce ALU 8 bits</value>
   </data>
   <data name="Press0ToInteract" xml:space="preserve">
     <value>{0} pour interagir</value>

@@ -46,9 +46,9 @@ g91Banque de matériaux autonome v12.0.4575
 g92 Système d'alimentation [OK]
 g92 Intégrité physique [OK]
 r95 Unité de contrôle du système central [ÉCHEC], aucune réponse
-r95CODE_ERREUR : 0xEFDFB4 Puce INVERTER endommagée
+r95CODE_ERREUR : 0xEFDFB4 Puce INVERSEUR endommagée
 g90
-y39Action immédiate requise : remplacer la puce INVERTER. Requis envoyés au poste de travail.</value>
+y39Action immédiate requise : remplacer la puce INVERSEUR. Spécifications envoyées à la station de travail.</value>
   </data>
   <data name="FirstScreenEver1" xml:space="preserve">
     <value>r90
@@ -65,7 +65,7 @@ r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r92CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r95CODE_ERREUR : ?x?????? continuer
-y95AVERTISSEMENT : 0x45FDB3 Puce INVERTER remplacée. Redémarrage requis.</value>
+y95AVERTISSEMENT : 0x45FDB3 Puce INVERSEUR remplacée. Redémarrage requis.</value>
   </data>
   <data name="RebootFix1" xml:space="preserve">
     <value>y95Tentative de redémarrage forcé...
@@ -103,9 +103,9 @@ g92 Système d'alimentation [OK]
 g92 Intégrité physique [OK]
 g92 Unité de contrôle du système central [OK]
 r95 Inventaire des matériaux [ÉCHEC], valeurs impossibles détectées.
-r95CODE_ERREUR : 0xEFDFB4 Puce ADDER 8 bits endommagée
+r95CODE_ERREUR : 0xEFDFB4 Puce ADDITIONNEUR 8 bits endommagée
 g90
-y39Action immédiate requise : remplacer la puce ADDER 8 bits. Requis envoyés au poste de travail.</value>
+y39Action immédiate requise : remplacer la puce ADDITIONNEUR 8 bits. Spécifications envoyées à la station de travail.</value>
   </data>
   <data name="ChipReplaced2" xml:space="preserve">
     <value>r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
@@ -114,7 +114,7 @@ r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r90CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r92CODE_ERREUR : ERREUR NON SPÉCIFIÉE
 r95CODE_ERREUR : ?x?????? continuer
-y95AVERTISSEMENT : 0x45FDB3 Puce ADDER 8 bits remplacée. Redémarrage requis.</value>
+y95AVERTISSEMENT : 0x45FDB3 Puce ADDITIONNEUR 8 bits remplacée. Redémarrage requis.</value>
   </data>
   <data name="RebootFix2" xml:space="preserve">
     <value>y95Tentative de redémarrage forcé...

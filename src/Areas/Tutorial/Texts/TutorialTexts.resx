@@ -58,7 +58,7 @@ while still reusing all previous solutions.</value>
 then MANUALLY VALIDATE step by step</value>
   </data>
   <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
-    <value>Sometime, connections can be tricky to place without
+    <value>Sometimes, connections can be tricky to place without
 touching other ones.</value>
   </data>
   <data name="ConnectINPUTAndOUTPUTWithoutSHORTCIRCUITThenVALIDATE" xml:space="preserve">
@@ -94,7 +94,7 @@ outside the DIE to extend it.</value>
   </data>
   <data name="WhenYouValidateAnyEmptyContiguousSpacesWillAutomaticalyBeRemoved" xml:space="preserve">
     <value>When you validate, any empty contiguous
-spaces will AUTOMATICALY be removed.</value>
+spaces will AUTOMATICALLY be removed.</value>
   </data>
   <data name="DoingSoWillShiftAnyOutputToTheNewEdgeLocation" xml:space="preserve">
     <value>Doing so will shift any output to the new edge location.</value>
@@ -150,8 +150,8 @@ signal to the DIE to process it.</value>
 the signal processed by the DIE.</value>
   </data>
   <data name="ThisDIENeedsToFullfillASimpleTaskOutputingWhatItReceivesOnTheInput" xml:space="preserve">
-    <value>This DIE needs to fullfill a simple
-task: outputing what it receives
+    <value>This DIE needs to fulfill a simple
+task: outputting what it receives
 on the input.</value>
   </data>
   <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
@@ -212,7 +212,7 @@ not limited to the 3x2x3 blocks.</value>
 and share the same channel.</value>
   </data>
   <data name="YouCantUseTraceHereOnlyPMOSFromTheBottomBuildMenu" xml:space="preserve">
-    <value>You cant use METAL block here, only PMOS
+    <value>You can't use METAL block here, only PMOS
 from the bottom build menu.</value>
   </data>
   <data name="CreateAMERGEDPMOSWith2GATESThenVALIDATE" xml:space="preserve">
@@ -238,7 +238,7 @@ ALL state going through it.</value>
   </data>
   <data name="TRACESCanOnlyTransferOneStateAtATimeButMOSFETMetalOxideSemiconductorsFieldEffectTransistorCanReactToStates" xml:space="preserve">
     <value>A simple METAL connection can only transfer one state at a time.
-But MOSFET (Metal Oxide Semiconductors Field-effect Transistor)
+But MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor)
 can react to states!</value>
   </data>
   <data name="HereSAMOSFETAndMovingForwardWeLlReferToItAsMOS" xml:space="preserve">
@@ -341,7 +341,7 @@ you need a constant signal of 1 or 0.</value>
     <value>They are always fixed in their respective power plane.</value>
   </data>
   <data name="ThisIsHelpfullWhenYouBuildReusablePartsAllNpartsAlwaysHaveTheirConstant0Or1FromThisKnownPlane" xml:space="preserve">
-    <value>This is helpfull when you build reusable parts. All parts
+    <value>This is helpful when you build reusable parts. All parts
 always have their constant 0 or 1 from this known plane.</value>
   </data>
   <data name="CONNECTEachConstantBlockToItsOutputThenVALIDATE" xml:space="preserve">

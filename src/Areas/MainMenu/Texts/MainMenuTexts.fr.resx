@@ -40,34 +40,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BonusStages" xml:space="preserve">
-    <value>Stages Bonus</value>
+    <value>Niveaux bonus</value>
   </data>
   <data name="FinishTheByteAdderChipToUnlock" xml:space="preserve">
-    <value>Terminez la puce de l'additionneur d'octet pour la déverrouiller.</value>
+    <value>Terminez la puce Additionneur d'octet pour déverrouiller.</value>
   </data>
   <data name="ComingSoon" xml:space="preserve">
     <value>À venir.</value>
   </data>
   <data name="ReachTheALUChipMapToUnlock" xml:space="preserve">
-    <value>Atteignez la carte de la puce ALU pour la déverrouiller.</value>
+    <value>Atteignez la carte de la puce ALU pour déverrouiller.</value>
   </data>
   <data name="FinishTheInverterChipMapToUnlock" xml:space="preserve">
-    <value>Terminez la carte de la puce Inverseur pour la déverrouiller.</value>
+    <value>Terminez la carte de la puce Inverseur pour déverrouiller.</value>
   </data>
   <data name="LinksBugsCommentsOrFeedback" xml:space="preserve">
-    <value>Liens: bugs, commentaires ou retours ?</value>
+    <value>Liens : bugs, commentaires ou retours ?</value>
   </data>
   <data name="CommentsSuggestionsBugReportOnHardChipSDiscord" xml:space="preserve">
-    <value>Commentaires/Suggestions/Rapport de bug sur le Discord d'Hard Chip !</value>
+    <value>Commentaires/Suggestions/Rapport de bug sur le Discord de Hard Chip !</value>
   </data>
   <data name="ShareYourCreationOnTwitterWithHardchipgameOrHardchipgame" xml:space="preserve">
     <value>Partagez votre création sur Twitter avec #hardchipgame ou @hardchipgame !</value>
   </data>
   <data name="PostYourCreationOnHardChipSSubreddit" xml:space="preserve">
-    <value>Postez votre création sur le subreddit d'Hard Chip !</value>
+    <value>Postez votre création sur le subreddit de Hard Chip !</value>
   </data>
   <data name="JoinHardChipSSteamCommunity" xml:space="preserve">
-    <value>Rejoignez la communauté Steam d'Hard Chip !</value>
+    <value>Rejoignez la communauté Steam de Hard Chip !</value>
   </data>
   <data name="MusicMEGAS" xml:space="preserve">
     <value>Musique : MEGAS </value>

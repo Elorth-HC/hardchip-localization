@@ -68,19 +68,19 @@
     <value>Infos</value>
   </data>
   <data name="Blueprints" xml:space="preserve">
-    <value>Plans</value>
+    <value>Blueprints</value>
   </data>
   <data name="Chips" xml:space="preserve">
     <value>Puces</value>
   </data>
   <data name="HCDrives" xml:space="preserve">
-    <value>HCDrive</value>
+    <value>HCDrives</value>
   </data>
   <data name="Demos" xml:space="preserve">
     <value>Démos</value>
   </data>
   <data name="CommunityStages" xml:space="preserve">
-    <value>Stages Communauté</value>
+    <value>Niveaux communautaires</value>
   </data>
   <data name="Retry" xml:space="preserve">
     <value>Réessayer</value>

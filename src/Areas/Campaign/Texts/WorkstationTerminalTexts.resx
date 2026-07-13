@@ -54,7 +54,7 @@ g92Power System [OK]
 g92Physical Integrity [OK]
 y92Fabricator PARTIALLY ONLINE
 r95Chip Database FAIL, data corrupted
-r99error: data corrupted, formating database... 
+r99error: data corrupted, formatting database... 
 g90
 g90Received requirements for BYPASS Chip.
 r99error: no chip found in the database!

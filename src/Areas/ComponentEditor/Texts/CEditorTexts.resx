@@ -176,7 +176,7 @@ the blocks outside the new die size.</value>
   </data>
   <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
     <value>Export a level file to clipboard. Pastable in File Explorer,
-Discord, and every programs supporting pasted file.</value>
+Discord, and every program supporting pasted files.</value>
   </data>
   <data name="ExportToClipboard" xml:space="preserve">
     <value>Export to clipboard</value>

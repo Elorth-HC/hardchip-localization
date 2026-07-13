@@ -71,7 +71,7 @@
     <value>Réinitialiser tous les paramètres ?</value>
   </data>
   <data name="AllSettingsWillBeResetToDefaultRestartingTheGameCouldBeNecessaryToFullyApply" xml:space="preserve">
-    <value>Tous les paramètres seront réinitialisés par défaut. Un redémarrage du jeu peut être nécessaire pour appliquer entièrement.</value>
+    <value>Tous les paramètres seront réinitialisés aux valeurs par défaut. Un redémarrage du jeu peut être nécessaire pour appliquer entièrement.</value>
   </data>
   <data name="Campaign" xml:space="preserve">
     <value>Campagne</value>
@@ -137,7 +137,7 @@ scores ne mettent pas à jour ces classements.</value>
     <value>Précision du lancer de rayons</value>
   </data>
   <data name="UseCubicWhenNothingElseWorksWillRenderCubesInsteadOfComplexShapesFastButUgly" xml:space="preserve">
-    <value>Utilisez Cubic lorsque rien d'autre ne fonctionne. Cela affichera des cubes au lieu de formes complexes, rapide mais inesthétique.</value>
+    <value>Utilisez Cubique lorsque rien d'autre ne fonctionne. Cela affichera des cubes au lieu de formes complexes, rapide mais inesthétique.</value>
   </data>
   <data name="RayPrecisionIsTheNumberOfStepsEachRayPerformNHigherValuesWillIncreaseQualityButWillDecreasePerformance" xml:space="preserve">
     <value>La précision du rayon correspond au nombre d'étapes effectuées par chaque rayon.
@@ -194,10 +194,10 @@ Des valeurs plus élevées réduiront fortement les performances, mais augmenter
 les phases en vue à la première personne.</value>
   </data>
   <data name="MouseEdgeScrolling" xml:space="preserve">
-    <value>Défilement à la périphérie</value>
+    <value>Défilement au bord de l'écran</value>
   </data>
   <data name="DoubleClickToEdit" xml:space="preserve">
-    <value>Mode édition sur double-click droit</value>
+    <value>Mode édition sur double-clic droit</value>
   </data>
   <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
     <value>Si activé, un double-clic droit passera en mode édition.
@@ -232,25 +232,25 @@ Le bloc Metal sera automatiquement sélectionné.</value>
     <comment>Décrit l'action associée à une touche</comment>
   </data>
   <data name="DarkBackground" xml:space="preserve">
-    <value>Arrière plan sombre</value>
+    <value>Arrière-plan sombre</value>
   </data>
   <data name="ReduceVisualStrainOnTheEditorSBackgroundForSensitivityToBrightness" xml:space="preserve">
-    <value>Réduit la fatigue visuel dans l'éditeur pour la sensibilité à la luminosité.</value>
+    <value>Peut réduire la fatigue visuelle liée au fond de l'éditeur pour certains utilisateurs.</value>
   </data>
   <data name="FPSInvertYAxis" xml:space="preserve">
     <value>Inverser l'axe Y en première personne</value>
   </data>
   <data name="MouseEdgeScrollingTooltip" xml:space="preserve">
-    <value>Défile lorsque la souris est à la périphérie de l'écran.</value>
+    <value>Déplace la caméra lorsque la souris est au bord de l'écran.</value>
   </data>
   <data name="MouseHorizontalScrolling" xml:space="preserve">
-    <value>Défilement horizontal souris</value>
+    <value>Défilement horizontal de la souris</value>
   </data>
   <data name="MouseHorizontalScrollingTooltip" xml:space="preserve">
-    <value>Pivote la caméra sur défilement horizontal de la souris.</value>
+    <value>Fait pivoter la caméra lors du défilement horizontal de la souris.</value>
   </data>
   <data name="HideBugReportButton" xml:space="preserve">
-    <value>Masquer le bouton de rapport de bogue</value>
+    <value>Masquer le bouton de rapport de bug</value>
   </data>
   <data name="ShowExtendedChipInfo" xml:space="preserve">
     <value>Afficher les informations étendues de puce</value>

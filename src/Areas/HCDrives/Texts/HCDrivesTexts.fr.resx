@@ -23,7 +23,7 @@ Assurez-vous qu'un fichier HCDrive ou un lien vers un fichier se
 trouve dans le presse-papiers puis appuyez sur CHARGER.</value>
   </data>
   <data name="LoadHCDriveFailedMessage" xml:space="preserve">
-    <value>HCDrive non valide inséré !
+    <value>Aucun HCDrive valide inséré !
 
 Assurez-vous qu'un fichier HCDrive se trouve dans le presse-papiers
 et appuyez sur le bouton CHARGER.</value>
@@ -50,7 +50,7 @@ Appuyez sur EXPORTER pour créer un HCDrive de puce.</value>
 - Libellé : {0}
 - Description : {1}
 
-Appuyez sur EXPORTER pour créer un HCDrive de Blueprint.</value>
+Appuyez sur EXPORTER pour créer un HCDrive de blueprint.</value>
   </data>
   <data name="StageToImportMessage" xml:space="preserve">
     <value>HCDrive valide inséré. Niveau communautaire
@@ -79,17 +79,16 @@ détecté :
 - Description : {1}
 
 Appuyez sur INSTALLER pour finaliser
-l'installation du Blueprint.</value>
+l'installation du blueprint.</value>
   </data>
   <data name="ExportSuccessMessage" xml:space="preserve">
     <value>Export réussi.
 Un nouveau HCDrive est dans le presse-papiers ! Vous pouvez
 le partager en le collant dans un explorateur
-ou tout autre logiciel acceptant le contenu
-image.</value>
+ou tout autre logiciel acceptant les images.</value>
   </data>
   <data name="InstallFailedMessage" xml:space="preserve">
-    <value>Installation échouée.
+    <value>Échec de l'installation.
 
 Le contenu du HCDrive est peut-être corrompu ou incompatible.</value>
   </data>

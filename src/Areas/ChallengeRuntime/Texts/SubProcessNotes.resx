@@ -58,7 +58,7 @@ Connect one pin to another. That's the whole challenge. There's no logic here, j
     <value>The traces here cross areas at different signal states. The routing can't ignore that. Where a trace goes matters electrically, not just spatially. This is the first time the layout of the die functions as a constraint rather than just a canvas. That kind of awareness is present in every chip that comes after this.</value>
   </data>
   <data name="TheWallNotes" xml:space="preserve">
-    <value>There's a physical obstacle blocking the direct route. Not only electrical issue, but geometry also. Layouts have plenty of these. The routing has to work around whatever is there. The constraint here is approachable. But it can get more crowded.</value>
+    <value>There's a physical obstacle blocking the direct route. Not only an electrical issue, but a geometric one too. Layouts have plenty of these. The routing has to work around whatever is there. The constraint here is approachable. But it can get more crowded.</value>
   </data>
   <!-- Inverter -->
   <data name="TwoToOnePMOSNotes" xml:space="preserve">
@@ -85,7 +85,7 @@ Where you find it:
     <value>Two transistors, separate functions, able to share physical structures on the die without interfering with each other. One package, two switches. That co-location is what can make CMOS layouts compact, same footprint rather than two separate areas.</value>
   </data>
   <data name="ConstantsNotes" xml:space="preserve">
-    <value>The 1 block is always the high constant (or supply). The 0 block is the low constant, always 0 (or GND). These are power planes that span the chip, and here they're routing resources you connect to explicitly. That distinction matters: the HIGH and LOW states in a circuit don't appear by magic. Something supplies them, here reducted to the 0 and 1 blocks.</value>
+    <value>The 1 block is always the high constant (or supply). The 0 block is the low constant, always 0 (or GND). These are power planes that span the chip, and here they're routing resources you connect to explicitly. That distinction matters: the HIGH and LOW states in a circuit don't appear by magic. Something supplies them, here reduced to the 0 and 1 blocks.</value>
   </data>
   <data name="SchematicNotes" xml:space="preserve">
     <value>The schematic shows the inverter as an abstract topology: transistors, connections, power rails, without any physical positions. The task is to realize that topology on the die. This is the translation layer between specification and implementation. It's worth treating as its own skill. The schematics ahead are more complex. Building the habit now makes those tractable rather than overwhelming.</value>
@@ -94,11 +94,11 @@ Where you find it:
     <value>Fit the same inverter into a smaller footprint. Compact layouts run faster and leave room for more circuitry on the die. Here compactness is evaluated. The interesting thing about compaction is that it changes the routing problem: instead of finding a path, you're finding a path that doesn't block other paths. Layout starts to feel like packing rather than just connecting.</value>
   </data>
   <data name="BlueprintNotes" xml:space="preserve">
-    <value>Previous inverter is now accesible as a blueprint, and the task is to reuse it as is. The inverter is the same circuit, and you can paste it, flip it, rotate it at will. The design produced here carries forward as a component in more complex designs.</value>
+    <value>Previous inverter is now accessible as a blueprint, and the task is to reuse it as is. The inverter is the same circuit, and you can paste it, flip it, rotate it at will. The design produced here carries forward as a component in more complex designs.</value>
   </data>
   <!-- Adder -->
   <data name="AdderNANDNotes" xml:space="preserve">
-    <value>One of the most iconic logic gate, the NAND: output is low only when both inputs are high. It's the most universal gate in digital logic. Any other gate can be constructed from NANDs alone. That's not a thing you need to do right now, but it's worth carrying. NAND's CMOS implementation is also naturally efficient, and that matters as circuits get larger. Now is the time to make sure your NAND is the way you want to see many, many NANDs to be. Remember the design produced here carries forward as a blueprint in more complex designs</value>
+    <value>One of the most iconic logic gates, the NAND: output is low only when both inputs are high. It's the most universal gate in digital logic. Any other gate can be constructed from NANDs alone. That's not a thing you need to do right now, but it's worth carrying. NAND's CMOS implementation is also naturally efficient, and that matters as circuits get larger. Now is the time to make sure your NAND is the way you want to see many, many NANDs to be. Remember the design produced here carries forward as a blueprint in more complex designs</value>
   </data>
   <data name="AdderANDNotes" xml:space="preserve">
     <value>AND is a NAND followed by an inverter. Both of those are in hand now. This is the composition pattern that runs through all of chip design: complex logic is simpler logic combined. AND is a direct component in arithmetic, not preliminary work.</value>

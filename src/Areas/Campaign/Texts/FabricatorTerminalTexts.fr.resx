@@ -57,7 +57,7 @@ y95AVERTISSEMENT : banques de matériaux indisponibles. Matériaux mis en mémoi
 g90
 g39Séquence de démarrage terminée. État du fabricateur : PARTIELLEMENT OPÉRATIONNEL
 g90
-g90Spécifications de conception reçues pour la puce BYPASS.
+g90Spécifications de conception reçues pour la puce CONTOURNEMENT.
 g90Prêt à démarrer le processus de fabrication.</value>
   </data>
   <data name="StatusStep0" xml:space="preserve">
@@ -122,11 +122,11 @@ g39État du fabricateur : OPÉRATIONNEL</value>
     <value>g90Processus de fabrication terminé.</value>
   </data>
   <data name="ReceivedInverter" xml:space="preserve">
-    <value>g90Spécifications de conception reçues pour la puce INVERTER.
+    <value>g90Spécifications de conception reçues pour la puce INVERSEUR.
 g90Prêt à démarrer le processus de fabrication.</value>
   </data>
   <data name="ReceivedAdder" xml:space="preserve">
-    <value>g90Spécifications de conception reçues pour la puce ADDER 8 bits.
+    <value>g90Spécifications de conception reçues pour la puce ADDITIONNEUR 8 bits.
 g90Prêt à démarrer le processus de fabrication.</value>
   </data>
   <data name="ReceivedALU" xml:space="preserve">

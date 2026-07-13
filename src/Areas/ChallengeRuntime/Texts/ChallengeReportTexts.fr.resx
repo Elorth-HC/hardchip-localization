@@ -40,39 +40,39 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="PerformanceReport" xml:space="preserve">
-    <value>{0}  rapport de performance</value>
+    <value>Rapport de performance : {0}</value>
     <comment>Composé avec le nom du défi au début</comment>
   </data>
   <data name="LastChipChecked" xml:space="preserve">
-    <value>Puce vérifiée</value>
+    <value>Dernière puce vérifiée</value>
   </data>
   <data name="ChipChecked" xml:space="preserve">
-    <value>Puce vérifiée!</value>
+    <value>Puce vérifiée !</value>
   </data>
   <data name="FunctionalSatisfactoryStreamlined" xml:space="preserve">
     <value>Fonctionnel -&gt; Satisfaisant -&gt; Optimisé</value>
   </data>
   <data name="Blocks" xml:space="preserve">
-    <value>   Blocs:</value>
+    <value>   Blocs :</value>
     <comment>Space important</comment>
   </data>
   <data name="Volume" xml:space="preserve">
-    <value>   Volume:</value>
+    <value>   Volume :</value>
     <comment>Space important</comment>
   </data>
   <data name="BlocksUsedTheFewerTheBetterNComplexSatisfactoryEfficient" xml:space="preserve">
     <value>Blocs utilisés. Moins il y en a, mieux c'est.
-Complex -&gt; Satisfaisant -&gt; Efficace</value>
+Complexe -&gt; Satisfaisant -&gt; Efficace</value>
   </data>
   <data name="VolumeUsedTheSmallerTheBetterNLargeSatisfactoryCompact" xml:space="preserve">
     <value>Volume utilisé. Plus il est petit, mieux c'est.
-Large -&gt; Satisfaisant -&gt; Compact</value>
+Volumineux -&gt; Satisfaisant -&gt; Compact</value>
   </data>
   <data name="Ticks" xml:space="preserve">
-    <value>   Ticks:</value>
+    <value>   Ticks :</value>
   </data>
   <data name="MOS" xml:space="preserve">
-    <value>   MOS:</value>
+    <value>   MOS :</value>
     <comment>Space important</comment>
   </data>
   <data name="TicksUsedTheFewerTheBetterNSlowSatisfactoryFast" xml:space="preserve">
@@ -102,25 +102,25 @@ Lent -&gt; Satisfaisant -&gt; Rapide</value>
     <value>Exporter le blueprint vers un nouveau fichier HCDrive dans le presse-papiers</value>
   </data>
   <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
-    <value>Meilleure solution de blocs, cliquez pour comparer. Clic droit pour définir à actuelle.</value>
+    <value>Meilleure solution de blocs, cliquez pour comparer. Clic droit pour en faire la solution actuelle.</value>
   </data>
   <data name="BestBlockSolution" xml:space="preserve">
     <value> (meilleure solution de blocs)</value>
   </data>
   <data name="BestVolumeSolutionClickToCompare" xml:space="preserve">
-    <value>Meilleure solution de volume, cliquez pour comparer. Clic droit pour définir à actuelle.</value>
+    <value>Meilleure solution de volume, cliquez pour comparer. Clic droit pour en faire la solution actuelle.</value>
   </data>
   <data name="BestVolumeSolution" xml:space="preserve">
     <value> (meilleure solution de volume)</value>
   </data>
   <data name="BestTickSolutionClickToCompare" xml:space="preserve">
-    <value>Meilleure solution de ticks, cliquez pour comparer. Clic droit pour définir à actuelle.</value>
+    <value>Meilleure solution de ticks, cliquez pour comparer. Clic droit pour en faire la solution actuelle.</value>
   </data>
   <data name="BestTickSolution" xml:space="preserve">
     <value> (meilleure solution de ticks)</value>
   </data>
   <data name="BestMosSolutionClickToCompare" xml:space="preserve">
-    <value>Meilleure solution de MOS, cliquez pour comparer. Clic droit pour définir à actuelle.</value>
+    <value>Meilleure solution de MOS, cliquez pour comparer. Clic droit pour en faire la solution actuelle.</value>
   </data>
   <data name="BestMosSolution" xml:space="preserve">
     <value> (meilleure solution de MOS)</value>
@@ -132,7 +132,7 @@ Lent -&gt; Satisfaisant -&gt; Rapide</value>
     <value>Enregistrer le blueprint</value>
   </data>
   <data name="Grade01" xml:space="preserve">
-    <value>Note{0}:</value>
+    <value>Grade{0} :</value>
   </data>
   <data name="Functional" xml:space="preserve">
     <value>Fonctionnel</value>
@@ -165,7 +165,7 @@ Lent -&gt; Satisfaisant -&gt; Rapide</value>
     <value>Efficace++</value>
   </data>
   <data name="Large" xml:space="preserve">
-    <value>Large</value>
+    <value>Volumineux</value>
   </data>
   <data name="Compact" xml:space="preserve">
     <value>Compact</value>
@@ -201,18 +201,18 @@ Lent -&gt; Satisfaisant -&gt; Rapide</value>
     <value>Réduit++</value>
   </data>
   <data name="CompletedSuccessfully" xml:space="preserve">
-    <value> complété.</value>
+    <value> terminé avec succès.</value>
   </data>
   <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
     <value>Solution obsolète, relancez la validation pour mettre à jour.</value>
   </data>
   <data name="FloatingComma" xml:space="preserve">
-    <value>Flottant :</value>
+    <value>Flottant :</value>
   </data>
   <data name="Grade" xml:space="preserve">
-    <value>Note</value>
+    <value>Grade</value>
   </data>
   <data name="LossComma" xml:space="preserve">
-    <value>Perte :</value>
+    <value>Perte :</value>
   </data>
 </root>

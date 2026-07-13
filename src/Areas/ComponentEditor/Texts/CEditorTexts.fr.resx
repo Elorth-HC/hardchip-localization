@@ -49,16 +49,16 @@
     <value>Ouvrir un schéma</value>
   </data>
   <data name="EnterNewNameForThisBlueprint" xml:space="preserve">
-    <value>Entrez un nouveau nom pour ce plan :</value>
+    <value>Entrez un nouveau nom pour ce blueprint :</value>
   </data>
   <data name="AreYouSureYouWantToDeleteThisBlueprint" xml:space="preserve">
-    <value>Êtes-vous sûr de vouloir supprimer ce plan ?</value>
+    <value>Êtes-vous sûr de vouloir supprimer ce blueprint ?</value>
   </data>
   <data name="RenameBlueprint" xml:space="preserve">
-    <value>Renommer le plan :</value>
+    <value>Renommer le blueprint :</value>
   </data>
   <data name="DeleteBlueprint" xml:space="preserve">
-    <value>Supprimer le plan :</value>
+    <value>Supprimer le blueprint :</value>
   </data>
   <data name="Probes" xml:space="preserve">
     <value>Sondes</value>
@@ -118,28 +118,28 @@
     <value>Ne pas s'arrêter</value>
   </data>
   <data name="BlueprintSaved" xml:space="preserve">
-    <value>Plan enregistré</value>
+    <value>Blueprint enregistré</value>
   </data>
   <data name="SaveAllAsABlueprint" xml:space="preserve">
-    <value>Tout enregistrer en tant que plan</value>
+    <value>Tout enregistrer en tant que blueprint</value>
   </data>
   <data name="OpenBlueprintLibrary" xml:space="preserve">
-    <value>Ouvrir la bibliothèque de plans</value>
+    <value>Ouvrir la bibliothèque de blueprints</value>
   </data>
   <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve">
-    <value>Afficher uniquement les meilleurs plans par blocs</value>
+    <value>Afficher uniquement les meilleurs blueprints par blocs</value>
   </data>
   <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve">
-    <value>Afficher uniquement les meilleurs plans par volume</value>
+    <value>Afficher uniquement les meilleurs blueprints par volume</value>
   </data>
   <data name="ShowOnlyBestsByTickBlueprints" xml:space="preserve">
-    <value>Afficher uniquement les meilleurs plans par tick</value>
+    <value>Afficher uniquement les meilleurs blueprints par tick</value>
   </data>
   <data name="ShowOnlyBestsByMOSBlueprints" xml:space="preserve">
-    <value>Afficher uniquement les meilleurs plans par MOS</value>
+    <value>Afficher uniquement les meilleurs blueprints par MOS</value>
   </data>
   <data name="SaveSelectionAsBlueprint" xml:space="preserve">
-    <value>Enregistrer la sélection en tant que plan</value>
+    <value>Enregistrer la sélection en tant que blueprint</value>
   </data>
   <data name="Blocks" xml:space="preserve">
     <value>Blocs</value>
@@ -176,7 +176,7 @@ les blocs hors de la nouvelle dimension du die.</value>
   </data>
   <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
     <value>Exporte un fichier de niveau dans le presse-papiers. Collable dans l'Explorateur
-Windows, Discord et tout programme qui supporte le collage de fichiers.</value>
+Windows, Discord et tout programme prenant en charge le collage de fichiers.</value>
   </data>
   <data name="ExportToClipboard" xml:space="preserve">
     <value>Exporter vers le presse-papiers</value>
@@ -189,7 +189,7 @@ Windows, Discord et tout programme qui supporte le collage de fichiers.</value>
 .wtb et .ctb. Gère les fichiers directs et les URLs pointant vers des fichiers.</value>
   </data>
   <data name="ShowChangeIndicators" xml:space="preserve">
-    <value>Montrer les indicateurs de changement</value>
+    <value>Afficher les indicateurs de changement</value>
   </data>
   <data name="ShowIndicatorsOnTheBlocksThatHaveBeenChangedSinceNtheLastSimulationUpdateIndicatorsAreRemovedWhenNafterAFewSecondsOrWhenTheSimulationIsStepped" xml:space="preserve">
     <value>Affiche des indicateurs sur les blocs qui ont été modifiés depuis
@@ -200,8 +200,8 @@ au bout de quelques secondes ou lors d'un pas de simulation.</value>
     <value>Colorer les segments</value>
   </data>
   <data name="ColorAllInterconnectedTracesWithTheSameColorAndNpartiallyHideTracesAlwaysConnectedToUpDownTerminals" xml:space="preserve">
-    <value>Colorie toutes les traces interconnectées avec la même couleur et
-masque partiellement les traces toujours connectées aux blocs 0/1 constants.</value>
+    <value>Colorie toutes les pistes interconnectées avec la même couleur et
+masque partiellement les pistes toujours connectées aux blocs 0/1 constants.</value>
   </data>
   <data name="AutoClockStop" xml:space="preserve">
     <value>Arrêt automatique de l'horloge</value>
@@ -222,13 +222,13 @@ masque partiellement les traces toujours connectées aux blocs 0/1 constants.</v
     <value>Pivoter à droite</value>
   </data>
   <data name="CameraCycleUIElements" xml:space="preserve">
-    <value>Cacher UI ({0})</value>
+    <value>Masquer l'UI ({0})</value>
   </data>
   <data name="CameraStrafeLeft" xml:space="preserve">
     <value>Déplacement latéral à gauche</value>
   </data>
   <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
-    <value>Cam. Éditeur/Cam. Libre (SPACE/CTRL/ZQSD/CLIC GAUCHE)</value>
+    <value>Cam. Éditeur/Cam. Libre (ESPACE/CTRL/ZQSD/CLIC GAUCHE)</value>
   </data>
   <data name="EditorCamFreeCam" xml:space="preserve">
     <value>Caméra Éditeur/Caméra Libre</value>
@@ -357,13 +357,13 @@ masque partiellement les traces toujours connectées aux blocs 0/1 constants.</v
     <value>Sonde</value>
   </data>
   <data name="SaveAsABlueprint" xml:space="preserve">
-    <value>Enregistrer comme plan</value>
+    <value>Enregistrer comme blueprint</value>
   </data>
   <data name="CreatingANewBlueprint" xml:space="preserve">
-    <value>Création d'un nouveau plan :</value>
+    <value>Création d'un nouveau blueprint :</value>
   </data>
   <data name="NewComponent" xml:space="preserve">
-    <value>NouvelleComposante</value>
+    <value>NouveauComposant</value>
   </data>
   <data name="CameraPedestalDown" xml:space="preserve">
     <value>Abaisser la caméra</value>
@@ -473,7 +473,7 @@ et la place dans le presse-papiers ainsi que dans le dossier de captures Steam.<
     <value>Réinitialiser la validation</value>
   </data>
   <data name="EditModeSummary" xml:space="preserve">
-    <value>Éditer (Vers le haut:{0}/Suppr:{1}/Sélection:{2})</value>
+    <value>Éditer (Vers le haut : {0}/Suppr : {1}/Sélection : {2})</value>
   </data>
   <data name="DieOperationsModeSummary" xml:space="preserve">
     <value>Extension/Réduction du die</value>
@@ -482,10 +482,10 @@ et la place dans le presse-papiers ainsi que dans le dossier de captures Steam.<
     <value>Sondes</value>
   </data>
   <data name="BluePrintModeSummary" xml:space="preserve">
-    <value>Plans ({0}/{1} : retourner le plan)</value>
+    <value>Blueprints ({0}/{1} : retourner le blueprint)</value>
   </data>
   <data name="SelectPinModeSummary" xml:space="preserve">
-    <value>Sélection de broche ({0}/{1}:Augmenter/diminuer l'espacement)</value>
+    <value>Déplacer les broches ({0}/{1} : augmenter/diminuer l'espacement)</value>
   </data>
   <data name="DebugModeSummary" xml:space="preserve">
     <value>Outils</value>

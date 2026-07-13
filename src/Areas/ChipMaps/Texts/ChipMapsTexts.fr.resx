@@ -62,10 +62,10 @@
     <value>Achèvement </value>
   </data>
   <data name="UnlockNextSection" xml:space="preserve">
-    <value>Déverrouiller</value>
+    <value>Déverrouiller la section suivante</value>
   </data>
   <data name="ChipReady" xml:space="preserve">
-    <value>Puce prête!</value>
+    <value>Puce prête !</value>
   </data>
   <data name="Fabricate" xml:space="preserve">
     <value>Fabriquer</value>
@@ -74,8 +74,8 @@
     <value>Puce incomplète</value>
   </data>
   <data name="Status" xml:space="preserve">
-    <value>Statut: {0}
-Grade: {1}</value>
+    <value>Statut : {0}
+Grade : {1}</value>
   </data>
   <data name="Subtraction" xml:space="preserve">
     <value>Soustraction</value>
@@ -84,10 +84,10 @@ Grade: {1}</value>
     <value>Portes logiques</value>
   </data>
   <data name="Additions" xml:space="preserve">
-    <value>Ajouts</value>
+    <value>Addition</value>
   </data>
   <data name="BonusStages" xml:space="preserve">
-    <value>Étapes bonus</value>
+    <value>Niveaux bonus</value>
   </data>
   <data name="LogicGates3" xml:space="preserve">
     <value>Portes logiques 3</value>
@@ -123,22 +123,22 @@ Grade: {1}</value>
     <value>Inverseur (NOT)</value>
   </data>
   <data name="InverterChip" xml:space="preserve">
-    <value>Puce d'inversion</value>
+    <value>Puce Inverseur</value>
   </data>
   <data name="BypassChip" xml:space="preserve">
-    <value>Puce de contournement</value>
+    <value>Puce Contournement</value>
   </data>
   <data name="ByteRegisterChip" xml:space="preserve">
-    <value>Puce registre 1octet</value>
+    <value>Puce Registre d'octet</value>
   </data>
   <data name="MemoryBit" xml:space="preserve">
     <value>Cellules mémoire</value>
   </data>
   <data name="AdderChip" xml:space="preserve">
-    <value>Puce Additionneur d'Octets</value>
+    <value>Puce Additionneur d'octet</value>
   </data>
   <data name="ALUChip" xml:space="preserve">
-    <value>Puce ALU d'Octets</value>
+    <value>Puce ALU 8 bits</value>
   </data>
   <data name="OneInOneOut" xml:space="preserve">
     <value>Une entrée, une sortie</value>
@@ -189,7 +189,7 @@ Grade: {1}</value>
     <comment>Stage for learning how to compact the inverter and to see metrics</comment>
   </data>
   <data name="Blueprint" xml:space="preserve">
-    <value>Plan</value>
+    <value>Blueprint</value>
     <comment>Stage for learning how to use blueprint</comment>
   </data>
   <data name="AndButNotNAND" xml:space="preserve">

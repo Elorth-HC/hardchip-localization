@@ -40,7 +40,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ReceivedBypassRequirement" xml:space="preserve">
-    <value>g90Spécifications reçues pour la puce BYPASS.
+    <value>g90Spécifications reçues pour la puce CONTOURNEMENT.
 g90Prêt à commencer le processus de conception.</value>
   </data>
   <data name="StartBypass" xml:space="preserve">
@@ -56,19 +56,19 @@ y92Fabricateur PARTIELLEMENT EN LIGNE
 r95Base de données de puces ÉCHEC, données corrompues
 r99erreur : données corrompues, formatage de la base de données...
 g90
-g90Spécifications reçues pour la puce BYPASS.
+g90Spécifications reçues pour la puce CONTOURNEMENT.
 r99erreur : aucune puce trouvée dans la base de données !
 g90
-g95Traitement des parties de spécifications reçues pour la puce BYPASS...
-g92   Exigences de TRACES
+g95Traitement des parties de spécifications reçues pour la puce CONTOURNEMENT...
+g92   Exigences de PISTES
 g92   Exigences d'ENTRÉE/SORTIE
-g92   Exigences de TRACES CROISÉES
+g92   Exigences de PISTES CROISÉES
 g92Toutes les parties des exigences téléchargées
 g90
-y39Environnement de la station de travail configuré pour l'ingénierie des semi-conducteurs de la puce BYPASS.</value>
+y39Environnement de la station de travail configuré pour l'ingénierie des semi-conducteurs de la puce CONTOURNEMENT.</value>
   </data>
   <data name="BypassDone" xml:space="preserve">
-    <value>g90Conception de la puce BYPASS : TERMINÉE
+    <value>g90Conception de la puce CONTOURNEMENT : TERMINÉE
 g90
 g92Mise sous tension du Fabricateur [OK]
 g90Envoi de la conception au Fabricateur...
@@ -84,7 +84,7 @@ r95CODE_ERREUR : 0x052001 Station de travail non prête, banques de matériaux H
 g90Prêt à commencer le processus de conception.</value>
   </data>
   <data name="ReceivedInverterRequirement" xml:space="preserve">
-    <value>g90Spécifications reçues pour la puce INVERTER.
+    <value>g90Spécifications reçues pour la puce INVERSEUR.
 g90Prêt à commencer le processus de conception.</value>
   </data>
   <data name="StartInverter" xml:space="preserve">
@@ -96,19 +96,19 @@ y92Banques de matériaux principales [HORS LIGNE]
 y95Banque de matériaux secondaire [HORS LIGNE]
 y92Fabricateur PARTIELLEMENT EN LIGNE
 g90
-g90Spécifications reçues pour la puce INVERTER.
+g90Spécifications reçues pour la puce INVERSEUR.
 r99erreur : aucune puce trouvée dans la base de données !
 g90
-g95Traitement des parties de spécifications reçues pour la puce INVERTER...
+g95Traitement des parties de spécifications reçues pour la puce INVERSEUR...
 g92   Exigences PMOS
 g92   Exigences NMOS
 g92   Exigences NOT
 g92Toutes les parties des exigences téléchargées
 g90
-y39Environnement de la station de travail configuré pour l'ingénierie des semi-conducteurs de la puce INVERTER.</value>
+y39Environnement de la station de travail configuré pour l'ingénierie des semi-conducteurs de la puce INVERSEUR.</value>
   </data>
   <data name="InverterDone" xml:space="preserve">
-    <value>g90Conception de la puce INVERTER : TERMINÉE
+    <value>g90Conception de la puce INVERSEUR : TERMINÉE
 g90
 g92Fabricateur [EN LIGNE]
 g90Envoi de la conception au Fabricateur...
@@ -116,7 +116,7 @@ g17.....
 g90Terminé.</value>
   </data>
   <data name="ReceivedAdderRequirement" xml:space="preserve">
-    <value>g90Spécifications reçues pour la puce ADDER 8 bits.
+    <value>g90Spécifications reçues pour la puce ADDITIONNEUR 8 bits.
 g90Prêt à commencer le processus de conception.</value>
   </data>
   <data name="StartAdder" xml:space="preserve">
@@ -128,24 +128,24 @@ g92Banques de matériaux principales [EN LIGNE]
 y95Banque de matériaux secondaire [HORS LIGNE]
 y92Fabricateur PARTIELLEMENT EN LIGNE
 g90
-g90Spécifications reçues pour la puce 8BIT ADDER.
+g90Spécifications reçues pour la puce ADDITIONNEUR 8 bits.
 r99erreur : aucune puce trouvée dans la base de données !
 g90
-g95Traitement des parties de spécifications reçues pour la puce 8BIT ADDER...
+g95Traitement des parties de spécifications reçues pour la puce ADDITIONNEUR 8 bits...
 g92   Exigences de porte NOT
 g92   Exigences de porte NAND
 g92   Exigences de porte AND
 g92   Exigences de porte OR
 g92   Exigences de porte XOR
-g92   Exigences de Full Adder bit
+g92   Exigences d'additionneur complet 1 bit
 g92   Exigences de l'additionneur 4 bits
 g92   Exigences de l'additionneur 8 bits
 g92Toutes les parties des exigences téléchargées
 g90
-y39Environnement de la station de travail configuré pour l'ingénierie des semi-conducteurs de la puce 8BIT ADDER.</value>
+y39Environnement de la station de travail configuré pour l'ingénierie des semi-conducteurs de la puce ADDITIONNEUR 8 bits.</value>
   </data>
   <data name="AdderDone" xml:space="preserve">
-    <value>g908BIT ADDER : conception de la puce TERMINÉE
+    <value>g90Conception de la puce ADDITIONNEUR 8 bits : TERMINÉE
 g90
 g92Fabricateur [EN LIGNE]
 g90Envoi de la conception au Fabricateur...
@@ -161,23 +161,23 @@ g92Banques de matériaux principales [EN LIGNE]
 g95Banque de matériaux secondaire [EN LIGNE]
 g92Fabricateur EN LIGNE
 g90
-g90Spécifications reçues pour la puce 8BIT ALU.
+g90Spécifications reçues pour la puce ALU 8 bits.
 r99erreur : aucune puce trouvée dans la base de données !
 g90
-g95Traitement des parties de spécifications reçues pour la puce 8BIT ALU...
+g95Traitement des parties de spécifications reçues pour la puce ALU 8 bits...
 g92   Exigences de porte XOR
 g92   Exigences de porte NOR8
 g92   Exigences de l'additionneur 8 bits
 g92   Exigences de représentation des nombres signés
-g92   Exigences Inverter+1
+g92   Exigences Inverseur+1
 g92   Exigences du soustracteur
-g92   Exigences 8BIT ALU
+g92   Exigences ALU 8 bits
 g92Toutes les parties des exigences téléchargées
 g90
-y39Environnement de la station de travail configuré pour l'ingénierie des semi-conducteurs de la puce 8BIT ALU.</value>
+y39Environnement de la station de travail configuré pour l'ingénierie des semi-conducteurs de la puce ALU 8 bits.</value>
   </data>
   <data name="ALUDone" xml:space="preserve">
-    <value>g908BIT ALU : conception de la puce TERMINÉE
+    <value>g90Conception de la puce ALU 8 bits : TERMINÉE
 g90
 g92Fabricateur [EN LIGNE]
 g90Envoi de la conception au Fabricateur...

@@ -40,7 +40,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ChapterOneChecked" xml:space="preserve">
-    <value>Chapitre Un validé !
+    <value>Chapitre Un validé !
 </value>
   </data>
   <data name="YouVeCompletedTheFirstChapterOfHardChipThe8bitALU" xml:space="preserve">
@@ -49,12 +49,12 @@
 </value>
   </data>
   <data name="Chapter2IsInTheMakingThatDoesnTMeanThereNothingToDoYouCanRevisitYourDesignsToImproveGradesAtTheWorkstation" xml:space="preserve">
-    <value>Le chapitre 2 est en cours de création. Cela ne signifie pas qu'il n'y a rien à faire. Vous pouvez revenir sur vos conceptions pour améliorer vos notes au poste de travail.
+    <value>Le chapitre 2 est en cours de création. Cela ne signifie pas qu'il n'y a rien à faire. Vous pouvez revenir sur vos conceptions pour améliorer vos grades à la station de travail.
 
 </value>
   </data>
   <data name="OrYouCanCreateEntirelyNewCircuitsThanksToTheBonusStageFromTheMainMenu" xml:space="preserve">
-    <value>Ou vous pouvez créer de tout nouveaux circuits grâce au Bonus Stage depuis le menu principal !
+    <value>Ou vous pouvez créer de tout nouveaux circuits grâce aux Niveaux bonus depuis le menu principal !
 
 </value>
   </data>

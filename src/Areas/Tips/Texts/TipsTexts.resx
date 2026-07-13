@@ -40,7 +40,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HoldMiddleMouseButtonToRotateAround" xml:space="preserve">
-    <value>Tip: use middle mouse button to rotate the camera around you solutions.</value>
+    <value>Tip: use middle mouse button to rotate the camera around your solutions.</value>
   </data>
   <data name="CtrlXCVWorkForCutCopyPastSelectAllOperation" xml:space="preserve">
     <value>Tip: use Ctrl-A to select all, Ctrl-X/C/V to cut/copy/paste.</value>
