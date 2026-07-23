@@ -60,9 +60,9 @@ g90Anforderungen für BYPASS-Chip empfangen.
 r99Fehler: Kein Chip in der Datenbank gefunden!
 g90
 g95Verarbeite empfangene Anforderungsteile für BYPASS-Chip...
-g92   TRACES requirements
-g92   INPUT/OUTPUT requirements
-g92   CROSSING TRACES requirements
+g92   LEITERBAHNEN-Anforderungen
+g92   EINGANG/AUSGANG-Anforderungen
+g92   Anforderungen für KREUZENDE LEITERBAHNEN
 g92Alle Anforderungsteile hochgeladen
 g90
 y39Workstation-Umgebung für BYPASS-Chip-Halbleiterentwicklung eingerichtet.</value>
@@ -70,8 +70,8 @@ y39Workstation-Umgebung für BYPASS-Chip-Halbleiterentwicklung eingerichtet.</va
   <data name="BypassDone" xml:space="preserve">
     <value>g90BYPASS-Chip-Design: ABGESCHLOSSEN
 g90
-g92Fahre Fabricator hoch [OK]
-g90Sende Design an Fabricator...
+g92Fahre Fabrikator hoch [OK]
+g90Sende Design an Fabrikator...
 g17.....
 g90Erledigt.</value>
   </data>
@@ -100,9 +100,9 @@ g90Anforderungen für INVERTER-Chip empfangen.
 r99Fehler: Kein Chip in der Datenbank gefunden!
 g90
 g95Verarbeite empfangene Anforderungsteile für INVERTER-Chip...
-g92   PMOS requirements
-g92   NMOS requirements
-g92   NOT requirements
+g92   PMOS-Anforderungen
+g92   NMOS-Anforderungen
+g92   NOT-Anforderungen
 g92Alle Anforderungsteile hochgeladen
 g90
 y39Workstation-Umgebung für INVERTER-Chip-Halbleiterentwicklung eingerichtet.</value>
@@ -110,13 +110,13 @@ y39Workstation-Umgebung für INVERTER-Chip-Halbleiterentwicklung eingerichtet.</
   <data name="InverterDone" xml:space="preserve">
     <value>g90INVERTER-Chip-Design: ABGESCHLOSSEN
 g90
-g92Fabricator [ONLINE]
-g90Sende Design an Fabricator...
+g92Fabrikator [ONLINE]
+g90Sende Design an Fabrikator...
 g17.....
 g90Erledigt.</value>
   </data>
   <data name="ReceivedAdderRequirement" xml:space="preserve">
-    <value>g90Anforderungen für 8-BIT-ADDER-Chip empfangen.
+    <value>g90Anforderungen für 8-BIT-ADDIERER-Chip empfangen.
 g90Bereit, den Designprozess zu starten.</value>
   </data>
   <data name="StartAdder" xml:space="preserve">
@@ -128,27 +128,27 @@ g92Primäre Materialbanken [ONLINE]
 y95Sekundäre Materialbank [OFFLINE]
 y92Fabrikator TEILWEISE ONLINE
 g90
-g90Anforderungen für 8-BIT-ADDER-Chip empfangen.
+g90Anforderungen für 8-BIT-ADDIERER-Chip empfangen.
 r99Fehler: Kein Chip in der Datenbank gefunden!
 g90
-g95Verarbeite empfangene Anforderungsteile für 8-BIT-ADDER-Chip...
-g92   NOT gate requirements
-g92   NAND gate requirements
-g92   AND gate requirements
-g92   OR gate requirements
-g92   XOR gate requirements
-g92   Bit Full Adder requirements
-g92   4bit Adder requirements
-g92   8bit Adder requirements
+g95Verarbeite empfangene Anforderungsteile für 8-BIT-ADDIERER-Chip...
+g92   NOT-Gatter-Anforderungen
+g92   NAND-Gatter-Anforderungen
+g92   AND-Gatter-Anforderungen
+g92   OR-Gatter-Anforderungen
+g92   XOR-Gatter-Anforderungen
+g92   1-Bit-Volladdierer-Anforderungen
+g92   4-Bit-Addierer-Anforderungen
+g92   8-Bit-Addierer-Anforderungen
 g92Alle Anforderungsteile hochgeladen
 g90
-y39Workstation-Umgebung für 8-BIT-ADDER-Halbleiterentwicklung eingerichtet.</value>
+y39Workstation-Umgebung für 8-BIT-ADDIERER-Halbleiterentwicklung eingerichtet.</value>
   </data>
   <data name="AdderDone" xml:space="preserve">
-    <value>g908-BIT-ADDER-Chip-Design: ABGESCHLOSSEN
+    <value>g908-BIT-ADDIERER-Chip-Design: ABGESCHLOSSEN
 g90
-g92Fabricator [ONLINE]
-g90Sende Design an Fabricator...
+g92Fabrikator [ONLINE]
+g90Sende Design an Fabrikator...
 g17.....
 g90Erledigt.</value>
   </data>
@@ -165,13 +165,13 @@ g90Anforderungen für 8-BIT-ALU-Chip empfangen.
 r99Fehler: Kein Chip in der Datenbank gefunden!
 g90
 g95Verarbeite empfangene Anforderungsteile für 8-BIT-ALU-Chip...
-g92   XOR gate requirements
-g92   NOR8 gate requirements
-g92   8bit Adder requirements
-g92   Signed Number Representation requirements
-g92   Inverter+1 requirements
-g92   Subtracter requirements
-g92   8bit ALU requirements
+g92   XOR-Gatter-Anforderungen
+g92   NOR8-Gatter-Anforderungen
+g92   8-Bit-Addierer-Anforderungen
+g92   Anforderungen für vorzeichenbehaftete Zahlendarstellung
+g92   Inverter+1-Anforderungen
+g92   Subtrahierer-Anforderungen
+g92   8-Bit-ALU-Anforderungen
 g92Alle Anforderungsteile hochgeladen
 g90
 y39Workstation-Umgebung für 8-BIT-ALU-Halbleiterentwicklung eingerichtet.</value>
@@ -179,8 +179,8 @@ y39Workstation-Umgebung für 8-BIT-ALU-Halbleiterentwicklung eingerichtet.</valu
   <data name="ALUDone" xml:space="preserve">
     <value>g908-BIT-ALU-Chip-Design: ABGESCHLOSSEN
 g90
-g92Fabricator [ONLINE]
-g90Sende Design an Fabricator...
+g92Fabrikator [ONLINE]
+g90Sende Design an Fabrikator...
 g17.....
 g90Erledigt.</value>
   </data>

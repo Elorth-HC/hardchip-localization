@@ -76,7 +76,7 @@ Warum CMOS gewonnen hat:
 - Sie skaliert gut. Jahrzehnte von Strukturverkleinerungen (gemäß Moore's Law) wurden weitgehend von CMOS getragen
 - Sie ist mit hoher Ausbeute und in großen Stückzahlen herstellbar
 
-Wo man ihn findet:
+Wo man CMOS findet:
 - CPUs, GPUs, mobile SoCs sind alle in CMOS-Logik ausgeführt
 - DRAM und NAND-Flash-Speicher
 - Bildsensoren (CMOS-Sensoren haben CCD als Standard abgelöst)

@@ -68,16 +68,16 @@
     <value>Schaltplan öffnen</value>
   </data>
   <data name="EnterNewNameForThisBlueprint" xml:space="preserve">
-    <value>Neuen Namen für diese Blaupause eingeben:</value>
+    <value>Neuen Namen für diesen Blueprint eingeben:</value>
   </data>
   <data name="AreYouSureYouWantToDeleteThisBlueprint" xml:space="preserve">
-    <value>Möchten Sie diese Blaupause wirklich löschen?</value>
+    <value>Möchtest du diesen Blueprint wirklich löschen?</value>
   </data>
   <data name="RenameBlueprint" xml:space="preserve">
-    <value>Blaupause umbenennen:</value>
+    <value>Blueprint umbenennen:</value>
   </data>
   <data name="DeleteBlueprint" xml:space="preserve">
-    <value>Blaupause löschen:</value>
+    <value>Blueprint löschen:</value>
   </data>
   <data name="Probes" xml:space="preserve">
     <value>Sonden</value>
@@ -98,7 +98,7 @@
     <value>Klicken, um Position zurückzusetzen</value>
   </data>
   <data name="RelocateInput" xml:space="preserve">
-    <value>Eingabe verlegen</value>
+    <value>Eingang verlegen</value>
   </data>
   <data name="AndLinkWordForTruthTable" xml:space="preserve">
     <value>und</value>
@@ -107,7 +107,7 @@
     <value>aber</value>
   </data>
   <data name="RelocateOutput" xml:space="preserve">
-    <value>Ausgabe verlegen</value>
+    <value>Ausgang verlegen</value>
   </data>
   <data name="StickToScreen" xml:space="preserve">
     <value>Am Bildschirm fixieren</value>
@@ -137,28 +137,28 @@
     <value>Nicht anhalten</value>
   </data>
   <data name="BlueprintSaved" xml:space="preserve">
-    <value>Blaupause gespeichert</value>
+    <value>Blueprint gespeichert</value>
   </data>
   <data name="SaveAllAsABlueprint" xml:space="preserve">
-    <value>Alles als Blaupause speichern</value>
+    <value>Alles als Blueprint speichern</value>
   </data>
   <data name="OpenBlueprintLibrary" xml:space="preserve">
-    <value>Blaupausenbibliothek öffnen</value>
+    <value>Blueprint-Bibliothek öffnen</value>
   </data>
   <data name="ShowOnlyBestsByBlockBlueprints" xml:space="preserve">
-    <value>Nur die besten Blaupausen nach Blockanzahl anzeigen</value>
+    <value>Nur die besten Blueprints nach Blockanzahl anzeigen</value>
   </data>
   <data name="ShowOnlyBestsByVolumeBlueprints" xml:space="preserve">
-    <value>Nur die besten Blaupausen nach Volumen anzeigen</value>
+    <value>Nur die besten Blueprints nach Volumen anzeigen</value>
   </data>
   <data name="ShowOnlyBestsByTickBlueprints" xml:space="preserve">
-    <value>Nur die besten Blaupausen nach Ticks anzeigen</value>
+    <value>Nur die besten Blueprints nach Ticks anzeigen</value>
   </data>
   <data name="ShowOnlyBestsByMOSBlueprints" xml:space="preserve">
-    <value>Nur die besten Blaupausen nach MOS anzeigen</value>
+    <value>Nur die besten Blueprints nach MOS anzeigen</value>
   </data>
   <data name="SaveSelectionAsBlueprint" xml:space="preserve">
-    <value>Auswahl als Blaupause speichern</value>
+    <value>Auswahl als Blueprint speichern</value>
   </data>
   <data name="Blocks" xml:space="preserve">
     <value>Blöcke</value>
@@ -182,16 +182,16 @@
     <value>Automatisches Verkleinern bei Validierung</value>
   </data>
   <data name="TurnOnOffTheAutoShrinkOfTheDieWhenValidatingTheNlevelTheDieWillBeShrinkedToTheSmallestSizeNpossibleToFitTheBlocks" xml:space="preserve">
-    <value>Schaltet das automatische Verkleinern des Chips beim Validieren des
-Levels ein oder aus. Der Chip wird auf die kleinstmögliche Größe
+    <value>Schaltet das automatische Verkleinern des Dies beim Validieren des
+Levels ein oder aus. Der Die wird auf die kleinstmögliche Größe
 verkleinert, um die Blöcke aufzunehmen.</value>
   </data>
   <data name="EditDieSize" xml:space="preserve">
-    <value>Chipgröße bearbeiten</value>
+    <value>Die-Größe bearbeiten</value>
   </data>
   <data name="EditManuallyTheDieSizeShrinkingTheDieWillRemoveNtheBlocksOutsideTheNewDieSize" xml:space="preserve">
-    <value>Bearbeite die Chipgröße manuell. Das Verkleinern des Chips entfernt
-alle Blöcke außerhalb der neuen Chipgröße.</value>
+    <value>Bearbeite die Die-Größe manuell. Das Verkleinern des Dies entfernt
+alle Blöcke außerhalb der neuen Die-Größe.</value>
   </data>
   <data name="ExportALevelFileToClipboardPastableInFileExplorerNDiscordAndEveryProgramsSupportingPastedFile" xml:space="preserve">
     <value>Exportiere eine Leveldatei in die Zwischenablage. Kann in den Datei-Explorer,
@@ -215,11 +215,11 @@ Discord und alle Programme, die eingefügte Dateien unterstützen, eingefügt we
 Die Indikatoren werden nach einigen Sekunden oder beim Schritt in der Simulation entfernt.</value>
   </data>
   <data name="TracesGroupsColors" xml:space="preserve">
-    <value>Farben der Leitungsgruppen</value>
+    <value>Eingefärbte Segmente</value>
   </data>
   <data name="ColorAllInterconnectedTracesWithTheSameColorAndNpartiallyHideTracesAlwaysConnectedToUpDownTerminals" xml:space="preserve">
-    <value>Färbt alle verbundenen Leitungen in derselben Farbe und
-blendet Leitungen aus, die immer mit 0/1-Block verbunden sind.</value>
+    <value>Färbt alle verbundenen Leiterbahnen in derselben Farbe und
+blendet Leiterbahnen teilweise aus, die immer mit 0/1-Konstantenblöcken verbunden sind.</value>
   </data>
   <data name="AutoClockStop" xml:space="preserve">
     <value>Automatischer Taktstopp</value>
@@ -243,16 +243,16 @@ blendet Leitungen aus, die immer mit 0/1-Block verbunden sind.</value>
     <value>UI ausblenden ({0})</value>
   </data>
   <data name="CameraStrafeLeft" xml:space="preserve">
-    <value>Nach links strafen</value>
+    <value>Seitwärts nach links</value>
   </data>
   <data name="EditorCamFreeCamSHIFTCTRLWASDLEFTCLICK" xml:space="preserve">
-    <value>Editor-Kamera/Freie Kamera (SHIFT/STRG/WASD/Linksklick)</value>
+    <value>Editor-Kamera/Freie Kamera (LEERTASTE/STRG/WASD/LINKSKLICK)</value>
   </data>
   <data name="EditorCamFreeCam" xml:space="preserve">
     <value>Editor-Kamera/Freie Kamera</value>
   </data>
   <data name="CameraStrafeRight" xml:space="preserve">
-    <value>Nach rechts strafen</value>
+    <value>Seitwärts nach rechts</value>
   </data>
   <data name="CenterCamera" xml:space="preserve">
     <value>Kamera zentrieren</value>
@@ -264,10 +264,10 @@ blendet Leitungen aus, die immer mit 0/1-Block verbunden sind.</value>
     <value>Rückwärts</value>
   </data>
   <data name="CameraZoomOut" xml:space="preserve">
-    <value>Rauszoomen</value>
+    <value>Herauszoomen</value>
   </data>
   <data name="DieOperations" xml:space="preserve">
-    <value>Chip-Operationen</value>
+    <value>Die-Operationen</value>
   </data>
   <data name="Shrink5BlocksFromTheBack" xml:space="preserve">
     <value>5 Blöcke von hinten verkleinern</value>
@@ -303,7 +303,7 @@ blendet Leitungen aus, die immer mit 0/1-Block verbunden sind.</value>
     <value>5 Blöcke von vorne verkleinern</value>
   </data>
   <data name="ShrinkTheDieToFitTheMinimumSize" xml:space="preserve">
-    <value>Chip auf minimale Größe verkleinern</value>
+    <value>Die auf minimale Größe verkleinern</value>
   </data>
   <data name="Extend5BlocksFromTheBack" xml:space="preserve">
     <value>5 Blöcke hinten erweitern</value>
@@ -375,10 +375,10 @@ blendet Leitungen aus, die immer mit 0/1-Block verbunden sind.</value>
     <value>Sonde</value>
   </data>
   <data name="SaveAsABlueprint" xml:space="preserve">
-    <value>Als Blaupause speichern</value>
+    <value>Als Blueprint speichern</value>
   </data>
   <data name="CreatingANewBlueprint" xml:space="preserve">
-    <value>Erstelle eine neue Blaupause:</value>
+    <value>Neuen Blueprint erstellen:</value>
   </data>
   <data name="NewComponent" xml:space="preserve">
     <value>NeueKomponente</value>
@@ -397,13 +397,13 @@ blendet Leitungen aus, die immer mit 0/1-Block verbunden sind.</value>
 und lege ihn in die Zwischenablage sowie den Steam-Screenshot-Ordner ab.</value>
   </data>
   <data name="ReportShape" xml:space="preserve">
-    <value>Form melden</value>
+    <value>Score-Form</value>
   </data>
   <data name="ReportBackground" xml:space="preserve">
-    <value>Hintergrund melden</value>
+    <value>Score-Hintergrund</value>
   </data>
   <data name="ReportText" xml:space="preserve">
-    <value>Text melden</value>
+    <value>Score-Text</value>
   </data>
   <data name="ExitPhotoMode" xml:space="preserve">
     <value>Fotomodus verlassen</value>
@@ -442,10 +442,10 @@ und lege ihn in die Zwischenablage sowie den Steam-Screenshot-Ordner ab.</value>
     <value>Wahrheitstabelle</value>
   </data>
   <data name="InputNamed" xml:space="preserve">
-    <value>Eingabe benannt </value>
+    <value>Eingang namens </value>
   </data>
   <data name="OutputToMatchNamed" xml:space="preserve">
-    <value>Ausgabe soll übereinstimmen mit </value>
+    <value>Abzugleichender Ausgang namens </value>
   </data>
   <data name="InitialPowerUpPhaseDoesnTCountTowardTickScore" xml:space="preserve">
     <value>Anfängliche Hochfahrphase, zählt nicht zum Tick-Score.</value>
@@ -475,7 +475,7 @@ und lege ihn in die Zwischenablage sowie den Steam-Screenshot-Ordner ab.</value>
     <value>   Validieren   </value>
   </data>
   <data name="ButtonLabelStepByStep" xml:space="preserve">
-    <value> Schritt für Schritt </value>
+    <value>    Manuell    </value>
   </data>
   <data name="ButtonLabelModified" xml:space="preserve">
     <value>   Geändert   </value>
@@ -487,16 +487,16 @@ und lege ihn in die Zwischenablage sowie den Steam-Screenshot-Ordner ab.</value>
     <value>Bearbeiten (Oben:{0}/Löschen:{1}/Auswählen:{2})</value>
   </data>
   <data name="DieOperationsModeSummary" xml:space="preserve">
-    <value>Chip erweitern/verkleinern</value>
+    <value>Die erweitern/verkleinern</value>
   </data>
   <data name="ProbeModeSummary" xml:space="preserve">
     <value>Sonden</value>
   </data>
   <data name="BluePrintModeSummary" xml:space="preserve">
-    <value>Blaupausen ({0}/{1}: Blaupause umdrehen)</value>
+    <value>Blueprints ({0}/{1}: Blueprint umdrehen)</value>
   </data>
   <data name="SelectPinModeSummary" xml:space="preserve">
-    <value>Pin-Auswahl ({0}/{1}:Abstände vergrößern/verkleinern)</value>
+    <value>Pins verlegen ({0}/{1}: Abstand vergrößern/verkleinern)</value>
   </data>
   <data name="DebugModeSummary" xml:space="preserve">
     <value>Werkzeuge</value>

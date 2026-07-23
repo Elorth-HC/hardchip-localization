@@ -55,16 +55,16 @@ g57Benutzer-Vitalparameter ERKANNT
 g90
 y39Sofortiges Handeln erforderlich: Systemfehler erkannt
 g90
-w83Drück eine beliebige Taste, um fortzufahren ...</value>
+w83Drücke eine beliebige Taste, um zu bestätigen ...</value>
   </data>
   <data name="_0ToTake" xml:space="preserve">
-    <value>Drücke {0}, um {1} zu nehmen</value>
+    <value>Drücke {0}, um den {1} zu nehmen</value>
   </data>
   <data name="_8BITADDERChip" xml:space="preserve">
-    <value>8-BIT-ADDER-Chip</value>
+    <value>8-BIT-ADDIERER-Chip</value>
   </data>
   <data name="_0ToPlace" xml:space="preserve">
-    <value>Drücke {0}, um {1} abzulegen</value>
+    <value>Drücke {0}, um den {1} abzulegen</value>
   </data>
   <data name="BYPASSChip" xml:space="preserve">
     <value>BYPASS-Chip</value>

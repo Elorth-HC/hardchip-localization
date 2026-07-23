@@ -43,25 +43,25 @@
     <value>Kein HCDrive eingelegt!
 
 HCDrives sind komprimierte Dateien, die Chips,
-Stages und Blaupausen enthalten und sich
+Level und Blueprints enthalten und sich
 leicht teilen lassen.
 
-Stell sicher, dass eine HCDrive-Datei oder ein Link
-zur Datei in der Zwischenablage ist, und drück LADEN.</value>
+Stelle sicher, dass eine HCDrive-Datei oder ein Link
+zur Datei in der Zwischenablage ist, und drücke LADEN.</value>
   </data>
   <data name="LoadHCDriveFailedMessage" xml:space="preserve">
-    <value>Ungültiges HCDrive eingelegt!
+    <value>Kein gültiges HCDrive eingelegt!
 
-Stell sicher, dass eine HCDrive-Datei in der Zwischenablage liegt
-und drück den Lade-Button.</value>
+Stelle sicher, dass eine HCDrive-Datei in der Zwischenablage liegt
+und drücke den „Laden“-Button.</value>
   </data>
   <data name="StageToExportMessage" xml:space="preserve">
-    <value>Community-Stage bereit zum Exportieren:
+    <value>Community-Level bereit zum Exportieren:
 
 - Label: {0}
 - Beschreibung: {1}
 
-Drück EXPORT, um ein Stage-HCDrive zu erstellen.</value>
+Drücke EXPORTIEREN, um ein Level-HCDrive zu erstellen.</value>
   </data>
   <data name="ChipToExportMessage" xml:space="preserve">
     <value>Chip bereit zum Exportieren:
@@ -69,23 +69,23 @@ Drück EXPORT, um ein Stage-HCDrive zu erstellen.</value>
 - Label: {0}
 - Beschreibung: {1}
 
-Drück EXPORT, um ein Chip-HCDrive zu erstellen.</value>
+Drücke EXPORTIEREN, um ein Chip-HCDrive zu erstellen.</value>
   </data>
   <data name="BlueprintToExportMessage" xml:space="preserve">
-    <value>Blaupause bereit zum Exportieren:
+    <value>Blueprint bereit zum Exportieren:
 
 - Label: {0}
 - Beschreibung: {1}
 
-Drück EXPORT, um ein Blaupausen-HCDrive zu erstellen.</value>
+Drücke EXPORTIEREN, um ein Blueprint-HCDrive zu erstellen.</value>
   </data>
   <data name="StageToImportMessage" xml:space="preserve">
-    <value>Gültiges HCDrive eingelegt. Community-Stage erkannt:
+    <value>Gültiges HCDrive eingelegt. Community-Level erkannt:
 
 - Label: {0}
 - Beschreibung: {1}
 
-Drück INSTALLIEREN, um die Stage
+Drücke INSTALLIEREN, um das Level
 zu installieren.</value>
   </data>
   <data name="ChipToImportMessage" xml:space="preserve">
@@ -94,16 +94,16 @@ zu installieren.</value>
 - Label: {0}
 - Beschreibung: {1}
 
-Drück INSTALLIEREN, um den Chip
+Drücke INSTALLIEREN, um den Chip
 zu installieren.</value>
   </data>
   <data name="BlueprintToImportMessage" xml:space="preserve">
-    <value>Gültiges HCDrive eingelegt. Blaupause erkannt:
+    <value>Gültiges HCDrive eingelegt. Blueprint erkannt:
 
 - Label: {0}
 - Beschreibung: {1}
 
-Drück INSTALLIEREN, um die Blaupause
+Drücke INSTALLIEREN, um den Blueprint
 zu installieren.</value>
   </data>
   <data name="ExportSuccessMessage" xml:space="preserve">

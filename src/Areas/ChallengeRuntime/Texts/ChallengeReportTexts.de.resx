@@ -44,7 +44,7 @@
     <comment>Composed with the name of the challenge at the beginning</comment>
   </data>
   <data name="LastChipChecked" xml:space="preserve">
-    <value>Letzter Chip geprüft</value>
+    <value>Zuletzt geprüfter Chip</value>
   </data>
   <data name="ChipChecked" xml:space="preserve">
     <value>Chip geprüft!</value>
@@ -99,7 +99,7 @@ Hoch -&gt; Zufriedenstellend -&gt; Reduziert</value>
     <value>Fotomodus</value>
   </data>
   <data name="ExportBlueprintToANewHCDriveFileIntoTheClipboard" xml:space="preserve">
-    <value>Blaupause als neue HCDrive-Datei in die Zwischenablage exportieren</value>
+    <value>Blueprint als neue HCDrive-Datei in die Zwischenablage exportieren</value>
   </data>
   <data name="BestBlockSolutionClickToCompare" xml:space="preserve">
     <value>Klicke, um die beste Block-Lösung zu vergleichen. Rechtsklick, um als aktuelle zu setzen.</value>
@@ -129,7 +129,7 @@ Hoch -&gt; Zufriedenstellend -&gt; Reduziert</value>
     <value>Ändern</value>
   </data>
   <data name="SaveBlueprint" xml:space="preserve">
-    <value>Blaupause speichern</value>
+    <value>Blueprint speichern</value>
   </data>
   <data name="Grade01" xml:space="preserve">
     <value>Bewertung{0}:</value>
@@ -204,7 +204,7 @@ Hoch -&gt; Zufriedenstellend -&gt; Reduziert</value>
     <value> erfolgreich abgeschlossen.</value>
   </data>
   <data name="SolutionOutOfDateRunAgainValidationToUpdate" xml:space="preserve">
-    <value>Lösung veraltet, führen Sie die Validierung erneut aus, um zu aktualisieren.</value>
+    <value>Lösung veraltet. Führe die Validierung erneut aus, um sie zu aktualisieren.</value>
   </data>
   <data name="FloatingComma" xml:space="preserve">
     <value>Schwebend:</value>

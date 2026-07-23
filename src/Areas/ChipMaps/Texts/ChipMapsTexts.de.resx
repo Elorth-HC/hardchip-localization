@@ -44,13 +44,13 @@
     <comment>Completion phrase in the chip map, on top right of the title</comment>
   </data>
   <data name="UnlockNextSection" xml:space="preserve">
-    <value>Schalte den nächsten Abschnitt frei</value>
+    <value>Nächsten Abschnitt freischalten</value>
   </data>
   <data name="ChipReady" xml:space="preserve">
     <value>Chip bereit!</value>
   </data>
   <data name="Fabricate" xml:space="preserve">
-    <value>Fertige</value>
+    <value>Fertigen</value>
   </data>
   <data name="IncompleteChip" xml:space="preserve">
     <value>Unvollständiger Chip</value>
@@ -67,7 +67,7 @@ Bewertung: {1}</value>
     <value>Logikgatter</value>
   </data>
   <data name="Additions" xml:space="preserve">
-    <value>Additionen</value>
+    <value>Addition</value>
   </data>
   <data name="BonusStages" xml:space="preserve">
     <value>Bonus-Level</value>
@@ -103,10 +103,10 @@ Bewertung: {1}</value>
     <value>Transistoren</value>
   </data>
   <data name="InverterNOT" xml:space="preserve">
-    <value>Invertierer (NOT)</value>
+    <value>Inverter (NOT)</value>
   </data>
   <data name="InverterChip" xml:space="preserve">
-    <value>Invertierer-Chip</value>
+    <value>Inverter-Chip</value>
   </data>
   <data name="BypassChip" xml:space="preserve">
     <value>Bypass-Chip</value>
@@ -124,7 +124,7 @@ Bewertung: {1}</value>
     <value>Byte-ALU-Chip</value>
   </data>
   <data name="OneInOneOut" xml:space="preserve">
-    <value>Eingang, Ausgang</value>
+    <value>Ein Eingang, ein Ausgang</value>
     <comment>Stage for learning input and output</comment>
   </data>
   <data name="Control" xml:space="preserve">
@@ -136,7 +136,7 @@ Bewertung: {1}</value>
     <comment>Stage for learning what happen when 1 and 0 signal touch</comment>
   </data>
   <data name="Compliance" xml:space="preserve">
-    <value>Einhaltung</value>
+    <value>Konformität</value>
     <comment>Stage for learning that the truth table criteria to finish a stage</comment>
   </data>
   <data name="CrossingStates" xml:space="preserve">
@@ -172,7 +172,7 @@ Bewertung: {1}</value>
     <comment>Stage for learning how to compact the inverter and to see metrics</comment>
   </data>
   <data name="Blueprint" xml:space="preserve">
-    <value>Bauplan</value>
+    <value>Blueprint</value>
     <comment>Stage for learning how to use blueprint</comment>
   </data>
   <data name="AndButNotNAND" xml:space="preserve">
@@ -204,7 +204,7 @@ Bewertung: {1}</value>
     <comment>Stage name</comment>
   </data>
   <data name="AllAtNothingNOR8" xml:space="preserve">
-    <value>Alles auf nichts (NOR8)</value>
+    <value>Alles oder nichts (NOR8)</value>
     <comment>Stage name</comment>
   </data>
   <data name="NegativeNumber" xml:space="preserve">

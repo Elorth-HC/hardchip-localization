@@ -43,7 +43,7 @@
     <value>r90
 r93ERROR_CODE: 0x04FAB9 Netzwerk-Timeout. Verbindung getrennt.
 r90
-r93ERROR_CODE: 0x00FFB4 Stromspitze. Wahrscheinlich Schäden an elektronischen Komponenten.
+r93ERROR_CODE: 0x00FFB4 Spannungsspitze. Wahrscheinlich Schäden an elektronischen Komponenten.
 r90
 r93ERROR_CODE: 0x0A6599 Fehler bei arithmetischer Operation: Allgemeiner Fehler.</value>
   </data>

@@ -165,7 +165,7 @@
     <value>Ansicht nach unten verschieben</value>
   </data>
   <data name="SwitchFreeCam" xml:space="preserve">
-    <value>Free-Cam umschalten</value>
+    <value>Freie Kamera umschalten</value>
   </data>
   <data name="ToggleCamMovements" xml:space="preserve">
     <value>Kamerabewegungen umschalten</value>
@@ -181,7 +181,7 @@
 Rechtsklick, um zu löschen.</value>
   </data>
   <data name="SettingKeyInput" xml:space="preserve">
-    <value>Tasteingabe wird festgelegt...</value>
+    <value>Tasteneingabe wird festgelegt...</value>
   </data>
   <data name="PermanentlyPressedKeysIgnored" xml:space="preserve">
     <value>Dauerhaft gedrückte Tasten ignoriert: </value>

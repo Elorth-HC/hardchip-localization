@@ -496,4 +496,13 @@ put in the clipboard and Steam Screenshot Folder.</value>
   <data name="HighQuality" xml:space="preserve">
     <value>High Quality</value>
   </data>
+  <data name="ShowGraphs" xml:space="preserve">
+    <value>Show graphs</value>
+  </data>
+  <data name="ShowCombinedBits" xml:space="preserve">
+    <value>Show combined bits</value>
+  </data>
+  <data name="ShowSeparateBits" xml:space="preserve">
+    <value>Show separate bits</value>
+  </data>
 </root>

@@ -176,10 +176,10 @@ Höhere Werte verringern die Performance stark, erhöhen jedoch die Qualität.</
     <value>Mausrand-Scrollen</value>
   </data>
   <data name="DoubleClickToEdit" xml:space="preserve">
-    <value>Edit-Modus bei Doppel-Rechtsklick</value>
+    <value>Bearbeitungsmodus bei Doppel-Rechtsklick</value>
   </data>
   <data name="IfEnabledDoubleLeftMouseClickWillSwitchToEditModeNOneSingleClickDoesSoftCancelEitherWay" xml:space="preserve">
-    <value>Wenn aktiviert, schaltet ein doppelter Rechtsklick in den Edit-Modus.
+    <value>Wenn aktiviert, schaltet ein doppelter Rechtsklick in den Bearbeitungsmodus.
 Ein Metallblock wird automatisch ausgewählt.</value>
   </data>
   <data name="WorldFOV" xml:space="preserve">
@@ -189,7 +189,7 @@ Ein Metallblock wird automatisch ausgewählt.</value>
     <value>Allgemein</value>
   </data>
   <data name="Windowed" xml:space="preserve">
-    <value>Fenster</value>
+    <value>Fenstermodus</value>
   </data>
   <data name="Borderless" xml:space="preserve">
     <value>Randlos</value>
@@ -282,7 +282,7 @@ aber nicht dein Kampagnenfortschritt.</value>
     <value>Bist du sicher, dass du all deine Tutorial-Lösungen zurücksetzen
 möchtest?
 
-Dein Kampagnenfortschritt und alle anderen Stufenlösungen
+Dein Kampagnenfortschritt und alle anderen Level-Lösungen
 werden nicht entfernt.</value>
   </data>
   <data name="TerminalGlitchEffect" xml:space="preserve">

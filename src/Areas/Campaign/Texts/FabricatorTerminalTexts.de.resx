@@ -126,7 +126,7 @@ g39Fabrikatorstatus: BETRIEBSBEREIT</value>
 g90Bereit, den Fertigungsprozess zu starten.</value>
   </data>
   <data name="ReceivedAdder" xml:space="preserve">
-    <value>g90Designspezifikationen für 8-BIT-ADDER-Chip empfangen.
+    <value>g90Designspezifikationen für 8-BIT-ADDIERER-Chip empfangen.
 g90Bereit, den Fertigungsprozess zu starten.</value>
   </data>
   <data name="ReceivedALU" xml:space="preserve">

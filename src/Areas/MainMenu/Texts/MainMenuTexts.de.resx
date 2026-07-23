@@ -43,7 +43,7 @@
     <value>Bonus-Level</value>
   </data>
   <data name="FinishTheByteAdderChipToUnlock" xml:space="preserve">
-    <value>Schließe den Byte-Adder-Chip ab, um ihn freizuschalten.</value>
+    <value>Schließe den Byte-Addierer-Chip ab, um ihn freizuschalten.</value>
   </data>
   <data name="ComingSoon" xml:space="preserve">
     <value>Bald verfügbar.</value>
@@ -91,7 +91,7 @@
     <value>Experimenteller Build</value>
   </data>
   <data name="ThisIsAnExperimentalBuild" xml:space="preserve">
-    <value>Dies ist ein experimentelles Build aus dem Entwicklungs-Branch. Es enthält Funktionen, die aktiv entwickelt und getestet werden. Diese können standardmäßig aktiviert sein, über Startoptionen umgeschaltet werden und jederzeit ohne Vorankündigung hinzugefügt oder entfernt werden.
+    <value>Dies ist ein experimenteller Build aus dem Entwicklungs-Branch. Es enthält Funktionen, die aktiv entwickelt und getestet werden. Diese können standardmäßig aktiviert sein, über Startoptionen umgeschaltet werden und jederzeit ohne Vorankündigung hinzugefügt oder entfernt werden.
 
 Es werden keine Garantien hinsichtlich Kompatibilität, Performance, Stabilität oder Support übernommen.
 

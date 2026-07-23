@@ -68,10 +68,10 @@
     <value>Info</value>
   </data>
   <data name="Blueprints" xml:space="preserve">
-    <value>Blaupausen</value>
+    <value>Blueprints</value>
   </data>
   <data name="HCDrives" xml:space="preserve">
-    <value>HCDrive</value>
+    <value>HCDrives</value>
   </data>
   <data name="CommunityStages" xml:space="preserve">
     <value>Community-Level</value>

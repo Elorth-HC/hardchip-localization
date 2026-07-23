@@ -48,7 +48,7 @@ ist mit den bisherigen Lösungen so nicht möglich.</value>
 wobei alle bisherigen Lösungen weiterverwendet werden.</value>
   </data>
   <data name="ThisIsTheNumberRepresentationUsedSoFar" xml:space="preserve">
-    <value>Das ist die bisher verwendete Zahlen­darstellung.</value>
+    <value>Das ist die bisher verwendete Zahlendarstellung.</value>
   </data>
   <data name="HereSTheNegativeNumberRepresentationCompatibleOutput" xml:space="preserve">
     <value>Hier ist die mit negativen Zahlen kompatible Ausgabe.</value>
@@ -58,28 +58,28 @@ wobei alle bisherigen Lösungen weiterverwendet werden.</value>
 und VALIDIERE dann SCHRITT FÜR SCHRITT MANUELL.</value>
   </data>
   <data name="TRACEsCanBeTrickyToPlaceWithoutTouchingEachOther" xml:space="preserve">
-    <value>Manchmal ist es knifflig, Verbindungen zu platzieren, ohne dass sie sich berühren.</value>
+    <value>Manchmal ist es knifflig, Leiterbahnen zu platzieren, ohne dass sie sich berühren.</value>
   </data>
   <data name="ConnectINPUTAndOUTPUTWithoutSHORTCIRCUITThenVALIDATE" xml:space="preserve">
-    <value>Verbinde EINGANG und AUSGANG ohne KURZSCHLUSS und VALIDIER dann.</value>
+    <value>Verbinde EINGANG und AUSGANG ohne KURZSCHLUSS und VALIDIERE dann.</value>
   </data>
   <data name="UseTheCompactingTheInverterBlueprintThenValidate" xml:space="preserve">
-    <value>Verwende die Blaupause „Den Inverter komprimieren“ und validiere anschließend.</value>
+    <value>Verwende den Blueprint „Compacting the Inverter“ und VALIDIERE anschließend.</value>
   </data>
   <data name="ItWouldBeVeryInefficientToRebuildEveryCircuitFromScratch" xml:space="preserve">
     <value>Es wäre sehr ineffizient, jeden Schaltkreis komplett neu zu bauen.</value>
   </data>
   <data name="ToReuseWhatYouAlreadyBuiltSaveAnyCircuitAsABLUEPRINTAndThenJustSelectItToGetACopyForPlacement" xml:space="preserve">
     <value>Um bereits Gebautes wiederzuverwenden, speichere
-jeden Schaltkreis als BLAUPAUSE und wähle ihn dann einfach aus, um eine Kopie zu platzieren.</value>
+jeden Schaltkreis als BLUEPRINT und wähle ihn dann einfach aus, um eine Kopie zu platzieren.</value>
   </data>
   <data name="EachStageSavesYourPassingCircuitAsABLUEPRINTTooForYouToUseYouCanCreateEditYourOwnAsWell" xml:space="preserve">
-    <value>Jede Herausforderung speichert deinen bestandenen Schaltkreis
-ebenfalls als BLAUPAUSE, die du nutzen kannst.
+    <value>Jedes Level speichert deinen bestandenen Schaltkreis
+ebenfalls als BLUEPRINT, den du nutzen kannst.
 Du kannst auch eigene erstellen/bearbeiten.</value>
   </data>
   <data name="UseTheBLUEPRINTModeToPlaceAnINVERTEROntoTheDIEThenVALIDATE" xml:space="preserve">
-    <value>Benutze den BLAUPAUSEN-Modus, um einen INVERTER auf dem DIE zu platzieren, und VALIDIER danach.</value>
+    <value>Benutze den BLUEPRINT-Modus, um einen INVERTER auf dem DIE zu platzieren, und VALIDIERE danach.</value>
   </data>
   <data name="TheDIESizeWasFixedUntilNowNowTheSizeWillBeDynamicToTheRightAndBottomDirection" xml:space="preserve">
     <value>Die DIE-Größe war bisher fest; ab jetzt passt sie sich dynamisch nach rechts und unten an.</value>
@@ -101,7 +101,7 @@ und validiere dann, um den DIE zu verkleinern.</value>
     <value>INFO: VOLLSTÄNDIGER BERICHT FREIGESCHALTET.</value>
   </data>
   <data name="COMPACTAndOPTIMIZETheINVERTERThenVALIDATE" xml:space="preserve">
-    <value>KOMPRIMIERE und OPTIMIERE den INVERTER und VALIDIER anschließend.</value>
+    <value>KOMPRIMIERE und OPTIMIERE den INVERTER und VALIDIERE anschließend.</value>
   </data>
   <data name="TipToDoACuboidSelectHoldLeftCTRLWhileSelectingOrDeleting" xml:space="preserve">
     <value>Tipp: Um einen Quader auszuwählen, halte STRG links gedrückt,
@@ -111,7 +111,7 @@ während du auswählst oder löschst.</value>
     <value>Bereich zu groß</value>
   </data>
   <data name="SomeValidationRequiresMultipleStepsEachStepHasItsOwnRequirementAllAreListedOnTopHere" xml:space="preserve">
-    <value>Manche Validierungen erfordern mehrere Schritte.
+    <value>Die Validierung erfordert meist mehrere Schritte.
 Jeder Schritt hat eigene Anforderungen - sie sind hier oben aufgelistet.</value>
   </data>
   <data name="EachStepIsVerifiedInOrderOneAfterTheOtherIfAStepFailsToBeVerifiedTheValidationStops" xml:space="preserve">
@@ -119,10 +119,10 @@ Jeder Schritt hat eigene Anforderungen - sie sind hier oben aufgelistet.</value>
 Scheitert ein Schritt, bricht die Validierung ab.</value>
   </data>
   <data name="BuildASolutionThatMeetsTheCRITERIAThenVALIDATE" xml:space="preserve">
-    <value>Baue eine Lösung, die die KRITERIEN erfüllt, und VALIDIER dann.</value>
+    <value>Baue eine Lösung, die die KRITERIEN erfüllt, und VALIDIERE dann.</value>
   </data>
   <data name="IMHereToHelpTrustInTheGuidanceIOfferForMyOnlyAimIsToLeadYouToResolution" xml:space="preserve">
-    <value>Ich bin hier, um zu helfen. Vertraue meiner Anleitung - ich möchte dich nur zur Lösung führen.</value>
+    <value>Ich bin hier, um zu helfen. Vertraue der Führung, die ich dir anbiete, denn mein einziges Ziel ist, dich zur Lösung zu führen.</value>
   </data>
   <data name="ThisOneBlockIsASUBSTRATEBlockSeeItAsTheSupportForEverythingElse" xml:space="preserve">
     <value>Dieser einzelne Block ist ein SUBSTRAT-Block - er dient als Grundlage für alles andere.</value>
@@ -131,16 +131,16 @@ Scheitert ein Schritt, bricht die Validierung ab.</value>
     <value>Dies ist der DIE: Er besteht aus allen Blöcken zusammen.</value>
   </data>
   <data name="ThisIsAnINPUTBlockItProvidesSignalToTheDIEToProcessIt" xml:space="preserve">
-    <value>Das ist ein INPUT-Block; er liefert das Signal, das der DIE verarbeitet.</value>
+    <value>Das ist ein EINGANG-Block; er liefert das Signal, das der DIE verarbeitet.</value>
   </data>
   <data name="ThisIsAnOUTPUTBlockItReceivesTheSignalProcessedByTheDIE" xml:space="preserve">
-    <value>Das ist ein OUTPUT-Block; er erhält das Signal, das der DIE ausgibt.</value>
+    <value>Das ist ein AUSGANG-Block; er erhält das Signal, das der DIE ausgibt.</value>
   </data>
   <data name="ThisDIENeedsToFullfillASimpleTaskOutputingWhatItReceivesOnTheInput" xml:space="preserve">
     <value>Dieser DIE hat eine einfache Aufgabe: Er soll das am Eingang empfangene Signal ausgeben.</value>
   </data>
   <data name="ToConnectTheINPUTAndTheOUTPUTUseATRACEBlockAndThenClickOnAnySUBSTRATEBlockToPlaceATRACE" xml:space="preserve">
-    <value>Um INPUT und OUTPUT zu verbinden, wähle im Baumenü einen METALL-Block
+    <value>Um EINGANG und AUSGANG zu verbinden, wähle im Baumenü einen METALL-Block
 und klicke dann auf einen SUBSTRAT-Block, um ihn zu platzieren.</value>
   </data>
   <data name="WhenYouHaveCompletedYourDIELaunchTheVerificationWithTheVALIDATEButton" xml:space="preserve">
@@ -150,38 +150,38 @@ und klicke dann auf einen SUBSTRAT-Block, um ihn zu platzieren.</value>
     <value>Über den „?“-Button erhältst du jederzeit Hinweise und Hilfe.</value>
   </data>
   <data name="ConnectTheINPUTToTheOUTPUTThenVALIDATE" xml:space="preserve">
-    <value>Verbinde den INPUT mit dem OUTPUT und VALIDIER dann.</value>
+    <value>Verbinde den EINGANG mit dem AUSGANG und VALIDIERE dann.</value>
   </data>
   <data name="TestWithTheClickMeInputAtLeastOnceThenValidate" xml:space="preserve">
-    <value>Teste den „Klick mich!“-Eingang mindestens einmal und VALIDIER anschließend.</value>
+    <value>Teste den „Klick mich!“-Eingang mindestens einmal und VALIDIERE anschließend.</value>
   </data>
   <data name="TRACEINPUTAndOUTPUTBlocksCanHave3States1InRed0InBlue_KnownAsNEUTRALInGray" xml:space="preserve">
-    <value>METALL-, INPUT- und OUTPUT-Blöcke können 3 Zustände haben:
-1 (rot),
-0 (blau),
-_ (NEUTRAL, grau).</value>
+    <value>METALL- und EINGANG-Blöcke können jeweils einen von drei Zuständen haben:
+1 (rot) - verbunden mit Plus / VDD
+0 (blau) - verbunden mit Masse / VSS
+_ (grau) - getrennt / schwebend / Hi-Z</value>
   </data>
   <data name="INPUTBlocksSends1Or0StatesToAdjacentTRACEBlocks" xml:space="preserve">
-    <value>INPUT-Blöcke können aktiv ein Signal treiben und
+    <value>EINGANG-Blöcke können aktiv ein Signal treiben und
 entweder eine 1 oder 0 in benachbarte METALL-Blöcke senden.</value>
   </data>
   <data name="OtherwiseALLBlockWillRevertToItsNaturalNEUTRALState" xml:space="preserve">
     <value>Alle anderen Blöcke leiten diese Signale einfach über
-verbundene Leitungen weiter. Wenn kein INPUT sie weiterhin treibt,
+verbundene Leitungen weiter. Wenn kein EINGANG sie weiterhin treibt,
 lösen sich die Signale schließlich auf und das gesamte verbundene
 METALL-Netzwerk kehrt in den schwebenden Zustand zurück.</value>
   </data>
   <data name="INPUTSAreControlledByTheValidationProcessTheMomentYouClickOnVALIDATE" xml:space="preserve">
-    <value>Sobald du auf „VALIDIEREN“ klickst, werden INPUTS vom Validierungsprozess gesteuert.</value>
+    <value>Sobald du auf „VALIDIEREN“ klickst, werden EINGÄNGE vom Validierungsprozess gesteuert.</value>
   </data>
   <data name="BUTYouCanTestDifferentINPUTSSeedingStateByClickingOnIt" xml:space="preserve">
-    <value>Du kannst aber verschiedene Eingabewerte testen, indem du auf das Label neben dem INPUT klickst.</value>
+    <value>Du kannst aber verschiedene Eingabewerte testen, indem du auf das Label neben dem EINGANG klickst.</value>
   </data>
   <data name="DoingSoWillSTOPTheValidationProcess" xml:space="preserve">
     <value>Dadurch wird der Validierungsprozess ANGEHALTEN.</value>
   </data>
   <data name="ChangeTheINPUTAtLeastOnceThenVALIDATE" xml:space="preserve">
-    <value>Ändere den INPUT mindestens einmal und VALIDIER dann.</value>
+    <value>Ändere den EINGANG mindestens einmal und VALIDIERE dann.</value>
   </data>
   <data name="MOSCanTakeDifferentShapesNotLimitedToThe3x2x3Blocks" xml:space="preserve">
     <value>MOS können verschiedene Formen annehmen und sind nicht auf 3×2×3-Blöcke beschränkt.</value>
@@ -193,7 +193,7 @@ METALL-Netzwerk kehrt in den schwebenden Zustand zurück.</value>
     <value>Hier kannst du keinen METALL-Block verwenden - nur PMOS aus dem unteren Baumenü.</value>
   </data>
   <data name="CreateAMERGEDPMOSWith2GATESThenVALIDATE" xml:space="preserve">
-    <value>Erstelle einen ZUSAMMENGEFASSTEN PMOS mit 2 GATES und VALIDIER anschließend.</value>
+    <value>Erstelle einen ZUSAMMENGEFASSTEN PMOS mit 2 GATES und VALIDIERE anschließend.</value>
   </data>
   <data name="NMOSNegativeMOSAreTheExactOppositeOfPMOS" xml:space="preserve">
     <value>NMOS (Negative MOS) sind das genaue Gegenteil von PMOS.</value>
@@ -208,11 +208,11 @@ METALL-Netzwerk kehrt in den schwebenden Zustand zurück.</value>
     <value>Eine 0 deaktiviert ihn und blockiert ALLE Zustände.</value>
   </data>
   <data name="ConnectTheNMOSProperlyThenVALIDATE" xml:space="preserve">
-    <value>Verbinde den NMOS korrekt und VALIDIER dann.</value>
+    <value>Verbinde den NMOS korrekt und VALIDIERE dann.</value>
   </data>
   <data name="TRACESCanOnlyTransferOneStateAtATimeButMOSFETMetalOxideSemiconductorsFieldEffectTransistorCanReactToStates" xml:space="preserve">
     <value>Eine einfache METALL-Verbindung kann immer nur einen Zustand übertragen.
-MOSFETs (Metal Oxide Semiconductor Field-effect Transistors) können jedoch auf Zustände reagieren!</value>
+MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistor) können jedoch auf Zustände reagieren!</value>
   </data>
   <data name="HereSAMOSFETAndMovingForwardWeLlReferToItAsMOS" xml:space="preserve">
     <value>Hier siehst du einen MOSFET; im Folgenden nennen wir ihn kurz MOS.</value>
@@ -233,10 +233,10 @@ MOSFETs (Metal Oxide Semiconductor Field-effect Transistors) können jedoch auf 
     <value>Eine 1 deaktiviert ihn und blockiert ALLE Zustände.</value>
   </data>
   <data name="UseTheHELPButtonOnTopHereOrTryWiringThePMOSByYourself" xml:space="preserve">
-    <value>Nutze den HELP-Button hier oben oder versuche, den PMOS selbst zu verdrahten.</value>
+    <value>Nutze den „Hilfe“-Button hier oben oder versuche, den PMOS selbst zu verdrahten.</value>
   </data>
   <data name="ConnectThePMOSProperlyThenVALIDATE" xml:space="preserve">
-    <value>Verbinde den PMOS korrekt und VALIDIER dann.</value>
+    <value>Verbinde den PMOS korrekt und VALIDIERE dann.</value>
   </data>
   <data name="MostOfTheTimeASCHEMATICIsAvailableWithTheChipButtonOnTopHere" xml:space="preserve">
     <value>Meistens ist über den Chip-Button oben ein SCHALTPLAN verfügbar.</value>
@@ -245,46 +245,46 @@ MOSFETs (Metal Oxide Semiconductor Field-effect Transistors) können jedoch auf 
     <value>Er bietet optionale Schritte zum Aufbau des Chips für jedes Level.</value>
   </data>
   <data name="UseTheSCHEMATICOrNotToBuildAnINVERTERThenVALIDATE" xml:space="preserve">
-    <value>Nutze den SCHALTPLAN (oder auch nicht), um einen INVERTER zu bauen, und VALIDIER anschließend.</value>
+    <value>Nutze den SCHALTPLAN (oder auch nicht), um einen INVERTER zu bauen, und VALIDIERE anschließend.</value>
   </data>
   <data name="YouCanUseRToRotatePMOSNMOSOrAnySelectionOfBlocks" xml:space="preserve">
     <value>Mit R kannst du PMOS/NMOS oder jede Blockauswahl drehen.</value>
   </data>
   <data name="Connecting2INPUTSWithTheOPPOSITEStates1And0WillResultInASHORTCIRCUIT" xml:space="preserve">
-    <value>Verbindest du zwei INPUTS mit entgegengesetzten Zuständen 1 und 0, entsteht ein KURZSCHLUSS.</value>
+    <value>Verbindest du zwei EINGÄNGE mit entgegengesetzten Zuständen 1 und 0, entsteht ein KURZSCHLUSS.</value>
   </data>
   <data name="ASHORTCIRCUITWillPreventTheDIEFromProperlyFunctioningInUnexpectedWays" xml:space="preserve">
     <value>Ein KURZSCHLUSS verhindert, dass der DIE ordnungsgemäß funktioniert - oft auf unerwartete Weise.</value>
   </data>
   <data name="ToIsolateThe2INPUTSFromEachOtherHoldALTDownAndClickOnATRACEToRemoveIt" xml:space="preserve">
-    <value>Um die beiden INPUTS voneinander zu isolieren, halte ALT gedrückt und klicke auf einen METALL-Block, um ihn zu entfernen.</value>
+    <value>Um die beiden EINGÄNGE voneinander zu isolieren, halte ALT gedrückt und klicke auf einen METALL-Block, um ihn zu entfernen.</value>
   </data>
   <data name="FixTheSHORTCIRCUITThenVALIDATE" xml:space="preserve">
-    <value>Behebe den KURZSCHLUSS und VALIDIER dann.</value>
+    <value>Behebe den KURZSCHLUSS und VALIDIERE dann.</value>
   </data>
   <data name="ToIsolateTRACEsFromEachOtherTheyMustHaveAtLeast1EmptySpaceBetweenThemInAnyDirectionOtherwiseTheyAreConnected" xml:space="preserve">
-    <value>Um METALL-Leitungen voneinander zu isolieren, muss in jeder Richtung mindestens ein Leerfeld Abstand bestehen - sonst sind sie verbunden.</value>
+    <value>Um METALL-Leiterbahnen voneinander zu isolieren, muss in jeder Richtung mindestens ein Leerfeld Abstand bestehen - sonst sind sie verbunden.</value>
   </data>
   <data name="FollowingTheCriteriaInputAMustBeConnectedToOutputAButNotToOutputBNorC" xml:space="preserve">
-    <value>Gemäß den Kriterien muss Input A mit Output A verbunden sein, aber nicht mit Output B oder C.</value>
+    <value>Gemäß den Kriterien muss Eingang A mit Ausgang A verbunden sein, aber nicht mit Ausgang B oder C.</value>
   </data>
   <data name="AddTRACESUpByHoldingLEFTCLICKAndThenMOUSEMOVEUpWhileHoldingCTRLDOWN" xml:space="preserve">
-    <value>Füge METALL nach oben hinzu, indem du LINKSKLICK gedrückt hältst, die Maus nach oben bewegst und dabei CTRL hältst.</value>
+    <value>Füge METALL nach oben hinzu, indem du LINKSKLICK gedrückt hältst, die Maus nach oben bewegst und dabei STRG hältst.</value>
   </data>
   <data name="SEPARATETRACEsABAndCThenVALIDATE" xml:space="preserve">
-    <value>TRENN die Verbindungen A, B und C, dann VALIDIER.</value>
+    <value>TRENNE die Leiterbahnen A, B und C und VALIDIERE dann.</value>
   </data>
   <data name="LeftCTRLHoldLeftCLICKDownThenMoveUpToAddTracesVertically" xml:space="preserve">
     <value>STRG links gedrückt halten, Linksklick halten und nach oben ziehen, um METALL vertikal hinzuzufügen.</value>
   </data>
   <data name="MetalTracesStartInTheGrayFloatingStateNNoEnergyFlows" xml:space="preserve">
-    <value>Metallbahnen beginnen im grauen schwebenden Zustand.
+    <value>Metall-Leiterbahnen beginnen im grauen schwebenden Zustand.
 Keine Energie fließt zu/von einer Stromquelle. Sie sind im
 Grunde getrennte Drahtteile.</value>
   </data>
   <data name="InputsHaveVaryingSignalsButSometimesNyouNeedAConstantSignalOf1Or0" xml:space="preserve">
     <value>Eingänge haben variierende Signale. Aber manchmal
-brauchen Sie ein konstantes Signal von 1 oder 0.</value>
+brauchst du ein konstantes Signal von 1 oder 0.</value>
   </data>
   <data name="ConstantBlocksDoJustThat" xml:space="preserve">
     <value>Konstantenblöcke machen genau das.</value>
@@ -299,10 +299,10 @@ brauchen Sie ein konstantes Signal von 1 oder 0.</value>
     <value>Sie sind immer in ihrer jeweiligen Stromebene fixiert.</value>
   </data>
   <data name="ThisIsHelpfullWhenYouBuildReusablePartsAllNpartsAlwaysHaveTheirConstant0Or1FromThisKnownPlane" xml:space="preserve">
-    <value>Das ist hilfreich, wenn Sie wiederverwendbare Teile bauen. Alle
+    <value>Das ist hilfreich, wenn du wiederverwendbare Teile baust. Alle
 Teile haben immer ihre Konstante 0 oder 1 von dieser bekannten Ebene.</value>
   </data>
   <data name="CONNECTEachConstantBlockToItsOutputThenVALIDATE" xml:space="preserve">
-    <value>VERBINDEN Sie jeden Konstantenblock mit seinem Ausgang, dann VALIDIEREN.</value>
+    <value>VERBINDE jeden Konstantenblock mit seinem Ausgang und VALIDIERE dann.</value>
   </data>
 </root>

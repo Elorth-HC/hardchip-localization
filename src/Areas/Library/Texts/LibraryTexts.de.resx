@@ -40,7 +40,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NewBlueprint" xml:space="preserve">
-    <value>Neue Blaupause</value>
+    <value>Neuer Blueprint</value>
   </data>
   <data name="Deterministic" xml:space="preserve">
     <value>Deterministisch</value>
@@ -52,7 +52,7 @@
     <value>Chip-Name</value>
   </data>
   <data name="BlueprintName" xml:space="preserve">
-    <value>Blaupausen-Name</value>
+    <value>Blueprint-Name</value>
   </data>
   <data name="EnterNewNameFor0" xml:space="preserve">
     <value>Gib einen neuen Namen für {0} ein:</value>
@@ -64,16 +64,16 @@
     <value>Bist du sicher, dass du {0} löschen möchtest?</value>
   </data>
   <data name="NewChallenge" xml:space="preserve">
-    <value>Neue Herausforderung</value>
+    <value>Neues Community-Level</value>
   </data>
   <data name="CommunityStageName" xml:space="preserve">
-    <value>Name der Community-Stufe</value>
+    <value>Name des Community-Levels</value>
   </data>
   <data name="Install" xml:space="preserve">
-    <value>Installiere</value>
+    <value>Installieren</value>
   </data>
   <data name="Export" xml:space="preserve">
-    <value>Exportiere</value>
+    <value>Exportieren</value>
   </data>
   <data name="Clear" xml:space="preserve">
     <value>Leeren</value>
@@ -82,6 +82,6 @@
     <value>Dateiname</value>
   </data>
   <data name="Import" xml:space="preserve">
-    <value>Importiere</value>
+    <value>Importieren</value>
   </data>
 </root>

@@ -42,13 +42,13 @@
   <data name="StatusBroken1" xml:space="preserve">
     <value>g90Diagnose wird ausgeführt...
 g90
-g91Autonomous Material Bank v12.0.4575
+g91Autonome Materialbank v12.0.4575
 g92 Stromversorgung [OK]
 g92 Strukturelle Integrität [OK]
 r95 Kernsteuerungseinheit [FEHLER], Einheit reagiert nicht
 r95ERROR_CODE: 0xEFDFB4 INVERTER-Chip beschädigt
 g90
-y39Handle sofort: Ersetze den INVERTER-Chip. Anforderungen an Workstation gesendet.</value>
+y39Sofortiges Handeln erforderlich: Ersetze den INVERTER-Chip. Anforderungen an Workstation gesendet.</value>
   </data>
   <data name="FirstScreenEver1" xml:space="preserve">
     <value>r90
@@ -71,7 +71,7 @@ y95WARNUNG: 0x45FDB3 INVERTER-Chip ersetzt. Neustart erforderlich.</value>
     <value>y95Erzwinge Neustart...
 g90
 g90=========================================================================
-g90Autonomous Material Bank v12.0.4575                 
+g90Autonome Materialbank v12.0.4575                 
 g90=========================================================================
 g90
 g96Kernsystemprüfung...
@@ -98,14 +98,14 @@ r93ERROR_CODE: 0x0CAF25 Fehler in der Ausgangsverwaltung erkannt. Ungültiges un
   <data name="StatusBroken2" xml:space="preserve">
     <value>g90Diagnose wird ausgeführt...
 g90
-g91Autonomous Material Bank v12.0.4575
+g91Autonome Materialbank v12.0.4575
 g92 Stromversorgung [OK]
 g92 Strukturelle Integrität [OK]
 g92 Kernsteuerungseinheit [OK]
 r95 Materialbestand [FEHLER], unmögliche Zählwerte erkannt.
-r95ERROR_CODE: 0xEFDFB4 8-BIT-ADDER-Chip beschädigt
+r95ERROR_CODE: 0xEFDFB4 8-BIT-ADDIERER-Chip beschädigt
 g90
-y39Handle sofort: Ersetze den 8-BIT-ADDER-Chip. Anforderungen an Workstation gesendet.</value>
+y39Sofortiges Handeln erforderlich: Ersetze den 8-BIT-ADDIERER-Chip. Anforderungen an Workstation gesendet.</value>
   </data>
   <data name="ChipReplaced2" xml:space="preserve">
     <value>r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
@@ -114,13 +114,13 @@ r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r90ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r92ERROR_CODE: UNSPEZIFIZIERTER FEHLER
 r95ERROR_CODE: ?x?????? weiter
-y95WARNUNG: 0x45FDB3 8-BIT-ADDER-Chip ersetzt. Neustart erforderlich.</value>
+y95WARNUNG: 0x45FDB3 8-BIT-ADDIERER-Chip ersetzt. Neustart erforderlich.</value>
   </data>
   <data name="RebootFix2" xml:space="preserve">
     <value>y95Erzwinge Neustart...
 g90
 g90=========================================================================
-g90Autonomous Material Bank v12.0.4575                 
+g90Autonome Materialbank v12.0.4575                 
 g90=========================================================================
 g90
 g96Kernsystemprüfung...

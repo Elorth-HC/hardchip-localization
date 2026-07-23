@@ -62,7 +62,7 @@ g93 Strukturelle Integrität: [OK]
 g92 Steuersysteme: [OK]
 g90
 r90 Aktueller Status: NICHT ANSPRECHBAR
-g90 Aktuelle Leistungsabgabe: 0.1%%
+g90 Aktuelle Leistungsabgabe: 0,1%%
 g90
 w90Letzte Logeinträge:
 r92 ERROR_CODE: 0x00FFB4 Spannungsspitze. Schäden an elektronischen Komponenten wahrscheinlich. Stromverteilungssysteme im Sicherheitsmodus.
