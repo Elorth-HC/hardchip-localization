@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Bypass -->
+  <data name="OneInOneOutNotes" xml:space="preserve">
+    <value>SUBPROCESS helper ADDED to session. REASON: increase_resolution_probability.
+
+Connect one pin to another. That's the whole challenge. There's no logic here, just a wire. That's a simple beginning. Every circuit ahead is, at the bottom, a collection of decisions about what connects to what!</value>
+  </data>
+  <data name="ControlNotes" xml:space="preserve">
+    <value>You can change the input signal at any time. The circuit doesn't do anything interesting until something upstream decides to send a signal. From here on, testing a design can be done by actively setting inputs and checking outputs!</value>
+  </data>
+  <data name="TheConflictNotes" xml:space="preserve">
+    <value>There's a conflict in the routing. Two traces that shouldn't connect, do. That's a short. The interesting thing about shorts is that they're more confusing than a broken connection: instead of nothing, you get wrong behavior. Seeing one here, where the whole circuit fits in view at once, is a good time to understand what that looks like!</value>
+  </data>
+  <data name="ComplianceNotes" xml:space="preserve">
+    <value>The chip now has to pass compliance criteria, a set of conditions it must satisfy across all required inputs. This is where design turns into engineering: it's not enough to have something connected, it has to be correct under all the required test cases. The compliance system is how every chip from here forward gets evaluated. Simple here but it gets increasingly helpful as the circuits get more involved!</value>
+  </data>
+  <data name="CrossingStatesNotes" xml:space="preserve">
+    <value>The traces here cross areas at different signal states. The routing can't ignore that. Where a trace goes matters electrically, not just spatially. This is the first time the layout of the die functions as a constraint rather than just a canvas. That kind of awareness is present in every chip that comes after this!</value>
+  </data>
+  <data name="TheWallNotes" xml:space="preserve">
+    <value>There's a physical obstacle blocking the direct route. 0 and 1 can't be connected to each other. The routing has to work around whatever is there. The constraint here is approachable but it grows more complex with the circuits size!</value>
+  </data>
+  <!-- Inverter -->
+  <data name="TwoToOnePMOSNotes" xml:space="preserve">
+    <value>A PMOS transistor conducts when its gate is pulled low (0). It's on when the signal is off, off when the signal is on. That runs counter to how you might expect a switch to behave. There's a complementary type coming up that works the opposite way, and the pairing only makes sense if both halves are clear on their own.</value>
+  </data>
+  <data name="AlterEgoNMOSNotes" xml:space="preserve">
+    <value>NMOS conducts when the gate is high (1), blocks when it's low (0). With the PMOS counterpart, now both halves are in place. The key insight about pairing PMOS and NMOS is efficiency: when one conducts, the other doesn't. One respond only 1 and the other only 0, but never at the same time. It's the complementary principle that makes CMOS work the way it does.
+
+CMOS (Complementary Metal-Oxide-Semiconductor) is the dominant transistor technology underlying virtually all modern digital electronics. A few key reasons it's so pervasive:
+
+Why CMOS won:
+- It only draws significant current during switching (not while idle), making it far more power-efficient than older bipolar or pure NMOS or pure PMOS designs
+- It scales well. Decades of process shrinks (following Moore's Law) have been largely CMOS-driven
+- It's manufacturable at high yield and massive volume
+
+Where you find it:
+- CPUs, GPUs, mobile SoCs are all CMOS logic
+- DRAM and NAND flash memory
+- Image sensors (CMOS sensors replaced CCD as the standard)
+- Analog/mixed-signal chips (op-amps, ADCs, PLLs) increasingly use CMOS processes
+- FPGAs, microcontrollers, ASICs</value>
+  </data>
+  <data name="TheMergerNotes" xml:space="preserve">
+    <value>Two transistors of the same type, sitting next to each other, don't have to stay two separate structures. They can be merged into one instead of being wired together. Same logic, fewer blocks, less volume. It's faster too: the connection you removed was a path the signal had to cross, and now it isn't there.</value>
+  </data>
+  <data name="ConstantsNotes" xml:space="preserve">
+    <value>Every 1 (high) and 0 (low) in a circuit has to come from somewhere. The 1 plane is the source of all of them, the 0 plane is where every 0 goes, and both span the whole chip at layers 6 and 8. You don't place them, they're already there and they standardize components to reach for their power at a known layer height.</value>
+  </data>
+  <data name="SchematicNotes" xml:space="preserve">
+    <value>A schematic shows topology: what connects to what, with no commitment to where anything physically sits. Turning that into a layout on the die is a separate skill from reading it. Schematics get drawn at different altitudes too, sometimes at transistor level, sometimes at gate level, sometimes higher still at component level. And a schematic is usually one solution rather than the function itself: a construction that works, not the only one that gets you there. The inverter is a poor example of it, having only one sensible build. Further on, two layouts that look nothing alike will do the same job!</value>
+  </data>
+  <data name="CompactingNotes" xml:space="preserve">
+    <value>You're fitting the same inverter into a smaller footprint. Compact layouts leave room for more circuitry, and shorter paths tend to settle faster. But past a point the two stop agreeing: pack tightly enough and other signals have to detour, which costs more time than the space was worth. So compaction changes the routing problem from finding a path to finding a path that doesn't block or lengthen anyone else's. Both compactness and speed are scored here, and those two metrics don't always move together!</value>
+  </data>
+  <data name="BlueprintNotes" xml:space="preserve">
+    <value>The inverter you built earlier is saved as a blueprint, and here you place it instead of drawing it again. Once a circuit works, it stops being something you build and becomes something you position. Every design from here is big enough that redrawing primitives by hand would be most of the work. A blueprint turns a layout you already solved into a part!</value>
+  </data>
+  <!-- Adder -->
+  <data name="AdderNANDNotes" xml:space="preserve">
+    <value>NAND: output is low only when both inputs are high. The most universal gate in digital logic. Any other gate can be constructed from NANDs alone. NAND's CMOS implementation is also naturally efficient, and that matters as circuits get larger.</value>
+  </data>
+  <data name="AdderANDNotes" xml:space="preserve">
+    <value>AND is a NAND followed by an inverter. Both of those are in hand now. This is the composition pattern that runs through all of chip design: complex logic is simpler logic combined. AND is a direct component in arithmetic, not preliminary work.</value>
+  </data>
+  <data name="AdderORNotes" xml:space="preserve">
+    <value>OR: output is high when at least one input is high. With AND and NOT already in hand, the full Boolean primitive set is now complete. Any logic function can be built from those three. Having all three is where the design space starts to open up rather than feel constrained.</value>
+  </data>
+  <data name="AdderXORNotes" xml:space="preserve">
+    <value>XOR: output is high when the two inputs differ, one high and one low. Not when both are high, not when both are low. That "exactly one" behavior is the key. The sum bit of binary addition is XOR: 0+0 is 0, 1+0 or 0+1 is 1, and 1+1 is 0 with a carry out. The carry is handled separately. XOR is doing half the work of every single bit in the adder.</value>
+  </data>
+  <data name="FullBitAdderNotes" xml:space="preserve">
+    <value>A full adder takes three inputs, two data bits and a carry in from the previous position, and produces a sum and a carry out to the next position. The sum is XOR of all three inputs. The carry out is true when at least two of the three are true. Once this cell works, it becomes the building block for everything wider. The carry chain that comes from chaining these cells is the core structural idea in binary addition.</value>
+  </data>
+  <data name="NibbleAdderNotes" xml:space="preserve">
+    <value>Four full adder cells chained together, carry out of each position feeding carry in of the next. This is ripple-carry addition. Ripple refers to how the carry propagates sequentially from position to position. Each bit waits for the one before it to settle before its own output is final. The structure is direct and the carry chain is fully visible, which makes this the clearest way to see how multi-bit arithmetic works.</value>
+  </data>
+  <data name="ByteAdderNotes" xml:space="preserve">
+    <value>Eight full adder cells, carry rippling through all eight bit positions. At this scale, layout and routing are the challenge: a lot of signal paths to keep organized and a carry chain that has to be clean from end to end. The design discipline required here carries forward.</value>
+  </data>
+  <!-- ALU -->
+  <data name="ALUXORNotes" xml:space="preserve">
+    <value>XOR again. You've built this one. In this context it appears in two roles: inside the arithmetic path, as before, and as a selectable bitwise operation, XOR on two bytes with no addition involved. Same gate, two jobs. The second is what starts making the ALU configurable rather than fixed-function.</value>
+  </data>
+  <data name="NOR8Notes" xml:space="preserve">
+    <value>An 8-input NOR gate. Output is only high when all 8 inputs are low, meaning the value is zero. This is the zero detector. It sounds simple compared to arithmetic, but zero detection is central: it's how a circuit knows whether a result came out to nothing, and then drives conditional behavior. This gate is what makes that question answerable.</value>
+  </data>
+  <data name="NegativeNumberNotes" xml:space="preserve">
+    <value>Two's complement is how binary hardware represents negative numbers. The bit pattern for negative one in 8 bits is 11111111. Add that to 00000001, which is positive one, and you get 100000000. Discard the overflow and you get 00000000. Zero. That's the definition: two's complement negation is the value you add to the original to get zero. It matters practically because subtraction can then be done with the same circuit that does addition, without any changes. Once it clicks, it's elegant. Before, it looks arbitrary.</value>
+  </data>
+  <data name="InvertValueNotes" xml:space="preserve">
+    <value>You're inverting all 8 bits at once, a bitwise NOT across the full byte. This is step one of two's complement negation: flip all the bits, then add one. Here the focus is just the flip. The flip and the addition that follows it are implemented by different parts of the circuit, so seeing them separately first makes the full operation easier to understand when they're combined.</value>
+  </data>
+  <data name="AddOrSubtractNotes" xml:space="preserve">
+    <value>One bit decides whether this circuit adds or subtracts. When the control is 0, the second operand passes through unchanged and you get addition. When it's 1, the second operand is inverted and the carry-in is set to 1, completing the two's complement negation. The hardware is the same circuit in both cases. The control input reroutes the data. That's configurability at the gate level, and it's the principle the full ALU is built on.</value>
+  </data>
+  <data name="AlgoLogicUnitNotes" xml:space="preserve">
+    <value>Everything comes together here: the adder/subtracter, the bitwise logic operations, the zero detector, all selected by control signals. The ALU doesn't do one thing but several things, and the control inputs determine which one is happening right now. That's the step from a circuit that computes to a circuit that can be directed. I think this is the strongest point in this whole chip map!</value>
+  </data>
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] close/show</value>
+  </data>
+</root>

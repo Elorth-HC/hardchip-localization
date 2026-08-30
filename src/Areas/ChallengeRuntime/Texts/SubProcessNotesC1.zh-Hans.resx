@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Bypass -->
+  <data name="OneInOneOutNotes" xml:space="preserve">
+    <value>SUBPROCESS 助手已加入会话。原因：increase_resolution_probability。
+
+把一个引脚连到另一个引脚。这就是全部的挑战。这里没有逻辑，只有一根线。这是一个简单的开端。往后的每一条电路，归根到底都是一组关于什么连到什么的决定！</value>
+  </data>
+  <data name="ControlNotes" xml:space="preserve">
+    <value>输入信号随时都可以改变。在上游的某个东西决定送出信号之前，电路并不会做任何有趣的事。从这里开始，测试一个设计可以靠主动设置输入、查看输出来完成！</value>
+  </data>
+  <data name="TheConflictNotes" xml:space="preserve">
+    <value>布线里出现了冲突。两条本不该相连的连线连上了。这就是短路 (short)。短路有趣的地方在于：它比断线更让人困惑——你得到的不是没反应，而是错误的行为。在整张电路一眼看尽的此刻先见到一次，正是看清它长什么样的好时机！</value>
+  </data>
+  <data name="ComplianceNotes" xml:space="preserve">
+    <value>芯片现在必须通过合规标准 (compliance)，也就是它在所有要求的输入下都必须满足的一组条件。从这一步开始，设计变成了工程：仅仅"连上了"还不够，必须在所有要求的测试用例下都正确。从此往后，每一颗芯片都通过合规系统来评估。这里还简单，但电路越复杂，它就越有用！</value>
+  </data>
+  <data name="CrossingStatesNotes" xml:space="preserve">
+    <value>这里的连线穿越了信号状态不同的区域。布线无法对此视而不见。一条连线走在哪里，不只是空间上的事，电气上同样有意义。这是裸片 (die) 的版图第一次以约束的身份出现，而不仅仅是一张画布。这种自觉，会贯穿后面的每一颗芯片！</value>
+  </data>
+  <data name="TheWallNotes" xml:space="preserve">
+    <value>有一个物理障碍挡住了直线路径。0 和 1 不能互相连接。布线必须绕开挡在那里的东西。眼下的约束还在能应付的范围内，但会随着电路规模变大而愈发复杂！</value>
+  </data>
+  <!-- Inverter -->
+  <data name="TwoToOnePMOSNotes" xml:space="preserve">
+    <value>PMOS 晶体管在栅极被拉到低电平 (0) 时导通。信号关时它开，信号开时它关。这和人对开关的直觉是反着来的。后面会出现一个互补类型，工作方式正好相反；只有当两半各自都清楚了，配对才有意义。</value>
+  </data>
+  <data name="AlterEgoNMOSNotes" xml:space="preserve">
+    <value>NMOS 在栅极为高 (1) 时导通，在低 (0) 时阻断。加上与之对应的 PMOS，至此两半都齐了。把 PMOS 和 NMOS 配在一起，关键洞见是效率：一个导通时，另一个就不导通。一个只对 1 有反应，另一个只对 0 有反应，但绝不会同时响应。正是这条互补原理，让 CMOS 以现在这种方式工作。
+
+CMOS（Complementary Metal-Oxide-Semiconductor）是支撑当今几乎全部数字电子产品的主流晶体管技术。它如此普及，背后有几个关键原因。
+
+CMOS 为什么胜出：
+- 它只在切换时才有显著电流（静态时几乎不耗电），因此比老一代的双极、纯 NMOS 或纯 PMOS 设计在能效上要好得多
+- 可缩放性强。几十年来沿着 Moore's Law 的工艺微缩，主要由 CMOS 推动
+- 可以以高良率、大规模量产
+
+它出现在哪里：
+- CPU、GPU、移动 SoC，全是 CMOS 逻辑
+- DRAM 和 NAND 闪存
+- 图像传感器（CMOS 传感器已取代 CCD 成为标准）
+- 模拟／混合信号芯片（运放、ADC、PLL）也越来越多采用 CMOS 工艺
+- FPGA、单片机、ASIC</value>
+  </data>
+  <data name="TheMergerNotes" xml:space="preserve">
+    <value>两个同类型的晶体管挨在一起时，不必保持为两个分开的结构。它们可以合并成一个，而不是用线连起来。逻辑相同，块更少，体积更小。速度上也更快：被去掉的那段连接原本是信号必须走过的一段路径，现在它不在了。</value>
+  </data>
+  <data name="ConstantsNotes" xml:space="preserve">
+    <value>电路里的每一个 1（高电平）和每一个 0（低电平）都得有个来处。1 平面是所有 1 的源头，0 平面是所有 0 的去处，两者都在第 6 层和第 8 层贯穿整片芯片。它们不需要你去放置，本来就在那里，并且让各个元件都在已知的层高上取电，从而统一了取电方式。</value>
+  </data>
+  <data name="SchematicNotes" xml:space="preserve">
+    <value>原理图给出的是拓扑：什么连到什么，而不承诺任何东西具体落在哪里。把它落实成裸片上的版图，和读懂它是两种不同的能力。原理图也画在不同的高度上：有时在晶体管层面，有时在门的层面，有时更高，在部件的层面。而且原理图通常只是一个解，而不是功能本身：一种行得通的构造，并非通向结果的唯一一种。反相器是个糟糕的例子，因为它只有一种合理的搭法。再往后，两张看上去毫不相像的版图会做同一件事！</value>
+  </data>
+  <data name="CompactingNotes" xml:space="preserve">
+    <value>你要把同一个反相器塞进更小的占地。紧凑的版图能给更多电路腾出空间，而更短的路径通常也稳定得更快。但过了某个点，这两件事就不再一致：塞得够紧，别的信号就得绕路，损失的时间比省下的空间还多。所以压缩改变了布线问题：不再是找一条路径，而是找一条既不挡住、也不拉长别人路径的路径。这里紧凑度和速度都会被评分，而这两个指标并不总是同向变化！</value>
+  </data>
+  <data name="BlueprintNotes" xml:space="preserve">
+    <value>你先前搭好的反相器已存为蓝图 (blueprint)，这里要做的是把它放下去，而不是重画一遍。一条电路一旦能用，它就不再是你要搭的东西，而成了你要摆放的东西。从这里起，每个设计都大到手工重画基本单元就会占去大半工作量。蓝图把一张你已经解开的版图变成了一个部件！</value>
+  </data>
+  <!-- Adder -->
+  <data name="AdderNANDNotes" xml:space="preserve">
+    <value>NAND：只有当两个输入都为高时，输出才为低。它是数字逻辑里最普适的门。任何其他门都可以仅用 NAND 搭出来。NAND 的 CMOS 实现本身就高效，这一点会随着电路变大而越来越要紧。</value>
+  </data>
+  <data name="AdderANDNotes" xml:space="preserve">
+    <value>AND 就是 NAND 后接一个反相器。两件东西现在都已经在手上。这正是贯穿整个芯片设计的组合范式：复杂逻辑就是更简单的逻辑组合起来。AND 是算术里的直接构件，不是热身。</value>
+  </data>
+  <data name="AdderORNotes" xml:space="preserve">
+    <value>OR：只要至少有一个输入为高，输出就为高。AND 和 NOT 都已经在手，布尔基本集到此凑齐。任何逻辑函数都能由这三者搭出来。三者俱全的那一刻起，设计空间开始向外打开，而不再让人觉得拘束。</value>
+  </data>
+  <data name="AdderXORNotes" xml:space="preserve">
+    <value>XOR：当两个输入不同——一个高一个低——时输出为高。两个都高不算，两个都低也不算。这种"恰好一个"的行为是关键所在。二进制加法的和位就是 XOR：0+0 是 0，1+0 或 0+1 是 1，1+1 是 0 并产生一个进位 (carry)。进位另行处理。XOR 在加法器 (adder) 的每一位上承担了一半的工作。</value>
+  </data>
+  <data name="FullBitAdderNotes" xml:space="preserve">
+    <value>全加器 (full adder) 接收三个输入：两个数据位，加上来自前一位的进位输入 (carry in)，并产生一个和位以及送往下一位的进位输出 (carry out)。求和是这三个输入的 XOR。进位输出在三个输入中至少有两个为真时为真。这个单元一旦能用，就成为一切更宽的东西的搭建块。把这些单元串起来形成的进位链 (carry chain)，是二进制加法核心的结构思想。</value>
+  </data>
+  <data name="NibbleAdderNotes" xml:space="preserve">
+    <value>四个全加器单元串起来，每一位的进位输出喂给下一位的进位输入。这就是行波进位 (ripple-carry) 加法。"Ripple" 指的是进位如何沿着位的次序一节一节地传过去。每一位都得等前一位稳定下来，自己的输出才算定型。结构直白，进位链一目了然，是看清多位算术怎样运作的最清楚的形态。</value>
+  </data>
+  <data name="ByteAdderNotes" xml:space="preserve">
+    <value>八个全加器单元，进位贯穿全部八位。到了这个规模，版图与布线本身就是挑战：要照看的信号路径很多，进位链则必须从头到尾干净利落。这里要求的设计纪律会延续下去。</value>
+  </data>
+  <!-- ALU -->
+  <data name="ALUXORNotes" xml:space="preserve">
+    <value>又是 XOR。这个你已经搭过。在当前语境里它扮演两种角色：一是和此前一样，处在算术通路中；二是作为可选的按位运算，即对两个字节做 XOR，完全不涉及加法。同一个门，两份工作。后一种正是 ALU 由固定功能转向可配置的起点。</value>
+  </data>
+  <data name="NOR8Notes" xml:space="preserve">
+    <value>一个 8 输入的 NOR 门。只有当 8 个输入全为低、即取值为零时，输出才为高。这是零检测器 (zero detector)。和算术比起来，它听上去很简单，但零检测是核心：电路靠它知道某次结果是否归零，进而驱动条件行为。这个门，就是让那个问题可被回答的东西。</value>
+  </data>
+  <data name="NegativeNumberNotes" xml:space="preserve">
+    <value>二进制补码 (two's complement) 是二进制硬件表示负数的方式。8 位下负一的位模式是 11111111。把它加到正一的 00000001 上，得到的是 100000000。把溢出 (overflow) 丢掉，剩下的是 00000000，零。这就是定义本身：补码下的取负，就是与原值相加得零的那个值。它在工程上要紧的原因是：减法因此可以用做加法的同一套电路完成，不需要任何改动。一旦想通，它很优雅；在那之前，它显得武断。</value>
+  </data>
+  <data name="InvertValueNotes" xml:space="preserve">
+    <value>你要把 8 位一次全部取反，对整个字节做按位 NOT (bitwise NOT)。这是补码取负两步中的第一步：先翻转所有位，再加一。这里只关心翻转。翻转和随后的加法由电路里的不同部分实现，所以先把它们分开看，等合起来时整体操作就更容易理解。</value>
+  </data>
+  <data name="AddOrSubtractNotes" xml:space="preserve">
+    <value>一位决定这条电路是加还是减。控制为 0 时，第二个操作数原样通过，得到加法。控制为 1 时，第二个操作数被取反，进位输入被置为 1，于是补码取负得以完成。两种情形下硬件是同一条电路。是控制输入在重新分配数据。这就是门级的可配置性，也是整个 ALU 立足的原理。</value>
+  </data>
+  <data name="AlgoLogicUnitNotes" xml:space="preserve">
+    <value>所有东西在这里汇到一处：加法器/减法器 (adder/subtracter)、按位逻辑运算、零检测器，全部由控制信号选择。ALU 不只做一件事，而是做多件事，由控制输入决定此刻在做哪一件。这就是从一个会计算的电路，迈向一个可被指挥的电路的那一步。我觉得这是整张芯片地图上最有分量的一处！</value>
+  </data>
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] 关闭/显示</value>
+  </data>
+</root>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Bypass -->
+  <data name="OneInOneOutNotes" xml:space="preserve">
+    <value>SUBPROCESSヘルパーをセッションに追加。理由: increase_resolution_probability。
+
+ピンを別のピンにつなぐ。それがこの課題のすべて。ここに論理はない、ただの配線だ。これは単純な始まりにすぎない。これから先のあらゆる回路は、突き詰めれば「何と何をつなぐか」の決定の集合にすぎない！</value>
+  </data>
+  <data name="ControlNotes" xml:space="preserve">
+    <value>入力信号はいつでも変えられる。回路は、上流側の何かが信号を送ると決めるまで、何も面白いことをしない。ここから先、設計のテストは、入力を能動的に与えて出力を確認することでできる！</value>
+  </data>
+  <data name="TheConflictNotes" xml:space="preserve">
+    <value>ルーティングに衝突がある。つながってはいけない2本の配線パターンが、つながっている。これがショート（short）だ。ショートの厄介なところは、断線よりも混乱を招くことにある。何も起こらないのではなく、誤った挙動が出る。回路全体が一目で見渡せるここで一つ目を見ておくのは、それがどんな姿をしているか理解するのに良い機会だ！</value>
+  </data>
+  <data name="ComplianceNotes" xml:space="preserve">
+    <value>チップは今や適合基準（compliance）を満たさなければならない。要求されるすべての入力に対して満たすべき条件の集合だ。ここから設計はエンジニアリングに変わる。何かをつないであるだけでは足りない。要求されたすべてのテストケースで正しく動かなければならない。これ以降、すべてのチップは適合システムによって評価される。ここではまだ単純だが、回路が入り組んでくるほど役に立ってくる！</value>
+  </data>
+  <data name="CrossingStatesNotes" xml:space="preserve">
+    <value>ここでは配線パターンが、信号状態の異なる領域を横切る。ルーティングはそれを無視できない。配線パターンがどこを通るかは、空間的にだけでなく電気的に意味を持つ。ダイ（die）のレイアウトが単なるキャンバスではなく制約として働くのは、これが初めて。この感覚は、これ以降のすべてのチップに付きまとう！</value>
+  </data>
+  <data name="TheWallNotes" xml:space="preserve">
+    <value>直線ルートを塞ぐ物理的な障害がある。0と1を互いにつなぐことはできない。ルーティングは、そこにあるものを避けて回らなければならない。ここでの制約はまだ手に負えるが、回路の規模が大きくなるほど複雑になっていく！</value>
+  </data>
+  <!-- Inverter -->
+  <data name="TwoToOnePMOSNotes" xml:space="preserve">
+    <value>PMOSトランジスタは、ゲートがLow（0）に引かれているときに導通する。信号がオフのときオン、信号がオンのときオフ。スイッチに対する直感的な期待とは逆だ。次に、逆向きに動作する相補型が登場する。両者の組み合わせは、それぞれの半分が単独で明快であって初めて意味をなす。</value>
+  </data>
+  <data name="AlterEgoNMOSNotes" xml:space="preserve">
+    <value>NMOSはゲートがHigh（1）のときに導通し、Low（0）のときに遮断する。PMOSという相方とあわせて、これで両方の半分がそろった。PMOSとNMOSを組み合わせる肝は効率にある。一方が導通しているとき、他方は導通しない。一方は1にだけ、他方は0にだけ応じ、決して同時には働かない。CMOSをこのように働かせているのは、この相補性の原理だ。
+
+CMOS（Complementary Metal-Oxide-Semiconductor）は、現代のあらゆるデジタル電子機器の基盤を実質的に支える、支配的なトランジスタ技術。これほど普及した理由はいくつかある。
+
+なぜCMOSが勝ったのか:
+- スイッチング時にしか有意な電流を流さない（待機時には流れない）。これにより、古いバイポーラや純NMOS、純PMOSの設計よりはるかに電力効率が高い
+- スケーリングに強い。Moore's Lawに沿った数十年にわたる微細化は、ほぼCMOSが牽引してきた
+- 高い歩留まりで大量に製造できる
+
+どこで使われているか:
+- CPU、GPU、モバイルSoCはすべてCMOSロジック
+- DRAMやNANDフラッシュメモリ
+- イメージセンサ（CMOSセンサが標準としてCCDを置き換えた）
+- アナログ／ミックスシグナルチップ（オペアンプ、ADC、PLL）も次第にCMOSプロセスを採用
+- FPGA、マイコン、ASIC</value>
+  </data>
+  <data name="TheMergerNotes" xml:space="preserve">
+    <value>同じ型のトランジスタが隣り合っているとき、それらは二つの別々の構造のままでいる必要はない。配線でつなぐのではなく、一つに融合できる。論理は同じ、ブロックは少なく、体積も小さい。速さの面でも有利だ。取り除いた接続は信号が渡らなければならない経路であり、それがもう存在しない。</value>
+  </data>
+  <data name="ConstantsNotes" xml:space="preserve">
+    <value>回路の中のあらゆる1（High）と0（Low）は、どこかから来なければならない。1の面はそのすべての供給源であり、0の面はあらゆる0の行き先で、どちらも層6と層8でチップ全体に広がっている。これらは自分で配置するものではない。すでにそこにあり、部品が決まった層の高さで電源を取れるように統一している。</value>
+  </data>
+  <data name="SchematicNotes" xml:space="preserve">
+    <value>回路図が示すのはトポロジだ。何が何につながっているかであって、物理的にどこに置かれるかについては何も決めていない。それをダイ上のレイアウトに落とし込むことは、読むこととは別の技能だ。回路図はいくつもの高さで描かれる。トランジスタの単位のこともあれば、ゲートの単位のこともあり、さらに上の部品の単位のこともある。そして回路図はたいてい機能そのものではなく、一つの解にすぎない。動く構成ではあるが、そこへ至る唯一の道ではない。インバータはその悪い例で、まともな作り方が一つしかない。この先では、似ても似つかない二つのレイアウトが同じ仕事をすることになる！</value>
+  </data>
+  <data name="CompactingNotes" xml:space="preserve">
+    <value>同じインバータを、より小さなフットプリントに収めることになる。コンパクトなレイアウトは他の回路のための余地を残し、経路が短いほど信号は速く落ち着く傾向がある。だがある点を越えると、この二つは噛み合わなくなる。詰め込みすぎれば他の信号が迂回を強いられ、稼いだ面積以上の時間を失う。だからコンパクト化はルーティング問題を変えてしまう。経路を見つけるのではなく、他の経路を塞ぎも引き延ばしもしない経路を探すことになる。ここではコンパクトさと速度の両方が評価される。そしてこの二つの指標は、いつも同じ方向に動くとはかぎらない！</value>
+  </data>
+  <data name="BlueprintNotes" xml:space="preserve">
+    <value>先ほど作ったインバータはブループリント（blueprint）として保存されていて、ここでは描き直すのではなく配置する。回路はいったん動けば、作るものではなく置くものになる。ここから先の設計はどれも、基本素子を手で描き直していたら作業の大半がそれで終わってしまうほど大きい。ブループリントは、すでに解いたレイアウトを一つの部品に変えてくれる！</value>
+  </data>
+  <!-- Adder -->
+  <data name="AdderNANDNotes" xml:space="preserve">
+    <value>NAND。両方の入力がHighのときだけ出力がLowになる。デジタル論理で最も普遍的なゲートだ。他のどんなゲートも、NANDだけから組み立てられる。NANDのCMOS実装は本来的に効率もよく、回路が大きくなるほどそれが効いてくる。</value>
+  </data>
+  <data name="AdderANDNotes" xml:space="preserve">
+    <value>ANDは、NANDの後にインバータを足したもの。両方ともすでに手元にある。これがチップ設計を貫く合成のパターンだ。複雑な論理は、より単純な論理を組み合わせたもの。ANDは算術における直接の構成要素であり、準備運動ではない。</value>
+  </data>
+  <data name="AdderORNotes" xml:space="preserve">
+    <value>OR: 少なくとも一方の入力がHighなら出力はHighになる。ANDとNOTがすでに手元にあるので、これでブール代数の基本セットがそろった。あらゆる論理関数がこの3つから組み立てられる。3つそろった瞬間から、設計空間は窮屈さよりも広がりを感じさせるようになる。</value>
+  </data>
+  <data name="AdderXORNotes" xml:space="preserve">
+    <value>XOR: 2つの入力が異なるとき、つまり一方がHighでもう一方がLowのとき、出力はHigh。両方Highのときも、両方Lowのときも違う。この「ちょうど一つ」の振る舞いが鍵だ。二進加算の和ビットはXORそのもの。0+0は0、1+0や0+1は1、1+1は0で桁上げが出る。桁上げは別途処理する。XORは加算器（adder）の各ビットの仕事の半分を担っている。</value>
+  </data>
+  <data name="FullBitAdderNotes" xml:space="preserve">
+    <value>全加算器（full adder）は3つの入力を取る。2つのデータビットと、前の桁からの桁上げ入力（carry in）。そして和と、次の桁への桁上げ出力（carry out）を生む。和は3つの入力すべてのXOR。桁上げ出力は、3つのうち少なくとも2つが真のときに真になる。このセルが動くようになれば、より幅の広いあらゆるものの構成要素になる。これらのセルを連ねて生まれる桁上げチェーン（carry chain）は、二進加算の中心的な構造のアイデアだ。</value>
+  </data>
+  <data name="NibbleAdderNotes" xml:space="preserve">
+    <value>4つの全加算器セルを連結し、各桁の桁上げ出力が次の桁の桁上げ入力を駆動する。これがリップルキャリー（ripple-carry）加算。「リップル」とは、桁上げが桁から桁へ順々に伝わっていくさまを指す。各ビットは、自分より前のビットが落ち着くのを待ってから、自分の出力が確定する。構造は素直で、桁上げチェーンも完全に見える。これが、多ビット算術の仕組みを最もクリアに見せてくれる形だ。</value>
+  </data>
+  <data name="ByteAdderNotes" xml:space="preserve">
+    <value>全加算器セルを8つ。桁上げが8つすべてのビット位置を駆け抜ける。この規模になると、レイアウトとルーティングが挑戦そのものになる。整理すべき信号経路は多く、桁上げチェーンは端から端まできれいでなければならない。ここで求められる設計の規律は、この先にも持ち越される。</value>
+  </data>
+  <!-- ALU -->
+  <data name="ALUXORNotes" xml:space="preserve">
+    <value>再びXOR。これはもう作ったことがある。この文脈では二つの役割で姿を見せる。一つは以前と同じく算術パスの中、もう一つは選択可能なビットごとの演算として、つまり加算をいっさい伴わない2バイト同士のXORだ。同じゲート、二つの仕事。後者こそ、ALUを固定機能ではなく構成可能なものに変え始める要だ。</value>
+  </data>
+  <data name="NOR8Notes" xml:space="preserve">
+    <value>8入力のNORゲート。8つの入力すべてがLow、つまり値がゼロのときにだけ出力がHighになる。これがゼロ検出器（zero detector）だ。算術に比べると単純に聞こえるが、ゼロ検出は中心的な役を担う。回路は、結果がゼロになったかどうかをこれで知り、そのうえで条件分岐の振る舞いを駆動する。このゲートが、その問いに答えを出せるようにしている。</value>
+  </data>
+  <data name="NegativeNumberNotes" xml:space="preserve">
+    <value>2の補数（two's complement）は、二進ハードウェアが負の数を表す方法。8ビットでの-1のビットパターンは11111111。これに+1である00000001を足すと100000000になる。オーバーフロー（overflow）を捨てれば00000000、つまりゼロ。これが定義そのもの。2の補数による否定とは、元の値に足してゼロにするための値のことだ。実用上の意味は、減算が加算と同じ回路で、何の変更もなく実行できるようになることだ。腑に落ちれば優雅に見える。その前は、ただ恣意的に見える。</value>
+  </data>
+  <data name="InvertValueNotes" xml:space="preserve">
+    <value>8ビットを一度にすべて反転する、バイト全体に対するビットごとのNOT（bitwise NOT）。これは2の補数による否定の二段階のうちの第一段階。すべてのビットを反転し、その後で1を足す。ここでの焦点は反転だけだ。反転と、その後の加算は、回路の異なる部分で実装される。だから先に別々に見ておくと、両者が組み合わさったときに全体の操作を理解しやすくなる。</value>
+  </data>
+  <data name="AddOrSubtractNotes" xml:space="preserve">
+    <value>1ビットがこの回路の加減を決める。制御が0のとき、第二オペランドはそのまま通り、加算になる。1のとき、第二オペランドは反転され、桁上げ入力は1にセットされて、2の補数による否定が完成する。ハードウェアとしては、両方の場合とも同じ回路だ。制御入力がデータの流れを切り替えているにすぎない。これがゲート単位での構成可能性であり、完全なALUが立つ原理だ。</value>
+  </data>
+  <data name="AlgoLogicUnitNotes" xml:space="preserve">
+    <value>ここですべてが一つになる。加減算器（adder/subtracter）、ビットごとの論理演算、ゼロ検出器。すべてが制御信号によって選択される。ALUは一つのことだけを行うのではなく複数のことを行い、いま起きているのがどれかは制御入力が決める。計算する回路から、指示できる回路への一歩。このチップマップ全体の中で、ここが最も強い節目だと思う！</value>
+  </data>
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] 閉じる/表示</value>
+  </data>
+</root>

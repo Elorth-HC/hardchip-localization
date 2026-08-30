@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Register -->
+  <data name="NORNotes" xml:space="preserve">
+    <value>NOR: output is high only when all inputs are low. Like NAND, NOR is universal, and like NAND, two cross-coupled NOR gates form the simplest possible memory element. There are two ways to build that element: cross-coupled NANDs and cross-coupled NORs. They behave slightly differently, the active state is inverted between them. Both paths lead to storage.</value>
+  </data>
+  <data name="TriStateBufferNotes" xml:space="preserve">
+    <value>A tri-state buffer has three possible output states: high, low, and disconnected. Disconnected means not driving anything. When a tri-state output is in that state, the wire it's connected to is free for something else to drive. That's what makes shared connections work: multiple outputs on the same wire, taking turns, with only one active at a time. Without that mechanism, selective readback doesn't work, and a register that can't be selectively read is not very useful.</value>
+  </data>
+  <data name="SRLatchNotes" xml:space="preserve">
+    <value>The SR latch is the first circuit here that holds state. Set it high, it stays high. Reset it, it stays low. Remove the input entirely and it stays wherever you left it. That behavior comes from two cross-coupled gates whose outputs feed into each other's inputs. The feedback loop is stable in two positions and stays in whichever one it was last set to. That's how digital processor memory works at the bottom.</value>
+  </data>
+  <data name="DLatchNotes" xml:space="preserve">
+    <value>The D latch fixes the invalid state of the SR latch (both Set and Reset driven to 1). Instead of separate Set and Reset inputs there's a single In, fed to the Set path directly and to the Reset path inverted. Those two are always complementary, so the invalid state can't be reached. Write is what decides when In reaches the latch at all: Write high and the latch follows In, Write low and it holds what it has. Same storage behavior as SR with a safer interface.</value>
+  </data>
+  <data name="DLatchWithEnableNotes" xml:space="preserve">
+    <value>Write enable controls when the latch captures new data. Output enable (the tri-state) controls when the stored value appears on the output. Two separate controls, both needed: a storage element that can only be written to is incomplete, and one that drives the output all the time can cause conflicts. This cell, writable and selectively readable, is the complete single-bit storage primitive.</value>
+  </data>
+  <data name="FlipFlopNotes" xml:space="preserve">
+    <value>The D latch is transparent while Write is high: data flows straight through, which causes problems once the output feeds back into the input. The flip-flop captures at exactly one moment instead, the clock edge, the instant the clock signal transitions between 0 and 1 in either direction. Before the edge the input can do whatever it wants. After it, the flip-flop holds whatever it saw at that instant and ignores everything else until the next edge. That clocked discipline is what makes complex sequential circuits predictable. Without it you're chasing race conditions through a circuit that changes faster than you can reason about it.</value>
+  </data>
+  <data name="SelfSustainingBitNotes" xml:space="preserve">
+    <value>A self-sustaining bit feeds its output back to reinforce the current state. Once set, it holds itself without continuing input. This isolates the feedback principle that underlies every storage element built so far, made explicit as its own design. This stage completes automatically for now.</value>
+  </data>
+  <data name="BitRegisterNotes" xml:space="preserve">
+    <value>A full bit register: writable on a clock edge, readable through a tri-state, connected to a bus. This is the repeating unit. The register this whole map builds toward is this cell, scaled up. Completes automatically for now.</value>
+  </data>
+  <data name="FourBitRegisterNotes" xml:space="preserve">
+    <value>Four bit registers addressed together with a shared control interface. This is where the register concept becomes tangible: multiple bits of storage that read and write together. The structure scales cleanly from here. Completes automatically for now.</value>
+  </data>
+</root>

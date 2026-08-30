@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Bypass -->
+  <data name="OneInOneOutNotes" xml:space="preserve">
+    <value>SUBPROCESS helper AJOUTÉ à la session. RAISON : increase_resolution_probability.
+
+Relier une broche à une autre. C'est tout le défi. Il n'y a pas de logique ici, juste un fil. C'est un début simple. Chaque circuit à venir est, au fond, un ensemble de décisions sur ce qui se connecte à quoi !</value>
+  </data>
+  <data name="ControlNotes" xml:space="preserve">
+    <value>On peut modifier le signal d'entrée à tout moment. Le circuit ne fait rien d'intéressant tant que quelque chose en amont ne décide pas d'envoyer un signal. À partir d'ici, tester un design peut se faire en définissant activement les entrées et en vérifiant les sorties !</value>
+  </data>
+  <data name="TheConflictNotes" xml:space="preserve">
+    <value>Il y a un conflit dans le routage. Deux pistes qui ne devraient pas être connectées le sont. C'est un court-circuit (short). Ce qui est intéressant avec les courts-circuits, c'est qu'ils sont plus déroutants qu'une connexion rompue : au lieu de rien, on obtient un comportement erroné. En voir un ici, là où tout le circuit est visible d'un seul coup d'œil, est un bon moment pour comprendre à quoi ça ressemble !</value>
+  </data>
+  <data name="ComplianceNotes" xml:space="preserve">
+    <value>La puce doit maintenant satisfaire des critères de conformité (compliance), un ensemble de conditions à remplir pour toutes les entrées requises. C'est là que le design devient de l'ingénierie : il ne suffit pas d'avoir quelque chose de connecté, ça doit être correct pour tous les cas de test requis. Le système de conformité est la façon dont chaque puce sera évaluée à partir d'ici. Simple ici, mais de plus en plus utile à mesure que les circuits se complexifient !</value>
+  </data>
+  <data name="CrossingStatesNotes" xml:space="preserve">
+    <value>Les pistes ici traversent des zones avec des signaux différents. Le routage ne peut pas ignorer ça. L'endroit où passe une piste a de l'importance électriquement, pas seulement spatialement. C'est la première fois que la disposition du die fonctionne comme une contrainte plutôt que comme une simple toile. Cette prise de conscience se retrouve dans chaque puce qui suit !</value>
+  </data>
+  <data name="TheWallNotes" xml:space="preserve">
+    <value>Il y a un obstacle physique qui bloque la route directe. 0 et 1 ne peuvent pas être connectés l'un à l'autre. Le routage doit contourner ce qui se trouve là. La contrainte est abordable ici, mais elle se complexifie à mesure que les circuits grandissent !</value>
+  </data>
+  <!-- Inverter -->
+  <data name="TwoToOnePMOSNotes" xml:space="preserve">
+    <value>Un transistor PMOS conduit lorsque sa grille (gate) est tirée à l'état bas (0). Il est actif quand le signal est inactif, inactif quand le signal est actif. C'est l'inverse de ce qu'on attendrait intuitivement d'un interrupteur. Il y a un type complémentaire qui arrive et fonctionne à l'opposé, et l'association n'a de sens que si les deux moitiés sont claires séparément.</value>
+  </data>
+  <data name="AlterEgoNMOSNotes" xml:space="preserve">
+    <value>Le NMOS conduit quand sa grille est à l'état 1, bloque quand elle est à l'état 0. Avec son homologue PMOS, les deux moitiés sont maintenant en place. Le point clé du couplage PMOS et NMOS, c'est l'efficacité : quand l'un conduit, l'autre non. L'un ne répond qu'au 1 et l'autre qu'au 0, mais jamais en même temps. C'est le principe complémentaire qui fait que le CMOS fonctionne comme il le fait.
+
+Le CMOS (Complementary Metal-Oxide-Semiconductor) est la technologie de transistors dominante à la base de pratiquement toute l'électronique numérique moderne. Quelques raisons clés de cette omniprésence :
+
+Pourquoi le CMOS a gagné :
+- Il ne consomme un courant significatif que lors de la commutation (pas au repos), ce qui le rend bien plus économe en énergie que les anciens designs bipolaires, NMOS pur ou PMOS pur
+- Il se miniaturise bien. Des décennies de réductions de procédé (suivant la loi de Moore) ont été largement portées par le CMOS
+- Il est fabricable avec un rendement élevé et en volumes massifs
+
+Où on le trouve :
+- Les CPU, GPU, SoC mobiles sont tous en logique CMOS
+- La DRAM et la mémoire flash NAND
+- Les capteurs d'image (les capteurs CMOS ont remplacé les CCD comme standard)
+- Les puces analogiques/mixtes (amplis-op (op-amps), CAN (ADC), PLLs) utilisent de plus en plus des procédés CMOS
+- Les FPGA, microcontrôleurs, ASIC</value>
+  </data>
+  <data name="TheMergerNotes" xml:space="preserve">
+    <value>Deux transistors du même type, côte à côte, n'ont pas à rester deux structures séparées. Ils peuvent être fusionnés en un seul plutôt que reliés par un fil. Même logique, moins de blocs, moins de volume. C'est aussi plus rapide : la connexion supprimée était un chemin que le signal devait parcourir, et elle n'est plus là.</value>
+  </data>
+  <data name="ConstantsNotes" xml:space="preserve">
+    <value>Chaque 1 (haut) et chaque 0 (bas) d'un circuit doit venir de quelque part. Le plan 1 est la source de tous les 1, le plan 0 est là où vont tous les 0, et les deux traversent toute la puce aux couches 6 et 8. On ne les place pas : ils sont déjà là, et ils normalisent la façon dont les composants vont chercher leur alimentation à une hauteur de couche connue.</value>
+  </data>
+  <data name="SchematicNotes" xml:space="preserve">
+    <value>Un schéma montre une topologie : ce qui se connecte à quoi, sans rien fixer quant à l'emplacement physique des éléments. Transformer ça en layout sur le die est une compétence distincte de celle de le lire. Les schémas se dessinent aussi à différentes altitudes : parfois au niveau transistor, parfois au niveau porte, parfois plus haut encore au niveau composant. Et un schéma est généralement une solution parmi d'autres plutôt que la fonction elle-même : une construction qui marche, pas la seule qui y mène. La porte NOT en est un mauvais exemple, puisqu'elle n'a qu'une seule réalisation sensée. Plus loin, deux layouts qui n'ont rien à voir feront le même travail !</value>
+  </data>
+  <data name="CompactingNotes" xml:space="preserve">
+    <value>Il s'agit de faire tenir la même porte NOT dans une empreinte plus petite. Les layouts compacts laissent de la place pour plus de circuits, et les chemins plus courts se stabilisent généralement plus vite. Mais passé un certain point, les deux cessent de s'accorder : à trop serrer, d'autres signaux doivent faire un détour, ce qui coûte plus de temps que l'espace gagné n'en valait. La compaction change donc le problème de routage : il ne s'agit plus de trouver un chemin, mais un chemin qui ne bloque ni n'allonge celui des autres. La compacité et la vitesse sont toutes deux évaluées ici, et ces deux métriques n'évoluent pas toujours ensemble !</value>
+  </data>
+  <data name="BlueprintNotes" xml:space="preserve">
+    <value>La porte NOT construite plus tôt est enregistrée comme blueprint, et il s'agit ici de la placer plutôt que de la redessiner. Une fois qu'un circuit fonctionne, il cesse d'être quelque chose qu'on construit pour devenir quelque chose qu'on positionne. Tous les designs à partir d'ici sont assez grands pour que redessiner les primitives à la main représente l'essentiel du travail. Un blueprint transforme un layout déjà résolu en un composant !</value>
+  </data>
+  <!-- Adder -->
+  <data name="AdderNANDNotes" xml:space="preserve">
+    <value>NAND : la sortie est basse uniquement quand les deux entrées sont hautes. La porte la plus universelle en logique numérique. N'importe quelle autre porte peut être construite à partir de NAND seules. L'implémentation CMOS de la NAND est aussi naturellement efficace, ce qui compte à mesure que les circuits s'agrandissent.</value>
+  </data>
+  <data name="AdderANDNotes" xml:space="preserve">
+    <value>AND est une NAND suivie d'un NOT. Les deux sont maintenant disponibles. C'est le motif de composition qui traverse tout le design de puces : la logique complexe est de la logique simple combinée. AND est un composant direct de l'arithmétique, pas un travail préliminaire.</value>
+  </data>
+  <data name="AdderORNotes" xml:space="preserve">
+    <value>OR : la sortie est haute quand au moins une entrée est haute. Avec AND et NOT déjà disponibles, l'ensemble des primitives booléennes est maintenant complet. N'importe quelle fonction logique peut être construite à partir de ces trois-là. Avoir les trois, c'est là que l'espace de design commence à s'ouvrir plutôt que de sembler contraint.</value>
+  </data>
+  <data name="AdderXORNotes" xml:space="preserve">
+    <value>XOR : la sortie est haute quand les deux entrées diffèrent, l'une haute et l'autre basse. Pas quand les deux sont hautes, pas quand les deux sont basses. Ce comportement « exactement une » est la clé. Le bit de somme de l'addition binaire est XOR : 0+0 donne 0, 1+0 ou 0+1 donne 1, et 1+1 donne 0 avec une retenue sortante (carry out). La retenue est gérée séparément. XOR fait la moitié du travail de chaque bit dans l'additionneur (adder).</value>
+  </data>
+  <data name="FullBitAdderNotes" xml:space="preserve">
+    <value>Un additionneur complet (full adder) prend trois entrées, deux bits de données et une retenue entrante (carry in) de la position précédente, et produit une somme et une retenue sortante vers la position suivante. La somme est le XOR des trois entrées. La retenue sortante est vraie quand au moins deux des trois sont vraies. Une fois que cette cellule fonctionne, elle devient le bloc de base pour tout ce qui est plus large. La chaîne de retenue (carry chain) qui résulte de l'enchaînement de ces cellules est l'idée structurelle centrale de l'addition binaire.</value>
+  </data>
+  <data name="NibbleAdderNotes" xml:space="preserve">
+    <value>Quatre cellules d'additionneur complet enchaînées, la retenue sortante de chaque position alimentant la retenue entrante de la suivante. C'est l'addition à propagation de retenue (ripple-carry). La propagation fait référence à la façon dont la retenue se propage séquentiellement de position en position. Chaque bit attend que celui d'avant se stabilise avant que sa propre sortie soit finale. La structure est directe et la chaîne de retenue est entièrement visible, ce qui en fait la façon la plus claire de voir comment fonctionne l'arithmétique multi-bits.</value>
+  </data>
+  <data name="ByteAdderNotes" xml:space="preserve">
+    <value>Huit cellules d'additionneur complet, la retenue se propageant à travers les huit positions de bits. À cette échelle, le layout et le routage sont le défi : beaucoup de chemins de signaux à garder organisés et une chaîne de retenue qui doit être propre d'un bout à l'autre. La discipline de design requise ici se perpétue.</value>
+  </data>
+  <!-- ALU -->
+  <data name="ALUXORNotes" xml:space="preserve">
+    <value>XOR à nouveau. Celui-là est déjà construit. Dans ce contexte, il apparaît dans deux rôles : dans le chemin arithmétique, comme avant, et comme opération bit à bit sélectionnable, un XOR sur deux octets sans aucune addition. Même porte, deux usages. Le second est ce qui commence à rendre l'ALU configurable plutôt que fixe.</value>
+  </data>
+  <data name="NOR8Notes" xml:space="preserve">
+    <value>Une porte NOR à 8 entrées. La sortie est haute uniquement quand les 8 entrées sont basses, ce qui signifie que la valeur est zéro. C'est le détecteur de zéro (zero detector). Ça paraît simple comparé à l'arithmétique, mais la détection de zéro est centrale : c'est comme ça qu'un circuit sait si un résultat est nul, et qu'il pilote ensuite un comportement conditionnel. Cette porte est ce qui permet d'y répondre.</value>
+  </data>
+  <data name="NegativeNumberNotes" xml:space="preserve">
+    <value>Le complément à deux (two's complement) est la façon dont le hardware binaire représente les nombres négatifs. La configuration de bits pour -1 sur 8 bits est 11111111. Ajouter ça à 00000001, c'est-à-dire +1, donne 100000000. Ignorer le débordement (overflow) et on obtient 00000000. Zéro. C'est la définition : la négation en complément à deux est la valeur qu'on ajoute à l'original pour obtenir zéro. Ça a de l'importance pratiquement parce que la soustraction peut alors être faite avec le même circuit que l'addition, sans aucune modification. Une fois que ça fait tilt, c'est élégant. Avant, ça paraît arbitraire.</value>
+  </data>
+  <data name="InvertValueNotes" xml:space="preserve">
+    <value>Il s'agit d'inverser les 8 bits d'un coup, un NOT bit à bit (bitwise NOT) sur l'octet (byte) complet. C'est l'étape un de la négation en complément à deux : retourner tous les bits, puis ajouter un. Ici, le focus est juste le retournement. Le retournement et l'addition qui suit sont implémentés par différentes parties du circuit, donc les voir séparément d'abord rend l'opération complète plus facile à comprendre quand ils sont combinés.</value>
+  </data>
+  <data name="AddOrSubtractNotes" xml:space="preserve">
+    <value>Un seul bit décide si ce circuit additionne ou soustrait. Quand le contrôle est 0, le deuxième opérande passe inchangé et on obtient une addition. Quand c'est 1, le deuxième opérande est inversé et la retenue entrante est mise à 1, complétant la négation en complément à deux. Le hardware est le même circuit dans les deux cas. L'entrée de contrôle redirige les données. C'est la configurabilité au niveau de la porte, et c'est le principe sur lequel l'ALU complète est construite.</value>
+  </data>
+  <data name="AlgoLogicUnitNotes" xml:space="preserve">
+    <value>Tout se réunit ici : l'additionneur/soustracteur (adder/subtracter), les opérations logiques bit à bit, le détecteur de zéro, tous sélectionnés par des signaux de contrôle. L'ALU ne fait pas une seule chose mais plusieurs, et les entrées de contrôle déterminent laquelle se produit maintenant. C'est le passage d'un circuit qui calcule à un circuit qui peut être dirigé. Je pense que c'est le point le plus fort de toute cette carte de puce !</value>
+  </data>
+  <data name="HCloseShow" xml:space="preserve">
+    <value>[ H ] fermer/afficher</value>
+  </data>
+</root>
